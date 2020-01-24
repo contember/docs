@@ -1,0 +1,43 @@
+.moreInfo
+	$break: 900px
+
+	position: relative
+
+	&:before,
+	&:after
+		position: absolute
+		top: 0
+		left: 0
+		bottom: 0
+		width: 25%
+		max-width: 400px
+		display: block
+		content: ''
+		background: url(../sprites/mesh-2.svg) no-repeat
+		background-position: right center
+		pointer-events: none
+		background-size: auto 100%
+		z-index: 0
+
+	&:after
+		background-image: url(../sprites/mesh-3.svg)
+		left: auto
+		right: 0
+		background-position: left center
+
+	&-in
+		padding: 1em
+		text-align: center
+
+	&-title
+		font-size: em(40px)
+		+fluid-font-size(20px, 40px)
+		line-height: (56/40)
+		max-width: 14em
+		margin: 0 auto
+		font-weight: 600
+
+	&-actions
+		margin-top: em(30px)
+		@media (min-width: $break)
+			font-size: em(20px)

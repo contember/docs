@@ -1,0 +1,49 @@
+.form
+	&-input
+		background: none
+		width: 100%
+		border: none
+		border-radius: 5px
+		appearance: none
+		color: $c-text
+		padding: .5em
+		background: $contember-grey
+		box-shadow: inset 0 0 0 1px $contember-blue
+		margin-bottom: 1em
+
+		&:focus
+			box-shadow: inset 0 0 0 1px $contember-purple
+			outline: none
+
+		&.view-textarea
+			min-height: 15em
+
+	&-group
+		width: 100%
+
+	&-button
+		color: $c-text
+		font-size: 1.2em
+
+	&-sendEmail
+		color: white
+		margin: 0
+
+	&.view-small
+		max-width: 30em
+		margin: 0 auto
+		padding: 5em 0 5em
+		color: $c-text
+
+	&-title
+		font-weight: 400
+		font-size: 3rem
+		max-width: 50rem
+		margin: 10rem auto 1rem
+		line-height: 1.4
+
+	&.view-small &
+
+		&-input
+			font-size: 1.2rem
+			max-width: 20em
