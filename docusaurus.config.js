@@ -17,7 +17,7 @@ module.exports = {
         src: 'img/logo.png',
       },
       links: [
-        // {to: 'docs/intro/how-it-works', label: 'Docs', position: 'left'},
+        {to: 'docs/intro/how-it-works', label: 'Docs', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/contember/contember',
