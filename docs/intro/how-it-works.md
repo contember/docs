@@ -4,7 +4,7 @@ title: How Contember API works?
 
 Contember API is a standalone server, which provides an extensive GraphQL API for your data - we call it the Content API. Contember API also provides, what we call a Tenant API which handles authentication and authorization so you can control who and how can access your data.
 
-![contember diagram](/docs/assets/contember-diagram.svg)
+![contember diagram](/assets/contember-diagram.svg)
 
 <!--
 TODO:

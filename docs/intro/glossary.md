@@ -11,7 +11,7 @@ Every project contains Contember Schema definition for your simple website, blog
 ## **Instance**
 Set of configured projects running together as a single Contember API - it contains Content APIs for each project running on this instance and one Tenant API. Usually, you have just a one instance.
 
-![APIs on a single instance](/docs/assets/single-instance.svg)
+![APIs on a single instance]('/assets/single-instance.svg')
 
 ## **Content API**
 A GraphQL API for your project, which is automatically generated from your schema definition

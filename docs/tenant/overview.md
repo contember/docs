@@ -37,4 +37,4 @@ It is sometimes a bit confusing which token should be used for an action. So let
 5) The mutation returns a new permanent token with permissions you have set.
 6) Now you can use this permanent API token and run some queries against Content API.
 
-![tenant API diagram](/docs/assets/tenant-api.svg)
+![tenant API diagram](/assets/tenant-api.svg)
