@@ -41,8 +41,8 @@ export default function Home() {
 	const {siteConfig = {}} = context;
 	return (
 		<Layout
-			title={`Hello from ${siteConfig.title}`}
-			description="Description will go into a meta tag in <head />">
+			title={`${siteConfig.title}`}
+			description="Contember.com">
       <div className={'homepage'}>
 
         <div className="header"><a className="header-in" href="/">
@@ -62,6 +62,7 @@ export default function Home() {
                   neatly organized PostgreSQL database with just about the same reasonable structure as if crafted by hand.</p>
               </div>
               <div className="siteLead-actions"><a className="big-button" href="#corefeatures">Explore features</a></div>
+              <div className="siteLead-actions"><a className="big-button big-button--alt" href="/docs/intro/how-it-works">Read documentation</a></div>
             </div>
           </div>
           <div className="siteLead-illustration"></div>
