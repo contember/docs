@@ -53,10 +53,10 @@ const postEntityOperations = {
     title: true
   },
   update: {
-    title: 'language_id'
+    title: 'languagePredicate'
   },
   create: {
-    title: 'language_id'
+    title: 'languagePredicate'
   },
   delete: false
 }
