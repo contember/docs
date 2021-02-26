@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   title: 'Contember',
   tagline: 'Fast and straightforward way to build apps that just work',
-  url: 'http://localhost:2080',
+  url: 'https://docs.contember.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'contember', // Usually your GitHub org/user name.
