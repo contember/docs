@@ -17,6 +17,8 @@ module.exports = {
       logo: {
         alt: 'Contember Logo',
         src: 'img/logo.svg',
+        href: 'http://www.contember.com/',
+        target: '_self'
       },
       items: [
         {
