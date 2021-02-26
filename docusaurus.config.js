@@ -13,14 +13,12 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Contember',
+      title: '',
       logo: {
         alt: 'Contember Logo',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
       },
       items: [
-        {to: 'docs/intro/how-it-works', label: 'Docs', position: 'left'},
-        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/contember/contember',
           label: 'GitHub',
@@ -57,23 +55,23 @@ module.exports = {
         //     },
         //   ],
         // },
-        {
-          title: 'Social',
-          items: [
-            // {
-            //   label: 'Blog',
-            //   to: 'blog',
-            // },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/contember',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/contember',
-            },
-          ],
-        },
+        // {
+        //   title: 'Social',
+        //   items: [
+        //     // {
+        //     //   label: 'Blog',
+        //     //   to: 'blog',
+        //     // },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/contember',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/contember',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Contember.com. Built with Docusaurus.`,
     },
@@ -84,8 +82,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/',
+          routeBasePath: '/',
+          editUrl:
+            'https://github.com/contember/doc/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
