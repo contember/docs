@@ -41,6 +41,8 @@ module.exports = {
             'https://github.com/contember/doc/edit/master/',
         },
         theme: {},
+        blog: false,
+        pages: false
       },
     ],
   ],
