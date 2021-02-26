@@ -9,14 +9,16 @@ module.exports = {
   organizationName: 'contember', // Usually your GitHub org/user name.
   projectName: 'contember', // Usually your repo name.
   themeConfig: {
-    disableDarkMode: true,
+    colorMode: {
+      disableSwitch: true,
+    },
     navbar: {
       title: 'Contember',
       logo: {
         alt: 'Contember Logo',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {to: 'docs/intro/how-it-works', label: 'Docs', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
