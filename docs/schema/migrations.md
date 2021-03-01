@@ -8,29 +8,29 @@ After you create or modify your schema, you need to create a migration for your 
 
 There is a command to rescue you:
 ```
-npx contember migrations:diff <project> <migration name>
+npm run contember migrations:diff <project> <migration name>
 ```
 for example
 ```
-npx contember migrations:diff my-blog add-categories
+npm run contember migrations:diff my-blog add-categories
 ```
 > Name of a migration can only contain alphanumeric letters and a dash
 
 This command will create a `.json` file describing changes you made.
 
-> TIP: you can also write `npx contember migrations:diff . batch-changes`, which generates diff for all projects in the workspace.
+> TIP: you can also write `npm run contember migrations:diff . batch-changes`, which generates diff for all projects in the workspace.
 
 Now you should review the generated file, because Contember cannot detect e.g. that you renamed a field. Instead it drops a field and creates a new one. But you can manually place a modification describing the change more precisely.
 
 You can also use a command
 ```
-npx contember migrations:dry-run my-blog
+npm run contember migrations:dry-run my-blog
 ```
 which shows you SQLs which will be executed without actually executing them. This helps you to verify that Contember correctly interprets your changes.
 
 When you are happy how the migration looks, you can restart Contember API using
 ```
-npx contember instance:reload:api
+npm run contember instance:reload:api
 ```
 then all the changes will be applied to both Contember schema and PostgreSQL database.
 

@@ -16,7 +16,7 @@ There is always a single Tenant API running on an instance and you can find it o
 
 Like a Content API, Tenant API also needs an authorization token for each request - even for a login. 
 
-On local development, you will receive a login token when you start a Contember instance for a first time using `npx contember instance:up`. Don't loose it.
+On local development, you will receive a login token when you start a Contember instance for a first time using `npm run contember instance:up`. You can find it in `docker-compose.override.yaml` or `instance.local.yaml`.
 
 On production, you have to execute [initial system setup](guides/deployment.md#contember-initial-setup).
 

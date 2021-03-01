@@ -39,7 +39,7 @@ This mutations returns 3 identifiers, which may be relevant for you:
 
 There is also a interactive CLI command for creating an API key. Run
 ```
-npx contember tenant:create-api-key
+npm run contember tenant:create-api-key
 ``` 
 and follow the instructions
 
