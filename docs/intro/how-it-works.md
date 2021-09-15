@@ -1,16 +1,16 @@
 ---
-title: How Contember API works?
+title: How Contember works?
 slug: /
 ---
 
-Contember API is a standalone server, which provides an extensive GraphQL API for your data - we call it the Content API. Contember API also provides, what we call a Tenant API which handles authentication and authorization so you can control who and how can access your data.
+Contember Engine is a standalone server, which provides an extensive GraphQL API for your data - we call it the Content API. Contember API also provides, what we call a Tenant API which handles authentication and authorization, so you can control who and how can access your data.
+
+There is also Contember Admin - an SDK for building custom management interfaces.
 
 ![contember diagram](/assets/contember-diagram.svg)
 
 <!--
 TODO:
-MISSING SYSTEM API 
-- imho irrelevant here
 MISSING PROJECTS
 PICTURE OF CONTEMBER API SERVER, POSTGRES DB AND MULTIPLE CLIENTS
 THE CONTEMBER API SERVER SQUARE CONTAINS SUB-SQUARES = PROJECTS & TENANT API
@@ -19,23 +19,27 @@ BLOG SUB SQUARE CONTAINS CONTENT API AND SYSTEM API
 POSSIBLE INCLUDE WALL AS AUTHORIZATION LAYER``
 -->
 
-First you have to tell Contember API, how your data model looks like. So you start defining your project schema. For the most simple blog, imagine it could look something like this ...
+## How the project looks like?
+
+No clicking, we believe the code is the best way to express your needs. You can also easily version the project in git, collaborate with team members and share or reuse.
+
+First you have to tell Contember API, how your data model looks like. So you start defining your project schema. For the most simple blog, imagine it could look something like this:
 
 ```typescript
 // Post.ts
 
-import { SchemaDefinition as def } from '@contember/schema-definition'
+import { SchemaDefinition as d } from '@contember/schema-definition'
 
 export class Post {
-  title = def.stringColumn().notNull()
-  publishedAt = def.dateTimeColumn()
-  content = def.stringColumn().notNull()
+  title = d.stringColumn().notNull()
+  publishedAt = d.dateTimeColumn()
+  content = d.stringColumn().notNull()
 }
 ```  
 
 > We use TypeScript for schema definition.
 
-Contember API then creates a table in a PostgreSQL database, where it stores all the data. To save a post using GraphQL API mutation do ...
+Contember API then creates a table in a PostgreSQL database, where it stores all the data. To save a post using GraphQL API mutation do:
 ```graphql
 mutation {
   createPost(
@@ -65,5 +69,18 @@ query {
   }
 }
 ```
+Of course, Contember API also works with complex structures and you can define any kind of relations between entities. Find out more in a chapter [defining schema](schema/model.md). 
 
-Of course, Contember API also works with complex structures and you can define any kind of relations between entities. Please find out more in a chapter [defining schema](schema/model.md) or [get started with Contember](intro/getting-started.md) to install a local instance. 
+Later you can start building a management interface using Contember Admin. The post edit page will be as simple as this:
+
+```typescript jsx
+export const PostEditPage = (
+    <EditPage entity="Post">
+        <TextField field="title" label="Title" />
+        <TextAreaField field="content" label="Content" />
+        <DateTimeField field="publishedAt" label="Published at" />
+    </EditPage>
+)
+```
+
+Still interested? Check the [quickstart](getting-started.md) and try it by yourself in just few minutes.
