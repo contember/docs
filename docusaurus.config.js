@@ -22,7 +22,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://github.com/contember/contember',
+          href: 'https://github.com/contember',
           label: 'GitHub',
           position: 'right',
         },
