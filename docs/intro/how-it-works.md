@@ -35,7 +35,7 @@ export class Post {
   publishedAt = d.dateTimeColumn()
   content = d.stringColumn().notNull()
 }
-```  
+```
 
 > We use TypeScript for schema definition.
 
@@ -44,15 +44,15 @@ Contember API then creates a table in a PostgreSQL database, where it stores all
 mutation {
   createPost(
     data: {
-      title: "Hello world", 
-      content: "first article stored in Contember!", 
+      title: "Hello world",
+      content: "first article stored in Contember!",
       publishedAt: "2019-12-11T16:35:06"
     }
   ) {
     ok
   }
 }
-``` 
+```
 
 <!--
 MAYBE PICTURE OF CLIENT SENDING GRAPHQL QUERY TO CONTEMBER API AND CONTEMBER API SENDING SQL QUERY TO POSTGRES DB
@@ -65,11 +65,11 @@ To fetch it later:
 query {
   listPost(filter: {publishedAt: {isNull: false}}) {
     title
-    publishedAt  
+    publishedAt
   }
 }
 ```
-Of course, Contember API also works with complex structures and you can define any kind of relations between entities. Find out more in a chapter [defining schema](schema/model.md). 
+Of course, Contember API also works with complex structures and you can define any kind of relations between entities. Find out more in a chapter [defining schema](schema/model.md).
 
 Later you can start building a management interface using Contember Admin. The post edit page will be as simple as this:
 
@@ -83,4 +83,4 @@ export const PostEditPage = (
 )
 ```
 
-Still interested? Check the [quickstart](getting-started.md) and try it by yourself in just few minutes.
+Still interested? Check the [quickstart](intro/quickstart.md) and try it by yourself in just few minutes.
