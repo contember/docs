@@ -9,6 +9,7 @@ type Mutation {
   createPost(data: PostCreateInput!): PostCreateResult!
   deletePost(by: PostUniqueWhere!): PostDeleteResult!
   updatePost(by: PostUniqueWhere!, data: PostUpdateInput!): PostUpdateResult!
+  upsertPost(by: PostUniqueWhere!, update: PostUpdateInput!, create: PostCreateInput!): PostUpsertResult!
 }
 ```  
 
@@ -57,6 +58,27 @@ mutation {
     ok
     node {
       title
+    }
+  }
+}
+```
+
+## Upserting records
+
+`upsert` is a special operation, which updates an existing row or a creates a new one when the requested row does not exist. Beside the unique identifier you must provide two data inputs - one for creating and one for updating existing row.
+
+Using `node` field, you can fetch updated/created record.
+
+```graphql
+mutation {
+  upsertPost(
+    by: {slug: "hello-contember"}
+    create: {title: "Hello Contember"}
+    update: {title: "Hello Contember again!"}
+  ) {
+    ok
+    node {
+      id
     }
   }
 }
