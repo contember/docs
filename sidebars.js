@@ -12,7 +12,6 @@ module.exports = {
 			"intro/quickstart",
 			"intro/how-it-works",
 			"intro/glossary",
-			"intro/getting-started",
 			"intro/cli"
 		],
 		"Schema": [
