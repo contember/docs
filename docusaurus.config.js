@@ -5,7 +5,7 @@ module.exports = {
   tagline: 'Fast and straightforward way to build apps that just work',
   url: 'https://docs.contember.com',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/contember-logo.png',
   organizationName: 'contember', // Usually your GitHub org/user name.
   projectName: 'contember', // Usually your repo name.
   themeConfig: {
@@ -16,7 +16,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Contember Logo',
-        src: 'img/logo.svg',
+        src: 'img/contember-logotype.svg',
         href: 'http://www.contember.com/',
         target: '_self'
       },
