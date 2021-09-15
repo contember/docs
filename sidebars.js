@@ -23,7 +23,6 @@ module.exports = {
 			"content/overview",
 			"content/queries",
 			"content/mutations",
-			"content/staging",
 			"content/s3"
 		],
 		"Tenant API": [
