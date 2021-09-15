@@ -28,7 +28,7 @@ Every modification of your data is stored in an event log. This log is later use
 
 ## Diff
 
-Besides Tenant API and Content API, there is a third kind of API - a System API. This one works across all stages, so there is a one System API per project. You find this API on `http://<hostname>/system/<project>`, e.g. http://localhost:1025/system/my-blog  
+Besides Tenant API and Content API, there is a third kind of API - a System API. This one works across all stages, so there is a one System API per project. You find this API on `http://<hostname>/system/<project>`, e.g. http://localhost:1481/system/my-blog  
 
 
 To get a list of not released events, use `diff` query:
