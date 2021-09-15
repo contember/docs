@@ -21,7 +21,7 @@ mutation {
     ]
   ) {
     ok
-    errors {
+    error {
       code
     } 
   }
@@ -60,7 +60,7 @@ mutation {
     identityId: "2f673a53-af33-42b1-9e17-e1305fa26d9d"
   ) {
     ok
-    errors {
+    error {
       code
     } 
   }

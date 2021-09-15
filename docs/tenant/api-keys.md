@@ -10,11 +10,12 @@ For applications, where you don't identify and authenticate individual users, yo
 ```graphql
 mutation {
   createApiKey(
-    projectSlug: "my-blog", 
+    projectSlug: "my-blog",
+    description: "Some user friendly description of the key"
     memberships: [{role: "editor", variables: [{name: "language", values: ["cs"]}]}]
   ) {
     ok
-    errors {
+    error {
       code
     }
     result  {
@@ -30,14 +31,14 @@ mutation {
 }
 ```
 
-This mutations returns 3 identifiers, which may be relevant for you:
+This mutations returns 3 identifiers, which might be relevant for you:
 - API key ID: using this ID you can later call a `disableApiKey` and invalidate this API key
 - identity ID: which you use to modify API key [memberships and permissions](tenant/memberships.md)
-- token: which is a bearer token, which you use in all GraphQL requests
+- token: which is a bearer token, which you use to authenticate all GraphQL requests
 
 ### Using CLI
 
-There is also a interactive CLI command for creating an API key. Run
+There is also an interactive CLI command for creating an API key. Run
 ```
 npm run contember tenant:create-api-key
 ``` 

@@ -8,12 +8,12 @@ For sign in, you need a [login token](tenant/overview.md#authorization-tokens). 
 
 ```graphql
 mutation {
-  signIn(email: "admin@cms.cz", password: "123456", expiration: 9999999) {
+  signIn(email: "admin@cms.cz", password: "123456", expiration: 3600) {
     ok
     result {
       token
     }
-    errors {
+    error {
       code
     }
   }
@@ -62,16 +62,11 @@ mutation {
     ]
   ) {
     ok
-    errors {
+    error {
       code
-    }
-    result {
-      ...on InviteNewResult {
-        generatedPassword
-      }
     }
   }
 }
 ```
 
-When a user with given email already exists in a system, he is just added to a project, otherwise a new user is created.
+When a user with given email already exists in a system, he is just added to a project, otherwise a new user is created and login instructions are sent to given e-mail.
