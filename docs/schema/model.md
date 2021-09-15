@@ -32,7 +32,7 @@ Currently we support following column types
 - Uuid
 - String
 - Int
-- Double
+- Double (IEEE 64-bit float)
 - Bool
 - Enum 
 - DateTime
