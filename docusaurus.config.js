@@ -9,6 +9,9 @@ module.exports = {
   organizationName: 'contember', // Usually your GitHub org/user name.
   projectName: 'contember', // Usually your repo name.
   themeConfig: {
+    prism: {
+        additionalLanguages: ['typescript'],
+    },
     colorMode: {
       disableSwitch: true,
     },
