@@ -38,7 +38,7 @@ values={[
   <TabItem value="windows" label="Windows" default>
 
 ```bash
-npm i
+npm install
 ```
 <br/>
 
@@ -46,7 +46,7 @@ npm i
   <TabItem value="mac" label="Mac">
 
 ```bash
-docker-compose run admin npm i
+docker-compose run admin npm install
 ```
 > On Mac we recommend to install dependencies directly in Docker
 
@@ -54,7 +54,7 @@ docker-compose run admin npm i
   <TabItem value="linux" label="Linux">
 
 ```bash
-npm i
+npm install
 ```
 <br/>
 
