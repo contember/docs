@@ -2,17 +2,34 @@
 title: Introduction
 ---
 
+Contember is a low-code, GraphQL-first platform for that makes it easy to build, maintain and operate systems for managing any type of content.
+
+1. Everything is code, no clicking
+2. Anyone with basic knowledge of React.js can use Contember
+3. Built with TypeScript
+
+It consists of two parts:
+
 ### Contember Engine
-- Describe your model
-- Generates PosgreSQL database
-- Generates and servers GraphQL API
+
+Define your own data model with TypeScript and instantly turns it into a GraphQL API.
+
+- Generates well-structured PosgreSQL database
+- Instantly provides you with GraphQL API
+- Built-in authentication
+- Powerful role-based ACL
+- Automatic database migrations
 
 ### Contember Admin
-- Describe your administration
-- Automatically connects to GraphQL API provided by Contember Engine
 
-----
+Define your own management UI with high-level React components. It automatically connects to GraphQL provided by Contember Engine.
 
-## Quickstart guide
+- Define any UI you wish
+- Next-gen WYSIWYG editor
+- Multi-language, translatable
+- Extend with your own React.js components
 
-- [Create your first Contember project in 5 minutes](/intro/quickstart)
+### What's next
+
+1. [How Contember works](/intro/how-it-works.md)
+2. [Build your first project in 5 minutes](/intro/quickstart.md)

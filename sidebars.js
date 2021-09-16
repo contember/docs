@@ -9,8 +9,8 @@ module.exports = {
 	someSidebar: {
 		"Getting Started": [
 			"intro/introduction",
-			"intro/quickstart",
 			"intro/how-it-works",
+			"intro/quickstart",
 			"intro/glossary",
 			"intro/cli"
 		],
