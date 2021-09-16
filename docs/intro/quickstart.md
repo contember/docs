@@ -29,18 +29,11 @@ cd quickstart
 And then install dependencies:
 
 <Tabs
-defaultValue="windows"
+defaultValue="mac"
 values={[
-    {label: 'Windows', value: 'windows'},
-    {label: 'Mac', value: 'mac'},
-    {label: 'Linux', value: 'linux'},
+    {label: 'Windows or Mac', value: 'mac'},
+    {label: 'Linux or WSL', value: 'linux'},
   ]}>
-  <TabItem value="windows" label="Windows" default>
-
-```bash
-npm install
-```
-  </TabItem>
   <TabItem value="mac" label="Mac">
 
 ```bash
