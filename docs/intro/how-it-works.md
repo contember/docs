@@ -28,7 +28,7 @@ POSSIBLE INCLUDE WALL AS AUTHORIZATION LAYER``
 
 ### Contember Engine
 
-First you have to tell Contember API, how your data model looks like. So you start defining your project schema. For the most simple blog, it could look something like this:
+First you have to tell Contember Engine, how your data model looks like. So you start defining your project schema. For the most simple blog, it could look something like this:
 
 ```typescript
 // Post.ts
