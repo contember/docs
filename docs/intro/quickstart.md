@@ -40,8 +40,6 @@ values={[
 ```bash
 npm install
 ```
-<br/>
-
   </TabItem>
   <TabItem value="mac" label="Mac">
 
@@ -56,8 +54,6 @@ docker-compose run admin npm install
 ```bash
 npm install
 ```
-<br/>
-
   </TabItem>
 </Tabs>
 
