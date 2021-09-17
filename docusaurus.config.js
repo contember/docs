@@ -43,11 +43,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/contember/doc/edit/master/',
+            'https://github.com/contember/doc/edit/main/',
         },
-        theme: {},
+        theme: {
+          customCss: [require.resolve('./src/index.css')],
+        },
         blog: false,
-        pages: false
+        pages: false,
       },
     ],
   ],

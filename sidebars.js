@@ -9,8 +9,8 @@ module.exports = {
 	someSidebar: {
 		"Getting Started": [
 			"intro/introduction",
-			"intro/quickstart",
 			"intro/how-it-works",
+			"intro/quickstart",
 			"intro/glossary",
 			"intro/cli"
 		],
@@ -32,9 +32,9 @@ module.exports = {
 			"tenant/memberships",
 			"tenant/api-keys"
 		],
-		"Guides": [
-			"guides/deployment"
-		],
+		// "Guides": [
+		// 	"guides/deployment"
+		// ],
 		"Admin": [
 			"admin/overview"
 		]
