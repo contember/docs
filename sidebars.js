@@ -32,9 +32,9 @@ module.exports = {
 			"tenant/memberships",
 			"tenant/api-keys"
 		],
-		"Guides": [
-			"guides/deployment"
-		],
+		// "Guides": [
+		// 	"guides/deployment"
+		// ],
 		"Admin": [
 			"admin/overview"
 		]
