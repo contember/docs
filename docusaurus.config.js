@@ -45,9 +45,11 @@ module.exports = {
           editUrl:
             'https://github.com/contember/doc/edit/master/',
         },
-        theme: {},
+        theme: {
+          customCss: [require.resolve('./src/index.css')],
+        },
         blog: false,
-        pages: false
+        pages: false,
       },
     ],
   ],
