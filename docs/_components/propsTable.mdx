@@ -1,0 +1,15 @@
+import PropsTableRow from './propsTableRow.mdx'
+
+export default ({children}) => (
+    <table className="props-table">
+        <thead>
+            <tr>
+                <th>Props</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {children}
+        </tbody>
+    </table>
+);
