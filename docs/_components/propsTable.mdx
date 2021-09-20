@@ -1,6 +1,4 @@
-import PropsTableRow from './propsTableRow.mdx'
-
-export default ({children}) => (
+export const PropsTable = ({children}) => (
     <table className="props-table">
         <thead>
             <tr>
@@ -12,4 +10,23 @@ export default ({children}) => (
             {children}
         </tbody>
     </table>
+);
+
+export const PropsTableRow = ({prop, propType, description, inherited}) => (
+    <tr>
+        <td>
+            <code>{prop}</code>
+        </td>
+        <td>
+            {propType &&
+                <p className="props-type-prop">
+                    {propType}
+                </p>
+            }
+            <p>
+                {description}
+            </p>
+            {inherited && <span>Inherited from <code>{inherited}</code></span> }
+        </td>
+    </tr>
 );
