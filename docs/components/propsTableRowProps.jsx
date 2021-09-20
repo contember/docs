@@ -1,8 +1,9 @@
-import { PropsTableRow } from './propsTable.mdx'
+import React from 'react';
+import { PropsTableRow } from './propsTable.jsx'
 
 export const label = (
-    <PropsTableRow 
-        prop="label" 
+    <PropsTableRow
+        prop="label"
         propType="React.ReactNode"
     />
 )

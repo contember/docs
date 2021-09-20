@@ -1,4 +1,6 @@
-export const PropsTable = ({children}) => (
+import React from 'react';
+
+export const PropsTable = ({ children }) => (
     <table className="props-table">
         <thead>
             <tr>
@@ -12,7 +14,7 @@ export const PropsTable = ({children}) => (
     </table>
 );
 
-export const PropsTableRow = ({prop, propType, description, inherited}) => (
+export const PropsTableRow = ({ prop, propType, description, inherited }) => (
     <tr>
         <td>
             <code>{prop}</code>
@@ -26,7 +28,7 @@ export const PropsTableRow = ({prop, propType, description, inherited}) => (
             <p>
                 {description}
             </p>
-            {inherited && <span>Inherited from <code>{inherited}</code></span> }
+            {inherited && <span>Inherited from <code>{inherited}</code></span>}
         </td>
     </tr>
 );
