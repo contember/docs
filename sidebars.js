@@ -6,38 +6,40 @@
  */
 
 module.exports = {
-	someSidebar: {
-		"Getting Started": [
-			"intro/introduction",
-			"intro/quickstart",
-			"intro/how-it-works",
-			"intro/quickstart",
-			"intro/glossary",
-			"intro/cli"
-		],
-		"Schema": [
-			"schema/model",
-			"schema/migrations",
-			"schema/acl",
-			"schema/validations"
-		],
-		"Content API": [
-			"content/overview",
-			"content/queries",
-			"content/mutations",
-			"content/s3"
-		],
-		"Tenant API": [
-			"tenant/overview",
-			"tenant/users",
-			"tenant/memberships",
-			"tenant/api-keys"
-		],
-		// "Guides": [
-		// 	"guides/deployment"
-		// ],
-		"Admin": [
-			"admin/overview"
-		]
-	}
+	someSidebar: [
+		"intro/introduction",
+		{
+			"Getting Started": [
+				"intro/how-it-works",
+				"intro/quickstart",
+				"intro/glossary",
+				"intro/cli"
+			],
+			"Schema": [
+				"schema/model",
+				"schema/migrations",
+				"schema/acl",
+				"schema/validations"
+			],
+			"Content API": [
+				"content/overview",
+				"content/queries",
+				"content/mutations",
+				"content/s3"
+			],
+			"Tenant API": [
+				"tenant/overview",
+				"tenant/users",
+				"tenant/memberships",
+				"tenant/api-keys"
+			],
+			// "Guides": [
+			// 	"guides/deployment"
+			// ],
+			"Admin": [
+				"admin/overview"
+			]
+		}
+
+	]
 };
