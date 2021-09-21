@@ -32,5 +32,5 @@ Define your own management UI with high-level React components. It automatically
 
 ### What's next
 
-1. [How Contember works](/intro/how-it-works)
-2. [Build your first project in 5 minutes](/intro/quickstart)
+1. [How Contember works](/intro/how-it-works.md)
+2. [Build your first project in 5 minutes](/intro/quickstart.mdx)

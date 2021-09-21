@@ -37,7 +37,8 @@ module.exports = {
 			// 	"guides/deployment"
 			// ],
 			"Admin": [
-				"admin/overview"
+				"admin/overview",
+				"admin/components"
 			]
 		}
 

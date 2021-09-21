@@ -89,4 +89,4 @@ export const PostEditPage = (
 )
 ```
 
-Check the [quickstart](intro/quickstart.md) and try it by yourself in a few minutes.
+Check the [quickstart](intro/quickstart.mdx) and try it by yourself in a few minutes.

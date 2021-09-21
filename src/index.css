@@ -4,3 +4,18 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.props-table th {
+  text-align: left;
+  border-left: none;
+  border-right: none;
+}
+
+.props-table td {
+  vertical-align: top;
+  border: none;
+}
+
+.props-table .props-type-prop {
+  font-family: var(--ifm-font-family-monospace);
+}

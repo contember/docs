@@ -2,10 +2,8 @@
 title: Quickstart
 ---
 
-```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-```
 
 In this tutorial we will show you how to setup both Contember Engine and Contember Admin to create your first project.
 
@@ -31,13 +29,15 @@ cd quickstart
 And then install dependencies:
 
 <Tabs
-defaultValue="mac"
-values={[
-{label: 'Mac', value: 'mac'},
-{label: 'Windows', value: 'windows'},
-{label: 'Linux or WSL', value: 'linux'},
-]}>
-<TabItem value="mac" label="Mac">
+  defaultValue=""
+  values={[
+    {label: 'Mac', value: 'mac' },
+    {label: 'Windows', value: 'windows' },
+    {label: 'Linux or WSL', value: 'linux' },
+  ]}
+>
+
+  <TabItem value="mac" label="Mac">
 
 ```bash
 docker-compose run admin npm install
