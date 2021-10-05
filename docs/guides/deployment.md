@@ -47,27 +47,28 @@ mkdir contember && cd contember
 ```bash
 nano .env
 ```
-    Add all environment variables to `.env` file:
 
-    - __`LOGIN_TOKEN`__ - Login token used by Contember api (e.g. `LOGIN_TOKEN=YOUR_LOGIN_TOKEN`)
-    - __`ROOT_TOKEN`__ Root token used by Contember api (e.g. `ROOT_TOKEN=YOUR_ROOT_TOKEN`)
-    - __`ROOT_PASSWORD`__ Root password for Contember (e.g. `ROOT_PASSWORD=password`)
-    - __`ROOT_EMAIL`__ Root e-mail for Contember (e.g. `ROOT_EMAIL=admin@localhost`)
+Add all environment variables to `.env` file:
 
-    - __`S3_KEY`__ Key from your S3 storage (e.g. `S3_KEY=yours3key`)
-    - __`S3_SECRET`__ Secret from your S3 storage (e.g. `S3_SECRET=yours3secret`)
-    - __`S3_ENDPOINT`__ Endpoint of your bucket (e.g. `S3_ENDPOINT=https://rgn1.yours3provider.com`)
-    - __`S3_REGION`__ Region if your bucket (e.g. `S3_REGION=rgn1`)
-    - __`S3_BUCKET`__ Your bucket name (e.g. `S3=your-bucket`)
+- __`LOGIN_TOKEN`__ - Login token used by Contember api (e.g. `LOGIN_TOKEN=YOUR_LOGIN_TOKEN`)
+- __`ROOT_TOKEN`__ Root token used by Contember api (e.g. `ROOT_TOKEN=YOUR_ROOT_TOKEN`)
+- __`ROOT_PASSWORD`__ Root password for Contember (e.g. `ROOT_PASSWORD=password`)
+- __`ROOT_EMAIL`__ Root e-mail for Contember (e.g. `ROOT_EMAIL=admin@localhost`)
 
-    - __`DB_PASSWORD`__ Database password (e.g. `DB_PASSWORD=databasePassword`)
-    - __`DB_USER`__ Database user name (e.g. `DB_USER=dbuser`)
-    - __`DB_PORT`__ Database port (e.g. `DB_PORT=5432`)
-    - __`DB_HOST`__ Database host (e.g. `DB_HOST=your-db-server.com`)
+- __`S3_KEY`__ Key from your S3 storage (e.g. `S3_KEY=yours3key`)
+- __`S3_SECRET`__ Secret from your S3 storage (e.g. `S3_SECRET=yours3secret`)
+- __`S3_ENDPOINT`__ Endpoint of your bucket (e.g. `S3_ENDPOINT=https://rgn1.yours3provider.com`)
+- __`S3_REGION`__ Region if your bucket (e.g. `S3_REGION=rgn1`)
+- __`S3_BUCKET`__ Your bucket name (e.g. `S3=your-bucket`)
 
-    - __`MAILER_FROM`__ Sender e-mail used for Contember notifications, password resets, etc... (e.g. `MAILER_FROM=contember@localhost`)
-    - __`MAILER_PORT`__ Your SMTP port (e.g. `MAILER_PORT=2525`)
-    - __`MAILER_HOST`__=Your SMTP host (e.g. `send.smtp.com`)
+- __`DB_PASSWORD`__ Database password (e.g. `DB_PASSWORD=databasePassword`)
+- __`DB_USER`__ Database user name (e.g. `DB_USER=dbuser`)
+- __`DB_PORT`__ Database port (e.g. `DB_PORT=5432`)
+- __`DB_HOST`__ Database host (e.g. `DB_HOST=your-db-server.com`)
+
+- __`MAILER_FROM`__ Sender e-mail used for Contember notifications, password resets, etc... (e.g. `MAILER_FROM=contember@localhost`)
+- __`MAILER_PORT`__ Your SMTP port (e.g. `MAILER_PORT=2525`)
+- __`MAILER_HOST`__=Your SMTP host (e.g. `send.smtp.com`)
 
 4. In same folder, create `docker-compose.yaml` file.
 ```bash
