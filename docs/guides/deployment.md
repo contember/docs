@@ -31,8 +31,7 @@ Last step is to setup server. You can choose any provider which provides followi
 
 Requirements: `Docker`, `Docker Compose`, `SSH access` and Proxy server.
 
-### SaaS providers
-- [Digital Ocean Droplet](https://www.digitalocean.com/products/droplets/)
+You can use 1-Click Application marketplace from Digital Ocean to create [droplet with Docker](https://marketplace.digitalocean.com/apps/docker).
 
 ### Server setup
 1. Connect to your server with ssh.
