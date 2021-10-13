@@ -86,8 +86,9 @@ input StringCondition {
   and: [StringCondition!]
   or: [StringCondition!]
   not: StringCondition
-  eq: String
+  null: Boolean
   isNull: Boolean
+  eq: String
   notEq: String
   in: [String!]
   notIn: [String!]
@@ -95,6 +96,12 @@ input StringCondition {
   lte: String
   gt: String
   gte: String
+  contains: String
+  startsWith: String
+  endsWith: String
+  containsCI: String
+  startsWithCI: String
+  endsWithCI: String
 }
 ```
 
