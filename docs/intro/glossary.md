@@ -17,7 +17,7 @@ A running Contember Engine server hosting as many Contember projects as you like
 The main GraphQL API for your project. It is automatically generated from your schema definition
 
 ## **System API**
-Is a complementary API for your project. Used to manage schema migrations and stages. 
+Is a complementary API for your project. Used to manage schema migrations. 
 
 ## **Tenant API**
 Using this API you can manage users, API keys and project memberships on an instance
