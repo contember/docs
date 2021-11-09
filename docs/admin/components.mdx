@@ -2,8 +2,8 @@
 title: Admin components
 ---
 
-import { PropsTable, PropsTableRow } from '../components/propsTable.jsx';
-import * as sharedProps from '../components/propsTableRowProps.jsx';
+import { PropsTable, PropsTableRow } from "../components/propsTable.jsx";
+import * as sharedProps from "../components/propsTableRowProps.jsx";
 
 ### Field
 
@@ -13,11 +13,24 @@ import * as sharedProps from '../components/propsTableRowProps.jsx';
 
 #### Required props
 
+<PropsTable required>{sharedProps.field}</PropsTable>
+
+#### Optional props
+
 <PropsTable>
-    {sharedProps.field}
+  {sharedProps.defaultValue}
+  {sharedProps.format}
 </PropsTable>
 
+#### Examples
+
+```tsx
+<Field field="myField.name" defaultValue="Default" format={() => <></>} />
+```
+
 ## Texts
+
+Text fields are used for text editing.
 
 ### Text field
 
@@ -29,9 +42,9 @@ The text field is used for basic string editing. This field has no rich text edi
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
 </PropsTable>
 
 ### Text area field
@@ -42,9 +55,9 @@ The text field is used for basic string editing. This field has no rich text edi
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
 </PropsTable>
 
 ### Rich text field
@@ -55,9 +68,9 @@ The text field is used for basic string editing. This field has no rich text edi
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
 </PropsTable>
 
 ## Lists
@@ -70,10 +83,10 @@ The text field is used for basic string editing. This field has no rich text edi
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
-    {sharedProps.options}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
+  {sharedProps.options}
 </PropsTable>
 
 ### Multi select field
@@ -84,10 +97,10 @@ The text field is used for basic string editing. This field has no rich text edi
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
-    {sharedProps.options}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
+  {sharedProps.options}
 </PropsTable>
 
 ### Repeater field
@@ -100,10 +113,10 @@ The text field is used for basic string editing. This field has no rich text edi
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
-    {sharedProps.options}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
+  {sharedProps.options}
 </PropsTable>
 
 ## Dates
@@ -111,27 +124,25 @@ The text field is used for basic string editing. This field has no rich text edi
 ### Date field
 
 ```tsx
-<DateField field="myDate" label="Date"  />
+<DateField field="myDate" label="Date" />
 ```
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
 </PropsTable>
-
 
 ### Date & Time field
 
 ```tsx
-<DateTimeField field="myDateTime" label="Date with Time"  />
+<DateTimeField field="myDateTime" label="Date with Time" />
 ```
 
 #### Required props
 
-<PropsTable>
-    {sharedProps.field}
-    {sharedProps.label}
+<PropsTable required>
+  {sharedProps.field}
+  {sharedProps.label}
 </PropsTable>
-
