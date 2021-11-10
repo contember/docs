@@ -37,10 +37,10 @@ module.exports = {
 			// 	"guides/deployment"
 			// ],
 			"Admin": [
-				"admin/overview",
+				"admin/introduction",
 				"admin/components"
 			]
 		}
 
 	]
-};
+}

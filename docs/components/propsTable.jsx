@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const PropsTable = ({ children, required }) => (
+export const PropsTable = ({ children }) => (
     <table className="props-table">
         <thead>
             <tr>
@@ -9,13 +9,7 @@ export const PropsTable = ({ children, required }) => (
             </tr>
         </thead>
         <tbody>
-        {
-        React.Children.map(children, (child) => {
-          return React.cloneElement(child, {
-            required
-          });
-        })
-      }
+        {children}
         </tbody>
     </table>
 );
@@ -23,7 +17,9 @@ export const PropsTable = ({ children, required }) => (
 export const PropsTableRow = ({ prop, propType, description, inherited, required }) => (
     <tr>
         <td>
+            <p className="props-prop">
             {required ? <span className="required"><code>{prop}</code></span> : <code>{prop}</code>}
+            </p>
         </td>
         <td>
             {propType &&
