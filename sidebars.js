@@ -38,7 +38,21 @@ module.exports = {
 			// ],
 			"Admin": [
 				"admin/introduction",
-				"admin/components"
+				{
+					"Components": [
+						"admin/components/basic",
+						"admin/components/button",
+						"admin/components/data-binding",
+						"admin/components/data-grid",
+						"admin/components/editor",
+						"admin/components/layout",
+						"admin/components/list",
+						"admin/components/page",
+						"admin/components/reference",
+						"admin/components/upload"
+					]
+				}
+
 			]
 		}
 

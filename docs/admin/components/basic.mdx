@@ -1,0 +1,192 @@
+---
+title: Basic components
+---
+
+import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
+import * as SharedProps from "../../components/propsTableRowProps.jsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+### Field
+
+The `Field` components renders value of the field.
+
+```tsx
+<Field field="myField" />
+```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.field required />
+  <SharedProps.defaultValue />
+  <SharedProps.format />
+  <SharedProps.isNonbearing />
+  <SharedProps.key />
+  <SharedProps.onBeforeUpdate />
+  <SharedProps.onInitialize />
+  <SharedProps.onUpdate />
+</PropsTable>
+
+### Text field
+
+The `TextField` component renders a text field. The text field is used for basic string editing and has no rich text editing capabilities.
+
+```tsx
+<TextField field="name" label="Name" />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.about />
+  <SharedProps.accessKey />
+  <SharedProps.allowNewlines />
+  <SharedProps.autoCapitalize />
+</PropsTable>
+
+### Text area field
+
+The `TextAreaField` component renders a text area field. The text field is used for basic string editing and has no rich text editing capabilities.
+
+```tsx
+<TextAreaField field="content" label="Content" />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+</PropsTable>
+
+### Rich text field
+
+The `RichTextField` component renders a rich text field. The text field is used for rich text editing.
+
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+
+```tsx
+<RichTextField field="content" label="Content" />
+```
+
+  </TabItem>
+  <TabItem value="admin-advanced">
+
+```tsx
+<RichTextField
+  field="content"
+  label="Content"
+  inlineButtons={[
+    [
+      RichEditor.buttons.italic,
+      RichEditor.buttons.underline,
+      RichEditor.buttons.strikeThrough,
+    ],
+  ]}
+/>
+```
+Component displays only __italic__, __underline__ and __strike through__ buttons in format text option.
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```tsx
+export class Article {
+  content = def.stringColumn();
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.inlineButtons />
+</PropsTable>
+
+### Date field
+
+The `DateField` component renders date input for editing date.
+
+<Tabs
+  defaultValue="admin"
+  values={[
+    { label: "Component", value: "admin" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin">
+
+```tsx
+<DateField field="birthday" label="Birthday" />
+```
+
+  </TabItem>
+  <TabItem value="schema">
+
+```ts
+export class User {
+  birthday = def.dateColumn();
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+</PropsTable>
+
+### Date & Time field
+
+The `DateTimeField` component renders a date&time field for editing date and time.
+
+<Tabs
+  defaultValue="admin"
+  values={[
+    { label: "Component", value: "admin" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin">
+
+```tsx
+<DateTimeField field="startAt" label="Event start" />
+```
+
+  </TabItem>
+  <TabItem value="schema">
+
+```ts
+export class Event {
+  startAt = def.dateTimeColumn();
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+</PropsTable>
