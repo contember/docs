@@ -2,11 +2,11 @@ import React from 'react';
 import { PropsTableRow } from './propsTable.jsx'
 import { Scalar, OptionallyVariableFieldValue } from './propsType.jsx';
 
-export const field = ({required}) => (
+export const field = ({required, description}) => (
     <PropsTableRow
         prop="field"
         propType="string"
-        description="The name of the column in Contember schema where to store data."
+        description={description || "The name of the column in Contember schema where to store data."}
         required={required}
     />
 )
@@ -304,5 +304,59 @@ export const inlineButtons = ({required}) => (
         `}
         required={required}
         />
+)     
+
+export const children = ({required}) => (
+    <PropsTableRow
+        prop="children"
+        propType=""
+        description={`
+            Renders content of the component.
+        `}
+        required={required}
+        />
 )
-        
+
+export const className = ({required}) => (
+    <PropsTableRow
+        prop="className"
+        propType=""
+        description={`
+            A class name that is applied to the component.
+        `}
+        required={required}
+        />
+)
+
+export const isLoading = ({required}) => (
+    <PropsTableRow
+        prop="isLoading"
+        propType="undefined | boolean"
+        description={`
+            If true, the component has loading state.
+        `}
+        required={required}
+    />
+)
+
+export const to = ({required}) => (
+    <PropsTableRow
+        prop="to"
+        propType="undefined | string"
+        description={`
+            The route to which the user is redirected when the button is clicked.
+        `}
+        required={required}
+    />
+)
+
+export const href = ({required}) => (
+    <PropsTableRow
+        prop="href"
+        propType="undefined | string"
+        description={`
+            The link to which the user is redirected when the button is clicked.
+        `}
+        required={required}
+    />
+)
