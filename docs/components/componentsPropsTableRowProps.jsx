@@ -199,10 +199,8 @@ export const renderOption = ({required}) => (
 export const optionsStaticRender = ({required}) => (
     <PropsTableRow
         prop="optionsStaticRender"
-        propType={`undefined | ReactElement<any, string | JSXElementConstructor<any>> | ((environment: Environment) => ReactElement<any, string | JSXElementConstructor<any>>)`}
-        description={`
-            A function that is called to render static the options.
-        `}
+        propType="undefined | ReactElement"
+        description="A function that is called to render static the options."
         required={required}
     />
 )
