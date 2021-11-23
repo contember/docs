@@ -1,6 +1,6 @@
 import React from 'react';
 import { PropsTableRow } from './propsTable.jsx'
-import { Scalar, OptionallyVariableFieldValue, Key } from './propsType.jsx';
+import { Scalar, OptionallyVariableFieldValue, Key, Justification, DataGridOrderDirection } from './propsType.jsx';
 
 export const field = ({required, description}) => (
     <PropsTableRow
@@ -49,6 +49,7 @@ export const options = ({required}) => (
                 searchKeywords: string | undefined 
             }[]
         `}
+        description="The options for the field. You can use <a href='/admin/data-binding/query-language' target='_blank'>query language</a> to filter the entities."
         required={required}
     />
 )
@@ -390,6 +391,82 @@ export const entities = ({required}) => (
         description={`
             The name of the entity. You can use <a href="/admin/data-binding/query-language" target="_blank">query language</a> to filter the entities.
         `}
+        required={required}
+    />
+)
+
+export const entity = ({required}) => (
+    <PropsTableRow
+        prop="entity"
+        propType="string"
+        description={`
+            The name of the entity. You can use <a href="/admin/data-binding/query-language" target="_blank">query language</a> to filter the entities.
+        `}
+        required={required}
+    />
+)
+
+export const stateComponent = ({required}) => (
+    <PropsTableRow
+        prop="stateComponent"
+        propType="JSX.Element | null"
+        description={`
+            A component that is rendered when the component is in loading state.
+        `}
+        required={required}
+    />
+)
+
+export const header = ({required}) => (
+    <PropsTableRow
+        prop="header"
+        propType="undefined | string"
+        description="Column's header"
+        required={required}
+    />
+)
+
+export const shrunk = ({required}) => (
+    <PropsTableRow
+        prop="shrunk"
+        propType="undefined | boolean"
+        description="If true, the column is shrunk"
+        required={required}
+    />
+)
+
+export const canBeHidden = ({required}) => (
+    <PropsTableRow
+        prop="canBeHidden"
+        propType="undefined | boolean"
+        description="If true, the column can be hidden"
+        required={required}
+    />
+)
+
+export const disableOrder = ({required}) => (
+    <PropsTableRow
+        prop="disableOrder"
+        propType="undefined | boolean"
+        description="If true, the column cannot be ordered"
+        required={required}
+    />
+)
+
+export const headerJustification = ({required}) => (
+    <PropsTableRow
+        prop="headerJustification"
+        propType={`undefined | ${Justification}`}
+        description="The justification of the column header"
+        required={required}
+    />
+)
+
+export const initialOrder = ({required}) => (
+    <PropsTableRow
+        prop="initialOrder"
+        propType={`undefined | ${DataGridOrderDirection}`}
+        description="The initial order of the column"
         required={required}
     />
 )

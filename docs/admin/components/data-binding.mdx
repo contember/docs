@@ -15,20 +15,28 @@ import TabItem from "@theme/TabItem";
 </DataBindingProvider>
 ```
 
+#### Props
+
+<PropsTable required>
+  <SharedProps.stateComponent required />
+</PropsTable>
+
 ### Entity sub tree
 
 ```tsx
-<DataBindingProvider stateComponent={FeedbackRenderer}>
-    <EntitySubTree> ... </EntitySubTree>
-</DataBindingProvider>
+<EntitySubTree entity="Post(id = $id)"> ... </EntitySubTree>
 ```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.entity required />
+</PropsTable>
 
 ### Entity list sub tree
 
 ```tsx
-<EntityListSubTree
-    entities="Post"
-/>
+<EntityListSubTree entities="Post" > ... </EntityListSubTree>
 ```
 
 #### Props
