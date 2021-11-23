@@ -41,7 +41,7 @@ module.exports = {
 				{
 					"Components": [
 						"admin/components/basic",
-						"admin/components/button",
+						"admin/components/buttons",
 						"admin/components/data-binding",
 						"admin/components/data-grid",
 						"admin/components/editor",
@@ -50,6 +50,10 @@ module.exports = {
 						"admin/components/page",
 						"admin/components/reference",
 						"admin/components/upload"
+					],
+					"Data Binding": [
+						"admin/data-binding/field-accessor",
+						"admin/data-binding/query-language"
 					]
 				}
 

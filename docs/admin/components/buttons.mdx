@@ -3,7 +3,7 @@ title: Button components
 ---
 
 import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx"
-import * as SharedProps from "../../components/propsTableRowProps.jsx"
+import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
@@ -125,3 +125,15 @@ The `AnchorButton` component renders an anchor button.
 </PropsTable>
 
 ### Delete entity button
+
+The `DeleteEntityButton` component renders a button, which deletes closesed entity.
+
+```tsx
+<DeleteEntityButton />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.children />
+</PropsTable>

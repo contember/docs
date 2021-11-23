@@ -3,12 +3,36 @@ title: Data binding components
 ---
 
 import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
-import * as SharedProps from "../../components/propsTableRowProps.jsx";
+import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
 ### Data binding provider
 
+```tsx
+<DataBindingProvider stateComponent={FeedbackRenderer}>
+...
+</DataBindingProvider>
+```
+
 ### Entity sub tree
 
+```tsx
+<DataBindingProvider stateComponent={FeedbackRenderer}>
+    <EntitySubTree> ... </EntitySubTree>
+</DataBindingProvider>
+```
+
 ### Entity list sub tree
+
+```tsx
+<EntityListSubTree
+    entities="Post"
+/>
+```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.entities required />
+</PropsTable>

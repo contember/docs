@@ -2,10 +2,10 @@
 title: Basic components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
-import * as SharedProps from "../../components/propsTableRowProps.jsx";
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
+import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx"
+import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
 
 ### Field
 
@@ -96,7 +96,8 @@ The `RichTextField` component renders a rich text field. The text field is used 
   ]}
 />
 ```
-Component displays only __italic__, __underline__ and __strike through__ buttons in format text option.
+
+Component displays only **italic**, **underline** and **strike through** buttons in format text option.
 
   </TabItem>
 
@@ -104,7 +105,7 @@ Component displays only __italic__, __underline__ and __strike through__ buttons
 
 ```tsx
 export class Article {
-  content = def.stringColumn();
+  content = def.stringColumn()
 }
 ```
 
@@ -141,7 +142,7 @@ The `DateField` component renders date input for editing date.
 
 ```ts
 export class User {
-  birthday = def.dateColumn();
+  birthday = def.dateColumn()
 }
 ```
 
@@ -177,7 +178,7 @@ The `DateTimeField` component renders a date&time field for editing date and tim
 
 ```ts
 export class Event {
-  startAt = def.dateTimeColumn();
+  startAt = def.dateTimeColumn()
 }
 ```
 
@@ -189,4 +190,25 @@ export class Event {
 <PropsTable>
   <SharedProps.field required />
   <SharedProps.label required />
+</PropsTable>
+
+### Field View
+
+The `FieldView` component renders a field value.
+
+```tsx
+<FieldView
+  field="startAt"
+  label="Event start"
+  render={(filedAccessor) => <>{fieldAccessor.value}</>}
+/>
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.render required />
+  <SharedProps.key />
+  <SharedProps.fallbackIfUnpersisted />
 </PropsTable>
