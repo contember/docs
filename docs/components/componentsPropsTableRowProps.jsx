@@ -1,6 +1,6 @@
 import React from 'react';
 import { PropsTableRow } from './propsTable.jsx'
-import { Scalar, OptionallyVariableFieldValue } from './propsType.jsx';
+import { Scalar, OptionallyVariableFieldValue, Key } from './propsType.jsx';
 
 export const field = ({required, description}) => (
     <PropsTableRow
@@ -86,7 +86,7 @@ export const isNonbearing = ({required}) => (
 export const key = ({required}) => (
     <PropsTableRow
         prop="key"
-        propType="undefined | React.key | null"
+        propType={`undefined | ${Key} | null`}
         description={`
             The key of the field.
             If the key is not specified, the key is generated from the field name.
@@ -168,6 +168,17 @@ export const autoCapitalize = ({required}) => (
         propType={`undefined | string`}
         description={`
             The auto-capitalization of the field.
+        `}
+        required={required}
+    />
+)
+
+export const render = ({required}) => (
+    <PropsTableRow
+        prop="render"
+        propType={`(<a href="/admin/data-binding/field-accessor" target="_blank">FieldAccessor</a>) => ReactNode`}
+        description={`
+            A function that is called to render the field.
         `}
         required={required}
     />
@@ -356,6 +367,28 @@ export const href = ({required}) => (
         propType="undefined | string"
         description={`
             The link to which the user is redirected when the button is clicked.
+        `}
+        required={required}
+    />
+)
+
+export const fallbackIfUnpersisted = ({required}) => (
+    <PropsTableRow
+        prop="fallbackIfUnpersisted"
+        propType="ReactNode"
+        description={`
+            A fallback component that is rendered when the component is not persisted.
+        `}
+        required={required}
+    />
+)
+
+export const entities = ({required}) => (
+    <PropsTableRow
+        prop="entities"
+        propType="string"
+        description={`
+            The name of the entity. You can use <a href="/admin/data-binding/query-language" target="_blank">query language</a> to filter the entities.
         `}
         required={required}
     />

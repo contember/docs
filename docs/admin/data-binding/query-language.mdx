@@ -1,0 +1,102 @@
+---
+title: Query language
+---
+
+import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
+import * as SharedProps from "../../components/queryLanguageProps.jsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+Query language is a syntax to query the data in data binding.
+
+## Symbols
+
+<PropsTable firstColumnHeading="Symbols">
+    <SharedProps.equals />
+    <SharedProps.notEquals />
+    <SharedProps.greaterThan />
+    <SharedProps.lessThan />
+    <SharedProps.greaterThanOrEquals />
+    <SharedProps.lessThanOrEquals />
+    <SharedProps.asc />
+    <SharedProps.desc />
+</PropsTable>
+
+## Types
+
+### Qualified Entity list
+```graphql
+Author[age < 123].son.sisters(name = 'Jane')
+```
+
+### Qualified Field List
+```graphql
+Author[age < 123].son.sister.name
+```
+
+### Qualified single entity
+```graphql
+Author(id = 123).son.sister
+```
+
+### Relative single field
+```graphql
+authors(id = 123).person.name
+```
+
+### Relative single entity
+```graphql
+localesByLocale(locale.slug = en)
+```
+
+### Relative entity list
+```graphql
+genres(slug = 'sciFi').authors[age < 123]
+```
+
+### Unique where
+```graphql
+(author.mother.id = 123)
+```
+
+### Filter
+```graphql
+[author.son.age < 123]
+```
+
+### Order by
+```graphql
+items.content.name asc
+```
+
+```graphql
+items.content.name desc
+```
+
+## Examples
+
+### Articles with more than 100 views
+```tsx
+<MultiSelectField 
+    field="articles"
+    label="Popular articles"
+    options="Article[views < 99].title"
+/>
+```
+
+### Published articles
+```tsx
+<SelectField
+    field="article"
+    label="Featured article"
+    options="Article[status=published].title"
+/>
+```
+
+### Unique article by id
+```tsx
+<EditPage
+    entity="Article(id = $id)"
+    pageName="blogEdit"
+/>
+```
