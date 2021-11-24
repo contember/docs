@@ -22,7 +22,11 @@ The `SelectField` component renders a select field.
   <TabItem value="admin-simple">
 
 ```tsx
-<SelectField field="category" label="Select category" options="Category.name" />
+<SelectField 
+  field="category" 
+  label="Select category" 
+  options="Category.name" 
+/>
 ```
 
   </TabItem>
@@ -30,15 +34,18 @@ The `SelectField` component renders a select field.
   <TabItem value="admin-advanced">
 
 ```tsx
+function renderSelectFieldOptions(accessor) {
+  const {value: name} = accessor.getField("name")
+  const {value: color} = accessor.getField("color")
+
+  return <span style={{ backgroundColor: color }}>{name}</span>
+}
+
 <SelectField
   field="category"
   label="Select category"
   options="Category"
-  renderOption={(accessor) => {
-    const name = accessor.getField("name").value;
-    const color = accessor.getField("color").value;
-    return <span style={{ backgroundColor: color }}>{name}</span>;
-  }}
+  renderOption={renderSelectFieldOptions}
   optionsStaticRender={
     <>
       <Field field="name" />
@@ -94,6 +101,7 @@ The `MultiSelectField` renders a select field with posibility to select multiple
 ```
 
   </TabItem>
+
   <TabItem value="schema">
 
 ```ts
