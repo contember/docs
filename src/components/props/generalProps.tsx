@@ -1,6 +1,6 @@
 import React from 'react';
-import { PropsTableRow } from './propsTable.jsx'
-import { Scalar, OptionallyVariableFieldValue, Key, Justification, DataGridOrderDirection } from './propsType.jsx';
+import { PropsTableRow } from '../propsTable'
+import { Scalar, OptionallyVariableFieldValue, Key, Justification, DataGridOrderDirection, HeadingProps } from '../propsType';
 
 export const field = ({required, description}) => (
     <PropsTableRow
@@ -305,17 +305,6 @@ export const widthField = ({required}) => (
     />
 )
 
-export const inlineButtons = ({required}) => (
-    <PropsTableRow
-        prop="inlineButtons"
-        propType={`undefined | ToolbarButtonSpec[] | ToolbarButtonSpec[][]`}
-        description={`
-            A list of inline buttons.
-        `}
-        required={required}
-        />
-)     
-
 export const children = ({required}) => (
     <PropsTableRow
         prop="children"
@@ -465,6 +454,51 @@ export const initialOrder = ({required}) => (
         prop="initialOrder"
         propType={`undefined | ${DataGridOrderDirection}`}
         description="The initial order of the column"
+        required={required}
+    />
+)
+
+export const name = ({required, description}) => (
+    <PropsTableRow
+        prop="name"
+        propType="string"
+        description={description || "Page name"}
+        required={required}
+    />
+)
+
+export const pageName = ({required}) => (
+    <PropsTableRow
+        prop="pageName"
+        propType="string"
+        description="Page name"
+        required={required}
+    />
+)
+
+export const actions = ({required}) => (
+    <PropsTableRow
+        prop="actions"
+        propType="undefined | ActionSpec[]"
+        description="Actions"
+        required={required}
+    />
+)
+
+export const headingProps = ({required}) => (
+    <PropsTableRow
+        prop="headingProps"
+        propType={`undefined | HeadingProps`}
+        description="Props that are passed to the heading"
+        required={required}
+    />
+)
+
+export const navigation = ({required}) => (
+    <PropsTableRow
+        prop="navigation"
+        propType={`undefined`}
+        description="Navigation"
         required={required}
     />
 )

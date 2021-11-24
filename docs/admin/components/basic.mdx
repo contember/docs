@@ -2,12 +2,12 @@
 title: Basic components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx"
-import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx"
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
+import * as SharedProps from "../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-### Field
+## Field
 
 The `Field` components renders value of the field.
 
@@ -28,7 +28,7 @@ The `Field` components renders value of the field.
   <SharedProps.onUpdate />
 </PropsTable>
 
-### Text field
+## Text field
 
 The `TextField` component renders a text field. The text field is used for basic string editing and has no rich text editing capabilities.
 
@@ -47,7 +47,7 @@ The `TextField` component renders a text field. The text field is used for basic
   <SharedProps.autoCapitalize />
 </PropsTable>
 
-### Text area field
+## Text area field
 
 The `TextAreaField` component renders a text area field. The text field is used for basic string editing and has no rich text editing capabilities.
 
@@ -62,7 +62,7 @@ The `TextAreaField` component renders a text area field. The text field is used 
   <SharedProps.label required />
 </PropsTable>
 
-### Rich text field
+## Rich text field
 
 The `RichTextField` component renders a rich text field. The text field is used for rich text editing.
 
@@ -120,7 +120,7 @@ export class Article {
   <SharedProps.inlineButtons />
 </PropsTable>
 
-### Date field
+## Date field
 
 The `DateField` component renders date input for editing date.
 
@@ -156,7 +156,7 @@ export class User {
   <SharedProps.label required />
 </PropsTable>
 
-### Date & Time field
+## Date & Time field
 
 The `DateTimeField` component renders a date&time field for editing date and time.
 
@@ -192,7 +192,7 @@ export class Event {
   <SharedProps.label required />
 </PropsTable>
 
-### Field View
+## Field View
 
 The `FieldView` component renders a field value.
 

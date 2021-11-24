@@ -1,5 +1,5 @@
 import React from 'react'
-import { PropsTableRow } from './propsTable.jsx'
+import { PropsTableRow } from './propsTable'
 
 export const equals = () => (
     <PropsTableRow

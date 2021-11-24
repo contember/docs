@@ -1,6 +1,12 @@
 import React from 'react'
 
-export const PropsTable = ({ firstColumnHeading, secondColumnHeading, children }) => (
+interface PropsTableProps {
+    firstColumnHeading?: string
+    secondColumnHeading?: string
+    children: React.ReactNode
+}
+
+export const PropsTable: (props: PropsTableProps) => JSX.Element = ({ firstColumnHeading, secondColumnHeading, children }) => (
     <table className="props-table">
         <thead>
             <tr>
@@ -14,7 +20,16 @@ export const PropsTable = ({ firstColumnHeading, secondColumnHeading, children }
     </table>
 )
 
-export const PropsTableRow = ({ prop, propType, description, inherited, required, readOnly }) => (
+interface PropsTableRowProps { 
+    prop?: string 
+    propType?: string
+    description?: string
+    inherited?: string
+    required?: boolean
+    readOnly?: boolean 
+}
+
+export const PropsTableRow: (props: PropsTableRowProps) => JSX.Element = ({ prop, propType, description, inherited, required, readOnly }) => (
     <tr>
         <td>
             {prop &&

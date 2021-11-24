@@ -2,12 +2,12 @@
 title: Button components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx"
-import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx"
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
+import * as SharedProps from "../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-### Button
+## Button
 
 The `Button` component renders a button.
 
@@ -46,7 +46,7 @@ The `Button` component renders a button.
   <SharedProps.isLoading />
 </PropsTable>
 
-### Persist button
+## Persist button
 
 The `PersistButton` component renders a persist button.
 
@@ -83,7 +83,7 @@ The `PersistButton` component renders a persist button.
   <SharedProps.children />
 </PropsTable>
 
-### Anchor button
+## Anchor button
 
 The `AnchorButton` component renders an anchor button.
 
@@ -98,7 +98,7 @@ The `AnchorButton` component renders an anchor button.
   <SharedProps.children />
 </PropsTable>
 
-### Page link button
+## Page link button
 
 ```tsx
 <PageLinkButton href="">Go to Page</PageLinkButton>
@@ -111,7 +111,7 @@ The `AnchorButton` component renders an anchor button.
   <SharedProps.children />
 </PropsTable>
 
-### Clear field button
+## Clear field button
 
 ```tsx
 <ClearFieldButton field="name" label="Clear name" />
@@ -124,7 +124,7 @@ The `AnchorButton` component renders an anchor button.
   <SharedProps.label required />
 </PropsTable>
 
-### Delete entity button
+## Delete entity button
 
 The `DeleteEntityButton` component renders a button, which deletes closesed entity.
 

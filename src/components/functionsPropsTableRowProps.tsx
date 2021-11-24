@@ -1,6 +1,6 @@
 import React from 'react'
-import { PropsTableRow } from './propsTable.jsx'
-import { Scalar, OptionallyVariableFieldValue, Key } from './propsType.jsx'
+import { PropsTableRow } from './propsTable'
+import { Scalar, OptionallyVariableFieldValue, Key } from './propsType'
 
 export const value = ({ prefix, required, readOnly }) => (
     <PropsTableRow

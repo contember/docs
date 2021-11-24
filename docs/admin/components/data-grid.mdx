@@ -2,12 +2,12 @@
 title: Data grid components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx"
-import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx"
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
+import * as SharedProps from "../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-### Data grid
+## Data grid
 
 The `DataGrid` component is a wrapper for cell components. It is used to display data in a grid.
 
@@ -21,7 +21,7 @@ The `DataGrid` component is a wrapper for cell components. It is used to display
   <SharedProps.entities required />
 </PropsTable>
 
-### Generic cell
+## Generic cell
 
 The `GenericCell` component is a generic wrapper for cell content.
 
@@ -37,7 +37,7 @@ The `GenericCell` component is a generic wrapper for cell content.
   <SharedProps.canBeHidden />
 </PropsTable>
 
-### Text cell
+## Text cell
 
 The `TextCell` component is a wrapper for text content.
 
@@ -57,7 +57,7 @@ The `TextCell` component is a wrapper for text content.
   <SharedProps.initialOrder />
 </PropsTable>
 
-### Date cell
+## Date cell
 
 The `DateCell` component is a wrapper for date content.
 

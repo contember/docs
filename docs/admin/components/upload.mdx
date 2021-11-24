@@ -2,14 +2,12 @@
 title: Upload components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
-import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx";
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-## Single file upload
-
-### Any upload field
+## Any upload field
 
 The `AnyUploadField` component renders a file upload field for uploading any file.
 
@@ -30,7 +28,7 @@ The `AnyUploadField` component renders a file upload field for uploading any fil
   <SharedProps.acceptFile />
 </PropsTable>
 
-### Audio upload field
+## Audio upload field
 
 The `AudioUploadField` component renders a file upload field for uploading audio files.
 
@@ -51,7 +49,7 @@ The `AudioUploadField` component renders a file upload field for uploading audio
   <SharedProps.acceptFile />
 </PropsTable>
 
-### Image upload field
+## Image upload field
 
 The `ImageUploadField` component renders a file upload field for uploading image files.
 
@@ -74,7 +72,7 @@ The `ImageUploadField` component renders a file upload field for uploading image
   <SharedProps.acceptFile />
 </PropsTable>
 
-### Video upload field
+## Video upload field
 
 The `VideoUploadField` component renders a file upload field for uploading video files.
 
@@ -97,9 +95,7 @@ The `VideoUploadField` component renders a file upload field for uploading video
   <SharedProps.acceptFile />
 </PropsTable>
 
-## Multiple file upload
-
-### Any file repeater
+## Any file repeater
 
 The `AnyFileRepeater` component renders a repeater field for uploading any file.
 
@@ -107,7 +103,7 @@ The `AnyFileRepeater` component renders a repeater field for uploading any file.
 <AnyFileRepeater field="" label="" urlField="" />
 ```
 
-### Audio file repeater
+## Audio file repeater
 
 The `AudioFileRepeater` component renders a file repeater field for uploading audio files.
 
@@ -191,7 +187,7 @@ export class Song {
 </PropsTable>
 
 
-### Image file repeater
+## Image file repeater
 
 The `ImageFileRepeater` component renders a file repeater for uploading image files.
 
@@ -277,7 +273,7 @@ export class Image {
   <SharedProps.acceptFile />
 </PropsTable>
 
-### Video file repeater
+## Video file repeater
 
 The `VideoFileRepeater` component renders a file repeater for uploading video files.
 

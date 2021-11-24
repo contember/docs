@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'contember', // Usually your repo name.
   themeConfig: {
     prism: {
-        additionalLanguages: ['typescript'],
+      additionalLanguages: ['typescript'],
     },
     colorMode: {
       disableSwitch: true,
@@ -53,5 +53,7 @@ module.exports = {
       },
     ],
   ],
-  plugins: [path.join(__dirname, '/src/plugins/webpack-configuration-plugin')]
-};
+  plugins: [
+    path.join(__dirname, '/src/plugins/webpack-configuration-plugin')
+  ]
+}

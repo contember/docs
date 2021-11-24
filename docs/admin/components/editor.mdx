@@ -2,13 +2,49 @@
 title: Editor components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
-import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx";
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-## Editor
+## Block editor
 
-### Block editor
+The `BlockEditor` component is the main component of the editor. It is responsible for rendering the editor's toolbar and the editor's content.
 
-### Rich editor
+```tsx
+<BlockEditor
+    contentField="json"
+    field="content.blocks"
+    label="Content"
+    sortableBy="order"
+/>
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.contentField required />
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.sortableBy required />
+  <SharedProps.referencesField />
+  <SharedProps.referenceDiscriminationField />
+  <SharedProps.inlineButtons />
+  <SharedProps.blockButtons />
+  <SharedProps.augmentEditor />
+</PropsTable>
+
+## Block
+
+The `Block` component is responsible for rendering the editor's content.
+
+```tsx
+<Block discriminateBy="gallery" />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.discriminateBy required />
+  <SharedProps.label />
+</PropsTable>

@@ -2,14 +2,12 @@
 title: List components
 ---
 
-import { PropsTable, PropsTableRow } from "../../components/propsTable.jsx";
-import * as SharedProps from "../../components/componentsPropsTableRowProps.jsx";
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-## List fields
-
-### Select field
+## Select field
 
 The `SelectField` component renders a select field.
 
@@ -78,7 +76,7 @@ export class Category {
   <SharedProps.optionsStaticRender />
 </PropsTable>
 
-### Multi select field
+## Multi select field
 
 The `MultiSelectField` renders a select field with posibility to select multiple options.
 
@@ -120,7 +118,7 @@ export class Tag {
   <SharedProps.options required />
 </PropsTable>
 
-### Repeater field
+## Repeater field
 
 The `Repeater` component renders a repeater field with given child components.
 
