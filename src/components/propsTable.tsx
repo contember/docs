@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface PropsTableProps {
+export interface PropsTableProps {
     firstColumnHeading?: string
     secondColumnHeading?: string
     children: React.ReactNode
@@ -20,7 +20,7 @@ export const PropsTable: (props: PropsTableProps) => JSX.Element = ({ firstColum
     </table>
 )
 
-interface PropsTableRowProps { 
+export interface PropsTableRowProps { 
     prop?: string 
     propType?: string
     description?: string
