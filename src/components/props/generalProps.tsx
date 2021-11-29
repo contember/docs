@@ -2,6 +2,15 @@ import React from 'react'
 import { PropsTableRow, PropsTableRowProps } from '../propsTable'
 import { Scalar, OptionallyVariableFieldValue, Key, Justification, DataGridOrderDirection } from '../propsType'
 
+export const autoFocus = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="autoFocus"
+        propType="boolean"
+        description="Whether the field should be focused on mount. The last field with autoFocus property set to true will be focused, If there are multiple ones."
+    />
+)
+
 export const field = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
@@ -147,7 +156,7 @@ export const accessKey = (props: PropsTableRowProps) => (
         prop="accessKey"
         propType={`undefined | string`}
         description={`
-            The access key of the field.
+            The access key of the field used to setup keyboard shortcut for the field. More info: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey" target="_blank">MDN Access Key</a>
         `}
     />
 )
