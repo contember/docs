@@ -32,9 +32,42 @@ The `Field` components renders value of the field.
 
 The `TextField` component renders a text field. The text field is used for basic string editing and has no rich text editing capabilities.
 
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+
 ```tsx
 <TextField field="name" label="Name" />
 ```
+
+  </TabItem>
+  <TabItem value="admin-advanced">
+
+```tsx
+<TextField 
+  field="name" 
+  label="Name" 
+  allowNewlines={true}
+/>
+```
+
+  </TabItem>
+  <TabItem value="schema">
+
+```tsx
+export class Author {
+  name = def.stringColumn()
+}
+```
+
+  </TabItem>
+</Tabs>
 
 #### Props
 
@@ -43,8 +76,9 @@ The `TextField` component renders a text field. The text field is used for basic
   <SharedProps.label required />
   <SharedProps.about />
   <SharedProps.accessKey />
+  <SharedProps.autoFocus />
   <SharedProps.allowNewlines />
-  <SharedProps.autoCapitalize />
+  <SharedProps.description />
 </PropsTable>
 
 ## Text area field
