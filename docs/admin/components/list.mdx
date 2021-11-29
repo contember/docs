@@ -34,9 +34,9 @@ The `SelectField` component renders a select field.
   <TabItem value="admin-advanced">
 
 ```tsx
-function renderSelectFieldOptions(accessor) {
-  const {value: name} = accessor.getField("name")
-  const {value: color} = accessor.getField("color")
+function customRenderOptions(accessor) {
+  const name = accessor.getField("name").value
+  const color = accessor.getField("color").value
 
   return <span style={{ backgroundColor: color }}>{name}</span>
 }
@@ -45,7 +45,7 @@ function renderSelectFieldOptions(accessor) {
   field="category"
   label="Select category"
   options="Category"
-  renderOption={renderSelectFieldOptions}
+  renderOption={customRenderOptions}
   optionsStaticRender={
     <>
       <Field field="name" />
@@ -66,6 +66,7 @@ export class Article {
 
 export class Category {
   name = def.stringColumn();
+  @validation.assertPattern(/^#[0-9a-fA-F]{6}$/, "Wrong color format. Use HEX (e.g. #000000)")
   color = def.stringColumn();
 }
 ```
@@ -134,13 +135,24 @@ The `Repeater` component renders a repeater field with given child components.
   defaultValue="admin"
   values={[
     { label: "Component", value: "admin" },
+    { label: "Component - advanced", value: "admin-advanced" },
     { label: "API schema", value: "schema" },
   ]}
 >
   <TabItem value="admin">
 
 ```tsx
+<Repeater field="tasks" label="Todo list" orderBy="content">
+    <TextAreaField field="content" label="Task" />
+</Reapeater>
+```
+
+  </TabItem>
+  <TabItem value="admin-advanced">
+
+```tsx
 <Repeater field="tasks" label="Todo list" sortableBy="order">
+    <CheckboxField field="done" label="Done" defaultValue="false" />
     <TextAreaField field="content" label="Task" />
 </Reapeater>
 ```
@@ -154,6 +166,8 @@ export class TodoList {
 }
 
 export class Task {
+  order = def.intColumn();
+  done = def.boolColumn();
   content = def.stringColumn();
   todoList = def.manyHasOne(TodoItem, "tasks");
 }
