@@ -1,7 +1,7 @@
 import React from 'react'
-import { PropsTableRow, PropsTableProps } from '../propsTable'
+import { PropsTableRow, PropsTableRowProps } from '../propsTable'
 
-export const topStart = (props: PropsTableProps) => (
+export const topStart = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="topStart"
@@ -10,7 +10,7 @@ export const topStart = (props: PropsTableProps) => (
     />
 )
 
-export const topEnd = (props: PropsTableProps) => (
+export const topEnd = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="topEnd"
@@ -19,7 +19,7 @@ export const topEnd = (props: PropsTableProps) => (
     />
 )
 
-export const sideBar = (props: PropsTableProps) => (
+export const sideBar = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="sideBar"
@@ -28,7 +28,7 @@ export const sideBar = (props: PropsTableProps) => (
     />
 )
 
-export const mainStart = (props: PropsTableProps) => (
+export const mainStart = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="mainStart"
@@ -37,7 +37,7 @@ export const mainStart = (props: PropsTableProps) => (
     />
 )
 
-export const actionsCenter = (props: PropsTableProps) => (
+export const actionsCenter = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="actionsCenter"
@@ -46,7 +46,7 @@ export const actionsCenter = (props: PropsTableProps) => (
     />
 )
 
-export const actionsEnd = (props: PropsTableProps) => (
+export const actionsEnd = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="actionsEnd"
@@ -55,7 +55,7 @@ export const actionsEnd = (props: PropsTableProps) => (
         />
 )
 
-export const actionsStart = (props: PropsTableProps) => (
+export const actionsStart = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="actionsStart"
@@ -64,7 +64,7 @@ export const actionsStart = (props: PropsTableProps) => (
     />
 )
 
-export const main = (props: PropsTableProps) => (
+export const main = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="main"
@@ -73,7 +73,7 @@ export const main = (props: PropsTableProps) => (
     />
 )
 
-export const mainEnd = (props: PropsTableProps) => (
+export const mainEnd = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="mainEnd"
@@ -82,7 +82,7 @@ export const mainEnd = (props: PropsTableProps) => (
     />
 )
 
-export const mainCenter = (props: PropsTableProps) => (
+export const mainCenter = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="mainCenter"
@@ -91,7 +91,7 @@ export const mainCenter = (props: PropsTableProps) => (
     />
 )
 
-export const sideBarCenter = (props: PropsTableProps) => (
+export const sideBarCenter = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="sideBarCenter"
@@ -100,7 +100,7 @@ export const sideBarCenter = (props: PropsTableProps) => (
     />
 )
 
-export const sideBarEnd = (props: PropsTableProps) => (
+export const sideBarEnd = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="sideBarEnd"
@@ -109,7 +109,7 @@ export const sideBarEnd = (props: PropsTableProps) => (
     />
 )
 
-export const sideBarStart = (props: PropsTableProps) => (
+export const sideBarStart = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="sideBarStart"
@@ -118,7 +118,7 @@ export const sideBarStart = (props: PropsTableProps) => (
     />
 )
 
-export const top = (props: PropsTableProps) => (
+export const top = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="top"
@@ -127,7 +127,7 @@ export const top = (props: PropsTableProps) => (
     />
 )
 
-export const topCenter = (props: PropsTableProps) => (
+export const topCenter = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="topCenter"
