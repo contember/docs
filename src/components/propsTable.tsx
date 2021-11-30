@@ -10,7 +10,7 @@ export const PropsTable: (props: PropsTableProps) => JSX.Element = ({ firstColum
     <table className="props-table">
         <thead>
             <tr>
-                <th>{firstColumnHeading ?? 'Props'}</th>
+                <th>{firstColumnHeading ?? 'Prop'}</th>
                 <th>{secondColumnHeading ?? 'Description'}</th>
             </tr>
         </thead>
