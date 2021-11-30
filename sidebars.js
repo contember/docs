@@ -45,7 +45,7 @@ module.exports = {
 						"admin/components/data-binding",
 						"admin/components/data-grid",
 						"admin/components/editor",
-						"admin/components/layout",
+						// "admin/components/layout",
 						"admin/components/list",
 						"admin/components/page",
 						"admin/components/reference",
