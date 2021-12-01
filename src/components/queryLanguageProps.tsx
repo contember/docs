@@ -53,6 +53,6 @@ export const asc = () => (
 export const desc = () => (
     <PropsTableRow
         prop="desc"
-        description="Order by descendant."
+        description="Sort by given field from smallest to largest."
     />
 )
