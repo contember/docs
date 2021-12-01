@@ -57,7 +57,7 @@ export const hasUnpersistedChanges = ({ prefix, required, readOnly }) => (
     <PropsTableRow
         prop={prefix ? `${prefix}.hasUnpersistedChanges` : `hasUnpersistedChanges`}
         description={`
-            Boolean that indicates if the field has unpersisted changes.
+            Boolean that indicates if the field has changes which are not yet persisted to server.
         `}
         required={required}
         readOnly={readOnly}
