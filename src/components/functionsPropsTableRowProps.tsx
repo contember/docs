@@ -6,7 +6,7 @@ export const value = ({ prefix, required, readOnly }) => (
     <PropsTableRow
         prop={prefix ? `${prefix}.value` : `value`}
         description={`
-            Get value of the field.
+            Current value of the field.
         `}
         required={required}
         readOnly={readOnly}
