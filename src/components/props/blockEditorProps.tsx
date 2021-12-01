@@ -6,7 +6,7 @@ export const contentField = (props: PropsTableRowProps) => (
         {...props}
         prop="contentField"
         propType="string"
-        description="Field name of the content."
+        description="Field name of string field in entities referenced by field prop."
     />
 )
 
