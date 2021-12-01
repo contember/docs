@@ -344,7 +344,7 @@ export const canBeHidden = (props: PropsTableRowProps) => (
         {...props}
         prop="canBeHidden"
         propType="undefined | boolean"
-        description="If true, the column can be hidden"
+        description="If false, the column can not be hidden. It is true by default."
     />
 )
 
