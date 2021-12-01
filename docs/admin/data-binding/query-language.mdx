@@ -26,6 +26,10 @@ Query language is a syntax to query the data in data binding.
 
 ### Qualified entity list
 ```graphql
+Author
+Author[age < 18]
+Article[status = 'published']
+Article[status = 'published' && author.age >= 18]
 Author[age < 123].son.sisters(name = 'Jane')
 ```
 
