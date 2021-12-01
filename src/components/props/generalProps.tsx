@@ -335,7 +335,7 @@ export const shrunk = (props: PropsTableRowProps) => (
         {...props}
         prop="shrunk"
         propType="undefined | boolean"
-        description="If true"
+        description="If true column will try to be as narrow as possible given rendered data in the column."
     />
 )
 
