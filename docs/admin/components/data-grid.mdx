@@ -12,7 +12,10 @@ import TabItem from "@theme/TabItem"
 The `DataGrid` component is a wrapper for cell components. It is used to display data in a grid.
 
 ```tsx
-<DataGrid entities="Article" />
+<DataGrid entities="Article">
+  <TextField heading="Title" field="title" />
+  <TextField heading="Author" field="author.name" />
+</DataGrid>
 ```
 
 #### Props
