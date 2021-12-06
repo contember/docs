@@ -46,9 +46,10 @@ module.exports = {
 						"admin/components/data-grid",
 						"admin/components/editor",
 						// "admin/components/layout",
-						"admin/components/list",
 						"admin/components/page",
 						"admin/components/reference",
+						"admin/components/repeater",
+						"admin/components/select",
 						"admin/components/upload"
 					],
 					"Data Binding": [

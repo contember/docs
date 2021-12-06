@@ -1,5 +1,5 @@
 ---
-title: List components
+title: Select components
 ---
 
 import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
@@ -125,62 +125,4 @@ export class Tag {
   <SharedProps.field required />
   <SharedProps.label required />
   <SharedProps.options required />
-</PropsTable>
-
-## Repeater field
-
-The `Repeater` component renders a repeater field with given child components.
-
-<Tabs
-  defaultValue="admin"
-  values={[
-    { label: "Component", value: "admin" },
-    { label: "Component - advanced", value: "admin-advanced" },
-    { label: "API schema", value: "schema" },
-  ]}
->
-  <TabItem value="admin">
-
-```tsx
-<Repeater field="tasks" label="Todo list" orderBy="content">
-    <TextAreaField field="content" label="Task" />
-</Reapeater>
-```
-
-  </TabItem>
-  <TabItem value="admin-advanced">
-
-```tsx
-<Repeater field="tasks" label="Todo list" sortableBy="order">
-    <CheckboxField field="done" label="Done" defaultValue="false" />
-    <TextAreaField field="content" label="Task" />
-</Reapeater>
-```
-
-  </TabItem>
-  <TabItem value="schema">
-
-```ts
-export class TodoList {
-  tasks = def.oneHasMany(Task, "todoList");
-}
-
-export class Task {
-  order = def.intColumn();
-  done = def.boolColumn();
-  content = def.stringColumn();
-  todoList = def.manyHasOne(TodoItem, "tasks");
-}
-```
-
-  </TabItem>
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.field required />
-  <SharedProps.label required />
-  <SharedProps.sortableBy />
-  <SharedProps.orderBy />
 </PropsTable>
