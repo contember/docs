@@ -1,6 +1,5 @@
 import React from 'react'
 import { PropsTableRow, PropsTableRowProps } from '../propsTable'
-import { Scalar, OptionallyVariableFieldValue, Key, Justification, DataGridOrderDirection } from '../propsType'
 
 export const autoFocus = (props: PropsTableRowProps) => (
     <PropsTableRow
@@ -45,7 +44,7 @@ export const options = (props: PropsTableRowProps) => (
         propType={`
             string | 
             { 
-                label: ReactNode, value: ${OptionallyVariableFieldValue}, 
+                label: ReactNode, value: OptionallyVariableFieldValue, 
                 description: ReactNode, 
                 searchKeywords: string | undefined 
             }[]
@@ -58,7 +57,7 @@ export const defaultValue = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="defaultValue"
-        propType={Scalar}
+        propType={`Scalar`}
         description={`The default value of the field.`}
     />
 )
@@ -67,7 +66,7 @@ export const format = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="format"
-        propType={`undefined | (value: ${Scalar} ) => ReactNode`}
+        propType={`undefined | (value: Scalar ) => ReactNode`}
         description={`
             A function that formats the value as a ReactNode.
             The function is called with the value as the first argument.
@@ -88,7 +87,7 @@ export const key = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="key"
-        propType={`undefined | ${Key} | null`}
+        propType={`undefined | Key | null`}
         description={`
             The key of the field.
             If the key is not specified, the key is generated from the field name.
@@ -100,7 +99,7 @@ export const onBeforeUpdate = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="onBeforeUpdate"
-        propType={`undefined | (value: ${Scalar}) => ${Scalar}`}
+        propType={`undefined | (value: Scala}) => Scalar`}
         description={`
             A function that is called before the value is updated.
             `}
@@ -111,7 +110,7 @@ export const onInitialize = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="onInitialize"
-        propType={`undefined | (value: ${Scalar}) => ${Scalar}`}
+        propType={`undefined | (value: Scalar) => Scalar`}
         description={`
             A function that is called when the field is initialized.
         `}
@@ -122,7 +121,7 @@ export const onUpdate = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="onUpdate"
-        propType={`undefined | (value: ${Scalar}) => ${Scalar}`}
+        propType={`undefined | (value: Scalar) => Scalar`}
         description={`
             A function that is called when the value is updated.
         `}
@@ -361,7 +360,7 @@ export const headerJustification = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="headerJustification"
-        propType={`undefined | ${Justification}`}
+        propType={`undefined | Justification`}
         description="The justification of the column header"
     />
 )
@@ -370,7 +369,7 @@ export const initialOrder = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="initialOrder"
-        propType={`undefined | ${DataGridOrderDirection}`}
+        propType={`undefined | DataGridOrderDirection`}
         description="The initial order of the column"
     />
 )

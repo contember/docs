@@ -1,6 +1,5 @@
 import React from 'react'
 import { PropsTableRow } from './propsTable'
-import { Scalar, OptionallyVariableFieldValue, Key } from './propsType'
 
 export const value = ({ prefix, required, readOnly }) => (
     <PropsTableRow
@@ -68,7 +67,7 @@ export const errors = ({ prefix, required, readOnly }) => (
     <PropsTableRow
         prop={prefix ? `${prefix}.errors` : `errors`}
         description={`
-            An array of error messages.
+            ErrorAccessor.
         `}
         required={required}
         readOnly={readOnly}
