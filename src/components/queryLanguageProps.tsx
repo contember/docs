@@ -46,7 +46,7 @@ export const greaterThanOrEquals = () => (
 export const asc = () => (
     <PropsTableRow
         prop="asc"
-        description="Sort by given field from smallest to largest."
+        description="Sort by given field from largest to smallest."
     />
 )
 

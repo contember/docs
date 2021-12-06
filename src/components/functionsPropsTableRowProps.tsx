@@ -46,7 +46,7 @@ export const hasValue = ({ prefix, required, readOnly }) => (
     <PropsTableRow
         prop={prefix ? `${prefix}.hasValue` : `hasValue`}
         description={`
-            Boolean that indicates if the field has a value.
+            This is a method that checks if current value is same as given.
         `}
         required={required}
         readOnly={readOnly}
