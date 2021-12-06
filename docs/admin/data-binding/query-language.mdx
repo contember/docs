@@ -9,6 +9,34 @@ import TabItem from "@theme/TabItem";
 
 Query language is a syntax to query the data in data binding.
 
+## Examples
+
+### Articles with more than 100 views
+```tsx
+<MultiSelectField 
+    field="articles"
+    label="Popular articles"
+    options="Article[views < 99].title"
+/>
+```
+
+### Published articles
+```tsx
+<SelectField
+    field="article"
+    label="Featured article"
+    options="Article[status=published].title"
+/>
+```
+
+### Unique article by id
+```tsx
+<EditPage
+    entity="Article(id = $id)"
+    pageName="blogEdit"
+/>
+```
+
 ## Symbols
 
 <PropsTable firstColumnHeading="Symbols">
@@ -75,32 +103,4 @@ items.content.name asc
 
 ```graphql
 items.content.name desc
-```
-
-## Examples
-
-### Articles with more than 100 views
-```tsx
-<MultiSelectField 
-    field="articles"
-    label="Popular articles"
-    options="Article[views < 99].title"
-/>
-```
-
-### Published articles
-```tsx
-<SelectField
-    field="article"
-    label="Featured article"
-    options="Article[status=published].title"
-/>
-```
-
-### Unique article by id
-```tsx
-<EditPage
-    entity="Article(id = $id)"
-    pageName="blogEdit"
-/>
 ```
