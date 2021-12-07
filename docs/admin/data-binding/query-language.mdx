@@ -53,7 +53,7 @@ Query language is a syntax to query the data in data binding.
 ## Types
 
 ### Qualified entity list
-```graphql
+```
 Author
 Author[age < 18]
 Article[status = 'published']
@@ -62,45 +62,45 @@ Author[age < 123].son.sisters(name = 'Jane')
 ```
 
 ### Qualified Field List
-```graphql
+```
 Author[age < 123].son.sister.name
 ```
 
 ### Qualified single entity
-```graphql
+```
 Author(id = 123).son.sister
 ```
 
 ### Relative single field
-```graphql
+```
 authors(id = 123).person.name
 ```
 
 ### Relative single entity
-```graphql
+```
 localesByLocale(locale.slug = en)
 ```
 
 ### Relative entity list
-```graphql
+```
 genres(slug = 'sciFi').authors[age < 123]
 ```
 
 ### Unique where
-```graphql
+```
 (author.mother.id = 123)
 ```
 
 ### Filter
-```graphql
+```
 [author.son.age < 123]
 ```
 
 ### Order by
-```graphql
+```
 items.content.name asc
 ```
 
-```graphql
+```
 items.content.name desc
 ```
