@@ -53,7 +53,7 @@ module.exports = {
 						"admin/components/upload"
 					],
 					"Data Binding": [
-						"admin/data-binding/entity-accessor",
+						// "admin/data-binding/entity-accessor",
 						"admin/data-binding/field-accessor",
 						"admin/data-binding/query-language"
 					]
