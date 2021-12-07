@@ -37,10 +37,30 @@ module.exports = {
 			// 	"guides/deployment"
 			// ],
 			"Admin": [
-				"admin/overview",
-				"admin/components"
+				"admin/introduction",
+				{
+					"Components": [
+						"admin/components/basic",
+						"admin/components/buttons",
+						"admin/components/data-binding",
+						"admin/components/data-grid",
+						// "admin/components/editor",
+						// "admin/components/layout",
+						"admin/components/page",
+						"admin/components/reference",
+						"admin/components/repeater",
+						"admin/components/select",
+						"admin/components/upload"
+					],
+					"Data Binding": [
+						// "admin/data-binding/entity-accessor",
+						"admin/data-binding/field-accessor",
+						"admin/data-binding/query-language"
+					]
+				}
+
 			]
 		}
 
 	]
-};
+}

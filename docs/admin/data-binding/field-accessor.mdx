@@ -1,0 +1,32 @@
+---
+title: FieldAccessor
+---
+
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/functionsPropsTableRowProps";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+## Properties
+
+<PropsTable firstColumnHeading="Property">
+  <SharedProps.value readOnly />
+  <SharedProps.defaultValue readOnly />
+  <SharedProps.fieldName readOnly />
+  <SharedProps.hasValue readOnly />
+  <SharedProps.hasUnpersistedChanges readOnly />
+  <SharedProps.valueOnServer readOnly />
+  <SharedProps.errors readOnly />
+  {/* <SharedProps.getAccessor prefix="FieldAccessor" /> */}
+</PropsTable>
+
+## Examples
+
+### Display field value
+
+```tsx
+<FieldView 
+    field="title" 
+    render={(fieldAccessor) => <>{fieldAccessor.value}</>} 
+/>
+```

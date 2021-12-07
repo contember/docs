@@ -1,0 +1,82 @@
+---
+title: Data grid components
+---
+
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
+import * as SharedProps from "../../../src/components/props"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
+## Data grid
+
+The `DataGrid` component is a wrapper for cell components. It is used to display data in a grid.
+
+```tsx
+<DataGrid entities="Article">
+  <TextField heading="Title" field="title" />
+  <TextField heading="Author" field="author.name" />
+</DataGrid>
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.entities required />
+</PropsTable>
+
+## Generic cell
+
+The `GenericCell` component is a generic wrapper for cell content.
+
+```tsx
+<GenericCell />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.header />
+  <SharedProps.shrunk />
+  <SharedProps.canBeHidden />
+</PropsTable>
+
+## Text cell
+
+The `TextCell` component is a wrapper for text content.
+
+```tsx
+<TextCell field="name" />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required description="The name of the column in Contember schema where data is stored." />
+  <SharedProps.header />
+  <SharedProps.shrunk />
+  <SharedProps.canBeHidden />
+  <SharedProps.disableOrder />
+  <SharedProps.headerJustification />
+  <SharedProps.initialOrder />
+</PropsTable>
+
+## Date cell
+
+The `DateCell` component adds a column for rendering date (including filtering by date range and sorting).
+
+
+```tsx
+<DateCell header="Created at" field="createdAt" />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required description="The name of the column in Contember schema where data is stored." />
+  <SharedProps.header />
+  <SharedProps.shrunk />
+  <SharedProps.canBeHidden />
+  <SharedProps.disableOrder />
+  <SharedProps.headerJustification />
+  <SharedProps.initialOrder />
+</PropsTable>

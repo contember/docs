@@ -1,0 +1,50 @@
+---
+title: Data binding components
+---
+
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+## Data binding provider
+
+The `DataBindingProvider` component is used to provide data for the data binding.
+
+```tsx
+<DataBindingProvider stateComponent={FeedbackRenderer} />
+```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.stateComponent required />
+</PropsTable>
+
+## Entity sub tree
+
+The `EntitySubTree` component is used to render the entity sub tree.
+
+```tsx
+<EntitySubTree entity="Post(id = $id)" />
+```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.entity required />
+</PropsTable>
+
+## Entity list sub tree
+
+The `EntityListSubTree` component is used to render the entity list sub tree.
+
+```tsx
+<EntityListSubTree entities="Post" />
+```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.entities required />
+</PropsTable>

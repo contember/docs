@@ -1,0 +1,128 @@
+---
+title: Select components
+---
+
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+## Select field
+
+The `SelectField` component renders a select field.
+
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+
+```tsx
+<SelectField 
+  field="category" 
+  label="Select category" 
+  options="Category.name" 
+/>
+```
+
+  </TabItem>
+
+  <TabItem value="admin-advanced">
+
+```tsx
+function customRenderOptions(accessor) {
+  const name = accessor.getField("name").value
+  const color = accessor.getField("color").value
+
+  return <span style={{ backgroundColor: color }}>{name}</span>
+}
+
+<SelectField
+  field="category"
+  label="Select category"
+  options="Category"
+  renderOption={customRenderOptions}
+  optionsStaticRender={
+    <>
+      <Field field="name" />
+      <Field field="color" />
+    </>
+  }
+/>
+```
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```ts
+export class Article {
+  category = def.manyHasOne(Category);
+}
+
+export class Category {
+  name = def.stringColumn();
+  @validation.assertPattern(/^#[0-9a-fA-F]{6}$/, "Wrong color format. Use HEX (e.g. #000000)")
+  color = def.stringColumn();
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.options required />
+  <SharedProps.renderOption />
+  <SharedProps.optionsStaticRender />
+</PropsTable>
+
+## Multi select field
+
+The `MultiSelectField` renders a select field with posibility to select multiple options.
+
+<Tabs
+  defaultValue="admin"
+  values={[
+    { label: "Component", value: "admin" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin">
+
+```tsx
+<MultiSelectField field="tags" label="Select tags" options="Tag.name" />
+```
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```ts
+export class Article {
+  tags = def.manyHasMany(Tag, "articles");
+}
+
+export class Tag {
+  name = def.stringColumn();
+  articles = def.manyHasManyInverse(Article, "tags");
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.options required />
+</PropsTable>

@@ -1,0 +1,30 @@
+---
+title: Reference components
+---
+
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+## HasOne
+
+The `HasOne` component renders a record from a has-one relationship.
+
+```tsx
+<HasOne field="author">
+	<TextField field="name" />
+	<DateField field="birth" />
+</HasOne>
+```
+
+## HasMany
+
+The `HasMany` component renders a list of records from a has-many relationship.
+
+```tsx
+<HasMany field="authors">
+	<TextField field="name" />
+	<DateField field="birth" />
+</HasMany>
+```
