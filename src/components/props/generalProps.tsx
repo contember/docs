@@ -296,7 +296,7 @@ export const entities = (props: PropsTableRowProps) => (
         {...props}
         prop="entities"
         propType="string"
-        description="The name of the entity. You can use <a href='/admin/data-binding/query-language' target='_blank'>query language</a> to filter the entities."
+        description="The name of the entity. You can use <a href='/admin/data-binding/query-language' target='_blank'>query language (Qualified entity list)</a> to filter the entities."
     />
 )
 
