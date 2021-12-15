@@ -5,7 +5,7 @@ title: v0.8.0-alpha.7
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-We've simplified layout components to make them easier to use. There is a few things you need to update in order to use new layout.
+We've simplified the layout components to make them easier to use. To use the new layout, you need to update a few things.
 
 ### Mandatory changes
 
@@ -47,8 +47,8 @@ We've simplified layout components to make them easier to use. There is a few th
 
 </Tabs>
 
-2. Move prop `actions` from `<TitleBar/>` to page component (e.g. `<Page/>`, `<GenericPage/>`, `<LayoutPage/>`).
-3. Remove `<TitleBar/>` component and content of `<TitleBar/>` insert into prop `title` on page component.
+2. Move prop `actions` from the `<TitleBar/>` component to page component (e.g. `<Page/>`, `<GenericPage/>`, `<LayoutPage/>`).
+3. Remove the `<TitleBar/>` component and insert the contents of the `<TitleBar/>` component into the `title` property of the page.
 
 <Tabs
   defaultValue="before"
@@ -85,8 +85,8 @@ We've simplified layout components to make them easier to use. There is a few th
 
 </Tabs>
 
-4. Change `<LayoutInner/>` to `<LayoutPage/>`.
-5. Remove `<LayoutSide />` component and content insert into prop `side` on `<LayoutPage />`.
+4. Change the `<LayoutInner/>` to `<LayoutPage/>`.
+5. Remove the `<LayoutSide />` component and insert the content into the `side` prop on `<LayoutPage />`.
 
 <Tabs
   defaultValue="before"
@@ -123,9 +123,9 @@ We've simplified layout components to make them easier to use. There is a few th
 
 </Tabs>
 
-6. We are not supporting `<AltPersistButton/>` anymore. Remove it or change it to `<PersistButton/>`.
-7. Change `<GenericPage/>` which wraps tenant pages to `<Page/>`.
+6. We no longer support `<AltPersistButton/>`. Remove it or change it to `<PersistButton/>`.
+7. Change the `<GenericPage/>` that wraps the tenant pages to `<Page/>`.
 
-### Recomended changes
+### Recommended changes
 
-Remove unnecessary `<Box/>` component. There is new component `<Section/>` which should be used instead of `<Box/>` for defining groups of fields.
+Remove unnecessary component `<Box/>`.  We added a new component `<Section/>` which should be used instead of `<Box/>` to define groups of fields.
