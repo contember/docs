@@ -80,3 +80,22 @@ The `DateCell` component adds a column for rendering date (including filtering b
   <SharedProps.headerJustification />
   <SharedProps.initialOrder />
 </PropsTable>
+
+## Date cell
+
+The `HasManySelectCell` component adds a column for rendering has many binding.
+
+
+```tsx
+<HasManySelectCell header="Tags" field="tags" option="Tag.name" />
+```
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required description="The name of the column in Contember schema where data is stored." />
+  <SharedProps.options />
+  <SharedProps.header />
+  <SharedProps.shrunk />
+  <SharedProps.canBeHidden />
+</PropsTable>

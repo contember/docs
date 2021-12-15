@@ -56,6 +56,9 @@ module.exports = {
 						// "admin/data-binding/entity-accessor",
 						"admin/data-binding/field-accessor",
 						"admin/data-binding/query-language"
+					],
+					"Migration": [
+						"admin/migration/v0.8.0-alpha.7"
 					]
 				}
 

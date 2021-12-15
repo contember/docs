@@ -1,5 +1,5 @@
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
+  background-color: var(--ifm-code-background);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
@@ -10,7 +10,7 @@
 }
 
 .props-table tr:nth-child(2n) {
-  background-color: rgb(252, 252, 252);
+  background-color: var(--ifm-color-emphasis-100);
 }
 
 .props-table th {
@@ -41,7 +41,7 @@
 
 .props-table .props-inherited-prop {
   margin-bottom: 0;
-  background-color: rgb(225, 233, 255);
+  background-color: var(--ifm-color-info-lightest);
   padding: 0 0.5em;
   font-size: 0.85em;
 }
@@ -49,8 +49,8 @@
 .props-table .props-required-prop {
   font-size: 0.85rem;
   display: inline-block;
-  color: rgb(167, 47, 0);
-  background-color: rgb(255, 233, 225);
+  color: var(--ifm-color-black);
+  background-color: var(--ifm-color-danger-lightest);
   padding: 0 0.5em;
 }
 
@@ -66,6 +66,5 @@
   font-family: var(--ifm-font-family-monospace);
   content: "*";
   margin-left: 0.5em;
-  color: rgb(167, 47, 0);
+  color: var(--ifm-color-danger-lighter);
 }
-  

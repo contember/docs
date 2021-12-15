@@ -10,10 +10,11 @@ module.exports = {
   projectName: 'contember', // Usually your repo name.
   themeConfig: {
     prism: {
+      theme: require('prism-react-renderer/themes/nightOwl'),
       additionalLanguages: ['typescript'],
     },
     colorMode: {
-      disableSwitch: true,
+      disableSwitch: false,
     },
     navbar: {
       title: '',
