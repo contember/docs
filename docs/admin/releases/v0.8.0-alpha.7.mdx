@@ -12,7 +12,7 @@ import CompareCode from "../../../src/components/CompareCode"
 * One-time password support [#60](https://github.com/contember/admin/pull/60)
 * Collaboration server in admin-server [#85](https://github.com/contember/admin/pull/85)
 * Editor: Sortable blocks and major refactoring including new API for adding custom blocks and bug fixes [#71](https://github.com/contember/admin/pull/71), [#76](https://github.com/contember/admin/pull/76), [#82](https://github.com/contember/admin/pull/82)
-* Datagrid: `HasOneSelectCell` and `HasManySelectCell` [#87](https://github.com/contember/admin/pull/87)
+* Datagrid: `HasOneSelectCell` and [`HasManySelectCell`](/admin/components/data-grid#has-manny-select-cell) [#87](https://github.com/contember/admin/pull/87)
 * Datagrid: Remembers selected filters and page when navigating back [#81](https://github.com/contember/admin/pull/81)
 
 
@@ -21,7 +21,7 @@ import CompareCode from "../../../src/components/CompareCode"
 * `LogoutLink` in Safari [#71](https://github.com/contember/admin/pull/71)
 
 
-**Full Changelog**: https://github.com/contember/admin/compare/v0.7.0...v0.8.0-alpha.7
+Full Changelog: https://github.com/contember/admin/compare/v0.7.0...v0.8.0-alpha.7
 
 ## Migration
 
@@ -55,10 +55,10 @@ We've simplified the layout components to make them easier to use. To use the ne
 
 </CompareCode>
 
-#### Remove `<TitleBar />`
+#### Remove [`<TitleBar />`](/admin/components/page#titlebar)
 
-- Move prop `actions` from the `<TitleBar />` component to page component (e.g. `<Page />`, `<GenericPage />`, `<LayoutPage />`).
-- Remove the `<TitleBar />` component and insert the contents of the `<TitleBar />` component into the `title` property of the page.
+- Move prop `actions` from the [`<TitleBar />`](/admin/components/page#titlebar) component to page component (e.g. [`<Page />`](/admin/components/page#page), [`<GenericPage />`](/admin/components/page#generic-page), `<LayoutPage />`).
+- Remove the [`<TitleBar />`](/admin/components/page#titlebar) component and insert the contents of the [`<TitleBar />`](/admin/components/page#titlebar) component into the `title` property of the page.
 
 <CompareCode>
 
@@ -115,14 +115,15 @@ We've simplified the layout components to make them easier to use. To use the ne
 
 </CompareCode>
 
-#### Remove `<AltPersistButton />`
+#### Remove `<AltPersistButton />` component
 
-- We no longer support `<AltPersistButton />`. Remove it or change it to `<PersistButton />`.
+- We no longer support `<AltPersistButton />` component. Remove it or change it to [`<PersistButton />`](/admin/components/buttons#persist-button).
 
 #### Tenant pages
 
-- Change the `<GenericPage />` that wraps the tenant pages to `<Page />`.
+- Change the [`<GenericPage />`](/admin/components/page#generic-page) component that wraps the tenant pages to [`<Page />`](/admin/components/page#page) component.
 
 ### Recommended changes
 
-Remove unnecessary component `<Box />`.  We added a new component `<Section />` which should be used instead of `<Box />` to define groups of fields.
+#### Remove unnecessary `<Box />` component
+We added a new `<Section />` component that divides groups of fields on a page into logical page sections. The section names are also listed within the navigation on the page tabs. Sections are not intended to be nested within other sections and should only be used to define the top-level sections of a page. Sections must be parent elements to dimensions, not vice versa, due to styling constraints.
