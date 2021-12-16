@@ -1,0 +1,130 @@
+---
+title: v0.8.0-alpha.7
+---
+
+import CompareCode from "../../../src/components/CompareCode"
+
+## What's Changed
+* LogoutLink: Fix in safari by @VojtaStanek in https://github.com/contember/admin/pull/71
+* Editor update by @matej21 in https://github.com/contember/admin/pull/68
+* Various editor fixes and refactoring by @matej21 in https://github.com/contember/admin/pull/74
+* Editor: fix reference insertion by @matej21 in https://github.com/contember/admin/pull/75
+* ci: add canary build for admin server by @matej21 in https://github.com/contember/admin/pull/77
+* Seamless field representation by @attitude in https://github.com/contember/admin/pull/64
+* Fix breakpoints by @attitude in https://github.com/contember/admin/pull/80
+* editor: sortable blocks by @matej21 in https://github.com/contember/admin/pull/76
+* select field fixes by @matej21 in https://github.com/contember/admin/pull/82
+* Fix multiselect by @matej21 in https://github.com/contember/admin/pull/83
+* Admin server: project groups support by @matej21 in https://github.com/contember/admin/pull/78
+* Datagrid update by @matej21 in https://github.com/contember/admin/pull/81
+* Collaboration server by @VojtaStanek in https://github.com/contember/admin/pull/85
+* Collaboration server: fix crash by @VojtaStanek in https://github.com/contember/admin/pull/88
+* Datagrid: add select cells by @matej21 in https://github.com/contember/admin/pull/87
+* password reset and OTP support by @matej21 in https://github.com/contember/admin/pull/60
+* Update design using CSS custom properties by @attitude in https://github.com/contember/admin/pull/84
+
+**Full Changelog**: https://github.com/contember/admin/compare/v0.7.0...v0.8.0-alpha.7
+
+## Migration
+
+We've simplified the layout components to make them easier to use. To use the new layout, you need to update a few things.
+
+### Mandatory changes
+
+#### Rename `<Layout />` props 
+
+- `topStart` to `sidebarHeader`
+- `topEnd` to `sidebarFooter`
+- `sideBar` to `navigation`
+
+<CompareCode>
+
+```tsx {2-4}
+<Layout
+	topStart={...}
+	topEnd={...}
+	sideBar={...}
+/>
+```
+
+```tsx {2-4}
+<Layout
+	sidebarHeader={...}
+	sidebarFooter={...}
+	navigation={...}
+/>
+```
+
+</CompareCode>
+
+#### Remove `<TitleBar />`
+
+- Move prop `actions` from the `<TitleBar />` component to page component (e.g. `<Page />`, `<GenericPage />`, `<LayoutPage />`).
+- Remove the `<TitleBar />` component and insert the contents of the `<TitleBar />` component into the `title` property of the page.
+
+<CompareCode>
+
+```tsx {4-8}
+<GenericPage 
+	pageName="blogList"
+>
+	<TitleBar 
+		actions={...}
+	>
+		Article
+	</TitleBar>
+	...
+</GenericPage>
+```
+
+```tsx {3-4}
+<GenericPage 
+	pageName="blogList"
+	title="Article"
+	actions={...}
+>
+	...
+</GenericPage>
+```
+
+</CompareCode>
+
+#### Rename `<LayoutInner />` and remove `<LayoutSide />`
+
+- Change the `<LayoutInner />` to `<LayoutPage />`.
+- Remove the `<LayoutSide />` component and insert the content into the `side` prop on `<LayoutPage />`.
+
+<CompareCode>
+
+```tsx {2,4-7}
+<LayoutContent>
+	<LayoutInner>
+	...
+	</LayoutInner>
+	<LayoutSide>
+		<PersistButton />
+	</LayoutSide>
+</LayoutContent>
+```
+
+```tsx {2,4}
+<LayoutContent>
+	<LayoutPage side={<PersistButton />}>
+	...
+	</LayoutPage>
+</LayoutContent>
+```
+
+</CompareCode>
+
+#### Remove `<AltPersistButton />`
+
+- We no longer support `<AltPersistButton />`. Remove it or change it to `<PersistButton />`.
+
+#### Tenant pages
+
+- Change the `<GenericPage />` that wraps the tenant pages to `<Page />`.
+
+### Recommended changes
+
+Remove unnecessary component `<Box />`.  We added a new component `<Section />` which should be used instead of `<Box />` to define groups of fields.

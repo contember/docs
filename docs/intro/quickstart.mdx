@@ -261,12 +261,11 @@ export const ArticleEdit = (
 
 Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
 
-```tsx title="admin/pages/Pages.tsx"
+```tsx {5-12} title="admin/pages/Pages.tsx"
 export const ArticleCreate = (
   <CreatePage
     entity="Article"
     pageName="articleNew"
-    /* highlight-start */
     rendererProps={{ title: "Add a article" }}
     redirectOnSuccess={(request, id) => ({
       ...request,
@@ -275,7 +274,6 @@ export const ArticleCreate = (
         id,
       },
     })}
-    /* highlight-end */
   >
     <TextField field="title" label="Title" />
     <TextAreaField field="content" label="content" />
