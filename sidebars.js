@@ -42,13 +42,13 @@ module.exports = {
 					"Components": [
 						"admin/components/basic",
 						"admin/components/buttons",
+						"admin/components/collection",
 						"admin/components/data-binding",
 						"admin/components/data-grid",
 						// "admin/components/editor",
 						// "admin/components/layout",
 						"admin/components/page",
 						"admin/components/reference",
-						"admin/components/repeater",
 						"admin/components/select",
 						"admin/components/upload"
 					],
