@@ -1,5 +1,5 @@
 ---
-title: Page components
+title: Pages
 ---
 
 import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
@@ -7,22 +7,10 @@ import * as SharedProps from "../../../src/components/props";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
+import CreatePage from "./pages/CreatePage.mdx"
+
 ## Page
 
-The `Page` component is the main wrapper for all content on the site. It is the root component for all other components.
-
-
-```tsx
-<Page name="editUser"> ... </Page>
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.name required />
-  <SharedProps.children required />
-  <SharedProps.key />
-</PropsTable>
 
 ## Generic page
 
@@ -44,6 +32,7 @@ The `GenericPage` component is the main wrapper for all content on the site. It 
 </PropsTable>
 
 ## Create page
+<CreatePage />
 
 ## Edit page
 

@@ -1,5 +1,5 @@
 ---
-title: Data grid components
+title: Data grid
 ---
 
 import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
@@ -7,95 +7,38 @@ import * as SharedProps from "../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
+import DataGrid from "./data-grid/DataGrid.mdx"
+import DateCell from "./data-grid/DateCell.mdx"
+import GenericCell from "./data-grid/GenericCell.mdx"
+import HasManySelectCell from "./data-grid/HasManySelectCell.mdx"
+import TextCell from "./data-grid/TextCell.mdx"
+
 ## Data grid
 
 The `DataGrid` component is a wrapper for cell components. It is used to display data in a grid.
 
-```tsx
-<DataGrid entities="Article">
-  <TextField heading="Title" field="title" />
-  <TextField heading="Author" field="author.name" />
-</DataGrid>
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.entities required />
-</PropsTable>
-
-## Generic cell
-
-The `GenericCell` component is a generic wrapper for cell content.
-
-```tsx
-<GenericCell />
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.header />
-  <SharedProps.shrunk />
-  <SharedProps.canBeHidden />
-</PropsTable>
-
-## Text cell
-
-The `TextCell` component is a wrapper for text content.
-
-```tsx
-<TextCell field="name" />
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.field required description="The name of the column in Contember schema where data is stored." />
-  <SharedProps.header />
-  <SharedProps.shrunk />
-  <SharedProps.canBeHidden />
-  <SharedProps.disableOrder />
-  <SharedProps.headerJustification />
-  <SharedProps.initialOrder />
-</PropsTable>
+<DataGrid />
 
 ## Date cell
 
 The `DateCell` component adds a column for rendering date (including filtering by date range and sorting).
 
+<DateCell />
 
-```tsx
-<DateCell header="Created at" field="createdAt" />
-```
+## Generic cell
 
-#### Props
+The `GenericCell` component is a generic wrapper for cell content.
 
-<PropsTable>
-  <SharedProps.field required description="The name of the column in Contember schema where data is stored." />
-  <SharedProps.header />
-  <SharedProps.shrunk />
-  <SharedProps.canBeHidden />
-  <SharedProps.disableOrder />
-  <SharedProps.headerJustification />
-  <SharedProps.initialOrder />
-</PropsTable>
+<GenericCell />
 
-## Has manny select cell
+## Has many select cell
 
 The `HasManySelectCell` component adds a column for rendering has many binding.
 
+<HasManySelectCell />
 
-```tsx
-<HasManySelectCell header="Tags" field="tags" option="Tag.name" />
-```
+## Text cell
 
-#### Props
+The `TextCell` component is a wrapper for text content.
 
-<PropsTable>
-  <SharedProps.field required description="The name of the column in Contember schema where data is stored." />
-  <SharedProps.options />
-  <SharedProps.header />
-  <SharedProps.shrunk />
-  <SharedProps.canBeHidden />
-</PropsTable>
+<TextCell />

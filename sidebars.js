@@ -55,17 +55,23 @@ module.exports = {
 				"admin/introduction",
 				{
 					"Components": [
-						"admin/components/basic",
+						// "admin/components/blocks",
 						"admin/components/buttons",
-						"admin/components/collection",
 						"admin/components/data-binding",
 						"admin/components/data-grid",
+						// "admin/components/discrimination",
 						// "admin/components/editor",
-						// "admin/components/layout",
-						"admin/components/page",
-						"admin/components/reference",
-						"admin/components/select",
-						"admin/components/upload",
+						// "admin/components/environment",
+						// "admin/components/field-views",
+						"admin/components/form-fields",
+						// "admin/components/pages",
+						"admin/components/references",
+						"admin/components/repeaters",
+						"admin/components/routing",
+						"admin/components/upload"
+					],
+					"Components - UI": [
+						"admin/components-ui/layout",
 					],
 					"Data Binding": [
 						// "admin/data-binding/entity-accessor",
@@ -73,7 +79,7 @@ module.exports = {
 						"admin/data-binding/query-language",
 					],
 					"Releases": [
-						"admin/releases/v0.8.0-alpha.7",
+						"admin/releases/v0.8.0"
 					]
 				}
 			],

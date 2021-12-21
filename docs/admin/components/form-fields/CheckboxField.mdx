@@ -1,0 +1,22 @@
+import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
+import * as SharedProps from "../../../../src/components/props"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
+```tsx
+<CheckboxField field="myCheckboxField" label="Checkbox field" />
+```
+
+#### Props
+
+<PropsTable required>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.defaultValue />
+  <SharedProps.format />
+  <SharedProps.isNonbearing />
+  <SharedProps.key />
+  <SharedProps.onBeforeUpdate />
+  <SharedProps.onInitialize />
+  <SharedProps.onUpdate />
+</PropsTable>

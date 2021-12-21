@@ -1,0 +1,36 @@
+import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
+import * as SharedProps from "../../../../src/components/props"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
+<Tabs
+  defaultValue="admin"
+  values={[
+    { label: "Component", value: "admin" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin">
+
+```tsx
+<DateTimeField field="startAt" label="Event start" />
+```
+
+  </TabItem>
+  <TabItem value="schema">
+
+```ts
+export class Event {
+  startAt = def.dateTimeColumn()
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+</PropsTable>
