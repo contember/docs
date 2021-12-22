@@ -55,22 +55,24 @@ module.exports = {
 				"admin/introduction",
 				{
 					"Components": [
-						// "admin/components/blocks",
+						"admin/components/blocks",
 						"admin/components/buttons",
 						"admin/components/data-binding",
 						"admin/components/data-grid",
+						"admin/components/dimensions",
 						// "admin/components/discrimination",
-						// "admin/components/editor",
-						// "admin/components/environment",
-						// "admin/components/field-views",
+						"admin/components/editor",
+						"admin/components/field-views",
 						"admin/components/form-fields",
-						// "admin/components/pages",
+						"admin/components/pages",
 						"admin/components/references",
 						"admin/components/repeaters",
 						"admin/components/routing",
-						"admin/components/upload"
+						"admin/components/upload",
+						"admin/components/variables",
 					],
 					"Components - UI": [
+						"admin/components-ui/buttons",
 						"admin/components-ui/layout",
 					],
 					"Data Binding": [
