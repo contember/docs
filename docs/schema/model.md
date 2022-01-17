@@ -12,10 +12,11 @@ TODO: PICTURE OF PROJECT SCHEMA, MODEL SCHEMA, ACL SCHEMA AND INPUT VALIDATION S
 
 Basic unit in model schema is called entity. Each entity can have columns and relationships to other entities.
 
+Each entity is represented as a PostgreSQL table.
+
 You define an entity by exporting a class from the schema definition file
 
 ```typescript
-// projects/<name>/api/model/Post.ts
 export class Post {}
 ```
 
@@ -23,18 +24,7 @@ You don't have to define a primary key, because every entity has "id" column by 
 
 ## Columns
 
-Except its name, each column has a type definition and optionally you may define some flags, like nullability.
-
-Currently we support following column types
-
-- Uuid
-- String
-- Int
-- Double (IEEE 64-bit float)
-- Bool
-- Enum
-- DateTime
-- Date
+Almost every entity has some columns storing its data. 
 
 You define a column by adding a property to an entity (note that we added SchemaDefinition import).
 
@@ -46,6 +36,54 @@ export class Post {
   publishedAt = def.dateTimeColumn();
 }
 ```
+
+Except its name, each column has a type definition, optionally you may define some flags, like nullability.
+
+### Supported column types
+
+#### String
+Generic text field with arbitrary length.
+
+#### Int
+Stores whole signed numbers (32b default) 
+
+#### Double
+Floating point numbers according to IEEE 64-bit float.
+
+#### Bool
+Binary true/false value.
+
+#### Enum
+Field with predefined set of possible values.
+
+#### DateTime
+Ideal for storing date and time, converted to UTC by default and transferred in ISO 8601 format.
+
+#### Date
+Simple date field without a time part.
+
+#### Json
+Stores arbitrary JSON.
+
+#### Uuid
+Universally unique identifier, used for all primary keys by default.
+
+### PostgreSQL type mapping
+
+Table shows default mapping of Contember schema types to corresponding PostgreSQL type. This can be changed with `columnType(...)` in schema definition.
+
+| Contember Type | PostgreSQL type  |
+| -------------- | ---------------  |
+| String         | text             |
+| Int            | integer          |
+| Double         | double precision |
+| Uuid           | uuid             |
+| Bool           | boolean          |
+| DateTime       | timestamptz      |
+| Date           | date             |
+| Json           | jsonb            |
+
+
 
 ## Relationships
 
