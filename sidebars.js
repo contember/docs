@@ -17,7 +17,9 @@ module.exports = {
 			label: "Schema",
 			collapsed: false,
 			items: [
-				"schema/model",
+				"schema/overview",
+				"schema/columns",
+				"schema/relations",
 				"schema/migrations",
 				"schema/acl",
 				"schema/validations",
