@@ -2,7 +2,7 @@
 title: Schema migrations
 ---
 
-After you create or modify your schema, you need to create a migration for your change, otherwise Contember won't see it.
+After you update your schema, you need to create a migration for your change, otherwise Contember won't see it.
 
 There is a command to rescue you:
 
@@ -20,29 +20,57 @@ npm run contember migrations:diff my-blog add-categories
 Name of a migration can only contain alphanumeric letters and a dash
 :::
 
-This command will create a `.json` file describing changes you made.
+Contember will show you individual migration steps and ask you for confirmation. 
 
-:::tip
-You can also write `npm run contember migrations:diff . batch-changes`, which generates diff for all projects in the workspace.
-:::
+You should check the steps with caution, because Contember cannot detect e.g. that you renamed a field. Instead, it drops a field and creates a new one.
 
-Now you should review the generated file, because Contember cannot detect e.g. that you renamed a field. Instead it drops a field and creates a new one. But you can manually place a modification describing the change more precisely.
+If you have chosen to execute migration, you are done for now. If you haven't, you can check created `.json` file and modify migration file manually describing the change more precisely.
 
-You can also use a command
-
+Now you can again verify individual migration steps using following command:
 ```
-npm run contember migrations:dry-run my-blog
+npm run contember migrations:describe my-blog
 ```
 
-which shows you SQLs which will be executed without actually executing them. This helps you to verify that Contember correctly interprets your changes.
-
-When you are happy how the migration looks, you can restart Contember API using
+When you are happy how the migration looks, you can apply the migration using this command:
 
 ```
-npm run contember instance:reload:api
+npm run contember migrations:execute my-blog
 ```
 
-then all the changes will be applied to both Contember schema and PostgreSQL database.
+All the changes will be applied to both Contember schema and PostgreSQL database.
+
+## Common development issues
+
+Contember includes constraints to prevent database inconsistencies. Namely:
+
+- you can't change content of executed migration
+- you can't execute a migration, which precedes already executed migration
+
+Therefore, you should:
+- never modify or delete a migration, which has been executed on live environment
+- ensure, that new migration is always last (e.g. when merging a branch)
+
+During local development, you can bypass some of these checks, even if the migration was locally executed.
+
+Note that all of these commands are available only on local Contember instance. 
+
+### Amending a migration
+
+Imagine you are developing a new feature. You've already created and applied schema migration. Later, you find you need another schema change related to the previous one.
+
+Instead of creating a new diff, you can use `migrations:amend my-blog` command, which updates most recent migration both on disk and on local Contember instance.
+
+Reverting a schema changes and running `migrations:amend` results in removing the migration.
+
+You can specify a migration using `migrations:amend my-blog 2022-01-17-101806-test` to amend specific migration instead of latest.
+
+### Rebasing a migration
+
+Before merging a branch with a new migration, you might find, new migration appeared in an upstream. `migrations:rebase my-blog` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
+
+### Force execution of out-of-order migrations
+
+When you pull a code from the upstream, there might appear a new migration preceding your local migrations. To bypass this, run `migration:execute my-blog --force`
 
 ## Writing or fixing migrations manually
 
