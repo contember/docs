@@ -76,7 +76,6 @@ Role contains set of rules for individual entities and their fields. Putting it 
 ```typescript
 const editorRole = {
   variables: variables,
-  stage: "*",
   entities: {
     Post: {
       predicates: postEntityPredicates,
@@ -86,7 +85,9 @@ const editorRole = {
 };
 ```
 
+<!--
 Beside already described fields there is also a field called stage, which references to a [content stage](content/staging.md). You can define a role to be applicable in any stage by putting a `'*'` or you can set a array of particular stages (e.g. `['live', 'draft']`)
+-->
 
 ## Role inheritance
 
