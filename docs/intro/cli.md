@@ -14,7 +14,6 @@ Contember CLI version X.Y.Z
 Usage: <command> <command args>
     deploy                   Deploy Contember project
     migrations:amend         Amends latest migration
-    migrations:create        Creates empty schema migration for given project
     migrations:describe      Describes a migration
     migrations:diff          Creates schema migration diff for given project
     migrations:execute       Executes migrations on an instance
