@@ -17,7 +17,11 @@ You can define rules for each operation independently, so you can e.g. say that 
 
 ## Variable
 
-Variable is a value stored in Tenant API and is injected to a _predicate_ when the predicate is evaluated. Usually it is some kind of dimension by which you split your data - e.g. a site or a language, or even a category.
+Variable is a value injected to a _predicate_ when the predicate is evaluated. 
+
+### Entity variable
+
+Entity variables are stored in Tenant API within a [membership](tenant/memberships.md). Usually some kind of dimension by which you split your data - e.g. a site or a language, or even a category.
 
 ```typescript
 const variables = {
@@ -26,6 +30,19 @@ const variables = {
     entityName: "Language",
   },
 };
+```
+
+### Predefined variables
+
+Currently, there are two predefined variables - `identityID` with an ID of identity associated with current request and `personID` with ID of person (might be empty). 
+
+```typescript
+const variables = {
+	identity_id: { 
+		type: Acl.VariableType.predefined, 
+        value: 'identityID',
+    }
+}
 ```
 
 ## Predicates
