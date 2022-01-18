@@ -1,42 +1,55 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 module.exports = {
 	someSidebar: [
 		"intro/introduction",
 		{
-			"Getting Started": [
+			type: "category",
+			label: "Getting Started",
+			collapsed: false,
+			items: [
 				"intro/how-it-works",
 				"intro/quickstart",
 				"intro/glossary",
-				"intro/cli"
+				"intro/cli",
 			],
-			"Schema": [
+		},
+		{
+			type: "category",
+			label: "Schema",
+			collapsed: false,
+			items: [
 				"schema/model",
 				"schema/migrations",
 				"schema/acl",
-				"schema/validations"
+				"schema/validations",
 			],
-			"Content API": [
+		},
+		{
+			type: "category",
+			label: "Content API",
+			collapsed: false,
+			items: [
 				"content/overview",
 				"content/queries",
 				"content/mutations",
-				"content/s3"
+				"content/s3",
 			],
-			"Tenant API": [
+		},
+		{
+			type: "category",
+			label: "Tenant API",
+			collapsed: true,
+			items: [
 				"tenant/overview",
 				"tenant/users",
 				"tenant/memberships",
-				"tenant/api-keys"
+				"tenant/api-keys",
 			],
-			// "Guides": [
-			// 	"guides/deployment"
-			// ],
-			"Admin": [
+		},
+		{
+			type: "category",
+			label: "Admin",
+			collapsed: false,
+			items: [
 				"admin/introduction",
 				{
 					"Components": [
@@ -50,20 +63,18 @@ module.exports = {
 						"admin/components/page",
 						"admin/components/reference",
 						"admin/components/select",
-						"admin/components/upload"
+						"admin/components/upload",
 					],
 					"Data Binding": [
 						// "admin/data-binding/entity-accessor",
 						"admin/data-binding/field-accessor",
-						"admin/data-binding/query-language"
+						"admin/data-binding/query-language",
 					],
 					"Releases": [
-						"admin/releases/v0.8.0-alpha.7"
+						"admin/releases/v0.8.0-alpha.7",
 					]
 				}
-
-			]
-		}
-
+			],
+		},
 	]
 }
