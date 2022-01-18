@@ -5,19 +5,25 @@ title: Quickstart
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
+:::tip Tip
+
+If you're want to quickly see what Contember can do, check out our [templates](https://github.com/contember/templates), especially [Headless CMS starter](https://github.com/contember/templates/tree/main/headless-cms).  It's the easiest way to try out what Contember can do in minutes.
+
+:::
+
+## Create new project with Contember
+
 In this tutorial we will show you how to setup both Contember Engine and Contember Admin to create your first project.
 
 :::note Prerequisites
 
-- Installed [NPM](https://www.npmjs.com/) version 6+
+- Installed [NPM](https://www.npmjs.com/) version 7+
 - Installed [Docker](https://docs.docker.com/install/) with [Docker Compose](https://docs.docker.com/compose/install/)
 
 :::
 
-## Install and run Contember locally
-
 ```bash
-npm init "@contember" quickstart
+npm exec "@contember/create@latest" quickstart
 ```
 
 It will create a new folder with basic Contember setup. After it is done:
@@ -105,22 +111,18 @@ From the first step you should have a folder structure that looks like this:
 ```
 quickstart/
   ├── admin/
-  │   ├── SideMenu.tsx
   │   ├── index.html
   │   ├── index.tsx
+  │   ├── components/
   │   ├── pages/
-  │   ├── vite-env.d.ts
-  │   └── vite.config.ts
+  │   └── vite-env.d.ts
   ├── api/
   │   ├── acl.ts
   │   ├── index.ts
   │   ├── migrations/
   │   └── model/
   ├── node_modules/
-  ├── scripts/
   ├── contember.yaml
-  ├── docker-compose.override.dist.yaml
-  ├── docker-compose.override.yaml
   ├── docker-compose.yaml
   ├── package-lock.json
   ├── package.json
@@ -312,14 +314,14 @@ export const ArticleList = (
 
 One last thing is to add our pages to the left sidebar:
 
-```tsx title="admin/SideMenu.tsx"
+```tsx title="admin/components/Navigation.tsx"
 import { Menu } from "@contember/admin";
 
-export const SideMenu = () => {
+export const Navigation = () => {
   return (
     <Menu>
       <Menu.Item>
-        <Menu.Item title="Dashboard" to="dashboard" />
+        <Menu.Item title="Dashboard" to="index" />
         <Menu.Item title="Articles" to="articles" />
         <Menu.Item title="Create new article" to="articleNew" />
       </Menu.Item>
