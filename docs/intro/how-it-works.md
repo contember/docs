@@ -32,20 +32,21 @@ First you have to tell Contember Engine, how your data model looks like. So you 
 ```typescript
 // Post.ts
 
-import { SchemaDefinition as d } from '@contember/schema-definition'
+import { SchemaDefinition as def } from '@contember/schema-definition'
 
 export class Post {
-  title = d.stringColumn().notNull()
-  publishedAt = d.dateTimeColumn()
-  content = d.stringColumn().notNull()
+  title = def.stringColumn().notNull()
+  publishedAt = def.dateTimeColumn()
+  content = def.stringColumn().notNull()
 }
 ```
-
-> We use TypeScript for schema definition.
+:::note
+We use TypeScript for schema definition.
+:::
 
 Contember Engine then creates a table in a PostgreSQL database, where it stores your data and instantly provides you with GraphQL API.
 
-So save a post using GraphQL API mutation do:
+To save a post using GraphQL API, just fire this mutation:
 ```graphql
 mutation {
   createPost(
@@ -56,16 +57,15 @@ mutation {
     }
   ) {
     ok
+    errorMessage
+    node {
+      id
+    }  
   }
 }
 ```
 
-<!--
-MAYBE PICTURE OF CLIENT SENDING GRAPHQL QUERY TO CONTEMBER API AND CONTEMBER API SENDING SQL QUERY TO POSTGRES DB
-SEE https://hasura.io/rstatic/dist/f7a4cfcf2813970ee1350efc9d748c79.gif
--->
-
-To fetch it:
+To list all published posts, you can use this query:
 
 ```graphql
 query {
@@ -75,13 +75,13 @@ query {
   }
 }
 ```
-Of course, Contember Engine also works with complex structures and you can define any kind of relations between entities. Find out more in a chapter [defining schema](schema/overview.md).
+Of course, Contember Engine also works with complex structures, and you can define any kind of relationships between entities. Find out more in a chapter [defining schema](schema/overview.md).
 
 With Contember Admin you can create any management interface you want. For example the post edit page will be as simple as this:
 
 ```typescript jsx
-export const PostEditPage = (
-    <EditPage entity="Post">
+export const postEdit = (
+    <EditPage entity="Post(id = $id)">
         <TextField field="title" label="Title" />
         <TextAreaField field="content" label="Content" />
         <DateTimeField field="publishedAt" label="Published at" />
