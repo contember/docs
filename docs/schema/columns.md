@@ -31,10 +31,10 @@ Except its name, each column has a type definition. Additionally you may define 
 
 :::note
 The type of column in PostgreSQL database can be changed using `.columnType(...)` in schema definition.
-#### Example: changing database type of Json field
+#### Example: changing database type of Json column
 ```typescript
 export class Post {
-	config = d.jsonColumn().columnType('json')
+	config = def.jsonColumn().columnType('json')
 }
 ```
 :::
