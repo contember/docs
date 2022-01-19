@@ -58,6 +58,10 @@ export class Post {
 }
 ```
 
+:::tip
+You can also reference relationships in `Unique`.
+:::
+
 You can then use these unique combinations to [fetch a single record](content/queries.md#fetching-a-single-record).
 "One has one" relationships are marked as unique by default.
 
