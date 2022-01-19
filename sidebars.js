@@ -19,7 +19,7 @@ module.exports = {
 			items: [
 				"schema/overview",
 				"schema/columns",
-				"schema/relations",
+				"schema/relationships",
 				"schema/migrations",
 				"schema/acl",
 				"schema/validations",
