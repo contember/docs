@@ -22,7 +22,7 @@ import { SchemaDefinition as def } from "@contember/schema-definition"
 
 ### Entity
 
-Basic unit in model schema is called entity. Each entity can have columns and relationships to other entities.
+Basic unit in model schema is called entity. Each entity can have fields. There are two kind of fields - [columns](columns.md) holding a value and [relationships](relationships.md) to other entities.
 
 Each entity is represented as a PostgreSQL table.
 
@@ -39,9 +39,9 @@ You don't have to define a primary key, because every entity has "id" column by 
 
 See [columns chapter](columns.md). 
 
-### Relations
+### Relationships
 
-Allow you to set relation between different entities. See [relations chapter](relations.md).
+Allow you to set relationship between different entities. See [relationships chapter](relationships.md).
 
 
 ## ACL schema

@@ -2,7 +2,7 @@
 title: ACL rules
 ---
 
-Contember provides easy way to define access rules for your data by saying which role can access which field. Using this you can create complex rules across entity relations on a cell level.
+Contember provides easy way to define access rules for your data by saying which role can access which field. Using this you can create complex rules across entity relationships on a cell level.
 
 ## Operations
 
@@ -49,7 +49,7 @@ const variables = {
 
 Before you set a rule to a field, you have to define a predicate on an entity - or you can use the most simple predicate `true`, which always allows given operation.
 
-Predicates definition is similar to a syntax you use for [filtering a data](content/queries.md#filters). Lets say you have entities _Language_ and _Post_. And of course a relation between them. And you only want to allow editors to edit a post in their language. A predicate definition, which references the variable `language_id`, may look like this:
+Predicates definition is similar to a syntax you use for [filtering a data](content/queries.md#filters). Lets say you have entities _Language_ and _Post_. And of course a relationship between them. And you only want to allow editors to edit a post in their language. A predicate definition, which references the variable `language_id`, may look like this:
 
 ```typescript
 const postEntityPredicates = {

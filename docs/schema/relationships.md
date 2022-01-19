@@ -37,11 +37,11 @@ We distinguish relationship types - simply "how many entities can be referenced.
 
 ### One-has-many (and many-has-one)
 
-Owning side of this relation references (at most) one entity, but that entity can be referenced many times.
+Owning side of this relationship references (at most) one entity, but that entity can be referenced many times.
 
-![one has many relation](/assets/one-has-many.svg)
+![one has many relationship](/assets/one-has-many.svg)
 
-- We define owning side of this relation using `manyHasOne` method. 
+- We define owning side of this relationship using `manyHasOne` method. 
 - Optionally, we define an inverse side using `oneHasMany` method. 
 - Joining column with actual relationship value is located on owning side.
 - For this relationship, you can also configure:
@@ -54,7 +54,7 @@ Owning side of this relation references (at most) one entity, but that entity ca
 This is probably the most common type of relationship. 
 
 An example is a *Post* having a many *PostComment*, but the *PostComment* belongs to one single *Post*. 
-Here, the *PostComment* is owning side of this relation, because it holds a *Post* identifier in its joining column.
+Here, the *PostComment* is owning side of this relationship, because it holds a *Post* identifier in its joining column.
 
 #### Example: Configuring only owning side
 
@@ -85,11 +85,11 @@ export class Post {
 
 An owning entity can reference many inverse entities. Also, this inverse entity can be referenced from many owning entities. 
 
-![many has many relation](/assets/many-has-many.svg)
+![many has many relationship](/assets/many-has-many.svg)
 
-- Relation is realized through a joining (also called junction) table. 
+- Relationship is realized through a joining (also called junction) table. 
 - Although there is no joining column, we still recognize owning and inverse side (mainly for configuration purposes). 
-- We define owning side of this relation using `manyHasMany` method. 
+- We define owning side of this relationship using `manyHasMany` method. 
 - Optionally, we define an inverse side using `manyHasManyInverse` method.
 - For this relationship, you can also configure:
   - [default order](#default-order) on both sides
@@ -98,8 +98,8 @@ An owning entity can reference many inverse entities. Also, this inverse entity 
 
 Useful when you need to just connect two entities without any additional metadata.
 E.g. a *Post* has many *Tag*s, also there are many *Post*s of each *Tag*. 
-Downside is that you cannot attach any information on the relation between them, e.g. you can't even sort *Tag*s of given *Post*. 
-In case you need such thing, you'd better create an extra entity representing the relation (e.g. a *PostTag* referencing using ManyHasOne both *Post* and *Tag*)
+Downside is that you cannot attach any information on the relationship between them, e.g. you can't even sort *Tag*s of given *Post*. 
+In case you need such thing, you'd better create an extra entity representing the relationship (e.g. a *PostTag* referencing using ManyHasOne both *Post* and *Tag*)
 
 #### Example: Configuring only owning side
 
@@ -126,7 +126,7 @@ export class Category {
 }
 ```
 
-#### Example: Alternative design with intermediate entity representing the relation
+#### Example: Alternative design with intermediate entity representing the relationship
 
 ```typescript
 export class Post {
@@ -151,9 +151,9 @@ export class Tag {
 
 There is at most one entity on each side of this relationship.
 
-![one has one relation](/assets/one-has-one.svg)
+![one has one relationship](/assets/one-has-one.svg)
 
-- We define owning side of this relation using `oneHasOne` method. 
+- We define owning side of this relationship using `oneHasOne` method. 
 - Optionally, we define an inverse side using `oneHasOneInverse` method. 
 - Joining column with actual relationship value is located on owning side.
 - For this relationship, you can also configure 
@@ -238,7 +238,7 @@ export class Post {
 
 #### Example: setting onDelete cascade
 
-This will set content relation to `null` when referenced Content is deleted
+This will set content relationship to `null` when referenced Content is deleted
 
 ```typescript
 export class Post {
@@ -281,7 +281,7 @@ export class Category {
 
 ### Orphan removal
 
-Orphan removal is a special behaviour for one-has-one relations. When you delete an owning side of relation (e.g. a *Post* of *Content*), the inverse side (*Content*) remains orphaned, meaning it is not referenced from any *Post*.
+Orphan removal is a special behaviour for one-has-one relationships. When you delete an owning side of relationship (e.g. a *Post* of *Content*), the inverse side (*Content*) remains orphaned, meaning it is not referenced from any *Post*.
 
 By enabling this option, *Content* will be removed once *Post* is removed.
 
