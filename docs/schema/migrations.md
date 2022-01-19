@@ -2,6 +2,13 @@
 title: Schema migrations
 ---
 
+Schema migrations are JSON files gradually describing project schema changes - e.g. new entities or ACL updates. 
+
+## Basic commands
+
+
+### Creating a diff using `migrations:diff`
+
 After you update your schema, you need to create a migration for your change, otherwise Contember won't see it.
 
 There is a command to rescue you:
@@ -10,7 +17,8 @@ There is a command to rescue you:
 npm run contember migrations:diff <project> <migration name>
 ```
 
-for example
+
+#### Example: creating a diff
 
 ```bash
 npm run contember migrations:diff my-blog add-categories
@@ -26,20 +34,29 @@ You should check the steps with caution, because Contember cannot detect some ch
 
 If you have chosen to execute migration, you are done for now. If you haven't, you can check created `.json` file and modify migration file manually describing the change more precisely.
 
-Now you can again verify individual migration steps using following command:
-```
+### Explaining a migration using `migrations:describe`
+
+You can again verify individual migration steps using `migrations:describe`. You can use `--sql-only` and `--no-sql` to alter output of the command.
+
+#### Example: explaining migrations steps
+```bash
 npm run contember migrations:describe my-blog
 ```
 
-When you are happy how the migration looks, you can apply the migration using this command:
+### Executing migrations using `migrations:execute`
 
-```
+If you've pulled new migrations from upstream, or you want to execute a migration, you've created, you can apply all pending migrations using `migrations:execute`
+
+
+#### Example: executing migrations
+
+```bash
 npm run contember migrations:execute my-blog
 ```
 
 All the changes will be applied to both Contember schema and PostgreSQL database.
 
-## Commands for development
+## Migration constraints
 
 Contember includes constraints to prevent database inconsistencies. Namely:
 
@@ -49,6 +66,9 @@ Contember includes constraints to prevent database inconsistencies. Namely:
 Therefore, you should:
 - never modify or delete a migration, which has been executed on live environment,
 - ensure, that new migration is always last (e.g. when merging a branch).
+
+## Commands for development
+
 
 During local development, you can bypass some of these checks, even if the migration was locally executed.
 
@@ -62,15 +82,41 @@ Instead of creating a new diff, you can use `migrations:amend my-blog` command, 
 
 Reverting a schema changes and running `migrations:amend` results in removing the migration.
 
-You can specify a migration using `migrations:amend my-blog 2022-01-17-101806-test` to amend specific migration instead of latest. Note that if someone else has already run the migration or it's deployed it won't be able to execute the amended migration. 
 
-### Rebasing a migration
+
+#### Example: amending latest migration
+```bash
+npm run contember migrations:amend my-blog
+```
+
+#### Example: amending specific migration
+
+You can specify a migration to amend using additional argument.
+
+```bash
+npm run contember migrations:amend my-blog 2022-01-17-101806-test
+```
+
+:::note If someone else has already run the migration, or it's deployed it won't be possible to execute the amended migration.
+:::
+
+### Rebasing a migration using `migrations:rebasse`
 
 Before merging a branch with a new migration, you might find that a new migration appeared in an upstream. `migrations:rebase my-blog` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
 
+#### Example
+```bash
+npm run contember migrations:rebase my-blog 2022-01-17-101806-test
+```
+
 ### Force execution of out-of-order migrations
 
-When you pull a code from the upstream, there might appear a new migration preceding your local migrations. To bypass this, run `migration:execute my-blog --force`
+When you pull a code from the upstream, there might appear a new migration preceding your local migrations. To bypass this, you can run `migrations:execute` command with `--force` flag.
+
+#### Example: force executing
+```bash
+npm run contember migrations:execute my-blog --force
+```
 
 ## Writing or fixing migrations manually
 
@@ -97,7 +143,7 @@ Arguments:
 
 ### `createColumn`
 
-For not null column it might be useful to fill the column so it won't fail in a runtime.
+For not null column it might be useful to fill the column, so it won't fail in a runtime.
 
 Arguments:
 
