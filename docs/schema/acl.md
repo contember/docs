@@ -2,7 +2,7 @@
 title: ACL rules
 ---
 
-Contember provides easy way to define access rules for your data by saying which role can access which field. Using this you can create complex rules across entity relations on a cell level.
+Contember provides easy way to define access rules for your data by saying which role can access which field. Using this you can create complex rules across entity relationships on a cell level.
 
 ## Operations
 
@@ -17,7 +17,11 @@ You can define rules for each operation independently, so you can e.g. say that 
 
 ## Variable
 
-Variable is a value stored in Tenant API and is injected to a _predicate_ when the predicate is evaluated. Usually it is some kind of dimension by which you split your data - e.g. a site or a language, or even a category.
+Variable is a value associated with a _role_ injected to a _predicate_ when the predicate is evaluated. 
+
+### Entity variable
+
+Entity variables are stored in Tenant API within a [membership](tenant/memberships.md). Usually some kind of dimension by which you split your data - e.g. a site or a language, or even a category.
 
 ```typescript
 const variables = {
@@ -28,11 +32,24 @@ const variables = {
 };
 ```
 
+### Predefined variables
+
+Currently, there are two predefined variables - `identityID` with an ID of identity associated with current request and `personID` with ID of person. `personID` will be empty if the request is executed with token which is not associated with a person.
+
+```typescript
+const variables = {
+	identity_id: { 
+		type: Acl.VariableType.predefined, 
+        value: 'identityID',
+    }
+}
+```
+
 ## Predicates
 
 Before you set a rule to a field, you have to define a predicate on an entity - or you can use the most simple predicate `true`, which always allows given operation.
 
-Predicates definition is similar to a syntax you use for [filtering a data](content/queries.md#filters). Lets say you have entities _Language_ and _Post_. And of course a relation between them. And you only want to allow editors to edit a post in their language. A predicate definition, which references the variable `language_id`, may look like this:
+Predicates definition is similar to a syntax you use for [filtering a data](content/queries.md#filters). Lets say you have entities _Language_ and _Post_. And of course a relationship between them. And you only want to allow editors to edit a post in their language. A predicate definition, which references the variable `language_id`, may look like this:
 
 ```typescript
 const postEntityPredicates = {
@@ -76,7 +93,6 @@ Role contains set of rules for individual entities and their fields. Putting it 
 ```typescript
 const editorRole = {
   variables: variables,
-  stage: "*",
   entities: {
     Post: {
       predicates: postEntityPredicates,
@@ -86,7 +102,9 @@ const editorRole = {
 };
 ```
 
+<!--
 Beside already described fields there is also a field called stage, which references to a [content stage](content/staging.md). You can define a role to be applicable in any stage by putting a `'*'` or you can set a array of particular stages (e.g. `['live', 'draft']`)
+-->
 
 ## Role inheritance
 

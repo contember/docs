@@ -7,13 +7,13 @@ Input validations are is a way to add more constraints to a field. They are spec
 ```ts
 import {
   InputValidation as validation,
-  SchemaDefinition as d,
+  SchemaDefinition as def,
 } from "@contember/schema-definition";
 
 export class Article {
   // highlight-next-line
   @validation.assertNotEmpty("Article title cannot be empty")
-  title = d.stringColumn().notNull();
+  title = def.stringColumn().notNull();
 }
 ```
 

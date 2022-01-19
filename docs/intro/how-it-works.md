@@ -75,7 +75,7 @@ query {
   }
 }
 ```
-Of course, Contember Engine also works with complex structures and you can define any kind of relations between entities. Find out more in a chapter [defining schema](schema/model.md).
+Of course, Contember Engine also works with complex structures and you can define any kind of relations between entities. Find out more in a chapter [defining schema](schema/overview.md).
 
 With Contember Admin you can create any management interface you want. For example the post edit page will be as simple as this:
 
