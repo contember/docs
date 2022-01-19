@@ -17,7 +17,7 @@ You can define rules for each operation independently, so you can e.g. say that 
 
 ## Variable
 
-Variable is a value injected to a _predicate_ when the predicate is evaluated. 
+Variable is a value associated with a _role_ injected to a _predicate_ when the predicate is evaluated. 
 
 ### Entity variable
 
@@ -34,7 +34,7 @@ const variables = {
 
 ### Predefined variables
 
-Currently, there are two predefined variables - `identityID` with an ID of identity associated with current request and `personID` with ID of person (might be empty). 
+Currently, there are two predefined variables - `identityID` with an ID of identity associated with current request and `personID` with ID of person. `personID` will be empty if the request is executed with token which is not associated with a person.
 
 ```typescript
 const variables = {

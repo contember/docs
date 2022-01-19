@@ -22,7 +22,7 @@ Name of a migration can only contain alphanumeric letters and a dash
 
 Contember will show you individual migration steps and ask you for confirmation. 
 
-You should check the steps with caution, because Contember cannot detect e.g. that you renamed a field. Instead, it drops a field and creates a new one.
+You should check the steps with caution, because Contember cannot detect some changes correctly and it may result in a loss of your data. For example when you rename a field it drops the field and creates a new one.
 
 If you have chosen to execute migration, you are done for now. If you haven't, you can check created `.json` file and modify migration file manually describing the change more precisely.
 
@@ -39,7 +39,7 @@ npm run contember migrations:execute my-blog
 
 All the changes will be applied to both Contember schema and PostgreSQL database.
 
-## Common development issues
+## Commands for development
 
 Contember includes constraints to prevent database inconsistencies. Namely:
 
@@ -47,12 +47,12 @@ Contember includes constraints to prevent database inconsistencies. Namely:
 - you can't execute a migration, which precedes already executed migration
 
 Therefore, you should:
-- never modify or delete a migration, which has been executed on live environment
-- ensure, that new migration is always last (e.g. when merging a branch)
+- never modify or delete a migration, which has been executed on live environment,
+- ensure, that new migration is always last (e.g. when merging a branch).
 
 During local development, you can bypass some of these checks, even if the migration was locally executed.
 
-Note that all of these commands are available only on local Contember instance. 
+Note that all of these commands are available only on local Contember instance and not in production environments. 
 
 ### Amending a migration
 
@@ -62,11 +62,11 @@ Instead of creating a new diff, you can use `migrations:amend my-blog` command, 
 
 Reverting a schema changes and running `migrations:amend` results in removing the migration.
 
-You can specify a migration using `migrations:amend my-blog 2022-01-17-101806-test` to amend specific migration instead of latest.
+You can specify a migration using `migrations:amend my-blog 2022-01-17-101806-test` to amend specific migration instead of latest. Note that if someone else has already run the migration or it's deployed it won't be able to execute the amended migration. 
 
 ### Rebasing a migration
 
-Before merging a branch with a new migration, you might find, new migration appeared in an upstream. `migrations:rebase my-blog` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
+Before merging a branch with a new migration, you might find that a new migration appeared in an upstream. `migrations:rebase my-blog` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
 
 ### Force execution of out-of-order migrations
 

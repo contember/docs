@@ -33,7 +33,7 @@ That's all. In next sections, you'll find out how to setup inverse side, not nul
 
 ## Types of relationships
 
-We distinguish relationship types simply by "how many entities can be referenced."
+We distinguish relationship types - simply "how many entities can be referenced."
 
 ### One-has-many (and many-has-one)
 
@@ -149,7 +149,7 @@ export class Tag {
 
 ### One-has-one
 
-There is (at most) one entity on each side of this relationship.
+There is at most one entity on each side of this relationship.
 
 ![one has one relation](/assets/one-has-one.svg)
 
@@ -200,7 +200,7 @@ export class Content {
 ### Nullability
 
 You can also define `.notNull()` constraint for "one has one" relationships and owning side of "many has one" relationship.
-
+This will ensure that there is an entity connected. 
 #### Example: making category of post not nullable
 ```typescript
 export class Post {
@@ -214,11 +214,11 @@ export class Post {
 Using `.onDelete()` you can set what happens when referenced entity is deleted. 
 E.g. you have a post, which is assigned to a category. When a category is deleted, three things can happen:
 
-- restrict: this is default behavior. When you try to delete an entity, which is referenced from other entities, the delete operation will fail.
-- set null: field, which references removed entity, is set to null. Obviously, this is possible only for nullable relationships. You can use shortcut `.setNullOnDelete()` to select this behavior.
-- cascade: all entities, which references an entity which is being removed, are also removed. You can use a shortcut `.cascadeOnDelete()`.
+- Restrict: this is default behavior. When you try to delete an entity, which is referenced from other entities, the delete operation will fail.
+- Set null: field, which references removed entity, is set to null. Obviously, this is possible only for nullable relationships. You can use shortcut `.setNullOnDelete()` to select this behavior.
+- Cascade: all entities, which references an entity which is being removed, are also removed. You can use a shortcut `.cascadeOnDelete()`.
 
-Pay attention when you are choosing the strategy, because choosing a wrong strategy may lead to runtime errors.
+Pay attention when you are choosing the strategy, because choosing a wrong strategy may lead to runtime errors or deleting more content than you wanted.
 
 :::note 
 In database, all relationships are marked as "NO ACTION" and actual strategy is executed by Contember. 

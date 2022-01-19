@@ -3,7 +3,7 @@ title: Project schema overview
 ---
 
 
-Contember Project Schema defines schema of your model and also ACL and validation rules.
+Contember project schema defines schema of your model, ACL and validation rules.
 
 <!--
 TODO: PICTURE OF PROJECT SCHEMA, MODEL SCHEMA, ACL SCHEMA AND INPUT VALIDATION SCHEMA
@@ -11,10 +11,10 @@ TODO: PICTURE OF PROJECT SCHEMA, MODEL SCHEMA, ACL SCHEMA AND INPUT VALIDATION S
 
 ## Model schema
 
-First lets look at the model schema, which is now the most important for us.
+First let's look at the model schema, which is now the most important for us.
 
 :::note 
-Make sure you have SchemaDefinition imported in each file
+Make sure you have `SchemaDefinition` imported in each file
 ```typescript
 import { SchemaDefinition as def } from "@contember/schema-definition"
 ```
@@ -41,7 +41,7 @@ See [columns chapter](columns.md).
 
 ### Relations
 
-See [relations chapter](relations.md).
+Allow you to set relation between different entities. See [relations chapter](relations.md).
 
 
 ## ACL schema
