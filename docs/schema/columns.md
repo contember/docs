@@ -17,17 +17,17 @@ Except its name, each column has a type definition. Additionally you may define 
 
 ## Supported data types
 
-| Contember Type | PostgreSQL type  | Description
-| -------------- | ---------------  | -----------
-| String         | text             | Generic text field with arbitrary length.
-| Int            | integer          | Stores whole signed numbers (32b default)
-| Double         | double precision | Floating point numbers according to IEEE 64-bit float.
-| Bool           | boolean          | Binary true/false value.
-| DateTime       | timestamptz      | For storing date and time, converted to UTC by default and transferred in ISO 8601 format (e.g. `2032-01-18T13:36:45Z`).
-| Date           | date             | Date field without a time part. It's transferred in `YYYY-MM-DD` format (e.g. `2032-01-18`).
-| Json           | jsonb            | Stores arbitrary JSON.
-| UUID           | uuid             | Universally unique identifier, used for all primary keys by default.
-| Enum           | *custom domain*  | Field with predefined set of possible values. [See more in a section below.](#enums)
+| Contember Type | Definition method | PostgreSQL type  | Description
+| -------------- | ------------------| ---------------- | -----------
+| String         | stringColumn      | text             | Generic text field with arbitrary length.
+| Int            | intColumn         | integer          | Stores whole signed numbers (32b default)
+| Double         | doubleColumn      | double precision | Floating point numbers according to IEEE 64-bit float.
+| Bool           | boolColumn        | boolean          | Binary true/false value.
+| DateTime       | dateTimeColumn    | timestamptz      | For storing date and time, converted to UTC by default and transferred in ISO 8601 format (e.g. `2032-01-18T13:36:45Z`).
+| Date           | dateColumn        | date             | Date field without a time part. It's transferred in `YYYY-MM-DD` format (e.g. `2032-01-18`).
+| Json           | jsonColumn        | jsonb            | Stores arbitrary JSON.
+| UUID           | uuidColumn        | uuid             | Universally unique identifier, used for all primary keys by default.
+| Enum           | enumColumn        | *custom domain*  | Field with predefined set of possible values. [See more in a section below.](#enums)
 
 :::note
 The type of column in PostgreSQL database can be changed using `.columnType(...)` in schema definition.
