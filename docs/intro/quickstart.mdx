@@ -155,15 +155,19 @@ import * as React from 'react'
 import { CreatePage, DataGridPage, TextAreaField, TextCell, TextField } from '@contember/admin'
 
 export const articleList = (
-  ...
+  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+    <TextCell field="title" header="Title" />
+  </DataGridPage>
 )
 
+{/* highlight-start */}
 export const articleCreate = (
-	<CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
-		<TextField field="title" label="Title" />
-		<TextAreaField field="content" label="Content" />
-	</CreatePage>
+  <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
+    <TextField field="title" label="Title" />
+    <TextAreaField field="content" label="Content" />
+  </CreatePage>
 )
+{/* highlight-end */}
 ```
 
 1. For simplicity, we'll add it to the same file.
@@ -180,30 +184,36 @@ But it doesn't work very well. One of the things missing is to go to edit mode a
 For simplicity, we'll add it to the same file as well. It looks almost the same as the create page - but we have to tell it which article to edit:
 
 ```tsx title="admin/pages/articles.tsx"
-import {
-  ...
-} from "@contember/admin";
+import * as React from 'react'
+import { CreatePage, DataGridPage, EditPage, TextAreaField, TextCell, TextField } from '@contember/admin'
 
 export const articleList = (
-  ...
+  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+    <TextCell field="title" header="Title" />
+  </DataGridPage>
 )
 
 export const articleCreate = (
-  ...
+  <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
+    <TextField field="title" label="Title" />
+    <TextAreaField field="content" label="Content" />
+  </CreatePage>
 )
 
+{/* highlight-start */}
 export const articleEdit = (
   <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
     <TextField field="title" label="Title" />
     <TextAreaField field="content" label="Content" />
   </EditPage>
 )
+{/* highlight-end */}
 ```
 
 Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
 
 ```tsx title="admin/pages/articles.tsx"
-export const ArticleCreate = (
+export const articleCreate = (
   <CreatePage
     entity="Article"
     rendererProps={{ title: 'Create Article' }}
@@ -212,9 +222,9 @@ export const ArticleCreate = (
     {/* highlight-end */}
   >
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="content" />
+    <TextAreaField field="content" label="Content" />
   </CreatePage>
-);
+)
 ```
 
 This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected.
@@ -224,13 +234,51 @@ Now if you create a new article you're automatically redirected to the edit page
 What's missing is an edit and delete button in the list of pages.
 
 ```tsx title="admin/pages/articles.tsx"
+import * as React from 'react'
+import {
+  CreatePage,
+  DataGridPage,
+  {/* highlight-start */}
+  DeleteEntityButton,
+  {/* highlight-end */}
+  EditPage,
+  {/* highlight-start */}
+  GenericCell,
+  Link,
+  {/* highlight-end */}
+  TextAreaField,
+  TextCell,
+  TextField,
+} from '@contember/admin'
+
 export const articleList = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
+    {/* highlight-start */}
     <GenericCell shrunk><Link to="articleEdit(id: $entity.id)">Edit</Link></GenericCell>
     <GenericCell shrunk><DeleteEntityButton immediatePersist /></GenericCell>
+    {/* highlight-end */}
   </DataGridPage>
 )
+
+export const articleCreate = (
+  <CreatePage
+    entity="Article"
+    rendererProps={{ title: 'Create Article' }}
+    redirectOnSuccess="articleEdit(id: $entity.id)"
+  >
+    <TextField field="title" label="Title" />
+    <TextAreaField field="content" label="Content" />
+  </CreatePage>
+)
+
+export const articleEdit = (
+  <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
+    <TextField field="title" label="Title" />
+    <TextAreaField field="content" label="Content" />
+  </EditPage>
+)
+
 ```
 
 1. We've added two `GenericCell`.
@@ -243,6 +291,7 @@ export const articleList = (
 One last thing is to add our pages to the left sidebar:
 
 ```tsx title="admin/components/Navigation.tsx"
+import * as React from 'react'
 import { Menu } from '@contember/admin'
 
 export const Navigation = () => (
