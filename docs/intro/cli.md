@@ -31,9 +31,10 @@ Usage: <command> <command args>
 ```
 
 ## Commands
-
-> TIP: you can use non-ambiguous abbreviation for commands,
-> for example `npm run contember migr:exe`, which runs `migrations:execute` command
+:::tip
+You can use non-ambiguous abbreviation for commands,
+for example `npm run contember migr:exe`, which runs `migrations:execute` command
+:::
 
 ### migrations:diff
 
