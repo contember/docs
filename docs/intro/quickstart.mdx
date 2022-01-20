@@ -2,9 +2,6 @@
 title: Quickstart
 ---
 
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
-
 :::tip Tip
 
 If you're want to quickly see what Contember can do, check out our [Headless CMS template](https://github.com/contember/templates/tree/main/headless-cms).  It's the easiest way to try out what Contember can do in minutes.
@@ -34,56 +31,14 @@ cd quickstart
 
 And then install dependencies:
 
-<Tabs
-  defaultValue=""
-  values={[
-    {label: 'Mac', value: 'mac' },
-    {label: 'Windows', value: 'windows' },
-    {label: 'Linux or WSL', value: 'linux' },
-  ]}
->
-
-  <TabItem value="mac" label="Mac">
-
-```bash
-docker-compose run admin npm install
-```
-
-:::note
-
-On Mac we recommend to install dependencies directly in Docker - not by running `npm install` directly but as shown above.
-
-:::
-
-  </TabItem>
-  <TabItem value="windows" label="Windows">
-
-:::caution Use Windows Subsystem for Linux (WSL)
-
-If you are using Windows we recommend using [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) if possible. Some features might not work correctly without it (such as rebuilding automatically after a file change).
-
-:::
-
-```bash
-docker-compose run admin npm install
-```
-
-> On Windows we recommend to install dependencies directly in Docker.
-
-  </TabItem>
-  <TabItem value="linux" label="Linux">
-
 ```bash
 npm install
 ```
 
-  </TabItem>
-</Tabs>
-
 And you're ready to go. Just start Docker containers and Contember will be running.
 
 ```bash
-docker-compose up
+npm start
 ```
 
 Now, administration UI should be running on address [http://localhost:1480](http://localhost:1480).
@@ -111,21 +66,22 @@ From the first step you should have a folder structure that looks like this:
 ```
 quickstart/
   ├── admin/
-  │   ├── index.html
-  │   ├── index.tsx
   │   ├── components/
   │   ├── pages/
+  │   ├── .env
+  │   ├── index.html
+  │   ├── index.tsx
   │   └── vite-env.d.ts
   ├── api/
-  │   ├── acl.ts
-  │   ├── index.ts
   │   ├── migrations/
-  │   └── model/
+  │   ├── model/
+  │   ├── acl.ts
+  │   └── index.ts
+  ├── docker/
   ├── node_modules/
-  ├── contember.yaml
   ├── docker-compose.yaml
-  ├── package-lock.json
   ├── package.json
+  ├── package-lock.json
   └── tsconfig.json
 ```
 
@@ -136,16 +92,16 @@ First you have to tell Contember Engine, how your data model looks like. The `in
 Here you start defining your project schema. Really simple example looks like this:
 
 ```ts title="api/model/index.ts"
-import { SchemaDefinition as d } from "@contember/schema-definition";
+import { SchemaDefinition as def } from '@contember/schema-definition'
 
 export class Article {
-  title = d.stringColumn();
-  content = d.stringColumn();
+  title = def.stringColumn()
+  content = def.stringColumn()
 }
 ```
 
 1. Import `SchemaDefinition` so you'll get TypeScript autocompletion.
-2. Define your fist entity - `Article`. For this example let's just add two columns named `title` and `content`, both are `string`.
+2. Define your first entity - `Article`. For this example let's just add two columns named `title` and `content`, both are `string`.
 
 Then you need to generate a database migration for Contember Engine:
 
@@ -155,7 +111,7 @@ npm run contember migrations:diff quickstart add-article
 
 :::note Contember CLI
 
-`npm run contember` is a Contember CLI, if you call this command you'll see all the available commands.
+`npm run contember` is a Contember CLI, if you call this without any arguments you'll see all the available commands.
 We'll use `migrations:diff` command. It goes through your schema and generates migration - instructions for Contember how to get from previous state to your new one.
 This command needs two parameters: first is name of your project (`quickstart` in our example) and then name your migration. It can be anything you want.
 
@@ -169,112 +125,91 @@ Now we have something we want to edit in UI. Let's start by adding a listing pag
 
 ### Add listing page
 
-Go to `admin/pages` and create new file `Articles.tsx`.
+Go to `admin/pages` and create new file `articles.tsx`.
 
-```tsx title="admin/pages/Articles.tsx"
-import { TablePage, TableCell, Field } from "@contember/admin";
+```tsx title="admin/pages/articles.tsx"
+import * as React from 'react'
+import { DataGridPage, TextCell } from '@contember/admin'
 
-export const ArticleList = (
-  <TablePage entities="Article" pageName="articles">
-    <TableCell>
-      <Field field="title" />
-    </TableCell>
-  </TablePage>
-);
+export const articleList = (
+  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+    <TextCell field="title" header="Title" />
+  </DataGridPage>
+)
 ```
 
 1. Import `@contember/admin` package for TypeScript autocompletion.
-2. Export new `ArticleList` (you can name it anyway you like)
-3. Use `TablePage` component to show the data in a simple table.
+2. Export `articleList`. The export name is used for linking to the page and in URL.
+3. Use `DataGridPage` component to show the data in a simple datagrid.
 4. Tell it which entities you'd like to edit. In our case it's `Article` (it has to be the same name we used in the model).
-5. Name your list (`pageName="article"`). Name is used for url in administration.
-6. Tell it what data you want to see. We'll want to see `title` in our example. (And added it into `TableCell` which we'll make use of later.)
+5. Use `TextCell` to add text column.
 
-If you go to [localhost:1480/articles](http://localhost:1480/articles) you'll see list of your articles. Which is empty as we didn't add any data there yet.
+If you go to [localhost:1480/articles](http://localhost:1480/article-list) you'll see list of your articles. Which is empty as we didn't add any data there yet.
 
 Let's add some data.
 
 ### Add create page
 
-```tsx title="admin/pages/Articles.tsx"
-import {
-  TablePage,
-  TableCell,
-  Field,
-  CreatePage,
-  TextField,
-  TextAreaField
-} from "@contember/admin";
+```tsx title="admin/pages/articles.tsx"
+import * as React from 'react'
+import { CreatePage, DataGridPage, TextAreaField, TextCell, TextField } from '@contember/admin'
 
-export const ArticleList = (
+export const articleList = (
   ...
 )
 
-export const ArticleCreate = (
-    <CreatePage
-        entity="Article"
-        pageName="articleNew"
-    >
-        <TextField field="title" label="Title" />
-        <TextAreaField field="content" label="content" />
-    </CreatePage>
+export const articleCreate = (
+	<CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
+		<TextField field="title" label="Title" />
+		<TextAreaField field="content" label="Content" />
+	</CreatePage>
 )
 ```
 
-1. For simplicity we'll add it to the same file.
-2. This time we'll use `CreatePage` component.
-3. We'll tell it what we want to add (`Article`), how is this component named (`articleNew`).
+1. For simplicity, we'll add it to the same file.
+2. This time we'll use `CreatePage` component exported as `articleCreate`
+3. We'll tell it what we want to add (`Article`).
 4. We'll use two new components - `TextField` and `TextAreaField` and tell them what fields to edit.
 
-Now at [localhost:1480/article-new](http://localhost:1480/article-new) you can create new article. And if you go to the [list of articles](http://localhost:1480/articles) you'll see the data are there.
+Now at [localhost:1480/article-new](http://localhost:1480/article-create) you can create new article. And if you go to the [list of articles](http://localhost:1480/article-list) you'll see the data are there.
 
 But it doesn't work very well. One of the things missing is to go to edit mode after you created a new article. So let's start by adding an edit page:
 
 ### Add edit page
 
-For simplicity we'll add it to the same file as well. It looks almost the same as the create page - but we have to tell it which article to edit:
+For simplicity, we'll add it to the same file as well. It looks almost the same as the create page - but we have to tell it which article to edit:
 
-```tsx title="admin/pages/Articles.tsx"
+```tsx title="admin/pages/articles.tsx"
 import {
   ...
 } from "@contember/admin";
 
-export const ArticleList = (
+export const articleList = (
   ...
 )
 
-export const ArticleCreate = (
+export const articleCreate = (
   ...
 )
 
-export const ArticleEdit = (
-    <EditPage
-      /* highlight-start */
-      entity="Article(id = $id)"
-      /* highlight-end */
-      pageName="article"
-    >
-        <TextField field="title" label="Title" />
-        <TextAreaField field="content" label="content" />
-    </EditPage>
+export const articleEdit = (
+  <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
+    <TextField field="title" label="Title" />
+    <TextAreaField field="content" label="Content" />
+  </EditPage>
 )
 ```
 
 Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
 
-```tsx {5-12} title="admin/pages/Pages.tsx"
+```tsx title="admin/pages/articles.tsx"
 export const ArticleCreate = (
   <CreatePage
     entity="Article"
-    pageName="articleNew"
-    rendererProps={{ title: "Add a article" }}
-    redirectOnSuccess={(request, id) => ({
-      ...request,
-      pageName: "article",
-      parameters: {
-        id,
-      },
-    })}
+    rendererProps={{ title: 'Create Article' }}
+    {/* highlight-start */}
+    redirectOnSuccess="articleEdit(id: $entity.id)"
+    {/* highlight-end */}
   >
     <TextField field="title" label="Title" />
     <TextAreaField field="content" label="content" />
@@ -282,52 +217,43 @@ export const ArticleCreate = (
 );
 ```
 
-We added two new things: `rendererProps` and `redirectOnSuccess`:
-
-- `rendererProps` are pretty simple in this case: just added title so we know that we're on this page,
-- `redirectOnSuccess` is more complicated: we take user to `page` with id of the newly created page.
+This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected.
 
 Now if you create a new article you're automatically redirected to the edit page.
 
-What's missing is an edit button in the list of pages.
+What's missing is an edit and delete button in the list of pages.
 
-```tsx title="admin/pages/Pages.tsx"
-export const ArticleList = (
-  <TablePage entities="Article" pageName="articles">
-    <TableCell>
-      <Field field="title" />
-    </TableCell>
-    {/* highlight-start */}
-    <TableCell shrunk>
-      <PageLinkById to="article">edit</PageLinkById>
-    </TableCell>
-    {/* highlight-end */}
-  </TablePage>
-);
+```tsx title="admin/pages/articles.tsx"
+export const articleList = (
+  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+    <TextCell field="title" header="Title" />
+    <GenericCell shrunk><Link to="articleEdit(id: $entity.id)">Edit</Link></GenericCell>
+    <GenericCell shrunk><DeleteEntityButton immediatePersist /></GenericCell>
+  </DataGridPage>
+)
 ```
 
-1. We've added new `TableCell` and into it a `PageLinkById` component.
-2. This component is pretty simple - it will create a link to a component called `article` and sends id as parameter. Which is actually our edit page.
-3. Minor touch is use of `shrunk` with tells the cell to be as small as possible.
+1. We've added two `GenericCell`.
+2. First with `Link` component targeting `articleEdit` page and passing `id` as parameter.
+3. Second with delete button provided by `DeleteEntityButton`.
+4. Minor touch is use of `shrunk` with tells the cell to be as small as possible.
 
 ### Add pages to side menu
 
 One last thing is to add our pages to the left sidebar:
 
 ```tsx title="admin/components/Navigation.tsx"
-import { Menu } from "@contember/admin";
+import { Menu } from '@contember/admin'
 
-export const Navigation = () => {
-  return (
-    <Menu>
-      <Menu.Item>
-        <Menu.Item title="Dashboard" to="index" />
-        <Menu.Item title="Articles" to="articles" />
-        <Menu.Item title="Create new article" to="articleNew" />
-      </Menu.Item>
-    </Menu>
-  );
-};
+export const Navigation = () => (
+  <Menu>
+    <Menu.Item>
+      <Menu.Item title="Dashboard" to="index" />
+      <Menu.Item title="Articles" to="articleList" />
+      <Menu.Item title="Create new article" to="articleCreate" />
+    </Menu.Item>
+  </Menu>
+)
 ```
 
 And that's it! You have just created a simple data model and created custom interface, so you can edit the data. If you want you can fetch the data via GraphQL API that was created in the background you can read more in [Content API topic](/content/overview).
