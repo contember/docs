@@ -43,7 +43,7 @@ npm start
 
 Now, administration UI should be running on address [http://localhost:1480](http://localhost:1480).
 
-![administration is running](/assets/contember-admin-running.png)
+![administration is running](/assets/quickstart-intro.png)
 
 :::note Started services
 
@@ -152,7 +152,7 @@ Let's add some data.
 
 ```tsx title="admin/pages/articles.tsx"
 import * as React from 'react'
-import { CreatePage, DataGridPage, TextAreaField, TextCell, TextField } from '@contember/admin'
+import { CreatePage, DataGridPage, RichTextField, TextCell, TextField } from '@contember/admin'
 
 export const articleList = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
@@ -164,7 +164,7 @@ export const articleList = (
 export const articleCreate = (
   <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="Content" />
+    <RichTextField field="content" label="Content" />
   </CreatePage>
 )
 {/* highlight-end */}
@@ -173,7 +173,7 @@ export const articleCreate = (
 1. For simplicity, we'll add it to the same file.
 2. This time we'll use `CreatePage` component exported as `articleCreate`
 3. We'll tell it what we want to add (`Article`).
-4. We'll use two new components - `TextField` and `TextAreaField` and tell them what fields to edit.
+4. We'll use two new components - `TextField` and `RichTextField` and tell them what fields to edit.
 
 Now at [localhost:1480/article-new](http://localhost:1480/article-create) you can create new article. And if you go to the [list of articles](http://localhost:1480/article-list) you'll see the data are there.
 
@@ -185,7 +185,7 @@ For simplicity, we'll add it to the same file as well. It looks almost the same 
 
 ```tsx title="admin/pages/articles.tsx"
 import * as React from 'react'
-import { CreatePage, DataGridPage, EditPage, TextAreaField, TextCell, TextField } from '@contember/admin'
+import { CreatePage, DataGridPage, EditPage, RichTextField, TextCell, TextField } from '@contember/admin'
 
 export const articleList = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
@@ -196,7 +196,7 @@ export const articleList = (
 export const articleCreate = (
   <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="Content" />
+    <RichTextField field="content" label="Content" />
   </CreatePage>
 )
 
@@ -204,7 +204,7 @@ export const articleCreate = (
 export const articleEdit = (
   <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="Content" />
+    <RichTextField field="content" label="Content" />
   </EditPage>
 )
 {/* highlight-end */}
@@ -222,7 +222,7 @@ export const articleCreate = (
     {/* highlight-end */}
   >
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="Content" />
+    <RichTextField field="content" label="Content" />
   </CreatePage>
 )
 ```
@@ -246,7 +246,7 @@ import {
   GenericCell,
   Link,
   {/* highlight-end */}
-  TextAreaField,
+  RichTextField,
   TextCell,
   TextField,
 } from '@contember/admin'
@@ -268,14 +268,14 @@ export const articleCreate = (
     redirectOnSuccess="articleEdit(id: $entity.id)"
   >
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="Content" />
+    <RichTextField field="content" label="Content" />
   </CreatePage>
 )
 
 export const articleEdit = (
   <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
     <TextField field="title" label="Title" />
-    <TextAreaField field="content" label="Content" />
+    <RichTextField field="content" label="Content" />
   </EditPage>
 )
 
@@ -305,4 +305,10 @@ export const Navigation = () => (
 )
 ```
 
-And that's it! You have just created a simple data model and created custom interface, so you can edit the data. If you want you can fetch the data via GraphQL API that was created in the background you can read more in [Content API topic](/content/overview).
+And that's it! You have just created a simple data model and created custom interface, so you can edit the data.
+
+![administration is running](/assets/quickstart-final.png)
+
+### Fetch data via GraphQL API
+
+We recommend reading [Content API topic](/content/overview) however if you're looking to quickly play with the API, we've prepared [Insomnia](https://insomnia.rest/) project for you to import and quickly try it out. To use it <a href="/assets/insomnia-quickstart.json" target="_blank">download it here</a> and just drag&drop it to Insomnia.
