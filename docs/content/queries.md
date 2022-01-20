@@ -79,7 +79,37 @@ query {
 
 ### Filters
 
-`filter` argument allows you to apply a filter on the result. On each ordinary column (which is not a relation) you can set following conditions:
+`filter` argument allows you to apply a filter on the result. On columns you can use following conditions:
+
+#### Comparison operators
+
+| GraphQL name | Description     | Example                                                        | Supported columns
+| ------------ | --------------  | ----------------                                               | ------------
+| isNull       |  is (not) null                           | `{isNull: true}` or `{isNull: false}` | Everywhere
+| eq           |  equal to                                | `{eq: "value"}`                       | Everywhere but JSON
+| notEq        |  not equals to                           | `{notEq: "value"}`                    | Everywhere but JSON
+| in           |  is in list                              | `{in: ["A", "B"]}`                    | Everywhere but JSON
+| notIn        |  is not in list                          | `{in: ["A", "B"]}`                    | Everywhere but JSON
+| lt           |  less than                               | `{lt: 100}`                           | Everywhere but JSON
+| lte          |  less than or equals to                  | `{lte: 100}`                          | Everywhere but JSON
+| gt           |  greater than                            | `{gt: 100}`                           | Everywhere but JSON
+| gte          |  greater than or equals to               | `{gte: 100}`                          | Everywhere but JSON
+| contains     |  contains a string (case sensitive)      | `{contains: "contember"}`             | String only
+| containsCI   |  contains a string (case insensitive)    | `{containsCI: "contember"}`           | String only
+| startsWith   |  starts with a string (case sensitive)   | `{startsWith: "contember"}`           | String only
+| startsWithCI |  starts with a string (case insensitive) | `{startsWithCI: "contember"}`         | String only
+| endsWith     |  ends with a string (case sensitive)     | `{endsWith: "contember"}`             | String only
+| endsWithCI   |  ends with a string (case insensitive)   | `{endsWithCI: "contember"}`           | String only
+
+#### Logic operators
+
+| GraphQL name | Example
+| -----------  | --------
+| and          | `{and: [{ gte: "2019-12-20" }, { lte: "2019-12-30" }]}`
+| or           | `{or: [{isNull: true}, {eq: "value"}]}`
+| not          | `{not: {eq: "value"}}`
+
+#### Example: GraphQL type for String condition
 
 ```graphql
 input StringCondition {
@@ -105,8 +135,11 @@ input StringCondition {
 }
 ```
 
-It is not possible to combine multiple fields in a single object. You have to wrap using `and` or `or` fields. For example, you want to select posts published in a range, then you create following condition:
+:::note
+It is not possible to combine multiple fields in a single object. You have to wrap it using `and` or `or` fields.
+:::
 
+#### Example: combining two operators using AND
 ```graphql
 query {
   listPost(
@@ -119,6 +152,8 @@ query {
   }
 }
 ```
+
+#### Example: filtering over relation
 
 You can also filter over relations (both "has one" and "has many"), for example you want to only select posts written by "John Doe" and published with a "graphql" tag
 
@@ -140,9 +175,15 @@ query {
 
 Result set can be sorted by setting an `orderBy` argument. This argument can contain multiple sort fields and can also contain relations.
 
+#### Example
 ```graphql
 query {
-  listPost(orderBy: [{ author: { name: asc } }, { publishedAt: desc }]) {
+  listPost(
+      orderBy: [
+        { author: { name: asc } },
+        { publishedAt: desc }
+      ]
+  ) {
     id
     title
   }
