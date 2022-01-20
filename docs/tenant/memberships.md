@@ -2,7 +2,7 @@
 title: Memberships
 ---
 
-An identity can be a member of any project with some role and optionally variables assigned. This is called a membership. You have to be a project admin (or a superadmin) to manage project memberships.
+An identity can be a member of any project with some role and optionally variables assigned. This is called a membership. A project admin (and a superadmin) can manage project memberships by default, you can also setup [Tenant ACL permissions](/schema/acl.md#tenant-permissions) for other user roles.
 
 ## Creating a project membership
 

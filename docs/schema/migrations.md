@@ -56,6 +56,10 @@ npm run contember migrations:execute my-blog
 
 All the changes will be applied to both Contember schema and PostgreSQL database.
 
+:::note
+To execute migrations, you need [appropriate permissions](acl.md#migrations).
+:::
+
 ## Migration constraints
 
 Contember includes constraints to prevent database inconsistencies. Namely:

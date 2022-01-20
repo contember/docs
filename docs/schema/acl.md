@@ -17,7 +17,7 @@ You can define rules for each operation independently, so you can e.g. say that 
 
 ## Variable
 
-Variable is a value associated with a _role_ injected to a _predicate_ when the predicate is evaluated. 
+Variable is a value associated with a _role_ injected to a _predicate_ when the predicate is evaluated.
 
 ### Entity variable
 
@@ -25,10 +25,10 @@ Entity variables are stored in Tenant API within a [membership](tenant/membershi
 
 ```typescript
 const variables = {
-  language_id: {
-    type: Acl.VariableType.entity,
-    entityName: "Language",
-  },
+	language_id: {
+		type: Acl.VariableType.entity,
+		entityName: "Language",
+	},
 };
 ```
 
@@ -38,10 +38,10 @@ Currently, there are two predefined variables - `identityID` with an ID of ident
 
 ```typescript
 const variables = {
-	identity_id: { 
-		type: Acl.VariableType.predefined, 
-        value: 'identityID',
-    }
+	identity_id: {
+		type: Acl.VariableType.predefined,
+		value: 'identityID',
+	}
 }
 ```
 
@@ -53,11 +53,11 @@ Predicates definition is similar to a syntax you use for [filtering a data](cont
 
 ```typescript
 const postEntityPredicates = {
-  languagePredicate: {
-    language: {
-      id: "language_id",
-    },
-  },
+	languagePredicate: {
+		language: {
+			id: "language_id",
+		},
+	},
 };
 ```
 
@@ -67,16 +67,16 @@ Now you have the predicate defined, so you can set rules on each field of the en
 
 ```typescript
 const postEntityOperations = {
-  read: {
-    title: true,
-  },
-  update: {
-    title: "languagePredicate",
-  },
-  create: {
-    title: "languagePredicate",
-  },
-  delete: false,
+	read: {
+		title: true,
+	},
+	update: {
+		title: "languagePredicate",
+	},
+	create: {
+		title: "languagePredicate",
+	},
+	delete: false,
 };
 ```
 
@@ -92,13 +92,13 @@ Role contains set of rules for individual entities and their fields. Putting it 
 
 ```typescript
 const editorRole = {
-  variables: variables,
-  entities: {
-    Post: {
-      predicates: postEntityPredicates,
-      operations: postEntityOperations,
-    },
-  },
+	variables: variables,
+	entities: {
+		Post: {
+			predicates: postEntityPredicates,
+			operations: postEntityOperations,
+		},
+	},
 };
 ```
 
@@ -111,6 +111,142 @@ Beside already described fields there is also a field called stage, which refere
 A role can inherit rules of other role (or multiple roles) and extend it. It is not possible to deny a permission, which a role, you inherit from, grants. Resulting rules are merged using "or" operator.
 
 If you assign multiple roles to an identity, it is merged in the exactly same way.
+
+#### Example: extending a role
+
+```typescript
+const editorRole = {
+	// ...
+  inherits: ['user'],  
+}
+```
+
+## Tenant permissions
+
+Here, you can also setup [Tenant API] permissions for a role. It is done under the `tenant` field of the role.
+
+### Invite permissions
+
+By setting `invite` to `true` you can allow a user to invite other users. Keep in mind, you also need to set appropriate [manage permissions](#manage-permissions) for the role.
+
+There is also `unmanagedInvite` flag, which allows you to invite users using `unmanagedInvite` mutation.
+
+#### Example: enabling invite
+
+```typescript
+const editorRole = {
+	// ...
+	tenant: {
+		invite: true,
+	},
+}
+```
+
+### Manage permissions
+
+Defines which other roles and their variables a user can manage. First you define a role, which you want to manage as a object key:
+
+```typescript
+const editorRole = {
+	// ...
+	tenant: {
+		manage: {
+			editor: {
+				// ...
+			},
+		},
+	},
+}
+```
+
+With this, you would be able to manage users with the role `editor`, but not their variables.
+
+To allow managing all variable, just pass `variables: true`,
+
+```typescript
+const editorRole = {
+	// ...
+	tenant: {
+		manage: {
+			editor: {
+				variables: true,
+			},
+		},
+	},
+}
+```
+
+To granularly define which variables a user can manage, you can pass an object with variable names as keys and either `true` or source variable name as a value.
+
+```typescript
+const editorRole = {
+	// ...
+	tenant: {
+		manage: {
+			editor: {
+				variables: {
+					language: true,
+					site: 'assignable_site',
+				},
+			},
+		},
+	},
+}
+```
+
+This would allow a user manage `editor` role and assign any value to `language` variable. For `site` variable, user can only assign values from his own `assignable_site` source variable.
+
+
+## System API permissions
+
+You can also set some flags affecting system API.
+
+### History API
+
+by setting `history` flag under `system` section to `true` you can allow a user to access the history API.
+
+```typescript
+const editorRole = {
+	// ...
+	system: {
+		history: true,
+	}
+}
+```
+:::note
+Allowing history API access will allow user to access all the data in history API, ignoring entity rules.
+:::
+
+### Migrations
+
+Allow a role to run [migrations](migrations.md). Project admin (and superadmin) can always run migrations. Also, there is a default `deployer` role with this and only permission.
+
+```typescript
+const editorRole = {
+  // ...
+  system: {
+    migrations: true,
+  }
+}
+```
+
+### Assume identity
+
+By setting `assumeIdentity` flag to `true` you can allow a user to use `x-contember-assume-identity`. Identity ID passed in this header will be written in event log instead of the current user identity.
+
+```typescript
+const editorRole = {
+  // ...
+  system: {
+    assumeIdentity: true,
+  }
+}
+```
+
+```http request
+X-Contember-Assume-Identity: 78e1c76f-2c09-4340-8d59-04a14ff86dac
+```
+
 
 <!--
 ## ACL builder
@@ -125,4 +261,4 @@ TODO
 
 ## S3 ACL
 
-Contember S3 integration has special ACL definition - for mode details see [S3 chapter](content/s3.md).
+Contember S3 integration has a dedicated ACL definition - for mode details see [S3 chapter](content/s3.md).
