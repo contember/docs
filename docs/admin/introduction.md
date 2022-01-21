@@ -10,4 +10,4 @@ Define your own management UI with high-level React components. It automatically
 - Next-gen WYSIWYG editor
 - Multi-language, translatable
 - Extend with your own React.js components
-- automatic [Data binding](/data-binding/overview.md)
+- automatic [Data binding](/admin/data-binding/overview.md)
