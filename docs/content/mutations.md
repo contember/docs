@@ -95,7 +95,9 @@ In a single mutation, you can execute nested mutations on relations using this o
 - `delete` - deletes referenced record. For "has many" relations, you have to identify a record using unique identifier
 - `upsert` - updates given record or creates a new record when there is nothing to update
 
-> If you are e.g. connecting a record, which does not exist, the mutation will fail.
+:::note
+If you are e.g. connecting a record, which does not exist, the mutation will fail.
+:::
 
 ```graphql
 mutation {

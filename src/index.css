@@ -68,3 +68,28 @@
   margin-left: 0.5em;
   color: var(--ifm-color-danger-lighter);
 }
+
+.alert--success {
+  --ifm-alert-background-color: #fcf9cf;
+  --ifm-alert-border-color: #e7e4b7;
+  --ifm-alert-color: var(--ifm-color-black);
+  --ra-admonition-icon-color: var(--ifm-color-black)
+}
+
+html[data-theme="dark"] .alert--success {
+  --ifm-alert-background-color: #262115;
+  --ifm-alert-border-color: #4b470a;
+  --ifm-alert-color: var(--ifm-color-white);
+  --ra-admonition-icon-color: var(--ifm-color-white)
+}
+
+html[data-theme="dark"] .alert--secondary {
+  --ifm-alert-background-color: #2f2f2f;
+  --ifm-alert-border-color: #505050;
+  --ifm-alert-color: var(--ifm-color-white);
+  --ra-admonition-icon-color: var(--ifm-color-white);
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: var(--ifm-color-primary-lighter);
+}
