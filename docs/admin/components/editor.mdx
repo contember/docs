@@ -1,5 +1,5 @@
 ---
-title: Editor components
+title: Editor
 ---
 
 import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
@@ -7,44 +7,17 @@ import * as SharedProps from "../../../src/components/props";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
+import BlockEditor from "./editor/BlockEditor.mdx"
+import Block from "./blocks/Block.mdx"
+
 ## Block editor
 
 The `BlockEditor` component is the main component of the editor. It is responsible for rendering the editor's toolbar and the editor's content.
 
-```tsx
-<BlockEditor
-    contentField="json"
-    field="content.blocks"
-    label="Content"
-    sortableBy="order"
-/>
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.contentField required />
-  <SharedProps.field required />
-  <SharedProps.label required />
-  <SharedProps.sortableBy required />
-  <SharedProps.referencesField />
-  <SharedProps.referenceDiscriminationField />
-  <SharedProps.inlineButtons />
-  <SharedProps.blockButtons />
-  <SharedProps.augmentEditor />
-</PropsTable>
+<BlockEditor />
 
 ## Block
 
 The `Block` component is responsible for rendering the editor's content.
 
-```tsx
-<Block discriminateBy="gallery" />
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.discriminateBy required />
-  <SharedProps.label />
-</PropsTable>
+<Block />

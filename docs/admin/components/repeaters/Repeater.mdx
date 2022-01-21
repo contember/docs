@@ -1,15 +1,7 @@
----
-title: Repeater components
----
-
-import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
-import * as SharedProps from "../../../src/components/props";
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
-
-## Repeater field
-
-The `Repeater` component renders a repeater field with given child components.
+import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
+import * as SharedProps from "../../../../src/components/props"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
 
 <Tabs
   defaultValue="admin"
@@ -19,6 +11,7 @@ The `Repeater` component renders a repeater field with given child components.
     { label: "API schema", value: "schema" },
   ]}
 >
+
   <TabItem value="admin">
 
 ```tsx
@@ -28,6 +21,7 @@ The `Repeater` component renders a repeater field with given child components.
 ```
 
   </TabItem>
+
   <TabItem value="admin-advanced">
 
 ```tsx
@@ -38,6 +32,7 @@ The `Repeater` component renders a repeater field with given child components.
 ```
 
   </TabItem>
+
   <TabItem value="schema">
 
 ```ts
@@ -54,6 +49,7 @@ export class Task {
 ```
 
   </TabItem>
+  
 </Tabs>
 
 #### Props

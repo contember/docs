@@ -1,5 +1,5 @@
 ---
-title: Button components
+title: Buttons
 ---
 
 import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
@@ -7,122 +7,14 @@ import * as SharedProps from "../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-## Button
-
-The `Button` component renders a button.
-
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-  ]}
->
-  <TabItem value="admin-simple">
-
-```tsx
-<Button />
-```
-
-  </TabItem>
-  <TabItem value="admin-advanced">
-
-```tsx
-<Button>
-  <Icon name="save" />
-  Save Article
-</Button>
-```
-
-  </TabItem>
-
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.children />
-  <SharedProps.className />
-  <SharedProps.isLoading />
-</PropsTable>
-
-## Persist button
-
-The `PersistButton` component renders a persist button.
-
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-  ]}
->
-  <TabItem value="admin-simple">
-
-```tsx
-<PersistButton />
-```
-
-  </TabItem>
-  <TabItem value="admin-advanced">
-
-```tsx
-<PersistButton>
-  <Icon name="save" />
-  Save Article
-</PersistButton>
-```
-
-  </TabItem>
-
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.children />
-</PropsTable>
-
-## Anchor button
-
-The `AnchorButton` component renders an anchor button.
-
-```tsx
-<AnchorButton href="#id">Go to id</AnchorButton>
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.href />
-  <SharedProps.children />
-</PropsTable>
-
-## Page link button
-
-```tsx
-<PageLinkButton to="">Go to Page</PageLinkButton>
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.to />
-  <SharedProps.children />
-</PropsTable>
+import ClearFieldButton from "./buttons/ClearFieldButton.mdx"
+import PersistButton from "./buttons/PersistButton.mdx"
 
 ## Clear field button
 
-```tsx
-<ClearFieldButton field="name" label="Clear name" />
-```
+The `Clear field button` is a button that clears the value of a field.
 
-#### Props
-
-<PropsTable>
-  <SharedProps.field required description="The name of the field to be cleared on click." />
-  <SharedProps.label required />
-</PropsTable>
+<ClearFieldButton />
 
 ## Delete entity button
 
@@ -137,3 +29,9 @@ The `DeleteEntityButton` component renders a button, which deletes closesed enti
 <PropsTable>
   <SharedProps.children />
 </PropsTable>
+
+## Persist button
+
+The `PersistButton` component renders a persist button.
+
+<PersistButton />

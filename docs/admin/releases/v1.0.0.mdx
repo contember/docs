@@ -1,5 +1,5 @@
 ---
-title: v0.8.0-alpha.7
+title: v1.0.0
 ---
 
 import CompareCode from "../../../src/components/CompareCode"
@@ -21,8 +21,10 @@ import CompareCode from "../../../src/components/CompareCode"
 
 ### Deprecations
 * `PageLinkById` use [`PageLinkButton`](/admin/components/buttons#page-link-button) instead.
+* `PageLink` use [`Link`](/admin/components/routing#link) instead.
+* `PageLinkButton` use [`LinkButton`](/admin/components/routing#link-button) instead.
 
-Full Changelog: https://github.com/contember/admin/compare/v0.7.0...v0.8.0-alpha.7
+Full Changelog: https://github.com/contember/admin/compare/v0.7.0...v1.0.0-rc.1
 
 ## Migration
 
@@ -56,10 +58,10 @@ We've simplified the layout components to make them easier to use. To use the ne
 
 </CompareCode>
 
-#### Remove [`<TitleBar />`](/admin/components/page#titlebar)
+#### Remove [`<TitleBar />`](/admin/components/pages#titlebar)
 
-- Move prop `actions` from the [`<TitleBar />`](/admin/components/page#titlebar) component to page component (e.g. [`<Page />`](/admin/components/page#page), [`<GenericPage />`](/admin/components/page#generic-page), `<LayoutPage />`).
-- Remove the [`<TitleBar />`](/admin/components/page#titlebar) component and insert the contents of the [`<TitleBar />`](/admin/components/page#titlebar) component into the `title` property of the page.
+- Move prop `actions` from the [`<TitleBar />`](/admin/components/pages#titlebar) component to page component (e.g. [`<Page />`](/admin/components/pages#page), [`<GenericPage />`](/admin/components/pages#generic-page), `<LayoutPage />`).
+- Remove the [`<TitleBar />`](/admin/components/pages#titlebar) component and insert the contents of the [`<TitleBar />`](/admin/components/pages#titlebar) component into the `title` property of the page.
 
 <CompareCode>
 
@@ -122,7 +124,7 @@ We've simplified the layout components to make them easier to use. To use the ne
 
 #### Tenant pages
 
-- Change the [`<GenericPage />`](/admin/components/page#generic-page) component that wraps the tenant pages to [`<Page />`](/admin/components/page#page) component.
+- Change the [`<GenericPage />`](/admin/components/pages#generic-page) component that wraps the tenant pages to [`<Page />`](/admin/components/pages#page) component.
 
 ### Recommended changes
 

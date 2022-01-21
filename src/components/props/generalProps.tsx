@@ -1,6 +1,15 @@
 import React from 'react'
 import { PropsTableRow, PropsTableRowProps } from '../propsTable'
 
+export const size = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="size"
+        propType="Size"
+        description=""
+    />
+)
+
 export const autoFocus = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
@@ -19,23 +28,7 @@ export const field = (props: PropsTableRowProps) => (
     />
 )
 
-export const label = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="label"
-        propType="ReactNode"
-        description="The label for the field."
-    />
-)
 
-export const description = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="description"
-        propType="ReactNode"
-        description="The description for the field."
-    />
-)
 
 export const options = (props: PropsTableRowProps) => (
     <PropsTableRow
@@ -170,37 +163,6 @@ export const autoCapitalize = (props: PropsTableRowProps) => (
         description={`
             The auto-capitalization of the field.
         `}
-    />
-)
-
-export const render = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="render"
-        propType={`(<a href="/admin/data-binding/field-accessor" target="_blank">FieldAccessor</a>) => ReactNode`}
-        description={`
-            A function that is called to render the field.
-        `}
-    />
-)
-
-export const renderOption = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="renderOption"
-        propType={`undefined | (<a href="/admin/data-binding/entity-accessor" target="_blank">EntityAccessor</a>) => ReactNode`}
-        description={`
-            A function that is called to render the option.
-        `}
-    />
-)
-
-export const optionsStaticRender = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="optionsStaticRender"
-        propType="undefined | ReactElement"
-        description="A function that is called to render static the options."
     />
 )
 
@@ -425,5 +387,14 @@ export const heading = (props: PropsTableRowProps) => (
         prop="heading"
         propType="undefined | string"
         description="Heading of the component."
+    />
+)
+
+export const addButtonText = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="addButtonText"
+        propType="undefined | string"
+        description=""
     />
 )
