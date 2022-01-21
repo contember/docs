@@ -90,5 +90,13 @@ module.exports = {
 				}
 			],
 		},
+		{
+			type: "category",
+			label: "Templates",
+			collapsed: true,
+			items: [
+				"templates/headless-cms",
+			]
+		}
 	]
 }

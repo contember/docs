@@ -1,0 +1,86 @@
+---
+title: Headless CMS starter
+---
+
+With this template you can use Contember platform as [headless CMS](https://github.com/contember/templates/tree/main/headless-cms) and [Next.js](https://nextjs.org/) for frontend site.
+
+You'll get
+- Pages with 7 blocks (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section, Contact section)
+- Blog and articles with powerful WYSIWYG editor
+- Messages for saving forms from the frontend website
+- Website settings (upload logotype, set up navigation)
+- [ACL rules](https://docs.contember.com/schema/acl) for administrators and public access for frontend website
+- Basic Next.js website intentionally without any styling. See how you can easily query GraphQL API provided by Contember.
+
+Thanks to Contember platform you can change anything. If you have any questions, we're happy to help in [Discord](https://discord.com/invite/EkhsuAK2Fg).
+
+![Screenshot 2022-01-18 at 14 08 17](https://user-images.githubusercontent.com/176694/149993498-f3ce5901-2f6d-4b2d-bc2d-08bd12de6efa.png)
+
+## How to custumize template
+
+Now you are ready to start working. You can custumize our template as you want to.
+
+### Add new page content section
+
+Pages are build by content sections. We've prepared 7 content sections for you (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section and Contact section). 
+
+Let's say you want to add new section with text and image next to each other.
+
+#### 1. Change model
+
+Go to `api/model/ContentBlocks.ts` and add `'imageWithTextSection'` to `ContentBlockType` enum. We'll use `image` and `content` fields from `ContentBlock` to store our data.
+```ts title="api/model/ContentBlocks.ts"
+export const ContentBlockType = def.createEnum(
+	'heroSection',
+	'logosSection',
+	'contentSection',
+	'featureSection',
+	'ctaSection',
+	'testimonialSection',
+	'contactSection',
+	/* highlight-start */
+	'imageWithTextSection',
+	/* highlight-end */
+)
+```
+
+#### 2. Execute [migrations](/schema/migrations)  
+
+Run migration command to aplicate your changes.
+
+```bash
+npm run contember migrations:diff headless-cms add-image-with-text-section
+```
+
+Select *"Yes and execute immediately"* and wait for the migration to finish.
+
+1. Go to `admin/components/ContentBlocks.tsx`
+
+```tsx title="admin/components/ContentBlocks.tsx"
+export const ContentBlocks = Component(
+	() => (
+		<BlockRepeater
+			field="blocks"
+			label={undefined}
+			discriminationField="type"
+			sortableBy="order"
+			addButtonText="Add content block"
+		>
+		...
+		/* highlight-start */
+			<Block discriminateBy="imageWithTextSection" label="Image with text section" >
+				<ContentField />
+				<ImageUploadField
+					label={locale["Image"]}
+					urlField="image.url"
+					widthField="image.width"
+					heightField="image.height"
+				>
+					<TextField field="image.alt" label={locale["Alternative text"]} />
+				</ImageUploadField>
+			</Block>
+		/* highlight-end */
+	),
+	'ContentBlocks',
+)
+```
