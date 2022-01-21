@@ -90,6 +90,11 @@ module.exports = {
 						// "admin/components-ui/layout",
 					],
 					"Data Binding": [
+						{
+							type: 'doc',
+							id: 'admin/data-binding/overview',
+							label: 'Overview',
+						},
 						// "admin/data-binding/entity-accessor",
 						"admin/data-binding/field-accessor",
 						"admin/data-binding/query-language",
