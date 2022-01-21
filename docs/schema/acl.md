@@ -1,5 +1,5 @@
 ---
-title: ACL rules
+title: Permissions and ACL
 ---
 
 Contember provides easy way to define access rules for your data by saying which role can access which field. Using this you can create complex rules across entity relationships on a cell level.
@@ -201,7 +201,7 @@ This would allow a user manage `editor` role and assign any value to `language` 
 
 You can also set some flags affecting system API.
 
-### History API
+### [History API](/content/event-log.md)
 
 by setting `history` flag under `system` section to `true` you can allow a user to access the history API.
 

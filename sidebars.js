@@ -38,6 +38,7 @@ module.exports = {
 				"content/queries",
 				"content/mutations",
 				"content/s3",
+				"content/event-log",
 			],
 		},
 		{
