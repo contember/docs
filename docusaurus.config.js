@@ -6,8 +6,8 @@ module.exports = {
   url: 'https://docs.contember.com',
   baseUrl: '/',
   favicon: 'img/contember-logo.png',
-  organizationName: 'contember', // Usually your GitHub org/user name.
-  projectName: 'contember', // Usually your repo name.
+  organizationName: 'contember',
+  projectName: 'contember',
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/nightOwl'),
@@ -15,6 +15,12 @@ module.exports = {
     },
     colorMode: {
       disableSwitch: false,
+    },
+    algolia: {
+      appId: 'J1HMGG24O1',
+      apiKey: 'efb29dbb8730f33e7525ec6375ffc60d',
+      indexName: 'contember',
+      contextualSearch: true,
     },
     navbar: {
       title: '',
@@ -51,6 +57,7 @@ module.exports = {
         },
         blog: false,
         pages: false,
+        contextualSearch: true,
       },
     ],
   ],
