@@ -19,8 +19,7 @@ module.exports = {
     algolia: {
       appId: 'J1HMGG24O1',
       apiKey: 'efb29dbb8730f33e7525ec6375ffc60d',
-      indexName: 'contember',
-      contextualSearch: true,
+      indexName: 'docs-contember',
     },
     navbar: {
       title: '',
