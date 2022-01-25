@@ -55,17 +55,18 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs',
           routeBasePath: '/',
-          editUrl:
-            'https://github.com/contember/doc/edit/main/',
+          editUrl: 'https://github.com/contember/doc/edit/main/',   
+          sidebarPath: require.resolve('./sidebars.js'),
+          docLayoutComponent: '@theme/DocPage',
+          docItemComponent: '@theme/DocItem',
         },
         theme: {
           customCss: [require.resolve('./src/index.css')],
         },
         blog: false,
         pages: false,
-        contextualSearch: true,
       }),
     ],
   ],
