@@ -203,7 +203,7 @@ You can also set some flags affecting system API.
 
 ### [History API](/content/event-log.md)
 
-by setting `history` flag under `system` section to `true` you can allow a user to access the history API.
+By setting `history` flag under `system` section to `true` you can allow a user to access the history API.
 
 ```typescript
 const editorRole = {
@@ -213,7 +213,7 @@ const editorRole = {
 	}
 }
 ```
-:::note
+:::caution
 Allowing history API access will allow user to access all the data in history API, ignoring entity rules.
 :::
 

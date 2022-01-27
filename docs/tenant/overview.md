@@ -18,7 +18,7 @@ Like a Content API, Tenant API also needs an authorization token for each reques
 
 The key is defined using `CONTEMBER_LOGIN_TOKEN` env variable. For local development, you can find this key in `docker-compose.yaml`
 
-You use this token for sign in (using both email/password or IDP) and password reset mutations.
+You use this token for sign in (using both email/password or IdP) and password reset mutations.
 
 Besides special tokens like the login token, there are two basic kinds of authorization tokens:
 - permanent API token for e.g. applications, where you don't authenticate users. You can [generate it using Tenant API mutations](tenant/api-keys.md) 

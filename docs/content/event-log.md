@@ -28,7 +28,7 @@ query {
 There are 3 GraphQL types of events: `UpdateEvent`, `CreateEvent` and `DeleteEvent` with following fields available 
 
 :::note fields availability
-Availability of `oldValues`, `diffValues` and `newValues` fields depends on the type of event.
+Fields `oldValues`, `diffValues` and `newValues` are available only for some event types. See notes in table below. 
 :::
 
 | Field               | GraphQL Type | Description |
@@ -40,7 +40,7 @@ Availability of `oldValues`, `diffValues` and `newValues` fields depends on the 
 | identityId          | `String!`    | Identity ID of the user who performed the operation |
 | identityDescription | `String!`    | Description of the user who performed the operation |
 | tableName           | `String!`    | Name of the table affected by the event |
-| primaryKey          | `[String!]!` | Primary key of the row affected by the event |
+| primaryKey          | `[String!]!` | Primary key of the row affected by the event (for entities it contains a single element with it's id, for ManyHasMany junction tables it contains IDs of both entities) |
 | oldValues           | `Json!`      | Old value of the row affected by the event (available only on `UpdateEvent` and `DeleteEvent`)|
 | diffValues          | `Json!`      | Diff between old and new values of the row affected by the event (available only on `UpdateEvent`)|
 | newValues           | `Json!`      | New value of the row affected by the event (available only on  `CreateEvent`)|

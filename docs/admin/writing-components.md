@@ -36,6 +36,7 @@ import { Component, TextField, Box, Field, useEntity } from '@contember/admin'
 interface SeoFormProps {
   // ...
 }
+
 const SeoForm = Component<SeoFormProps>(
   (props) => {
     const entity = useEntity()
