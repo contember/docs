@@ -5,6 +5,7 @@ title: Headless CMS starter
 With this template you can use Contember platform as [headless CMS](https://github.com/contember/templates/tree/main/headless-cms) and [Next.js](https://nextjs.org/) for frontend site.
 
 You'll get
+
 - Pages with 7 blocks (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section, Contact section)
 - Blog and articles with powerful WYSIWYG editor
 - Messages for saving forms from the frontend website
@@ -16,35 +17,36 @@ Thanks to Contember platform you can change anything. If you have any questions,
 
 ![Screenshot 2022-01-18 at 14 08 17](https://user-images.githubusercontent.com/176694/149993498-f3ce5901-2f6d-4b2d-bc2d-08bd12de6efa.png)
 
-## How to custumize template
+## How to custumise template
 
-Now you are ready to start working. You can custumize our template as you want to.
+Now you are ready to start working. You can custumize our template as you want to. Below, you can find some examples of how to custumize the template.
 
 ### Add new page content section
 
-Pages are build by content sections. We've prepared 7 content sections for you (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section and Contact section). 
+Pages are build by content sections. We've prepared 7 content sections for you (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section and Contact section).
 
 Let's say you want to add new section with text and image next to each other.
 
 #### 1. Change model
 
-Go to `api/model/ContentBlocks.ts` and add `'imageWithTextSection'` to `ContentBlockType` enum. We'll use `image` and `content` fields from `ContentBlock` to store our data.
-```ts title="api/model/ContentBlocks.ts"
+Go to `headless-cms/api/model/ContentBlocks.ts` and add `'imageWithTextSection'` to `ContentBlockType` enum. We'll use `image` and `content` fields from `ContentBlock` to store our data.
+
+```ts title="headless-cms/api/model/ContentBlocks.ts"
 export const ContentBlockType = def.createEnum(
-	'heroSection',
-	'logosSection',
-	'contentSection',
-	'featureSection',
-	'ctaSection',
-	'testimonialSection',
-	'contactSection',
-	/* highlight-start */
-	'imageWithTextSection',
-	/* highlight-end */
+  "heroSection",
+  "logosSection",
+  "contentSection",
+  "featureSection",
+  "ctaSection",
+  "testimonialSection",
+  "contactSection",
+  /* highlight-start */
+  "imageWithTextSection"
+  /* highlight-end */
 )
 ```
 
-#### 2. Execute [migrations](/schema/migrations)  
+#### 2. Execute [migrations](/schema/migrations)
 
 Run migration command to aplicate your changes.
 
@@ -52,11 +54,13 @@ Run migration command to aplicate your changes.
 npm run contember migrations:diff headless-cms add-image-with-text-section
 ```
 
-Select *"Yes and execute immediately"* and wait for the migration to finish.
+Select _"Yes and execute immediately"_ and wait for the migration to finish.
 
-1. Go to `admin/components/ContentBlocks.tsx`
+#### 3. Add new block to Admin
 
-```tsx title="admin/components/ContentBlocks.tsx"
+Go to `headless-cms/admin/components/ContentBlocks.tsx` file and add [`<Block />`](/admin/components/blocks#block) component into [`<BlockRepeater />`](/admin/components/repeaters/#block-repeater) component. `<Block />` should contain all necessary fields for your new section. We want to have a image with text, so we'll add custom component `<ContentField />` (you can learn more in `/headless-cms/admin/components/ContentField.tsx`) for text and [`<ImageUploadField />`](/admin/components/upload#image-file-repeater) component for image.
+
+```tsx title="headless-cms/admin/components/ContentBlocks.tsx"
 export const ContentBlocks = Component(
 	() => (
 		<BlockRepeater
@@ -83,4 +87,264 @@ export const ContentBlocks = Component(
 	),
 	'ContentBlocks',
 )
+```
+
+Now you can check your new section in <a href="http://localhost:1480" target="_blank">Admin</a>.
+
+#### 4. Add new section to Head
+
+Go to `headless-cms/head/components/blocks.tsx` and add new react component called `ImageWithText` which will render content and image. Next, you'll need to add your new components to block map in `Blocks` component.
+
+```tsx title="headless-cms/head/components/blocks.tsx"
+...
+/* highlight-start */
+function ImageWithText({ content, image }) {
+	return (
+		<section>
+			{content && content.parts &&
+				<RichTextRenderer blocks={content.parts} sourceField="json" />
+			}
+			<div>
+				{image &&
+					<div>
+						<img src={image.url} width={image.width} height={image.height} alt={image.alt} />
+					</div>
+				}
+			</div>
+		</section>
+	)
+}
+/* highlight-end */
+
+export default function Blocks({ blocks }) {
+	return blocks ? blocks.map((block) => {
+		const blocksElements = {
+			heroSection: <HeroSection {...block} key={block.id} />,
+			logosSection: <LogoSection {...block} key={block.id} />,
+			contentSection: <ContentSection {...block} key={block.id} />,
+			featureSection: <FeatureSection {...block} key={block.id} />,
+			ctaSection: <CtaSection {...block} key={block.id} />,
+			testimonialSection: <TestimonialSection {...block} key={block.id} />,
+			contactSection: <ContactSection {...block} key={block.id} />,
+			/* highlight-start */
+			imageWithText: <ImageWithText {...block} key={block.id} />,
+			/* highlight-end */
+		}
+
+		return blocksElements[block.type]
+	}) : null
+}
+
+```
+
+That's all. Now you can use your new section in your website.
+
+### Editting testimonials from one place
+
+You've decided that you want to edit all your testimonials in one place. You can easily do that, thanks to the Contember.
+
+#### 1. Change model
+
+Create new entities called `Testimonial` and `TestimonailAuthor` in `headless-cms/api/model/` folder.
+
+```ts title="headless-cms/api/model/Testimonial.ts"
+import { SchemaDefinition as def } from "@contember/schema-definition"
+import { Content } from "./Content"
+import { Image } from "./Image"
+
+export class Testimonial {
+  content = def.oneHasOne(Content)
+  author = def.oneHasOne(TestimonailAuthor)
+}
+
+export class TestimonailAuthor {
+  name = def.stringColumn().notNull()
+  title = def.stringColumn()
+  image = def.manyHasOne(Image)
+}
+```
+
+Go to `headless-cms/api/model/ContentBlock.ts` and remove `TestimonialAuthor` entity. Replace `content` and `author` fields with `testimonial` field.
+
+```ts title="headless-cms/api/model/ContentBlock.ts"
+...
+/* highlight-start */
+import { Testimonial } from "./Testimonial"
+/* highlight-end */
+...
+export class ContentTestimonial {
+  order = def.intColumn().notNull()
+  /* highlight-start */
+  testimonial = def.manyHasOne(Testimonial)
+  /* highlight-end */
+  contentBlock = def.manyHasOne(ContentBlock, "testimonials").cascadeOnDelete()
+}
+...
+```
+
+Export new `Testimonial` entities in `headless-cms/api/model/index.ts`.
+
+```ts title="headless-cms/api/model/index.ts"
+export * from './Article'
+export * from './Button'
+export * from './ContactMessage'
+export * from './Content'
+export * from './ContentBlock'
+export * from './Image'
+export * from './Link'
+export * from './Menu'
+export * from './Page'
+export * from './Seo'
+export * from './Setting'
+/* highlight-start */
+export * from './Testimonial'
+/* highlight-end */
+```
+
+To add newly created entities, you will need to update the `public` entry in the access control list.
+
+```ts title="headless-cms/api/acl.ts"
+...
+const aclFactory = (model: Model.Schema): Acl.Schema => ({
+	roles: {
+		admin: {
+			variables: {},
+			stages: '*',
+			entities: PermissionsBuilder.create(model).allowAll().allowCustomPrimary()
+				.permissions,
+			s3: {
+				'**': {
+					upload: true,
+					read: true,
+				},
+			},
+		},
+		public: {
+			variables: {},
+			stages: '*',
+			s3: {
+				'**': {
+					upload: false,
+					read: true,
+				},
+			},
+			entities: {
+...
+				/* highlight-start */
+				Testimonial: {
+					predicates: {},
+					operations: readOnly(model, 'Testimonial', true),
+				},
+				/* highlight-end */
+...
+			},
+		},
+	},
+})
+```
+
+
+#### 2. Execute [migrations](/schema/migrations)
+
+Run migration command to aplicate your changes.
+
+```bash
+npm run contember migrations:diff headless-cms separate-testimonials-from-content
+```
+
+Select _"Yes and execute immediately"_ and wait for the migration to finish.
+
+#### 3. Update Admin
+
+You'll need to add page where you can edit all your testimonials.
+
+```tsx title="headless-cms/admin/pages/testimonals.tsx"
+import * as React from "react"
+import { CreatePage, DataGridPage, EditPage, LinkButton, TextCell, HasOne, TextField } from "@contember/admin"
+import { ContentField } from '../components/ContentField'
+import { ImageField } from '../components/ImageField'
+
+export const TestimonialList = (
+  <DataGridPage
+    entities="Testimonial"
+    itemsPerPage={50}
+    rendererProps={{
+      title: "Testimonials",
+      actions: <LinkButton to="testimonialCreate">Add testimonial</LinkButton>,
+    }}
+  >
+    <TextCell field="author.name" header="Author's name" />
+  </DataGridPage>
+)
+
+export const TestimonialCreate = (
+  <CreatePage
+    entity="Testimonial"
+    rendererProps={{ title: "Add testinomial" }}
+    redirectOnSuccess="testimonialEdit(id: $entity.id)"
+  >
+    <ContentField label="Testimonial" />
+    <HasOne field="author">
+      <TextField field="name" label="Author's name" />
+      <ImageField field="image" label="Author's photo" />
+    </HasOne>
+  </CreatePage>
+)
+
+export const TestimonialEdit = (
+  <EditPage entity="Testimonial(id=$id)" rendererProps={{ title: "Edit testimonial" }}>
+    <ContentField label="Testimonial" />
+    <HasOne field="author">
+      <TextField field="name" label="Author's name" />
+      <ImageField field="image" label="Author's photo" />
+    </HasOne>
+  </EditPage>
+)
+```
+
+Add a new page to navigation in `headless-cms/admin/components/Navigation.tsx`.
+
+```tsx title="headless-cms/admin/components/Navigation.tsx"
+export const Navigation = () => (
+	<Menu>
+		<Menu.Item>
+			<Menu.Item title={locale["Pages"]} to="pageList" />
+			<Menu.Item title={locale["Articles"]} to="articleList" />
+			<Menu.Item title={locale["Messages"]} to="messageList" />
+			<Menu.Item title={locale["Settings"]} to="settings" />
+			<Menu.Item title={locale["Navigation"]} to="navigationList" />
+			/* highlight-start */
+			<Menu.Item title={locale["Testimonials"]} to="testimonialList" />
+			/* highlight-end */
+			<Menu.Item title={locale["SEO"]}>
+				<Menu.Item title={locale["Articles"]} to="seoArticles" />
+				<Menu.Item title={locale["Pages"]} to="seoPages" />
+			</Menu.Item>
+		</Menu.Item>
+	</Menu>
+)
+```
+
+Last but not least, replace `<Repeater />` fields in the Testimonial Content block in `headless-cms/admin/components/ContentBlocks.tsx`.
+
+```tsx title="headless-cms/admin/components/ContentBlocks.tsx"
+...
+<Block
+	discriminateBy="testimonialSection"
+	label={<LabelWithIcon icon={<IconTestimonialSection />} label={locale["Testimonial section"]} />}
+>
+	<TextField field="primaryText" label={locale["Headline"]} />
+	<ContentField />
+	<Repeater
+		field="testimonials"
+		label={locale["Testimonials"]}
+		sortableBy="order"
+		addButtonText="Add testimonial"
+	>
+		/* highlight-start */
+		<SelectField field="testimonial" label={locale["Testimonial"]} options="Testimonial.author.name" />
+		/* highlight-end */
+	</Repeater>
+</Block>
+...
 ```
