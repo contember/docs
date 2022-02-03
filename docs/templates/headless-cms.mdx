@@ -19,17 +19,17 @@ Thanks to Contember platform you can change anything. If you have any questions,
 
 ## How to customise the template
 
-Now you are ready to start working. You can custumize our template as you want to. Below, you can find some examples of how to custumize the template.
+Now you are ready to start working. You can change our template as you want to. Below, you can find some examples of possible customization.
 
 ### Add new page content section
 
-Pages are build by content sections. We've prepared 7 content sections for you (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section and Contact section).
+Pages are build from content sections. We've prepared 7 content sections for you (Hero section, Logos section, Content section, Features section, CTA section, Testimonial section and Contact section).
 
 Let's say you want to add new section with text and image next to each other.
 
 #### 1. Change the model
 
-Go to `headless-cms/api/model/ContentBlocks.ts` and add `'imageWithTextSection'` to `ContentBlockType` enum. We'll use `image` and `content` fields from `ContentBlock` to store our data.
+Go to `headless-cms/api/model/ContentBlocks.ts` and add `'imageWithTextSection'` option to `ContentBlockType` enum. We'll use `image` and `content` fields from `ContentBlock` to store our data.
 
 ```ts title="headless-cms/api/model/ContentBlocks.ts"
 export const ContentBlockType = def.createEnum(
@@ -46,9 +46,9 @@ export const ContentBlockType = def.createEnum(
 )
 ```
 
-#### 2. Execute [migrations](/schema/migrations)
+#### 2. Create and execute a [migration](/schema/migrations)
 
-Run migration command to aplicate your changes.
+Run migration command to apply your changes.
 
 ```bash
 npm run contember migrations:diff headless-cms add-image-with-text-section
@@ -56,9 +56,9 @@ npm run contember migrations:diff headless-cms add-image-with-text-section
 
 Select _"Yes and execute immediately"_ and wait for the migration to finish.
 
-#### 3. Add new block to Admin
+#### 3. Add a new block to Admin
 
-Go to `headless-cms/admin/components/ContentBlocks.tsx` file and add [`<Block />`](/admin/components/blocks#block) component into [`<BlockRepeater />`](/admin/components/repeaters/#block-repeater) component. `<Block />` should contain all necessary fields for your new section. We want to have a image with text, so we'll add custom component `<ContentField />` (you can learn more in `/headless-cms/admin/components/ContentField.tsx`) for text and [`<ImageUploadField />`](/admin/components/upload#image-file-repeater) component for image.
+Go to `headless-cms/admin/components/ContentBlocks.tsx` file and add [`<Block />`](/admin/components/blocks#block) component into [`<BlockRepeater />`](/admin/components/repeaters/#block-repeater) component. `<Block />` should contain all necessary fields for your new section. We want to have an image with text, so we'll add a custom component `<ContentField />` (you can learn more in `/headless-cms/admin/components/ContentField.tsx`) for text and [`<ImageUploadField />`](/admin/components/upload#image-file-repeater) component for the image.
 
 ```tsx title="headless-cms/admin/components/ContentBlocks.tsx"
 export const ContentBlocks = Component(
@@ -72,7 +72,7 @@ export const ContentBlocks = Component(
 		>
 		...
 		/* highlight-start */
-			<Block discriminateBy="imageWithTextSection" label="Image with text section" >
+			<Block discriminateBy="imageWithTextSection" label="Image with text section">
 				<ContentField />
 				<ImageUploadField
 					label={locale["Image"]}
@@ -89,11 +89,13 @@ export const ContentBlocks = Component(
 )
 ```
 
-Now you can check your new section in <a href="http://localhost:1480" target="_blank">Admin</a>.
+Now you can check your new section in <a href="http://localhost:1480" target="_blank">Admin</a> and try adding this new block to a page.
 
-#### 4. Add new section to Head
+#### 4. Add new section to next.js frontend
 
-Go to `headless-cms/head/components/blocks.tsx` and add new react component called `ImageWithText` which will render content and image. Next, you'll need to add your new components to block map in `Blocks` component.
+Now, we need to render the block on frontend.
+
+Go to `headless-cms/head/components/blocks.tsx` and add new react component called `ImageWithText` which will render content and image. Next, you'll need to add your new component to block map in `Blocks` component.
 
 ```tsx title="headless-cms/head/components/blocks.tsx"
 ...
@@ -101,7 +103,7 @@ Go to `headless-cms/head/components/blocks.tsx` and add new react component call
 function ImageWithText({ content, image }) {
 	return (
 		<section>
-			{content && content.parts &&
+			{content?.parts &&
 				<RichTextRenderer blocks={content.parts} sourceField="json" />
 			}
 			<div>
@@ -139,7 +141,7 @@ export default function Blocks({ blocks }) {
 
 That's all. Now you can use your new section in your website.
 
-### Editting testimonials from one place
+### Editing testimonials from one place
 
 You've decided that you want to edit all your testimonials in one place. You can easily do that, thanks to the Contember.
 
