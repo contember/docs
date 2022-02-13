@@ -1,60 +1,41 @@
 ---
-title: Deploying a Contember
+title: Deploying a Contember project
 ---
 
-## S3 compatible storage
+## Hosting options
 
-First you have to choose a S3 provider. You can decide between hosted services like AWS S3 or you can self host your own S3 compatible storage.
+The best way to run Contember is our [Contember Cloud](https://www.contember.com/cloud). If you want to host Contember elsewhere, here's a quick tutorial.
 
-### SaaS providers
+Otherwise Contember can be selfhosted almost anywhere.
 
-- [AWS S3](https://aws.amazon.com/s3/) - the original S3 implementation
-- [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/)
+### What you'll need
+1. S3-compatible storage ([AWS S3](https://aws.amazon.com/s3/), [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/), [MinIO](https://min.io/), [CEPH](https://ceph.io/), [Zenko CloudServer](https://www.zenko.io/cloudserver/))
+2. PostgreSQL database ([AWS RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/), [DigitalOcean Managed Database](https://www.digitalocean.com/products/managed-databases/))
+3. Some way to run Docker image. You'll need a provider that supports: `Docker`, `Docker Compose`, `SSH access` and Proxy server.
 
-### Self hosted
+It's good idea to run these at one provider but it's not required.
+## Digital Ocean App Platform
 
-- [Minio](https://min.io/)
-- [CEPH](https://ceph.io/)
-- [Zenko CloudServer](https://www.zenko.io/cloudserver/)
+1. Set up [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/)
+2. Set up [DigitalOcean Managed Database](https://www.digitalocean.com/products/managed-databases/)
+3. Deploy Contember Engine
+### Deploy Contember Engine
 
-After you choose the right provider, you just have to setup relevant S3 environment variables.
-
-## Database
-
-Then you need to setup PostgreSQL database. You can choose from many providers.
-
-### SaaS providers
-
-- [AWS RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/)
-- [DigitalOcean Managed Database](https://www.digitalocean.com/products/managed-databases/)
-
-### Self hosted
-
-- [PostgreSQL](https://www.postgresql.org)
-
-## Contember API engine
-
-Last step is to setup server. You can choose any provider which provides following requirements.
-
-Requirements: `Docker`, `Docker Compose`, `SSH access` and Proxy server.
-
-You can use 1-Click Application marketplace from Digital Ocean to create [droplet with Docker](https://marketplace.digitalocean.com/apps/docker).
-
-### Server setup
-
-#### 1. Connect to your server with ssh.
+#### 1. Create droplet
+Use 1-Click Application marketplace from Digital Ocean to create [droplet with Docker](https://marketplace.digitalocean.com/apps/docker).
+#### 2. Connect to your server with ssh.
 
 ```bash
 ssh root@your_server_ip
 ```
 
-#### 2. Create an empty folder and move into it.
+#### 3. Create an empty folder and move into it.
 
 ```bash
 mkdir contember && cd contember
 ```
 
-#### 3. In your empty folder, create `.env` file.
+#### 4. In your empty folder, create `.env` file.
 
 ```bash
 nano .env
@@ -84,7 +65,7 @@ Add all environment variables to `.env` file:
 
 \*For generating secure tokens you can run `openssl rand -hex 20` in your terminal.
 
-#### 4. In same folder, create `docker-compose.yaml` file.
+#### 5. In same folder, create `docker-compose.yaml` file.
 
 ```bash
 nano docker-compose.yaml
@@ -128,11 +109,11 @@ services:
       - '1481:4000'
 ```
 
-#### 5. To run Contember API, use the following command:
+#### 6. To run Contember API, use the following command:
 
 ```bash
 # Execute Docker image detaching the terminal
 docker-compose up -d
 ```
 
-#### 6. Setup proxy server to serve API from port `1481`.
+#### 7. Setup proxy server to serve API from port `1481`.
