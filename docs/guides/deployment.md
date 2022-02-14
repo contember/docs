@@ -14,7 +14,7 @@ Otherwise Contember can be selfhosted almost anywhere.
 3. Some way to run Docker image. You'll need a provider that supports: `Docker`, `Docker Compose`, `SSH access` and Proxy server.
 
 It's good idea to run these at one provider but it's not required.
-## Digital Ocean App Platform
+## Digital Ocean Droplet
 
 1. Set up [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/)
 2. Set up [DigitalOcean Managed Database](https://www.digitalocean.com/products/managed-databases/)
