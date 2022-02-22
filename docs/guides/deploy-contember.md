@@ -17,7 +17,7 @@ npm run build-admin
 Now you can deploy your project using Contember CLI. You'll need deploy token (you can generate one from Contember Panel).
 
 ```bash
-docker compose run -e CONTEMBER_API_TOKEN={{deploy_token}} contember-cli deploy headless-cms --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
+docker compose run -e CONTEMBER_API_TOKEN={{deploy_token}} contember-cli deploy {{your_project_name}} --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
 ```
 
 After authentication, CLI will deploy your admin and apply all your new migrations.
