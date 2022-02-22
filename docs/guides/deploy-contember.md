@@ -22,4 +22,4 @@ npx @contember/cli@next deploy your-project-name --admin {{your_project_admin_ur
 
 You'll be prompted to authenticate. You can choose to between **e-mail and password** or **API token.** You'll need login token, in order to autheticate with e-mail and password. If you choose authe You can generate tokens in Contember Panel.
 
-After authentication, CLI will deploy your admin and apply all new migrations.
+After authentication, CLI will deploy your admin and apply all your new migrations.
