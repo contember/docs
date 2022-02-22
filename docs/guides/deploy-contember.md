@@ -14,10 +14,12 @@ npm run build-admin
 
 #### 2. Deploy your project
 
-Now you can deploy your project using Contember CLI. If you don't have Contember CLI installed yet, you can install it globally `npm install @contember/cli@next -g`.
+Now you can deploy your project using Contember CLI.
 
 ```bash
-contember deploy your-project-name --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
+npx @contember/cli@next deploy your-project-name --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
 ```
 
-This will deploy your admin and apply all new migrations.
+You'll be prompted to authenticate. You can choose to between **e-mail and password** or **API token.** You'll need login token, in order to autheticate with e-mail and password. If you choose authe You can generate tokens in Contember Panel.
+
+After authentication, CLI will deploy your admin and apply all new migrations.
