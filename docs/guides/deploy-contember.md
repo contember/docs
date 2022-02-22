@@ -6,7 +6,7 @@ This tutorial will guide you through the process of deploying Contember from loc
 
 #### 1. Production build admin
 
-Now you can run `npm run build-admin` with production node environmental and it will build admin.
+Run build script inside your project folder.
 
 ```bash
 npm run build-admin
