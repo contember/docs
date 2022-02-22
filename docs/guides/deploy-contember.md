@@ -6,26 +6,18 @@ This tutorial will guide you through the process of deploying Contember from loc
 
 #### 1. Production build admin
 
-Add file `.env.production` to your admin folder and add all environment variables to it.
-
-```dotenv title=.env.production
-VITE_CONTEMBER_ADMIN_API_BASE_URL=/_api
-VITE_CONTEMBER_ADMIN_SESSION_TOKEN=__SESSION_TOKEN__
-VITE_CONTEMBER_ADMIN_PROJECT_NAME=your-project-name
-```
-
 Now you can run `npm run build-admin` with production node environmental and it will build admin.
 
 ```bash
-NODE_ENV=production npm run build-admin
+npm run build-admin
 ```
 
 #### 2. Deploy your project
 
-Now you can deploy your project using Contember CLI.
+Now you can deploy your project using Contember CLI. If you don't have Contember CLI installed yet, you can install it globally `npm install @contember/cli@next -g`.
 
 ```bash
-npm run contember deploy your-project-name --admin {{your_project_admin_url}} --instance {{your_project_api_url}} --yes
+contember deploy your-project-name --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
 ```
 
 This will deploy your admin and apply all new migrations.
