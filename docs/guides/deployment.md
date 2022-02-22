@@ -80,8 +80,6 @@ services:
 
     environment:
       NODE_ENV: "production"
-      NODE_TLS_REJECT_UNAUTHORIZED: 0
-
       CONTEMBER_PORT: '4000'
       CONTEMBER_ROOT_EMAIL: ${ROOT_EMAIL}
       CONTEMBER_ROOT_PASSWORD: ${ROOT_PASSWORD}
