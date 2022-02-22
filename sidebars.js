@@ -56,7 +56,8 @@ module.exports = {
 			label: "Guides",
 			collapsed: true,
 			items: [
-				"guides/deployment",
+				"guides/deploy-contember",
+				"guides/self-hosted-contember",
 			],
 		},
 		{
