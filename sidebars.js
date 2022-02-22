@@ -53,6 +53,14 @@ module.exports = {
 		},
 		{
 			type: "category",
+			label: "Guides",
+			collapsed: true,
+			items: [
+				"guides/deployment",
+			],
+		},
+		{
+			type: "category",
 			label: "Admin",
 			collapsed: false,
 			items: [
