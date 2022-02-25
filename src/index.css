@@ -1,3 +1,10 @@
+@import '@contember/admin/style.css';
+
+body {
+	--cui-font-family: var(--ifm-font-family-base);
+	--cui-background-color: var(--ifm-background-color);
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(25, 67, 108);
   display: block;
@@ -93,3 +100,12 @@ html[data-theme="dark"] .alert--secondary {
 html[data-theme="dark"] {
   --ifm-color-primary: var(--ifm-color-primary-lighter);
 }
+
+.playgroundHeader_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module {
+	display: none;
+}
+
+/* .playgroundEditor_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module {
+	padding-top: 1em !important;
+	padding-bottom: 1em !important;
+} */

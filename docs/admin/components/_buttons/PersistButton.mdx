@@ -1,5 +1,6 @@
 import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
 import * as SharedProps from "../../../../src/components/props"
+import LiveCode from "../../../../src/components/liveCode"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
@@ -12,17 +13,22 @@ import TabItem from "@theme/TabItem"
 >
   <TabItem value="admin-simple">
 
-```tsx
-<PersistButton />
-```
+<LiveCode>
+{`
+<>
+  <PersistButton />
+  <PersistButton />
+</>
+`}
+</LiveCode>
 
   </TabItem>
   <TabItem value="admin-advanced">
 
-```tsx
+```tsx live
 <PersistButton>
-  <Icon name="save" />
-  Save Article
+	<Icon name="save" />
+	Save Article
 </PersistButton>
 ```
 
@@ -33,5 +39,5 @@ import TabItem from "@theme/TabItem"
 #### Props
 
 <PropsTable>
-  <SharedProps.children />
+	<SharedProps.children />
 </PropsTable>

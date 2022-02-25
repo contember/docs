@@ -1,9 +1,26 @@
+import {
+	ApplicationEntrypoint,
+	Pages,
+	runReactApp,
+	DataBindingProvider,
+	FeedbackRenderer,
+	PersistButton,
+} from "@contember/admin"
 import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
 import * as SharedProps from "../../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-```tsx
+<ApplicationEntrypoint
+	basePath="http://localhost:1481"
+	apiBaseUrl="http://localhost:1481"
+	sessionToken="0000000000000000000000000000000000000000"
+	project="quickstart"
+	stage="live"
+>
+<DataBindingProvider stateComponent={FeedbackRenderer}>
+
+```tsx live
 <BlockEditor
     contentField="json"
     field="content.blocks"
@@ -11,6 +28,10 @@ import TabItem from "@theme/TabItem"
     sortableBy="order"
 />
 ```
+
+</DataBindingProvider>
+
+</ApplicationEntrypoint>
 
 #### Props
 

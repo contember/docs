@@ -13,9 +13,9 @@ import TabItem from "@theme/TabItem"
 
   <TabItem value="admin-simple">
 
-```tsx
-<Block discriminateBy="gallery" label="Gallery"> 
-  ...
+```tsx live
+<Block discriminateBy="gallery" label="Gallery">
+	...
 </Block>
 ```
 
@@ -23,13 +23,8 @@ import TabItem from "@theme/TabItem"
   <TabItem value="admin-advanced">
 
 ```tsx
-<Block 
-  discriminateBy="gallery" 
-  label="Gallery" 
-  description="" 
-  alternate=""
-> 
-  ...
+<Block discriminateBy="gallery" label="Gallery" description="" alternate="">
+	...
 </Block>
 ```
 
@@ -37,13 +32,12 @@ import TabItem from "@theme/TabItem"
 
 </Tabs>
 
-
 #### Props
 
 <PropsTable>
-  <SharedProps.discriminateBy required />
-  <SharedProps.label />
-  <SharedProps.description />
-  <SharedProps.alternate />
-  <SharedProps.children />
+	<SharedProps.discriminateBy required />
+	<SharedProps.label />
+	<SharedProps.description />
+	<SharedProps.alternate />
+	<SharedProps.children />
 </PropsTable>

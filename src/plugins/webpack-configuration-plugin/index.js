@@ -11,10 +11,16 @@ module.exports = function (context, options) {
 							options: {
 								name: '[path][name].[ext]',
 							},
-						}
+						},
+						{
+							test: /\.m?js$/,
+							resolve: {
+								fullySpecified: false,
+							},
+						},
 					],
 				},
-			};
+			}
 		},
-	};
-};
+	}
+}
