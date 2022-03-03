@@ -7,187 +7,41 @@ import * as SharedProps from "../../../src/components/props";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
+import AnyUploadField from "./_upload/AnyUploadField.mdx"
+import AudioUplaodField from "./_upload/AudioUploadField.mdx"
+import ImageUplaodField from "./_upload/ImageUploadField.mdx"
+import VideoUploadField from "./_upload/VideoUploadField.mdx"
+import AnyFileRepeater from "./_upload/AnyFileRepeater.mdx"
+
 ## Any upload field
 
 The `AnyUploadField` component renders a file upload field for uploading any file.
 
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-    { label: "API schema", value: "schema" },
-  ]}
->
-  <TabItem value="admin-simple">
-
-```tsx
-<AnyUploadField field="file" urlField="file.url" />
-```
-
-  </TabItem>
-
-  <TabItem value="admin-advanced">
-
-```tsx
-<AnyUploadField
-  field="file"
-  urlField="file.url"
-  label="File"
-  fileNameField="file.name"
-  fileSizeField="file.size"
-  fileTypeField="file.type"
-  widthField="file.width"
-  heightField="file.height"
-  acceptMimeTypes={["image/jpeg", "image/png"]}
->
-  <TextField field="file.description" label="Description" />
-</AnyUploadField>
-```
-
-This advanced upload field is a bit more complex than the Simple component. It has a label, a description, a file name, a file size, a file type, a width and a height. It also has a custom accept mime types.
-
-  </TabItem>
-
-  <TabItem value="schema">
-
-```ts
-export class File {
-  url = def.stringColumn();
-  description = def.stringColumn();
-  name = def.stringColumn();
-  size = def.stringColumn();
-  type = def.stringColumn();
-  width = def.intColumn();
-  height = def.intColumn();
-}
-```
-
-  </TabItem>
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-</PropsTable>
+<AnyUploadField />
 
 ## Audio upload field
 
 The `AudioUploadField` component renders a file upload field for uploading audio files.
 
-<Tabs 
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-    { label: "API schema", value: "schema" },
-  ]}
->
-
-  <TabItem value="admin-simple">
-
-```tsx
-<AudioUploadField urlField="" label="" />
-```
-
-</TabItem>
-
-  <TabItem value="admin-advanced">
-
-```tsx
-<AudioUploadField urlField="" label="" />
-```
-
-  </TabItem>
-
-  <TabItem value="schema">
-
-```ts
-
-```
-
-  </TabItem>
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-</PropsTable>
+<AudioUplaodField />
 
 ## Image upload field
 
 The `ImageUploadField` component renders a file upload field for uploading image files.
 
-```tsx
-<ImageUploadField urlField="" label="" />
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.heightField />
-  <SharedProps.widthField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-  <SharedProps.renderFilePreview />
-</PropsTable>
+<ImageUplaodField />
 
 ## Video upload field
 
 The `VideoUploadField` component renders a file upload field for uploading video files.
 
-```tsx
-<VideoUploadField urlField="" label="" />
-```
-
-#### Props
-
-<PropsTable>
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.heightField />
-  <SharedProps.widthField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-</PropsTable>
+<VideoUploadField />
 
 ## Any file repeater
 
 The `AnyFileRepeater` component renders a repeater field for uploading any file.
 
-```tsx
-<AnyFileRepeater field="" label="" urlField="" />
-```
+<AnyFileRepeater />
 
 ## Audio file repeater
 

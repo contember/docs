@@ -10,7 +10,7 @@
     "version": "docusaurus --version"
   },
   "dependencies": {
-    "@contember/admin": "^1.0.0-rc.9",
+    "@contember/admin": "^1.0.0-rc.11",
     "@docusaurus/core": "^2.0.0-beta.15",
     "@docusaurus/preset-classic": "^2.0.0-beta.15",
     "@docusaurus/theme-live-codeblock": "^2.0.0-beta.15",
@@ -32,7 +32,9 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-beta.15",
     "@tsconfig/docusaurus": "^1.0.4",
+    "docusaurus-plugin-sass": "^0.2.2",
     "file-loader": "^6.2.0",
+    "sass": "^1.49.9",
     "typescript": "^4.5.5"
   }
 }

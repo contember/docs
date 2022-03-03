@@ -1,30 +1,55 @@
 import * as React from 'react'
 import * as Contember from '@contember/admin'
-import { ApplicationEntrypoint, DataBindingProvider, DirtinessContext, FeedbackRenderer } from '@contember/admin'
+import { ApplicationEntrypoint, DataBindingProvider, DirtinessContext, EntityListSubTree, EntitySubTree, FeedbackRenderer } from '@contember/admin'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
+import nightOwl from 'prism-react-renderer/themes/nightOwl'
+import { useColorMode } from '@docusaurus/theme-common'
 
-{/* <DirtinessContext.Provider value={true}> */ }
+export default function ({ code, entity, entities }) {
+	const { isDarkTheme } = useColorMode()
 
-export default function ({ children }) {
 	return (
-		<div className="cui-layout">
-			<ApplicationEntrypoint
-				basePath="http://localhost:1481"
-				apiBaseUrl="http://localhost:1481"
-				sessionToken="0000000000000000000000000000000000000000"
-				project="quickstart"
-				stage="live"
-			>
-				<DataBindingProvider stateComponent={FeedbackRenderer}>
-					<DirtinessContext.Provider value={true}>
-						<LiveProvider code={children} scope={Contember} language="tsx">
-							<LiveEditor />
-							<LiveError />
-							<LivePreview />
-						</LiveProvider>
-					</DirtinessContext.Provider>
-				</DataBindingProvider>
-			</ApplicationEntrypoint>
-		</div>
+		<ApplicationEntrypoint
+			basePath="http://localhost:1481"
+			apiBaseUrl="http://localhost:1481"
+			sessionToken="0000000000000000000000000000000000000000"
+			project="quickstart"
+			stage="live"
+		>
+			<LiveProvider code={code} scope={Contember} language="tsx" theme={nightOwl} transformCode={(code) => {
+				if (entity) {
+					return (`
+						<DataBindingProvider stateComponent={FeedbackRenderer}>
+							<EntitySubTree entity="${entity}" isCreating>
+								${code}
+							</EntitySubTree>
+						</DataBindingProvider>
+					`)
+				} else if (entities) {
+					return (`
+					<DataBindingProvider stateComponent={FeedbackRenderer}>
+						<EntityListSubTree entity="${entities}" isCreating>
+							${code}
+						</EntityListSubTree>
+					</DataBindingProvider>
+				`)
+				} else {
+					return (`
+					<DataBindingProvider stateComponent={FeedbackRenderer}>
+						${code}
+					</DataBindingProvider>
+				`)
+				}
+			}}>
+				<LiveEditor className="live-code-editor" />
+				<LiveError className="live-code-error admonition admonition-tip alert alert--danger" />
+				<div className="live-code-preview-wrapper">
+					<h6>Preview</h6>
+					<div className="live-code-preview">
+						<LivePreview className={`cui-layout scheme-${isDarkTheme ? 'dark' : 'light'}`} />
+					</div>
+				</div>
+			</LiveProvider>
+		</ApplicationEntrypoint>
 	)
 }
