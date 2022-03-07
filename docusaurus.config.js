@@ -11,7 +11,6 @@ const config = {
 	projectName: 'contember',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	themes: ['@docusaurus/theme-live-codeblock'],
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({

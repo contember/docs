@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as Contember from '@contember/admin'
-import { ApplicationEntrypoint, DataBindingProvider, DirtinessContext, EntityListSubTree, EntitySubTree, FeedbackRenderer } from '@contember/admin'
+import { ApplicationEntrypoint } from '@contember/admin'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 import nightOwl from 'prism-react-renderer/themes/nightOwl'
 import { useColorMode } from '@docusaurus/theme-common'
@@ -44,7 +44,7 @@ export default function ({ code, entity, entities }) {
 				<LiveEditor className="live-code-editor" />
 				<LiveError className="live-code-error admonition admonition-tip alert alert--danger" />
 				<div className="live-code-preview-wrapper">
-					<h6>Preview</h6>
+					<h6>Component preview</h6>
 					<div className="live-code-preview">
 						<LivePreview className={`cui-layout scheme-${isDarkTheme ? 'dark' : 'light'}`} />
 					</div>
