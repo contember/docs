@@ -1,3 +1,5 @@
+const DefinePlugin = require('webpack/lib/DefinePlugin')
+
 module.exports = function (context, options) {
 	return {
 		name: 'docusaurus-webpack-configuration-plugin',
