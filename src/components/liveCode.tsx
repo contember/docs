@@ -7,7 +7,24 @@ import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 import { useColorMode } from '@docusaurus/theme-common'
 
 // solves SSR window problem
-import { DataBindingProvider, EntitySubTree, FeedbackRenderer, ClearFieldButton, PersistButton, BlockEditor, RichEditor, TextField } from '@contember/admin' 
+import { 
+	DataBindingProvider, 
+	EntitySubTree, 
+	FeedbackRenderer, 
+	ClearFieldButton, 
+	PersistButton, 
+	BlockEditor, 
+	RichEditor, 
+	TextField, 
+	AnyFileRepeater, 
+	AnyUploadField,
+	AudioFileRepeater,
+	AudioUploadField,
+	ImageFileRepeater,
+	ImageUploadField,
+	VideoFileRepeater,
+	VideoUploadField
+} from '@contember/admin' 
 
 export default function ({ code, entity, entities }) {
 	const { isDarkTheme } = useColorMode()
@@ -24,7 +41,15 @@ export default function ({ code, entity, entities }) {
 						PersistButton, 
 						BlockEditor, 
 						RichEditor, 
-						TextField 
+						TextField,
+						AnyFileRepeater,
+						AnyUploadField,
+						AudioFileRepeater,
+						AudioUploadField,
+						ImageFileRepeater,
+						ImageUploadField,
+						VideoFileRepeater,
+						VideoUploadField
 					}
 
 					return (
