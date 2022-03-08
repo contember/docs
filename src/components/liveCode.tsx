@@ -2,12 +2,12 @@ import * as React from 'react'
 // import * as Contember from '@contember/admin'
 import nightOwl from 'prism-react-renderer/themes/nightOwl'
 import BrowserOnly from '@docusaurus/BrowserOnly'
-import { ToasterProvider, DialogProvider, ContemberClient, Toaster, I18nProvider } from '@contember/admin'
+import { ToasterProvider, DialogProvider, ContemberClient, Toaster, I18nProvider, StyleProvider } from '@contember/admin'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 import { useColorMode } from '@docusaurus/theme-common'
 
 // solves SSR window problem
-import { DataBindingProvider, EntitySubTree, FeedbackRenderer, ClearFieldButton, PersistButton, BlockEditor, RichEditor } from '@contember/admin' 
+import { DataBindingProvider, EntitySubTree, FeedbackRenderer, ClearFieldButton, PersistButton, BlockEditor, RichEditor, TextField } from '@contember/admin' 
 
 export default function ({ code, entity, entities }) {
 	const { isDarkTheme } = useColorMode()
@@ -16,7 +16,16 @@ export default function ({ code, entity, entities }) {
 		<BrowserOnly fallback={<div>Loading...</div>}>
 			{
 				() => {
-					const scope = { DataBindingProvider, EntitySubTree, FeedbackRenderer, ClearFieldButton, PersistButton, BlockEditor, RichEditor }
+					const scope = { 
+						DataBindingProvider, 
+						EntitySubTree, 
+						FeedbackRenderer, 
+						ClearFieldButton, 
+						PersistButton, 
+						BlockEditor, 
+						RichEditor, 
+						TextField 
+					}
 
 					return (
 						<I18nProvider localeCode={undefined} dictionaries={undefined}>
@@ -64,7 +73,9 @@ export default function ({ code, entity, entities }) {
 												<div className="live-code-preview-wrapper">
 													<h6>Component preview</h6>
 													<div className="live-code-preview">
-														<LivePreview className={`cui-layout scheme-${isDarkTheme ? 'dark' : 'light'}`} />
+														<StyleProvider>
+															<LivePreview className={`scheme-${isDarkTheme ? 'dark' : 'light'}`} />
+														</StyleProvider>
 													</div>
 												</div>
 											</LiveProvider>

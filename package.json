@@ -28,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@contember/admin": "^1.0.0-rc.12",
+    "@contember/admin": "^1.0.0-rc.13",
     "@docusaurus/module-type-aliases": "^2.0.0-beta.17",
     "@tsconfig/docusaurus": "^1.0.4",
     "docusaurus-plugin-sass": "^0.2.2",
