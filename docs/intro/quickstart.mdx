@@ -131,7 +131,7 @@ Go to `admin/pages` and create new file `articles.tsx`.
 import * as React from 'react'
 import { DataGridPage, TextCell } from '@contember/admin'
 
-export const articleList = (
+export const articles = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
   </DataGridPage>
@@ -139,7 +139,7 @@ export const articleList = (
 ```
 
 1. Import `@contember/admin` package for TypeScript autocompletion.
-2. Export `articleList`. The export name is used for linking to the page and in URL.
+2. Export `articles`. The export name is used for linking to the page and in URL.
 3. Use `DataGridPage` component to show the data in a simple datagrid.
 4. Tell it which entities you'd like to edit. In our case it's `Article` (it has to be the same name we used in the model).
 5. Use `TextCell` to add text column.
@@ -154,7 +154,7 @@ Let's add some data.
 import * as React from 'react'
 import { CreatePage, DataGridPage, RichTextField, TextCell, TextField } from '@contember/admin'
 
-export const articleList = (
+export const articles = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
   </DataGridPage>
@@ -187,7 +187,7 @@ For simplicity, we'll add it to the same file as well. It looks almost the same 
 import * as React from 'react'
 import { CreatePage, DataGridPage, EditPage, RichTextField, TextCell, TextField } from '@contember/admin'
 
-export const articleList = (
+export const articles = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
   </DataGridPage>
@@ -251,7 +251,7 @@ import {
   TextField,
 } from '@contember/admin'
 
-export const articleList = (
+export const articles = (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
     {/* highlight-start */}
@@ -298,7 +298,7 @@ export const Navigation = () => (
   <Menu>
     <Menu.Item>
       <Menu.Item title="Dashboard" to="index" />
-      <Menu.Item title="Articles" to="articleList" />
+      <Menu.Item title="Articles" to="articles" />
       <Menu.Item title="Create new article" to="articleCreate" />
     </Menu.Item>
   </Menu>
