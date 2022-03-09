@@ -4,7 +4,7 @@ title: Tenant API overview
 
 Contember has built-in user and permissions management. This part we call Tenant API. 
 
-There is always a single Tenant API running on an instance and you can find it on http://localhost:1481/tenant . And of course, it is a GraphQL API.
+There is always a single Tenant API running on an instance, you can find its GraphQL API on http://localhost:1481/tenant.
 
 ## Terms
 
@@ -18,7 +18,7 @@ Like a Content API, Tenant API also needs an authorization token for each reques
 
 The key is defined using `CONTEMBER_LOGIN_TOKEN` env variable. For local development, you can find this key in `docker-compose.yaml`
 
-With a login token, you are allowed just for a single operation - login.
+You use this token for sign in (using both email/password or IdP) and password reset mutations.
 
 Besides special tokens like the login token, there are two basic kinds of authorization tokens:
 - permanent API token for e.g. applications, where you don't authenticate users. You can [generate it using Tenant API mutations](tenant/api-keys.md) 

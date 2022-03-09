@@ -4,11 +4,13 @@ title: User management
 
 ## Sign in
 
-For sign in, you need a [login token](tenant/overview.md#authorization-tokens). After successful login, you receive a token for subsequent requests.
+For sign in, you need a [login token](tenant/overview.md#authorization-tokens). After successful login, you receive a session token for subsequent requests.
 
+
+#### Example: sign in
 ```graphql
 mutation {
-  signIn(email: "admin@cms.cz", password: "123456", expiration: 3600) {
+  signIn(email: "admin@example.com", password: "123456", expiration: 3600) {
     ok
     result {
       token
@@ -20,10 +22,16 @@ mutation {
 }
 ```
 
+:::note
+Expiration is automatically extended after each request.
+:::
+
 ## Sign out
 
-By calling signOut mutation, you can invalidate a token associated with current request
+By calling `signOut` mutation, you can invalidate a token associated with current request
 
+
+#### Example: sign out current session
 ```graphql
 mutation {
   signOut {
@@ -34,7 +42,7 @@ mutation {
 
 By setting a parameter `all` to `true`, you invalidate all tokens associated with a current identity. 
 
-
+#### Example: sign out all sessions
 ```graphql
 mutation {
   signOut(all: true) {
@@ -42,12 +50,13 @@ mutation {
   }
 }
 ``` 
-
-> Only persons are allowed to sign out. It cannot be called with a permanent API key.
+:::note
+Only persons are allowed to sign out. It cannot be called with a permanent API key.
+::::
 
 ## Invite
 
-Superadmin or a project admin can invite other person to a project:
+Superadmin or a project admin can invite other person to a project. You can also setup [Tenant ACL permissions](/schema/acl.md#tenant-permissions) for other user roles.
 
 ```graphql
 mutation {

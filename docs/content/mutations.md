@@ -2,7 +2,7 @@
 title: GraphQL Mutations
 ---
 
-Contember offers advanced mutations for data modification. For every entity there are 3 operations available - create, update and delete. A GraphQL schema for your entity Post will look like this:
+Contember offers advanced mutations for data modification. For every entity there are 4 operations available - create, update, delete and upsert. A GraphQL schema for your entity Post will look like this:
 
 ```graphql
 type Mutation {

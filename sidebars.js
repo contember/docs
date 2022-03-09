@@ -38,6 +38,7 @@ module.exports = {
 				"content/queries",
 				"content/mutations",
 				"content/s3",
+				"content/event-log",
 			],
 		},
 		{
@@ -89,10 +90,21 @@ module.exports = {
 						// "admin/components-ui/layout",
 					],
 					"Data Binding": [
+						{
+							type: 'doc',
+							id: 'admin/data-binding/overview',
+							label: 'Overview',
+						},
+						{
+							type: 'doc',
+							id: 'admin/writing-components',
+							label: 'Custom components',
+						},
 						// "admin/data-binding/entity-accessor",
 						"admin/data-binding/field-accessor",
 						"admin/data-binding/query-language",
 					],
+
 					"Releases": [
 						"admin/releases/v1.0.0",
 					],
