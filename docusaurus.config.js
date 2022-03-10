@@ -1,3 +1,4 @@
+require('dotenv').config()
 const path = require('path')
 
 /** @type {import('@docusaurus/types').Config} */
@@ -11,6 +12,11 @@ const config = {
 	projectName: 'contember',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
+	customFields: {
+		contemberSessionToken: process.env.CONTEMBER_SESSION_TOKEN,
+		contemberApiBaseUrl: process.env.CONTEMBER_API_URL,
+		contemberProjectName: process.env.CONTEMBER_PROJECT_NAME,
+	},
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
@@ -64,7 +70,7 @@ const config = {
 				},
 				theme: {
 					customCss: [
-						require.resolve('@contember/admin/style.css'), 
+						require.resolve('@contember/admin/style.css'),
 						require.resolve('./src/index.sass'),
 					],
 				},

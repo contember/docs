@@ -1,0 +1,23 @@
+// solves SSR window problem
+export {
+	AnyFileRepeater,
+	AnyUploadField,
+	AudioFileRepeater,
+	AudioUploadField,
+	Block,
+	BlockEditor,
+	BlockRepeater,
+	ClearFieldButton,
+	DataBindingProvider,
+	DiscriminatedBlocks,
+	EntitySubTree,
+	FeedbackRenderer,
+	ImageFileRepeater,
+	ImageUploadField,
+	PersistButton,
+	RichEditor,
+	TextField,
+	VideoFileRepeater,
+	VideoUploadField,
+	TextAreaField,
+} from '@contember/admin'

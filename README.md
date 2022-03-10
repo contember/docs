@@ -8,6 +8,15 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 npm ci
 ```
 
+### Environmentals
+
+Create a `.env` file with the following variables:
+
+```
+CONTEMBER_SESSION_TOKEN=<your session token>
+CONTEMBER_APIU_RL=<your api url>
+```
+
 ### Local Development
 
 ```
