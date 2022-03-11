@@ -4,11 +4,17 @@ import LiveCode from "../../../../src/components/liveCode"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-<LiveCode code={`<ClearFieldButton field="name" label="Clear name" />`} />
+<LiveCode
+	code={`<>
+  <TextField field="name" label="Name" />
+  <ClearFieldButton field="name" label="Clear name" />
+</>`}
+	entity="File"
+/>
 
 #### Props
 
 <PropsTable>
-  <SharedProps.field required description="The name of the field to be cleared on click." />
-  <SharedProps.label required />
+	<SharedProps.field required description="The name of the field to be cleared on click." />
+	<SharedProps.label required />
 </PropsTable>

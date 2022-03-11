@@ -1,4 +1,88 @@
 import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
 import * as SharedProps from "../../../../src/components/props"
+import LiveCode from "../../../../src/components/liveCode"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
+
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+
+```tsx
+<ImageFileRepeater
+  field="images"
+  urlField="image.url"
+  label="Gallery"
+  sortableBy="order"
+/>
+```
+
+  </TabItem>
+
+  <TabItem value="admin-advanced">
+
+```tsx
+<ImageFileRepeater
+  field="images"
+  urlField="image.url"
+  label="Gallery"
+  description="image.description"
+  heightField="image.height"
+  widthField="image.width"
+  fileSizeField="image.size"
+  fileTypeField="image.type"
+  sortableBy="order"
+>
+  <TextField field="image.description" label="Description" />
+  <TextField field="image.alt" label="Alternative text" />
+</ImageFileRepeater>
+```
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```ts
+export class Gallery {
+  images = def.oneHasMany(Image, "gallery");
+}
+
+export class Image {
+  order = def.intColumn().notNull();
+  url = def.stringColumn();
+  description = def.stringColumn();
+  height = def.stringColumn();
+  width = def.stringColumn();
+  size = def.stringColumn();
+  type = def.stringColumn();
+  gallery = def.manyHasOne(Gallery, "images");
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.urlField required />
+  <SharedProps.label required />
+  <SharedProps.sortableBy />
+  <SharedProps.orderBy />
+  <SharedProps.description />
+  <SharedProps.fileNameField />
+  <SharedProps.fileSizeField />
+  <SharedProps.fileTypeField />
+  <SharedProps.heightField />
+  <SharedProps.widthField />
+  <SharedProps.enableAddingNew />
+  <SharedProps.acceptFile />
+  <SharedProps.acceptMimeTypes />
+</PropsTable>

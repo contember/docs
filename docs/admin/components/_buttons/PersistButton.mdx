@@ -4,29 +4,11 @@ import LiveCode from "../../../../src/components/liveCode"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-  ]}
->
-  <TabItem value="admin-simple">
-
-<LiveCode code={`<PersistButton />`} />
-
-  </TabItem>
-  <TabItem value="admin-advanced">
-
 <LiveCode
 	entity="BlockEditor"
 	code={`<TextField field="name" label="Name" />
 <PersistButton />`}
 />
-
-  </TabItem>
-
-</Tabs>
 
 #### Props
 

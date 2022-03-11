@@ -1,0 +1,30 @@
+---
+title: Content
+---
+
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
+import * as SharedProps from "../../../src/components/props";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+import Block from "./_content/Block.mdx"
+import BlockEditor from "./_content/BlockEditor.mdx"
+import BlockRepeater from "./_content/BlockRepeater.mdx"
+
+## Block editor
+
+The `BlockEditor` component is the main component of the editor. It is responsible for rendering the content editor.
+
+<BlockEditor />
+
+## Block repeater
+
+The `BlockRepeater` component is a simple way to repeat blocks of content. Use [`Block`](#block) for wrapping fields.
+
+<BlockRepeater />
+
+## Block
+
+The `Block` component is used for wrapping fields in [`BlockRepeater`](#block-repeater), [`BlockEditor`](#block-editor) or [`DiscriminatedBlocks`](/admin/components/blocks#discriminated-blocks) components.
+
+<Block />

@@ -2,40 +2,21 @@
 title: Uploads
 ---
 
-import { PropsTable, PropsTableRow } from "../../../src/components/propsTable";
-import * as SharedProps from "../../../src/components/props";
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
+import { PropsTable, PropsTableRow } from "../../../src/components/propsTable"
+import * as SharedProps from "../../../src/components/props"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
 
-import AnyUploadField from "./_upload/AnyUploadField.mdx"
-import AudioUplaodField from "./_upload/AudioUploadField.mdx"
-import ImageUplaodField from "./_upload/ImageUploadField.mdx"
-import VideoUploadField from "./_upload/VideoUploadField.mdx"
 import AnyFileRepeater from "./_upload/AnyFileRepeater.mdx"
+import AnyUploadField from "./_upload/AnyUploadField.mdx"
+import AudioFileRepeater from "./_upload/AudioFileRepeater.mdx"
+import AudioUplaodField from "./_upload/AudioUploadField.mdx"
+import ImageFileRepeater from "./_upload/ImageFileRepeater.mdx"
+import ImageUplaodField from "./_upload/ImageUploadField.mdx"
+import VideoFileRepeater from "./_upload/VideoFileRepeater.mdx"
+import VideoUploadField from "./_upload/VideoUploadField.mdx"
 
-## Any upload field
-
-The `AnyUploadField` component renders a file upload field for uploading any file.
-
-<AnyUploadField />
-
-## Audio upload field
-
-The `AudioUploadField` component renders a file upload field for uploading audio files.
-
-<AudioUplaodField />
-
-## Image upload field
-
-The `ImageUploadField` component renders a file upload field for uploading image files.
-
-<ImageUplaodField />
-
-## Video upload field
-
-The `VideoUploadField` component renders a file upload field for uploading video files.
-
-<VideoUploadField />
+All upload fields automatically upload files to S3 and save url to given field. If file has more parameters (such as size, type, width, etc.) they will be saved too.
 
 ## Any file repeater
 
@@ -43,254 +24,44 @@ The `AnyFileRepeater` component renders a repeater field for uploading any file.
 
 <AnyFileRepeater />
 
+## Any upload field
+
+The `AnyUploadField` component renders a file upload field for uploading any file.
+
+<AnyUploadField />
+
 ## Audio file repeater
 
 The `AudioFileRepeater` component renders a file repeater field for uploading audio files.
 
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-    { label: "API schema", value: "schema" },
-  ]}
->
-  <TabItem value="admin-simple">
+<AudioFileRepeater />
 
-```tsx
-<ImageFileRepeater
-  field="songs"
-  urlField="song.url"
-  label="Album"
-  sortableBy="order"
-/>
-```
+## Audio upload field
 
-  </TabItem>
+The `AudioUploadField` component renders a file upload field for uploading audio files.
 
-  <TabItem value="admin-advanced">
-
-```tsx
-<ImageFileRepeater
-  field="songs"
-  urlField="song.url"
-  label="Album"
-  description="song.description"
-  fileSizeField="song.size"
-  fileTypeField="song.type"
-  sortableBy="order"
->
-  <TextField field="song.description" label="Description" />
-</ImageFileRepeater>
-```
-
-  </TabItem>
-
-  <TabItem value="schema">
-
-```ts
-export class Album {
-  songs = def.oneHasMany(Song, "album");
-}
-
-export class Song {
-  order = def.intColumn().notNull();
-  url = def.stringColumn();
-  description = def.stringColumn();
-  height = def.stringColumn();
-  width = def.stringColumn();
-  size = def.stringColumn();
-  type = def.stringColumn();
-  album = def.manyHasOne(Album, "songs");
-}
-```
-
-  </TabItem>
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.field required />
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.sortableBy />
-  <SharedProps.orderBy />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.heightField />
-  <SharedProps.widthField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-</PropsTable>
-
+<AudioUplaodField />
 
 ## Image file repeater
 
 The `ImageFileRepeater` component renders a file repeater for uploading image files.
 
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-    { label: "API schema", value: "schema" },
-  ]}
->
-  <TabItem value="admin-simple">
+<ImageFileRepeater />
 
-```tsx
-<ImageFileRepeater
-  field="images"
-  urlField="image.url"
-  label="Gallery"
-  sortableBy="order"
-/>
-```
+## Image upload field
 
-  </TabItem>
+The `ImageUploadField` component renders a file upload field for uploading image files.
 
-  <TabItem value="admin-advanced">
-
-```tsx
-<ImageFileRepeater
-  field="images"
-  urlField="image.url"
-  label="Gallery"
-  description="image.description"
-  heightField="image.height"
-  widthField="image.width"
-  fileSizeField="image.size"
-  fileTypeField="image.type"
-  sortableBy="order"
->
-  <TextField field="image.description" label="Description" />
-  <TextField field="image.alt" label="Alternative text" />
-</ImageFileRepeater>
-```
-
-  </TabItem>
-
-  <TabItem value="schema">
-
-```ts
-export class Gallery {
-  images = def.oneHasMany(Image, "gallery");
-}
-
-export class Image {
-  order = def.intColumn().notNull();
-  url = def.stringColumn();
-  description = def.stringColumn();
-  height = def.stringColumn();
-  width = def.stringColumn();
-  size = def.stringColumn();
-  type = def.stringColumn();
-  gallery = def.manyHasOne(Gallery, "images");
-}
-```
-
-  </TabItem>
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.field required />
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.sortableBy />
-  <SharedProps.orderBy />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.heightField />
-  <SharedProps.widthField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-</PropsTable>
+<ImageUplaodField />
 
 ## Video file repeater
 
 The `VideoFileRepeater` component renders a file repeater for uploading video files.
 
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-    { label: "API schema", value: "schema" },
-  ]}
->
-  <TabItem value="admin-simple">
+<VideoFileRepeater />
 
-```tsx
-<ImageFileRepeater
-  field="videos"
-  urlField="video.url"
-  label="Video serie"
-  sortableBy="order"
-/>
-```
+## Video upload field
 
-  </TabItem>
+The `VideoUploadField` component renders a file upload field for uploading video files.
 
-  <TabItem value="admin-advanced">
-
-```tsx
-<ImageFileRepeater
-  field="videos"
-  urlField="video.url"
-  label="Video serie"
-  description="video.description"
-  fileSizeField="video.size"
-  fileTypeField="video.type"
-  sortableBy="order"
->
-  <TextField field="video.description" label="Description" />
-</ImageFileRepeater>
-```
-
-  </TabItem>
-
-  <TabItem value="schema">
-
-```ts
-export class VideoSerie {
-  videos = def.oneHasMany(Video, "serie");
-}
-
-export class Video {
-  order = def.intColumn().notNull();
-  url = def.stringColumn();
-  description = def.stringColumn();
-  size = def.stringColumn();
-  type = def.stringColumn();
-  serie = def.manyHasOne(VideoSerie, "videos");
-}
-```
-
-  </TabItem>
-</Tabs>
-
-#### Props
-
-<PropsTable>
-  <SharedProps.field required />
-  <SharedProps.urlField required />
-  <SharedProps.label required />
-  <SharedProps.sortableBy />
-  <SharedProps.orderBy />
-  <SharedProps.description />
-  <SharedProps.fileNameField />
-  <SharedProps.fileSizeField />
-  <SharedProps.fileTypeField />
-  <SharedProps.enableAddingNew />
-  <SharedProps.acceptFile />
-  <SharedProps.acceptMimeTypes />
-</PropsTable>
+<VideoUploadField />
