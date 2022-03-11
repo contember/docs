@@ -1143,6 +1143,159 @@
 							}
 						}
 					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public",
+					"value": {
+						"variables": {},
+						"stages": "*",
+						"entities": {
+							"BlockRepeater": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"blocks": true
+									}
+								}
+							},
+							"RepeaterBlock": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"order": true,
+										"type": true,
+										"content": true,
+										"author": true,
+										"images": true,
+										"blockRepeater": true
+									}
+								}
+							},
+							"RepeaterGallery": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"order": true,
+										"image": true,
+										"repeaterReference": true
+									}
+								}
+							},
+							"BlockEditor": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"blocks": true,
+										"name": true
+									}
+								}
+							},
+							"EditorBlock": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"order": true,
+										"type": true,
+										"content": true,
+										"blockEditor": true,
+										"references": true
+									}
+								}
+							},
+							"ContentReference": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"type": true,
+										"contentPart": true,
+										"content": true,
+										"author": true,
+										"images": true
+									}
+								}
+							},
+							"ContentGallery": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"order": true,
+										"image": true,
+										"contentReference": true
+									}
+								}
+							},
+							"Upload": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"file": true,
+										"files": true,
+										"image": true,
+										"video": true
+									}
+								}
+							},
+							"UploadFile": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"order": true,
+										"file": true,
+										"upload": true
+									}
+								}
+							},
+							"File": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"url": true,
+										"description": true,
+										"name": true,
+										"size": true,
+										"type": true,
+										"width": true,
+										"height": true
+									}
+								}
+							},
+							"Image": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"url": true,
+										"description": true,
+										"name": true,
+										"size": true,
+										"type": true,
+										"width": true,
+										"height": true
+									}
+								}
+							},
+							"Video": {
+								"predicates": {},
+								"operations": {
+									"read": {
+										"id": true,
+										"url": true
+									}
+								}
+							}
+						}
+					}
 				}
 			]
 		}
