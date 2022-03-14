@@ -1,0 +1,32 @@
+name: Deploy projects
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Validate Schema
+        uses: docker://contember/cli:1.0.0-rc.15
+        with:
+          args: project:validate .
+
+      - name: Deploy
+        if: ${{ env.STAGE == 'prod' }}
+        uses: docker://contember/cli:1.0.0-rc.15
+        env:
+          CONTEMBER_API_URL: https://api-docs.eu.contember.cloud
+          CONTEMBER_API_TOKEN: ${{ secrets.CONTEMBER_DEPLOY_TOKEN }}
+          CONTEMBER_PROJECT_NAME: docs
+        with:
+          args: deploy docs --yes
