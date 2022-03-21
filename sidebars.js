@@ -69,11 +69,12 @@ module.exports = {
 				"admin/introduction",
 				{
 					"Components": [
+						"admin/components/block",
 						"admin/components/buttons",
 						"admin/components/content",
 						"admin/components/data-binding",
 						"admin/components/data-grid",
-						"admin/components/dimensions",
+						// "admin/components/dimensions",
 						"admin/components/discrimination",
 						"admin/components/field-views",
 						"admin/components/form-fields",
