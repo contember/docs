@@ -2,6 +2,7 @@ import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable
 import * as SharedProps from "../../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
+import LiveCode from "../../../../src/components/liveCode"
 
 <Tabs
   defaultValue="admin-simple"
@@ -13,13 +14,14 @@ import TabItem from "@theme/TabItem"
 >
   <TabItem value="admin-simple">
 
-```tsx
-<SelectField 
+<LiveCode
+  entity="Form"
+  code={`<SelectField 
   field="category" 
   label="Select category" 
   options="Category.name" 
+/>`}
 />
-```
 
   </TabItem>
 
