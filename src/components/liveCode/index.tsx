@@ -7,7 +7,14 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { useColorMode } from '@docusaurus/theme-common'
 import * as Contember from './contember'
 
-export default function ({ code, entity, entities }) {
+type LiveCodeProps = {
+	code: string
+	entity: string
+	entities: string
+	preview: boolean
+}
+
+export default function ({ code, entity, entities, preview = true }: LiveCodeProps) {
 	const { isDarkTheme } = useColorMode()
 	const { siteConfig: { customFields } }: any = useDocusaurusContext()
 
@@ -58,14 +65,17 @@ export default function ({ code, entity, entities }) {
 										>
 											<LiveEditor className="live-code-editor" />
 											<LiveError className="live-code-error admonition admonition-tip alert alert--danger" />
-											<div className="live-code-preview-wrapper">
-												<h6>Component preview</h6>
-												<div className="live-code-preview">
-													<StyleProvider>
-														<LivePreview className={`scheme-${isDarkTheme ? 'dark' : 'light'}`} />
-													</StyleProvider>
+											{preview &&
+
+												<div className="live-code-preview-wrapper">
+													<h6>Component preview</h6>
+													<div className="live-code-preview">
+														<StyleProvider>
+															<LivePreview className={`scheme-${isDarkTheme ? 'dark' : 'light'}`} />
+														</StyleProvider>
+													</div>
 												</div>
-											</div>
+											}
 										</LiveProvider>
 									</ContemberClient>
 									<Toaster />
