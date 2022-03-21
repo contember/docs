@@ -5,55 +5,14 @@ import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
 <Tabs
-  defaultValue="block-editor"
+  defaultValue="component"
   values={[
-    { label: "Used in BlockEditor", value: "block-editor" },
-    { label: "Used in BlockRepeater", value: "block-repeater" },
+    { label: "Component", value: "component" },
     { label: "Schema", value: "schema" },
   ]}
 >
 
-  <TabItem value="block-editor">
-    <LiveCode
-      entity="BlockEditor"
-      code={
-`<BlockEditor 
-  field="blocks"
-  label="Content"
-  sortableBy="order"
-  contentField="content"
-  referencesField="references"
-  referenceDiscriminationField="type"
-  blockButtons={[
-    {
-      discriminateBy: "gallery",
-      blueprintIcon: "heat-grid",
-      title: "Gallery",
-    },
-    {
-      discriminateBy: "quote",
-      blueprintIcon: "citation",
-      title: "Quote",
-    }
-  ]}
->
-  <Block discriminateBy="gallery" label="Gallery">
-    <ImageFileRepeater
-      field="images"
-      urlField="image.url"
-      label={undefined}
-      sortableBy="order"
-    />
-  </Block>
-  <Block discriminateBy="quote" label="Quote">
-    <TextAreaField field="content" label="Content" />
-    <TextField field="author" label="Author" />
-  </Block>
-</BlockEditor>`
-}
-    />
-  </TabItem>
-  <TabItem value="block-repeater">
+  <TabItem value="component">
     <LiveCode
       entity="BlockEditor"
       code={
@@ -127,13 +86,3 @@ export class ContentGallery {
   </TabItem>
 
 </Tabs>
-
-#### Props
-
-<PropsTable>
-	<SharedProps.discriminateBy required />
-	<SharedProps.label />
-	<SharedProps.description />
-	<SharedProps.alternate />
-	<SharedProps.children />
-</PropsTable>
