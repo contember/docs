@@ -2,7 +2,7 @@
 title: Deploy Contember project to Contember Cloud
 ---
 
-This tutorial will guide you through the process of deploying Contember from local machine to Contember Cloud. (If you selfhost Contember, this tutorial won't work without admin server for which you need Enterprise license).
+This tutorial will guide you through the process of deploying the Contember from local machine to the Contember Cloud. (Tutorial won't work for self-hosted Contember without an admin server. The admin server is under an Enterprise license, [contact us](mailto:team@contember.com) for more information).
 
 #### 1. Make sure you have correctly set project name
 
