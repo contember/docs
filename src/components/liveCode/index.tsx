@@ -12,9 +12,10 @@ type LiveCodeProps = {
 	entity: string
 	entities: string
 	preview: boolean
+	withoutDatabinding: boolean
 }
 
-export default function ({ code, entity, entities, preview = true }: LiveCodeProps) {
+export default function ({ code, entity, entities, withoutDatabinding = false, preview = true }: LiveCodeProps) {
 	const { isDarkTheme } = useColorMode()
 	const { siteConfig: { customFields } }: any = useDocusaurusContext()
 
@@ -38,7 +39,9 @@ export default function ({ code, entity, entities, preview = true }: LiveCodePro
 											language="tsx"
 											theme={nightOwl}
 											transformCode={(code) => {
-												if (entity) {
+												if (withoutDatabinding) {
+													return code
+												} else if (entity) {
 													return (`
 															<DataBindingProvider stateComponent={FeedbackRenderer}>
 																<EntitySubTree entity="${entity}" isCreating>
