@@ -6,7 +6,7 @@ This tutorial will guide you through the process of deploying the Contember from
 
 #### 1. Make sure you have correctly set project name
 
-Your project needs to have the same name locally and in Contember Cloud. Mostly (for example in our templates) there are 2 places where you need to set it:
+Your project needs to have the same name locally and in the Contember Cloud. In particular, there are 2 places where you need to set it up:
 1. In `docker-compose.yml` set the `CONTEMBER_PROJECT_NAME` to your project slug
 2. In `.env.production` set the `VITE_CONTEMBER_ADMIN_PROJECT_NAME` to your project slug
 
