@@ -94,3 +94,39 @@ export class Image {
 export class Video {
 	url = def.stringColumn()
 }
+
+export class Form {
+	name = def.stringColumn()
+	done = def.boolColumn()
+	color = def.stringColumn()
+	birthday = def.dateColumn()
+	startsAt = def.dateColumn()
+	tags = def.manyHasMany(Tag, 'forms')
+	category = def.manyHasOne(Category, 'forms')
+	content = def.stringColumn()
+}
+
+export class Tag {
+	name = def.stringColumn()
+	forms = def.manyHasManyInverse(Form, 'tags')
+}
+
+export class Category {
+	name = def.stringColumn()
+	forms = def.oneHasMany(Form, 'category')
+}
+
+export class Discrimination {
+	link = def.manyHasOne(Link)
+}
+
+export class Link {
+	type = def.enumColumn(def.createEnum('url', 'article')).notNull()
+	article = def.manyHasOne(Article, 'linkedFrom')
+	url = def.stringColumn()
+}
+
+export class Article {
+	slug = def.stringColumn()
+	linkedFrom = def.oneHasMany(Link, 'article')
+}
