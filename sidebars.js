@@ -113,10 +113,10 @@ module.exports = {
 		},
 		{
 			type: "category",
-			label: "Templates",
+			label: "Starter kits",
 			collapsed: true,
 			items: [
-				"templates/headless-cms",
+				"starter-kits/headless-cms",
 			]
 		}
 	]
