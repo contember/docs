@@ -88,6 +88,6 @@ export default function ({ code, entity, entities, withoutDatabinding = false, p
 					)
 				}
 			}
-		</BrowserOnly >
+		</BrowserOnly>
 	)
 }
