@@ -8,7 +8,7 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 npm ci
 ```
 
-### Environmentals
+### Environment variables
 
 Create a `.env` file with the following variables:
 
