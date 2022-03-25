@@ -29,56 +29,7 @@ const aclFactory = (model: Model.Schema): Acl.Schema => ({
 		public: {
 			variables: {},
 			stages: '*',
-			entities: {
-				BlockRepeater: {
-					predicates: {},
-					operations: readOnly(model, 'BlockRepeater', true),
-				},
-				RepeaterBlock: {
-					predicates: {},
-					operations: readOnly(model, 'RepeaterBlock', true),
-				},
-				RepeaterGallery: {
-					predicates: {},
-					operations: readOnly(model, 'RepeaterGallery', true),
-				},
-				BlockEditor: {
-					predicates: {},
-					operations: readOnly(model, 'BlockEditor', true),
-				},
-				EditorBlock: {
-					predicates: {},
-					operations: readOnly(model, 'EditorBlock', true),
-				},
-				ContentReference: {
-					predicates: {},
-					operations: readOnly(model, 'ContentReference', true),
-				},
-				ContentGallery: {
-					predicates: {},
-					operations: readOnly(model, 'ContentGallery', true),
-				},
-				Upload: {
-					predicates: {},
-					operations: readOnly(model, 'Upload', true),
-				},
-				UploadFile: {
-					predicates: {},
-					operations: readOnly(model, 'UploadFile', true),
-				},
-				File: {
-					predicates: {},
-					operations: readOnly(model, 'File', true),
-				},
-				Image: {
-					predicates: {},
-					operations: readOnly(model, 'Image', true),
-				},
-				Video: {
-					predicates: {},
-					operations: readOnly(model, 'Video', true),
-				},
-			}
+			entities: Object.fromEntries(Object.keys(model.entities).map(entity => [entity, { predicates: {}, operations: readOnly(model, entity, true) }]))
 		}
 	},
 })
