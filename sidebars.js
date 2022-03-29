@@ -65,6 +65,13 @@ module.exports = {
 			type: "category",
 			label: "Admin",
 			collapsed: false,
+			// link: {
+			// 	type: 'generated-index',
+			// 	title: 'Admin',
+			// 	keywords: ['admin'],
+				// description: "Let's learn about the most important Docusaurus concepts!",
+				// image: '/img/docusaurus.png',
+			// },
 			items: [
 				"admin/introduction",
 				{

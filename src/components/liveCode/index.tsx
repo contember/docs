@@ -16,7 +16,7 @@ type LiveCodeProps = {
 }
 
 export default function ({ code, entity, entities, withoutDatabinding = false, preview = true }: LiveCodeProps) {
-	const { isDarkTheme } = useColorMode()
+	const { colorMode } = useColorMode()
 	const { siteConfig: { customFields } }: any = useDocusaurusContext()
 
 	return (
@@ -74,7 +74,7 @@ export default function ({ code, entity, entities, withoutDatabinding = false, p
 													<h6>Component preview</h6>
 													<div className="live-code-preview">
 														<StyleProvider>
-															<LivePreview className={`scheme-${isDarkTheme ? 'dark' : 'light'}`} />
+															<LivePreview className={`scheme-${colorMode === 'dark' ? 'dark' : 'light'}`} />
 														</StyleProvider>
 													</div>
 												</div>
