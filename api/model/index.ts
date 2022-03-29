@@ -45,7 +45,7 @@ export class EditorBlock {
 }
 
 export class ContentReference {
-	type = def.enumColumn(def.createEnum('gallery')).notNull()
+	type = def.enumColumn(def.createEnum('gallery', 'quote')).notNull()
 	contentPart = def.manyHasOne(EditorBlock, 'references')
 	content = def.stringColumn()
 	author = def.stringColumn()

@@ -2,6 +2,14 @@
 	"formatVersion": 3,
 	"modifications": [
 		{
+			"modification": "updateEnum",
+			"enumName": "ContentReferenceType",
+			"values": [
+				"gallery",
+				"quote"
+			]
+		},
+		{
 			"modification": "patchAclSchema",
 			"patch": [
 				{
