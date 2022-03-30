@@ -8,9 +8,9 @@
     "swizzle": "docusaurus swizzle",
     "version": "docusaurus --version",
     "contember": "docker-compose run contember-cli",
-		"start-engine": "npm run contember migrations:execute . --yes && docker-compose up --detach",
-		"start-admin": "vite admin --port 1480 --host 0.0.0.0",
-		"deploy-api": "docker compose run -e CONTEMBER_API_TOKEN= contember-cli deploy"
+    "start-engine": "npm run contember migrations:execute . --yes && docker-compose up --detach",
+    "start-admin": "vite admin --port 1480 --host 0.0.0.0",
+    "deploy-api": "docker compose run -e CONTEMBER_API_TOKEN= contember-cli deploy"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-beta.18",
@@ -32,19 +32,18 @@
   },
   "devDependencies": {
     "@contember/admin": "^1.0.0-rc",
-    "@contember/schema-definition": "^1.0.0-rc",
     "@contember/schema": "^1.0.0-rc",
+    "@contember/schema-definition": "^1.0.0-rc",
     "@docusaurus/module-type-aliases": "^2.0.0-beta.17",
     "@tsconfig/docusaurus": "^1.0.4",
     "@types/react": "^17",
     "docusaurus-plugin-sass": "^0.2.2",
     "dotenv": "^16.0.0",
     "file-loader": "^6.2.0",
+    "react": "^17",
     "react-dom": "^17",
     "react-live": "^3.0.0",
-    "react": "^17",
     "sass": "^1.49.9",
-    "typescript": "^4.5.5",
-    "vite": "^2.7"
+    "typescript": "^4.5.5"
   }
 }
