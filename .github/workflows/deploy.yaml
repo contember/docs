@@ -25,7 +25,6 @@ jobs:
           args: project:validate .
 
       - name: Deploy
-        if: ${{ env.STAGE == 'prod' }}
         uses: docker://contember/cli:1.0.0-rc.15
         env:
           CONTEMBER_API_URL: https://api-doc-v3.eu.contember.cloud
