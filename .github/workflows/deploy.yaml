@@ -31,4 +31,4 @@ jobs:
           CONTEMBER_API_TOKEN: ${{ secrets.CONTEMBER_DEPLOY_TOKEN }}
           CONTEMBER_PROJECT_NAME: doc-v3
         with:
-          args: deploy docs --yes
+          args: deploy doc-v3 --yes
