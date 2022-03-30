@@ -64,22 +64,22 @@ import TabItem from "@theme/TabItem"
 
 ```jsx
 export class BlockRepeater {
-	blocks = def.oneHasMany(RepeaterBlock, 'blockRepeater').orderBy('order')
+  blocks = def.oneHasMany(RepeaterBlock, 'blockRepeater').orderBy('order')
 }
 
 export class RepeaterBlock {
-	order = def.intColumn().notNull()
-	type = def.enumColumn(ContentBlockType).notNull()
-	content = def.stringColumn()
-	author = def.stringColumn()
-	images = def.oneHasMany(RepeaterGallery, 'repeaterReference').orderBy('order')
-	blockRepeater = def.manyHasOne(BlockRepeater, 'blocks')
+  order = def.intColumn().notNull()
+  type = def.enumColumn(ContentBlockType).notNull()
+  content = def.stringColumn()
+  author = def.stringColumn()
+  images = def.oneHasMany(RepeaterGallery, 'repeaterReference').orderBy('order')
+  blockRepeater = def.manyHasOne(BlockRepeater, 'blocks')
 }
 
 export class RepeaterGallery {
-	order = def.intColumn().notNull()
-	image = def.manyHasOne(Image).notNull()
-	repeaterReference = def.manyHasOne(RepeaterBlock, 'images').cascadeOnDelete()
+  order = def.intColumn().notNull()
+  image = def.manyHasOne(Image).notNull()
+  repeaterReference = def.manyHasOne(RepeaterBlock, 'images').cascadeOnDelete()
 }
 ```
 

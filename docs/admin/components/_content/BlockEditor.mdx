@@ -86,30 +86,30 @@ import TabItem from "@theme/TabItem"
 
 ```tsx
 export class BlockEditor {
-	blocks = def.oneHasMany(ContentBlock, 'blockEditor')
+  blocks = def.oneHasMany(ContentBlock, 'blockEditor')
 }
 
 export class ContentBlock {
-	order = def.intColumn().notNull()
-	type = def.enumColumn(ContentBlockType).notNull()
+  order = def.intColumn().notNull()
+  type = def.enumColumn(ContentBlockType).notNull()
 
-	content = def.stringColumn()
-	blockEditor = def.manyHasOne(BlockEditor, 'blocks')
-	references = def.oneHasMany(ContentReference, 'contentPart')
+  content = def.stringColumn()
+  blockEditor = def.manyHasOne(BlockEditor, 'blocks')
+  references = def.oneHasMany(ContentReference, 'contentPart')
 }
 
 export class ContentReference {
-	type = def.enumColumn(def.createEnum('gallery')).notNull()
-	contentPart = def.manyHasOne(ContentBlock, 'references')
-	content = def.stringColumn()
+  type = def.enumColumn(def.createEnum('gallery')).notNull()
+  contentPart = def.manyHasOne(ContentBlock, 'references')
+  content = def.stringColumn()
   author = def.stringColumn()
-	images = def.oneHasMany(ContentGallery, 'contentReference')
+  images = def.oneHasMany(ContentGallery, 'contentReference')
 }
 
 export class ContentGallery {
-	order = def.intColumn().notNull()
-	image = def.manyHasOne(Image).notNull()
-	contentReference = def.manyHasOne(ContentReference, 'images').cascadeOnDelete()
+  order = def.intColumn().notNull()
+  image = def.manyHasOne(Image).notNull()
+  contentReference = def.manyHasOne(ContentReference, 'images').cascadeOnDelete()
 }
 ```
 
