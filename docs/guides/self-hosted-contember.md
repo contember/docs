@@ -1,5 +1,5 @@
 ---
-title: Self hosted Cotember
+title: Self hosted Contember
 ---
 
 ## Hosting options

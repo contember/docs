@@ -1,0 +1,108 @@
+{
+	"formatVersion": 3,
+	"modifications": [
+		{
+			"modification": "updateEnum",
+			"enumName": "ContentReferenceType",
+			"values": [
+				"gallery",
+				"quote"
+			]
+		},
+		{
+			"modification": "patchAclSchema",
+			"patch": [
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Form",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"name": true,
+								"done": true,
+								"color": true,
+								"birthday": true,
+								"startsAt": true,
+								"tags": true,
+								"category": true,
+								"content": true
+							}
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Tag",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"name": true,
+								"forms": true
+							}
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Category",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"name": true,
+								"forms": true
+							}
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Discrimination",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"link": true
+							}
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Link",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"type": true,
+								"article": true,
+								"url": true
+							}
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Article",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"slug": true,
+								"linkedFrom": true
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

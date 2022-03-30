@@ -2,10 +2,12 @@ import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable
 import * as SharedProps from "../../../../src/components/props"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
+import LiveCode from "../../../../src/components/liveCode"
 
-```tsx
-<CheckboxField field="myCheckboxField" label="Checkbox field" />
-```
+<LiveCode
+  entity="Form"
+  code={`<CheckboxField field="done" label="Done" />`}
+/>
 
 #### Props
 

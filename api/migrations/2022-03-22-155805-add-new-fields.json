@@ -1,0 +1,504 @@
+{
+	"formatVersion": 3,
+	"modifications": [
+		{
+			"modification": "createEnum",
+			"enumName": "LinkType",
+			"values": [
+				"url",
+				"article"
+			]
+		},
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Form",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "form"
+			}
+		},
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Tag",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "tag"
+			}
+		},
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Category",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "category"
+			}
+		},
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Discrimination",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "discrimination"
+			}
+		},
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Link",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "link"
+			}
+		},
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Article",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "article"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Form",
+			"field": {
+				"name": "name",
+				"columnName": "name",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Form",
+			"field": {
+				"name": "done",
+				"columnName": "done",
+				"nullable": true,
+				"type": "Bool",
+				"columnType": "boolean"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Form",
+			"field": {
+				"name": "color",
+				"columnName": "color",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Form",
+			"field": {
+				"name": "birthday",
+				"columnName": "birthday",
+				"nullable": true,
+				"type": "Date",
+				"columnType": "date"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Form",
+			"field": {
+				"name": "startsAt",
+				"columnName": "starts_at",
+				"nullable": true,
+				"type": "Date",
+				"columnType": "date"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Form",
+			"field": {
+				"name": "content",
+				"columnName": "content",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Tag",
+			"field": {
+				"name": "name",
+				"columnName": "name",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Category",
+			"field": {
+				"name": "name",
+				"columnName": "name",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Link",
+			"field": {
+				"name": "type",
+				"columnName": "type",
+				"nullable": false,
+				"type": "Enum",
+				"columnType": "LinkType"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Link",
+			"field": {
+				"name": "url",
+				"columnName": "url",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Article",
+			"field": {
+				"name": "slug",
+				"columnName": "slug",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createRelation",
+			"entityName": "Form",
+			"owningSide": {
+				"type": "ManyHasMany",
+				"name": "tags",
+				"inversedBy": "forms",
+				"target": "Tag",
+				"joiningTable": {
+					"tableName": "form_tags",
+					"joiningColumn": {
+						"columnName": "form_id",
+						"onDelete": "cascade"
+					},
+					"inverseJoiningColumn": {
+						"columnName": "tag_id",
+						"onDelete": "cascade"
+					}
+				}
+			},
+			"inverseSide": {
+				"name": "forms",
+				"ownedBy": "tags",
+				"target": "Form",
+				"type": "ManyHasMany"
+			}
+		},
+		{
+			"modification": "createRelation",
+			"entityName": "Form",
+			"owningSide": {
+				"name": "category",
+				"inversedBy": "forms",
+				"nullable": true,
+				"type": "ManyHasOne",
+				"target": "Category",
+				"joiningColumn": {
+					"columnName": "category_id",
+					"onDelete": "restrict"
+				}
+			},
+			"inverseSide": {
+				"name": "forms",
+				"ownedBy": "category",
+				"type": "OneHasMany",
+				"target": "Form"
+			}
+		},
+		{
+			"modification": "createRelation",
+			"entityName": "Discrimination",
+			"owningSide": {
+				"name": "link",
+				"nullable": true,
+				"type": "ManyHasOne",
+				"target": "Link",
+				"joiningColumn": {
+					"columnName": "link_id",
+					"onDelete": "restrict"
+				}
+			}
+		},
+		{
+			"modification": "createRelation",
+			"entityName": "Link",
+			"owningSide": {
+				"name": "article",
+				"inversedBy": "linkedFrom",
+				"nullable": true,
+				"type": "ManyHasOne",
+				"target": "Article",
+				"joiningColumn": {
+					"columnName": "article_id",
+					"onDelete": "restrict"
+				}
+			},
+			"inverseSide": {
+				"name": "linkedFrom",
+				"ownedBy": "article",
+				"type": "OneHasMany",
+				"target": "Link"
+			}
+		},
+		{
+			"modification": "patchAclSchema",
+			"patch": [
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Form",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"name": true,
+								"done": true,
+								"color": true,
+								"birthday": true,
+								"startsAt": true,
+								"tags": true,
+								"category": true,
+								"content": true
+							},
+							"read": {
+								"id": true,
+								"name": true,
+								"done": true,
+								"color": true,
+								"birthday": true,
+								"startsAt": true,
+								"tags": true,
+								"category": true,
+								"content": true
+							},
+							"update": {
+								"id": true,
+								"name": true,
+								"done": true,
+								"color": true,
+								"birthday": true,
+								"startsAt": true,
+								"tags": true,
+								"category": true,
+								"content": true
+							},
+							"delete": true
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Tag",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"name": true,
+								"forms": true
+							},
+							"read": {
+								"id": true,
+								"name": true,
+								"forms": true
+							},
+							"update": {
+								"id": true,
+								"name": true,
+								"forms": true
+							},
+							"delete": true
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Category",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"name": true,
+								"forms": true
+							},
+							"read": {
+								"id": true,
+								"name": true,
+								"forms": true
+							},
+							"update": {
+								"id": true,
+								"name": true,
+								"forms": true
+							},
+							"delete": true
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Discrimination",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"link": true
+							},
+							"read": {
+								"id": true,
+								"link": true
+							},
+							"update": {
+								"id": true,
+								"link": true
+							},
+							"delete": true
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Link",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"type": true,
+								"article": true,
+								"url": true
+							},
+							"read": {
+								"id": true,
+								"type": true,
+								"article": true,
+								"url": true
+							},
+							"update": {
+								"id": true,
+								"type": true,
+								"article": true,
+								"url": true
+							},
+							"delete": true
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"slug": true,
+								"linkedFrom": true
+							},
+							"read": {
+								"id": true,
+								"slug": true,
+								"linkedFrom": true
+							},
+							"update": {
+								"id": true,
+								"slug": true,
+								"linkedFrom": true
+							},
+							"delete": true
+						}
+					}
+				}
+			]
+		}
+	]
+}

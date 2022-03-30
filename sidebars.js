@@ -65,17 +65,24 @@ module.exports = {
 			type: "category",
 			label: "Admin",
 			collapsed: false,
+			// link: {
+			// 	type: 'generated-index',
+			// 	title: 'Admin',
+			// 	keywords: ['admin'],
+				// description: "Let's learn about the most important Docusaurus concepts!",
+				// image: '/img/docusaurus.png',
+			// },
 			items: [
 				"admin/introduction",
 				{
 					"Components": [
-						"admin/components/blocks",
+						"admin/components/block",
 						"admin/components/buttons",
+						"admin/components/content",
 						"admin/components/data-binding",
 						"admin/components/data-grid",
 						// "admin/components/dimensions",
-						// "admin/components/discrimination",
-						"admin/components/editor",
+						"admin/components/discrimination",
 						"admin/components/field-views",
 						"admin/components/form-fields",
 						"admin/components/pages",

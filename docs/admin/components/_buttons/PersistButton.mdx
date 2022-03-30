@@ -1,37 +1,17 @@
 import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
 import * as SharedProps from "../../../../src/components/props"
+import LiveCode from "../../../../src/components/liveCode"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-<Tabs
-  defaultValue="admin-simple"
-  values={[
-    { label: "Component - simple", value: "admin-simple" },
-    { label: "Component - advanced", value: "admin-advanced" },
-  ]}
->
-  <TabItem value="admin-simple">
-
-```tsx
-<PersistButton />
-```
-
-  </TabItem>
-  <TabItem value="admin-advanced">
-
-```tsx
-<PersistButton>
-  <Icon name="save" />
-  Save Article
-</PersistButton>
-```
-
-  </TabItem>
-
-</Tabs>
+<LiveCode
+	entity="BlockEditor"
+	code={`<TextField field="name" label="Name" />
+<PersistButton />`}
+/>
 
 #### Props
 
 <PropsTable>
-  <SharedProps.children />
+	<SharedProps.children />
 </PropsTable>

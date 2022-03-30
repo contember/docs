@@ -1,15 +1,17 @@
 import { PropsTable, PropsTableRow } from "../../../../src/components/propsTable"
 import * as SharedProps from "../../../../src/components/props"
+import LiveCode from "../../../../src/components/liveCode"
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 
-```tsx
-<ClearFieldButton field="name" label="Clear name" />
-```
+<LiveCode
+	code={`<ClearFieldButton field="name" label="Clear name" />`}
+	entity="File"
+/>
 
 #### Props
 
 <PropsTable>
-  <SharedProps.field required description="The name of the field to be cleared on click." />
-  <SharedProps.label required />
+	<SharedProps.field required description="The name of the field to be cleared on click." />
+	<SharedProps.label required />
 </PropsTable>

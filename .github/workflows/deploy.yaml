@@ -25,7 +25,7 @@ jobs:
         if: ${{ env.STAGE == 'prod' }}
         uses: docker://contember/cli:1.0.0-rc.15
         env:
-          CONTEMBER_API_URL: https://api-docs.eu.contember.cloud
+          CONTEMBER_API_URL: https://api-doc-v3.eu.contember.cloud
           CONTEMBER_API_TOKEN: ${{ secrets.CONTEMBER_DEPLOY_TOKEN }}
           CONTEMBER_PROJECT_NAME: docs
         with:
