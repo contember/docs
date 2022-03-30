@@ -29,6 +29,6 @@ jobs:
         env:
           CONTEMBER_API_URL: https://api-doc-v3.eu.contember.cloud
           CONTEMBER_API_TOKEN: ${{ secrets.CONTEMBER_DEPLOY_TOKEN }}
-          CONTEMBER_PROJECT_NAME: docs
+          CONTEMBER_PROJECT_NAME: doc-v3
         with:
           args: deploy docs --yes
