@@ -1,0 +1,79 @@
+import { PropsTable, PropsTableRow } from "@src/components/propsTable"
+import * as SharedProps from "@src/components/props"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+import LiveCode from "@src/components/liveCode"
+
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+
+<LiveCode
+  entity="Form"
+  code={`<SelectField 
+  field="category" 
+  label="Select category" 
+  options="Category.name" 
+/>`}
+/>
+
+  </TabItem>
+
+  <TabItem value="admin-advanced">
+
+```tsx
+function customRenderOptions(accessor) {
+  const name = accessor.getField("name").value
+  const color = accessor.getField("color").value
+
+  return <span style={{ backgroundColor: color }}>{name}</span>
+}
+
+<SelectField
+  field="category"
+  label="Select category"
+  options="Category"
+  renderOption={customRenderOptions}
+  optionsStaticRender={
+    <>
+      <Field field="name" />
+      <Field field="color" />
+    </>
+  }
+/>
+```
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```ts
+export class Article {
+  category = def.manyHasOne(Category);
+}
+
+export class Category {
+  name = def.stringColumn();
+  @validation.assertPattern(/^#[0-9a-fA-F]{6}$/, "Wrong color format. Use HEX (e.g. #000000)")
+  color = def.stringColumn();
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.options required />
+  <SharedProps.renderOption />
+  <SharedProps.optionsStaticRender />
+</PropsTable>

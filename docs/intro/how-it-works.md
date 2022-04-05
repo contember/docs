@@ -24,9 +24,6 @@ POSSIBLE INCLUDE WALL AS AUTHORIZATION LAYER``
 
 ## How the project looks like
 
-
-### Contember Engine
-
 First you have to tell Contember Engine, how your data model looks like. So you start defining your project schema. For the most simple blog, it could look something like this:
 
 ```typescript

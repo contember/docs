@@ -1,3 +1,4 @@
+const path = require('path')
 const DefinePlugin = require('webpack/lib/DefinePlugin')
 
 module.exports = function (context, options) {
@@ -21,6 +22,11 @@ module.exports = function (context, options) {
 							},
 						},
 					],
+				},
+				resolve: {
+					alias: {
+						'@src': path.resolve(__dirname, '../..'),
+					},
 				},
 			}
 		},

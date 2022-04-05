@@ -24,16 +24,16 @@ Follow our [quickstart](/intro/quickstart) to understand the basics and build so
 ### Main principles
 
 - **Everything is code** (TypeScript and React).
-- The structure of the data is up to you, Contember doesn't force any arbitrary collections or posts. **Create any entities you want with attributes and relationships**. [Schema overview](/schema/overview.md)
+- The structure of the data is up to you, Contember doesn't force any arbitrary collections or posts. **Create any entities you want with attributes and relationships**. [Schema overview](/reference/engine/schema/overview.md)
 - The administration is not dependent on your data structure. Build any views with few lines of code. [Administration introduction](/admin/introduction.md)
 
 ### Highlighted features
 
 - Generates well-structured PosgreSQL database
-- Instantly provides you with [GraphQL API](/content/overview.md)
-- Built-in [authentication](/tenant/overview.md)
-- Powerful role-based [ACL](/schema/acl.md)
-- Automatic database [migrations](/schema/migrations.md)
+- Instantly provides you with [GraphQL API](/reference/engine/content/overview.md)
+- Built-in [authentication](/reference/engine/tenant/overview.md)
+- Powerful role-based [ACL](/reference/engine/schema/acl.md)
+- Automatic database [migrations](/reference/engine/schema/migrations.md)
 - Multi-language, translatable
 - Extend with your own React.js components
 

@@ -1,0 +1,132 @@
+---
+title: v1.0.0
+---
+
+import CompareCode from "@src/components/CompareCode"
+
+## What's Changed
+
+### New Features
+* New design [#84](https://github.com/contember/admin/pull/84)
+* Password reset support [#60](https://github.com/contember/admin/pull/60)
+* One-time password support [#60](https://github.com/contember/admin/pull/60)
+* Collaboration server in admin-server [#85](https://github.com/contember/admin/pull/85)
+* Editor: Sortable blocks and major refactoring including new API for adding custom blocks and bug fixes [#71](https://github.com/contember/admin/pull/71), [#76](https://github.com/contember/admin/pull/76), [#82](https://github.com/contember/admin/pull/82)
+* Datagrid: `HasOneSelectCell` and [`HasManySelectCell`](/admin/components/data-grid#has-manny-select-cell) [#87](https://github.com/contember/admin/pull/87)
+* Datagrid: Remembers selected filters and page when navigating back [#81](https://github.com/contember/admin/pull/81)
+
+### Fixes
+* Various select field fixes [#82](https://github.com/contember/admin/pull/82), [#83](https://github.com/contember/admin/pull/83)
+* `LogoutLink` in Safari [#71](https://github.com/contember/admin/pull/71)
+
+### Deprecations
+* `PageLinkById` use [`PageLinkButton`](/admin/components/buttons#page-link-button) instead.
+* `PageLink` use [`Link`](/admin/components/routing#link) instead.
+* `PageLinkButton` use [`LinkButton`](/admin/components/routing#link-button) instead.
+
+Full Changelog: https://github.com/contember/admin/compare/v0.7.0...v1.0.0-rc.1
+
+## Migration
+
+We've simplified the layout components to make them easier to use. To use the new layout, you need to update a few things.
+
+### Mandatory changes
+
+#### Rename `<Layout />` props 
+
+- `topStart` to `sidebarHeader`
+- `topEnd` to `sidebarFooter`
+- `sideBar` to `navigation`
+
+<CompareCode>
+
+```tsx {2-4}
+<Layout
+	topStart={...}
+	topEnd={...}
+	sideBar={...}
+/>
+```
+
+```tsx {2-4}
+<Layout
+	sidebarHeader={...}
+	sidebarFooter={...}
+	navigation={...}
+/>
+```
+
+</CompareCode>
+
+#### Remove [`<TitleBar />`](/admin/components/pages#titlebar)
+
+- Move prop `actions` from the [`<TitleBar />`](/admin/components/pages#titlebar) component to page component (e.g. [`<Page />`](/admin/components/pages#page), [`<GenericPage />`](/admin/components/pages#generic-page), `<LayoutPage />`).
+- Remove the [`<TitleBar />`](/admin/components/pages#titlebar) component and insert the contents of the [`<TitleBar />`](/admin/components/pages#titlebar) component into the `title` property of the page.
+
+<CompareCode>
+
+```tsx {4-8}
+<GenericPage 
+	pageName="blogList"
+>
+	<TitleBar 
+		actions={...}
+	>
+		Article
+	</TitleBar>
+	...
+</GenericPage>
+```
+
+```tsx {3-4}
+<GenericPage 
+	pageName="blogList"
+	title="Article"
+	actions={...}
+>
+	...
+</GenericPage>
+```
+
+</CompareCode>
+
+#### Rename `<LayoutInner />` and remove `<LayoutSide />`
+
+- Change the `<LayoutInner />` to `<LayoutPage />`.
+- Remove the `<LayoutSide />` component and insert the content into the `side` prop on `<LayoutPage />`.
+
+<CompareCode>
+
+```tsx {2,4-7}
+<LayoutContent>
+	<LayoutInner>
+	...
+	</LayoutInner>
+	<LayoutSide>
+		<PersistButton />
+	</LayoutSide>
+</LayoutContent>
+```
+
+```tsx {2,4}
+<LayoutContent>
+	<LayoutPage side={<PersistButton />}>
+	...
+	</LayoutPage>
+</LayoutContent>
+```
+
+</CompareCode>
+
+#### Remove `<AltPersistButton />` component
+
+- We no longer support `<AltPersistButton />` component. Remove it or change it to [`<PersistButton />`](/admin/components/buttons#persist-button).
+
+#### Tenant pages
+
+- Change the [`<GenericPage />`](/admin/components/pages#generic-page) component that wraps the tenant pages to [`<Page />`](/admin/components/pages#page) component.
+
+### Recommended changes
+
+#### Remove unnecessary `<Box />` component
+We added a new `<Section />` component that divides groups of fields on a page into logical page sections. The section names are also listed within the navigation on the page tabs. Sections are not intended to be nested within other sections and should only be used to define the top-level sections of a page. Sections must be parent elements to dimensions, not vice versa, due to styling constraints.

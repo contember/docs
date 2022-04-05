@@ -1,0 +1,106 @@
+---
+title: Query language
+---
+
+import { PropsTable, PropsTableRow } from "@src/components/propsTable";
+import * as SharedProps from "@src/components/queryLanguageProps";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+Query language is a syntax to query the data in data binding.
+
+## Examples
+
+### Articles with more than 100 views
+```tsx
+<MultiSelectField 
+    field="articles"
+    label="Popular articles"
+    options="Article[views < 99].title"
+/>
+```
+
+### Published articles
+```tsx
+<SelectField
+    field="article"
+    label="Featured article"
+    options="Article[status=published].title"
+/>
+```
+
+### Unique article by id
+```tsx
+<EditPage
+    entity="Article(id = $id)"
+    pageName="blogEdit"
+/>
+```
+
+## Symbols
+
+<PropsTable firstColumnHeading="Symbols">
+    <SharedProps.equals />
+    <SharedProps.notEquals />
+    <SharedProps.greaterThan />
+    <SharedProps.lessThan />
+    <SharedProps.greaterThanOrEquals />
+    <SharedProps.lessThanOrEquals />
+    <SharedProps.asc />
+    <SharedProps.desc />
+</PropsTable>
+
+## Types
+
+### Qualified entity list
+```
+Author
+Author[age < 18]
+Article[status = 'published']
+Article[status = 'published' && author.age >= 18]
+Author[age < 123].son.sisters(name = 'Jane')
+```
+
+### Qualified Field List
+```
+Author[age < 123].son.sister.name
+```
+
+### Qualified single entity
+```
+Author(id = 123).son.sister
+```
+
+### Relative single field
+```
+authors(id = 123).person.name
+```
+
+### Relative single entity
+```
+localesByLocale(locale.slug = en)
+```
+
+### Relative entity list
+```
+genres(slug = 'sciFi').authors[age < 123]
+```
+
+### Unique where
+```
+(author.mother.id = 123)
+```
+
+### Filter
+```
+[author.son.age < 123]
+```
+
+### Order by
+```
+items.content.name asc
+```
+
+```
+items.content.name desc
+```
