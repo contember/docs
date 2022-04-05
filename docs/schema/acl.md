@@ -102,10 +102,6 @@ const editorRole = {
 };
 ```
 
-<!--
-Beside already described fields there is also a field called stage, which references to a [content stage](content/staging.md). You can define a role to be applicable in any stage by putting a `'*'` or you can set a array of particular stages (e.g. `['live', 'draft']`)
--->
-
 ## Role inheritance
 
 A role can inherit rules of other role (or multiple roles) and extend it. It is not possible to deny a permission, which a role, you inherit from, grants. Resulting rules are merged using "or" operator.
