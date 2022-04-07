@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run start-engine && docusaurus start",
+    "start": "npm run start-engine && docusaurus start --port 3308",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "version": "docusaurus --version",
