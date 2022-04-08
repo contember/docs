@@ -1,0 +1,50 @@
+.theming-color-input
+  align-items: stretch
+  flex-grow: 1
+  padding: 1px 0
+
+  &-fields
+    border: 1px solid transparent
+    border-radius: calc(var(--cui-control-border-radius) / 2)
+    background-color: var(--cui-color--lower)
+    flex-grow: 1
+    margin-left: 0.5em
+    overflow: hidden
+    gap: 1px
+
+  &-wrapper
+    flex-grow: 1
+
+  &-color,
+  &-text
+    border: 0
+
+  &-text
+    flex-grow: 1
+    font-family: monospace
+    font-size: 0.8125em
+    padding: var(--cui-gap)
+    width: 5em
+
+  &-unlink-button.cui-button
+    height: unset
+    width: var(--cui-control-height--small)
+    .cui-button-content
+      background: var(--ifm-background-color)
+      z-index: 1
+    &::before
+      border-left-width: 0
+      border: 1px solid var(--cui-color--lower)
+      bottom: 0.75em
+      content: ""
+      display: block
+      left: 0
+      position: absolute
+      top: 0.75em
+      width: 59%
+
+
+  &-link-button,
+  &-unlink-button
+    .cui-icon
+      font-size: 0.75em

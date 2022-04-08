@@ -1,0 +1,30 @@
+---
+title: Theme palettes
+---
+
+import { Spacer } from '@contember/ui'
+import {
+  COLORS_COUNT,
+  Scale,
+  THEMES_LIST,
+  Var,
+  WEIGHT_MAXIMUM,
+  WEIGHT_MINIMUM,
+  WEIGHT_STEP,
+  Generator,
+} from "../../../src/theming"
+
+<p>
+  Each color scale consists of <strong>{COLORS_COUNT}</strong> color weights,
+  starting from <strong>{WEIGHT_MINIMUM}</strong> (black)
+  to weight <strong>{WEIGHT_MAXIMUM}</strong> (white) with step increment of <strong>{WEIGHT_STEP}</strong>.
+</p>
+
+You can edit and modify each of the color palettes below and override the shipped palletes by appending the generated CSS properties after the import of the `@contember/admin` styles in your admin styles file, e.g. `src/admin/index.sass`. Only the colors that differ from original colors are generated for overrides.
+
+The generated palletes provide sufficient contrasts for both dark and light themes according to the [upcoming APCA standard](https://www.w3.org/WAI/GL/task-forces/silver/wiki/Visual_Contrast_of_Text_Subgroup#WCAG_2.x_to_Silver.2FAPCA_Comparison_Table).
+Unlink the color inputs for the highlights, middles and the shadows to achieve expected color tones.
+
+<Spacer gap="large" />
+
+<Generator />
