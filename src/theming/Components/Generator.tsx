@@ -17,6 +17,7 @@ import { copyTextToClipboard, cssToSASS, indentText } from "../Helpers"
 import { scaleGradient, scaleToColorWeightMap, scaleToCSSProperties } from "../Scale"
 import { ColorInput } from './ColorInput'
 import { Scale } from "./Scale"
+import { useColorMode } from '@docusaurus/theme-common'
 
 type ThemeChangeCallback = (name: ThemeName, colors: [string, string, string] | null) => void
 
@@ -160,6 +161,7 @@ const ThemeEditor = React.memo(({
 ThemeEditor.displayName = 'ThemeEditor'
 
 export const Generator = React.memo(() => {
+  const { colorMode } = useColorMode()
   const [verbose, setVerbose] = React.useState(false)
 
   const [themes, setThemes] = React.useState(CONTEMBER_THEMES)
@@ -218,7 +220,7 @@ export const Generator = React.memo(() => {
     await copyTextToClipboard(cssToSASS(cssResult));
   }, [cssResult]);
 
-  return <Stack direction='vertical' className="theming-generator">
+  return <Stack direction='vertical' className={`{'theming-generator'} scheme-${colorMode === 'dark' ? 'dark' : 'light'}`}>
     <ThemeEditor
       dirty={dirtyThemes.current}
       themeEntries={themeEntries}
