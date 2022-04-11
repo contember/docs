@@ -4,8 +4,11 @@ import {
   Icon,
   Spacer,
   Stack,
+  toSchemeClass,
   toStateClass
 } from '@contember/ui'
+import { useColorMode } from '@docusaurus/theme-common'
+import classNames from "classnames"
 import * as React from 'react'
 import {
   CONTEMBER_THEMES,
@@ -17,7 +20,6 @@ import { copyTextToClipboard, cssToSASS, indentText } from "../Helpers"
 import { scaleGradient, scaleToColorWeightMap, scaleToCSSProperties } from "../Scale"
 import { ColorInput } from './ColorInput'
 import { Scale } from "./Scale"
-import { useColorMode } from '@docusaurus/theme-common'
 
 type ThemeChangeCallback = (name: ThemeName, colors: [string, string, string] | null) => void
 
@@ -220,19 +222,22 @@ export const Generator = React.memo(() => {
     await copyTextToClipboard(cssToSASS(cssResult));
   }, [cssResult]);
 
-  return <Stack direction='vertical' className={`{'theming-generator'} scheme-${colorMode === 'dark' ? 'dark' : 'light'}`}>
+  return <Stack direction='vertical' className={classNames(
+    'theming-generator',
+    toSchemeClass(colorMode === 'dark' ? 'dark' : 'light'),
+  )}>
+    <Stack align="center" direction="horizontal" className="sm:flex-wrap">
+      <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
+      <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="outlined" onClick={copySASSToClipboard}>Copy SASS</Button>
+      {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
+      <Spacer className="flex-grow" />
+      <Checkbox value={verbose} onChange={setVerbose}>Verbose</Checkbox>
+    </Stack>
     <ThemeEditor
       dirty={dirtyThemes.current}
       themeEntries={themeEntries}
       onThemesChange={onThemesChange}
     />
-    <Stack align="center" direction="horizontal">
-      <Button disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
-      <Button disabled={changedThemeEntries.length === 0} distinction="outlined" onClick={copySASSToClipboard}>Copy SASS</Button>
-      {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
-      <Spacer className="flex-grow" />
-      <Checkbox value={verbose} onChange={setVerbose}>Verbose</Checkbox>
-    </Stack>
     <style className={verbose ? 'is-visible-style' : null}>{cssResult}</style>
   </Stack>
 })
