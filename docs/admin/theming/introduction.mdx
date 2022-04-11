@@ -6,12 +6,15 @@ import { Spacer, Stack } from '@contember/ui'
 import {
   THEMES_LIST_BRANDS,
   THEMES_LIST_SYSTEM,
-  Preview,
+  ThemePreview,
   Scale,
   Swatch,
 } from "../../../src/theming"
 
-Customizing admin distinguishes between customizing the **theme** (color) and **scheme** (dark, light). Theme sets color independently on the scheme. Scheme defines light or dark modes for elements.
+With Contember you can change **theme** and **scheme** independently. Contember combine theme for content and controls with light and dark scheme resulting in many flexible combinations. By default, the content is themed with **default** theme and controls in **primary** theme.
+
+- A theme sets the overall color look of the container and its descendants
+- A scheme sets the dark or light look of the container and its descendants
 
 ## Color themes
 
@@ -27,32 +30,38 @@ Customizing admin distinguishes between customizing the **theme** (color) and **
 - <Scale name={THEMES_LIST_SYSTEM[3]} direction="horizontal" />
 - <Scale name={THEMES_LIST_SYSTEM[4]} direction="horizontal" />
 
+To generate class names responsible for changing color theme use `toThemeClass(contentTheme, controlsTheme)` helper.
+
 ## Color schemes
 
-Contember combine theme for content and controls with light and dark scheme resulting in many flexible combinations. By default, the content is themed with **default** theme and controls in **primary** theme.
-
-<Stack direction="horizontal">
-  <Preview heading="Light scheme with default theming" scheme="light" />
-  <Preview heading="Dark scheme with default theming" scheme="dark" />
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with default theming" scheme="light" />
+  <ThemePreview heading="Dark scheme with default theming" scheme="dark" />
+  <ThemePreview heading="System scheme with default theming" scheme="system" />
 </Stack>
+
+To generate class names responsible for changin color theme use `toSchemeClass(contentTheme, controlsTheme)` helper.
 
 ### Secondary themed controls
 
-<Stack direction="horizontal">
-  <Preview heading="Light scheme with secondary themed primary button on default content theme" scheme="light" themeControls="secondary" />
-  <Preview heading="Dark scheme with secondary themed primary button on default content theme" scheme="dark" themeControls="secondary" />
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with secondary themed primary button on default content theme" scheme="light" themeControls="secondary" />
+  <ThemePreview heading="Dark scheme with secondary themed primary button on default content theme" scheme="dark" themeControls="secondary" />
+  <ThemePreview heading="System scheme with secondary themed primary button on default content theme" scheme="system" themeControls="secondary" />
 </Stack>
 
 ### Examples of combinations
 
-<Stack direction="horizontal">
-  <Preview heading="Light scheme with success theme for content and positive for primary button and content" scheme="light" theme="success" themeControls="positive" />
-  <Preview heading="Dark scheme with success theme for content and positive for primary button and content" scheme="dark" theme="success" themeControls="positive" />
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with success theme for content and positive for primary button and content" scheme="light" theme="success" themeControls="positive" />
+  <ThemePreview heading="Dark scheme with success theme for content and positive for primary button and content" scheme="dark" theme="success" themeControls="positive" />
+  <ThemePreview heading="System scheme with success theme for content and positive for primary button and content" scheme="system" theme="success" themeControls="positive" />
 </Stack>
 
 <Spacer />
 
-<Stack direction="horizontal">
-  <Preview heading="Light scheme with danger themed primary button on primary themed content" scheme="light" theme="primary" themeControls="danger" controls />
-  <Preview heading="Dark scheme with danger themed primary button on primary themed content" scheme="dark" theme="primary" themeControls="danger" controls />
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with danger themed primary button on primary themed content" scheme="light" theme="primary" themeControls="danger" controls />
+  <ThemePreview heading="Dark scheme with danger themed primary button on primary themed content" scheme="dark" theme="primary" themeControls="danger" controls />
+  <ThemePreview heading="System scheme with danger themed primary button on primary themed content" scheme="system" theme="primary" themeControls="danger" controls />
 </Stack>
