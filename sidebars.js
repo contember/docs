@@ -115,6 +115,10 @@ module.exports = {
 					"Releases": [
 						"admin/releases/v1.0.0",
 					],
+					"Theming": [
+						"admin/theming/introduction",
+						"admin/theming/pallettes",
+					],
 				}
 			],
 		},
