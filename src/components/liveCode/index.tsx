@@ -1,21 +1,24 @@
-import * as React from 'react'
-import nightOwl from 'prism-react-renderer/themes/nightOwl'
+import { ContemberClient, DialogProvider, I18nProvider, StyleProvider, Toaster, ToasterProvider, toViewClass } from '@contember/admin'
 import BrowserOnly from '@docusaurus/BrowserOnly'
-import { ToasterProvider, DialogProvider, ContemberClient, Toaster, I18nProvider, StyleProvider } from '@contember/admin'
-import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { useColorMode } from '@docusaurus/theme-common'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import classNames from 'classNames'
+import nightOwl from 'prism-react-renderer/themes/nightOwl'
+import * as React from 'react'
+import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live'
 import * as Contember from './contember'
 
 type LiveCodeProps = {
 	code: string
+	editDisabled?: boolean
 	entity: string
 	entities: string
+	noPreviewPadding?: boolean
 	preview: boolean
 	withoutDatabinding: boolean
 }
 
-export default function ({ code, entity, entities, withoutDatabinding = false, preview = true }: LiveCodeProps) {
+export default function ({ code, editDisabled = false, entity, entities, noPreviewPadding = false, withoutDatabinding = false, preview = true }: LiveCodeProps) {
 	const { colorMode } = useColorMode()
 	const { siteConfig: { customFields } }: any = useDocusaurusContext()
 
@@ -66,13 +69,13 @@ export default function ({ code, entity, entities, withoutDatabinding = false, p
 												}
 											}}
 										>
-											<LiveEditor className="live-code-editor" />
+											<LiveEditor disabled={editDisabled} className="live-code-editor" />
 											<LiveError className="live-code-error admonition admonition-tip alert alert--danger" />
 											{preview &&
 
 												<div className="live-code-preview-wrapper">
 													<h6>Component preview</h6>
-													<div className="live-code-preview">
+													<div className={classNames("live-code-preview", toViewClass('no-padding', noPreviewPadding))}>
 														<StyleProvider>
 															<LivePreview className={`scheme-${colorMode === 'dark' ? 'dark' : 'light'}`} />
 														</StyleProvider>

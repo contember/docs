@@ -3,5 +3,9 @@
 @import 'Scale.sass'
 @import 'Swatch.sass'
 
-.theming-theme-preview p
-  color: var(--cui-color)
+.live-code-preview,
+.theming-theme-preview
+  p, ul, ol, code
+    color: var(--cui-color)
+  code
+    background-color: var(--cui-color--lower)

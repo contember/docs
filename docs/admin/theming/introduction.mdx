@@ -10,6 +10,7 @@ import {
   Scale,
   Swatch,
 } from "../../../src/theming"
+import LiveCode from "../../../src/components/liveCode"
 
 With Contember you can change **theme** and **scheme** independently. Contember combine theme for content and controls with light and dark scheme resulting in many flexible combinations. By default, the content is themed with **default** theme and controls in **primary** theme.
 
@@ -33,6 +34,13 @@ With Contember you can change **theme** and **scheme** independently. Contember 
 To generate class names responsible for changing color theme use `toThemeClass(contentTheme, controlsTheme)` helper.
 
 ## Color schemes
+
+**Contember support 3 main schemes:**
+- `system` – adapts to the user's OS mode
+- `light` – container and it's descendants will be always displayed in the light mode
+- `dark` – container and it's descendants will be always displayed in the dark mode
+
+Internally, Contember uses `_*-above_` schema variants to make compoents stand out (lighter) and `_*-below_` schema variants to push them a litthe to the back (darker). We don't endorse nor discourage you to use these in your layouts.
 
 <Stack direction="horizontal" className="md:flex-wrap">
   <ThemePreview heading="Light scheme with default theming" scheme="light" />
@@ -65,3 +73,63 @@ To generate class names responsible for changin color theme use `toSchemeClass(c
   <ThemePreview heading="Dark scheme with danger themed primary button on primary themed content" scheme="dark" theme="primary" themeControls="danger" controls />
   <ThemePreview heading="System scheme with danger themed primary button on primary themed content" scheme="system" theme="primary" themeControls="danger" controls />
 </Stack>
+
+## Theming the Layout
+
+With `Layout` component you are already able to set theme and scheme on 3 main parts of your admin application:
+
+1. Side bar with navigation
+2. Page content (applied by the `PageLayout` component)
+3. Title bar of the page content (applied by the `PageLayout` component)
+
+Prop | Type | Description
+-----|------|------------
+`scheme` | `Scheme` | Sets the scheme of all layout parts
+`pageScheme` | `Scheme` | Sets the page scheme of the page part of the layout
+`titleScheme` | `Scheme` | Sets the scheme of the page title
+`theme` | `Intent` | Sets the theme of all layout parts for both content and control components
+`themeContent` | `Intent` | Sets the theme of all layout parts for content independently
+`themeControls` | `Intent` | Sets the theme of all layout parts for control components independently
+`pageTheme` | `Intent` | Sets the page theme of both the content and the control components of the page part of the layout
+`pageThemeContent` | `Intent` | Sets the page theme of the content of the page part of the layout independently
+`pageThemeControls` | `Intent` | Sets the page theme of the control components of the page part of the layout independently
+`titleTheme` | `Intent` | Sets the theme for both content and control components of the page title
+`titleThemeContent` | `Intent` | Sets the theme of the content of the page title independently
+`titleThemeControls` | `Intent` | Sets the theme of the control components of the page title independently
+
+
+<LiveCode
+  noPreviewPadding
+  code={`<Layout
+    sidebarHeader={<a href="#home"><Icon blueprintIcon="home" /> ACME</a>}
+    navigation={<Menu id="main-navigation">
+      <Menu.Item>
+        <Menu.Item title="Foo" href="#" />
+        <Menu.Item title="Bar" href="#" />
+      </Menu.Item>
+    </Menu>}
+    sidebarFooter={<a href="#logout">Log out</a>}
+    scheme="dark" // The full layout is in dark mode and ignore the system settings
+    // pageScheme="system" // Uncomment to allow page section to adapt to system mode
+    // titleScheme="dark" // Uncomment to set page title in dark mode and ignore the system settings
+    theme="default" // Both content and controls are colorless...
+    pageTheme="secondary" // ... however the page theme is in secondary theme...
+    titleTheme="secondary" // ... and the title theme is secondary too.
+    // themeContent="tertiary" // Uncomment to override theme prop of the content
+    // themeControls="secondary" // Uncomment to override theme prop of the control components
+    // pageThemeContent="success" // turns page contents green
+    // pageThemeControls="danger" // turns controls red
+    // titleThemeContent="tertiary" // turns page title contents violet
+    // titleThemeControls="primary" // // turns page title controls to primary blue
+  >
+    <LayoutPage title="Hello world!">
+      <Box>
+        <FieldContainer label="Your email">
+          <TextInput name="email" />
+        </FieldContainer>
+        <Spacer />
+        <Button distinction="primary">Continue</Button>
+      </Box>
+    </LayoutPage>
+  </Layout>`}
+/>
