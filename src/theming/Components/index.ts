@@ -1,5 +1,5 @@
 export * from './Generator'
-export * from './Preview'
 export * from './Scale'
 export * from './Swatch'
+export * from './ThemePreview'
 export * from './Var'
