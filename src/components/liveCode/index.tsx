@@ -2,7 +2,7 @@ import { ContemberClient, DialogProvider, I18nProvider, StyleProvider, Toaster, 
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import { useColorMode } from '@docusaurus/theme-common'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import classNames from 'classNames'
+import classNames from 'classnames'
 import nightOwl from 'prism-react-renderer/themes/nightOwl'
 import * as React from 'react'
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live'
