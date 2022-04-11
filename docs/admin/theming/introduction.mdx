@@ -40,8 +40,6 @@ To generate class names responsible for changing color theme use `toThemeClass(c
 - `light` – container and it's descendants will be always displayed in the light mode
 - `dark` – container and it's descendants will be always displayed in the dark mode
 
-Internally, Contember uses `_*-above_` schema variants to make compoents stand out (lighter) and `_*-below_` schema variants to push them a litthe to the back (darker). We don't endorse nor discourage you to use these in your layouts.
-
 <Stack direction="horizontal" className="md:flex-wrap">
   <ThemePreview heading="Light scheme with default theming" scheme="light" />
   <ThemePreview heading="Dark scheme with default theming" scheme="dark" />
@@ -78,25 +76,35 @@ To generate class names responsible for changin color theme use `toSchemeClass(c
 
 With `Layout` component you are already able to set theme and scheme on 3 main parts of your admin application:
 
-1. Side bar with navigation
+1. The whole app, including the side bar with navigation
 2. Page content (applied by the `PageLayout` component)
 3. Title bar of the page content (applied by the `PageLayout` component)
 
-Prop | Type | Description
------|------|------------
-`scheme` | `Scheme` | Sets the scheme of all layout parts
-`pageScheme` | `Scheme` | Sets the page scheme of the page part of the layout
-`titleScheme` | `Scheme` | Sets the scheme of the page title
-`theme` | `Intent` | Sets the theme of all layout parts for both content and control components
-`themeContent` | `Intent` | Sets the theme of all layout parts for content independently
-`themeControls` | `Intent` | Sets the theme of all layout parts for control components independently
-`pageTheme` | `Intent` | Sets the page theme of both the content and the control components of the page part of the layout
-`pageThemeContent` | `Intent` | Sets the page theme of the content of the page part of the layout independently
-`pageThemeControls` | `Intent` | Sets the page theme of the control components of the page part of the layout independently
-`titleTheme` | `Intent` | Sets the theme for both content and control components of the page title
-`titleThemeContent` | `Intent` | Sets the theme of the content of the page title independently
-`titleThemeControls` | `Intent` | Sets the theme of the control components of the page title independently
+### Scheme props
 
+Prop          | Type     | Description
+--------------|----------|------------
+`scheme`      | [`Scheme`](#appendix-available-theme-and-scheme-values) | Sets the scheme of all layout parts
+`pageScheme`  | [`Scheme`](#appendix-available-theme-and-scheme-values) | Sets the page scheme of the page part of the layout
+`titleScheme` | [`Scheme`](#appendix-available-theme-and-scheme-values) | Sets the scheme of the page title
+
+### Theme props
+
+You can fine-tune layout using only the props to target specific regions of the layout, also you can target the content of the controls independently. See the table for the list of affected regions by the props.
+
+Prop                 | Type     | Lyout content | Layout controls | Page content | Page controls | Page title content | Page title controls |
+---------------------|----------|:-------------:|:---------------:|:------------:|:-------------:|:------------------:|:-------------------:|
+`theme`              | [`Intent`](#appendix-available-theme-and-scheme-values) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+`themeContent`       | [`Intent`](#appendix-available-theme-and-scheme-values) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌
+`themeControls`      | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ✅ | ❌ | ✅ | ❌ | ✅
+`pageTheme`          | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ✅ | ✅ | ✅ | ✅
+`pageThemeContent`   | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ✅ | ❌ | ✅ | ❌
+`pageThemeControls`  | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ✅ | ❌ | ✅
+`titleTheme`         | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅
+`titleThemeContent`  | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌
+`titleThemeControls` | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅
+
+### Layout code example
 
 <LiveCode
   noPreviewPadding
@@ -133,3 +141,12 @@ Prop | Type | Description
     </LayoutPage>
   </Layout>`}
 />
+
+## Appendix: Available theme and scheme values
+
+Type | Values
+-----|--------
+Scheme | `"system"`, `"light"`, `"light-above"`, `"light-below"`, `"dark"`, `"dark-above"` or `"dark-below"`
+Intent | `"primary"`, `"secondary"`, `"tertiary"`, `"positive"`, `"success"`, `"warn"` or `"danger"`
+
+_**Note:** Internally, Contember uses the `*-above` schema variants to make compoents stand out (lighter) and `*-below` schema variants to push them a litthe to the back (darker). We don't endorse nor discourage you to use these in your layouts._
