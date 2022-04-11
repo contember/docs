@@ -33,15 +33,17 @@
       background: var(--ifm-background-color)
       z-index: 1
     &::before
-      border-left-width: 0
       border: 1px solid var(--cui-color--lower)
-      bottom: 0.75em
+      border-left-width: 0
+      border-bottom-right-radius: var(--cui-control-border-radius)
+      border-top-right-radius: var(--cui-control-border-radius)
+      bottom: 1em
       content: ""
       display: block
-      left: 0
+      left: 0.25em
       position: absolute
-      top: 0.75em
-      width: 59%
+      top: 1em
+      width: calc(50% - 0.25em)
 
 
   &-link-button,
