@@ -1,10 +1,10 @@
+import { Spacer, Stack, StackProps, toStateClass } from '@contember/ui'
+import { useColorMode } from '@docusaurus/theme-common'
 import * as React from 'react'
-import { Stack, StackProps, toStateClass } from '@contember/ui'
-import { Swatch } from './Swatch'
 import { COLORS_COUNT } from '../Config'
 import { indexToWeight } from '../Helpers'
 import { arrayRange } from '../Helpers/arrayRange'
-import { useColorMode } from '@docusaurus/theme-common'
+import { Swatch } from './Swatch'
 
 type SlaceProps = {
   actions?: React.ReactNode,
@@ -26,9 +26,17 @@ export const Scale = ({ actions, children, className, elevated, name, direction 
       direction={direction}
       className={`theming-scale ${toStateClass('elevated', elevated)} ${className || ''} scheme-${colorMode === 'dark' ? 'dark' : 'light'}`}
     >
-      <Stack justify="space-between" direction="horizontal" className="theming-scale-label">
+      <Stack
+        gap="small"
+        justify="space-between"
+        direction="horizontal"
+        className="theming-scale-label"
+      >
         <span className="theming-scale-label-theme-name">{name} theme</span>
+        {actions && <>
+        <Spacer className="flex-grow" />
         {actions}
+        </>}
       </Stack>
       {children}
       <Stack

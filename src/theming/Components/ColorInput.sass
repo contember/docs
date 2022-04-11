@@ -4,13 +4,17 @@
   padding: 1px 0
 
   &-fields
-    border: 1px solid transparent
-    border-radius: calc(var(--cui-control-border-radius) / 2)
-    background-color: var(--cui-color--lower)
     flex-grow: 1
     margin-left: 0.5em
     overflow: hidden
-    gap: 1px
+
+  &-field
+    border: 1px solid var(--cui-color--lower)
+    border-radius: calc(var(--cui-control-border-radius) / 2)
+    .cui-label
+      font-weight: bold
+      flex-grow: 2
+      margin-left: unset
 
   &-wrapper
     flex-grow: 1
@@ -21,6 +25,7 @@
 
   &-text
     flex-grow: 1
+    flex-shrink: 1
     font-family: monospace
     font-size: 0.8125em
     padding: var(--cui-gap)
@@ -44,7 +49,6 @@
       position: absolute
       top: 1em
       width: calc(50% - 0.25em)
-
 
   &-link-button,
   &-unlink-button

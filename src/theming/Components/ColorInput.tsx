@@ -1,12 +1,14 @@
-import { Button, Icon, Stack } from "@contember/admin"
+import { Button, Icon, Label, Stack } from "@contember/admin"
 import chroma from "chroma-js"
 import * as React from "react"
 
 const ColorComboInput = React.memo(({
+  label,
   onChange,
   ...props
 }: {
   hex: string,
+  label: string,
   onChange: (hex: string) => void,
 }) => {
   const hex = props.hex.toUpperCase()
@@ -33,51 +35,52 @@ const ColorComboInput = React.memo(({
   }, [fullHex])
 
   return (
-    <Stack direction="horizontal" gap="none">
-      <input
-        ref={colorInputRef}
-        className="theming-color-input-color"
-        key={`color-input-color`}
-        // id={`color-input-color`}
-        type="color"
-        defaultValue={color.hex()}
-        onChange={React.useCallback(
-          (event) => {
-            onChange(event.target.value)
-          },
-          [onChange]
-        )}
-      />
-      <input
-        ref={textInputRef}
-        className="theming-color-input-text"
-        key={`color-input-color-text`}
-        // id={`color-input-color-text`}
-        type="text"
-        defaultValue={color.hex()}
-        onBlur={React.useCallback(
-          (event) => {
-            event.target.value = fullHex
-          },
-          [fullHex]
-        )}
-        onChange={React.useCallback(
-          (event: React.ChangeEvent<HTMLInputElement>) => {
-            const nextColor = event.target.value
+    <label className="theming-color-input-field">
+      <Stack align="center" direction="horizontal" gap="small">
+        <Label size="small">{label}:</Label>
+        <input
+          ref={textInputRef}
+          className="theming-color-input-text"
+          key={`color-input-color-text`}
+          type="text"
+          defaultValue={color.hex()}
+          onBlur={React.useCallback(
+            (event) => {
+              event.target.value = fullHex
+            },
+            [fullHex]
+          )}
+          onChange={React.useCallback(
+            (event: React.ChangeEvent<HTMLInputElement>) => {
+              const nextColor = event.target.value
 
-            if (
-              nextColor
-                .toLowerCase()
-                .trim()
-                .match(/^#(?:[\da-f]{3}|[\da-f]{6})$/)
-            ) {
-              onChange(nextColor)
-            }
-          },
-          [onChange]
-        )}
-      />
-    </Stack>
+              if (
+                nextColor
+                  .toLowerCase()
+                  .trim()
+                  .match(/^#(?:[\da-f]{3}|[\da-f]{6})$/)
+              ) {
+                onChange(nextColor)
+              }
+            },
+            [onChange]
+          )}
+        />
+        <input
+          ref={colorInputRef}
+          className="theming-color-input-color"
+          key={`color-input-color`}
+          type="color"
+          defaultValue={color.hex()}
+          onChange={React.useCallback(
+            (event) => {
+              onChange(event.target.value)
+            },
+            [onChange]
+          )}
+        />
+      </Stack>
+    </label>
   )
 })
 ColorComboInput.displayName = 'ColorComboInput'
@@ -140,11 +143,16 @@ export const ColorInput = React.memo(
     ])
 
     return (
-      <Stack className="theming-color-input" direction="horizontal" gap="none">
+      <Stack
+        align="stretch"
+        className="theming-color-input"
+        direction="horizontal"
+        gap="none"
+      >
         <Stack className="theming-color-input-fields" direction="vertical">
-          <ColorComboInput hex={lightHex} onChange={linked ? setAll : setLightHex} />
-          <ColorComboInput hex={middleHex} onChange={linked ? setAll : setMiddleHex} />
-          <ColorComboInput hex={hex} onChange={linked ? setAll : setHex} />
+          <ColorComboInput label="Highlights" hex={lightHex} onChange={linked ? setAll : setLightHex} />
+          <ColorComboInput label="Middles" hex={middleHex} onChange={linked ? setAll : setMiddleHex} />
+          <ColorComboInput label="Shadows" hex={hex} onChange={linked ? setAll : setHex} />
         </Stack>
 
         {linked
@@ -157,7 +165,7 @@ export const ColorInput = React.memo(
           >
             <Icon blueprintIcon="lock" />
           </Button>
-        : <Stack direction="vertical" gap="none">
+        : <Stack justify="space-between" direction="vertical" gap="none">
             <Button
               bland
               className="theming-color-input-link-button"
