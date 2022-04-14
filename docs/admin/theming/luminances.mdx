@@ -1,0 +1,29 @@
+---
+title: Luminance Chart
+---
+
+import { Chart } from "../../../src/theming"
+
+*(Internal documentation page)*
+
+The chart below represents the luminance values (blue, scaled from 0-1 range to 0-100).
+
+- blue: Resulting luminance values (reversed APCA contrast)
+- light green: `Chroma.scale().correctLightness()`
+- light blue: Polynomial scale
+- red: Resulting luminance values in (customized) log scale
+
+
+### Findings
+
+Interpolating `[0, 0.011103832067522131, 0.11610880806214403, 0.31235744401362725, 0.46854239366599476, 0.647705321877101, 1]` at 41 steps provides quite promising results.
+
+### Footnotes
+
+1. When the resulting contrast between any combination of weights are flat (polynomial), the luminance steps in the dark areas are too big.
+1. `Choma.scale()` with distributed luminance provides great granularity in dark areas, however lacks in higlights;
+1. Polynomial scale provides great balance, but the granularity is not enough in some areas;
+1. Reversing APCA method provides a good baseline for the luminance scale...
+1. ... but distribution of luminance needs to be modified (final version)
+
+<Chart />
