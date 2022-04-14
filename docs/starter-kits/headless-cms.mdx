@@ -58,7 +58,7 @@ Select _"Yes and execute immediately"_ and wait for the migration to finish.
 
 #### 3. Add a new block to Admin
 
-Go to `headless-cms/admin/components/ContentBlocks.tsx` file and add [`<Block />`](/admin/components/block#block) component into [`<BlockRepeater />`](/admin/components/content#block-repeater) component. `<Block />` should contain all necessary fields for your new section. We want to have an image with text, so we'll add a custom component `<ContentField />` (you can learn more in `/headless-cms/admin/components/ContentField.tsx`) for text and [`<ImageUploadField />`](/admin/components/upload#image-file-repeater) component for the image.
+Go to `headless-cms/admin/components/ContentBlocks.tsx` file and add [`<Block />`](/reference/admin/components/block#block) component into [`<BlockRepeater />`](/reference/admin/components/content#block-repeater) component. `<Block />` should contain all necessary fields for your new section. We want to have an image with text, so we'll add a custom component `<ContentField />` (you can learn more in `/headless-cms/admin/components/ContentField.tsx`) for text and [`<ImageUploadField />`](/reference/admin/components/upload#image-file-repeater) component for the image.
 
 ```tsx title="headless-cms/admin/components/ContentBlocks.tsx"
 export const ContentBlocks = Component(

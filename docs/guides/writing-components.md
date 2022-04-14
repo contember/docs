@@ -1,9 +1,8 @@
 ---
 title: Writing custom components
-sidebar_position: 3
 ---
 
-React components must be wrapped into `Component` higher order component to support [data binding](/admin/data-binding/overview.md). If you use hooks in data binding aware component, you must use second argument of this function with a "static render" implementation.
+React components must be wrapped into `Component` higher order component to support [data binding](/reference/admin/data-binding/overview.md). If you use hooks in data binding aware component, you must use second argument of this function with a "static render" implementation.
 
 #### Example: simple component
 

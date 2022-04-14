@@ -22,6 +22,7 @@ module.exports = {
 			items: [
 				"guides/deploy-contember",
 				"guides/self-hosted-contember",
+				'guides/writing-components',
 			],
 		},
 		{
@@ -45,7 +46,6 @@ module.exports = {
 								},
 							],
 						},
-						'reference/admin/writing-components',
 						{
 							type: "category",
 							label: "UI components",
@@ -70,8 +70,8 @@ module.exports = {
 							type: "category",
 							label: "Theming",
 							items: [
-								"admin/theming/introduction",
-								"admin/theming/pallettes",
+								"reference/admin/theming/introduction",
+								"reference/admin/theming/pallettes",
 							],
 						},
 						{

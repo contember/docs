@@ -25,7 +25,7 @@ Follow our [quickstart](/intro/quickstart) to understand the basics and build so
 
 - **Everything is code** (TypeScript and React).
 - The structure of the data is up to you, Contember doesn't force any arbitrary collections or posts. **Create any entities you want with attributes and relationships**. [Schema overview](/reference/engine/schema/overview.md)
-- The administration is not dependent on your data structure. Build any views with few lines of code. [Administration introduction](/admin/introduction.md)
+- The administration is not dependent on your data structure. Build any views with few lines of code. [Administration introduction](/reference/admin/introduction.md)
 
 ### Highlighted features
 

@@ -21,7 +21,7 @@ Variable is a value associated with a _role_ injected to a _predicate_ when the 
 
 ### Entity variable
 
-Entity variables are stored in Tenant API within a [membership](tenant/memberships.md). Usually some kind of dimension by which you split your data - e.g. a site or a language, or even a category.
+Entity variables are stored in Tenant API within a [membership](/reference/engine/tenant/memberships.md). Usually some kind of dimension by which you split your data - e.g. a site or a language, or even a category.
 
 ```typescript
 const variables = {
@@ -49,7 +49,7 @@ const variables = {
 
 Before you set a rule to a field, you have to define a predicate on an entity - or you can use the most simple predicate `true`, which always allows given operation.
 
-Predicates definition is similar to a syntax you use for [filtering a data](content/queries.md#filters). Lets say you have entities _Language_ and _Post_. And of course a relationship between them. And you only want to allow editors to edit a post in their language. A predicate definition, which references the variable `language_id`, may look like this:
+Predicates definition is similar to a syntax you use for [filtering a data](/reference/engine/content/queries.md#filters). Lets say you have entities _Language_ and _Post_. And of course a relationship between them. And you only want to allow editors to edit a post in their language. A predicate definition, which references the variable `language_id`, may look like this:
 
 ```typescript
 const postEntityPredicates = {
@@ -257,4 +257,4 @@ TODO
 
 ## S3 ACL
 
-Contember S3 integration has a dedicated ACL definition - for mode details see [S3 chapter](content/s3.md).
+Contember S3 integration has a dedicated ACL definition - for mode details see [S3 chapter](../content/s3.md).
