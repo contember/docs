@@ -1,0 +1,27 @@
+---
+title: Contrasts Chart
+---
+
+import { Chart } from "../../../src/theming"
+
+*(Internal documentation page)*
+
+The chart below represents all the contrasts (orange and pink) between the generated luminance values (blue, scaled from 0-1 range to 0-100).
+
+- blue: luminance values
+- light green: `Chroma.scale().correctLightness()`
+- light blue: Polynomial scale
+- red: luminance values in (customized) log scale
+- orange: sets of contrast against the darker color background
+- pink: sets of contrast against the lighter color background
+<!-- - green: offsetting curve (unused) that pushes the luminances a bit in the middle -->
+
+Findings:
+
+1. When the resulting contrast sets are flat, the luminance steps in the dark areas are too big
+1. `Choma.scale()` with distributed luminance provides great granularity in dark areas, however lacks in higlights;
+1. Polynomial scale provides great balance, but the granularity is not enough;
+1. The reverse APCA method provides a good baseline for the luminance scale...
+1. ... but distribution of luminance needs to be modified (final version)
+
+<Chart />
