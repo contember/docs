@@ -29,7 +29,9 @@ export const ThemePreview = ({
   return <Box gap="default" className={classNames('theming-theme-preview', schemeClassName, themeClassNames)}>
     <Heading>{heading}</Heading>
     {(themeClassNames || schemeClassName) && <p>CSS classes: {classNames(schemeClassName, themeClassNames)}</p>}
-    <Button>Click me!</Button>
+    <Button>Button</Button>
+    <Button intent={themeControls ?? theme}>Button with intent</Button>
+    <Button distinction="toned">Toned button</Button>
     <Button disabled>Disabled</Button>
     <Button
       distinction="primary"

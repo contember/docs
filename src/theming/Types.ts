@@ -14,3 +14,11 @@ export type ColorWeightMap = {
     weight: number;
   };
 };
+
+export interface ColorScale {
+  hex: string,
+  name: string,
+  scale: ColorScaleMap,
+}
+
+export interface ColorScaleMap { [weight: number]: string }
