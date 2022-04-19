@@ -23,7 +23,7 @@ npm run build-admin
 Now you can deploy your project using the Contember CLI. You'll need deploy token (you get one when creating a project in the Contember Cloud administration).
 
 ```bash
-docker compose run -e CONTEMBER_API_TOKEN={{deploy_token}} contember-cli deploy {{your_project_name}} --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
+docker-compose run -e CONTEMBER_API_TOKEN={{deploy_token}} contember-cli deploy {{your_project_name}} --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
 ```
 
 CLI will deploy your admin and apply all your new migrations. That's it.
