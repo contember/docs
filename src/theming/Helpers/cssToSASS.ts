@@ -1,3 +1,3 @@
 export function cssToSASS(css: string) {
-  return css.replace(/;/g, "").replace("{", "").replace("}", "");
+  return css.replace(/[;{}]/g, "").trim()
 }
