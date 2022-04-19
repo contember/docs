@@ -1,0 +1,63 @@
+---
+title: Generating Schemes
+---
+
+*(Internal documentation page)*
+
+import { Divider, Spacer, Stack } from '@contember/ui'
+import {
+  SchemesGenerator,
+  ThemePreview,
+} from "../../../src/theming"
+
+To resolve inheritance of theme and scheme which can be applied on separate nodes of the DOM tree, Contember needs to generate specific CSS structures.
+
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with default theming" scheme="light" />
+  <ThemePreview heading="Dark scheme with default theming" scheme="dark" />
+  <ThemePreview heading="System scheme with default theming" scheme="system" />
+</Stack>
+
+<Spacer />
+
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with primary theming" theme="primary" scheme="light" />
+  <ThemePreview heading="Dark scheme with primary theming" theme="primary" scheme="dark" />
+  <ThemePreview heading="System scheme with primary theming" theme="primary" scheme="system" />
+</Stack>
+
+<Spacer />
+
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with primary theming on danger" theme="primary" themeControls="danger" scheme="light" />
+  <ThemePreview heading="Dark scheme with primary theming on danger" theme="primary" themeControls="danger" scheme="dark" />
+  <ThemePreview heading="System scheme with primary theming on danger" theme="primary" themeControls="danger" scheme="system" />
+</Stack>
+
+<Spacer />
+
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with secondary themed primary button on default content theme" scheme="light" themeControls="secondary" />
+  <ThemePreview heading="Dark scheme with secondary themed primary button on default content theme" scheme="dark" themeControls="secondary" />
+  <ThemePreview heading="System scheme with secondary themed primary button on default content theme" scheme="system" themeControls="secondary" />
+</Stack>
+
+<Spacer />
+
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with success theme for content and positive for primary button and content" scheme="light" theme="success" themeControls="positive" />
+  <ThemePreview heading="Dark scheme with success theme for content and positive for primary button and content" scheme="dark" theme="success" themeControls="positive" />
+  <ThemePreview heading="System scheme with success theme for content and positive for primary button and content" scheme="system" theme="success" themeControls="positive" />
+</Stack>
+
+<Spacer />
+
+<Stack direction="horizontal" className="md:flex-wrap">
+  <ThemePreview heading="Light scheme with danger themed primary button on primary themed content" scheme="light" theme="primary" themeControls="danger" controls />
+  <ThemePreview heading="Dark scheme with danger themed primary button on primary themed content" scheme="dark" theme="primary" themeControls="danger" controls />
+  <ThemePreview heading="System scheme with danger themed primary button on primary themed content" scheme="system" theme="primary" themeControls="danger" controls />
+</Stack>
+
+<Divider gap="large" />
+
+<SchemesGenerator />

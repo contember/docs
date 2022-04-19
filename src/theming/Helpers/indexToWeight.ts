@@ -1,8 +1,10 @@
+import { WEIGHT_MAXIMUM, WEIGHT_MINIMUM } from "../Config"
+
 export function indexToWeight(
   count: number,
   index: number,
-  start: number = 1000,
-  end: number = 0
+  start: number = WEIGHT_MAXIMUM,
+  end: number = WEIGHT_MINIMUM
 ) {
   const step = (end - start) / (count - 1);
 
