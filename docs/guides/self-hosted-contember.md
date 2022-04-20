@@ -1,12 +1,10 @@
 ---
-title: Self hosted Contember
+title: Deploy Contember engine as self-hosted
 ---
 
-## Hosting options
+The easiest way to run Contember is our [Contember Cloud](https://www.contember.com/cloud). If you want to host Contember elsewhere, here's a quick tutorial. Contember can be self-hosted almost anywhere.
 
-The easest way to run Contember is our [Contember Cloud](https://www.contember.com/cloud). If you want to host Contember elsewhere, here's a quick tutorial. Contember can be selfhosted almost anywhere.
-
-### What you'll need
+## What you'll need
 
 1. S3-compatible storage ([AWS S3](https://aws.amazon.com/s3/), [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/), [MinIO](https://min.io/), [CEPH](https://ceph.io/), [Zenko CloudServer](https://www.zenko.io/cloudserver/))
 2. PostgreSQL database ([AWS RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/), [DigitalOcean Managed Database](https://www.digitalocean.com/products/managed-databases/))
@@ -14,7 +12,7 @@ The easest way to run Contember is our [Contember Cloud](https://www.contember.c
 
 It's good idea to run these at one provider but it's not required.
 
-## Digital Ocean Droplet
+## Deploy engine to Digital Ocean Droplet
 
 1. Set up [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/)
 2. Set up [DigitalOcean Managed Database](https://www.digitalocean.com/products/managed-databases/)

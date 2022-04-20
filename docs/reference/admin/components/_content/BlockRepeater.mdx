@@ -1,0 +1,97 @@
+import { PropsTable, PropsTableRow } from "@src/components/propsTable"
+import * as SharedProps from "@src/components/props"
+import LiveCode from "@src/components/liveCode"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "Schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+    <LiveCode
+      entity="BlockRepeater"
+      code={
+`<BlockRepeater
+  field="blocks"
+  label="Block repeater"
+  discriminationField="type"
+  sortableBy="order"
+>
+  <Block discriminateBy="gallery" label="Gallery">
+    <ImageFileRepeater
+      field="images"
+      urlField="image.url"
+      label="Images"
+      sortableBy="order"
+    />
+  </Block>
+</BlockRepeater>`
+}
+    />
+  </TabItem>
+  <TabItem value="admin-advanced">
+    <LiveCode
+      entity="BlockRepeater"
+      code={
+`<BlockRepeater 
+  field="blocks"
+  label="Block repeater"
+  discriminationField="type"
+  sortableBy="order"
+>
+  <Block discriminateBy="gallery" label="Gallery">
+    <ImageFileRepeater
+      field="images"
+      urlField="image.url"
+      label="Images"
+      sortableBy="order"
+    />
+  </Block>
+  <Block discriminateBy="quote" label="Quote">
+    <TextAreaField field="content" label="Content" />
+    <TextField field="author" label="Author" />
+  </Block>
+</BlockRepeater>`
+}
+    />
+  </TabItem>
+  <TabItem value="schema">
+
+```jsx
+export class BlockRepeater {
+  blocks = def.oneHasMany(RepeaterBlock, 'blockRepeater').orderBy('order')
+}
+
+export class RepeaterBlock {
+  order = def.intColumn().notNull()
+  type = def.enumColumn(ContentBlockType).notNull()
+  content = def.stringColumn()
+  author = def.stringColumn()
+  images = def.oneHasMany(RepeaterGallery, 'repeaterReference').orderBy('order')
+  blockRepeater = def.manyHasOne(BlockRepeater, 'blocks')
+}
+
+export class RepeaterGallery {
+  order = def.intColumn().notNull()
+  image = def.manyHasOne(Image).notNull()
+  repeaterReference = def.manyHasOne(RepeaterBlock, 'images').cascadeOnDelete()
+}
+```
+
+  </TabItem>
+</Tabs>
+
+#### Props
+
+<PropsTable>
+  <SharedProps.field required />
+  <SharedProps.label required />
+  <SharedProps.discriminationField required />
+  <SharedProps.sortableBy required />
+  <SharedProps.addButtonText />
+</PropsTable>
