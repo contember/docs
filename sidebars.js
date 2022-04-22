@@ -18,9 +18,14 @@ module.exports = {
 		{
 			type: "category",
 			label: "Guides",
-			collapsed: true,
+			collapsed: false,
+			link: {
+				type: 'generated-index',
+				title: 'Guides',
+			},
 			items: [
 				"guides/deploy-contember",
+				"guides/deploy-github-actions",
 				"guides/self-hosted-contember",
 				'guides/writing-components',
 			],
