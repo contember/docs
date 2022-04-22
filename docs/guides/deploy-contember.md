@@ -1,29 +1,53 @@
 ---
-title: Deploy Contember project to Contember Cloud
+title: Deploy to Contember Cloud
+description: From local project to production in 15 minutes.
 ---
 
-This tutorial will guide you through the process of deploying the Contember from local machine to the Contember Cloud. (Tutorial won't work for self-hosted Contember without an admin server. The admin server is under an Enterprise license, [contact us](mailto:team@contember.com) for more information).
+This guide will take you through the deployment of Contember from your local machine to the Contember Cloud.
 
-#### 1. Make sure you have correctly set project name
+## Before you start
 
-Your project needs to have the same name locally and in the Contember Cloud. In particular, there are 2 places where you need to set it up:
-1. In `docker-compose.yml` set the `CONTEMBER_PROJECT_NAME` to your project slug
-2. In `.env.production` set the `VITE_CONTEMBER_ADMIN_PROJECT_NAME` to your project slug
+You should have a project on your machine - complete [quickstart tutorial](/intro/quickstart.mdx) or use one of our ready-made [starter-kits](https://github.com/contember/starter-kits).
 
-#### 2. Production build admin
+## 1. Setup project in Contember Cloud
 
-Run build script inside your project folder:
+Go to https://contember.cloud and create an account if you don't have one. After sign up create your first project. Choose a unique name for it.
+
+![Contember Cloud: create project](/assets/cloud-create-project.png)
+
+You should receive an email with a link to sign into administration. You don't need it right now - we will come back to it.
+
+
+On your project's page in Contember Cloud console click on a "Create new deploy token" to create a deploy command with your deploy secret token.
+
+![Contember Cloud: project detail](/assets/cloud-project-detail.png)
+
+It will look something like this:
 
 ```bash
-npm run build-admin
+npm run deploy contember://example:4faef77592845fbeaf390c5e86989b1ea493e5d0@example.eu.contember.cloud
 ```
 
-#### 3. Deploy your project
+## 2. Deploy
 
-Now you can deploy your project using the Contember CLI. You'll need deploy token (you get one when creating a project in the Contember Cloud administration).
+Copy it and run this command in your project's directory. It will build your project, package the assets and prompt you to confirm details - type `y` (for "yes") to continue. We will apply your project's schema and copy the administration's assets.
 
-```bash
-docker-compose run -e CONTEMBER_API_TOKEN={{deploy_token}} contember-cli deploy {{your_project_name}} --admin {{your_project_admin_url}} --instance {{your_project_api_url}}
+```
+$ npm run deploy contember://example:4faef77592845fbeaf390c5e86989b1ea493e5d0@example.eu.contember.cloud
+...
+Deployment successful
 ```
 
-CLI will deploy your admin and apply all your new migrations. That's it.
+## 3. Sign in to the administration
+
+When you created the project, you received an email with a link to create an administration account. This account is separate from your Contember Cloud console account.
+
+## Next steps
+
+You can change your local project however you like, it's completely independent from the deployed version. After you make any changes in the project's code, test it locally and are ready to deploy it, build it and deploy it again as we did in steps two and three.
+
+You can also setup [deployment from GitHub Actions](./deploy-github-actions).
+
+## Troubleshooting
+
+If you encounter a problem, feel free to open [an issue on GitHub](https://github.com/contember/admin/issues/new) or ask us in [our Discord server](https://discord.gg/EkhsuAK2Fg). Don't forget to attach screenshots and terminal output.
