@@ -8,11 +8,9 @@ export const COLORS_COUNT = 41;
 export const WEIGHT_MAXIMUM = 1000;
 export const WEIGHT_MINIMUM = 0;
 
-/**
- * @deprecated
- */
-export const step = WEIGHT_MAXIMUM / (COLORS_COUNT - 1);
 export const WEIGHT_STEP = WEIGHT_MAXIMUM / (COLORS_COUNT - 1);
+export const WEIGHT_STEP_LIGHT = WEIGHT_STEP * 1
+export const WEIGHT_STEP_DARK = WEIGHT_STEP * 1
 
 /**
  * @deprecated
@@ -72,54 +70,83 @@ export const c1 = 100; // 100; // 68
 export const colorSchemeWeightOffsets: ColorSchemeOffsets = {
   light: {
     color: -875,
-    controlColor: -475,
-    controlColorHighlighted: -375,
-    controlColorPressed: -475,
-    controlBorderColor: -475,
-    controlBorderColorHighlighted: -375,
+    controlColor: -575,
+    controlColorHighlighted: -575,
+    controlColorPressed: -650,
+    controlBorderColor: -500,
+    controlBorderColorHighlighted: -575,
     controlBackgroundColor: 0,
     controlBackgroundColorHighlighted: 250,
-    filledControlColor: -525,
-    filledControlColorHighlighted: -425,
-    filledControlColorPressed: -400,
-    filledControlBorderColorPressed: -200,
-    filledControlBackroundColor: -50,
+    filledControlColor: -575,
+    filledControlColorHighlighted: -525,
+    filledControlColorPressed: -775,
+    filledControlBorderColorPressed: -775,
+    filledControlBackroundColor: 50,
     filledControlBackgroundColorHighlighted: 75,
-    filledControlBackgroundColorPressed: -300,
-    filledPrimaryControlColor: 250,
-    filledPrimaryControlColorHighlighted: 375,
-    filledPrimaryControlColorPressed: -100,
+    filledControlBackgroundColorPressed: -600,
+    filledPrimaryControlColor: 50,
+    filledPrimaryControlColorHighlighted: 400,
+    filledPrimaryControlColorPressed: -200,
     filledPrimaryControlBorderColorPressed: -200,
-    filledPrimaryControlBackroundColor: -500,
-    filledPrimaryControlBackgroundColorHighlighted: -375,
-    filledPrimaryControlBackgroundColorPressed: -625,
+    filledPrimaryControlBackroundColor: -600,
+    filledPrimaryControlBackgroundColorHighlighted: -550,
+    filledPrimaryControlBackgroundColorPressed: -600,
     tonedControlColorWeight: -700,
-    tonedControlBackgroundColor: -150
+    tonedControlColorWeightHighlighed: -300,
+    tonedControlBackgroundColor: -125,
+    tonedControlBackgroundColorHighlighed: 100
   },
   dark: {
     color: 975,
-    controlColor: 550,
-    controlColorHighlighted: 1000,
+    controlColor: 575,
+    controlColorHighlighted: 900,
     controlColorPressed: 550,
     controlBorderColor: 550,
-    controlBorderColorHighlighted: 1175,
-    controlBackgroundColor: 0,
+    controlBorderColorHighlighted: 900,
+    controlBackgroundColor: -150,
     controlBackgroundColorHighlighted: 250,
-    filledControlColor: 850,
-    filledControlColorHighlighted: 875,
+    filledControlColor: 650,
+    filledControlColorHighlighted: 1000,
     filledControlColorPressed: 650,
-    filledControlBorderColorPressed: 250,
+    filledControlBorderColorPressed: 650,
     filledControlBackroundColor: 125,
     filledControlBackgroundColorHighlighted: 250,
-    filledControlBackgroundColorPressed: -75,
-    filledPrimaryControlColor: 950,
+    filledControlBackgroundColorPressed: 125,
+    filledPrimaryControlColor: 1000,
     filledPrimaryControlColorHighlighted: 1000,
-    filledPrimaryControlColorPressed: 750,
-    filledPrimaryControlBorderColorPressed: 750,
-    filledPrimaryControlBackroundColor: 350,
-    filledPrimaryControlBackgroundColorHighlighted: 450,
+    filledPrimaryControlColorPressed: 600,
+    filledPrimaryControlBorderColorPressed: 650,
+    filledPrimaryControlBackroundColor: 275,
+    filledPrimaryControlBackgroundColorHighlighted: 350,
     filledPrimaryControlBackgroundColorPressed: 125,
-    tonedControlColorWeight: 900,
-    tonedControlBackgroundColor: 300
+    tonedControlColorWeight: 850,
+    tonedControlColorWeightHighlighed: 950,
+    tonedControlBackgroundColor: 250,
+    tonedControlBackgroundColorHighlighed: 325
   }
+}
+
+export const colorSchemesOpacities: ColorSchemeOffsets = {
+  light: {
+    high: -0.25,
+    medium: -0.50,
+    low: -0.7,
+    lower: -0.875,
+    controlBackgroundColor: -0.75,
+    controlBackgroundColorHighlighted: -0.25,
+    filledControlBackgroundColorPressed: -0.5,
+    tonedControlBackgroundColor: -0.75,
+    tonedControlBackgroundColorHighlighted: -0.5 / 2,
+  },
+  dark: {
+    high: -0.25,
+    medium: -0.50,
+    low: -0.7,
+    lower: -0.875,
+    controlBackgroundColor: -0.75,
+    controlBackgroundColorHighlighted: -0.25,
+    filledControlBackgroundColorPressed: -0.5,
+    tonedControlBackgroundColor: -0.5,
+    tonedControlBackgroundColorHighlighted: -0.25 / 2,
+  },
 }
