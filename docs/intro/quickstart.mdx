@@ -125,13 +125,13 @@ Now we have something we want to edit in UI. Let's start by adding a listing pag
 
 ### Add listing page
 
-Go to `admin/pages` and create new file `articles.tsx`.
+Go to `admin/pages` and create new file `articleList.tsx`.
 
-```tsx title="admin/pages/articles.tsx"
+```tsx title="admin/pages/articleList.tsx"
 import * as React from 'react'
 import { DataGridPage, TextCell } from '@contember/admin'
 
-export const articleList = (
+export default () => (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
   </DataGridPage>
@@ -139,7 +139,7 @@ export const articleList = (
 ```
 
 1. Import `@contember/admin` package for TypeScript autocompletion.
-2. Export `articleList`. The export name is used for linking to the page and in URL.
+2. Export page component as default export.
 3. Use `DataGridPage` component to show the data in a simple datagrid.
 4. Tell it which entities you'd like to edit. In our case it's `Article` (it has to be the same name we used in the model).
 5. Use `TextCell` to add text column.
@@ -150,28 +150,20 @@ Let's add some data.
 
 ### Add create page
 
-```tsx title="admin/pages/articles.tsx"
+```tsx title="admin/pages/articleCreate.tsx"
 import * as React from 'react'
-import { CreatePage, DataGridPage, RichTextField, TextCell, TextField } from '@contember/admin'
+import { CreatePage, RichTextField, TextField } from '@contember/admin'
 
-export const articleList = (
-  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
-    <TextCell field="title" header="Title" />
-  </DataGridPage>
-)
-
-{/* highlight-start */}
-export const articleCreate = (
+export default () => (
   <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
     <TextField field="title" label="Title" />
     <RichTextField field="content" label="Content" />
   </CreatePage>
 )
-{/* highlight-end */}
 ```
 
-1. For simplicity, we'll add it to the same file.
-2. This time we'll use `CreatePage` component exported as `articleCreate`
+1. We'll create a new file named `articleCreate.tsx`.
+2. This time we'll use `CreatePage` component.
 3. We'll tell it what we want to add (`Article`).
 4. We'll use two new components - `TextField` and `RichTextField` and tell them what fields to edit.
 
@@ -181,39 +173,27 @@ But it doesn't work very well. One of the things missing is to go to edit mode a
 
 ### Add edit page
 
-For simplicity, we'll add it to the same file as well. It looks almost the same as the create page - but we have to tell it which article to edit:
+We'll create a new page named `articleEdit`. It looks almost the same as the create page - but we have to tell it which article to edit:
 
-```tsx title="admin/pages/articles.tsx"
+```tsx title="admin/pages/articleEdit.tsx"
 import * as React from 'react'
-import { CreatePage, DataGridPage, EditPage, RichTextField, TextCell, TextField } from '@contember/admin'
+import { EditPage, RichTextField, TextField } from '@contember/admin'
 
-export const articleList = (
-  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
-    <TextCell field="title" header="Title" />
-  </DataGridPage>
+export default () => (
+	<EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
+		<TextField field="title" label="Title" />
+		<RichTextField field="content" label="Content" />
+	</EditPage>
 )
-
-export const articleCreate = (
-  <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </CreatePage>
-)
-
-{/* highlight-start */}
-export const articleEdit = (
-  <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </EditPage>
-)
-{/* highlight-end */}
 ```
 
 Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
 
-```tsx title="admin/pages/articles.tsx"
-export const articleCreate = (
+```tsx title="admin/pages/articleCreate.tsx"
+import * as React from 'react'
+import { CreatePage, RichTextField, TextField } from '@contember/admin'
+
+export default () => (
   <CreatePage
     entity="Article"
     rendererProps={{ title: 'Create Article' }}
@@ -233,25 +213,11 @@ Now if you create a new article you're automatically redirected to the edit page
 
 What's missing is an edit and delete button in the list of pages.
 
-```tsx title="admin/pages/articles.tsx"
+```tsx title="admin/pages/articleList.tsx"
 import * as React from 'react'
-import {
-  CreatePage,
-  DataGridPage,
-  {/* highlight-start */}
-  DeleteEntityButton,
-  {/* highlight-end */}
-  EditPage,
-  {/* highlight-start */}
-  GenericCell,
-  Link,
-  {/* highlight-end */}
-  RichTextField,
-  TextCell,
-  TextField,
-} from '@contember/admin'
+import { DataGridPage, DeleteEntityButton, GenericCell, Link, TextCell } from '@contember/admin'
 
-export const articleList = (
+export default () => (
   <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
     <TextCell field="title" header="Title" />
     {/* highlight-start */}
@@ -260,25 +226,6 @@ export const articleList = (
     {/* highlight-end */}
   </DataGridPage>
 )
-
-export const articleCreate = (
-  <CreatePage
-    entity="Article"
-    rendererProps={{ title: 'Create Article' }}
-    redirectOnSuccess="articleEdit(id: $entity.id)"
-  >
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </CreatePage>
-)
-
-export const articleEdit = (
-  <EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </EditPage>
-)
-
 ```
 
 1. We've added two `GenericCell`.
