@@ -74,7 +74,7 @@ TENANT_MAILER_PORT: "2525"
 TENANT_MAILER_FROM: "noreply@example.com"
 ```
 
-HTTP server should start on the specified port. You can add a load-balancer in front of the app. The container is stateless and therefor horizontally scalable.
+HTTP server should start on the specified port. You can add a load-balancer in front of the app. The container is stateless and therefore horizontally scalable.
 
 After the server is running Contember CLI can be used to set up other API tokens and invite users. Deploy your projects to this instance by running `contember deploy blog --yes` command with `CONTEMBER_API_URL` and `CONTEMBER_API_TOKEN` environment variables set. You can use either superadmin token or create token with `deployer` role (using `contember tenant:create-api-key` command).
 
