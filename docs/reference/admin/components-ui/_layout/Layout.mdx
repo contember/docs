@@ -1,31 +1,38 @@
-import { PropsTable, PropsTableRow } from "@src/components/propsTable"
-import * as SharedProps from "@src/components/props"
-import Tabs from "@theme/Tabs"
-import TabItem from "@theme/TabItem"
+import { PropsTable, PropsTableRow } from '@src/components/propsTable'
+import * as SharedProps from '@src/components/props'
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 ```tsx
-<Layout />
+<Layout
+  sidebarHeader="Project name"
+  navigation={
+    <Menu>
+      <Menu.Item title="Articles" to="articleList"/>
+    </Menu>
+  }
+/>
 ```
 
 #### Props
 
 <PropsTable>
-    <SharedProps.topStart />
-    <SharedProps.topEnd />
-    <SharedProps.sideBar />
-    <SharedProps.mainStart />
-    <SharedProps.actions />
-    <SharedProps.actionsCenter />
-    <SharedProps.actionsEnd />
-    <SharedProps.actionsStart />
+    <SharedProps.className />
     <SharedProps.children />
-    <SharedProps.key />
-    <SharedProps.main />
-    <SharedProps.mainCenter />
-    <SharedProps.mainEnd />
-    <SharedProps.sideBarCenter />
-    <SharedProps.sideBarEnd />
-    <SharedProps.sideBarStart />
-    <SharedProps.top />
-    <SharedProps.topCenter />
+    <SharedProps.sidebarHeader />
+    <SharedProps.sidebarFooter />
+    <SharedProps.switchers />
+    <SharedProps.navigation />
+    <SharedProps.scheme />
+    <SharedProps.theme />
+    <SharedProps.themeContent />
+    <SharedProps.themeControls />
+    <SharedProps.pageScheme />
+    <SharedProps.pageTheme />
+    <SharedProps.pageThemeContent />
+    <SharedProps.pageThemeControls />
+    <SharedProps.titleScheme />
+    <SharedProps.titleTheme />
+    <SharedProps.titleThemeContent />
+    <SharedProps.titleThemeControls />
 </PropsTable>

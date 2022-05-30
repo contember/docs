@@ -212,7 +212,7 @@ export const className = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="className"
-        propType=""
+        propType="string"
         description="A class name that is applied to the component."
     />
 )
@@ -369,15 +369,6 @@ export const headingProps = (props: PropsTableRowProps) => (
         prop="headingProps"
         propType="undefined | HeadingProps"
         description="Props that are passed to the heading"
-    />
-)
-
-export const navigation = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="navigation"
-        propType="undefined | string"
-        description="Navigation"
     />
 )
 

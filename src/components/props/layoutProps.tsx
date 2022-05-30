@@ -1,137 +1,146 @@
 import React from 'react'
 import { PropsTableRow, PropsTableRowProps } from '../propsTable'
 
-export const topStart = (props: PropsTableRowProps) => (
+export const sidebarHeader = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="topStart"
+        prop="sidebarHeader"
         propType="ReactNode"
-        description="The top start part of the layout."
+        description="The header of the sidebar usually containing the title of the page."
     />
 )
 
-export const topEnd = (props: PropsTableRowProps) => (
+export const sidebarFooter = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="topEnd"
+        prop="sidebarFooter"
         propType="ReactNode"
-        description="The top end part of the layout."
+        description="The footer of the sidebar usually containing the logout button or user info."
     />
 )
 
-export const sideBar = (props: PropsTableRowProps) => (
+export const switchers = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="sideBar"
+        prop="switchers"
         propType="ReactNode"
-        description="The side bar part of the layout."
+        description="The place for switchers in the sidebar. It's right below sidebar header."
     />
 )
 
-export const mainStart = (props: PropsTableRowProps) => (
+export const navigation = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="mainStart"
+        prop="navigation"
         propType="ReactNode"
-        description="The main start part of the layout."
+        description="The place for navigation in the sidebar."
     />
 )
 
-export const actionsCenter = (props: PropsTableRowProps) => (
+export const scheme = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="actionsCenter"
-        propType="ReactNode"
-        description="The actions center part of the layout."
+        prop="scheme"
+        propType="'system' | 'light' | 'light-above' | 'light-below' | 'dark' | 'dark-above' | 'dark-below'"
+        description="The definition of the color scheme of the layout. Contember supports light and dark color schemes. The default is 'system' which means that the color scheme is defined by the operating system."
     />
 )
 
-export const actionsEnd = (props: PropsTableRowProps) => (
+export const theme = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="actionsEnd"
-        propType="ReactNode"
-        description="The actions end part of the layout."
-        />
-)
-
-export const actionsStart = (props: PropsTableRowProps) => (
-    <PropsTableRow
-        {...props}
-        prop="actionsStart"
-        propType="ReactNode"
-        description="The actions start part of the layout."
+        prop="theme"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the layout. You can read more about the color themes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
 
-export const main = (props: PropsTableRowProps) => (
+export const themeContent = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="main"
-        propType="ReactNode"
-        description="The main part of the layout."
+        prop="themeContent"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the layout. Content part of the layout can have different color theme. You can read more about the color themes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
 
-export const mainEnd = (props: PropsTableRowProps) => (
+export const themeControls = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="mainEnd"
-        propType="ReactNode"
-        description="The main end part of the layout."
+        prop="themeControls"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the layout. Controls of the layout can have different color theme. You can read more about the color themes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
 
-export const mainCenter = (props: PropsTableRowProps) => (
+export const pageScheme = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="mainCenter"
-        propType="ReactNode"
-        description="The main center part of the layout."
+        prop="pageScheme"
+        propType="'system' | 'light' | 'light-above' | 'light-below' | 'dark' | 'dark-above' | 'dark-below'"
+        description="The definition of the color scheme for page. Contember supports light and dark color schemes. The default is 'system' which means that the color scheme is defined by the operating system."
     />
 )
 
-export const sideBarCenter = (props: PropsTableRowProps) => (
+export const pageTheme = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="sideBarCenter"
-        propType="ReactNode"
-        description="The side bar center part of the layout."
+        prop="pageTheme"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the page. You can read more about the color themes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
 
-export const sideBarEnd = (props: PropsTableRowProps) => (
+export const pageThemeContent = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="sideBarEnd"
-        propType="ReactNode"
-        description="The side bar end part of the layout."
+        prop="pageThemeContent"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the content part of the page. You can read more about the color themes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
 
-export const sideBarStart = (props: PropsTableRowProps) => (
+export const pageThemeControls = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="sideBarStart"
-        propType="ReactNode"
-        description="The side bar start part of the layout."
+        prop="pageThemeControls"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the controls. You can read more about the color themes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
 
-export const top = (props: PropsTableRowProps) => (
+export const titleScheme = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="top"
-        propType="ReactNode"
-        description="The top part of the layout."
+        prop="titleScheme"
+        propType="'system' | 'light' | 'light-above' | 'light-below' | 'dark' | 'dark-above' | 'dark-below'"
+        description="The definition of the color scheme for the title. Contember supports light and dark color schemes. The default is 'system' which means that the color scheme is defined by the operating system."
     />
 )
 
-export const topCenter = (props: PropsTableRowProps) => (
+export const titleTheme = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
-        prop="topCenter"
-        propType="ReactNode"
-        description="The top center part of the layout."
+        prop="titleTheme"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the title. You can read more about the color schemes in <a href='/reference/admin/theming/introduction'>theming part</a>."
+    />
+)
+
+export const titleThemeContent = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="titleThemeContent"
+        propType="Itent"
+        description="Color theme of the title content. You can read more about the color schemes in <a href='/reference/admin/theming/introduction'>theming part</a>."
+    />
+)
+
+export const titleThemeControls = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="titleThemeControls"
+        propType="'default' | 'primary' | 'secondary' | 'tertiary' | 'positive' | 'success' | 'warn' | 'danger'"
+        description="Color theme of the title controls. You can read more about the color schemes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
