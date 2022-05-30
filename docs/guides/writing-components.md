@@ -2,6 +2,12 @@
 title: Writing custom components
 ---
 
+:::caution This is an advanced guide
+
+You can achieve a lot just by using built-in components. There is [a list of them](/reference/admin/components/form-fields.mdx).
+
+:::
+
 React components must be wrapped into `Component` higher order component to support [data binding](/reference/admin/data-binding/overview.md). If you use hooks in data binding aware component, you must use second argument of this function with a "static render" implementation.
 
 #### Example: simple component
