@@ -27,6 +27,7 @@ module.exports = {
 				"guides/deploy-contember",
 				"guides/deploy-github-actions",
 				"guides/self-hosted-contember",
+				'guides/seo',
 				'guides/writing-components',
 			],
 		},
