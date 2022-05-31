@@ -6,7 +6,7 @@ export const direction = (props: PropsTableRowProps) => (
         {...props}
         prop="direction"
         propType="'vertical' | 'horizontal' | 'vertical-reverse' | 'horizontal-reverse'"
-        description="The header of the sidebar usually containing the title of the page."
+        description="It defines the direction of the elements."
     />
 )
 

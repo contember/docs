@@ -131,7 +131,7 @@ export const titleThemeContent = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="titleThemeContent"
-        propType="Itent"
+        propType="Intent"
         description="Color theme of the title content. You can read more about the color schemes in <a href='/reference/admin/theming/introduction'>theming part</a>."
     />
 )
