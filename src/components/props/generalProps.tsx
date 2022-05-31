@@ -35,14 +35,14 @@ export const options = (props: PropsTableRowProps) => (
         {...props}
         prop="options"
         propType={`
-            string | 
-            { 
-                label: ReactNode, value: OptionallyVariableFieldValue, 
-                description: ReactNode, 
-                searchKeywords: string | undefined 
+            string |
+            {
+                label: ReactNode, value: OptionallyVariableFieldValue,
+                description: ReactNode,
+                searchKeywords: string | undefined
             }[]
         `}
-        description="The options for the field. You can use <a href='/admin/data-binding/query-language' target='_blank'>query language</a> to filter the entities."
+        description="The options for the field. You can use <a href='/reference/admin/data-binding/query-language' target='_blank'>query language</a> to filter the entities."
     />
 )
 
@@ -258,7 +258,7 @@ export const entities = (props: PropsTableRowProps) => (
         {...props}
         prop="entities"
         propType="string"
-        description="The name of the entity. You can use <a href='/admin/data-binding/query-language' target='_blank'>query language (Qualified entity list)</a> to filter the entities."
+        description="The name of the entity. You can use <a href='/reference/admin/data-binding/query-language' target='_blank'>query language (Qualified entity list)</a> to filter the entities."
     />
 )
 
@@ -267,7 +267,7 @@ export const entity = (props: PropsTableRowProps) => (
         {...props}
         prop="entity"
         propType="string"
-        description="The name of the entity. You can use <a href='/admin/data-binding/query-language' target='_blank'>query language</a> to filter the entities."
+        description="The name of the entity. You can use <a href='/reference/admin/data-binding/query-language' target='_blank'>query language</a> to filter the entities."
     />
 )
 
