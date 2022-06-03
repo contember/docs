@@ -295,8 +295,8 @@ export default () => (
 ## 07: Extract beer form component
 
 ```tsx title="admin/components/BeerForm.tsx"
-import { Component, FloatField, SelectField, TextField } from '@contember/admin'
 import * as React from 'react'
+import { Component, FloatField, SelectField, TextField } from '@contember/admin'
 
 export const BeerForm = Component(
 	() => (
@@ -311,7 +311,9 @@ export const BeerForm = Component(
 
 ```tsx title="admin/pages/editBeer.tsx"
 import * as React from 'react'
-import { EditPage, FloatField, SelectField, TextField } from '@contember/admin'
+// highlight-next-line
+import { EditPage } from '@contember/admin'
+// highlight-next-line
 import { BeerForm } from '../components/BeerForm'
 
 export default () => (
@@ -320,4 +322,20 @@ export default () => (
 		<BeerForm />
 	</EditPage>
 )
+```
+
+```tsx title="admin/pages/createBeer.tsx"
+import * as React from 'react'
+// highlight-next-line
+import { CreatePage } from '@contember/admin'
+// highlight-next-line
+import { BeerForm } from '../components/BeerForm'
+
+export default () => (
+	<CreatePage entity="Beer" redirectOnSuccess="listBeers">
+		// highlight-next-line
+		<BeerForm />
+	</CreatePage>
+)
+
 ```
