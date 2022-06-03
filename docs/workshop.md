@@ -158,7 +158,7 @@ But wouldn't be map more user-friendly?
 
 ```tsx title="admin/pages/index.tsx"
 import * as React from 'react'
-import { FloatField, MultiEditPage, TextField } from '@contember/admin'
+import { FloatField, MultiEditPage, TextField, LocationField } from '@contember/admin'
 
 export default () => (
 	<MultiEditPage entities="Brewery">
