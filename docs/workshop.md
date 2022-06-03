@@ -44,7 +44,7 @@ You should see something like this in your console:
   ready in 119ms.
 ```
 
-If you open http://localhost:1480/ in your browser you should see a message "Welcome to Contember Admin!". We will create an administration there, but first let's create a schema for our data.
+If you open [http://localhost:1480/](http://localhost:1480) in your browser you should see a message "Welcome to Contember Admin!". We will create an administration there, but first let's create a schema for our data.
 
 Open the directory in a code editor (such as VS Code).
 
