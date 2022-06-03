@@ -111,7 +111,7 @@ import * as React from 'react'
 import { MultiEditPage, TextField } from '@contember/admin'
 
 export default () => (
-	<MultiEditPage entities="Brewery">
+	<MultiEditPage entities="Brewery" rendererProps={{ title: "Breweries" }}>
 		<TextField label="Name" field="name" />
 	</MultiEditPage>
 )
@@ -144,7 +144,7 @@ import * as React from 'react'
 import { FloatField, MultiEditPage, TextField } from '@contember/admin'
 
 export default () => (
-	<MultiEditPage entities="Brewery">
+	<MultiEditPage entities="Brewery" rendererProps={{ title: "Breweries" }}>
 		<TextField label="Name" field="name" />
 		// highlight-start
 		<FloatField label="Latitude" field="locationLat" />
@@ -161,7 +161,7 @@ import * as React from 'react'
 import { FloatField, MultiEditPage, TextField, LocationField } from '@contember/admin'
 
 export default () => (
-	<MultiEditPage entities="Brewery">
+	<MultiEditPage entities="Brewery" rendererProps={{ title: "Breweries" }}>
 		<TextField label="Name" field="name" />
 		<FloatField label="Latitude" field="locationLat" />
 		<FloatField label="Longitude" field="locationLng" />
@@ -178,7 +178,7 @@ import * as React from 'react'
 import { FloatField, LocationField, MultiEditPage, Repeater, TextField } from '@contember/admin'
 
 export default () => (
-	<MultiEditPage entities="Brewery">
+	<MultiEditPage entities="Brewery" rendererProps={{ title: "Breweries" }}>
 		<TextField label="Name" field="name" />
 		<FloatField label="Latitude" field="locationLat" />
 		<FloatField label="Longitude" field="locationLng" />
@@ -201,7 +201,7 @@ import * as React from 'react'
 import { DataGridPage, NumberCell, TextCell } from '@contember/admin'
 
 export default () => (
-	<DataGridPage entities="Beer">
+	<DataGridPage entities="Beer" rendererProps={{ title: "Beers List" }}>
 		<TextCell header="Name" field="name" />
 		<NumberCell header="Alcohol" field="alcohol" />
 		// highlight-next-line
@@ -219,7 +219,7 @@ import { Menu } from '@contember/admin'
 export const Navigation = () => (
 	<Menu>
 		<Menu.Item>
-			<Menu.Item title="Dashboard" to="index" />
+			<Menu.Item title="Breweries" to="index" />
 			<Menu.Item title="Beers" to="listBeers" />
 		</Menu.Item>
 	</Menu>
@@ -236,7 +236,7 @@ import * as React from 'react'
 import { CreatePage, FloatField, SelectField, TextField } from '@contember/admin'
 
 export default () => (
-	<CreatePage entity="Beer" redirectOnSuccess="listBeers">
+	<CreatePage entity="Beer" redirectOnSuccess="listBeers" rendererProps={{ title: "New Beer" }}>
 		<SelectField label="Brewery" field="brewery" options="Brewery.name" />
 		<TextField label="Name" field="name" />
 		<FloatField label="Alcohol" field="alcohol" />
@@ -252,7 +252,7 @@ import { DataGridPage, LinkButton, NumberCell, TextCell } from '@contember/admin
 
 export default () => (
 	// highlight-next-line
-	<DataGridPage entities="Beer" rendererProps={{ actions: <LinkButton to="createBeer">Create beer</LinkButton> }}>
+	<DataGridPage entities="Beer" rendererProps={{ title: "Beers List", actions: <LinkButton to="createBeer">Create beer</LinkButton> }}>
 		<TextCell header="Name" field="name" />
 		<NumberCell header="Alcohol" field="alcohol" />
 		<TextCell header="brewery" field="brewery.name" />
@@ -267,7 +267,7 @@ import * as React from 'react'
 import { EditPage, FloatField, SelectField, TextField } from '@contember/admin'
 
 export default () => (
-	<EditPage entity="Beer(id=$id)" redirectOnSuccess="listBeers">
+	<EditPage entity="Beer(id=$id)" redirectOnSuccess="listBeers" rendererProps={{ title: "Edit Beer" }}>
 		<SelectField label="Brewery" field="brewery" options="Brewery.name" />
 		<TextField label="Name" field="name" />
 		<FloatField label="Alcohol" field="alcohol" />
@@ -280,7 +280,7 @@ import * as React from 'react'
 import { DataGridPage, GenericCell, LinkButton, NumberCell, TextCell } from '@contember/admin'
 
 export default () => (
-	<DataGridPage entities="Beer" rendererProps={{ actions: <LinkButton to="createBeer">Create beer</LinkButton> }}>
+	<DataGridPage entities="Beer" rendererProps={{ title: "Beers List", actions: <LinkButton to="createBeer">Create beer</LinkButton> }}>
 		<TextCell header="Name" field="name" />
 		<NumberCell header="Alcohol" field="alcohol" />
 		<TextCell header="brewery" field="brewery.name" />
@@ -317,7 +317,7 @@ import { EditPage } from '@contember/admin'
 import { BeerForm } from '../components/BeerForm'
 
 export default () => (
-	<EditPage entity="Beer(id=$id)" redirectOnSuccess="listBeers">
+	<EditPage entity="Beer(id=$id)" redirectOnSuccess="listBeers" rendererProps={{ title: "Edit Beer" }}>
 		// highlight-next-line
 		<BeerForm />
 	</EditPage>
@@ -332,7 +332,7 @@ import { CreatePage } from '@contember/admin'
 import { BeerForm } from '../components/BeerForm'
 
 export default () => (
-	<CreatePage entity="Beer" redirectOnSuccess="listBeers">
+	<CreatePage entity="Beer" redirectOnSuccess="listBeers" rendererProps={{ title: "New Beer" }}>
 		// highlight-next-line
 		<BeerForm />
 	</CreatePage>
