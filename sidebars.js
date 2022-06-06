@@ -29,6 +29,7 @@ module.exports = {
 				"guides/self-hosted-contember",
 				'guides/seo',
 				'guides/writing-components',
+				'guides/data-grid-with-tiles',
 			],
 		},
 		{

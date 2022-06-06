@@ -31,9 +31,9 @@
     ]
   },
   "devDependencies": {
-    "@contember/admin": "^1.0.0-rc",
-    "@contember/schema": "^1.0.0-rc",
-    "@contember/schema-definition": "^1.0.0-rc",
+    "@contember/admin": "^1.1.0-alpha.1",
+    "@contember/schema": "^1.1.0-alpha.1",
+    "@contember/schema-definition": "^1.1.0-alpha.1",
     "@docusaurus/module-type-aliases": "^2.0.0-beta.17",
     "@tsconfig/docusaurus": "^1.0.4",
     "@types/chroma-js": "^2.1.3",
