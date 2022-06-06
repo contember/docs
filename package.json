@@ -31,7 +31,7 @@
     ]
   },
   "devDependencies": {
-    "@contember/admin": "^1.0.0-rc",
+    "@contember/admin": "^1.1.0-alpha",
     "@contember/schema": "^1.0.0-rc",
     "@contember/schema-definition": "^1.0.0-rc",
     "@docusaurus/module-type-aliases": "^2.0.0-beta.17",

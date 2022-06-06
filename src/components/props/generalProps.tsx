@@ -271,6 +271,24 @@ export const entities = (props: PropsTableRowProps) => (
     />
 )
 
+export const tile = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="tile"
+        propType="ReactNode"
+        description="React component to render tile in the data grid."
+    />
+)
+
+export const tileSize = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="tileSize"
+        propType="int"
+        description="Minimum size of the grid tile in pixels as number. Default is <code>160</code>."
+    />
+)
+
 export const entity = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
