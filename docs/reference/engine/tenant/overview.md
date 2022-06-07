@@ -2,9 +2,8 @@
 title: Tenant API overview
 ---
 
-Contember has built-in user and permissions management. This part we call Tenant API. 
+Contember Tenant API is a GraphQL API allowing you to manage **projects**, **tokens**, **users** and their **roles**. Unlike [Content API](../content/overview.md), this API is shared for all projects. It is available on URL `https://engine-hostname/tenant` and to access it you need to provide `Bearer` token in `Authorization` header.
 
-There is always a single Tenant API running on an instance, you can find its GraphQL API on http://localhost:1481/tenant.
 
 ## Terms
 
