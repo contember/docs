@@ -51,14 +51,14 @@ export const themeNames = {
 export type ThemeName = keyof typeof themeNames
 
 export const CONTEMBER_THEMES: {[Property in ThemeName]: [string, string, string]} = Object.freeze({
-  primary: ["#00E1FF", "#0062FF", "#000067"], // "#15009C", 1F00B0 000067
+  primary: ["#3E94F7", "#3E94F7", "#3E94F7"], // "#15009C", 1F00B0 000067
   secondary: ["#3DA9EB", "#3DA9EB", "#3DA9EB"],
   tertiary: ["#AE65FF", "#AE65FF", "#AE65FF"],
-  positive: ["#006AFF", "#006AFF", "#006AFF"], // "#4390FF",
-  success: ["#6EBB00", "#6EBB00", "#6EBB00"],
-  warn: ["#FF6600", "#FF6600", "#FF6600"], //"#EC9117",
-  danger: ["#FF004C", "#FF4D00", "#FF0000"], //"#FF4827",
-  default: ["#999999", "#999999", "#999999"]
+  positive: ["#3E94F7", "#3E94F7", "#3E94F7"], // "#4390FF",
+  success: ["#85D315", "#85D315", "#85D315"],
+  warn: ["#F99B19", "#F99B19", "#F99B19"], //"#EC9117",
+  danger: ["#FF0000", "#FF0000", "#FF0000"], //"#FF4827",
+  default: ["#000000", "#000000", "#000000"]
 })
 
 export const c5 = -4; // -4; // 8
