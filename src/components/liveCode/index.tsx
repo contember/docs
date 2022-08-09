@@ -13,12 +13,13 @@ type LiveCodeProps = {
 	editDisabled?: boolean
 	entity: string
 	entities: string
+	dataGridEntities: string
 	noPreviewPadding?: boolean
 	preview: boolean
 	withoutDatabinding: boolean
 }
 
-export default function ({ code, editDisabled = false, entity, entities, noPreviewPadding = false, withoutDatabinding = false, preview = true }: LiveCodeProps) {
+export default function ({ code, editDisabled = false, entity, entities, dataGridEntities, noPreviewPadding = false, withoutDatabinding = false, preview = true }: LiveCodeProps) {
 	const { colorMode } = useColorMode()
 	const { siteConfig: { customFields } }: any = useDocusaurusContext()
 
@@ -55,7 +56,7 @@ export default function ({ code, editDisabled = false, entity, entities, noPrevi
 												} else if (entities) {
 													return (`
 															<DataBindingProvider stateComponent={FeedbackRenderer}>
-																<EntityListSubTree entity="${entities}" isCreating>
+																<EntityListSubTree entities="${entities}" isCreating>
 																	${code}
 																</EntityListSubTree>
 															</DataBindingProvider>
