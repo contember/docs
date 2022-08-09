@@ -5,9 +5,9 @@ export const render = (props: PropsTableRowProps) => (
     <PropsTableRow
         {...props}
         prop="render"
-        propType={`(<a href="/reference/admin/data-binding/field-accessor" target="_blank">FieldAccessor</a>) => ReactNode`}
+        propType={`(...accessor: <a href="/reference/admin/data-binding/field-accessor" target="_blank">FieldAccessor</a>[]) => ReactNode`}
         description={`
-            A function that is called to render the field.
+            A function that is called to render the field or fields.
         `}
     />
 )

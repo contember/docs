@@ -24,7 +24,16 @@ export const field = (props: PropsTableRowProps) => (
         {...props}
         prop="field"
         propType="string"
-        description={props.description || "The name of the column in Contember schema where to store data."}
+        description={props.description || "The name of the column in Contember schema where to store data. Only one of field or fields prop must be present."}
+    />
+)
+
+export const fields = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="fields"
+        propType="string[]"
+        description={props.description || "Names of the columns in Contember schema where to store data. Only one of field or fields prop must be present."}
     />
 )
 
