@@ -127,6 +127,14 @@ export class Link {
 }
 
 export class Article {
+	title = def.stringColumn()
 	slug = def.stringColumn()
+	image = def.manyHasOne(Image)
 	linkedFrom = def.oneHasMany(Link, 'article')
+	author = def.manyHasOne(Author, 'articles')
+}
+
+export class Author {
+	name = def.stringColumn()
+	articles = def.oneHasMany(Article, 'author')
 }

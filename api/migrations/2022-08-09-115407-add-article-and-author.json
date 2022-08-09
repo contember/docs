@@ -1,0 +1,151 @@
+{
+	"formatVersion": 3,
+	"modifications": [
+		{
+			"modification": "createEntity",
+			"entity": {
+				"name": "Author",
+				"primary": "id",
+				"primaryColumn": "id",
+				"unique": {},
+				"fields": {
+					"id": {
+						"name": "id",
+						"columnName": "id",
+						"nullable": false,
+						"type": "Uuid",
+						"columnType": "uuid"
+					}
+				},
+				"tableName": "author"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Article",
+			"field": {
+				"name": "title",
+				"columnName": "title",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createColumn",
+			"entityName": "Author",
+			"field": {
+				"name": "name",
+				"columnName": "name",
+				"nullable": true,
+				"type": "String",
+				"columnType": "text"
+			}
+		},
+		{
+			"modification": "createRelation",
+			"entityName": "Article",
+			"owningSide": {
+				"name": "author",
+				"inversedBy": "articles",
+				"nullable": true,
+				"type": "ManyHasOne",
+				"target": "Author",
+				"joiningColumn": {
+					"columnName": "author_id",
+					"onDelete": "restrict"
+				}
+			},
+			"inverseSide": {
+				"name": "articles",
+				"ownedBy": "author",
+				"type": "OneHasMany",
+				"target": "Article"
+			}
+		},
+		{
+			"modification": "patchAclSchema",
+			"patch": [
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Author",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"create": {
+								"id": true,
+								"name": true,
+								"articles": true
+							},
+							"read": {
+								"id": true,
+								"name": true,
+								"articles": true
+							},
+							"update": {
+								"id": true,
+								"name": true,
+								"articles": true
+							},
+							"delete": true
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article/operations/create/title",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article/operations/create/author",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article/operations/read/title",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article/operations/read/author",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article/operations/update/title",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/admin/entities/Article/operations/update/author",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Author",
+					"value": {
+						"predicates": {},
+						"operations": {
+							"read": {
+								"id": true,
+								"name": true,
+								"articles": true
+							}
+						}
+					}
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Article/operations/read/title",
+					"value": true
+				},
+				{
+					"op": "add",
+					"path": "/roles/public/entities/Article/operations/read/author",
+					"value": true
+				}
+			]
+		}
+	]
+}
