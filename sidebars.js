@@ -30,6 +30,7 @@ module.exports = {
 				'guides/seo',
 				'guides/writing-components',
 				'guides/acl-definition',
+				'guides/data-grid-with-tiles',
 			],
 		},
 		{
