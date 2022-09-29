@@ -105,7 +105,7 @@ npm run contember migrations:amend my-blog 2022-01-17-101806-test
 If someone else has already run the migration, or it's deployed it won't be possible to execute the amended migration.
 :::
 
-### Rebasing a migration using `migrations:rebasse`
+### Rebasing a migration using `migrations:rebase`
 
 Before merging a branch with a new migration, you might find that a new migration appeared in an upstream. `migrations:rebase my-blog` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
 
