@@ -45,7 +45,7 @@ Owning side of this relationship references (at most) one entity, but that entit
 - Optionally, we define an inverse side using `oneHasMany` method. 
 - Joining column with actual relationship value is located on owning side.
 - For this relationship, you can also configure:
-  - [nullability](#relationships-nullability) on owning side
+  - [nullability](#nullability) on owning side
   - [delete behaviour](#on-delete-behavior) on owning side
   - [default order](#default-order) on inverse side.
 
@@ -157,7 +157,7 @@ There is at most one entity on each side of this relationship.
 - Optionally, we define an inverse side using `oneHasOneInverse` method. 
 - Joining column with actual relationship value is located on owning side.
 - For this relationship, you can also configure 
-  - [nullability](#relationships-nullability) on both sides
+  - [nullability](#nullability) on both sides
   - [delete behaviour](#on-delete-behavior) on owning side 
   - [orphan removal](#orphan-removal) on owning side
 
