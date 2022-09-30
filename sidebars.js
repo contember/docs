@@ -78,7 +78,7 @@ module.exports = {
 							label: "Theming",
 							items: [
 								"reference/admin/theming/introduction",
-								"reference/admin/theming/pallettes",
+								"reference/admin/theming/palettes",
 							],
 						},
 						{

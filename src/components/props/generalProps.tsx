@@ -24,7 +24,16 @@ export const field = (props: PropsTableRowProps) => (
         {...props}
         prop="field"
         propType="string"
-        description={props.description || "The name of the column in Contember schema where to store data."}
+        description={props.description || "The name of the column in Contember schema where to store data. Only one of field or fields prop must be present."}
+    />
+)
+
+export const fields = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="fields"
+        propType="string[]"
+        description={props.description || "Names of the columns in Contember schema where to store data. Only one of field or fields prop must be present."}
     />
 )
 
@@ -259,6 +268,24 @@ export const entities = (props: PropsTableRowProps) => (
         prop="entities"
         propType="string"
         description="The name of the entity. You can use <a href='/reference/admin/data-binding/query-language' target='_blank'>query language (Qualified entity list)</a> to filter the entities."
+    />
+)
+
+export const tile = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="tile"
+        propType="ReactNode"
+        description="React component to render tile in the data grid."
+    />
+)
+
+export const tileSize = (props: PropsTableRowProps) => (
+    <PropsTableRow
+        {...props}
+        prop="tileSize"
+        propType="int"
+        description="Minimum size of the grid tile in pixels as number. Default is <code>160</code>."
     />
 )
 
