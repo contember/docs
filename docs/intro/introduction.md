@@ -37,4 +37,4 @@ Follow our [quickstart](/intro/quickstart) to understand the basics and build so
 - Multi-language, translatable
 - Extend with your own React.js components
 
-![contember administration screenshot](/assets/contember-screenshot.png)
+![contember administration screenshot](/assets/content-repeater.webp)
