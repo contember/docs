@@ -1,0 +1,872 @@
+---
+title: Documentation overview to teach Contember to chatGPT
+---
+
+import { PropsTable, PropsTableRow } from "@src/components/propsTable";
+import * as SharedProps from "@src/components/props";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+import BlockEditor from "./_content/BlockEditor.mdx"
+import BlockRepeater from "./_content/BlockRepeater.mdx"
+import Block from "./_block/Block.mdx"
+import BlockInBlockEditor from "./_block/BlockInBlockEditor.mdx"
+import BlockInBlockRepeater from "./_block/BlockInBlockRepeater.mdx"
+import BlockInDiscriminatedBlocks from "./_block/BlockInBlockRepeater.mdx"
+import ClearFieldButton from "./_buttons/ClearFieldButton.mdx"
+import DeleteEntityButton from "./_buttons/DeleteEntityButton.mdx"
+import PersistButton from "./_buttons/PersistButton.mdx"
+import DataGrid from "./_data-grid/DataGrid.mdx"
+import BooleanCell from "./_data-grid/BooleanCell.mdx"
+import DateCell from "./_data-grid/DateCell.mdx"
+import EnumCell from "./_data-grid/EnumCell.mdx"
+import GenericCell from "./_data-grid/GenericCell.mdx"
+import HasManySelectCell from "./_data-grid/HasManySelectCell.mdx"
+import HasOneSelectCell from "./_data-grid/HasOneSelectCell.mdx"
+import NumberCell from "./_data-grid/NumberCell.mdx"
+import TextCell from "./_data-grid/TextCell.mdx"
+import DiscriminatedBlocks from "./_discrimination/DiscriminatedBlocks.mdx"
+import GetDiscriminatedBlock from "./_discrimination/getDiscriminatedBlock.mdx"
+import FieldView from "./_field-views/FieldView.mdx"
+import CheckBoxField from "./_form-fields/CheckboxField.mdx"
+import ColorField from "./_form-fields/ColorField.mdx"
+import DateField from "./_form-fields/DateField.mdx"
+import DateTimeField from "./_form-fields/DateTimeField.mdx"
+import Field from "./_form-fields/Field.mdx"
+import HiddenField from "./_form-fields/HiddenField.mdx"
+import MultiSelectField from "./_form-fields/MultiSelectField.mdx"
+import RichTextField from "./_form-fields/RichTextField.mdx"
+import SelectField from "./_form-fields/SelectField.mdx"
+import TextareaField from "./_form-fields/TextareaField.mdx"
+import TextField from "./_form-fields/TextField.mdx"
+import CreatePage from "./_pages/CreatePage.mdx"
+import EditPage from "./_pages/EditPage.mdx"
+// import GenericPage from "./_pages/GenericPage.mdx"
+import MultiEditPage from "./_pages/MultiEditPage.mdx"
+import Repeater from "./_repeaters/Repeater.mdx"
+import AnyFileRepeater from "./_upload/AnyFileRepeater.mdx"
+import AnyUploadField from "./_upload/AnyUploadField.mdx"
+import AudioFileRepeater from "./_upload/AudioFileRepeater.mdx"
+import AudioUplaodField from "./_upload/AudioUploadField.mdx"
+import ImageFileRepeater from "./_upload/ImageFileRepeater.mdx"
+import ImageUplaodField from "./_upload/ImageUploadField.mdx"
+import VideoFileRepeater from "./_upload/VideoFileRepeater.mdx"
+import VideoUploadField from "./_upload/VideoUploadField.mdx"
+import AnchorButton from "../components-ui/_buttons/AnchorButton.mdx"
+import Box from '../components-ui/_layout/Box.mdx'
+import Layout from '../components-ui/_layout/Layout.mdx'
+import Stack from '../components-ui/_layout/Stack.mdx'
+import Section from '../components-ui/_layout/Section.mdx'
+
+**Contember Engine** lets you define your own data model with TypeScript and instantly turns it into a GraphQL API. It is a standalone server, which provides an extensive GraphQL API for your data - we call it the Content API. Contember API also provides, what we call a Tenant API which handles authentication and authorization, so you can control who and how can access your data.
+
+**Contember Admin** is an SDK for building custom management interfaces. It lets you define your own management UI with high-level React components and automatically connects to GraphQL provided by Contember Engine.
+
+We believe the code is the best way to express your needs. You can also easily version your project with Git, collaborate with team members and share or reuse.
+
+## How the project looks like
+
+First you have to tell Contember Engine, how your data model looks like. So you start defining your project schema. For the most simple blog, it could look something like this:
+
+```typescript
+// Post.ts
+
+import { SchemaDefinition as def } from '@contember/schema-definition'
+
+export class Post {
+  title = def.stringColumn().notNull()
+  publishedAt = def.dateTimeColumn()
+  content = def.stringColumn().notNull()
+}
+```
+:::note
+We use TypeScript for schema definition.
+:::
+
+Contember Engine then creates a table in a PostgreSQL database, where it stores your data and instantly provides you with GraphQL API.
+
+To save a post using GraphQL API, just fire this mutation:
+```graphql
+mutation {
+  createPost(
+    data: {
+      title: "Hello world",
+      content: "first article stored in Contember!",
+      publishedAt: "2019-12-11T16:35:06"
+    }
+  ) {
+    ok
+    errorMessage
+    node {
+      id
+    }
+  }
+}
+```
+
+To list all published posts, you can use this query:
+
+```graphql
+query {
+  listPost(filter: {publishedAt: {isNull: false}}) {
+    title
+    publishedAt
+  }
+}
+```
+Of course, Contember Engine also works with complex structures, and you can define any kind of relationships between entities. Find out more in a chapter [defining schema](/reference/engine/schema/overview.md).
+
+With Contember Admin you can create any management interface you want. For example the post edit page will be as simple as this:
+
+```typescript jsx
+export const postEdit = (
+    <EditPage entity="Post(id = $id)">
+        <TextField field="title" label="Title" />
+        <TextAreaField field="content" label="Content" />
+        <DateTimeField field="publishedAt" label="Published at" />
+    </EditPage>
+)
+```
+
+## Create new project with Contember
+
+In this tutorial we will show you how to setup both Contember Engine and Contember Admin to create your first project.
+
+:::note Prerequisites
+
+- Installed [NPM](https://www.npmjs.com/) version 7+
+- Installed [Docker](https://docs.docker.com/install/) with [Docker Compose](https://docs.docker.com/compose/install/) version 1.27+
+
+:::
+
+```bash
+npm exec "@contember/create@latest" quickstart
+```
+
+It will create a new folder with basic Contember setup. After it is done:
+
+```bash
+cd quickstart
+```
+
+And then install dependencies:
+
+```bash
+npm install
+```
+
+And you're ready to go. Just start Docker containers and Contember will be running.
+
+```bash
+npm start
+```
+
+Now, administration UI should be running on address [http://localhost:1480](http://localhost:1480).
+
+![administration is running](/assets/quickstart-intro.png)
+
+:::note Started services
+
+- Admin UI at [http://localhost:1480](http://localhost:1480)
+- API endpoints at [http://localhost:1481](http://localhost:1481) (you can authorize with token `0000000000000000000000000000000000000000`)
+
+For advanced use-cases there is also:
+
+- Adminer database management tool at [http://localhost:1485](http://localhost:1485).
+- Minio local S3 provider at [http://localhost:1483](http://localhost:1483) (you can sign in with contembeer / contember credentials).
+- Mailhog testing SMTP at [http://localhost:1484](http://localhost:1484).
+- PostgreSQL database at [localhost:1482](localhost:1482) (you can sign in with contember / contember credentials).
+
+:::
+
+## Create first project
+
+From the first step you should have a folder structure that looks like this:
+
+```
+quickstart/
+  ├── admin/
+  │   ├── components/
+  │   ├── pages/
+  │   ├── .env
+  │   ├── index.html
+  │   ├── index.tsx
+  │   └── vite-env.d.ts
+  ├── api/
+  │   ├── migrations/
+  │   ├── model/
+  │   ├── acl.ts
+  │   └── index.ts
+  ├── docker/
+  ├── node_modules/
+  ├── docker-compose.yaml
+  ├── package.json
+  ├── package-lock.json
+  └── tsconfig.json
+```
+
+## Create your first data model
+
+First you have to tell Contember Engine, how your data model looks like. The `init` command automatically created `api/model/index.ts` file, so go there.
+
+Here you start defining your project schema. Really simple example looks like this:
+
+```ts title="api/model/index.ts"
+import { SchemaDefinition as def } from '@contember/schema-definition'
+
+export class Article {
+  title = def.stringColumn()
+  content = def.stringColumn()
+}
+```
+
+1. Import `SchemaDefinition` so you'll get TypeScript autocompletion.
+2. Define your first entity - `Article`. For this example let's just add two columns named `title` and `content`, both are `string`.
+
+Then you need to generate a database migration for Contember Engine:
+
+```bash
+npm run contember migrations:diff quickstart add-article
+```
+
+:::note Contember CLI
+
+`npm run contember` is a Contember CLI, if you call this without any arguments you'll see all the available commands.
+We'll use `migrations:diff` command. It goes through your schema and generates migration - instructions for Contember how to get from previous state to your new one.
+This command needs two parameters: first is name of your project (`quickstart` in our example) and then name your migration. It can be anything you want.
+
+:::
+
+Run this command and choose an option `Yes and execute immediately`. It will create your migration and after confirmation execute it. Now if you would look into your database, you would see there a table `article` with three columns: `id`, `title`, `content`. Nice.
+
+## Create your administration UI
+
+Now we have something we want to edit in UI. Let's start by adding a listing page for our articles.
+
+### Add listing page
+
+Go to `admin/pages` and create new file `articleList.tsx`.
+
+```tsx title="admin/pages/articleList.tsx"
+import * as React from 'react'
+import { DataGridPage, TextCell } from '@contember/admin'
+
+export default () => (
+  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+    <TextCell field="title" header="Title" />
+  </DataGridPage>
+)
+```
+
+1. Import `@contember/admin` package for TypeScript autocompletion.
+2. Export page component as default export.
+3. Use `DataGridPage` component to show the data in a simple datagrid.
+4. Tell it which entities you'd like to edit. In our case it's `Article` (it has to be the same name we used in the model).
+5. Use `TextCell` to add text column.
+
+If you go to [localhost:1480/article-list](http://localhost:1480/article-list) you'll see list of your articles. Which is empty as we didn't add any data there yet.
+
+Let's add some data.
+
+### Add create page
+
+```tsx title="admin/pages/articleCreate.tsx"
+import * as React from 'react'
+import { CreatePage, RichTextField, TextField } from '@contember/admin'
+
+export default () => (
+  <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
+    <TextField field="title" label="Title" />
+    <RichTextField field="content" label="Content" />
+  </CreatePage>
+)
+```
+
+1. We'll create a new file named `articleCreate.tsx`.
+2. This time we'll use `CreatePage` component.
+3. We'll tell it what we want to add (`Article`).
+4. We'll use two new components - `TextField` and `RichTextField` and tell them what fields to edit.
+
+Now at [localhost:1480/article-create](http://localhost:1480/article-create) you can create new article. And if you go to the [list of articles](http://localhost:1480/article-list) you'll see the data are there.
+
+But it doesn't work very well. One of the things missing is to go to edit mode after you created a new article. So let's start by adding an edit page:
+
+### Add edit page
+
+We'll create a new page named `articleEdit`. It looks almost the same as the create page - but we have to tell it which article to edit:
+
+```tsx title="admin/pages/articleEdit.tsx"
+import * as React from 'react'
+import { EditPage, RichTextField, TextField } from '@contember/admin'
+
+export default () => (
+	<EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
+		<TextField field="title" label="Title" />
+		<RichTextField field="content" label="Content" />
+	</EditPage>
+)
+```
+
+Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
+
+```tsx title="admin/pages/articleCreate.tsx"
+import * as React from 'react'
+import { CreatePage, RichTextField, TextField } from '@contember/admin'
+
+export default () => (
+  <CreatePage
+    entity="Article"
+    rendererProps={{ title: 'Create Article' }}
+    {/* highlight-start */}
+    redirectOnSuccess="articleEdit(id: $entity.id)"
+    {/* highlight-end */}
+  >
+    <TextField field="title" label="Title" />
+    <RichTextField field="content" label="Content" />
+  </CreatePage>
+)
+```
+
+This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected.
+
+Now if you create a new article you're automatically redirected to the edit page.
+
+What's missing is an edit and delete button in the list of pages.
+
+```tsx title="admin/pages/articleList.tsx"
+import * as React from 'react'
+import { DataGridPage, DeleteEntityButton, GenericCell, Link, TextCell } from '@contember/admin'
+
+export default () => (
+  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+    <TextCell field="title" header="Title" />
+    {/* highlight-start */}
+    <GenericCell shrunk><Link to="articleEdit(id: $entity.id)">Edit</Link></GenericCell>
+    <GenericCell shrunk><DeleteEntityButton immediatePersist /></GenericCell>
+    {/* highlight-end */}
+  </DataGridPage>
+)
+```
+
+1. We've added two `GenericCell`.
+2. First with `Link` component targeting `articleEdit` page and passing `id` as parameter.
+3. Second with delete button provided by `DeleteEntityButton`.
+4. Minor touch is use of `shrunk` with tells the cell to be as small as possible.
+
+### Add pages to side menu
+
+One last thing is to add our pages to the left sidebar:
+
+```tsx title="admin/components/Navigation.tsx"
+import * as React from 'react'
+import { Menu } from '@contember/admin'
+
+export const Navigation = () => (
+  <Menu>
+    <Menu.Item>
+      <Menu.Item title="Dashboard" to="index" />
+      <Menu.Item title="Articles" to="articleList" />
+      <Menu.Item title="Create new article" to="articleCreate" />
+    </Menu.Item>
+  </Menu>
+)
+```
+
+And that's it! You have just created a simple data model and created custom interface, so you can edit the data.
+
+![administration is running](/assets/quickstart-final.png)
+
+## Fetch data via GraphQL API
+
+We recommend reading [Content API topic](/reference/engine/content/overview) however if you're looking to quickly play with the API, we've prepared [Insomnia](https://insomnia.rest/) project for you to import and quickly try it out. To use it <a href="/assets/insomnia-quickstart.json" target="_blank">download it here</a> and just drag&drop it to Insomnia.
+
+## Block editor
+
+The `BlockEditor` component is the main component of the editor. It is responsible for rendering the content editor.
+
+```tsx
+<BlockEditor
+    contentField="content"
+    field="blocks"
+    label="Content"
+    size="small"
+    sortableBy="order"
+    referencesField="references"
+    referenceDiscriminationField="type"
+    blockButtons={[
+      {
+        discriminateBy: "gallery",
+        blueprintIcon: "heat-grid",
+        title: "Gallery",
+      },
+      {
+        discriminateBy: "quote",
+        blueprintIcon: "citation",
+        title: "Quote",
+      }
+    ]}
+    inlineButtons={[
+        [
+            RichEditor.buttons.bold,
+            RichEditor.buttons.italic,
+            RichEditor.buttons.underline,
+            RichEditor.buttons.strikeThrough
+        ],
+        [
+            RichEditor.buttons.headingOne,
+            RichEditor.buttons.headingTwo,
+            RichEditor.buttons.headingThree,
+            RichEditor.buttons.headingFour,
+         ],
+         [
+            RichEditor.buttons.unorderedList,
+            RichEditor.buttons.orderedList,
+         ]
+    ]}
+>
+  <Block discriminateBy="gallery" label="Gallery">
+    <ImageFileRepeater
+      field="images"
+      urlField="image.url"
+      label={undefined}
+      sortableBy="order"
+    />
+  </Block>
+  <Block discriminateBy="quote" label="Quote">
+    <TextAreaField field="content" label="Content" />
+    <TextField field="author" label="Author" />
+  </Block>
+</BlockEditor>
+```
+
+```tsx
+export class BlockEditor {
+  blocks = def.oneHasMany(ContentBlock, 'blockEditor')
+}
+
+export class ContentBlock {
+  order = def.intColumn().notNull()
+  type = def.enumColumn(ContentBlockType).notNull()
+
+  content = def.stringColumn()
+  blockEditor = def.manyHasOne(BlockEditor, 'blocks')
+  references = def.oneHasMany(ContentReference, 'contentPart')
+}
+
+export class ContentReference {
+  type = def.enumColumn(def.createEnum('gallery', 'quote')).notNull()
+  contentPart = def.manyHasOne(ContentBlock, 'references')
+  content = def.stringColumn()
+  author = def.stringColumn()
+  images = def.oneHasMany(ContentGallery, 'contentReference')
+}
+
+export class ContentGallery {
+  order = def.intColumn().notNull()
+  image = def.manyHasOne(Image).notNull()
+  contentReference = def.manyHasOne(ContentReference, 'images').cascadeOnDelete()
+}
+```
+
+## Block repeater
+
+The `BlockRepeater` component is a simple way to repeat blocks of content. Use [`Block`](#block) for wrapping fields.
+
+```jsx
+<BlockRepeater
+  field="blocks"
+  label="Block repeater"
+  discriminationField="type"
+  sortableBy="order"
+>
+  <Block discriminateBy="gallery" label="Gallery">
+    <ImageFileRepeater
+      field="images"
+      urlField="image.url"
+      label="Images"
+      sortableBy="order"
+    />
+  </Block>
+  <Block discriminateBy="quote" label="Quote">
+    <TextAreaField field="content" label="Content" />
+    <TextField field="author" label="Author" />
+  </Block>
+</BlockRepeater>
+```
+
+```ts
+export class BlockRepeater {
+  blocks = def.oneHasMany(RepeaterBlock, 'blockRepeater').orderBy('order')
+}
+
+export class RepeaterBlock {
+  order = def.intColumn().notNull()
+  type = def.enumColumn(ContentBlockType).notNull()
+  content = def.stringColumn()
+  author = def.stringColumn()
+  images = def.oneHasMany(RepeaterGallery, 'repeaterReference').orderBy('order')
+  blockRepeater = def.manyHasOne(BlockRepeater, 'blocks')
+}
+
+export class RepeaterGallery {
+  order = def.intColumn().notNull()
+  image = def.manyHasOne(Image).notNull()
+  repeaterReference = def.manyHasOne(RepeaterBlock, 'images').cascadeOnDelete()
+}
+```
+
+## Block
+
+The `Block` component is used for wrapping fields in [`BlockRepeater`](/reference/admin/components/content#block-repeater), [`BlockEditor`](/reference/admin/components/content#block-editor) or [`DiscriminatedBlocks`](/reference/admin/components/discrimination#discriminated-blocks) components.
+
+
+## Clear field button
+
+The `Clear field button` is a button that clears the value of a field.
+
+```jsx
+<ClearFieldButton field="name" label="Clear name" />
+```
+
+## Delete entity button
+
+The `DeleteEntityButton` component renders a button, which deletes closesed entity.
+
+```jsx
+<DeleteEntityButton />
+```
+
+## Persist button
+
+The `PersistButton` component renders a persist button.
+
+```jsx
+<TextField field="name" label="Name" />
+<PersistButton />
+```
+
+## Data binding provider
+
+The `DataBindingProvider` component is used to provide data for the data binding.
+
+```tsx
+<DataBindingProvider stateComponent={FeedbackRenderer} />
+```
+
+## Entity sub tree
+
+The `EntitySubTree` component is used to render the entity sub tree.
+
+```tsx
+<EntitySubTree entity="Post(id = $id)" />
+```
+
+## Entity list sub tree
+
+The `EntityListSubTree` component is used to render the entity list sub tree.
+
+```tsx
+<EntityListSubTree entities="Post" />
+```
+
+The data grid in Contember is simply a table. It allows you to display data from different entities, link to them and freely modify the data display in the cell. The data grid automatically creates filters (by data type) and paginate over each column for larger numbers of records.
+
+## Data Grid
+
+The `DataGrid` is a wrapper for cell components.
+
+```jsx
+<DataGrid
+  entities="Article"
+  itemsPerPage={50}
+>
+  <TextCell header="Title" field="title" />
+  <TextCell header="Author" field="author.name" />
+</DataGrid>
+```
+
+## Cells
+
+Data grid in Contember supports these cells:
+
+
+### Boolean cell
+
+The `BooleanCell` component adds a column for rendering boolean value.
+
+```jsx
+<BooleanCell field="done" />
+```
+
+### Date cell
+
+The `DateCell` component adds a column for rendering date (including filtering by date range and sorting).
+
+```tsx
+<DateCell header="Created at" field="createdAt" />
+```
+
+### Enum cell
+
+The `EnumCell` component adds a column for rendering enum values.
+
+```tsx
+<EnumCell field="name" />
+```
+
+### Generic cell
+
+The `GenericCell` component is a generic wrapper for cell content.
+
+```tsx
+<GenericCell />
+```
+
+### Has many select cell
+
+The `HasManySelectCell` component adds a column for rendering has many binding.
+
+```tsx
+<HasManySelectCell header="Tags" field="tags" options="Tag.name" />
+```
+
+### Has one select cell
+
+The `HasOneSelectCell` component adds a column for rendering has one binding.
+
+```tsx
+<HasOneSelectCell header="Category" field="category" options="Category.name" />
+```
+
+### Number cell
+
+The `NumberCell` component adds a column for number content.
+
+```tsx
+<NumberCell field="likes" />
+```
+
+### Text cell
+
+The `TextCell` component is a wrapper for text content.
+
+```tsx
+<TextCell field="name" />
+```
+
+## Discriminated blocks
+
+The `DiscriminatedBlocks` component is a wrapper for a block of content.
+
+```jsx
+<HasOne field="link">
+  <DiscriminatedBlocks label="Link" field="type">
+    <Block discriminateBy="article" label="Articles">
+      <SelectField options="Article.slug" field="article" label="Article" />
+    </Block>
+    <Block discriminateBy="url" label="External link">
+      <TextField label="Url" field="url" />
+    </Block>
+  </DiscriminatedBlocks>
+</HasOne>
+```
+
+## Field View
+
+The `FieldView` component renders a field value.
+
+```jsx
+<FieldView
+  field="startsAt"
+  render={(accessor) => <>{accessor.value}</>}
+/>
+```
+
+## Checkbox field
+
+The `CheckboxField` component is a wrapper for the `Checkbox` component.
+
+```jsx
+<CheckboxField field="done" label="Done" />
+```
+
+## Date field
+
+The `DateField` component renders date input for editing date.
+
+```jsx
+<DateField field="birthday" label="Birthday" />
+```
+
+```ts
+export class User {
+  birthday = def.dateColumn()
+}
+```
+
+## MultiSelect field
+
+The `MultiSelectField` renders a select field with posibility to select multiple options.
+
+```jsx
+<MultiSelectField field="tags" label="Select tags" options="Tag.name" />
+```
+
+```ts
+export class Article {
+  tags = def.manyHasMany(Tag, "articles");
+}
+
+export class Tag {
+  name = def.stringColumn();
+  articles = def.manyHasManyInverse(Article, "tags");
+}
+```
+
+## Rich text field
+
+The `RichTextField` component renders a rich text field. The text field is used for rich text editing.
+
+```jsx
+<RichTextField
+  field="content"
+  label="Content"
+  inlineButtons={
+    [
+      RichEditor.buttons.italic,
+      RichEditor.buttons.underline,
+      RichEditor.buttons.strikeThrough,
+    ]
+  }
+/>
+```
+
+```ts
+export class Article {
+  content = def.stringColumn()
+}
+```
+
+## Select field
+
+The `SelectField` component renders a select field.
+
+```jsx
+<SelectField
+  field="category"
+  label="Select category"
+  options="Category.name"
+/>
+```
+
+## Text area field
+
+The `TextAreaField` component renders a text area field. The text field is used for basic string editing and has no rich text editing capabilities.
+
+```jsx
+<TextAreaField field="content" label="Content" />
+```
+
+## Text field
+
+The `TextField` component renders a text field. The text field is used for basic string editing and has no rich text editing capabilities.
+
+```jsx
+<TextField field="name" label="Name" />
+```
+
+## Create page
+
+The `CreatePage` component is the main wrapper for all content on the create site. It is the root component for all other components.
+
+```jsx
+<CreatePage
+  entity="Article"
+  redirectOnSuccess="articleEdit(id: $entity.id)"
+  rendererProps={{ title: 'Create article' }}
+>
+  <TextField label="Name" name="name" />
+</CreatePage>
+```
+
+## Edit page
+
+The `EditPage` component is the main wrapper for all content on the edit site. It is the root component for all other components.
+
+```jsx
+<EditPage
+  entity="Article(id = $id)"
+  rendererProps={{ title: 'Edit article' }}
+>
+  <TextField label="Name" name="name" />
+</EditPage>
+```
+
+
+## MultiEdit page
+
+The `MultiEditPage` component is the main wrapper for all content on the edit site. It is the root component for all other components.
+
+```jsx
+<MultiEditPage
+  entities="BottleVolume"
+  rendererProps={{ title: 'Bottle volumes', sortableBy: 'order' }}
+>
+	<TextField field="volume" label="Volume" />
+</MultiEditPage>
+```
+
+## HasOne
+
+The `HasOne` component renders a record from a has-one relationship.
+
+```tsx
+<HasOne field="author">
+	<TextField field="name" />
+	<DateField field="birth" />
+</HasOne>
+```
+
+## HasMany
+
+The `HasMany` component renders a list of records from a has-many relationship.
+
+```tsx
+<HasMany field="authors">
+	<TextField field="name" />
+	<DateField field="birth" />
+</HasMany>
+```
+
+## Repeater
+
+The `Repeater` component renders a repeater with given child components.
+
+```tsx
+<Repeater field="tasks" label="Todo list" orderBy="content">
+    <TextAreaField field="content" label="Task" />
+</Repeater>
+```
+
+## Box
+
+The `Box` component is a container that can be used to wrap other components.
+
+```tsx
+<Box />
+```
+
+## Layout
+
+The `Layout` component is a component that builds main layout of the admin.
+
+```tsx
+<Layout
+  sidebarHeader="Project name"
+  navigation={
+    <Menu>
+      <Menu.Item title="Articles" to="articleList"/>
+    </Menu>
+  }
+/>
+```
