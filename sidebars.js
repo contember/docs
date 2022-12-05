@@ -124,6 +124,16 @@ module.exports = {
 								"reference/engine/content/mutations",
 								"reference/engine/content/s3",
 								"reference/engine/content/event-log",
+								{
+									type: "category",
+									label: "Advanced",
+									items: [
+										"reference/engine/content/advanced/assume-identity",
+										"reference/engine/content/advanced/assume-membership",
+										"reference/engine/content/advanced/request-debugging",
+										"reference/engine/content/advanced/caching",
+									]
+								}
 							],
 						},
 						{

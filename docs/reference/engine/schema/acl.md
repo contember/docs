@@ -205,26 +205,14 @@ const editorRole = {
 
 ### Assume identity
 
-By setting `assumeIdentity` flag to `true` you can allow a user to use `x-contember-assume-identity`. Identity ID passed in this header will be written in event log instead of the current user identity.
+See [assume identity](/reference/engine/content/advanced/assume-identity)
 
-```typescript
-const editorRole = {
-  // ...
-  system: {
-    assumeIdentity: true,
-  }
-}
-```
+### Assume membership
 
-```http request
-X-Contember-Assume-Identity: 78e1c76f-2c09-4340-8d59-04a14ff86dac
-```
+See [assume membership](/reference/engine/content/advanced/assume-membership)
 
 
 <!--
-## ACL builder
-
-TODO
 
 ## ACL evaluation
 
@@ -234,7 +222,7 @@ TODO
 
 ## S3 ACL
 
-Contember S3 integration has a dedicated ACL definition - for mode details see [S3 chapter](../content/s3.md).
+See [S3 chapter](/reference/engine/content/s3)
 
 ## Low level ACL definition {#low-level-definition}
 
