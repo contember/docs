@@ -45,6 +45,7 @@ export const Scale = ({ actions, children, className, elevated, name, direction 
         className="theming-scale-list"
       >
         {weights.map(weight => <Swatch
+          key={weight}
           property={`--cui-theme-${name}-${weight}`}
           weight={weight}
         >
