@@ -1,4 +1,5 @@
 export * from './Generator'
+export * from './GeneratorLazy'
 export * from './Scale'
 export * from './Swatch'
 export * from './ThemePreview'
