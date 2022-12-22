@@ -1,6 +1,10 @@
 name: Publish to Cloudflare pages
 
-on: [pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - 'main'
 
 jobs:
   publish:
