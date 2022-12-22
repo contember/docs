@@ -156,3 +156,31 @@ Arguments:
 - `field`
 - `fillValue`: a value with which a column is filled on migration run (it is different from default value which is used at runtime, but if the new column with default value is added it will be used also as `fillValue` in generated JSON migration)
 - `copyValue`: a name of other column, which value will be copied to a column
+
+
+### Skipping validation errors
+
+The `skippedErrors` feature in Contember allows users to specify a list of errors that should be ignored during validation of a migration. This can be useful in cases where a migration became invalid due to improvements and new checks in validator, but cannot be changed, because it is already applied.
+
+To skip errors, open a migration file producing errors and add `skippedErrors` field. It is an array of objects, each of which contains a code and a path field. The code field specifies the error code, and the path field specifies the path to the element in the migration that caused the error. Path field is optional.
+
+It is important to note that only individual migrations can have skipped errors, and the final migrated state must be valid. This means that any errors that are skipped in one migration must be fixed in a later migration in order for the migration process to be successful.
+
+#### Example:
+
+```json5
+{
+  "skippedErrors": [
+    {
+      "code": "ACL_INVALID_CONDITION",
+      "path": "roles.reader.entities.ContentReference.predicates.test"
+    }
+  ],
+  "formatVersion": 3,
+  "modifications": [
+    // Modifications here...
+  ]
+}
+```
+In this example, the `ACL_INVALID_CONDITION` error will be ignored for the test predicate in the ContentReference entity for the reader role.
+
