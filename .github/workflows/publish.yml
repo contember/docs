@@ -1,3 +1,5 @@
+name: Publish to Cloudflare pages
+
 on: [push]
 
 jobs:
