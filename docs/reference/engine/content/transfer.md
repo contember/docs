@@ -11,16 +11,16 @@ The most convenient way to use transfer API are following CLI commands.
 ## Data export
 The `data:export` allows you to export data from a Contember project to a file. This can be useful for creating backups of your data or for transferring data between projects.
 
-To use the data:export command, open a terminal window and navigate to the root directory of your Contember project. Then, enter the following command:
+To use the `data:export` command, open a terminal window and navigate to the root directory of your Contember project. Then, enter the following command:
 
 ```
-npm run -- contember data:export [source-project]
+npm run contember data:export [source-project]
 ```
 The source project argument is optional. If you leave it blank, the command will export data from the local project. If you want to export data from a remote project, you can specify the project using a DSN format like `contember://project:token@apiurl`. 
 
 For example:
 ```
-npm run -- contember data:export contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud
+npm run contember data:export contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud
 ```
 
 You can also use the following options with the data:export command:
@@ -34,7 +34,7 @@ You can also use the following options with the data:export command:
 For example, to export data from a local project without compressing the output and including system schema data, you could use the following command:
 
 ```
-npm run -- contember data:export --no-gzip --include-system --output my-project-data.jsonl
+npm run contember data:export -- --no-gzip --include-system --output my-project-data.jsonl
 ```
 This would export the data from the local project to a file named my-project-data.jsonl.
 
@@ -45,20 +45,20 @@ The `data:import` allows you to import data from a file into a Contember project
 To use the `data:import` command, open a terminal window and navigate to the root directory of your Contember project. Then, enter the following command:
 
 ```
-npm run -- contember data:import <input-file> [target-project]
+npm run contember data:import <input-file> [target-project]
 ```
 The input file argument should be the path to the file containing the data you want to import. The target project argument is optional. If you leave it blank, the command will import the data into the local project. If you want to import the data into a remote project, you can specify the project using a DSN format like `contember://project:token@apiurl`. 
 
 For example:
 ```
-npm run -- contember data:import ./my-project-data.jsonl contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud
+npm run contember data:import ./my-project-data.jsonl contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud
 ```
 When you run the `data:import` command, you will be prompted to confirm the import. This is because the import process will overwrite any existing data in the target project. You can use the `--yes` option to skip this confirmation prompt.
 
 For example, to import data from a file into a local project without being prompted to confirm the import, you could use the following command:
 
 ```
-npm run -- contember data:import ./my-project-data.jsonl --yes
+npm run contember data:import ./my-project-data.jsonl -- --yes
 ```
 
 This would import the data from the file `my-project-data.jsonl` into the local project, overwriting any existing data.
@@ -69,13 +69,13 @@ The `data:transfer` allows you to transfer data directly between two Contember p
 
 To use the `data:transfer` command, open a terminal window and navigate to the root directory of your Contember project. Then, enter the following command:
 ```
-npm run contember -- data:transfer <source-project> <target-project>
+npm run contember data:transfer <source-project> <target-project>
 ```
 The source project and target project arguments should be the projects you want to transfer data between. You can specify a local project using a dot `.`, or a remote project using a DSN format like `contember://project:token@apiurl` 
 
 For example:
 ```
-npm run contember -- data:transfer . contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud
+npm run contember data:transfer . contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud
 ```
 This would transfer data from the local project to the remote project specified in the DSN.
 
@@ -86,7 +86,7 @@ You can also use the following options with the data:transfer command:
 For example, to transfer data from a remote project to a local project without being prompted to confirm the transfer and including system schema, you could use the following command:
 
 ```
-npm run contember -- data:transfer contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud . --include-system --yes
+npm run contember data:transfer contember://my-blog:0000abcd@api-my-blog.eu.contember.cloud . -- --include-system --yes
 ```
 This would transfer data from the remote project specified in the DSN to the local project, overwriting any existing data.
 
