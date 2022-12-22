@@ -145,6 +145,7 @@ module.exports = {
 								"reference/engine/tenant/users",
 								"reference/engine/tenant/memberships",
 								"reference/engine/tenant/api-keys",
+								"reference/engine/tenant/idp",
 							],
 						},
 					]
