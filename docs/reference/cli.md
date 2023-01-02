@@ -1,5 +1,5 @@
 ---
-title: CLI
+title: Contember CLI
 ---
 
 There is a command line tool, which helps you with developing Contember projects and running them.
