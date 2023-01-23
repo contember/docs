@@ -112,12 +112,12 @@ To include system schema in the export, set the system field to true. The export
 #### Example how to use the `/export` endpoint with CURL:
 
 ```bash
-curl -X POST \
-https://your-api/export \
-	-H 'Authorization: Bearer your-token' \
-	-H 'Content-Type: application/json' \
-	-o exported-data.jsonl \
-	-d '{
+curl --request POST \
+	--url https://your-api/export \
+	--header 'Authorization: Bearer your-token' \
+	--header 'Content-Type: application/json' \
+	--output exported-data.jsonl \
+	--data '{
 		"projects": [
 			{ "slug": "project-name", "system": false }
 		]
@@ -136,10 +136,10 @@ To use the `/import` endpoint, you will need to send a POST request to the endpo
 #### Example of to use the `/import` endpoint with CURL:
 
 ```
-curl -X POST \
-	https://your-api/import \
-	-H 'Authorization: Bearer your-token' \
-	-H 'Content-Type: application/x-ndjson' \
+curl --request POST \
+	--url https://your-api/import \
+	--header 'Authorization: Bearer your-token' \
+	--header 'Content-Type: application/x-ndjson' \
 	--data exported-data.jsonl
 ```
 This will send a POST request to the `/import` endpoint with a bearer token in the `Authorization` header and the exported data in the request body. The Content-Type header is set to application/x-ndjson, which is the correct format for the exported data.
