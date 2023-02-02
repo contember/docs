@@ -20,7 +20,7 @@ This is an advanced guide. You don't need this - skip the hassle and [deploy to 
 
 Required PostgresSQL version is 10 or newer.
 
-Contember needs the following databases: 
+Contember needs the following databases:
 - tenant (for information about users and their roles) and
 - content database for each deployed project.
 
@@ -39,7 +39,7 @@ Get SMTP credentials for your mailing server - used for example for password res
 
 ### 4. Run Contember Engine Docker container
 
-Contember Engine is deployed as a Docker container. It's [published on Docker Hub](https://hub.docker.com/r/contember/engine/tags) as `contember/engine`. 
+Contember Engine is deployed as a Docker container. It's [published on Docker Hub](https://hub.docker.com/r/contember/engine/tags) as `contember/engine`.
 
 Configure the following environment variables:
 
@@ -58,7 +58,7 @@ DEFAULT_DB_USER: "postgres"
 DEFAULT_DB_PASSWORD: "postgres"
 DEFAULT_DB_SSL: "true"
 TENANT_DB_NAME: "tenant" # Name of tenant database - see first step
-DEFAULT_DB_NAME: "my-project" # Optional - name of database to 
+DEFAULT_DB_NAME: "my-project" # Optional - name of database to
 # or BLOG_DB_NAME: "blog" where blog is slug of the project.
 
 # S3 credentials - see step 2
@@ -79,9 +79,9 @@ HTTP server should start on the specified port. You can add a load-balancer in f
 After the server is running Contember CLI can be used to set up other API tokens and invite users. Deploy your projects to this instance by running `contember deploy blog --yes` command with `CONTEMBER_API_URL` and `CONTEMBER_API_TOKEN` environment variables set. You can use either superadmin token or create token with `deployer` role (using `contember tenant:create-api-key` command).
 
 
-## Deploy Contember Administration
+## Deploy Contember Interface
 
-Contember Administration can be deployed as single page application. It's bundled using [Vite](https://vitejs.dev/). 
+Contember Interface can be deployed as single page application. It's bundled using [Vite](https://vitejs.dev/).
 
 You will need to modify `admin/index.tsx` and `admin/vite.config.ts` files based on following examples:
 
@@ -106,7 +106,7 @@ if (window.location.pathname === '/') {
 		/>,
 	)
 } else if (window.location.pathname.startsWith('/' + projectSlug)) {
-	// Administration itself page
+	// Interface itself page
 	runReactApp(
 		<ApplicationEntrypoint
 			basePath={`/${projectSlug}/`}
@@ -130,7 +130,7 @@ export default defineConfig(({ command }) => ({
 }))
 ```
 
-Furthermore your `.env` files (`.env.development` and `.env.production`) should contain referenced variables: 
+Furthermore your `.env` files (`.env.development` and `.env.production`) should contain referenced variables:
 
 ```txt title="admin/.env.production"
 # URL where Engine is running

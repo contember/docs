@@ -19,13 +19,13 @@ Follow our [quickstart](/intro/quickstart) to understand the basics and build so
 
 **Contember Engine** lets you define your own data model with TypeScript and instantly turns it into a GraphQL API. It is a standalone server, which provides an extensive GraphQL API for your data - we call it the Content API. Contember API also provides, what we call a Tenant API which handles authentication and authorization, so you can control who and how can access your data.
 
-**Contember Admin** is an React framework for building custom management interfaces. It lets you define your own management UI with high-level React components and automatically connects to GraphQL provided by Contember Engine.
+**Contember Interface** is an React framework for building custom management interfaces. It lets you define your own management UI with high-level React components and automatically connects to GraphQL provided by Contember Engine.
 
 ### Main principles
 
 - **Everything is code** (TypeScript and React).
 - The structure of the data is up to you, Contember doesn't force any arbitrary collections or posts. **Create any entities you want with attributes and relationships**. [Schema overview](/reference/engine/schema/overview.md)
-- The administration is not dependent on your data structure. Build any views with few lines of code. [Administration introduction](/reference/admin/introduction.md)
+- The administration is not dependent on your data structure. Build any views with few lines of code. [Interface introduction](/reference/admin/introduction.md)
 
 ### Highlighted features
 

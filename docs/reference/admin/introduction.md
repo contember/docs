@@ -3,7 +3,7 @@ title: Introduction
 sidebar_position: 1
 ---
 
-[Contember Admin](https://github.com/contember/admin) is a **React SDK** to help you declaratively build your own user-friendly interface with high-level React components. Contember Admin also provides automatic data binding, which makes it easy to connect your administration interface to the GraphQL API provided by Contember Engine. This allows you to focus on building your user interface and leaves the details of data management to Contember.
+[Contember Interface](https://github.com/contember/admin) is a **React SDK** to help you declaratively build your own user-friendly interface with high-level React components. Contember Interface also provides automatic data binding, which makes it easy to connect your administration interface to the GraphQL API provided by Contember Engine. This allows you to focus on building your user interface and leaves the details of data management to Contember.
 
 - Declaratively build user-friendly interface
 - [Data binding](/reference/admin/data-binding/overview.md) which allows you to easily connect your administration interface to the data stored in your application.

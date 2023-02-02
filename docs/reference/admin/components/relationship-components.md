@@ -2,7 +2,7 @@
 title: Relationship components
 ---
 
-Contember Admin provides relationship components that allow you to traverse relationships in the entity tree and provide a convenient way to access and display related entities.
+Contember Interface provides relationship components that allow you to traverse relationships in the entity tree and provide a convenient way to access and display related entities.
 
 The `HasMany` and `HasOne` components are the main relationship components. The `HasMany` component is used to manage "has-many" relationships, while the `HasOne` component is used to manage "has-one" relationships.
 
@@ -44,7 +44,7 @@ const ListRenderer = ({ accessor, children, emptyMessage }) => {
 Note that you must wrap the individual items into `Entity` component to correctly switch the context.
 
 ## HasOne
-The `HasOne` component is used to manage "has-one" relationships, and allows you to switch the context to a related entity. 
+The `HasOne` component is used to manage "has-one" relationships, and allows you to switch the context to a related entity.
 
 #### Example how to use HasOne component
 
@@ -101,10 +101,10 @@ export const TableRepeaterContainer = ({ children }: RepeaterFieldContainerProps
 )
 ```
 ```typescript jsx
-<Repeater 
-	field='items' 
-	sortableBy='order' 
-	itemComponent={TableRepeaterItem} 
+<Repeater
+	field='items'
+	sortableBy='order'
+	itemComponent={TableRepeaterItem}
 	containerComponent={TableRepeaterContainer}
 >
 	<TableCell>

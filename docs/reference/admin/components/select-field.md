@@ -2,18 +2,18 @@
 title: Select field
 ---
 
-The `SelectField` and `MultiSelectField` components in Contember Admin are powerful tools for creating select fields that can be used to select a single or multiple values from a list of options.
+The `SelectField` and `MultiSelectField` components in Contember Interface are powerful tools for creating select fields that can be used to select a single or multiple values from a list of options.
 
 To use these components, you must specify the `field`, `options` and `label` props. The `field` prop specifies the field in the data model that the select field will be bound to, the `label` prop specifies the label that will be displayed for the select field, and the `options` specified either predefined list of values, or an entity name, usually with a field.
 
-The `SelectField` component can be used to create a static single-value select field with predefined options, or a select field where you select an entity. 
+The `SelectField` component can be used to create a static single-value select field with predefined options, or a select field where you select an entity.
 
 The `MultiSelectField` component works in a similar way to the `SelectField` component, but allows the user to select multiple values from the dropdown menu. Also, predefined options variant is not possible with `MultiSelectField`.
 
 
 ## Static `SelectField`
 
-The `SelectField` component in Contember Admin can be used to create a select field with predefined options. To create a select field with predefined options, you can specify an array of option objects in the `options` prop.
+The `SelectField` component in Contember Interface can be used to create a select field with predefined options. To create a select field with predefined options, you can specify an array of option objects in the `options` prop.
 
 Each option object should have a `value` and a `label` field. The `value` field specifies the value that will be stored in the data model (usually mapped to an enum column) when the option is selected, while the `label` field specifies the JSX label that will be displayed for the option in the dropdown menu.
 
@@ -56,7 +56,7 @@ export class Article {
 
 In this example, the select field will be bound to the category field in the data model, and will allow the user to select an option from a list of options that is bound to the name field of the Category entity. The selected value will be stored in the category field, and the corresponding label will be displayed in the select field.
 
-You can also use the expanded object syntax to specify additional options for the select field. For example, you can use the `orderBy` field to specify the order in which the options should be displayed. 
+You can also use the expanded object syntax to specify additional options for the select field. For example, you can use the `orderBy` field to specify the order in which the options should be displayed.
 
 
 ### Example how to use orderBy in a `SelectField`
@@ -72,7 +72,7 @@ You can also use the expanded object syntax to specify additional options for th
 />
 ```
 
-## `MultiSelectField` 
+## `MultiSelectField`
 
 The `MultiSelectField` component works in a similar way to the `SelectField` component, but allows the user to select multiple values from the dropdown menu.
 
@@ -161,7 +161,7 @@ In this example, the select field will not load any options initially, and will 
 
 You can specify the field names to search in using `searchByFields`
 ```typescript jsx
-<SelectField 
+<SelectField
 	// ...
 	searchByFields={['name', 'description']}
 />
@@ -205,7 +205,7 @@ You can set `fuseOptions` to `false` to disable in-memory filtering and sorting.
 
 In the `SelectField` and `MultiSelectField` components, you can allow users to add new options in place by specifying the `createNewForm` prop.
 
-The `createNewForm` prop takes a React element with a Contember form, which can be either a custom form component, or inline JSX with fields. 
+The `createNewForm` prop takes a React element with a Contember form, which can be either a custom form component, or inline JSX with fields.
 
 #### Example how to use createNewForm
 ```typescript jsx
@@ -223,7 +223,7 @@ In this example, the select field will display a "plus" button next to the optio
 
 In the `MultiSelectField` component, you can allow users to sort the selected items by specifying the `sortableBy` prop.
 
-The `sortableBy` prop takes a field name which holds the order of selected items. `sortableBy` prop is usually used in combination with the `connectingEntityField` prop, which specifies the field on the connecting entity that holds the selected options. 
+The `sortableBy` prop takes a field name which holds the order of selected items. `sortableBy` prop is usually used in combination with the `connectingEntityField` prop, which specifies the field on the connecting entity that holds the selected options.
 
 #### Example how to define sortable multi-select
 ```typescript jsx

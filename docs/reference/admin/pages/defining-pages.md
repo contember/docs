@@ -2,7 +2,7 @@
 title: Pages
 ---
 
-In order to define pages in Contember Admin, you need to export function components from files in the `admin/pages` directory (or its subdirectory). 
+In order to define pages in Contember Interface, you need to export function components from files in the `admin/pages` directory (or its subdirectory).
 
 In the functions exported from page components, you will usually use one of the prepared page components provided by Contember. The most simple is the `GenericPage`:
 
@@ -18,7 +18,7 @@ export default () => {
 
 ## Routing
 
-Page names (and basically URL path) are constructed automatically. The resulting page name for the page will be determined by the file and function name, with slashes separating them. For example, the `default` export from a file named `post.tsx` will have the page name `post`, while a function exported as `edit` from a same file will be named `post/edit`. If a function is in a subdirectory, its path will also include the subdirectory name. For instance, a function named `edit` exported from 
+Page names (and basically URL path) are constructed automatically. The resulting page name for the page will be determined by the file and function name, with slashes separating them. For example, the `default` export from a file named `post.tsx` will have the page name `post`, while a function exported as `edit` from a same file will be named `post/edit`. If a function is in a subdirectory, its path will also include the subdirectory name. For instance, a function named `edit` exported from
 `post/category.tsx` will have the name `post/category/edit`.
 
 See how to [create links](./links.md).
@@ -28,9 +28,9 @@ See how to [create links](./links.md).
 
 Contember provides several prepared page components to help you quickly set up common page types in your admin panel. These page components handle common tasks like loading and saving data, rendering form fields, and displaying entity lists.
 
-### GenericPage 
+### GenericPage
 
-The most basic page component in Contember. It simply renders its children inside a layout. It also has a number of props that can be used to modify the page layout, such as `title`, `side`, `navigation`, or `actions`. These props allow you to customize the page's title, add content to the side panel, add navigation elements, or add actions to the page. 
+The most basic page component in Contember. It simply renders its children inside a layout. It also has a number of props that can be used to modify the page layout, such as `title`, `side`, `navigation`, or `actions`. These props allow you to customize the page's title, add content to the side panel, add navigation elements, or add actions to the page.
 
 For more details on these props and their usage, see the [API reference](../api/components/pages#generic-page).
 
@@ -49,9 +49,9 @@ export default () => {
 
 ### CreatePage
 
-CreatePage is a page component used for creating a new entity. It requires an `entity` prop (of type [unconstrained qualified single entity](../data-binding/query-language#unconstrained0qualified-single-entity)) which specifies the entity type being created. The form fields are defined using its children. 
+CreatePage is a page component used for creating a new entity. It requires an `entity` prop (of type [unconstrained qualified single entity](../data-binding/query-language#unconstrained0qualified-single-entity)) which specifies the entity type being created. The form fields are defined using its children.
 
-The `redirectOnSuccess` prop allows you to specify the target page after the entity has been successfully created. If no redirect target is defined, you will be able to create another entity. 
+The `redirectOnSuccess` prop allows you to specify the target page after the entity has been successfully created. If no redirect target is defined, you will be able to create another entity.
 
 You can use the `rendererProps` prop to modify the layout of the page, similar to the props available in the `GenericPage` component (such as `title`, `side`, and `navigation`).
 
@@ -197,11 +197,11 @@ export default () => {
 
 ### MultiEditPage
 
-`MultiEditPage` is a page component in Contember that allows you to edit multiple entities on a single page. It is essentially a wrapper around the `Repeater` component, which means that you can use it to add, remove, and sort items within the page. 
+`MultiEditPage` is a page component in Contember that allows you to edit multiple entities on a single page. It is essentially a wrapper around the `Repeater` component, which means that you can use it to add, remove, and sort items within the page.
 
 To use` MultiEditPage`, you must specify the entities you want to edit using the `entities` prop (of type [qualified entity list](../data-binding/query-language#qualified-entity-list)). To control the behavior of the `Repeater`, you can pass props such as `sortableBy` through the `rendererProps` prop of `MultiEditPage`. This will allow you to specify which fields should be used to sort the items in the `Repeater`. You can also pass custom props to modify the layout of the page using the `rendererProps` prop.
 
-`MultiEditPage` should only be used for editing a small number of entities, as it does not support advanced features such as pagination or filtering. 
+`MultiEditPage` should only be used for editing a small number of entities, as it does not support advanced features such as pagination or filtering.
 
 For more details on MultiEditPage props and their usage, see the [API reference](../api/components/pages#multiedit-page).
 

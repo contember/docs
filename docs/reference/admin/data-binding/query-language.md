@@ -2,12 +2,12 @@
 title: Query language
 ---
 
-Contember Query Language is a custom query language used in Contember Admin to specify entities, fields, and filters used in most data binding related components and hooks. The language is context-dependent, meaning that its usage and interpretation depend on the context in which it is used. For example, in the context of an `EditPage`,  you define a single entity to be edited, while in the context of a `options` of `SelectField` you are defining list of fields visible in a select.
+Contember Query Language is a custom query language used in Contember Interface to specify entities, fields, and filters used in most data binding related components and hooks. The language is context-dependent, meaning that its usage and interpretation depend on the context in which it is used. For example, in the context of an `EditPage`,  you define a single entity to be edited, while in the context of a `options` of `SelectField` you are defining list of fields visible in a select.
 ## Filters
 
 Filters allow you to specify conditions for selecting or excluding certain entities or fields in your query.
 
-To use a filter, you need to enclose it in square brackets after an entity, you want to filter, and specify the field, operator, and value. 
+To use a filter, you need to enclose it in square brackets after an entity, you want to filter, and specify the field, operator, and value.
 
 #### Example:
 ```
@@ -16,7 +16,7 @@ Author[age > 18]
 
 This filter selects all entities with an age greater than 18.
 
-You can use dot notation to specify nested fields in the field part of the filter. 
+You can use dot notation to specify nested fields in the field part of the filter.
 
 #### Example of nesting over relations:
 ```
@@ -74,7 +74,7 @@ Author[age > 18 && public = true]
 
 ### Prioritization
 
-You can use round brackets to prioritize the evaluation of filters. 
+You can use round brackets to prioritize the evaluation of filters.
 
 ##### Example of prioritization
 ```
@@ -92,7 +92,7 @@ The following operators are available in filters:
 - `>=` Greater than or equals
 - `<=` Less than or equals
 
-## Unique where 
+## Unique where
 
 The unique where clause is used to specify a filter that identifies a single entity. It is placed in round brackets, and only supports the "equals" operator. You can use multiple conditions separated by a comma to filter by compound unique.
 
@@ -109,12 +109,12 @@ ArticleTranslation(article.id = $id, locale = 'en')
 This filter will retrieve a single article translation based on the unique combination of its article's identifier and its locale.
 
 
-## Query language contexts 
+## Query language contexts
 
 ### Qualified single entity
 To identify a single entity by its unique identifier, the qualified single entity form of the query language is used. It is commonly used in entity-aware pages such as `EditPage` or `DetailPage`.
 
-To reference the entity, you specify the entity name followed by unique where in round brackets.  
+To reference the entity, you specify the entity name followed by unique where in round brackets.
 
 #### Example how to specify a single library book with an ID of 123:
 ```
@@ -189,13 +189,13 @@ To reference a field, you can simply provide the field name. For example, to ref
 <Field field="age"/>
 ```
 
-You can also reference nested fields by separating the field names with a dot. 
+You can also reference nested fields by separating the field names with a dot.
 
 #### Example how to reference the name field of the author relation of the current entity:
 ```
 author.name
 ```
-You can also use filters to narrow down the list of entities. 
+You can also use filters to narrow down the list of entities.
 
 #### Example how to reference the name field of the author relation of the current entity, but only where the age of the author is less than 18:
 
@@ -251,4 +251,3 @@ You can also use filters to narrow down the list of entities.
 ```
 
 In this example, only published comment entities will be included in the list.
-

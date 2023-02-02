@@ -2,10 +2,10 @@
 title: Value rendering components
 ---
 
-Contember Admin provides a number of high-level components that you can use to easily render field values, as well as low-level components that you can use to create custom field rendering solutions.
+Contember Interface provides a number of high-level components that you can use to easily render field values, as well as low-level components that you can use to create custom field rendering solutions.
 
 ## Field
-The `Field` component is the most basic field rendering component in Contember Admin. It is used to display the value of a single field from your data model.
+The `Field` component is the most basic field rendering component in Contember Interface. It is used to display the value of a single field from your data model.
 
 To use the Field component, you must specify the name of the field you want to display using the `field` prop. You can also use the `format` prop to specify a callback function for custom value formatting. The `format prop is passed the field value as an argument, and you can return a formatted version of the value from the callback.
 
@@ -36,7 +36,7 @@ This is equivalent to using the Field component within a HasOne component:
 
 Another component you can use to render field values is the `FieldView` component. You can specify the field name using the `field` prop, or use the `fields` prop to specify an array of field names. You must also provide a `render` prop, which is a callback that receives one or more [`FieldAccessor`](../data-binding/overview.md#accessors) objects as arguments (depending on the number of fields specified). The value of the field is available on the `value` property of the FieldAccessor object.
 
-#### Example of FieldView for a single field: 
+#### Example of FieldView for a single field:
 ```typescript jsx
 <FieldView
 	field="contactName"
