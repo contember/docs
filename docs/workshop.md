@@ -17,7 +17,7 @@ npm exec "@contember/create@next" breweries
 
 :::info
 
-We are using `@next` version which is 1.1 in the moment. 
+We are using `@next` version which is 1.1 in the moment.
 
 :::
 
@@ -44,7 +44,7 @@ You should see something like this in your console:
   ready in 119ms.
 ```
 
-If you open [http://localhost:1480/](http://localhost:1480) in your browser you should see a message "Welcome to Contember Admin!". We will create an administration there, but first let's create a schema for our data.
+If you open [http://localhost:1480/](http://localhost:1480) in your browser you should see a message "Welcome to Contember Interface!". We will create an administration there, but first let's create a schema for our data.
 
 Open the directory in a code editor (such as VS Code).
 
@@ -117,12 +117,12 @@ export default () => (
 )
 ```
 
-Now we can edit the breweries in Contember Administration. Go to http://localhost:1480 and create a few of them.
+Now we can edit the breweries in Contember Interface. Go to http://localhost:1480 and create a few of them.
 
 
 :::info Optional: Query using GraphQL API
 
-You can now query them using an GraphQL API: 
+You can now query them using an GraphQL API:
 
 ```bash
 curl --request POST \

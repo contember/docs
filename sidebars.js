@@ -18,11 +18,11 @@ module.exports = {
 
 		{
 			type: "category",
-			label: "Contember Admin",
+			label: "Contember Interface",
 			collapsed: false,
 			link: {
 				type: 'generated-index',
-				title: 'Admin',
+				title: 'Interface',
 			},
 			items: [
 				'reference/admin/introduction',

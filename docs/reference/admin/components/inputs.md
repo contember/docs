@@ -2,7 +2,7 @@
 title: Form inputs
 ---
 
-Form components are used for editing data within Contember Admin. They are designed to work seamlessly with the data binding system, allowing you to focus on building your interface rather than worrying about data fetching, updating, and saving.
+Form components are used for editing data within Contember Interface. They are designed to work seamlessly with the data binding system, allowing you to focus on building your interface rather than worrying about data fetching, updating, and saving.
 
 ## Text input fields
 

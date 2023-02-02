@@ -8,7 +8,7 @@ Your (git) repository with one or more Contember projects.
 
 ### Project
 
-Every project contains Contember Schema definition for your simple website, blog or any other content-based platform or database. Optionally any project can have its [Contember Admin](/reference/admin/introduction.md).
+Every project contains Contember Schema definition for your simple website, blog or any other content-based platform or database. Optionally any project can have its [Contember Interface](/reference/admin/introduction.md).
 
 ### Instance
 
