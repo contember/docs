@@ -56,7 +56,7 @@ npm run contember migrations:diff headless-cms add-image-with-text-section
 
 Select _"Yes and execute immediately"_ and wait for the migration to finish.
 
-#### 3. Add a new block to Interface
+#### 3. Add a new block to you application
 
 Go to `headless-cms/admin/components/ContentBlocks.tsx` file and add [`<Block />`](/reference/admin/api/components/block#block) component into [`<BlockRepeater />`](/reference/admin/api/components/content#block-repeater) component. `<Block />` should contain all necessary fields for your new section. We want to have an image with text, so we'll add a custom component `<ContentField />` (you can learn more in `/headless-cms/admin/components/ContentField.tsx`) for text and [`<ImageUploadField />`](/reference/admin/api/components/upload#image-file-repeater) component for the image.
 
@@ -89,7 +89,7 @@ export const ContentBlocks = Component(
 )
 ```
 
-Now you can check your new section in <a href="http://localhost:1480" target="_blank">Interface</a> and try adding this new block to a page.
+Now you can check your new section in <a href="http://localhost:1480" target="_blank">your application</a> and try adding this new block to a page.
 
 #### 4. Add new section to next.js frontend
 
@@ -256,7 +256,7 @@ npm run contember migrations:diff headless-cms separate-testimonials-from-conten
 
 Select _"Yes and execute immediately"_ and wait for the migration to finish.
 
-#### 3. Update Interface
+#### 3. Add a page to your application
 
 You'll need to add page where you can edit all your testimonials.
 

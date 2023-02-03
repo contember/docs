@@ -2,7 +2,7 @@
 title: Select field
 ---
 
-The `SelectField` and `MultiSelectField` components in Contember Interface are powerful tools for creating select fields that can be used to select a single or multiple values from a list of options.
+The `SelectField` and `MultiSelectField` components in Contember are powerful tools for creating select fields that can be used to select a single or multiple values from a list of options.
 
 To use these components, you must specify the `field`, `options` and `label` props. The `field` prop specifies the field in the data model that the select field will be bound to, the `label` prop specifies the label that will be displayed for the select field, and the `options` specified either predefined list of values, or an entity name, usually with a field.
 
