@@ -22,6 +22,14 @@ Entity variables are stored in Tenant API within a [membership](/reference/engin
 
 There are two predefined variables - `identityID` with an ID of identity associated with current request and `personID` with ID of person. `personID` will be empty if the request is executed with token which is not associated with a person.
 
+#### Condition variables
+
+Allows injecting arbitrary [column condition](/reference/engine/content/queries.md#comparison-operators) into a predicate. This enables the creation of more complex predicates, such as those for date ranges.
+
+:::note
+Variable values representing the condition must be passed as a serialized JSON string, for both the Tenant API for membership management and for the assume membership feature.
+:::
+
 ### Predicates
 
 Predicates are defined on entity level of given role. It is basically a condition, which is evaluated, when you try to access a field.
@@ -30,7 +38,9 @@ Predicates are defined on entity level of given role. It is basically a conditio
 
 There are following kinds of operations - `read`, `update`, `create` and `delete`. For each you can set up the rules.
 
-> Note that for a "delete" operation you can't set rules on each field, because you are deleting a row as a whole.
+:::note
+Note that for a "delete" operation you can't set rules on each field, because you are deleting a row as a whole.
+:::
 
 ## ACL definition
 
@@ -76,23 +86,68 @@ export const editorRole = acl.createRole('editor', {
 ### `createEntityVariable`: Defining an entity variable {#create-entity-variable}
 
 ```typescript
-createEntityVariable(variableName, entityName, role)
+createEntityVariable(variableName, entityName, role[, fallback])
 ```
 
 #### Function arguments:
 - `variableName`: a variable identifier. It must be unique for given role. You use this name in [Tenant API](/reference/engine/tenant/memberships.md)
 - `entityName`: an entity name, for which we define this variable
 - `role`: a role reference (created using [createRole](#createrole)), for which this variable is defined. You can also pass an array of roles.
+- `fallback`: optional fallback condition, when a variable is not passed
 
-Each variable must be exported from schema definition using `export const ...`
 
-#### Example: defining categoryId variable
+#### Example: defining categoryId entity variable
 ```typescript
 import { AclDefinition as acl } from '@contember/schema-definition'
 
 export const categoryIdVariable = acl.createEntityVariable('categoryId', 'Category', editorRole)
 ```
 
+### `createPredefinedVariable`: Defining a predefined variable {#create-predefined-variable}
+
+```typescript
+createConditionVariable(variableName, value, role[, fallback])
+```
+
+#### Function arguments:
+
+- `variableName`: a variable identifier. It must be unique for given role. You use this name in [Tenant API](/reference/engine/tenant/memberships.md)
+- `value`: a value type passed to a variable, can be either `identityID` or `personID`  
+- `role`: a role reference (created using [createRole](#createrole)), for which this variable is defined. You can also pass an array of roles.
+- `fallback`: optional fallback condition, when a variable is not passed
+
+#### Example: defining personVariable predefined variable
+
+```typescript
+import { AclDefinition as acl } from '@contember/schema-definition'
+
+export const personVariable = acl.createPredefinedVariable('person', 'personID', readerRole)
+```
+
+### `createConditionVariable`: Defining a condition variable {#create-condition-variable}
+
+```typescript
+createConditionVariable(variableName, role[, fallback])
+```
+
+#### Function arguments:
+
+- `variableName`: a variable identifier. It must be unique for given role. You use this name in [Tenant API](/reference/engine/tenant/memberships.md)
+- `role`: a role reference (created using [createRole](#createrole)), for which this variable is defined. You can also pass an array of roles.
+- `fallback`: optional fallback condition, when a variable is not passed
+
+
+#### Example: defining subscriptionVariable condition variable
+
+```typescript
+import { AclDefinition as acl } from '@contember/schema-definition'
+
+export const subscriptionVariable = acl.createConditionVariable('subscription', readerRole)
+```
+
+:::note
+Each variable must be exported from schema definition using `export const ...`
+:::
 
 ## Tenant permissions
 
