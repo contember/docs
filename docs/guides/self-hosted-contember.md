@@ -106,7 +106,7 @@ if (window.location.pathname === '/') {
 		/>,
 	)
 } else if (window.location.pathname.startsWith('/' + projectSlug)) {
-	// Interface itself page
+	// Project interface itself page
 	runReactApp(
 		<ApplicationEntrypoint
 			basePath={`/${projectSlug}/`}

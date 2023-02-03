@@ -2,7 +2,7 @@
 title: Relationship components
 ---
 
-Contember Interface provides relationship components that allow you to traverse relationships in the entity tree and provide a convenient way to access and display related entities.
+Contember Contember Interface React SDK provides relationship components that allow you to traverse relationships in the entity tree and provide a convenient way to access and display related entities.
 
 The `HasMany` and `HasOne` components are the main relationship components. The `HasMany` component is used to manage "has-many" relationships, while the `HasOne` component is used to manage "has-one" relationships.
 
