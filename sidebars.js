@@ -176,6 +176,7 @@ module.exports = {
 				"guides/self-hosted-contember",
 				'guides/seo',
 				'guides/acl-definition',
+				'guides/outdated-application',
 			],
 		},
 		{
