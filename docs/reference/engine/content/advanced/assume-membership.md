@@ -4,7 +4,7 @@ title: Assume membership
 
 Contember's assume membership feature allows identities to temporarily assume a different set of memberships for a single request. This can be useful in certain scenarios where an identity needs to perform an action that requires permissions that they do not have in their current memberships.
 
-### Sending a request
+### Sending using `x-contember-assume-membership` header
 
 The assume membership feature is enabled by sending a special request header called `x-contember-assume-membership` with a JSON encoded object matching the following type:
 ```typescript
@@ -24,6 +24,32 @@ The assume membership feature is enabled by sending a special request header cal
 x-contember-assign-membership: {"memberships": [{"role": "editor", "variables": [{"name": "lang", "values": ["en"]}]}]}
 ```
 This header would allow the identity to temporarily assume the editor role with a `lang` variable set to `en`.
+
+### Sending in a request body
+
+You can also enable this feature in a GraphQL request by including additional `assumeMembership` field in the JSON-encoded request body.
+
+#### Example of how you can structure the request body:
+
+```json5
+{
+	"assumeMembership": {
+		"memberships": [
+			{
+				"role": "editor",
+				"variables": [
+					{ "name": "lang", "values": ["en"] }
+				]
+			}
+		]
+	},
+	// other standard GraphQL fields like query, variables or operationName
+}
+```
+
+In this example, the `assumeMembership` field is added to the request body, which contains an object with the same structure as the `x-contember-assume-membership` header. You can specify the role and any variables for the assumed membership in the same way as with the header.
+
+If you send the `assumeMembership` field in the request body, it will take precedence over `x-contember-assume-membership` header that may also be present in the request.
 
 ### ACL Definition
 
