@@ -84,6 +84,27 @@ You can also reference relationships in `Unique`.
 You can then use these unique combinations to [fetch a single record](../content/queries.md#fetching-a-single-record).
 "One has one" relationships are marked as unique by default.
 
+### Indexes
+
+To define ordinary non-unique index, you can use `Index` decorator in your schema definition.
+
+#### Example how to define a single column index
+```typescript
+@def.Index('title')
+export class Article {
+	title = def.stringColumn()
+}
+```
+
+#### Example how to define a multi column index
+```typescript
+@def.Index('title', 'description')
+export class Article {
+	title = def.stringColumn()
+	description = def.stringColumn()
+}
+```
+
 ### Changing column name
 
 To change the name of a column in a database, you can use the `columnName` method on the column definition. By default, Contember will use the "snake case" version of the property name as the column name in the database.
