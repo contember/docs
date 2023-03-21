@@ -2,7 +2,7 @@ version: '2.4'
 
 services:
   contember-engine:
-    image: contember/engine:1.0.0-rc.15
+    image: contember/engine:1.2.1
 
     environment:
       NODE_ENV: 'development'
@@ -45,7 +45,7 @@ services:
         condition: service_healthy
 
   contember-cli:
-    image: contember/cli:1.0.0-rc.15
+    image: contember/cli:1.2.1
     user: '1000:1000'
 
     deploy:

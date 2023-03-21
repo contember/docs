@@ -7,7 +7,7 @@ const config = {
 	tagline: 'Contember is an open-source platform for frontend developers to build and run bespoke backends with ease.',
 	url: 'https://docs.contember.com',
 	baseUrl: '/',
-	favicon: 'img/contember-logo.png',
+	favicon: 'img/favicon.png',
 	organizationName: 'contember',
 	projectName: 'contember',
 	onBrokenLinks: 'throw',
@@ -38,8 +38,8 @@ const config = {
 				title: '',
 				logo: {
 					alt: 'Contember Logo',
-					src: 'img/contember-logotype.svg',
-					srcDark: 'img/contember-logotype-dark.svg',
+					src: 'img/contember-horizontal-blue.svg',
+					srcDark: 'img/contember-horizontal-white.svg',
 					href: 'http://www.contember.com/',
 					target: '_self'
 				},
