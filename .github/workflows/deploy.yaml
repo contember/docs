@@ -20,12 +20,12 @@ jobs:
         run: npm ci
 
       - name: Validate Schema
-        uses: docker://contember/cli:1.0.0-rc.15
+        uses: docker://contember/cli:1.2.1
         with:
           args: project:validate .
 
       - name: Deploy
-        uses: docker://contember/cli:1.0.0-rc.15
+        uses: docker://contember/cli:1.2.1
         env:
           CONTEMBER_API_URL: https://api-doc-v3.eu.contember.cloud
           CONTEMBER_API_TOKEN: ${{ secrets.CONTEMBER_DEPLOY_TOKEN }}
