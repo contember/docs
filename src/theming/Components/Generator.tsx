@@ -1,11 +1,12 @@
 import {
   Button,
   Checkbox,
+  FieldContainer,
   Icon,
   Spacer,
   Stack,
   toSchemeClass,
-  toStateClass
+  toStateClass,
 } from '@contember/ui'
 import { useColorMode } from '@docusaurus/theme-common'
 import classNames from "classnames"
@@ -252,7 +253,9 @@ export const Generator = React.memo(() => {
       {verbose && <Button distinction="outlined" onClick={copyPalettesToClipboard}>Copy palettes config</Button>}
       {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
       <Spacer className="flex-grow" />
-      <Checkbox value={verbose} onChange={setVerbose}>Verbose</Checkbox>
+      <FieldContainer label="Verbose" labelPosition="labelInlineRight">
+        <Checkbox notNull value={verbose} onChange={setVerbose} />
+      </FieldContainer>
     </Stack>
     <ThemeEditor
       dirty={dirtyThemes.current}
