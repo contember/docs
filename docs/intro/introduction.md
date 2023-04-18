@@ -9,6 +9,8 @@ Welcome to Contember! Contember is an **open-source platform** designed to help 
 
 Now we've built **Contember Studio**. It uses AI to instantly turn your description into a functional web app in Contember platform. You get the code so then you can change just about anything. [Request early access](https://rik9zhzhn1g.typeform.com/to/UWv1lamK).
 
+If you've already been invited, generated your project, and are seeking guidance on making your first changes, [here's the guide](/intro/studio-quickstart) you need.
+
 :::
 
 Contember platform is comprised of the following components:
