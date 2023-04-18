@@ -37,3 +37,9 @@ We're on a mission to make building and running custom web apps accessible to ev
 - **Everything is code (TypeScript and React)**: Embrace development best practices such as version control with Git and continuous integration/continuous deployment (CI/CD) workflows.
 - **Flexible data structure**: Contember doesn't impose any arbitrary collections or posts. Instead, you can create any entities you want with attributes and relationships that suit your needs. Schema overview
 - **No vendor lock-in**: Contember is open-source, meaning you have the freedom to modify and adapt the platform to your specific requirements without being restricted by proprietary software.
+
+:::tip What's next
+
+You can [build your own Contember project from scratch](/intro/quickstart) or check out our [starter kits](https://github.com/contember/starter-kits).
+
+:::
