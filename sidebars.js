@@ -12,6 +12,7 @@ module.exports = {
 				},
 				"intro/how-it-works",
 				"intro/quickstart",
+				"intro/studio-quickstart",
 				"intro/glossary",
 			],
 		},
