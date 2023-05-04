@@ -1,0 +1,62 @@
+
+.typeNode
+	width: 100%
+	//margin: 0.25rem
+	//padding: 0.25rem
+	background: #fff
+	//border: 1px solid #e5e7eb
+	//border-right: none
+	//&:hover
+	//	border-color: black
+
+	&__title
+		display: none
+	&--union
+		margin-top: 0.5rem
+		margin-bottom: 0.5rem
+		border-radius: 0.25rem
+		background-color: rgb(55 65 81)
+		padding-left: 0.25rem
+		padding-right: 0.25rem
+		border: 1px solid #e5e7eb
+		> .typeNode__title
+			color: white
+			display: block
+		> .typeNode__content
+			> .typeNode__item
+				margin-top: 0.25rem
+				margin-bottom: 0.25rem
+				border: 1px solid #e5e7eb
+				padding: 1rem
+				background: #fff
+
+	&--interface, &--reflection
+		> .typeNode__title
+			display: block
+			font-size: 0.875rem
+			line-height: 1.25rem
+			font-weight: 700
+			color: rgb(75 85 99)
+
+		> .typeNode__content
+			> .typeNode__item
+				border-bottom: 1px solid #e5e7eb
+				padding-left: 0.5rem
+				padding-right: 0.5rem
+				padding-top: 0.25rem
+				padding-bottom: 0.25rem
+.propList
+	display: flex
+	margin: 0 auto
+	max-width: 1200px
+
+.property
+	&__name
+		//
+	&__type
+		font-size: 0.875rem
+		line-height: 1.25rem
+		color: rgb(21 128 61)
+
+.textSummary
+	margin-bottom: 1rem

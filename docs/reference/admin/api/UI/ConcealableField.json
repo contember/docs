@@ -1,0 +1,363 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 3856,
+			"name": "ConcealableFieldProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 3857,
+					"name": "buttonProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 12922,
+						"name": "ButtonProps",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 3862,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3863,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+									"line": 15,
+									"character": 11,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
+								}
+							],
+							"signatures": [
+								{
+									"id": 3864,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+											"line": 15,
+											"character": 11,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
+										}
+									],
+									"parameters": [
+										{
+											"id": 3865,
+											"name": "rendererProps",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 3848,
+												"name": "ConcealableFieldRendererProps",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 3858,
+					"name": "concealTimeout",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 3867,
+					"name": "editButtonLabel",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+							"line": 17,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L17"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 3866,
+					"name": "isExtended",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+							"line": 16,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L16"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 3859,
+					"name": "renderConcealedValue",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3860,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+									"line": 14,
+									"character": 23,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
+								}
+							],
+							"signatures": [
+								{
+									"id": 3861,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+											"line": 14,
+											"character": 23,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						3857,
+						3862,
+						3858,
+						3867,
+						3866,
+						3859
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+					"line": 11,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L11"
+				}
+			]
+		},
+		{
+			"id": 3868,
+			"name": "ConcealableField",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
+					"line": 23,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L23"
+				}
+			],
+			"signatures": [
+				{
+					"id": 3869,
+					"name": "ConcealableField",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 3870,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 3856,
+								"name": "ConcealableFieldProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

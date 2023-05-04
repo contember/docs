@@ -1,0 +1,636 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 932,
+			"name": "DataGridContainerPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 933,
+					"name": "allowAggregateFilterControls",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 934,
+					"name": "allowColumnVisibilityControls",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L13"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 935,
+					"name": "emptyMessage",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 936,
+					"name": "emptyMessageComponent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 937,
+					"name": "emptyMessageComponentExtraProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 16,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L16"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 938,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {}
+						}
+					}
+				},
+				{
+					"id": 939,
+					"name": "onEntityClick",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 17,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 940,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+									"line": 17,
+									"character": 17,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+								}
+							],
+							"signatures": [
+								{
+									"id": 941,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+											"line": 17,
+											"character": 17,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+										}
+									],
+									"parameters": [
+										{
+											"id": 942,
+											"name": "entity",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 6584,
+												"name": "EntityAccessor",
+												"package": "@contember/binding"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 943,
+					"name": "selectedEntityIds",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 18,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L18"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 8997,
+							"name": "EntityId",
+							"package": "@contember/binding"
+						}
+					}
+				},
+				{
+					"id": 944,
+					"name": "tile",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 19,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L19"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 945,
+					"name": "tileSize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+							"line": 20,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L20"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						933,
+						934,
+						935,
+						936,
+						937,
+						939,
+						943,
+						944,
+						945
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
+					"line": 11,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L11"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 946,
+					"name": "DataGridContainerOwnProps"
+				}
+			]
+		},
+		{
+			"id": 95,
+			"name": "AutoGridProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+					"line": 6,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L6"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 932,
+						"name": "DataGridContainerPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 96,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 102,
+									"name": "createEditLinkTarget",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+											"line": 11,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L11"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 103,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+													"line": 11,
+													"character": 25,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L11"
+												}
+											],
+											"signatures": [
+												{
+													"id": 104,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"parameters": [
+														{
+															"id": 105,
+															"name": "entity",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 5548,
+														"name": "RoutingLinkTarget",
+														"package": "@contember/admin"
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 98,
+									"name": "createViewLinkTarget",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+											"line": 10,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L10"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 99,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+													"line": 10,
+													"character": 25,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L10"
+												}
+											],
+											"signatures": [
+												{
+													"id": 100,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"parameters": [
+														{
+															"id": 101,
+															"name": "entity",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 5548,
+														"name": "RoutingLinkTarget",
+														"package": "@contember/admin"
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 97,
+									"name": "entities",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+											"line": 9,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L9"
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "entities"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 1335,
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "never"
+												}
+											],
+											"name": "DataGridProps",
+											"package": "@contember/admin"
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										102,
+										98,
+										97
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+									"line": 8,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L8"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 106,
+			"name": "AutoGrid",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
+					"line": 17,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoGrid.tsx#L17"
+				}
+			],
+			"signatures": [
+				{
+					"id": 107,
+					"name": "AutoGrid",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 108,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 95,
+								"name": "AutoGridProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

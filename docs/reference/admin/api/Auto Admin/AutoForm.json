@@ -1,0 +1,302 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 83,
+			"name": "AutoFormProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+					"line": 7,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L7"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 84,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 88,
+							"name": "createEditLink",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+									"line": 11,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 89,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+											"line": 11,
+											"character": 18,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L11"
+										}
+									],
+									"signatures": [
+										{
+											"id": 90,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"parameters": [
+												{
+													"id": 91,
+													"name": "entity",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": 5548,
+												"name": "RoutingLinkTarget",
+												"package": "@contember/admin"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 85,
+							"name": "entity",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L8"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 86,
+							"name": "id",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+									"line": 9,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L9"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 8997,
+								"name": "EntityId",
+								"package": "@contember/binding"
+							}
+						},
+						{
+							"id": 87,
+							"name": "onCreateSuccess",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+									"line": 10,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"target": 6703,
+										"name": "EntityAccessor.PersistSuccessHandler",
+										"package": "@contember/binding"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+											"qualifiedName": "Set"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 6703,
+												"name": "EntityAccessor.PersistSuccessHandler",
+												"package": "@contember/binding"
+											}
+										],
+										"name": "Set",
+										"package": "typescript"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								88,
+								85,
+								86,
+								87
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+							"line": 7,
+							"character": 28,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L7"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 92,
+			"name": "AutoForm",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoForm.tsx",
+					"line": 17,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoForm.tsx#L17"
+				}
+			],
+			"signatures": [
+				{
+					"id": 93,
+					"name": "AutoForm",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 94,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 83,
+								"name": "AutoFormProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

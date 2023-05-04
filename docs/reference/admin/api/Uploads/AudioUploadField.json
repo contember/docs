@@ -1,0 +1,2365 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 213,
+			"name": "AddEntityButtonProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 216,
+					"name": "addButtonComponent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 217,
+					"name": "addButtonComponentExtraProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 218,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {}
+						}
+					}
+				},
+				{
+					"id": 215,
+					"name": "addButtonProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 206,
+						"name": "CreateNewEntityButtonProps",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 214,
+					"name": "addButtonText",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						216,
+						217,
+						215,
+						214
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+					"line": 10,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L10"
+				}
+			]
+		},
+		{
+			"id": 4016,
+			"name": "AudioFileDataExtractorProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 4017,
+					"name": "durationField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getAudioFileDataExtractor.tsx",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getAudioFileDataExtractor.tsx#L6"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9764,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						4017
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getAudioFileDataExtractor.tsx",
+					"line": 5,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getAudioFileDataExtractor.tsx#L5"
+				}
+			]
+		},
+		{
+			"id": 13336,
+			"name": "ErrorListProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 13337,
+					"name": "errors",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/ErrorList.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15030,
+						"name": "FieldErrors",
+						"package": "@contember/ui"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						13337
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/ErrorList.d.ts",
+					"line": 3,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 4021,
+			"name": "FileUrlDataExtractorProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 4022,
+					"name": "urlField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx#L7"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9764,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						4022
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx",
+					"line": 6,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx#L6"
+				}
+			]
+		},
+		{
+			"id": 4026,
+			"name": "GenericFileMetadataExtractorProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 4027,
+					"name": "fileNameField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L6"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9764,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 4029,
+					"name": "fileSizeField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
+							"line": 8,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L8"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9764,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 4030,
+					"name": "fileTypeField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9764,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 4028,
+					"name": "lastModifiedField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L7"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9764,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						4027,
+						4029,
+						4030,
+						4028
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
+					"line": 5,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L5"
+				}
+			]
+		},
+		{
+			"id": 4176,
+			"name": "InternalFileKind",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 4178,
+					"name": "acceptFile",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Optionally reject with "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "AcceptFileKindError",
+								"target": 3922
+							},
+							{
+								"kind": "text",
+								"text": "."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 22,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 4179,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+											"line": 22,
+											"character": 14,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+										}
+									],
+									"signatures": [
+										{
+											"id": 4180,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+													"line": 22,
+													"character": 14,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+												}
+											],
+											"parameters": [
+												{
+													"id": 4181,
+													"name": "options",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 4166,
+														"name": "AcceptFileOptions",
+														"package": "@contember/admin"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "boolean"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Promise"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "AcceptArtifacts",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "Promise",
+														"package": "typescript"
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 4177,
+					"name": "acceptMimeTypes",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 19,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L19"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 4188,
+					"name": "baseEntity",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 27,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L27"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 4190,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 29,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L29"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 4189,
+					"name": "childrenOutsideBaseEntity",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 28,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L28"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 4182,
+					"name": "renderFilePreview",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 23,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 4183,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+									"line": 23,
+									"character": 20,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+								}
+							],
+							"signatures": [
+								{
+									"id": 4184,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+											"line": 23,
+											"character": 20,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+										}
+									],
+									"parameters": [
+										{
+											"id": 4185,
+											"name": "options",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 4161,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "AcceptArtifacts",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "RenderFilePreviewOptions",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 4186,
+					"name": "renderUploadedFile",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 24,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L24"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 4187,
+					"name": "uploader",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+							"line": 25,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L25"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 11412,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "UploadResult",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": 11443,
+								"name": "FileUploadError",
+								"package": "@contember/client"
+							}
+						],
+						"name": "FileUploader",
+						"package": "@contember/client"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						4178,
+						4177,
+						4188,
+						4190,
+						4189,
+						4182,
+						4186,
+						4187
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+					"line": 18,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L18"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 4191,
+					"name": "UploadResult",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				},
+				{
+					"id": 4192,
+					"name": "AcceptArtifacts",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				}
+			]
+		},
+		{
+			"id": 219,
+			"name": "SelectEntityButtonProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 222,
+					"name": "selectButtonComponent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 20,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L20"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 223,
+					"name": "selectButtonComponentExtraProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 21,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L21"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 224,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {}
+						}
+					}
+				},
+				{
+					"id": 221,
+					"name": "selectButtonProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 19,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L19"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 206,
+						"name": "CreateNewEntityButtonProps",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 220,
+					"name": "selectButtonText",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+							"line": 18,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L18"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						222,
+						223,
+						221,
+						220
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
+					"line": 17,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L17"
+				}
+			]
+		},
+		{
+			"id": 3956,
+			"name": "SelectFileInputSelectionComponentProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 3957,
+					"name": "fileSelectionComponent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+							"line": 16,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L16"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "SFExtraProps",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": 3941,
+										"name": "FileSelectionProps",
+										"package": "@contember/admin"
+									}
+								]
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 3959,
+					"name": "fileSelectionLabel",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+							"line": 18,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L18"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 3958,
+					"name": "fileSelectionProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+							"line": 17,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L17"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": -1,
+						"name": "SFExtraProps",
+						"refersToTypeParameter": true
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						3957,
+						3959,
+						3958
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+					"line": 15,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 3960,
+					"name": "SFExtraProps",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3961,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+									"line": 15,
+									"character": 77,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 4256,
+			"name": "AudioUploadFieldProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx",
+					"line": 7,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx#L7"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 4257,
+					"name": "AcceptArtifacts",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				},
+				{
+					"id": 4258,
+					"name": "SFExtraProps",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 4259,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx",
+									"line": 7,
+									"character": 82,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx#L7"
+								}
+							]
+						}
+					},
+					"default": {
+						"type": "reflection",
+						"declaration": {
+							"id": 4260,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx",
+									"line": 7,
+									"character": 87,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx#L7"
+								}
+							]
+						}
+					}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 3962,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "AcceptArtifacts",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "SFExtraProps",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "PublicSingleKindUploadFieldProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 4016,
+						"name": "AudioFileDataExtractorProps",
+						"package": "@contember/admin"
+					}
+				]
+			}
+		},
+		{
+			"id": 4216,
+			"name": "CommonFileKindProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L5"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 4219,
+					"name": "AcceptArtifacts",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 4193,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 11512,
+								"name": "S3FileUploader.SuccessMetadata",
+								"package": "@contember/client"
+							},
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "AcceptArtifacts",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "PublicFileKind",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 4021,
+						"name": "FileUrlDataExtractorProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 4026,
+						"name": "GenericFileMetadataExtractorProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 4217,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 4218,
+									"name": "additionalExtractors",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts",
+											"line": 10,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L10"
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"target": 3996,
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "unknown"
+												},
+												{
+													"type": "reference",
+													"target": 11512,
+													"name": "S3FileUploader.SuccessMetadata",
+													"package": "@contember/client"
+												},
+												{
+													"type": "reference",
+													"target": -1,
+													"name": "AcceptArtifacts",
+													"refersToTypeParameter": true
+												}
+											],
+											"name": "FileDataExtractor",
+											"package": "@contember/admin"
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										4218
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts",
+									"line": 9,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L9"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 13341,
+			"name": "FieldContainerProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+					"line": 6,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 13342,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 13343,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 7,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 13355,
+									"name": "className",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 19,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 13344,
+									"name": "description",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 8,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 13345,
+									"name": "direction",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 9,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "direction"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 14789,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 13346,
+									"name": "gap",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 10,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"target": 17458,
+												"name": "Size",
+												"package": "@contember/ui"
+											},
+											{
+												"type": "literal",
+												"value": "none"
+											}
+										]
+									}
+								},
+								{
+									"id": 13347,
+									"name": "label",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 11,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 13348,
+									"name": "labelDescription",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 12,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 13349,
+									"name": "labelPosition",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 13,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 13373,
+										"name": "FieldContainerLabelPosition",
+										"package": "@contember/ui"
+									}
+								},
+								{
+									"id": 13351,
+									"name": "required",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 15,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 13352,
+									"name": "size",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 16,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 17458,
+										"name": "Size",
+										"package": "@contember/ui"
+									}
+								},
+								{
+									"id": 13354,
+									"name": "style",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 18,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.CSSProperties"
+										},
+										"name": "CSSProperties",
+										"package": "@types/react",
+										"qualifiedName": "React.CSSProperties"
+									}
+								},
+								{
+									"id": 13353,
+									"name": "useLabelElement",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 17,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 13350,
+									"name": "width",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 14,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "column"
+											},
+											{
+												"type": "literal",
+												"value": "fluid"
+											},
+											{
+												"type": "literal",
+												"value": "none"
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										13343,
+										13355,
+										13344,
+										13345,
+										13346,
+										13347,
+										13348,
+										13349,
+										13351,
+										13352,
+										13354,
+										13353,
+										13350
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+									"line": 6,
+									"character": 34
+								}
+							]
+						}
+					},
+					{
+						"type": "reference",
+						"target": 13336,
+						"name": "ErrorListProps",
+						"package": "@contember/ui"
+					}
+				]
+			}
+		},
+		{
+			"id": 3967,
+			"name": "FileInputPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
+					"line": 9,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L9"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Pick"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 13341,
+								"name": "FieldContainerProps",
+								"package": "@contember/ui"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": "label"
+									},
+									{
+										"type": "literal",
+										"value": "description"
+									},
+									{
+										"type": "literal",
+										"value": "labelDescription"
+									}
+								]
+							}
+						],
+						"name": "Pick",
+						"package": "typescript"
+					},
+					{
+						"type": "reference",
+						"target": 213,
+						"name": "AddEntityButtonProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 3971,
+						"name": "SelectFileInputPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 3968,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 3970,
+									"name": "addButtonSubText",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
+											"line": 15,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L15"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 3969,
+									"name": "enableAddingNew",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
+											"line": 14,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L14"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										3970,
+										3969
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
+									"line": 13,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L13"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 4193,
+			"name": "PublicFileKind",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
+					"line": 33,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L33"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 4194,
+					"name": "UploadResult",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				},
+				{
+					"id": 4195,
+					"name": "AcceptArtifacts",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Partial"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 4176,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "UploadResult",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "AcceptArtifacts",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "InternalFileKind",
+								"package": "@contember/admin"
+							}
+						],
+						"name": "Partial",
+						"package": "typescript"
+					}
+				]
+			}
+		},
+		{
+			"id": 3962,
+			"name": "PublicSingleKindUploadFieldProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/SingleKindUploadField.tsx",
+					"line": 11,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/SingleKindUploadField.tsx#L11"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 3963,
+					"name": "AcceptArtifacts",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				},
+				{
+					"id": 3964,
+					"name": "SFExtraProps",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3965,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/SingleKindUploadField.tsx",
+									"line": 11,
+									"character": 93,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/SingleKindUploadField.tsx#L11"
+								}
+							]
+						}
+					},
+					"default": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3966,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/SingleKindUploadField.tsx",
+									"line": 11,
+									"character": 98,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/SingleKindUploadField.tsx#L11"
+								}
+							]
+						}
+					}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 4216,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "AcceptArtifacts",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "CommonFileKindProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 3956,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "SFExtraProps",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "SelectFileInputSelectionComponentProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 3967,
+						"name": "FileInputPublicProps",
+						"package": "@contember/admin"
+					}
+				]
+			}
+		},
+		{
+			"id": 3971,
+			"name": "SelectFileInputPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+					"line": 21,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L21"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 219,
+						"name": "SelectEntityButtonProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 3972,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 3973,
+									"name": "insertSelectedText",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+											"line": 24,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L24"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										3973
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
+									"line": 23,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L23"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 4261,
+			"name": "AudioUploadField",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx",
+					"line": 19,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx#L19"
+				}
+			],
+			"signatures": [
+				{
+					"id": 4262,
+					"name": "AudioUploadField",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<AudioUploadField urlField=\"file.url\" label=\"Audio upload\" />\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx",
+							"line": 24,
+							"character": 5,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/upload/wrappers/withKind/AudioUploadField.tsx#L24"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 4263,
+							"name": "AcceptArtifacts",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"default": {
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						},
+						{
+							"id": 4264,
+							"name": "SFExtraProps",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 4265,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {}
+								}
+							},
+							"default": {
+								"type": "reflection",
+								"declaration": {
+									"id": 4266,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {}
+								}
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 4267,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 4256,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "AcceptArtifacts",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "SFExtraProps",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "AudioUploadFieldProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

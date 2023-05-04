@@ -1,0 +1,894 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 13314,
+			"name": "CheckboxButtonProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 13318,
+					"name": "active",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.active"
+					}
+				},
+				{
+					"id": 13315,
+					"name": "checked",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Checkbox/CheckboxButton.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					}
+				},
+				{
+					"id": 13319,
+					"name": "className",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 27,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.className"
+					}
+				},
+				{
+					"id": 13326,
+					"name": "disabled",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.disabled"
+					}
+				},
+				{
+					"id": 13324,
+					"name": "distinction",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 28,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 15023,
+								"name": "ControlDistinction",
+								"package": "@contember/ui"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.distinction"
+					}
+				},
+				{
+					"id": 13331,
+					"name": "focused",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 18,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.focused"
+					}
+				},
+				{
+					"id": 13332,
+					"name": "hovered",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 19,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.hovered"
+					}
+				},
+				{
+					"id": 13320,
+					"name": "id",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 29,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.id"
+					}
+				},
+				{
+					"id": 13316,
+					"name": "indeterminate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Checkbox/CheckboxButton.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 13323,
+					"name": "intent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 30,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 17453,
+								"name": "Intent",
+								"package": "@contember/ui"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.intent"
+					}
+				},
+				{
+					"id": 13325,
+					"name": "loading",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.loading"
+					}
+				},
+				{
+					"id": 13317,
+					"name": "name",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 35,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.name"
+					}
+				},
+				{
+					"id": 13321,
+					"name": "placeholder",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 34,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.placeholder"
+					}
+				},
+				{
+					"id": 13330,
+					"name": "readOnly",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 16,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.readOnly"
+					}
+				},
+				{
+					"id": 13328,
+					"name": "required",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 17,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.required"
+					}
+				},
+				{
+					"id": 13327,
+					"name": "scheme",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 31,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 17454,
+								"name": "Scheme",
+								"package": "@contember/ui"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.scheme"
+					}
+				},
+				{
+					"id": 13322,
+					"name": "size",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 32,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 17458,
+								"name": "Size",
+								"package": "@contember/ui"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.size"
+					}
+				},
+				{
+					"id": 13329,
+					"name": "validationState",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 17459,
+								"name": "ValidationState",
+								"package": "@contember/ui"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "AllVisuallyDependentControlProps.validationState"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						13318,
+						13315,
+						13319,
+						13326,
+						13324,
+						13331,
+						13332,
+						13320,
+						13316,
+						13323,
+						13325,
+						13317,
+						13321,
+						13330,
+						13328,
+						13327,
+						13322,
+						13329
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Checkbox/CheckboxButton.d.ts",
+					"line": 2,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 14356,
+					"name": "AllVisuallyDependentControlProps",
+					"package": "@contember/ui"
+				}
+			]
+		},
+		{
+			"id": 14296,
+			"name": "All",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Returns new type where all the properties are required but some of them may be undefined"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+					"line": 5,
+					"character": 12
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 14297,
+					"name": "T",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {}
+				}
+			],
+			"type": {
+				"type": "mapped",
+				"parameter": "P",
+				"parameterType": {
+					"type": "typeOperator",
+					"operator": "keyof",
+					"target": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Required"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "Required",
+						"package": "typescript"
+					}
+				},
+				"templateType": {
+					"type": "conditional",
+					"checkType": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Pick"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "P",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "Pick",
+						"package": "typescript"
+					},
+					"extendsType": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Required"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+									"qualifiedName": "Pick"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "T",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "P",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "Pick",
+								"package": "typescript"
+							}
+						],
+						"name": "Required",
+						"package": "typescript"
+					},
+					"trueType": {
+						"type": "indexedAccess",
+						"indexType": {
+							"type": "reference",
+							"target": -1,
+							"name": "P",
+							"refersToTypeParameter": true
+						},
+						"objectType": {
+							"type": "reference",
+							"target": -1,
+							"name": "T",
+							"refersToTypeParameter": true
+						}
+					},
+					"falseType": {
+						"type": "union",
+						"types": [
+							{
+								"type": "indexedAccess",
+								"indexType": {
+									"type": "reference",
+									"target": -1,
+									"name": "P",
+									"refersToTypeParameter": true
+								},
+								"objectType": {
+									"type": "reference",
+									"target": -1,
+									"name": "T",
+									"refersToTypeParameter": true
+								}
+							},
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"id": 14356,
+			"name": "AllVisuallyDependentControlProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Types/ControlProps.d.ts",
+					"line": 54,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+					"qualifiedName": "Omit"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": 14296,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 14355,
+								"name": "VisuallyDependentControlProps",
+								"package": "@contember/ui"
+							}
+						],
+						"name": "All",
+						"package": "@contember/ui"
+					},
+					{
+						"type": "literal",
+						"value": "type"
+					}
+				],
+				"name": "Omit",
+				"package": "typescript"
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 13314,
+					"name": "CheckboxButtonProps"
+				}
+			]
+		},
+		{
+			"id": 13333,
+			"name": "CheckboxButton",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Checkbox/CheckboxButton.d.ts",
+					"line": 9,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 13334,
+					"name": "CheckboxButton",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Checkbox/CheckboxButton.d.ts",
+							"line": 9,
+							"character": 37
+						}
+					],
+					"parameters": [
+						{
+							"id": 13335,
+							"name": "__namedParameters",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 13314,
+								"name": "CheckboxButtonProps",
+								"package": "@contember/ui"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "__global.JSX.Element"
+						},
+						"name": "Element",
+						"package": "@types/react",
+						"qualifiedName": "__global.JSX.Element"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}
