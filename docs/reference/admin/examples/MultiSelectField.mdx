@@ -1,0 +1,36 @@
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+import LiveCode from "@src/components/liveCode"
+
+<Tabs
+  defaultValue="admin"
+  values={[
+    { label: "Component", value: "admin" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin">
+
+<LiveCode
+  entity="Form"
+  code={`<MultiSelectField field="tags" label="Select tags" options="Tag.name" />`}
+/>
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```ts
+export class Article {
+  tags = def.manyHasMany(Tag, "articles");
+}
+
+export class Tag {
+  name = def.stringColumn();
+  articles = def.manyHasManyInverse(Article, "tags");
+}
+```
+
+  </TabItem>
+</Tabs>
+

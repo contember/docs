@@ -1,0 +1,134 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 7104,
+			"name": "AccessorTreeProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 7106,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessorTree/AccessorTree.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 7105,
+					"name": "state",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessorTree/AccessorTree.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 7124,
+						"name": "AccessorTreeState",
+						"package": "@contember/binding"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						7106,
+						7105
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/accessorTree/AccessorTree.d.ts",
+					"line": 3,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 7107,
+			"name": "AccessorTree",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/accessorTree/AccessorTree.d.ts",
+					"line": 10,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 7108,
+					"name": "AccessorTree",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessorTree/AccessorTree.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"parameters": [
+						{
+							"id": 7109,
+							"name": "__namedParameters",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 7104,
+								"name": "AccessorTreeProps",
+								"package": "@contember/binding"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "__global.JSX.Element"
+						},
+						"name": "Element",
+						"package": "@types/react",
+						"qualifiedName": "__global.JSX.Element"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

@@ -1,0 +1,1035 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 889,
+			"name": "DataGridCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 893,
+					"name": "canBeHidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 892,
+					"name": "hidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 890,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 4,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 17455,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 891,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 5,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						893,
+						892,
+						890,
+						891
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+					"line": 3,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+				}
+			]
+		},
+		{
+			"id": 1048,
+			"name": "DataGridHeaderCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1052,
+					"name": "ascOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1053,
+					"name": "descOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1049,
+					"name": "header",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1051,
+					"name": "headerJustification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 17455,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1050,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1052,
+						1053,
+						1049,
+						1051,
+						1050
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+					"line": 10,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 1066,
+					"name": "DataGridHeaderCellProps"
+				}
+			]
+		},
+		{
+			"id": 2393,
+			"name": "FieldFallbackViewProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 2394,
+					"name": "fallback",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 2395,
+					"name": "fallbackStyle",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 2392,
+								"name": "FieldFallbackViewStyle",
+								"package": "@contember/admin"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2394,
+						2395
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 8,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+				}
+			]
+		},
+		{
+			"id": 916,
+			"name": "DataGridColumnPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 40,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1048,
+						"name": "DataGridHeaderCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 889,
+						"name": "DataGridCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 917,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 919,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 45,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 918,
+									"name": "columnKey",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 44,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										919,
+										918
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 43,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1187,
+			"name": "DateCellProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx",
+					"line": 11,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx#L11"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 916,
+						"name": "DataGridColumnPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2376,
+						"name": "DateFieldViewProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1188,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1189,
+									"name": "disableOrder",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx",
+											"line": 15,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx#L15"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 1190,
+									"name": "initialOrder",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx",
+											"line": 16,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx#L16"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 1089,
+										"name": "DataGridOrderDirection",
+										"package": "@contember/admin"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1189,
+										1190
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx",
+									"line": 14,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx#L14"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2376,
+			"name": "DateFieldViewProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L5"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 2377,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 2378,
+									"name": "field",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+											"line": 6,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L6"
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "field"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 8160,
+											"name": "SugaredFieldProps",
+											"package": "@contember/binding"
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										2378
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+									"line": 5,
+									"character": 33,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L5"
+								}
+							]
+						}
+					},
+					{
+						"type": "union",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 2379,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 2380,
+											"name": "format",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+													"line": 8,
+													"character": 5,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 2381,
+															"name": "__type",
+															"variant": "declaration",
+															"kind": 65536,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+																	"line": 8,
+																	"character": 15,
+																	"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+																}
+															],
+															"signatures": [
+																{
+																	"id": 2382,
+																	"name": "__type",
+																	"variant": "signature",
+																	"kind": 4096,
+																	"flags": {},
+																	"parameters": [
+																		{
+																			"id": 2383,
+																			"name": "date",
+																			"variant": "param",
+																			"kind": 32768,
+																			"flags": {},
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																					"qualifiedName": "Date"
+																				},
+																				"name": "Date",
+																				"package": "typescript"
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+																			"qualifiedName": "React.ReactNode"
+																		},
+																		"name": "ReactNode",
+																		"package": "@types/react",
+																		"qualifiedName": "React.ReactNode"
+																	}
+																}
+															]
+														}
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Intl.DateTimeFormatOptions"
+														},
+														"name": "Intl.DateTimeFormatOptions",
+														"package": "typescript"
+													}
+												]
+											}
+										},
+										{
+											"id": 2384,
+											"name": "locale",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+													"line": 8,
+													"character": 72,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "never"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												2380,
+												2384
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+											"line": 8,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 2385,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 2386,
+											"name": "format",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+													"line": 9,
+													"character": 5,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+													"qualifiedName": "Intl.DateTimeFormatOptions"
+												},
+												"name": "Intl.DateTimeFormatOptions",
+												"package": "typescript"
+											}
+										},
+										{
+											"id": 2387,
+											"name": "locale",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+													"line": 9,
+													"character": 42,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												]
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												2386,
+												2387
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
+											"line": 9,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"type": "reference",
+						"target": 2396,
+						"name": "FieldFallbackViewPublicProps",
+						"package": "@contember/admin"
+					}
+				]
+			}
+		},
+		{
+			"id": 2396,
+			"name": "FieldFallbackViewPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 13,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+					"qualifiedName": "Partial"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": 2393,
+						"name": "FieldFallbackViewProps",
+						"package": "@contember/admin"
+					}
+				],
+				"name": "Partial",
+				"package": "typescript"
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 2363,
+					"name": "CoalesceFieldViewProps"
+				}
+			]
+		},
+		{
+			"id": 1191,
+			"name": "DateCell",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx",
+					"line": 34,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/DateCell.tsx#L34"
+				}
+			],
+			"signatures": [
+				{
+					"id": 1192,
+					"name": "DateCell",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "DataGrid cell for displaying a date field value."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<DateCell header=\"Created at\" field=\"createdAt\" />\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 521,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 1193,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 1187,
+								"name": "DateCellProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 1194,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

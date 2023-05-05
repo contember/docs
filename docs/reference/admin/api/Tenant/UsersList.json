@@ -1,0 +1,218 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 5889,
+			"name": "UsersListProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 5891,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
+							"line": 8,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/person/UsersList.tsx#L8"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "undefined"
+					}
+				},
+				{
+					"id": 5892,
+					"name": "createRoleRenderer",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/person/UsersList.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5742,
+						"name": "RoleRendererFactory",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 5893,
+					"name": "editUserLink",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/person/UsersList.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5548,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 5890,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/person/UsersList.tsx#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						5891,
+						5892,
+						5893,
+						5890
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
+					"line": 6,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/person/UsersList.tsx#L6"
+				}
+			]
+		},
+		{
+			"id": 5894,
+			"name": "UsersList",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/person/UsersList.tsx#L16"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5895,
+					"name": "UsersList",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 5896,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 5889,
+								"name": "UsersListProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

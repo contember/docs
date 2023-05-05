@@ -1,0 +1,61 @@
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
+<Tabs
+  defaultValue="admin-simple"
+  values={[
+    { label: "Component - simple", value: "admin-simple" },
+    { label: "Component - advanced", value: "admin-advanced" },
+    { label: "API schema", value: "schema" },
+  ]}
+>
+  <TabItem value="admin-simple">
+
+```tsx
+<VideoFileRepeater
+  field="videos"
+  urlField="video.url"
+  label="Video serie"
+  sortableBy="order"
+/>
+```
+
+  </TabItem>
+
+  <TabItem value="admin-advanced">
+
+```tsx
+<VideoFileRepeater
+  field="videos"
+  urlField="video.url"
+  label="Video serie"
+  description="video.description"
+  fileSizeField="video.size"
+  fileTypeField="video.type"
+  sortableBy="order"
+>
+  <TextField field="video.description" label="Description" />
+</VideoFileRepeater>
+```
+
+  </TabItem>
+
+  <TabItem value="schema">
+
+```ts
+export class VideoSerie {
+  videos = def.oneHasMany(Video, "serie");
+}
+
+export class Video {
+  order = def.intColumn().notNull();
+  url = def.stringColumn();
+  description = def.stringColumn();
+  size = def.stringColumn();
+  type = def.stringColumn();
+  serie = def.manyHasOne(VideoSerie, "videos");
+}
+```
+
+  </TabItem>
+</Tabs>

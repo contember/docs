@@ -1,0 +1,208 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 5687,
+			"name": "EditIdentityProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 5690,
+					"name": "identityId",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/EditIdentity.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 5688,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/EditIdentity.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 5689,
+					"name": "rolesConfig",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/EditIdentity.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5708,
+						"name": "RolesConfig",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 5691,
+					"name": "userListLink",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/EditIdentity.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5548,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						5690,
+						5688,
+						5689,
+						5691
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
+					"line": 9,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/EditIdentity.tsx#L9"
+				}
+			]
+		},
+		{
+			"id": 5692,
+			"name": "EditIdentity",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
+					"line": 19,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/EditIdentity.tsx#L19"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5693,
+					"name": "EditIdentity",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 521,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 5694,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 5687,
+								"name": "EditIdentityProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 5695,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}
