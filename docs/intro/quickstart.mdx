@@ -64,24 +64,25 @@ For advanced use-cases there is also:
 From the first step you should have a folder structure that looks like this:
 
 ```
-quickstart/
+your_project_name/
   ├── admin/
   │   ├── components/
   │   ├── pages/
-  │   ├── .env
+  │   ├── .env.development
+  │   ├── .env.production
   │   ├── index.html
   │   ├── index.tsx
-  │   └── vite-env.d.ts
+  │   ├── tsconfig.json
+  │   ├── vite-env.d.ts
+  │   └── vite.config.ts
   ├── api/
   │   ├── migrations/
   │   ├── model/
-  │   ├── acl.ts
-  │   └── index.ts
-  ├── docker/
-  ├── node_modules/
+  │   ├── index.ts
+  │   └── tsconfig.json
   ├── docker-compose.yaml
+  ├── documentation.md
   ├── package.json
-  ├── package-lock.json
   └── tsconfig.json
 ```
 
