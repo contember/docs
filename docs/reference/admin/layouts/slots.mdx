@@ -1,0 +1,78 @@
+---
+title: Slots
+---
+
+import CodeBlock from '@theme/CodeBlock'
+import _components_SlotsSource from '!!raw-loader!./_Example/components/Slots.ts'
+import _pages_example_Source from '!!raw-loader!./_Example/pages/example.tsx'
+
+# Slots
+
+**Layout slots** are React components that can be used to render content in predefined
+places of the layout. Each Slot will append its content to the target as
+[createPortal()](https://react.dev/reference/react-dom/createPortal) would do.
+
+This is useful when you want to render a button in the footer, header, sidebar or any
+other place of the layout that is not directly accessible from within rendered page.
+
+You can use any of already available common slots that are typical for all Contember
+layouts and layout specific slots. Common slots are:
+
+- **Title** - Slot for rendering page title (usually in the header)
+- **Actions** – Slot for rendering page actions (usually in the header)
+- **Back** – Slot for rendering back button (usually in the header near title)
+- **Logo** – Slot for rendering logo (usually in the header)
+- **Navigation** – Slot for rendering navigation (usually in the sidebar)
+- **Content** – Slot for rendering page content in the main area of the layout
+- **Sidebar** – Slot for rendering sidebar (usually in the right side of the layout)
+
+You can even create your own layout with custom slots and use them in your pages just
+like the built-in ones.
+
+## 1. Rendering content to slot from the page
+
+```tsx title="admin/pages/example.tsx" {4}
+import { Slots } from '../components/Slots'
+
+export default () => (
+	<Slots.Subtitle>This is a subtitle</Slots.Subtitle>
+)
+```
+
+## 2. Creating your own slots
+
+To create your slot you need to create two components:
+
+- **Slot** – React component that will be used to [render content from pages](#1-rendering-content-to-slot-from-the-page)
+- **SlotTarget** – React component that will be used in place where you want to render content
+
+:::tip
+Using the `activeSlots` from the context you can check if there is any content to render.
+:::
+
+<CodeBlock
+	language="typescript"
+	title="admin/components/Slots.tsx"
+>
+	{_components_SlotsSource}
+</CodeBlock>
+
+## 3. Placing slots in the layout
+
+```tsx title="admin/components/Layout.tsx" {3,9}
+import { slotTargets, SlotTargets } from '../components/Slots'
+
+export const Layout = ({ children: pages }: React.PropsWithChildren) => {
+  const { activeSlots } = useLayoutSlotRegistryContext()
+
+	return (
+		<>
+			<div className="layout">
+				{activeSlots.has(slotTargets.Subtitle) ? <SlotTargets.Subtitle /> : null}
+			</div>
+
+			{pages}
+		</>
+	)
+}
+```

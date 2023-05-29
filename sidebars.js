@@ -45,6 +45,17 @@ module.exports = {
 				},
 				{
 					type: "category",
+					label: "Layouts",
+					items: [
+						'reference/admin/layouts/overview',
+						'reference/admin/layouts/providers',
+						'reference/admin/layouts/slots',
+						'reference/admin/layouts/directives',
+						'reference/admin/layouts/custom-layouts',
+					],
+				},
+				{
+					type: "category",
 					label: "Theming",
 					items: [
 						"reference/admin/theming/introduction",

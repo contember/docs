@@ -1,0 +1,38 @@
+---
+title: Custom layouts
+---
+
+import CodeBlock from '@theme/CodeBlock'
+import _LayoutUISource from '!!raw-loader!./_Example/my-custom-layout.tsx'
+import _components_LayoutSource from '!!raw-loader!./_Example/components/Layout.tsx'
+import _pages_example_Source from '!!raw-loader!./_Example/pages/example.tsx'
+
+# Custom layouts
+
+With slots and directives you have all the tools you need to:
+
+- render into specific areas of the layout using slots
+- control any aspect of your app using directives
+
+Slots and directives lets you decouple content from the layout,
+so you can use any layout you want, even have multiple layouts
+for different parts of your app.
+
+## 1. Any HTML can be your layout
+
+Take any HTML, set where content should be rendered using the slot targets,
+connect directives to control any aspect of your app (layout, theme, etc.)
+and you have a custom layout.
+
+<CodeBlock language="typescript" title="my-custom-layout.tsx">
+	{_LayoutUISource}
+</CodeBlock>
+
+## 2. Using your custom layout
+
+Now that we have a layout, we need to connect it with Contember,
+swap it anytime you need.
+
+<CodeBlock language="typescript" title="admin/components/Layout.tsx" metastring="{2,8}">
+	{_components_LayoutSource}
+</CodeBlock>

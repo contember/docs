@@ -1,0 +1,77 @@
+---
+title: Directives
+---
+
+import CodeBlock from '@theme/CodeBlock'
+import _components_DirectivesSource from '!!raw-loader!./_Example/components/Directives.tsx'
+import _components_LayoutSource from '!!raw-loader!./_Example/components/Layout.tsx'
+import _indexSource from '!!raw-loader!./_Example/index.tsx'
+
+# Directives
+
+Directives are React components that can be used to pass values (even rendered) to upper context
+and control your app from within the page—**to direct it what to do**, hence the name.
+
+:::tip You can render as many directives as you want, **the last one rendered wins**.
+This principle ensures the ability to **override the value of a directive from within
+any nested component.**
+
+You can use `Title` component that uses directive to control the title of your page at any nesting depth.
+You can render default `Title` component in the root of your route and override it in any nested component.
+:::
+
+## 1. Setting values with directive in the page
+
+To use a directive that will push value to the parent context just render the `Directive` component with the `name` and `content` props.
+
+```tsx title="admin/pages/example.tsx" {3,7,12}
+import * as React from 'react'
+import { CommonSlots } from '@contember/layout'
+import { Directive, Title } from '../components/Directives'
+
+export default () => (
+	<>
+		<Directive name="title" content="Page Title" />
+		<p>Some content</p>
+
+		<div>
+			<p>Nested content</p>
+			<Directive name="title" content="Override Page Title" />
+		</div>
+	</>
+)
+```
+
+## 2. Creating Directives
+
+To create a directive, you need to use the `createDirectiveContext` factory function.
+
+:::tip
+To make the usage of directives easier, you can create a shorthand component. For example, you can create a `Title` component that will render the `Directive` component with the `title` name.
+:::
+
+<CodeBlock language="typescript" title="admin/components/Directives.tsx" metastring="{1,13,16-18}">
+	{_components_DirectivesSource}
+</CodeBlock>
+
+## 3. Applying the directives in the layout
+
+To use the directives in the layout, you need to use the `useDirectives` hook.
+
+```tsx title="admin/components/Layout.tsx" {1,4,9}
+import { useDirectives } from "../Directives"
+
+export const Layout = ({ children: pages }: React.PropsWithChildren) => {
+	const directives = useDirectives()
+
+	return (
+		<>
+			<main>
+				<h1>{directives.title}</h1>
+			</main>
+
+			{pages}
+		</>
+	)
+}
+```

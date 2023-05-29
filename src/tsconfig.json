@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+		"composite": true,
+		"experimentalDecorators": true,
+		"isolatedModules": true,
+		"lib": ["esnext"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext"
+	}
+}

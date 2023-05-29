@@ -1,0 +1,49 @@
+---
+title: Overview
+---
+
+# Overview
+
+Contember comes with flexible and declarative layout controls to render content
+and control layout from within any rendered page — **Slots** and **Directives**.
+
+```tsx title="admin/pages/example.tsx" {3,4,6,10,12-14,16-18,20-22}
+import * as React from 'react'
+import { Button } from '@contember/admin'
+import { Directive } from '../components/Directives'
+import { Actions, Content, Sidebar } from '../components/Slots'
+
+const { Actions, Content } = CommonSlots
+
+export default () => (
+	<>
+		<Directive name="title" content="Example Page" />
+
+		<Actions>
+			<Button>Done</Button>
+		</Actions>
+
+		<Content>
+			<p>Some content</p>
+		</Content>
+
+		<Sidebar>
+			<p>Some sidebar content</p>
+		</Sidebar>
+	</>
+)
+```
+
+## Slots
+
+Slots are components built upon the React portals and they let you render content
+in predefined places of the layout.
+
+[Learn more about Slots](./slots)
+
+## Directives
+
+Directives are components that let you pass even rendered values to the upper context
+giving you the ability to control your app.
+
+[Learn more about Directives](./directives)

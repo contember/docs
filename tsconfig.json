@@ -8,8 +8,8 @@
 		"baseUrl": "."
 	},
 	"references": [
-		{
-			"path": "./api"
-		}
-	]
+		{ "path": "./api" },
+		{ "path": "./src" },
+		{ "path": "./docs" },
+	],
 }
