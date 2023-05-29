@@ -31,9 +31,6 @@ services:
       TENANT_MAILER_PORT: '1025'
       TENANT_MAILER_FROM: 'contember@localhost'
 
-    ports:
-      - '1481:4000'
-
     healthcheck:
       test: 'curl --fail http://localhost:4000'
       interval: 5s
@@ -71,9 +68,6 @@ services:
       POSTGRES_PASSWORD: 'contember'
       POSTGRES_DB: 'contember'
 
-    ports:
-      - '1482:5432'
-
     volumes:
       - pgsql-data:/var/lib/postgresql/data
 
@@ -91,16 +85,11 @@ services:
       MINIO_ROOT_PASSWORD: 'contember'
       MINIO_DEFAULT_BUCKETS: 'contember:download'
 
-    ports:
-      - '1483:9000'
-
     volumes:
       - minio-data:/data
 
   mailhog:
     image: mailhog/mailhog
-    ports:
-      - '1484:8025'
 
   adminer:
     image: michalhosna/adminer:4.8.0-en_v1
@@ -113,9 +102,6 @@ services:
       ADMINER_PASSWORD: 'contember'
       ADMINER_AUTOLOGIN: '1'
       ADMINER_NAME: 'Contember'
-
-    ports:
-      - '1485:8080'
 
     depends_on:
       postgres:

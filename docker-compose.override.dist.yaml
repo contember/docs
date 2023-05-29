@@ -1,0 +1,15 @@
+services:
+  contember-engine:
+    ports: [ '1481:4000' ]
+
+  postgres:
+    ports: [ '1482:5432' ]
+
+  minio:
+    ports: [ '1483:9000' ]
+
+  mailhog:
+    ports: [ '1484:8025' ]
+
+  adminer:
+    ports: [ '1485:8080' ]
