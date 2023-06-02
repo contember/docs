@@ -73,9 +73,9 @@ The Actions API provides several queries to retrieve information about events tr
 
 ### failedEvents query
 	
-	- Retrieves a list of failed events (failed or retrying).
-	- Events are sorted based on the last state change in descending order.
-	- Returns an array of `Event` objects that represent events with a failed state.
+- Retrieves a list of failed events (failed or retrying).
+- Events are sorted based on the last state change in descending order.
+- Returns an array of `Event` objects that represent events with a failed state.
 
 #### Example: retrieving failed events
 
@@ -93,8 +93,8 @@ Explore the `log` field to extract any relevant error messages and gain further 
 
 ### eventsToProcess query
 
-	- The  query returns events that are visible and awaiting processing (processing, created and retrying).
-	- The events are sorted based on visibility in ascending order.
+- The  query returns events that are visible and awaiting processing (processing, created and retrying).
+- The events are sorted based on visibility in ascending order.
 
 :::note
 Visibility refers to the point in time when an event becomes eligible for processing. Events with a timeout after failure may not immediately become visible.
@@ -117,8 +117,8 @@ query {
 
 ### eventsInProcessing: query
 
-	- The query returns events that are in the "processing" state.
-	- The events are sorted based on the lastStateChange property in ascending order.
+- The query returns events that are in the "processing" state.
+- The events are sorted based on the lastStateChange property in ascending order.
 
 #### Example: retrieving events in processing
 

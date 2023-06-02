@@ -2,9 +2,9 @@
 title: Actions
 ---
 
-Actions in Contember provide developers with a powerful way to monitor entity changes and invoke webhooks in response. With Actions, you can automate processes, integrate with external systems, and enhance your application's efficiency.
+Actions in Contember provide developers with a powerful way to keep track of entity changes and trigger webhooks in response. With the use of Actions, developers can automate workflows, interface with external systems, and optimize their application's overall performance.
 
-To define an Action, you utilize Contember's decorator syntax. Here's a sample definition to illustrate the structure:
+To configure an Action, you need to employ the decorator syntax provided by Contember. Below is an example of an Action definition to demonstrate its structure:
 
 ```javascript
 import { SchemaDefinition as def, ActionsDefinition as action } from "@contember/schema-definition"
@@ -26,29 +26,29 @@ export class Book {
 }
 ```
 
-In the provided sample, an Action is defined for the `Book` entity in Contember. This Action is configured to watch for creation, deletion and all changes in the `title` field of the `Book` entity, as well as any modifications `tags` relation, detecting when tags are added or removed from the book, or the tag name is changed. Whenever any of these watched fields or relations are modified, Contember triggers the specified webhook, allowing you to automate processes, integrate with external systems, or perform custom actions.
+In this example, we've defined an Action for the `Book` entity in Contember. The Action is set up to monitor the creation, deletion, and changes in the `title` field of the `Book` entity, along with modifications in the `tags` relation. It detects when tags are added or removed from a book, or when a tag's name changes. If any of these monitored fields or relations are altered, Contember triggers the assigned webhook. This enables the automation of workflows, integration with external systems, or execution of custom actions.
 
-In the following sections of this documentation, we'll delve deeper into configuring Actions, customizing payloads, exploring best practices, and more. Let's explore the full potential of Actions in Contember and optimize your development workflow.
+Subsequent sections of this documentation will provide a more detailed understanding of Actions, including how to configure them, customize payloads, utilize best practices, and more. Let's tap into the full capabilities of Actions in Contember and streamline your development process.
 
 - [Defining Actions](./definition.md)
 - [Managing Actions](./managing.md)
 - [Webhook invocation](./invocation.md)
 
-## Alpha feature
+## Alpha Stage Feature
 
-Please note that Actions are currently in the alpha stage in Contember 1.3 and everything is subject of change.
+Please be aware that Actions are part of Contember 1.3, which is currently in the alpha stage, and changes may occur.
 
-## EE only feature
+## Enterprise / Cloud Exclusive Feature
 
-Please note that feature is not included in the Contember open-source edition but is available as part of the Contember Enterprise Edition (EE).
+This feature is not included in the Contember open-source edition but is part of the Contember Enterprise Edition (EE). Actions can also be utilized with the Team (or higher) plan on Contember Cloud. 
 
-If you are using Contember Cloud, please reach out to us to enable the Contember 1.3 alpha release for your project. Additionally, note that access to the Actions requires a "team" or higher plan.
+As it's in Alpha, please contact us to enable Contember 1.3 and Actions for your project.
 
-## Local development
+## Local Development
 
-To utilize Actions in your Contember projects locally, you will need to use the `contember/engine-ee` Docker image to enable support for Actions. It is important to mention that the Contember EE is free to use for development and testing purposes. In order to fire webhooks and trigger the Actions, you must ensure that the Actions worker is enabled. To enable the Actions worker, you can set the `CONTEMBER_APPLICATION_WORKER` environment variable to 'all' in your Docker Compose configuration for the Contember Engine service.
+To use Actions in your local Contember projects, the `contember/engine-ee` Docker image is required. The Contember Enterprise Edition is freely available for development and testing purposes. To trigger webhooks and Actions, ensure that the Actions worker is enabled. The `CONTEMBER_APPLICATION_WORKER` environment variable can be set to 'all' in your Docker Compose configuration for the Contember Engine service.
 
-#### Updated Docker Compose configuration:
+#### Docker Compose configuration update:
 
 ```yaml
 services:
@@ -56,10 +56,9 @@ services:
     image: contember/engine-ee:1.3.0-alpha
     environment:
       CONTEMBER_APPLICATION_WORKER: 'all'
-      # other envs
+      # other environment variables
 ```
 
-In the updated configuration, we have changed the `image` field to `contember/engine-ee:1.3.0-alpha` to use the Contember Enterprise Edition (EE) version with Actions support. Additionally, we have added the `CONTEMBER_APPLICATION_WORKER` environment variable and set it to `'all'`.
+In this updated configuration, the `image` field has been changed to `contember/engine-ee:1.3.0-alpha`, enabling the use of the Contember Enterprise Edition (EE) with Actions support. The `CONTEMBER_APPLICATION_WORKER` environment variable has also been introduced and set to `'all'`.
 
-
-You can also manually control and fire webhooks using [Actions management API](./managing.md)
+You can also manually trigger webhooks using the [Actions management API](./managing.md).
