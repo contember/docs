@@ -14,14 +14,14 @@ After you update your schema, you need to create a migration for your change, ot
 There is a command to rescue you:
 
 ```bash
-npm run contember migrations:diff <project> <migration name>
+npm run contember migrations:diff <migration name>
 ```
 
 
 #### Example: creating a diff
 
 ```bash
-npm run contember migrations:diff my-blog add-categories
+npm run contember migrations:diff add-categories
 ```
 
 :::note
@@ -40,7 +40,7 @@ You can again verify individual migration steps using `migrations:describe`. You
 
 #### Example: explaining migrations steps
 ```bash
-npm run contember migrations:describe my-blog
+npm run contember migrations:describe
 ```
 
 ### Executing migrations using `migrations:execute`
@@ -51,7 +51,7 @@ If you've pulled new migrations from upstream, or you want to execute a migratio
 #### Example: executing migrations
 
 ```bash
-npm run contember migrations:execute my-blog
+npm run contember migrations:execute
 ```
 
 All the changes will be applied to both Contember schema and PostgreSQL database.
@@ -82,7 +82,7 @@ Note that all of these commands are available only on local Contember instance a
 
 Imagine you are developing a new feature. You've already created and applied schema migration. Later, you find you need another schema change related to the previous one.
 
-Instead of creating a new diff, you can use `migrations:amend my-blog` command, which updates most recent migration both on disk and on local Contember instance.
+Instead of creating a new diff, you can use `migrations:amend` command, which updates most recent migration both on disk and on local Contember instance.
 
 Reverting a schema changes and running `migrations:amend` results in removing the migration.
 
@@ -90,7 +90,7 @@ Reverting a schema changes and running `migrations:amend` results in removing th
 
 #### Example: amending latest migration
 ```bash
-npm run contember migrations:amend my-blog
+npm run contember migrations:amend
 ```
 
 #### Example: amending specific migration
@@ -98,7 +98,7 @@ npm run contember migrations:amend my-blog
 You can specify a migration to amend using additional argument.
 
 ```bash
-npm run contember migrations:amend my-blog 2022-01-17-101806-test
+npm run contember migrations:amend 2022-01-17-101806-test
 ```
 
 :::note 
@@ -107,11 +107,11 @@ If someone else has already run the migration, or it's deployed it won't be poss
 
 ### Rebasing a migration using `migrations:rebase`
 
-Before merging a branch with a new migration, you might find that a new migration appeared in an upstream. `migrations:rebase my-blog` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
+Before merging a branch with a new migration, you might find that a new migration appeared in an upstream. `migrations:rebase` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
 
 #### Example
 ```bash
-npm run contember migrations:rebase my-blog 2022-01-17-101806-test
+npm run contember migrations:rebase 2022-01-17-101806-test
 ```
 
 ### Force execution of out-of-order migrations
@@ -120,7 +120,7 @@ When you pull a code from the upstream, there might appear a new migration prece
 
 #### Example: force executing
 ```bash
-npm run contember migrations:execute my-blog --force
+npm run contember migrations:execute --force
 ```
 
 ## Writing or fixing migrations manually
