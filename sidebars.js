@@ -149,6 +149,16 @@ module.exports = {
 						"reference/engine/tenant/idp",
 					],
 				},
+				{
+					type: "category",
+					label: "Actions",
+					items: [
+						"reference/engine/actions/overview",
+						"reference/engine/actions/definition",
+						"reference/engine/actions/managing",
+						"reference/engine/actions/invocation",
+					],
+				},
 			]
 		},
 		'reference/cli',
