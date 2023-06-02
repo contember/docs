@@ -2,6 +2,10 @@
 title: Webhook invocation
 ---
 
+:::caution Alpha Feature
+Please note, the Actions feature is only available starting from version 1.3, which is currently in alpha. [Read more](./overview.md#alpha-stage-feature)
+:::
+
 # Webhook Invocation in Actions
 
 After a watched event on a monitored entity is registered, it is queued within the actions queue. The Actions worker waits for these events to be dispatched and triggers the corresponding webhooks configured for the events.

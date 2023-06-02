@@ -2,6 +2,10 @@
 title: Actions
 ---
 
+:::caution Alpha Feature
+Please note, the Actions feature is only available starting from version 1.3, which is currently in alpha. [Read more](./overview.md#alpha-stage-feature)
+:::
+
 Actions in Contember provide developers with a powerful way to keep track of entity changes and trigger webhooks in response. With the use of Actions, developers can automate workflows, interface with external systems, and optimize their application's overall performance.
 
 To configure an Action, you need to employ the decorator syntax provided by Contember. Below is an example of an Action definition to demonstrate its structure:

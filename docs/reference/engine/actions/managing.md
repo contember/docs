@@ -2,6 +2,10 @@
 title: Actions management
 ---
 
+:::caution Alpha Feature
+Please note, the Actions feature is only available starting from version 1.3, which is currently in alpha. [Read more](./overview.md#alpha-stage-feature)
+:::
+
 The Actions Management API in Contember provides a GraphQL interface for managing Action events and variables in your project. You can access the API by making GraphQL requests to the `/actions/<project-name>` endpoint, where `project-name` represents the name of your Contember project.
 
 ## Permissions
