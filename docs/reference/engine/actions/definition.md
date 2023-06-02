@@ -204,7 +204,7 @@ In this example, we use the `baseWebhookUrl` variable to define the base URL for
 
 Additionally, the example demonstrates the usage of the `{{apiKey}}` variable within the `headers` object. This enables you to dynamically set the authorization token for the webhook request, making it adaptable to different scenarios.
 
-The control and management of these variables will be further explained in the next section, [Managing Actions](./managing.ts), where you will learn how to handle variables and set their values.
+The control and management of these variables will be further explained in the next section, [Managing Actions](./managing.md), where you will learn how to handle variables and set their values.
 
 ### Using separate targets for shared configuration
 

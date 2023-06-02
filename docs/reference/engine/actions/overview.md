@@ -62,4 +62,4 @@ services:
 In the updated configuration, we have changed the `image` field to `contember/engine-ee:1.3.0-alpha` to use the Contember Enterprise Edition (EE) version with Actions support. Additionally, we have added the `CONTEMBER_APPLICATION_WORKER` environment variable and set it to `'all'`.
 
 
-You can also manually control and fire webhooks using [Actions management API](./managing.ts)
+You can also manually control and fire webhooks using [Actions management API](./managing.md)
