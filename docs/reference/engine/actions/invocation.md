@@ -12,7 +12,9 @@ After a watched event on a monitored entity is registered, it is queued within t
 
 ## Batching
 
-To optimize efficiency, multiple events targeting the same webhook can be batched together. By default, a batch consists of up to 20 events, but this value can be adjusted by configuring the `batchSize` property in the webhook definition. Batching allows the worker to process multiple events in a single invocation, reducing the overhead of individual HTTP requests.
+To optimize efficiency, events targeting the same webhook can be batched together, allowing for processing multiple events in a single invocation. By default, each batch contains a single event, and the event payload is wrapped in an array. However, you can adjust the `batchSize` property in the webhook configuration to specify the maximum number of events per batch.
+
+It's important to note that when processing a batch, all events within the batch are considered either successful or failed based on the HTTP response code. Currently, partial success for individual events within a batch is not supported. If any event in the batch fails, the entire batch is considered failed.
 
 ## Fetching events
 
