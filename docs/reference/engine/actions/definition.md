@@ -239,3 +239,32 @@ In this sample, a separate webhook target named `myOrderUpdateTarget` is defined
 To link the webhook target with an Action, the `target` property within the `@watch` decorator instead of the traditional `webhook` property. This facilitates referencing the shared webhook target for the specified Action. The remainder of the configuration, including the `name` and `watch` properties, stays consistent.
 
 This method also permits the disabling of the watch while retaining the target definition, enabling any pending events to be dispatched even when the watch is inactive.
+
+## Events Priority
+
+Contember Actions facilitates event prioritization in `watch` and `trigger` actions. Considering that events from various actions are stored and processed in a single queue, the ability to assign priority levels to certain events is significant. Higher priority ensures these events are processed ahead of others, which is especially beneficial for critical operations or time-sensitive tasks.
+
+To assign priority for a `watch` or `trigger` action, include the `priority` property in the action configuration. The `priority` value should be a positive integer, with higher values indicating higher priority. Consequently, events associated with a higher priority value will precede those with lower priority values during processing.
+
+Below is an example of assigning priority to a `watch` action:
+
+```typescript
+import { SchemaDefinition as def, ActionsDefinition as action } from "@contember/schema-definition"
+
+@action.watch({
+  name: 'book_watch',
+  watch: `
+    title
+    tags {
+      name
+    }
+  `,
+  webhook: 'https://example.com/webhook',
+  priority: 2
+})
+export class Book {
+  // Entity definition
+}
+```
+
+In this example, the `watch` action 'book_watch' is assigned a priority level of 2. Therefore, events triggered by changes in the 'title' or 'tags' fields of the 'Book' entity will have a processing priority level of 2 in the event queue.
