@@ -41,36 +41,6 @@ export class YourEntity {
 
 The `watch` property allows you to define the fields and relations that you wish to observe for changes. It is possible to watch individual fields of the entity and also specify nested fields within related entities. This facilitates the tracking of changes in fields such as strings, numbers, booleans, or timestamps, along with changes in relationships between entities.
 
-### Payload and Selection
-
-By default, the payload that is sent to the webhook encapsulates the changes that triggered the Action. However, you can personalize the payload by defining a `selection` property within the `@watch` decorator. The `selection` property enables you to incorporate specific fields in the payload, offering fine-grained control over the data dispatched to the webhook.
-
-Example: Defining a selection within a watch
-
-```typescript
-import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
-
-@actions.watch({
-	name: 'order_watch',
-	watch: `
-    status
-    customer {
-      name
-      email
-    }
-  `,
-	webhook: 'https://example.com/order/updated',
-	selection: `
-    status
-    customer {
-      name
-    }
-  `,
-})
-export class Order {
-	// Entity properties and relationships
-}
-```
 
 ## Defining a Trigger Action
 
@@ -127,6 +97,37 @@ export class Book {
 
 With the provided Trigger Action configuration, the webhook will be invoked whenever a new `Book` entity is created. The payload dispatched to the webhook will include the defined fields (`title` and `author.name`), allowing you to execute custom actions or alert external systems about the creation event.
 
+## Payload and Selection
+
+By default, the payload that is sent to the webhook encapsulates the changes that triggered the Action. However, you can personalize the payload by defining a `selection` property within both `@watch` and `@trigger` decorators. The `selection` property enables you to incorporate specific fields in the payload, offering fine-grained control over the data dispatched to the webhook.
+
+Example: Defining a selection within a watch
+
+```typescript
+import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
+
+@actions.watch({
+	name: 'order_watch',
+	watch: `
+    status
+    customer {
+      name
+      email
+    }
+  `,
+	webhook: 'https://example.com/order/updated',
+	selection: `
+    status
+    customer {
+      name
+    }
+  `,
+})
+export class Order {
+	// Entity properties and relationships
+}
+```
+
 ## Webhook Configuration
 
 The `webhook` property determines the URL where the webhook notification will be dispatched. This could be an external service or an endpoint within your own application that processes the webhook payload. 
@@ -136,7 +137,7 @@ The `webhook` property determines the URL where the webhook notification will be
 Instead of defining a simple string for the `webhook` property, you have the option to pass an object that allows for a more detailed configuration of the webhook. This feature gives you the ability to set additional headers, specify timeouts, manage retry attempts, and adjust the batching of webhook requests. Below is an example demonstrating how to leverage these advanced options:
 
 ```javascript
-import {SchemaDefinition as def, ActionsDefinition as actions} from "@contember/schema-definition"
+import { SchemaDefinition as def, ActionsDefinition as actions } from "@contember/schema-definition"
 
 @actions.watch({
   name: 'book_watch',
