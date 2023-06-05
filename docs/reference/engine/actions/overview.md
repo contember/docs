@@ -38,6 +38,10 @@ Subsequent sections of this documentation will provide a more detailed understan
 - [Managing Actions](./managing.md)
 - [Webhook invocation](./invocation.md)
 
+:::caution Direct database changes
+Contember tracks modifications made to data through the Contember Engine. It's important to be aware that if a user modifies data directly in the database bypassing Contember, such changes will not trigger the associated events. Events are only fired when modifications are performed using the Contember API or other supported mechanisms within the Contember ecosystem.
+:::
+
 ## Alpha Stage Feature
 
 Please be aware that Actions are part of Contember 1.3, which is currently in the alpha stage, and changes may occur.
