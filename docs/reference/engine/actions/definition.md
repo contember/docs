@@ -48,18 +48,18 @@ Trigger Actions in Contember serve as a lower-level alternative to watch-based A
 
 To define a Trigger Action, you attach the `@trigger` decorator to the entity class you wish to monitor.
 
-Here is the structure of the Trigger Action syntax:
+#### Example: Basic structure of a Trigger Action definition:
 
 ```typescript
 import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
 
 @actions.trigger({
   name: 'action_name',
-  create?: boolean,
-  delete?: boolean,
-  update?: boolean | readonly string[],
-  selection?: Actions.SelectionNode | string,
-  webhook: 'webhook_target'
+  create: true,
+  delete: true,
+  update: ['field_to_watch'], // or "true"
+	selection: 'optional_selection_for_payload',
+	webhook: 'webhook_url'
 })
 export class YourEntity {
   // Entity properties and relationships
