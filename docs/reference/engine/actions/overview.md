@@ -44,7 +44,7 @@ Please be aware that Actions are part of Contember 1.3, which is currently in th
 
 ## Enterprise / Cloud Exclusive Feature
 
-This feature is not included in the Contember open-source edition but is part of the Contember Enterprise Edition (EE). Actions can also be utilized with the Team (or higher) plan on Contember Cloud. 
+This feature is not included in the Contember open-source edition but is part of the Contember Enterprise Edition (EE). Actions can also be utilized with the Team (or higher) plan on Contember Cloud.
 
 As it's in Alpha, please contact us to enable Contember 1.3 and Actions for your project.
 
@@ -66,3 +66,7 @@ services:
 In this updated configuration, the `image` field has been changed to `contember/engine-ee:1.3.0-alpha`, enabling the use of the Contember Enterprise Edition (EE) with Actions support. The `CONTEMBER_APPLICATION_WORKER` environment variable has also been introduced and set to `'all'`.
 
 You can also manually trigger webhooks using the [Actions management API](./managing.md).
+
+:::caution Upgrading from previous Contember versions
+If you're upgrading from previous versions of Contember, you'll need to change the version in several places. One is the engine as seen above, another is the image for Contember CLI (`contember-cli`) and the last are packages for `@contember/schema` and `@contember/schema-definition`.
+:::
