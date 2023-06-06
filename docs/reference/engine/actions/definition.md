@@ -14,9 +14,11 @@ While working with Actions in Contember, please remember that any addition or mo
 
 ## Defining a Watch Action
 
-To define an Action, you employ Contember's decorator syntax. The `@watch` decorator is attached to the entity class you aim to observe for changes.
+The watch action in Contember Actions allows you to track and monitor specific changes within an entity. When you define a watch action, Contember automatically keeps track of the creation, deletion, and updates of the entity, as well as any changes made to the watched fields and relations.
 
-#### Example: Basic structure of an Action definition:
+To define a Watch Action, you employ decorator syntax. The `@watch` decorator is attached to the entity class you aim to observe for changes.
+
+#### Example: Basic structure of a Watch Action definition:
 
 ```javascript
 import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
@@ -36,11 +38,6 @@ export class YourEntity {
 - `watch`: Determines the fields and relations to track for changes. A GraphQL-like syntax can be used to designate the fields and relations to observe. This includes both direct fields of the entity as well as fields within related entities.
 - `webhook`: Provides the URL to which the webhook notification will be directed when changes occur. [see advanced configuration](#webhook-configuration)
 - `selection` (optional): Specifies the selection that will be dispatched in a payload.
-
-### Observing Fields and Relations
-
-The `watch` property allows you to define the fields and relations that you wish to observe for changes. It is possible to watch individual fields of the entity and also specify nested fields within related entities. This facilitates the tracking of changes in fields such as strings, numbers, booleans, or timestamps, along with changes in relationships between entities.
-
 
 ## Defining a Trigger Action
 
