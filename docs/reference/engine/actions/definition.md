@@ -19,7 +19,7 @@ To define an Action, you employ Contember's decorator syntax. The `@watch` decor
 #### Example: Basic structure of an Action definition:
 
 ```javascript
-import { SchemaDefinition as def, ActionsDefinition as action } from '@contember/schema-definition'
+import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
 
 @actions.watch({
   name: 'action_name',
@@ -48,7 +48,7 @@ By default, the payload that is sent to the webhook encapsulates the changes tha
 Example: Defining a selection within a watch
 
 ```typescript
-import { SchemaDefinition as def, ActionsDefinition as action } from '@contember/schema-definition'
+import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
 
 @actions.watch({
 	name: 'order_watch',
@@ -81,7 +81,7 @@ To define a Trigger Action, you attach the `@trigger` decorator to the entity cl
 Here is the structure of the Trigger Action syntax:
 
 ```typescript
-import { SchemaDefinition as def, ActionsDefinition as action } from '@contember/schema-definition'
+import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
 
 @actions.trigger({
   name: 'action_name',
@@ -106,7 +106,7 @@ export class YourEntity {
 #### Example: Defining a Trigger Action
 
 ```javascript
-import { SchemaDefinition as def, ActionsDefinition as action } from '@contember/schema-definition'
+import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
 
 @actions.trigger({
   name: 'book_created',
@@ -136,9 +136,9 @@ The `webhook` property determines the URL where the webhook notification will be
 Instead of defining a simple string for the `webhook` property, you have the option to pass an object that allows for a more detailed configuration of the webhook. This feature gives you the ability to set additional headers, specify timeouts, manage retry attempts, and adjust the batching of webhook requests. Below is an example demonstrating how to leverage these advanced options:
 
 ```javascript
-import {SchemaDefinition as def, ActionsDefinition as action} from "@contember/schema-definition"
+import {SchemaDefinition as def, ActionsDefinition as actions} from "@contember/schema-definition"
 
-@action.watch({
+@actions.watch({
   name: 'book_watch',
   watch: `
     title
@@ -181,9 +181,9 @@ Variables can be employed within the webhook URLs and header values of your Acti
 #### Example: Using variables in URL and headers:
 
 ```javascript
-import {SchemaDefinition as def, ActionsDefinition as action} from "@contember/schema-definition"
+import {SchemaDefinition as def, ActionsDefinition as actions} from "@contember/schema-definition"
 
-@action.watch({
+@actions.watch({
   name: 'book_watch',
   watch: `
     title
@@ -215,7 +215,7 @@ The managementof these variables are explained in greater detail in the upcoming
 Contember enables the use of an alternative syntax that separates webhook targets for shared webhook configurations. This method promotes the reuse of identical webhook configurations across multiple Actions, granting flexibility for enabling or disabling watches, while preserving the target definition. Here's an example illustrating this syntax:
 
 ```javascript
-import {SchemaDefinition as def, ActionsDefinition as action} from "@contember/schema-definition"
+import {SchemaDefinition as def, ActionsDefinition as actions} from "@contember/schema-definition"
 
 export const myOrderUpdateTarget = actions.createTarget({
   name: 'my_order_update_target',
