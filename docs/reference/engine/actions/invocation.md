@@ -32,13 +32,6 @@ By default, Contember appends the following headers to the webhook request:
 
 These headers identify the source of the webhook request and specify the format of the payload.
 
-## Timeout and Retry Handling
-
-A timeout is enforced for webhook completion to ensure timely processing. By default, the timeout is set to 30 seconds, but it can be adjusted in the webhook configuration (using `timeoutMs` prop). If a webhook fails to respond within the specified timeout, all events in the batch are marked as "retrying." Similarly, if the webhook does not respond with an HTTP status code in the 2xx range, the events are also marked as "retrying." This mechanism helps to handle failures and retries automatically, ensuring robust event processing.
-
-Contember follows a retry strategy for events marked as "retrying." By default, the initial repeat interval between retry attempts is set to 5,000 milliseconds (can be changed using `initialRepeatIntervalMs` webhook prop), and it follows an exponential backoff strategy for subsequent retries. The interval between retries doubles with each attempt until the maximum number of attempts is reached. The maximum number of attempts is set to 10 (`maxAttempts` prop in webhook configuration), meaning 
-Contember will attempt to send the webhook request a maximum of 10 times before considering it as a failure.
-
 ## Request payload
 
 When a batch of events is dispatched and the corresponding webhook is invoked, the payload sent to the webhook contains a field named `events`. This field holds an array of event payloads representing the batched events. Each event payload follows a specific structure based on the type of event triggered.
@@ -187,3 +180,53 @@ export type JunctionDisconnectEvent = {
 	inverseId: PrimaryValue
 }
 ```
+
+## Processing timeout 
+
+A timeout is enforced for webhook completion to ensure timely processing. By default, the timeout is set to 30 seconds, but it can be adjusted in the webhook configuration (using `timeoutMs` prop). If a webhook fails to respond within the specified timeout, all events in the batch are marked as "retrying." 
+
+## Response Processing
+
+When processing the response received from a webhook invocation, Contember follows specific rules to determine the success or failure of the batched events. Here's an overview of the response processing rules:
+
+1. **Not-OK Response Status**: If the HTTP response status is considered not OK, meaning it falls outside the range of 2xx, the entire batch is considered unsuccessful. The response received is stored in the `log` field of each event, providing information about the failure.
+
+2. **OK Response Status with Empty Body**: If the HTTP response status is OK (2xx) and the response body is empty, the entire batch is considered successful.
+
+3. **OK Response Status with Non-Empty Body**: If the HTTP response status is OK (2xx) and the response body is not empty, the response is expected to contain a JSON object with a `failures` field.
+
+	- **Invalid Response Structure**: If the response structure is invalid, either due to it not being valid JSON or not matching the expected format, the entire batch is considered unsuccessful.
+
+	- **Invalid `eventId`**: If the response contains an invalid `eventId` that does not match any event in the batch, the entire batch is considered unsuccessful.
+
+	- **Valid Response Structure**: If the response structure is valid and the `eventId` matches an event in the batch, the events specified in the `failures` field are marked as unsuccessful, while the remaining events are marked as successful.
+
+
+Following the processing of the response, the standard retry mechanism is applied to the events that were marked as unsuccessful. This ensures that the unsuccessful events are retried according to the configured retry logic, allowing for subsequent attempts to process them successfully.
+
+Example: webhook response payload with the `failures` field indicating event failures:
+
+```json
+{
+  "failures": [
+    {
+      "eventId": "f4f0a97d-7850-4add-8946-a1ce016306ce",
+      "error": "Invalid input"
+    },
+    {
+      "eventId": "a2b1c3d4-5678-90e1-2345-678f9g0h12i",
+      "error": "Service not available"
+    }
+  ]
+}
+```
+
+In this example:
+
+- Two events within the batch are marked as failures.
+- The `eventId` field uniquely identifies each failed event. This id matches the `eventId` in a `meta`.
+- The `error` field provides additional information about the cause of the failure, such as an error message or a specific reason for the event processing failure.
+
+## Retries
+
+Contember follows a retry strategy for events marked as "retrying." By default, the initial repeat interval between retry attempts is set to 5,000 milliseconds (can be changed using `initialRepeatIntervalMs` webhook prop), and it follows an exponential backoff strategy for subsequent retries. The interval between retries doubles with each attempt until the maximum number of attempts is reached. The maximum number of attempts is set to 10 (`maxAttempts` prop in webhook configuration), meaning Contember will attempt to send the webhook request a maximum of 10 times before considering it as a failure.
