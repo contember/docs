@@ -1,3 +1,4 @@
+import { DropdownContentContainerProvider } from "@contember/admin"
 import {
   commonSlotTargets,
   CommonSlotTargets,
@@ -31,6 +32,8 @@ export function MyCustomLayout() {
       </aside>
       <footer className="layout__footer">
       </footer>
+      <DropdownContentContainerProvider />
+      <div id="portal-root" />
     </div>
   )
 }
