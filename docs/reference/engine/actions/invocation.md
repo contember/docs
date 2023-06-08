@@ -39,30 +39,35 @@ A timeout is enforced for webhook completion to ensure timely processing. By def
 Contember follows a retry strategy for events marked as "retrying." By default, the initial repeat interval between retry attempts is set to 5,000 milliseconds (can be changed using `initialRepeatIntervalMs` webhook prop), and it follows an exponential backoff strategy for subsequent retries. The interval between retries doubles with each attempt until the maximum number of attempts is reached. The maximum number of attempts is set to 10 (`maxAttempts` prop in webhook configuration), meaning 
 Contember will attempt to send the webhook request a maximum of 10 times before considering it as a failure.
 
-## Payload
+## Request payload
 
-When a batch of events is dispatched and the corresponding webhook is invoked, the payload sent to the webhook contains a field named `events`. This field holds an array of event payloads representing the batched events. Each event payload follows a specific structure based on the type of event triggered. 
+When a batch of events is dispatched and the corresponding webhook is invoked, the payload sent to the webhook contains a field named `events`. This field holds an array of event payloads representing the batched events. Each event payload follows a specific structure based on the type of event triggered.
+ 
 
 #### Example: webhook body
 ```json5
 {
-		"events": [ 
-				{
-						"id": "...",
-						"entity": "...",
-						"type": "watch",
-						// ...
-				},
-				/// other events
-		]
+  "events": [ 
+    {
+      "id": "...",
+      "entity": "...",
+      "type": "watch",
+      // ...
+    },
+    /// other events
+  ]
 }
 ```
+
+:::note
+Even when a batch is configured to contain only a single event, it is still sent in the `events` field as an array with a single item. This consistent structure allows for unified handling of batched events, ensuring consistent processing logic regardless of the number of events in the batch.
+:::
 
 ### Watch Event Payload
 
 A `watch` event payload represents a change in the watched entity and provides detailed information about the change. Here is the structure of a `watch` event payload:
 
-- `id` (string): The unique identifier of the entity event.
+- `id` (string or int): The unique identifier of the entity event.
 - `entity` (string): The entity type of the watched entity.
 - `events` (array of objects): An array of event payloads representing the changes in the watched entity. Each event payload has the following properties:
 	- `id` (string): The unique identifier for the event.
@@ -73,6 +78,7 @@ A `watch` event payload represents a change in the watched entity and provides d
 - `trigger` (string): The name of the trigger associated with the event.
 - `operation` (string): The operation type of the event, which is set to `watch` for a watch event.
 - `selection` (object): Custom payload defined by `selection` on a watch definition
+- `meta` (object): [see event meta](#event-metadata)
 
 #### Example: payload of a `watch` event payload for a `Book` entity:
 
@@ -102,11 +108,12 @@ In this example, the `watch` event payload represents an update operation on a `
 
 Trigger event payloads represent payloads for events invoked by `trigger` and contains individual basic events.
 
-- `id` (string): The unique identifier for the entity.
+- `id` (string or int): The unique identifier for the entity.
 - `entity` (string): The entity type associated with the event.
 - `operation` (string): The type of operation performed on the entity. Possible values are `create`, `update`, `delete`, `junction_connect`, or `junction_disconnect`.
 - `selection` (object, optional): Additional information about the selected fields in the event, if specified in the event configuration.
-- [other fields based on operation type](#basic-events) 
+- `meta` (object): [see event meta](#event-metadata)
+- [other fields based on operation type](#basic-events)
 
 Here's an example of a basic event payload for an `update` operation on a `Book` entity:
 
@@ -126,6 +133,17 @@ Here's an example of a basic event payload for an `update` operation on a `Book`
 
 In this example, the basic event payload represents an `update` operation on a `Book` entity. It includes the updated values of the `title` and `author` properties. The `operation` is set to `update`, and the `id` identifies the specific book entity. The `selection` and `path` properties are optional and provide additional context or information about the event within the entity graph.
 
+## Event Metadata
+
+Each event within the webhook payload contains metadata that provides essential information about the event. The event metadata, available under the `meta` field, includes the following properties:
+
+- `eventId` (UUID string): A unique identifier for the event. This identifier can be used to track and reference the event throughout your system.
+- `transactionId` (UUID string): The identifier for the transaction associated with the event. This can be helpful for managing the event within a transactional context.
+- `createdAt` (ISO 8601 string): The timestamp indicating when the event was created. It represents the moment when the event was initially recorded.
+- `lastStateChange` (ISO 8601 string): The timestamp of the last state change for the event. It indicates when the event's state was last modified or updated.
+- `numRetries` (int): The number of times the event has been retried. This count can help you track the number of retry attempts made for the event.
+- `trigger` (string): The name of the trigger or watch that caused the event.
+- `target` (string): The name of target associated with the event.
 
 ### Basic events
 
