@@ -25,7 +25,7 @@ const config = {
 				additionalLanguages: ['typescript'],
 			},
 			colorMode: {
-				disableSwitch: false,
+				disableSwitch: true,
 				respectPrefersColorScheme: true,
 			},
 			algolia: {
@@ -36,17 +36,39 @@ const config = {
 			},
 			navbar: {
 				title: '',
+				hideOnScroll: true,
 				logo: {
 					alt: 'Contember Logo',
 					src: 'img/contember-horizontal-blue.svg',
 					srcDark: 'img/contember-horizontal-white.svg',
 					href: 'http://www.contember.com/',
-					target: '_self'
+					target: '_self',
+					style: { padding: '4px' }
 				},
 				items: [
 					{
+						to: 'https://docs.contember.com',
+						label: 'Docs',
+						position: 'left',
+					},
+					{
+						to: 'https://blog.contember.com',
+						label: 'Blog',
+						position: 'left',
+					},
+					{
+						to: 'https://github.com/orgs/contember/discussions',
+						label: 'Support',
+						position: 'left',
+					},
+					{
 						href: 'https://github.com/contember',
 						label: 'GitHub',
+						position: 'right',
+					},
+					{
+						href: 'https://www.youtube.com/@cntmbr',
+						label: 'YouTube',
 						position: 'right',
 					},
 				],
@@ -74,7 +96,7 @@ const config = {
 				},
 			],
 			footer: {
-				copyright: `Copyright © ${new Date().getFullYear()} Contember.com. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Contember.com`,
 			},
 		}),
 	presets: [
