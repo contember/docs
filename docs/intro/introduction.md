@@ -1,6 +1,7 @@
 ---
 title: Get Started
 slug: /
+hide_table_of_contents: true
 ---
 
 Welcome to Contember! Contember is an **open-source platform** designed to help you easily build and run custom web applications.

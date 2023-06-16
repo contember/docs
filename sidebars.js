@@ -20,7 +20,7 @@ module.exports = {
 		{
 			type: "category",
 			label: "Contember Interface",
-			collapsed: false,
+			collapsed: true,
 			link: {
 				type: 'generated-index',
 				title: 'Interface',
@@ -34,7 +34,7 @@ module.exports = {
 				{
 					type: "category",
 					label: "Components",
-					collapsed: false,
+					collapsed: true,
 					items: [
 						'reference/admin/components/value-rendering',
 						'reference/admin/components/relationship-components',
@@ -97,7 +97,7 @@ module.exports = {
 		{
 			type: "category",
 			label: "Contember Engine",
-			collapsed: false,
+			collapsed: true,
 			link: {
 				type: 'generated-index',
 				title: 'Engine',
@@ -106,7 +106,7 @@ module.exports = {
 				{
 					type: "category",
 					label: "Schema",
-					collapsed: false,
+					collapsed: true,
 					items: [
 						"reference/engine/schema/overview",
 						"reference/engine/schema/columns",
@@ -165,7 +165,7 @@ module.exports = {
 		{
 			type: "category",
 			label: "Guides",
-			collapsed: false,
+			collapsed: true,
 			link: {
 				type: 'generated-index',
 				title: 'Guides',
