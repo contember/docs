@@ -24,6 +24,11 @@ const config = {
 				theme: require('prism-react-renderer/themes/nightOwl'),
 				additionalLanguages: ['typescript'],
 			},
+			docs: {
+				sidebar: {
+					hideable: false,
+				},
+			},
 			colorMode: {
 				disableSwitch: true,
 				respectPrefersColorScheme: true,
