@@ -1,7 +1,5 @@
 ---
-title: Introduction to Contember
-slug: /
-hide_table_of_contents: true
+title: Installation
 ---
 
 Welcome to Contember! Contember is an **open-source platform** designed to help you easily build and run custom web applications.

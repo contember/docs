@@ -8,7 +8,12 @@ module.exports = {
 				{
 					type: "doc",
 					id: "intro/introduction",
-					label: "Introduction",
+					label: "Overview",
+				},
+				{
+					type: "doc",
+					id: "intro/installation",
+					label: "Installation",
 				},
 				"intro/how-it-works",
 				"intro/quickstart",
