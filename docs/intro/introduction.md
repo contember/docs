@@ -1,43 +1,59 @@
 ---
-title: Introduction to Contember
+title: Introduction
 slug: /
-hide_table_of_contents: true
 ---
 
-Welcome to Contember! Contember is an **open-source platform** designed to help you easily build and run custom web applications.
+Contember is an open-source platform designed for rapid development of data-driven web applications.
 
-:::tip new
+## What is Contember
 
-Now we've built **Contember Studio**. It uses AI to instantly turn your description into a functional web app in Contember platform. You get the code so then you can change just about anything. [Request early access](https://rik9zhzhn1g.typeform.com/to/UWv1lamK).
+With Contember, you can structure your data models using TypeScript and Contember Engine will instantly provide a GraphQL API for your data. Meanwhile, Contember Interface, a React framework, enables you to build bespoke user interfaces with high-level React components in hours.
 
-If you've already been invited, generated your project, and are seeking guidance on making your first changes, [here's the guide](/intro/studio-quickstart) you need.
+Behind the scenes, Contember takes care of technical aspects like generating a well-structured PostgreSQL database, handling automatic database migrations, and providing a built-in authentication and powerful role-based access control list. This means you can concentrate on building your application, rather than getting lost in setup and configurations.
+
+Whether you're developing on your own or as part of a team, Contember makes it easy to build custom backends, headless CMSes, customer relationship systems, employee portals, or other management apps.
+
+:::tip New: Contember Studio
+
+Meet Contember Studio, an AI tool that rapidly turns your brief app description into a working prototype on the Contember platform. From there, you have complete freedom to modify every detail in the code to suit your needs. Contember Studio is an effortless way to kickstart your projects and get feedback on day one. [Request early access](https://rik9zhzhn1g.typeform.com/to/UWv1lamK).
 
 :::
 
-Contember platform is comprised of the following components:
+---
 
-- **Contember Engine** is a server that automatically generates a GraphQL API to read and manage your data. By defining your own data model using TypeScript, the Engine quickly transforms it into a GraphQL API. This standalone server offers an extensive GraphQL API for your data, which we call the [Content API](/reference/engine/content/overview). Additionally, the Contember API provides a [Tenant API](/reference/engine/tenant/overview) for handling authentication and authorization, allowing you to control who can access your data and how they can interact with it.
-- **[Contember Interface](/reference/admin/introduction)** is a React SDK that enables you to create custom user interfaces using React. By defining your own management UI with high-level React components, your interface will [automatically connect](/reference/admin/data-binding/overview) to the GraphQL API provided by the Contember Engine. This means you can declaratively build user interfaces without having to write a single GraphQL query.
+## Main features
 
-### Most important features
+| Feature | Description |
+|---|---|
+| **[Declarative role-based access control](/reference/engine/schema/acl.md)** | Build secure apps with numerous roles and granular data access controls. This helps you create secure apps with complex access requirements. |
+| **[Instant GraphQL API](/reference/engine/content/overview.md)** | Automatically get high-performant, role-specific GraphQL APIs, accelerating feature development and allowing easy data utilization with any framework or language. |
+| **Data Binding in Contember Interface** | Automated data binding from GraphQL server to React components removes manual data fetching or updating work. This makes creating a custom interface a breeze. |
+| **Actions for data changes** (new in Engine v1.3) | Automate workflows, integrate with external systems, and enhance performance with Actions. |
+| **Extendable with your React.js components** | Beyond out-of-the-box React components, Contember Interface lets you use React's full power to customise your applications. |
+| **[Built-in authentication and authorization](/reference/engine/tenant/overview.md)** | Skip integrating third-party auth solutions and spend more time developing. |
+| **[Automatic database migrations](/reference/engine/schema/migrations.md)** | Database schema changes are handled smoothly, reducing update risks. |
+| **Well-structured PostgreSQL database** | Focus on development, not database setup. We ensure that your data is organized and efficient, making it easier to manage and maintain. |
+| **Everything is code** | Manage and deploy your entire application with version control systems like Git, simplifying multi-environment setups. |
+| **Multi-language, translatable** | Build global-ready apps with ease thanks to multi-language support. |
+| **History API** | A detailed event log automatically tracks data changes. |
 
-- **Powerful role-based [access control](/reference/engine/schema/acl.md)**: Define an unlimited number of roles and enforce cell-level security. This feature allows you to maintain strict control over who can access specific data, enhancing the security of your application.
-- **Generates well-structured PosgreSQL database**: Ensures that your data is organized and efficient, making it easier to manage and maintain.
-- **Instantly provides a [GraphQL API](/reference/engine/content/overview.md) for every operation**: GraphQL APIs are automatically scoped for each role, allowing you to perform operations with ease and keep the API secure for different users.
-- **Built-in [authentication](/reference/engine/tenant/overview.md)**: Securely manage user access without the need for additional authentication solutions.
-- **Automatic database [migrations](/reference/engine/schema/migrations.md)** Streamline the process of updating your database schema, reducing the risk of errors and making it easier to implement changes.
-- **Multi-language, translatable**: Easily create applications that cater to a global audience by supporting multiple languages.
-- **Fully extendable with your own React.js components**: Customize and enhance your application's user interface with ease, tailoring it to your specific needs.
+---
+
+## Why we build Contember
+
+Building custom web apps is more challenging than necessary, particularly for small teams or individual developers tasked with maintaining complex code bases over time. At Contember, we're challenging this status quo.
+
+We envision a world where everyone can become a full-stack developer, and where backend and frontend specializations aren't prerequisites for creating robust applications. Our declarative framework is central to this vision. But we're pushing boundaries even further with Contember Studio, an innovative AI tool that allows users to craft a functional first version of their app in mere minutes. This allows developers to focus on what really matters: creating apps that solve problems and delight users.
+
+Although the expanding complexity of web development allows for building remarkable things, it comes with a cost. Our goal at Contember is to simplify, streamline, and democratize web app development. We're here to empower you to build the web apps you need, and to bring the joy back into the building process.
+
+---
+
+## License
 
 
-### Why Contember
 
-We're on a mission to make building and running custom web apps accessible to everyone. With over 15 years of experience in web development, we understand the challenges involved in creating, maintaining, and evolving web applications over time. We've used this knowledge to build the Contember platform with the following principles in mind:
-
-- **Minimal lines of code**: Create powerful applications using as few lines of code as possible, reducing complexity and making it easier to develop and maintain your app.
-- **Everything is code (TypeScript and React)**: Embrace development best practices such as version control with Git and continuous integration/continuous deployment (CI/CD) workflows.
-- **Flexible data structure**: Contember doesn't impose any arbitrary collections or posts. Instead, you can create any entities you want with attributes and relationships that suit your needs. Schema overview
-- **No vendor lock-in**: Contember is open-source, meaning you have the freedom to modify and adapt the platform to your specific requirements without being restricted by proprietary software.
+---
 
 :::tip What's next
 
