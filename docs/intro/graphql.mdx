@@ -1,0 +1,51 @@
+---
+title: Data handling with GraphQL
+---
+
+GraphQL is a query language for APIs and a runtime for executing those queries with your existing data. It's designed to give the client the power to ask for exactly what they need and nothing more.
+
+Here's why we think GraphQL is great:
+
+- Precise Data Fetching: With GraphQL, you can specify exactly what data you need, which can significantly decrease the amount of data being transferred over the network and speed up your applications.
+
+- Single Request: Unlike traditional REST APIs where you might need to make multiple requests to different endpoints to gather related data, GraphQL allows you to gather that same data in a single request.
+
+- Type Safety: GraphQL schemas are strongly typed. This means each level of your query has a specific type associated with it, which helps eliminate errors and bugs that are typically harder to find.
+
+- Evolving API: GraphQL can be version-free, meaning it is easy to add fields and types to your API without breaking existing queries.
+
+In this section of the tutorial, we will cover the basics of working with GraphQL within your Contember project, helping you understand how to fetch and manipulate data efficiently.
+
+:::note important
+
+We assume that you already have a Contember project with your data model running on your machine.
+
+:::
+
+## Understanding Content and Tenant APIs
+
+Contember offers two distinct APIs: the Content API for managing and accessing your project's content, and the Tenant API for handling projects, tokens, users, and roles.
+
+## Exploring Content and Tenant APIs
+
+Contember offers two distinct APIs: the Content API for managing and accessing your project's content, and the Tenant API for handling projects, tokens, users, and roles.
+
+### Content API
+
+The Content API, a GraphQL API, is tailored to the structure of your project's content. It's available at the URL formatted as https://engine-hostname/content/{project}/{stage}, for example, http://localhost:1481/content/my-blog/live. Access requires an access token with adequate permissions, obtained from the Tenant API. This token, appearing something like `44d7dd8ae4a45c33eaa309716e41e1a8476cda4f`, should be passed in the Authorization header as a Bearer token.
+
+The Content API's GraphQL schema respects your project's ACL rules, meaning it will only include types, fields, and mutations permissible for the user linked to the access token. For instance, a read-only role for a mobile app would result in the API excluding all mutations for this role.
+
+Each entity allows for three types of queries: "get" for fetching single records by a unique field, "list" for a straightforward list, and "paginate" for Relay-style pagination. The "get" query requires a "by" parameter for filtering by a primary column or any unique columns, while "list" provides options such as complex condition filtering, result ordering, and paging via a limit and offset.
+
+### Tenant API
+
+The Tenant API, accessible via the URL https://engine-hostname/tenant, necessitates a Bearer token in the Authorization header.
+
+The Tenant API facilitates user logins and registrations, membership management, and more. We'll not delve into specifics in this basic guide, but you can [learn more about working with the Tenant API](/reference/engine/tenant/overview).
+
+## Querying the Content API
+
+You can interact with GraphQL API anywhere. But for basic exploring we suggest using the [Insomnia](https://insomnia.rest/) application for which we created a project for quick API testing.
+
+You can <a href="/assets/insomnia-quickstart.json" target="_blank">download the project here</a> and import it into Insomnia by drag-and-drop. This will allow you to swiftly test and explore your API's functionality.

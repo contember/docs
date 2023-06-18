@@ -1,77 +1,27 @@
 ---
-title: Quickstart
+title: Designing your data model
 ---
 
-:::tip Tip
+Your data model forms the backbone of your Contember application. From this model, Contember automatically generates a well structured PostgreSQL database for your and instantly provides a ready-to-use GraphQL API.
 
-If you're want to quickly see what Contember can do, check out our [starter kits](https://github.com/contember/starter-kits).  It's the easiest way to try out what Contember can do in minutes.
+Contember gives you the flexibility to shape your data model according to your application's specific needs. It offers a wide variety of [supported data types](https://docs.contember.com/reference/engine/schema/columns) and allows you to define [relationships between your entities](https://docs.contember.com/reference/engine/schema/relationships). There are no mandatory structures imposed on you, which means you can design your data model in the most effective way for your project.
 
-:::
+:::note important
 
-## Create new project with Contember
-
-In this tutorial we will show you how to setup both Contember Engine and Contember Interface to create your first project.
-
-:::note Prerequisites
-
-- Installed [NPM](https://www.npmjs.com/) version 7+
-- Installed [Docker](https://docs.docker.com/install/) with [Docker Compose](https://docs.docker.com/compose/install/) version 1.27+
+Make sure you have already followed our [installation guide](/intro/installation) and have a new project running on your local machine.
 
 :::
 
-```bash
-npm exec "@contember/create@latest" quickstart
-```
+After following our installation guide and having your project running on your local machine, you will notice the folder structure, which serves specific purposes:
 
-It will create a new folder with basic Contember setup. After it is done:
-
-```bash
-cd quickstart
-```
-
-And then install dependencies:
-
-```bash
-npm install
-```
-
-And you're ready to go. Just start Docker containers and Contember will be running.
-
-```bash
-npm start
-```
-
-Now, project interface should be running on address [http://localhost:1480](http://localhost:1480).
-
-![administration is running](/assets/quickstart-intro.png)
-
-:::note Started services
-
-- Your application at [http://localhost:1480](http://localhost:1480)
-- API endpoints at [http://localhost:1481](http://localhost:1481) (you can authorize with token `0000000000000000000000000000000000000000`)
-
-In case you run ARM64 architecture, make sure you have checked `Use Rosetta for x86/amd64 emulation on Apple Silicon` in Docker Desktop settings/Features in development.
-
-For advanced use-cases there is also:
-
-- Adminer database management tool at [http://localhost:1485](http://localhost:1485).
-- Minio local S3 provider at [http://localhost:1483](http://localhost:1483) (you can sign in with contembeer / contember credentials).
-- Mailhog testing SMTP at [http://localhost:1484](http://localhost:1484).
-- PostgreSQL database at [localhost:1482](localhost:1482) (you can sign in with contember / contember credentials).
-
-:::
-
-## Create first project
-
-From the first step you should have a folder structure that looks like this:
+- The `admin` folder houses the user intefrace of your application. It contains all the scripts, styles, and assets required to create your application's interface.
+- The `api` folder is where you define your data model, user roles, access control rules and Actions.
 
 ```
 your_project_name/
   ├── admin/
   │   ├── components/
   │   ├── pages/
-  │   ├── .env.development
-  │   ├── .env.production
   │   ├── index.html
   │   ├── index.tsx
   │   ├── tsconfig.json
@@ -83,16 +33,35 @@ your_project_name/
   │   ├── index.ts
   │   └── tsconfig.json
   ├── docker-compose.yaml
-  ├── documentation.md
   ├── package.json
   └── tsconfig.json
 ```
 
 ## Create your first data model
 
-First you have to tell Contember Engine, how your data model looks like. The `init` command automatically created `api/model/index.ts` file, so go there.
+### Define data model
 
-Here you start defining your project schema. Really simple example looks like this:
+When we installed Contember it already created the structure above. Let's go to `api/model/index.ts` file. It looks like this:
+
+```ts
+import { SchemaDefinition as def } from '@contember/schema-definition'
+
+// export your model definition here
+
+export { } // you can delete this line once you export your first entity
+```
+
+Let's define our first entity.
+
+:::note What is entity
+
+An entity represents a real-world object that is relevant to the system or application you are building. Each entity has properties that define its characteristics.
+
+For instance, if you were building a blog platform, some of the entities could be `Article`, `Author`, `Comment`, etc. An `Article` entity might have properties like `title`, `content`, `published_date`, while an `Author` might have `name`, `email`, `bio`, and so on.
+
+:::
+
+In this example, we'll define entity `Article` with two properties: `title` and `content`, which are both of type string. <span class="smallNote">In real life we would obviously want it a bit different, but this is a very basic example designed to quickly show you how to work with Contember.</span>
 
 ```ts title="api/model/index.ts"
 import { SchemaDefinition as def } from '@contember/schema-definition'
@@ -103,14 +72,25 @@ export class Article {
 }
 ```
 
-1. Import `SchemaDefinition` so you'll get TypeScript autocompletion.
-2. Define your first entity - `Article`. For this example let's just add two columns named `title` and `content`, both are `string`.
+### Generate and run migration
 
-Then you need to generate a database migration for Contember Engine:
+After defining your data model, you need to generate and execute a migration for Contember Engine. Until migration is executed, no changes are applied to your database and GraphQL API.
+
+:::note What are migrations
+
+Migrations are a way of version controlling your database schema. They provide a systematic approach to evolve your database schema over time, instead of making ad-hoc changes. This makes it easier to coordinate changes to the schema across a development team, especially when multiple developers are working on the same project and need to keep their local databases in sync.
+
+:::
+
+To generate a new database migration is simple. Just run command:
 
 ```bash
 npm run contember migrations:diff add-article
 ```
+
+Run this command and choose an option `Yes and execute immediately`. It will create your migration and after confirmation execute it.
+
+Now if you would look into your database, you would see there a table `article` with three columns: `id`, `title`, `content`. Nice.
 
 :::note Contember CLI
 
@@ -120,150 +100,10 @@ This command needs two parameters: first is name of your project (`quickstart` i
 
 :::
 
-Run this command and choose an option `Yes and execute immediately`. It will create your migration and after confirmation execute it. Now if you would look into your database, you would see there a table `article` with three columns: `id`, `title`, `content`. Nice.
+Now we have a structure in our database and GraphQL API is available.
 
-## Create your administration UI
-
-Now we have something we want to edit in UI. Let's start by adding a listing page for our articles.
-
-### Add listing page
-
-Go to `admin/pages` and create new file `articleList.tsx`.
-
-```tsx title="admin/pages/articleList.tsx"
-import * as React from 'react'
-import { DataGridPage, TextCell } from '@contember/admin'
-
-export default () => (
-  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
-    <TextCell field="title" header="Title" />
-  </DataGridPage>
-)
-```
-
-1. Import `@contember/admin` package for TypeScript autocompletion.
-2. Export page component as default export.
-3. Use `DataGridPage` component to show the data in a simple datagrid.
-4. Tell it which entities you'd like to edit. In our case it's `Article` (it has to be the same name we used in the model).
-5. Use `TextCell` to add text column.
-
-If you go to [localhost:1480/article-list](http://localhost:1480/article-list) you'll see list of your articles. Which is empty as we didn't add any data there yet.
-
-Let's add some data.
-
-### Add create page
-
-```tsx title="admin/pages/articleCreate.tsx"
-import * as React from 'react'
-import { CreatePage, RichTextField, TextField } from '@contember/admin'
-
-export default () => (
-  <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </CreatePage>
-)
-```
-
-1. We'll create a new file named `articleCreate.tsx`.
-2. This time we'll use `CreatePage` component.
-3. We'll tell it what we want to add (`Article`).
-4. We'll use two new components - `TextField` and `RichTextField` and tell them what fields to edit.
-
-Now at [localhost:1480/article-create](http://localhost:1480/article-create) you can create new article. And if you go to the [list of articles](http://localhost:1480/article-list) you'll see the data are there.
-
-But it doesn't work very well. One of the things missing is to go to edit mode after you created a new article. So let's start by adding an edit page:
-
-### Add edit page
-
-We'll create a new page named `articleEdit`. It looks almost the same as the create page - but we have to tell it which article to edit:
-
-```tsx title="admin/pages/articleEdit.tsx"
-import * as React from 'react'
-import { EditPage, RichTextField, TextField } from '@contember/admin'
-
-export default () => (
-	<EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
-		<TextField field="title" label="Title" />
-		<RichTextField field="content" label="Content" />
-	</EditPage>
-)
-```
-
-Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
-
-```tsx title="admin/pages/articleCreate.tsx"
-import * as React from 'react'
-import { CreatePage, RichTextField, TextField } from '@contember/admin'
-
-export default () => (
-  <CreatePage
-    entity="Article"
-    rendererProps={{ title: 'Create Article' }}
-    {/* highlight-start */}
-    redirectOnSuccess="articleEdit(id: $entity.id)"
-    {/* highlight-end */}
-  >
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </CreatePage>
-)
-```
-
-This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected.
-
-Now if you create a new article you're automatically redirected to the edit page.
-
-What's missing is an edit and delete button in the list of pages.
-
-```tsx title="admin/pages/articleList.tsx"
-import * as React from 'react'
-import { DataGridPage, DeleteEntityButton, GenericCell, Link, TextCell } from '@contember/admin'
-
-export default () => (
-  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
-    <TextCell field="title" header="Title" />
-    {/* highlight-start */}
-    <GenericCell shrunk><Link to="articleEdit(id: $entity.id)">Edit</Link></GenericCell>
-    <GenericCell shrunk><DeleteEntityButton immediatePersist /></GenericCell>
-    {/* highlight-end */}
-  </DataGridPage>
-)
-```
-
-1. We've added two `GenericCell`.
-2. First with `Link` component targeting `articleEdit` page and passing `id` as parameter.
-3. Second with delete button provided by `DeleteEntityButton`.
-4. Minor touch is use of `shrunk` with tells the cell to be as small as possible.
-
-### Add pages to side menu
-
-One last thing is to add our pages to the left sidebar:
-
-```tsx title="admin/components/Navigation.tsx"
-import * as React from 'react'
-import { Menu } from '@contember/admin'
-
-export const Navigation = () => (
-  <Menu>
-    <Menu.Item>
-      <Menu.Item title="Dashboard" to="index" />
-      <Menu.Item title="Articles" to="articleList" />
-      <Menu.Item title="Create new article" to="articleCreate" />
-    </Menu.Item>
-  </Menu>
-)
-```
-
-And that's it! You have just created a simple data model and created custom interface, so you can edit the data.
-
-![administration is running](/assets/quickstart-final.png)
-
-## Fetch data via GraphQL API
-
-We recommend reading [Content API topic](/reference/engine/content/overview) however if you're looking to quickly play with the API, we've prepared [Insomnia](https://insomnia.rest/) project for you to import and quickly try it out. To use it <a href="/assets/insomnia-quickstart.json" target="_blank">download it here</a> and just drag&drop it to Insomnia.
-
-## Next steps
-
-- You can [deploy your project to Contember Cloud](/guides/deploy-contember.md).
-- Add support for SEO with [our guide](/guides/seo.md).
+<DocsCards>
+  <DocsCard header="Data handling with GraphQL" href="/intro/graphql">
+    <p>Step-by-step guide to create your first model and user interface with Contember.</p>
+  </DocsCard>
+</DocsCards>
