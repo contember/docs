@@ -76,6 +76,9 @@ body
         --ifm-alert-color: var(--ifm-color-white)
         --ra-admonition-icon-color: var(--ifm-color-white)
 
+.alert--secondary
+    border-width: 2px
+
 html[data-theme="dark"] .alert--secondary
     --ifm-alert-background-color: #2f2f2f
     --ifm-alert-border-color: #505050
@@ -104,6 +107,7 @@ html[data-theme="light"]
     --ifm-code-font-size: 90% /*95%*/
     --doc-sidebar-width: 17.5rem
     --ifm-global-radius: 12px
+    --ifm-code-border-radius: 6px
 
     --dropdown-icon-width: 0.625rem
     --dropdown-icon-height: 0.375rem
@@ -131,3 +135,21 @@ article
 .menu__link--sublist-caret::after,
 .menu__caret:before
     background-size: 1.3rem 1.3rem
+
+.smallNote
+    font-size: 13px
+    opacity: 0.7
+
+.markdown hr
+    --ifm-hr-margin-vertical: 50px
+    --ifm-hr-height: 4px
+    opacity: 0.2
+    margin-left: 5%
+    margin-right: 5%
+    border-radius: 2px
+
+.markdown hr + h2
+    margin-top: -10px
+
+.markdown code
+    border-width: 1px
