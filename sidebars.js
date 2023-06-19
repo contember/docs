@@ -28,7 +28,6 @@ module.exports = {
 				"intro/interface",
 				"intro/deployment",
 				"intro/how-it-works",
-				"intro/studio-quickstart",
 				"intro/glossary",
 			],
 		},
