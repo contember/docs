@@ -19,7 +19,7 @@ Before we start, make sure you already have a Contember project running on your 
 
 :::tip New
 
-In Interface 1.2 we are introducing new layout with `Slots` and `Directives` which replaces `Pages`. The upgrade is smooth but it gives you way more power. [About new layout](/reference/admin/layouts/overview)
+In Interface 1.2 we are introducing new layout with `Slots` and `Directives` which replaces `Pages`. The upgrade is smooth but it gives you way more power. [About new layouts](/reference/admin/layouts/overview)
 
 :::
 
@@ -42,11 +42,11 @@ export default () => (
 
 What we've created here is a page that renders a table listing all the articles in our project. The table includes a column for the title of each article. Let's break down what's happening:
 
-- We begin by importing the @contember/admin package. This package contains all necessary components and also supports TypeScript autocompletion.
-- Next, we export the page component as the default export. This is necessary for our routing and navigation.
-- We implement the DataGridPage component to display our data in a simple, easy-to-read grid format.
-- We specify the entity we want to work with, which in this case is Article. This entity name should match what we defined in our model.
-- Lastly, we use the TextCell component to add a text column, designated for the title of each article.
+1. We begin by importing the @contember/admin package. This package contains all necessary components and also supports TypeScript autocompletion.
+2. Next, we export the page component as the default export. This is necessary for our routing and navigation.
+3. We implement the DataGridPage component to display our data in a simple, easy-to-read grid format.
+4. We specify the entity we want to work with, which in this case is Article. This entity name should match what we defined in our model.
+5. Lastly, we use the TextCell component to add a text column, designated for the title of each article.
 
 When you navigate to localhost:1480/article-list, you should now see a list of your articles. Keep in mind, this list will be empty if no articles have been added to the data model yet.
 
@@ -66,6 +66,8 @@ For example, if you have a default export from a file named `post.tsx`, the resu
 
 ### Create an article
 
+Now we're moving on to creating an article. For this, we'll make a new file called `articleCreate.tsx`.
+
 ```tsx title="admin/pages/articleCreate.tsx"
 import * as React from 'react'
 import { CreatePage, RichTextField, TextField } from '@contember/admin'
@@ -78,18 +80,18 @@ export default () => (
 )
 ```
 
-1. We'll create a new file named `articleCreate.tsx`.
-2. This time we'll use `CreatePage` component.
-3. We'll tell it what we want to add (`Article`).
-4. We'll use two new components - `TextField` and `RichTextField` and tell them what fields to edit.
+1. First, we're creating a new file named articleCreate.tsx in the admin/pages directory.
+2. We're using the CreatePage component. This component allows us to create new entries for our specified entity - in this case, an Article.
+3. We're defining the entity we're adding, which is Article again.
+4. We're employing two components to capture user input: `TextField` and `RichTextField`. These components are connected to the `title` and `content` fields of our `Article` entity respectively.
 
-Now at [localhost:1480/article-create](http://localhost:1480/article-create) you can create new article. And if you go to the [list of articles](http://localhost:1480/article-list) you'll see the data are there.
+By navigating to [localhost:1480/article-create](localhost:1480/article-create), you can now create a new article. When you return to the list of articles, you'll see that your new article has been added.
 
-But it doesn't work very well. One of the things missing is to go to edit mode after you created a new article. So let's start by adding an edit page:
+However, you'll notice the user experience isn't perfect yet. For instance, after creating an article, the application doesn't automatically switch to edit mode. To improve this, let's add an edit page next:
 
-### Add edit page
+### Edit article
 
-We'll create a new page named `articleEdit`. It looks almost the same as the create page - but we have to tell it which article to edit:
+Now we're going to tackle editing an article. To do this, we'll create a new page named `articleEdit`. This page will look quite similar to the create page, but it will be designed to edit an existing article:
 
 ```tsx title="admin/pages/articleEdit.tsx"
 import * as React from 'react'
@@ -103,7 +105,14 @@ export default () => (
 )
 ```
 
-Let's use it. We'll redirect users from our create page to the edit page after the article is successfully created:
+Here's the breakdown of this code:
+
+1. We start by creating a new file named articleEdit.tsx in the `admin/pages` directory.
+2. We're using the `EditPage` component this time. This component is similar to `CreatePage` but it is used for modifying existing entities.
+3. We specify which Article entity we want to edit by providing an id: `Article(id = $id)`. This id will be dynamically populated based on the article selected for editing.
+4. Like before, we're using `TextField` and `RichTextField` components to handle editing for the title and content fields respectively.
+
+Now, with this new edit page in place, you'll be able to modify existing articles. So let's use it. We'll redirect users from our create page to the edit page after the article is successfully created.
 
 ```tsx title="admin/pages/articleCreate.tsx"
 import * as React from 'react'
@@ -123,11 +132,20 @@ export default () => (
 )
 ```
 
-This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected.
+This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected. This is our first encounter with Contember Interface query language. Now if you create a new article you're automatically redirected to the edit page.
 
-Now if you create a new article you're automatically redirected to the edit page.
+<DocsCards>
+  <DocsCard header="All pages" href="/reference/admin/pages/defining-pages/">
+    <p>Explanation of all pages components.</p>
+  </DocsCard>
+  <DocsCard header="Query language" href="/reference/admin/data-binding/query-language">
+    <p>Learn query language to specify entities, fields, and filters.</p>
+  </DocsCard>
+</DocsCards>
 
-What's missing is an edit and delete button in the list of pages.
+### More cells in datagrid
+
+Next, let's enhance our data grid with additional cells to open detail or delete an article.
 
 ```tsx title="admin/pages/articleList.tsx"
 import * as React from 'react'
@@ -144,14 +162,18 @@ export default () => (
 )
 ```
 
-1. We've added two `GenericCell`.
-2. First with `Link` component targeting `articleEdit` page and passing `id` as parameter.
-3. Second with delete button provided by `DeleteEntityButton`.
-4. Minor touch is use of `shrunk` with tells the cell to be as small as possible.
+Let's break this down:
+
+1. We've added two new `GenericCell` components to our data grid. It's just a generic column without any functionality.
+2. The first `GenericCell` includes a [Link component](/reference/admin/pages/links/). This links to the `articleEdit` page and passes the id of the current row's entity as a parameter. This lets us navigate directly to the edit page for a specific article.
+3. The second `GenericCell` incorporates a `DeleteEntityButton`. This allows users to delete a specific article directly from the data grid.
+4. We're using the `shrunk` property on both `GenericCell` components. This keeps these cells as small as possible, ensuring that they don't take up unnecessary space in the data grid.
+
+Now, with these additions, our data grid is more functional, providing quick access to both editing and deleting articles.
 
 ### Add pages to side menu
 
-One last thing is to add our pages to the left sidebar:
+The final step is to add our pages to the sidebar navigation. This provides easy access to all of our pages:
 
 ```tsx title="admin/components/Navigation.tsx"
 import * as React from 'react'
@@ -168,15 +190,18 @@ export const Navigation = () => (
 )
 ```
 
+Here's what this code does:
+
+1. We create a new `Navigation` component in the `admin/components` directory.
+2. We use the `Menu` component from `@contember/admin` to build a sidebar menu.
+3. Inside this `Menu`, we create three `Menu.Item` components. Each of these represents a link to one of our pages. The first item leads to the "Dashboard", or `index` page. The second item leads to the "Articles", or `articleList` page. The third item leads to the "Create new article", or `articleCreate` page.
+
 And that's it! You have just created a simple data model and created custom interface, so you can edit the data.
 
 ![administration is running](/assets/quickstart-final.png)
 
-## Fetch data via GraphQL API
-
-We recommend reading [Content API topic](/reference/engine/content/overview) however if you're looking to quickly play with the API, we've prepared [Insomnia](https://insomnia.rest/) project for you to import and quickly try it out. To use it <a href="/assets/insomnia-quickstart.json" target="_blank">download it here</a> and just drag&drop it to Insomnia.
-
-## Next steps
-
-- You can [deploy your project to Contember Cloud](/guides/deploy-contember.md).
-- Add support for SEO with [our guide](/guides/seo.md).
+<DocsCards>
+  <DocsCard header="Going live with your project" href="/intro/deployment">
+    <p>How to deploy Contember project.</p>
+  </DocsCard>
+</DocsCards>

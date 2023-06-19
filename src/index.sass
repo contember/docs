@@ -79,11 +79,22 @@ body
 .alert--secondary
     border-width: 2px
 
+    a
+        text-underline-offset: 4px
+        --ifm-alert-border-color: #505050
+
 html[data-theme="dark"] .alert--secondary
     --ifm-alert-background-color: #2f2f2f
     --ifm-alert-border-color: #505050
     --ifm-alert-color: var(--ifm-color-white)
     --ra-admonition-icon-color: var(--ifm-color-white)
+
+.alert--warning
+    border-width: 2px
+
+    a
+        text-underline-offset: 4px
+        --ifm-alert-border-color: #505050
 
 html[data-theme="dark"]
     --ifm-color-primary: var(--ifm-color-primary-lighter)
