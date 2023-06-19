@@ -2,6 +2,22 @@
 title: Glossary
 ---
 
+## Basic terms
+
+### Contember
+An open-source developer platform designed to help developers create web applications quickly and efficiently.
+
+### Interface
+In the context of Contember, this refers to the user interface components used to build bespoke user interfaces for web applications.
+
+### Engine
+The part of Contember that handles the backend functionalities, including the data model and the GraphQL API.
+
+### Contember Cloud
+A managed hosting service offered by Contember. It handles deployment-related tasks such as scaling and security, and provides professional support.
+
+## Advanced terms
+
 ### Workspace
 
 Your (git) repository with one or more Contember projects.
