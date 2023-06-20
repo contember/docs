@@ -12,6 +12,20 @@ module.exports = {
 				},
 				{
 					type: "doc",
+					id: "intro/how-it-works",
+					label: "How Contember works",
+				},
+				"intro/glossary",
+			],
+		},
+
+		{
+			type: "category",
+			label: "Contember Basics",
+			collapsed: false,
+			items: [
+				{
+					type: "doc",
 					id: "intro/installation",
 					label: "Installation",
 				},
@@ -27,8 +41,6 @@ module.exports = {
 				},
 				"intro/interface",
 				"intro/deployment",
-				"intro/how-it-works",
-				"intro/glossary",
 			],
 		},
 

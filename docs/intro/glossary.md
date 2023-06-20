@@ -2,66 +2,32 @@
 title: Glossary
 ---
 
-## Basic terms
+## Basics
 
-### Contember
-An open-source developer platform designed to help developers create web applications quickly and efficiently.
+| Term                          | Definition |
+| ----------------------- | ----------- |
+| Contember | An open-source developer platform designed to help developers create web applications quickly and efficiently. |
+| Interface | In the context of Contember, this refers to the user interface components used to build bespoke user interfaces for web applications. |
+| Engine | The part of Contember that handles the backend functionalities, including the data model and the GraphQL API. |
+| Contember Cloud | A managed hosting service offered by Contember. It handles deployment-related tasks such as scaling and security, and provides professional support. |
+| Project | Every project contains Contember Schema definition for your simple website, blog or any other content-based platform or database. Optionally any project can have its [Contember Interface](/reference/admin/introduction.md). |
+| Instance | A running Contember Engine server hosting as many Contember projects as you like (and providing their Content API). Each instance has a single Tenant API, so you can store and manage access from a single point. |
+| Entity | Entity is a basic unit in model schema. Each entity can have fields. |
+| ACL rules | Access control rules for some entity. |
 
-### Interface
-In the context of Contember, this refers to the user interface components used to build bespoke user interfaces for web applications.
+## Advanced
 
-### Engine
-The part of Contember that handles the backend functionalities, including the data model and the GraphQL API.
-
-### Contember Cloud
-A managed hosting service offered by Contember. It handles deployment-related tasks such as scaling and security, and provides professional support.
-
-## Advanced terms
-
-### Workspace
-
-Your (git) repository with one or more Contember projects.
-
-### Project
-
-Every project contains Contember Schema definition for your simple website, blog or any other content-based platform or database. Optionally any project can have its [Contember Interface](/reference/admin/introduction.md).
-
-### Instance
-
-A running Contember Engine server hosting as many Contember projects as you like (and providing their Content API). Each instance has a single Tenant API, so you can store and manage access from a single point.
-
-![APIs on a single instance](/assets/single-instance.svg)
-
-### [Content API](/reference/engine/content/overview.md)
-
-The main GraphQL API for your project. It is automatically generated from your schema definition
-
-### System API
-
-Is a complementary API for your project. Used to manage schema migrations.
-
-### [Tenant API](/reference/engine/tenant/overview.md)
-
-Using this API you can manage users, API keys and project memberships on an instance
-
-### [Project Schema](/reference/engine/schema/overview.md)
-
-Definition of your model, ACL rules and input validation rules.
-
-### [Project Schema Migrations](/reference/engine/schema/migrations.md)
-
-Chronologically sorted immutable JSON files containing all schema changes. These files are "source of true" of a schema.
-
-### Event
-
-Each operation you make in your data is stored in an event log. This log can be used for history.
-
-### Superadmin
-
-Is a special user role. This user is the most powerful user of a system.
+| Term                          | Definition |
+| ----------------------- | ----------- |
+| Workspace | Your (git) repository with one or more Contember projects. |
+| [Content API](/reference/engine/content/overview.md) | This is the primary GraphQL API for your project, which is automatically generated from your schema definition. |
+| System API | This is a supplementary API for your project. It's primarily used to manage schema migrations. You need it only in really advanced usecases. |
+| [Tenant API](/reference/engine/tenant/overview.md) | This API allows you to manage users, API keys, and project memberships on an instance. |
+| [Project Schema](/reference/engine/schema/overview.md) | This is the definition of your model, ACL rules, and input validation rules. |
+| [Project Schema Migrations](/reference/engine/schema/migrations.md) | These are chronologically sorted, immutable JSON files that contain all schema changes. They serve as the source of truth for a schema. |
+| Event | Every operation performed on your data is stored in an event log. This log can be utilized to track history. |
+| Superadmin | This is a special user role within Contember. The Superadmin has the highest level of system access and control. |
 
 <!--
-ADD MODEL SCHEMA, ACL RULES, INPUT VALIDATION RULES
-ADD ENTITY
-UNIFY TERMINOLOGY "DATA MODEL" vs. "CONTENT SCHEMA" vs. "MODEL SCHEMA"
+ADD MODEL SCHEMA, INPUT VALIDATION RULES
 -->
