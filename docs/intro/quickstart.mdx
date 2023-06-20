@@ -88,10 +88,10 @@ Migrations are a way of version controlling your database schema. They provide a
 To generate a new database migration is simple. Just run command:
 
 ```bash
-npm run contember migrations:diff add-article
+npm run contember migrations:diff "my-custom-describe-of-this-migration-in-few-words"
 ```
 
-Run this command and choose an option `Yes and execute immediately`. It will create your migration and after confirmation execute it.
+Execute the following command and select the Yes and execute immediately option. This action will generate your migration and, upon your confirmation, execute it. What actually happens behind the scenes is that a new JSON file detailing the changes in the database is created in the api/migrations directory. By opting to "execute", the changes are automatically applied on your local machine. As you deploy your project to various environments, the system will sequentially implement all migrations from this directory. For projects that are already live and functional, only the newly added migrations will be executed.
 
 Now if you would look into your database, you would see there a table `article` with three columns: `id`, `title`, `content`. Nice.
 
