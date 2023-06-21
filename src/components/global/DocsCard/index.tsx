@@ -1,22 +1,23 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import * as React from 'react';
 
-import styles from './styles.module.scss';
+import Link from '@docusaurus/Link';
+import clsx from 'clsx';
+import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
   href?: string;
   header?: string;
   icon?: string;
   hoverIcon?: string;
-  iconset?: string;
-  ionicon?: string;
+  iconSet?: string;
+  ionIcon?: string;
   img?: string;
   size?: 'md' | 'lg';
 }
 
 function DocsCard(props: Props): JSX.Element {
+  const customClassName = props.className || '';
   const isStatic = typeof props.href === 'undefined';
   const isOutbound = typeof props.href !== 'undefined' ? /^http/.test(props.href) : false;
   const header = props.header === 'undefined' ? null : <header className="Card-header"><span>{props.header}</span><span>→</span></header>;
@@ -36,33 +37,33 @@ function DocsCard(props: Props): JSX.Element {
     'Card-with-image': typeof props.img !== 'undefined',
     'Card-without-image': typeof props.img === 'undefined',
     'Card-size-lg': props.size === 'lg',
-    [props.className]: props.className,
+    [customClassName]: props.className,
   });
 
   if (isStatic) {
     return (
-      <docs-card class={className}>
+      <div className={className}>
         <div className={clsx(styles.card, 'docs-card')}>{content}</div>
-      </docs-card>
+      </div>
     );
   }
 
   if (isOutbound) {
     return (
-      <docs-card class={className}>
+      <div className={className}>
         <a className={clsx(styles.card, 'docs-card')} href={props.href} target="_blank">
           {content}
         </a>
-      </docs-card>
+      </div>
     );
   }
 
   return (
-    <docs-card class={className}>
+    <div className={className}>
       <Link to={props.href} className={clsx(styles.card, 'docs-card')}>
         {content}
       </Link>
-    </docs-card>
+    </div>
   );
 }
 

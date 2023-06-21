@@ -1,14 +1,15 @@
 {
-  "compilerOptions": {
+	"compilerOptions": {
+		"jsx": "react",
 		"composite": true,
 		"experimentalDecorators": true,
 		"isolatedModules": true,
-		"lib": ["esnext"],
+		"lib": [ "esnext" ],
 		"module": "esnext",
 		"moduleResolution": "node",
-		"noEmit": true,
 		"skipLibCheck": true,
 		"strict": true,
+		"jsx": "react-jsx",
 		"target": "esnext"
 	}
 }
