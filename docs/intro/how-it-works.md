@@ -9,8 +9,6 @@ import DocsCards from '../../src/components/global/DocsCards';
 
 ![contember diagram](/assets/contember-diagram.svg)
 
----
-
 ## Contember Engine: Simplified Backend Operations
 
 **Contember Engine** empowers developers to define data models using TypeScript, subsequently generating a corresponding GraphQL API. This engine functions as a standalone server, offering two main components:
@@ -20,21 +18,15 @@ import DocsCards from '../../src/components/global/DocsCards';
 
 The Contember Engine doesn't just facilitate defining data structures and implementing APIs, it also manages your data in a well-structured PostgreSQL database, handling all database-related tasks, including automatic migrations.
 
----
-
 ## Contember Interface: Efficient UI Building
 
 **Contember Interface** is a React-based SDK, designed to expedite the process of building custom management interfaces. Developers can define their user interfaces using high-level React components which then automatically connect to the GraphQL API provided by Contember Engine.
 
 Automated data binding from the GraphQL server to React components eliminates the need for manual data fetching or updates, simplifying the process of creating a custom interface.
 
----
-
 ## Contember Cloud: Managed Hosting Service
 
 If you prefer not to host Contember Engine yourself, Contember Cloud is a managed hosting service that allows you to deploy your projects with ease. It handles tasks related to deployment, scaling, security, and offers professional support, freeing you to focus purely on development.
-
----
 
 ## A Quick Look at the Contember Workflow
 
