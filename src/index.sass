@@ -1,6 +1,44 @@
+:root
+    --contember-blue-900: #00182F
+
+    --contember-green-50: #BEF1D8
+
+    --contember-yellow-50: #F3F3BB
+    --contember-yellow-100: #F3F3BB
+    --contember-yellow-200: #EEEDA1
+    --contember-yellow-300: #E4E26A
+
+    --contember-purple-50: #EEE4FF
+    --contember-purple-100: #D2C2FF
+    --contember-purple-200: #A980FD
+
+    --docusaurus-highlighted-code-line-bg: #1f2b4c
+    --ifm-global-shadow-md: 0px
+    --ifm-color-primary: #3578e5
+    --ifm-color-primary-dark: #1d68e1
+    --ifm-color-primary-darker: #1b62d4
+    --ifm-color-primary-darkest: #1751af
+    --ifm-color-primary-light: #4e89e8
+    --ifm-color-primary-lighter: #5a91ea
+    --ifm-color-primary-lightest: #80aaef
+    --ifm-code-font-size: 90%
+    --doc-sidebar-width: 17.5rem
+    --ifm-global-radius: 12px
+    --ifm-code-border-radius: 6px
+
+    --dropdown-icon-width: 0.625rem
+    --dropdown-icon-height: 0.375rem
+    --dropdown-icon-gap: 0.688rem
+
+    --ifm-menu-link-padding-vertical: 0.5rem
+    --ifm-menu-color-active: var(--ifm-link-color)
+
+    --sidebar-spacing-horizontal: 1.5rem
+
 body
     --cui-font-family: var(--ifm-font-family-base)
     --cui-background-color: var(--ifm-background-color)
+    --ifm-navbar-background-color: var(--ifm-background-color)
 
 @import './styles/liveCode.sass'
 @import './theming/Components/index.sass'
@@ -59,42 +97,24 @@ body
         margin-left: 0.5em
         color: var(--ifm-color-danger-lighter)
 
-.alert--success
-    --ifm-alert-background-color: #fff
-    --ifm-alert-border-color: #C2C028
-    --ifm-alert-color: var(--ifm-color-black)
-    --ifm-alert-foreground-color: var(--ifm-color-black)
-    --ra-admonition-icon-color: var(--ifm-color-black)
+.alert
+    --ifm-alert-background-color: transparent
     border-width: 2px
 
     a
         text-underline-offset: 4px
 
-    html[data-theme="dark"] &
-        --ifm-alert-background-color: #fcd577
-        --ifm-alert-border-color: #726d08
-        --ifm-alert-color: var(--ifm-color-white)
-        --ra-admonition-icon-color: var(--ifm-color-white)
+    &.alert--info
+        --ifm-alert-border-color: var(--contember-purple-200)
 
-.alert--secondary
-    border-width: 2px
+        html[data-theme="dark"] &
+            --ifm-alert-border-color: var(--contember-purple-200)
 
-    a
-        text-underline-offset: 4px
-        --ifm-alert-border-color: #505050
+    &.alert--success
+        --ifm-alert-border-color: var(--contember-yellow-300)
 
-html[data-theme="dark"] .alert--secondary
-    --ifm-alert-background-color: #2f2f2f
-    --ifm-alert-border-color: #505050
-    --ifm-alert-color: var(--ifm-color-white)
-    --ra-admonition-icon-color: var(--ifm-color-white)
-
-.alert--warning
-    border-width: 2px
-
-    a
-        text-underline-offset: 4px
-        --ifm-alert-border-color: #505050
+        html[data-theme="dark"] &
+            --ifm-alert-border-color: var(--contember-yellow-200)
 
 html[data-theme="dark"]
     --ifm-color-primary: var(--ifm-color-primary-lighter)
@@ -105,32 +125,20 @@ html[data-theme="light"]
 .flex-grow
     flex-grow: 1
 
-:root
-    --docusaurus-highlighted-code-line-bg: #1f2b4c /* both light and dark schemes */
-    --ifm-global-shadow-md: 0px
-    --ifm-color-primary: #3578e5 /*#25c2a0*/
-    --ifm-color-primary-dark: #1d68e1 /*rgb(33, 175, 144)*/
-    --ifm-color-primary-darker: #1b62d4 /*rgb(31, 165, 136)*/
-    --ifm-color-primary-darkest: #1751af /*rgb(26, 136, 112)*/
-    --ifm-color-primary-light: #4e89e8 /*rgb(70, 203, 174)*/
-    --ifm-color-primary-lighter: #5a91ea /*rgb(102, 212, 189)*/
-    --ifm-color-primary-lightest: #80aaef /*rgb(146, 224, 208)*/
-    --ifm-code-font-size: 90% /*95%*/
-    --doc-sidebar-width: 17.5rem
-    --ifm-global-radius: 12px
-    --ifm-code-border-radius: 6px
-
-    --dropdown-icon-width: 0.625rem
-    --dropdown-icon-height: 0.375rem
-    --dropdown-icon-gap: 0.688rem
-
-    --ifm-menu-link-padding-vertical: 0.5rem
-    --ifm-menu-color-active: var(--ifm-link-color)
-
-    --sidebar-spacing-horizontal: 1.5rem
-
 html
     display: block
+
+.main-wrapper
+    align-self: center
+    max-width: 1400px
+    width: 1400px
+
+.navbar
+    border-bottom: 1px solid var(--ifm-toc-border-color)
+
+.navbar__inner
+    margin: 0 auto
+    max-width: 1360px
 
 article
     max-width: 700px
@@ -147,17 +155,12 @@ article
 .menu__caret:before
     background-size: 1.3rem 1.3rem
 
+.theme-doc-sidebar-menu > li
+    margin-top: 1.5rem !important
+
 .smallNote
     font-size: 13px
     opacity: 0.7
-
-.markdown hr
-    --ifm-hr-margin-vertical: 50px
-    --ifm-hr-height: 4px
-    opacity: 0.2
-    margin-left: 5%
-    margin-right: 5%
-    border-radius: 2px
 
 .markdown hr + h2
     margin-top: -10px

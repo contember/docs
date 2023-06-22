@@ -41,7 +41,6 @@ const config = {
 			},
 			navbar: {
 				title: '',
-				hideOnScroll: true,
 				logo: {
 					alt: 'Contember Logo',
 					src: 'img/contember-horizontal-blue.svg',

@@ -48,10 +48,6 @@ module.exports = {
 			type: "category",
 			label: "Contember Interface",
 			collapsed: true,
-			link: {
-				type: 'generated-index',
-				title: 'Interface',
-			},
 			items: [
 				'reference/admin/introduction',
 				'reference/admin/pages/defining-pages',
@@ -125,10 +121,6 @@ module.exports = {
 			type: "category",
 			label: "Contember Engine",
 			collapsed: true,
-			link: {
-				type: 'generated-index',
-				title: 'Engine',
-			},
 			items: [
 				{
 					type: "category",
@@ -193,10 +185,6 @@ module.exports = {
 			type: "category",
 			label: "Guides",
 			collapsed: true,
-			link: {
-				type: 'generated-index',
-				title: 'Guides',
-			},
 			items: [
 				"guides/deploy-contember",
 				"guides/deploy-github-actions",
