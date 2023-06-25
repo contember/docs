@@ -118,8 +118,7 @@ const config = {
 				},
 				theme: {
 					customCss: [
-						require.resolve('@contember/admin/style.css'),
-						require.resolve('./src/index.sass'),
+						require.resolve('./src/index.css'),
 					],
 				},
 				blog: false,
@@ -129,7 +128,6 @@ const config = {
 	],
 	plugins: [
 		path.join(__dirname, '/src/plugins/webpack-configuration-plugin'),
-		'docusaurus-plugin-sass',
 	]
 }
 

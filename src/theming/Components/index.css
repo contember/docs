@@ -1,0 +1,20 @@
+@import 'ColorInput.css';
+@import 'Generator.css';
+@import 'Scale.css';
+@import 'Swatch.css';
+
+.live-code-preview p,
+.live-code-preview ul,
+.live-code-preview ol,
+.live-code-preview code,
+.theming-theme-preview p,
+.theming-theme-preview ul,
+.theming-theme-preview ol,
+.theming-theme-preview code {
+  color: var(--cui-color);
+}
+
+.live-code-preview code,
+.theming-theme-preview code {
+  background-color: var(--cui-color--lower);
+}

@@ -1,0 +1,10 @@
+.theming-swatch-container {
+  background-color: lightgrey;
+  border-radius: 0.25em;
+  display: inline-flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  padding: 0.125em;
+  vertical-align: middle;
+}
