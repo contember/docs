@@ -17,6 +17,10 @@ const config = {
 		contemberApiBaseUrl: process.env.CONTEMBER_API_URL,
 		contemberProjectName: process.env.CONTEMBER_PROJECT_NAME,
 	},
+	themes: ['@docusaurus/theme-mermaid'],
+	markdown: {
+		mermaid: true,
+	},
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({

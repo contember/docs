@@ -9,6 +9,21 @@ import DocsCards from '../../src/components/global/DocsCards';
 
 ![contember diagram](/assets/contember-diagram.svg)
 
+```mermaid
+graph LR
+    id1("Website")
+    id2("Mobile app")
+    id3("Contember Interface (optional)")
+    id4{"Contember API"}
+    id5{{"Custom microservices (optional)"}}
+    id6[("PostgreSQL")]
+
+    id5 -- GraphQL --> id4
+    id5 -. SQL .-> id6
+    id1 -. Custom API .-> id5
+    id1 & id2 & id3 -- GraphQL --> id4 -- SQL --> id6
+```
+
 ## Contember Engine: Simplified Backend Operations
 
 **Contember Engine** empowers developers to define data models using TypeScript, subsequently generating a corresponding GraphQL API. This engine functions as a standalone server, offering two main components:
