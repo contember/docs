@@ -1,0 +1,63 @@
+.theming-scale {
+  align-items: stretch;
+  border-color: var(--cui-color--lower);
+  border-style: solid;
+  border-radius: 0.25em;
+  display: flex;
+  flex-basis: 10em;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 1em;
+  position: relative;
+}
+
+.theming-scale.is-dirty {
+  border-color: var(--cui-control-color);
+  outline: 1px solid;
+  color: var(--cui-control-color);
+}
+
+.theming-scale.is-elevated {
+  border-width: 1px;
+}
+
+.theming-scale.view-horizontal .theming-scale-label {
+  flex: 0.3;
+}
+
+.theming-scale-label {
+  font-size: 0.8125em;
+  font-weight: bold;
+  line-height: 1.25em;
+  padding: 0.25em 0.5em;
+}
+
+.theming-scale.is-dirty .theming-scale-label-theme-name::after {
+  content: "*";
+  display: inline-block;
+  margin-left: 0.4em;
+  color: rgb(var(--cui-theme-danger-500))
+}
+
+.theming-scale.is-dirty .theming-scale-label-theme-name-action {
+  margin: -0.25em -0.5em;
+}
+
+.theming-scale-list {
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+}
+
+.theming-scale-list>.theming-swatch-container {
+  border-radius: 0;
+}
+
+.theming-scale small {
+  font-family: monospace;
+  font-size: 0.75em;
+  font-weight: bold;
+}
