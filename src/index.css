@@ -219,3 +219,15 @@ article {
 .markdown code {
   border-width: 1px;
 }
+
+.version {
+  background-color: var(--ifm-color-warning-lightest);
+  border: var(--ifm-badge-border-width) solid var(--ifm-color-warning-lightest);
+  border-radius: var(--ifm-badge-border-radius);
+  color: var(--ifm-color-black);
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: var(--ifm-font-weight-normal);
+  padding: var(--ifm-badge-padding-vertical) var(--ifm-badge-padding-horizontal);
+  float: right;
+}
