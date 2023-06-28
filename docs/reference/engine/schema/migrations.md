@@ -73,55 +73,62 @@ Therefore, you should:
 
 ## Commands for development
 
+During local development, there may be a need to bypass certain checks, even if the migration has already been executed locally. This section details several commands that provide flexibility and control over your local migration process.
 
-During local development, you can bypass some of these checks, even if the migration was locally executed.
+Please be aware that these commands are available exclusively on your local Contember instance and are not meant for production environments.
 
-Note that all of these commands are available only on local Contember instance and not in production environments. 
+### Amending a Migration
 
-### Amending a migration
+While developing a new feature, you might find yourself needing to adjust an already created and applied schema migration. Instead of creating an entirely new diff, you can utilize the `migrations:amend` command. This command allows you to update the most recent migration both on disk and in your local Contember instance. If you revert the schema changes and run `migrations:amend`, the command effectively removes the migration.
 
-Imagine you are developing a new feature. You've already created and applied schema migration. Later, you find you need another schema change related to the previous one.
+#### Example: Amending Latest Migration
 
-Instead of creating a new diff, you can use `migrations:amend` command, which updates most recent migration both on disk and on local Contember instance.
-
-Reverting a schema changes and running `migrations:amend` results in removing the migration.
-
-
-
-#### Example: amending latest migration
 ```bash
 npm run contember migrations:amend
 ```
 
-#### Example: amending specific migration
+#### Example: Amending Specific Migration
 
-You can specify a migration to amend using additional argument.
+You can target a specific migration to amend by providing an additional argument, as shown below:
 
 ```bash
 npm run contember migrations:amend 2022-01-17-101806-test
 ```
 
-:::note 
-If someone else has already run the migration, or it's deployed it won't be possible to execute the amended migration.
+:::note
+If the migration has already been run by someone else or it's been deployed, it won't be possible to execute the amended migration.
 :::
 
-### Rebasing a migration using `migrations:rebase`
+### Rebasing a Migration with `migrations:rebase`
 
-Before merging a branch with a new migration, you might find that a new migration appeared in an upstream. `migrations:rebase` command helps you solve this issue. Just pass names of migrations you need to merge and the command renames migrations on disk and in your local Contember instance.
+Before merging a branch with a new migration, you might find that a new migration has been added upstream. The `migrations:rebase` command assists in resolving this by renaming the migrations both on disk and in your local Contember instance. Simply pass the names of the migrations you need to merge.
 
 #### Example
+
 ```bash
 npm run contember migrations:rebase 2022-01-17-101806-test
 ```
 
-### Force execution of out-of-order migrations
+### Force Execution of Out-of-Order Migrations
 
-When you pull a code from the upstream, there might appear a new migration preceding your local migrations. To bypass this, you can run `migrations:execute` command with `--force` flag.
+When you pull code from upstream, there may be a new migration that precedes your local migrations. To bypass this, you can run the `migrations:execute` command with the `--force` flag.
 
-#### Example: force executing
+#### Example: Force Executing
+
 ```bash
 npm run contember migrations:execute --force
 ```
+
+### <span className="version">Engine 1.3+</span> Executing Migrations Until a Specific Point with `--until`
+
+In your development process, you might need to run a series of migrations up to a certain point. The `migrations:execute` command now allows you to use the `--until` flag for this purpose. This option executes all migrations up to and including the specified migration.
+
+#### Example: Executing Until a Specific Migration
+
+```bash
+npm run contember migrations:execute --until 2022-01-17-101806-test
+```
+
 
 ## Writing or fixing migrations manually
 
@@ -230,7 +237,7 @@ Similar to the `updateEntityName` modification, the `updateFieldName` modificati
 
 In this example, the field named "OldField" within the entity "Entity" will be renamed to "NewField" using the `updateFieldName` modification.
 
-### Skipping validation errors
+## <span className="version">Engine 1.2+</span> Skipping validation errors
 
 The `skippedErrors` feature in Contember allows users to specify a list of errors that should be ignored during validation of a migration. This can be useful in cases where a migration became invalid due to improvements and new checks in validator, but cannot be changed, because it is already applied.
 
@@ -256,3 +263,26 @@ It is important to note that only individual migrations can have skipped errors,
 ```
 In this example, the `ACL_INVALID_CONDITION` error will be ignored for the test predicate in the ContentReference entity for the reader role.
 
+### <span className="version">Engine 1.3+</span> `skipUntil`
+
+In each error object, you can specify a `skipUntil` allowing to skip given validation until a specificed migration. This feature is useful when more migrations becomes invalid due to changes in the validator or data structure.
+
+Example:
+
+```json5
+{
+  "skippedErrors": [
+    {
+      "code": "ACL_INVALID_CONDITION",
+      "path": "roles.reader.entities.ContentReference.predicates.test",
+      "skipUntil": "2023-07-01-101530-abcd"
+    }
+  ],
+  "formatVersion": 3,
+  "modifications": [
+    // Modifications here...
+  ]
+}
+```
+
+In the above example, the "ACL_INVALID_CONDITION" error is ignored for a specific predicate in the ContentReference entity for the reader role. Additionally, subsequent validations will be skipped until the migration `2023-07-01-101530-abcd`.
