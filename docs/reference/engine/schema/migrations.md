@@ -148,18 +148,20 @@ The `createColumn` modification enables the addition of a new column to an entit
 
 **Example:**
 
-```json
+```json5
 {
-	"modification": "createColumn",
-	"entityName": "Article",
-	"field": {
-		"name": "isPublished",
-		"columnName": "is_published",
-		"columnType": "boolean",
-		"nullable": false,
-		"type": "Bool"
-	},
-	"fillValue": false
+  "modification": "createColumn",
+  "entityName": "Article",
+  "field": {
+    "name": "isPublished",
+    "columnName": "is_published",
+    "columnType": "boolean",
+    "nullable": false,
+    "type": "Bool"
+  },
+  /* highlight-start */
+  "fillValue": false
+  /* highlight-end */
 }
 ```
 
@@ -173,17 +175,19 @@ The `updateColumnDefinition` modification allows you to modify the definition of
 
 **Example:**
 
-```json
+```json5
 {
-	"modification": "updateColumnDefinition",
-	"entityName": "Article",
-	"fieldName": "isPublished",
-	"definition": {
-		"columnType": "boolean",
-		"nullable": false,
-		"type": "Bool"
-	},
-	"copyValue": "existingColumn"
+  "modification": "updateColumnDefinition",
+  "entityName": "Article",
+  "fieldName": "isPublished",
+  "definition": {
+    "columnType": "boolean",
+    "nullable": false,
+    "type": "Bool"
+  },
+  /* highlight-start */
+  "copyValue": "existingColumn"
+  /* highlight-end */
 }
 ```
 
@@ -203,10 +207,10 @@ In Contember, renaming an entity involves creating a migration that drops the ol
 
 ```json
 {
-	"modification": "updateEntityName",
-	"entityName": "OldEntity",
-	"newEntityName": "NewEntity",
-	"tableName": "new_entity"
+  "modification": "updateEntityName",
+  "entityName": "OldEntity",
+  "newEntityName": "NewEntity",
+  "tableName": "new_entity"
 }
 ```
 
@@ -225,13 +229,13 @@ Similar to the `updateEntityName` modification, the `updateFieldName` modificati
 
 **Example:**
 
-```json
+```json5
 {
-	"modification": "updateFieldName",
-	"entityName": "Entity",
-	"fieldName": "oldField",
-	"newFieldName": "newField",
-	"columnName": "new_field"
+  "modification": "updateFieldName",
+  "entityName": "Entity",
+  "fieldName": "oldField",
+  "newFieldName": "newField",
+  "columnName": "new_field"
 }
 ```
 
@@ -275,7 +279,9 @@ Example:
     {
       "code": "ACL_INVALID_CONDITION",
       "path": "roles.reader.entities.ContentReference.predicates.test",
+      /* highlight-start */
       "skipUntil": "2023-07-01-101530-abcd"
+      /* highlight-end */
     }
   ],
   "formatVersion": 3,
