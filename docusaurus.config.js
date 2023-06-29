@@ -22,7 +22,7 @@ const config = {
 		({
 			prism: {
 				theme: require('prism-react-renderer/themes/nightOwl'),
-				additionalLanguages: ['typescript'],
+				additionalLanguages: ['typescript', 'json5'],
 			},
 			docs: {
 				sidebar: {
