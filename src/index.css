@@ -231,3 +231,7 @@ article {
   padding: var(--ifm-badge-padding-vertical) var(--ifm-badge-padding-horizontal);
   float: right;
 }
+
+.table-of-contents__link span {
+  display: none;
+}
