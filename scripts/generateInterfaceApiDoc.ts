@@ -4,13 +4,13 @@ import { JSONOutput } from "typedoc";
 import { getReactComponent } from "@site/src/apiDoc/utils/getReactComponent";
 import { Schema } from "@site/src/apiDoc/schema/Schema";
 import { filterSchema } from "@site/src/apiDoc/utils/filterSchema";
+import { ReflectionKind } from "@site/src/apiDoc/schema/ReflectionKind";
 
 (async () => {
 	const filePath = path.resolve(process.cwd(), process.argv[2])
-	const target = path.resolve(process.cwd(), process.argv[3])
+	const target = process.argv[3] ? path.resolve(process.cwd(), process.argv[3]) : null
 	const file: JSONOutput.ProjectReflection = JSON.parse(await fs.readFile(filePath, 'utf8'))
 	const schema = new Schema(file)
-
 
 	const idToGroupMap = new Map<number, string>()
 	file.groups.forEach(it => {
@@ -18,41 +18,69 @@ import { filterSchema } from "@site/src/apiDoc/utils/filterSchema";
 			idToGroupMap.set(id, it.title)
 		})
 	})
-	for (const child of file.children) {
-		const component = getReactComponent(child)
-		const groupName = idToGroupMap.get(child.id)
 
-		if (component && !component.isInternal) {
-			if (groupName === 'Functions' || groupName === 'Variables') {
-				console.log('Skipping ' + child.name)
-			} else {
-				const filteredSchema = filterSchema(child, new Schema(file))
+	const tryWriteComponent = async (child: JSONOutput.DeclarationReflection, groupName: tring, prefix: string = '')  => {
+		const component = getReactComponent(child, schema)
+		const componentName = prefix ? `${prefix}.${child.name}` : child.name
+		if (!component || component.isInternal) {
+			// console.log('Not a component ' + componentName)
 
-				const jsonFile = path.join(target, groupName, child.name + '.json')
-				const mdxFile = path.join(target, groupName, child.name + '.mdx')
-				await fs.mkdir(path.dirname(jsonFile), { recursive: true })
+			return
+		}
+		if (groupName === 'Functions' || groupName === 'Variables' || groupName === 'Namespaces') {
+			console.log('Skipping ' + componentName)
+			return
+		}
 
-				// language=MDX
-				const mdxContent = `import {ReactComponentEntrypoint} from "@src/apiDoc/rendering/ReactComponentEntrypoint";
+		if (!target) {
+			console.log('Will write ' + componentName + ' (' + groupName + ')')
+			return
+		} else {
+			const filteredSchema = filterSchema(child, new Schema(file))
+
+			const jsonFile = path.join(target, groupName, componentName + '.json')
+			const mdxFile = path.join(target, groupName, componentName + '.mdx')
+			await fs.mkdir(path.dirname(jsonFile), { recursive: true })
+
+			// language=MDX
+			const mdxContent = `import {ReactComponentEntrypoint} from "@src/apiDoc/rendering/ReactComponentEntrypoint";
 import {Schema} from "@src/apiDoc/schema/Schema";
 import declarations from './__name__.json'
 
-<ReactComponentEntrypoint schema={new Schema(declarations)} name="__name__" />`.replaceAll(/__name__/g, child.name)
+<ReactComponentEntrypoint schema={new Schema(declarations)} name="__name__" />`.replaceAll(/__name__/g, componentName)
 
-				await fs.writeFile(jsonFile, JSON.stringify(filteredSchema, null, '\t'))
+			await fs.writeFile(jsonFile, JSON.stringify(filteredSchema, null, '\t'))
 
-				try {
-					await fs.readFile(mdxFile)
-				} catch {
-					await fs.writeFile(mdxFile, mdxContent)
-				}
-				// console.log()
-				// renderToString(createElement(ReactComponentEntrypoint, {
-				// 	schema: new Schema(filteredSchema),
-				// 	name: child.name,
-				// }), {})
+			try {
+				await fs.readFile(mdxFile)
+			} catch {
+				await fs.writeFile(mdxFile, mdxContent)
 			}
 
+			// console.log()
+			// renderToString(createElement(ReactComponentEntrypoint, {
+			// 	schema: new Schema(filteredSchema),
+			// 	name: child.name,
+			// }), {})
+
+		}
+
+
+	}
+
+	for (const child of file.children) {
+		const groupName = idToGroupMap.get(child.id)
+
+		await tryWriteComponent(child, groupName)
+
+		const children = child.kind === ReflectionKind.Namespace && 'children' in child
+			? child.children
+			: (child.kind === ReflectionKind.Variable && 'type' in child && child.type.type === 'reflection')
+				? (child.type.declaration.children ?? [])
+				: []
+
+		for (const child2 of children) {
+			await tryWriteComponent(child2, groupName, child.name)
 		}
 	}
 })().catch(e => {
