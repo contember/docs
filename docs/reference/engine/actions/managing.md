@@ -9,7 +9,7 @@ Please note, the Actions feature is only available starting from version 1.3, wh
 The Actions Management API in Contember provides a GraphQL interface for managing Action events and variables in your project. You can access the API by making GraphQL requests to the `/actions/<project-name>` endpoint, where `project-name` represents the name of your Contember project.
 
 ## Permissions
-You must include a Bearer token in Authorization header. To interact with the Actions Management API, you need the "admin" role for your Contember project. It is not yet possible to manage these permissions.
+You must include a Bearer token in Authorization header. To view and setup variables, you need either `admin` or `deployer` role. To interact with other Actions Management APIs, the `admin` role is required. It is not yet possible to configure these permissions.
 
 ## Managing Variables
 

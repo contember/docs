@@ -11,9 +11,9 @@ Actions in Contember provide developers with a powerful way to keep track of ent
 To configure an Action, you need to employ the decorator syntax provided by Contember. Below is an example of an Action definition to demonstrate its structure:
 
 ```javascript
-import { SchemaDefinition as def, ActionsDefinition as action } from "@contember/schema-definition"
+import { SchemaDefinition as def, ActionsDefinition as actions } from "@contember/schema-definition"
 
-@action.watch({
+@actions.watch({
   name: 'book_watch',
   watch: `
     title
@@ -37,6 +37,10 @@ Subsequent sections of this documentation will provide a more detailed understan
 - [Defining Actions](./definition.md)
 - [Managing Actions](./managing.md)
 - [Webhook invocation](./invocation.md)
+
+:::caution Direct database changes
+Contember tracks modifications made to data through the Contember Engine. It's important to be aware that if a user modifies data directly in the database bypassing Contember, such changes will not trigger the associated events. Events are only fired when modifications are performed using the Contember API or other supported mechanisms within the Contember ecosystem.
+:::
 
 ## Alpha Stage Feature
 

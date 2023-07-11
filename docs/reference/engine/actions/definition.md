@@ -14,9 +14,11 @@ While working with Actions in Contember, please remember that any addition or mo
 
 ## Defining a Watch Action
 
-To define an Action, you employ Contember's decorator syntax. The `@watch` decorator is attached to the entity class you aim to observe for changes.
+The watch action in Contember Actions allows you to track and monitor specific changes within an entity. When you define a watch action, Contember automatically keeps track of the creation, deletion, and updates of the entity, as well as any changes made to the watched fields and relations.
 
-#### Example: Basic structure of an Action definition:
+To define a Watch Action, you employ decorator syntax. The `@watch` decorator is attached to the entity class you aim to observe for changes.
+
+#### Example: Basic structure of a Watch Action definition:
 
 ```javascript
 import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
@@ -37,59 +39,24 @@ export class YourEntity {
 - `webhook`: Provides the URL to which the webhook notification will be directed when changes occur. [see advanced configuration](#webhook-configuration)
 - `selection` (optional): Specifies the selection that will be dispatched in a payload.
 
-### Observing Fields and Relations
-
-The `watch` property allows you to define the fields and relations that you wish to observe for changes. It is possible to watch individual fields of the entity and also specify nested fields within related entities. This facilitates the tracking of changes in fields such as strings, numbers, booleans, or timestamps, along with changes in relationships between entities.
-
-### Payload and Selection
-
-By default, the payload that is sent to the webhook encapsulates the changes that triggered the Action. However, you can personalize the payload by defining a `selection` property within the `@watch` decorator. The `selection` property enables you to incorporate specific fields in the payload, offering fine-grained control over the data dispatched to the webhook.
-
-Example: Defining a selection within a watch
-
-```typescript
-import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
-
-@actions.watch({
-	name: 'order_watch',
-	watch: `
-    status
-    customer {
-      name
-      email
-    }
-  `,
-	webhook: 'https://example.com/order/updated',
-	selection: `
-    status
-    customer {
-      name
-    }
-  `,
-})
-export class Order {
-	// Entity properties and relationships
-}
-```
-
 ## Defining a Trigger Action
 
 Trigger Actions in Contember serve as a lower-level alternative to watch-based Actions, giving you the ability to selectively observe specific operations on an entity. These operations can include creation, deletion, or updates to specified fields. By providing precise control over which operations initiate your webhook, Trigger Actions let you concentrate on tracking the specific changes that matter to your application.
 
 To define a Trigger Action, you attach the `@trigger` decorator to the entity class you wish to monitor.
 
-Here is the structure of the Trigger Action syntax:
+#### Example: Basic structure of a Trigger Action definition:
 
 ```typescript
 import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
 
 @actions.trigger({
   name: 'action_name',
-  create?: boolean,
-  delete?: boolean,
-  update?: boolean | readonly string[],
-  selection?: Actions.SelectionNode | string,
-  webhook: 'webhook_target'
+  create: true,
+  delete: true,
+  update: ['field_to_watch'], // or "true"
+	selection: 'optional_selection_for_payload',
+	webhook: 'webhook_url'
 })
 export class YourEntity {
   // Entity properties and relationships
@@ -127,6 +94,37 @@ export class Book {
 
 With the provided Trigger Action configuration, the webhook will be invoked whenever a new `Book` entity is created. The payload dispatched to the webhook will include the defined fields (`title` and `author.name`), allowing you to execute custom actions or alert external systems about the creation event.
 
+## Payload and Selection
+
+By default, the payload that is sent to the webhook encapsulates the changes that triggered the Action. However, you can personalize the payload by defining a `selection` property within both `@watch` and `@trigger` decorators. The `selection` property enables you to incorporate specific fields in the payload, offering fine-grained control over the data dispatched to the webhook.
+
+Example: Defining a selection within a watch
+
+```typescript
+import { SchemaDefinition as def, ActionsDefinition as actions } from '@contember/schema-definition'
+
+@actions.watch({
+	name: 'order_watch',
+	watch: `
+    status
+    customer {
+      name
+      email
+    }
+  `,
+	webhook: 'https://example.com/order/updated',
+	selection: `
+    status
+    customer {
+      name
+    }
+  `,
+})
+export class Order {
+	// Entity properties and relationships
+}
+```
+
 ## Webhook Configuration
 
 The `webhook` property determines the URL where the webhook notification will be dispatched. This could be an external service or an endpoint within your own application that processes the webhook payload. 
@@ -136,7 +134,7 @@ The `webhook` property determines the URL where the webhook notification will be
 Instead of defining a simple string for the `webhook` property, you have the option to pass an object that allows for a more detailed configuration of the webhook. This feature gives you the ability to set additional headers, specify timeouts, manage retry attempts, and adjust the batching of webhook requests. Below is an example demonstrating how to leverage these advanced options:
 
 ```javascript
-import {SchemaDefinition as def, ActionsDefinition as actions} from "@contember/schema-definition"
+import { SchemaDefinition as def, ActionsDefinition as actions } from "@contember/schema-definition"
 
 @actions.watch({
   name: 'book_watch',
@@ -238,3 +236,32 @@ In this sample, a separate webhook target named `myOrderUpdateTarget` is defined
 To link the webhook target with an Action, the `target` property within the `@watch` decorator instead of the traditional `webhook` property. This facilitates referencing the shared webhook target for the specified Action. The remainder of the configuration, including the `name` and `watch` properties, stays consistent.
 
 This method also permits the disabling of the watch while retaining the target definition, enabling any pending events to be dispatched even when the watch is inactive.
+
+## Events Priority
+
+Contember Actions facilitates event prioritization in `watch` and `trigger` actions. Considering that events from various actions are stored and processed in a single queue, the ability to assign priority levels to certain events is significant. Higher priority ensures these events are processed ahead of others, which is especially beneficial for critical operations or time-sensitive tasks.
+
+To assign priority for a `watch` or `trigger` action, include the `priority` property in the action configuration. The `priority` value should be a positive integer, with higher values indicating higher priority. Consequently, events associated with a higher priority value will precede those with lower priority values during processing.
+
+Below is an example of assigning priority to a `watch` action:
+
+```typescript
+import { SchemaDefinition as def, ActionsDefinition as action } from "@contember/schema-definition"
+
+@action.watch({
+  name: 'book_watch',
+  watch: `
+    title
+    tags {
+      name
+    }
+  `,
+  webhook: 'https://example.com/webhook',
+  priority: 2
+})
+export class Book {
+  // Entity definition
+}
+```
+
+In this example, the `watch` action 'book_watch' is assigned a priority level of 2. Therefore, events triggered by changes in the 'title' or 'tags' fields of the 'Book' entity will have a processing priority level of 2 in the event queue.
