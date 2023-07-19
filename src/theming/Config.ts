@@ -1,4 +1,4 @@
-import type { ColorSchemeOffsets } from "./Types"
+import type { ColorSchemeOffsets } from "./Types";
 
 export const PREFIX = "cui";
 export const WHITE_SPACE = "\t";
