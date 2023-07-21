@@ -189,17 +189,15 @@ A timeout is enforced for webhook completion to ensure timely processing. By def
 
 When processing the response received from a webhook invocation, Contember follows specific rules to determine the success or failure of the batched events. Here's an overview of the response processing rules:
 
-1. **Not-OK Response Status**: If the HTTP response status is considered not OK, meaning it falls outside the range of 2xx, the entire batch is considered unsuccessful. The response received is stored in the `log` field of each event, providing information about the failure.
+1. **Not-OK Response Status**: If the HTTP response status falls outside the 2xx range (i.e., it is not considered OK), the entire batch is considered unsuccessful. Detailed information about the failure is stored in the `log` field of each event.
 
-2. **OK Response Status with Empty Body**: If the HTTP response status is OK (2xx) and the response body is empty, the entire batch is considered successful.
+2. **OK Response Status with Specific Non-Empty Body**: If the HTTP response status is within the 2xx range (OK) and the response body contains a valid JSON object with a `failures` key, the response is further analyzed:
 
-3. **OK Response Status with Non-Empty Body**: If the HTTP response status is OK (2xx) and the response body is not empty, the response is expected to contain a JSON object with a `failures` field.
+	- **Invalid Structure or unknown `eventId`**: If the structure of the response doesn't adhere to the required format (`failures` must contain an array of objects containing an `eventId` (UUID format) and optionally an `error` (string format)) or if the `eventId` present in the response does not correspond with any event in the batch, the entire batch is considered unsuccessful.
 
-	- **Invalid Response Structure**: If the response structure is invalid, either due to it not being valid JSON or not matching the expected format, the entire batch is considered unsuccessful.
+	- **Valid Structure and `eventId`**: If the structure of the response is as expected and the `eventId` in the response matches an event in the batch, only the events specified in the `failures` field are marked as unsuccessful, while the remaining events are deemed successful.
 
-	- **Invalid `eventId`**: If the response contains an invalid `eventId` that does not match any event in the batch, the entire batch is considered unsuccessful.
-
-	- **Valid Response Structure**: If the response structure is valid and the `eventId` matches an event in the batch, the events specified in the `failures` field are marked as unsuccessful, while the remaining events are marked as successful.
+3. **OK Response Status with Empty or Other Non-Specific Body**: If the HTTP response status is OK (2xx) and the response body is either empty or contains anything other than a valid JSON object with a `failures` key, the entire batch is treated as successful, ignoring the specifics of the response content.
 
 
 Following the processing of the response, the standard retry mechanism is applied to the events that were marked as unsuccessful. This ensures that the unsuccessful events are retried according to the configured retry logic, allowing for subsequent attempts to process them successfully.
