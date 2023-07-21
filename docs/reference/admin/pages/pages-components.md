@@ -1,32 +1,14 @@
 ---
-title: Pages
+title: Legacy pages
 ---
 
-In order to define pages in Contember Interface, you need to export function components from files in the `admin/pages` directory (or its subdirectory).
+Contember provides several prepared page components to help you quickly set up common page types in your interface. These page components handle common tasks like loading and saving data, rendering form fields, and displaying entity lists.
 
-In the functions exported from page components, you will usually use one of the prepared page components provided by Contember. The most simple is the `GenericPage`:
+:::caution Page components are deprecated
 
-```typescript jsx
-export default () => {
-	return (
-		<GenericPage>
-			Content goes here
-		</GenericPage>
-	)
-}
-```
+The use of page components in Contember to define individual pages is now deemed a legacy approach. Although it served its purpose in earlier applications, it lacks the flexibility and efficiency that modern applications require. For any new developments, we strongly recommend transitioning towards using [scope components](./scopes).
 
-## Routing
-
-Page names (and basically URL path) are constructed automatically. The resulting page name for the page will be determined by the file and function name, with slashes separating them. For example, the `default` export from a file named `post.tsx` will have the page name `post`, while a function exported as `edit` from a same file will be named `post/edit`. If a function is in a subdirectory, its path will also include the subdirectory name. For instance, a function named `edit` exported from
-`post/category.tsx` will have the name `post/category/edit`.
-
-See how to [create links](./links.md).
-
-
-## Pages
-
-Contember provides several prepared page components to help you quickly set up common page types in your admin panel. These page components handle common tasks like loading and saving data, rendering form fields, and displaying entity lists.
+:::
 
 ### GenericPage
 
@@ -35,6 +17,7 @@ The most basic page component in Contember. It simply renders its children insid
 For more details on these props and their usage, see the [API reference](../api/v1.2/Pages/GenericPage.mdx).
 
 #### Example how to use GenericPage
+
 ```typescript jsx
 import { GenericPage } from '@contember/admin'
 
@@ -90,6 +73,7 @@ The `redirectOnSuccess` prop allows you to specify a target page to navigate to 
 For more details on EditPage props and their usage, see the [API reference](../api/v1.2/Pages/EditPage.mdx).
 
 #### Example how to use EditPage
+
 ```typescript jsx
 import { EditPage } from '@contember/admin'
 
@@ -120,6 +104,7 @@ A `rendererProps` prop can be used to modify the layout of the page, such as add
 For more details on DetailPage props and their usage, see the [API reference](../api/v1.2/Pages/DetailPage.mdx).
 
 #### Example how to use DetailPage
+
 ```typescript jsx
 import { DetailPage, Field } from '@contember/admin'
 
@@ -158,7 +143,6 @@ export default () => {
 }
 ```
 
-
 ### DataGridPage
 
 `DataGridPage` is a page component that wraps a `DataGrid` component. It allows you to display a list of specified entities in a more advanced way, with features such as pagination and filtering.
@@ -194,17 +178,16 @@ export default () => {
 }
 ```
 
-
 ### MultiEditPage
 
 `MultiEditPage` is a page component in Contember that allows you to edit multiple entities on a single page. It is essentially a wrapper around the `Repeater` component, which means that you can use it to add, remove, and sort items within the page.
 
-To use` MultiEditPage`, you must specify the entities you want to edit using the `entities` prop (of type [qualified entity list](../data-binding/query-language#qualified-entity-list)). To control the behavior of the `Repeater`, you can pass props such as `sortableBy` through the `rendererProps` prop of `MultiEditPage`. This will allow you to specify which fields should be used to sort the items in the `Repeater`. You can also pass custom props to modify the layout of the page using the `rendererProps` prop.
+To use` MultiEditPage`, you must specify the entities you want to edit using the `entities` prop (of type [qualified entity list](../data-binding/query-language#qualified-entity-list)). To control the behavior of the `Repeater`, you can pass props such as `sortableBy` through the `rendererProps` prop of `MultiEditPage`. This will allow you to specify which fields should be used to sort the items in the `Repeater`. You can also pass custom props to modify the layout of the page using
+the `rendererProps` prop.
 
 `MultiEditPage` should only be used for editing a small number of entities, as it does not support advanced features such as pagination or filtering.
 
 For more details on MultiEditPage props and their usage, see the [API reference](../api/v1.2/Pages/EditPage.mdx).
-
 
 #### Example how to use MultiEditPage
 

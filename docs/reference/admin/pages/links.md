@@ -2,6 +2,9 @@
 title: Links and redirects
 ---
 
+Contember's `Link` component and `useRedirect` hook offer powerful navigation capabilities within your application. The `Link` component creates hyperlinks to various routes, with support for both static and dynamic route parameters. The `useRedirect` hook, on the other hand, provides programmable navigation, letting you change routes based on application logic. These tools facilitate a highly navigable and interactive user interface. Further details can be found in the main documentation
+section.
+
 ## Links
 
 The `Link` component allows you to create a link to a specific route in your application. The `to` prop specifies the destination page: 
