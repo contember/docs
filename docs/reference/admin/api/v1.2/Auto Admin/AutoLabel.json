@@ -1,0 +1,232 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 113,
+			"name": "AutoLabelProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoLabel.tsx",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoLabel.tsx#L5"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 114,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 116,
+							"name": "createLink",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoLabel.tsx",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoLabel.tsx#L7"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 117,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoLabel.tsx",
+											"line": 7,
+											"character": 14,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoLabel.tsx#L7"
+										}
+									],
+									"signatures": [
+										{
+											"id": 118,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"parameters": [
+												{
+													"id": 119,
+													"name": "entity",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": 5945,
+												"name": "RoutingLinkTarget",
+												"package": "@contember/admin"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 115,
+							"name": "field",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoLabel.tsx",
+									"line": 6,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoLabel.tsx#L6"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								116,
+								115
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/Auto/AutoLabel.tsx",
+							"line": 5,
+							"character": 29,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoLabel.tsx#L5"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 120,
+			"name": "AutoLabel",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoLabel.tsx",
+					"line": 13,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoLabel.tsx#L13"
+				}
+			],
+			"signatures": [
+				{
+					"id": 121,
+					"name": "AutoLabel",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 122,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 113,
+								"name": "AutoLabelProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

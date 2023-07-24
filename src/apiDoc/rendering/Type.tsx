@@ -55,8 +55,9 @@ export const Type = ({ type, context }: {
 			if (
 				(type.package === 'typescript' && (type.name === 'Omit' || type.name === 'Partial' || type.name === 'Pick'))
 				|| (type.package === '@contember/admin' && type.name === 'ForbidKeys') //todo: extension
+				|| (type.package === '@contember/utilities' && type.name === "PolymorphicComponentPropsWithRef")
 			) {
-				const target = type.typeArguments?.[0]
+				const target = type.typeArguments?.[type.name === "PolymorphicComponentPropsWithRef" ? 1 : 0]
 				let contextWithTransformer = typeContext
 				switch (type.name) {
 					case 'Omit':
@@ -87,6 +88,7 @@ export const Type = ({ type, context }: {
 					</div>
 				)
 			}
+
 			if (type.refersToTypeParameter) {
 				let typeArgument = context.getTypeArgument(type.name);
 				return <>

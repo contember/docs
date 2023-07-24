@@ -1,0 +1,709 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 28,
+			"name": "ApplicationEntrypointProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 44,
+					"name": "apiBaseUrl",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 2,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10690,
+						"name": "ContemberClientProps.apiBaseUrl"
+					}
+				},
+				{
+					"id": 29,
+					"name": "basePath",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 36,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 21,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L21"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 32,
+					"name": "defaultDimensions",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 17,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L17"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5920,
+						"name": "SelectedDimension",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 33,
+					"name": "defaultLocale",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 18,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L18"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 40,
+					"name": "devBarPanels",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 23,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L23"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 34,
+					"name": "dictionaries",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 19,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L19"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5205,
+						"name": "MessageDictionaryByLocaleCode",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 35,
+					"name": "envVariables",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 20,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L20"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Record"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						],
+						"name": "Record",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 45,
+					"name": "loginToken",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10692,
+						"name": "ContemberClientProps.loginToken"
+					}
+				},
+				{
+					"id": 37,
+					"name": "onInvalidIdentity",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 22,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 38,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+									"line": 22,
+									"character": 21,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
+								}
+							],
+							"signatures": [
+								{
+									"id": 39,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+											"line": 22,
+											"character": 21,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 46,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10693,
+						"name": "ContemberClientProps.project"
+					}
+				},
+				{
+					"id": 41,
+					"name": "providers",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 24,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L24"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 42,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 43,
+											"name": "children",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isExternal": true,
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+													"line": 778,
+													"character": 48
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ReactNode"
+												},
+												"name": "ReactNode",
+												"package": "@types/react",
+												"qualifiedName": "React.ReactNode"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												43
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+											"line": 778,
+											"character": 46
+										}
+									]
+								}
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 31,
+					"name": "routes",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 16,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L16"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5971,
+						"name": "RouteMap",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 30,
+					"name": "sessionToken",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"target": 10691,
+						"name": "ContemberClientProps.sessionToken"
+					}
+				},
+				{
+					"id": 47,
+					"name": "stage",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10694,
+						"name": "ContemberClientProps.stage"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						44,
+						29,
+						36,
+						32,
+						33,
+						40,
+						34,
+						35,
+						45,
+						37,
+						46,
+						41,
+						31,
+						30,
+						47
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+					"line": 13,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L13"
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 10689,
+					"name": "ContemberClientProps",
+					"package": "@contember/react-client"
+				}
+			]
+		},
+		{
+			"id": 10689,
+			"name": "ContemberClientProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10690,
+					"name": "apiBaseUrl",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 2,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10692,
+					"name": "loginToken",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10693,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10691,
+					"name": "sessionToken",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10694,
+					"name": "stage",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10690,
+						10692,
+						10693,
+						10691,
+						10694
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/ContemberClient.d.ts",
+					"line": 1,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 28,
+					"name": "ApplicationEntrypointProps"
+				}
+			]
+		},
+		{
+			"id": 48,
+			"name": "ApplicationEntrypoint",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+					"line": 36,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L36"
+				}
+			],
+			"signatures": [
+				{
+					"id": 49,
+					"name": "ApplicationEntrypoint",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
+							"line": 36,
+							"character": 37,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L36"
+						}
+					],
+					"parameters": [
+						{
+							"id": 50,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 28,
+								"name": "ApplicationEntrypointProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "__global.JSX.Element"
+						},
+						"name": "Element",
+						"package": "@types/react",
+						"qualifiedName": "__global.JSX.Element"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

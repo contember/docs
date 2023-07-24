@@ -1,0 +1,179 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 2280,
+			"name": "FieldFallbackViewProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 2281,
+					"name": "fallback",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 2282,
+					"name": "fallbackStyle",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 2279,
+								"name": "FieldFallbackViewStyle",
+								"package": "@contember/admin"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2281,
+						2282
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 8,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+				}
+			]
+		},
+		{
+			"id": 2284,
+			"name": "FieldFallbackView",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 18,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L18"
+				}
+			],
+			"signatures": [
+				{
+					"id": 2285,
+					"name": "FieldFallbackView",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 2286,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 2280,
+								"name": "FieldFallbackViewProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 2287,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

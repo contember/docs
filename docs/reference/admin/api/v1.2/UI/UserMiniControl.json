@@ -1,0 +1,193 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 15451,
+			"name": "UserMiniControlProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 15452,
+					"name": "avatarUrl",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/UserMiniControl/UserMiniControl.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 15453,
+					"name": "name",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/UserMiniControl/UserMiniControl.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 15454,
+					"name": "note",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/UserMiniControl/UserMiniControl.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						15452,
+						15453,
+						15454
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/UserMiniControl/UserMiniControl.d.ts",
+					"line": 2,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 15455,
+			"name": "UserMiniControl",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/UserMiniControl/UserMiniControl.d.ts",
+					"line": 10,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 15456,
+					"name": "UserMiniControl",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 15457,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 15451,
+								"name": "UserMiniControlProps",
+								"package": "@contember/ui"
+							}
+						},
+						{
+							"id": 15458,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

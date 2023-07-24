@@ -1,0 +1,486 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 14921,
+			"name": "ThemeScheme",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 14922,
+					"name": "scheme",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18288,
+						"name": "Scheme",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 14923,
+					"name": "theme",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 14924,
+					"name": "themeContent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 14925,
+					"name": "themeControls",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						14922,
+						14923,
+						14924,
+						14925
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+					"line": 2,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 14948,
+					"name": "LayoutChromeProps"
+				},
+				{
+					"type": "reference",
+					"target": 14969,
+					"name": "LayoutPageProps"
+				},
+				{
+					"type": "reference",
+					"target": 15368,
+					"name": "TitleBarProps"
+				}
+			]
+		},
+		{
+			"id": 15368,
+			"name": "TitleBarProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 15372,
+					"name": "actions",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/TitleBar/TitleBar.d.ts",
+							"line": 7,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 15369,
+					"name": "after",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/TitleBar/TitleBar.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 15371,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/TitleBar/TitleBar.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 15370,
+					"name": "navigation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/TitleBar/TitleBar.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 15373,
+					"name": "scheme",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18288,
+						"name": "Scheme",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14922,
+						"name": "ThemeScheme.scheme"
+					}
+				},
+				{
+					"id": 15374,
+					"name": "theme",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14923,
+						"name": "ThemeScheme.theme"
+					}
+				},
+				{
+					"id": 15375,
+					"name": "themeContent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14924,
+						"name": "ThemeScheme.themeContent"
+					}
+				},
+				{
+					"id": 15376,
+					"name": "themeControls",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14925,
+						"name": "ThemeScheme.themeControls"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						15372,
+						15369,
+						15371,
+						15370,
+						15373,
+						15374,
+						15375,
+						15376
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/TitleBar/TitleBar.d.ts",
+					"line": 3,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 14921,
+					"name": "ThemeScheme",
+					"package": "@contember/ui"
+				}
+			]
+		},
+		{
+			"id": 15377,
+			"name": "TitleBar",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/TitleBar/TitleBar.d.ts",
+					"line": 12,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 15378,
+					"name": "TitleBar",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 15379,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 15368,
+								"name": "TitleBarProps",
+								"package": "@contember/ui"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

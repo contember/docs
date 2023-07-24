@@ -1,0 +1,320 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 169,
+			"name": "BlockProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 173,
+					"name": "alternate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 174,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 172,
+					"name": "description",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 170,
+					"name": "discriminateBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Field to discriminate by."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9412,
+						"name": "OptionallyVariableFieldValue",
+						"package": "@contember/binding"
+					}
+				},
+				{
+					"id": 171,
+					"name": "label",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						173,
+						174,
+						172,
+						170,
+						171
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+					"line": 5,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L5"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 3220,
+					"name": "EditorReferenceBlock"
+				}
+			]
+		},
+		{
+			"id": 175,
+			"name": "Block",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
+					"line": 26,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L26"
+				}
+			],
+			"signatures": [
+				{
+					"id": 176,
+					"name": "Block",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The Block component is used for wrapping fields in "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "BlockRepeater",
+								"target": 1150
+							},
+							{
+								"kind": "text",
+								"text": ", "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "BlockEditor",
+								"target": 3444
+							},
+							{
+								"kind": "text",
+								"text": " or "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "DiscriminatedBlocks",
+								"target": 184
+							},
+							{
+								"kind": "text",
+								"text": " components."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<Block discriminateBy=\"gallery\" label=\"Gallery\" />\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 177,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 169,
+								"name": "BlockProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 178,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

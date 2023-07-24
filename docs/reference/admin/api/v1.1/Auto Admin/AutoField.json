@@ -1,0 +1,299 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 59,
+			"name": "AutoFieldProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+					"line": 9,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L9"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 60,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 64,
+							"name": "createEditLink",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+									"line": 13,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L13"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 65,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+											"line": 13,
+											"character": 18,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L13"
+										}
+									],
+									"signatures": [
+										{
+											"id": 66,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"parameters": [
+												{
+													"id": 67,
+													"name": "entity",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": 5548,
+												"name": "RoutingLinkTarget",
+												"package": "@contember/admin"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 62,
+							"name": "entityName",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+									"line": 11,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 68,
+							"name": "excludedEntities",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+									"line": 14,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L14"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						},
+						{
+							"id": 63,
+							"name": "fieldName",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+									"line": 12,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L12"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 61,
+							"name": "schema",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+									"line": 10,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7311,
+								"name": "Schema",
+								"package": "@contember/binding"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								64,
+								62,
+								68,
+								63,
+								61
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+							"line": 9,
+							"character": 29,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L9"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 69,
+			"name": "AutoField",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
+					"line": 20,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoField.tsx#L20"
+				}
+			],
+			"signatures": [
+				{
+					"id": 70,
+					"name": "AutoField",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 71,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 59,
+								"name": "AutoFieldProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

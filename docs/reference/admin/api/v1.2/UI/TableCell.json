@@ -1,0 +1,264 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 15313,
+			"name": "TableCellProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 15315,
+					"name": "alignment",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15554,
+						"name": "Alignment",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 15314,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 15319,
+					"name": "colSpan",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 15316,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 15318,
+					"name": "numeric",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 15317,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+							"line": 7,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						15315,
+						15314,
+						15319,
+						15316,
+						15318,
+						15317
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+					"line": 3,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 15320,
+			"name": "TableCell",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Table/TableCell.d.ts",
+					"line": 14,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 15321,
+					"name": "TableCell",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 15322,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 15313,
+								"name": "TableCellProps",
+								"package": "@contember/ui"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

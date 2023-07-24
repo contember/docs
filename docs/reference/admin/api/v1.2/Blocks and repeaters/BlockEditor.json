@@ -1,0 +1,3723 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 3399,
+			"name": "BlockEditorProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 3436,
+					"name": "augmentEditor",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+							"line": 45,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3437,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+									"line": 45,
+									"character": 17,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+								}
+							],
+							"signatures": [
+								{
+									"id": 3438,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+											"line": 45,
+											"character": 17,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+										}
+									],
+									"parameters": [
+										{
+											"id": 3439,
+											"name": "baseEditor",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 4164,
+												"name": "Editor",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											},
+											{
+												"type": "reference",
+												"target": 4164,
+												"name": "Editor",
+												"package": "@contember/admin"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 2865,
+						"name": "CreateEditorPublicOptions.augmentEditor"
+					}
+				},
+				{
+					"id": 3440,
+					"name": "augmentEditorBuiltins",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+							"line": 46,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 3441,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+									"line": 46,
+									"character": 25,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+								}
+							],
+							"signatures": [
+								{
+									"id": 3442,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+											"line": 46,
+											"character": 25,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+										}
+									],
+									"parameters": [
+										{
+											"id": 3443,
+											"name": "editor",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 3283,
+												"name": "EditorWithBlocks",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											},
+											{
+												"type": "reference",
+												"target": 3283,
+												"name": "EditorWithBlocks",
+												"package": "@contember/admin"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 2869,
+						"name": "CreateEditorPublicOptions.augmentEditorBuiltins"
+					}
+				},
+				{
+					"id": 3416,
+					"name": "blockButtons",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 72,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L72"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"target": 3251,
+									"name": "BlockHoveringToolbarConfig",
+									"package": "@contember/admin"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "array",
+									"elementType": {
+										"type": "reference",
+										"target": 3251,
+										"name": "BlockHoveringToolbarConfig",
+										"package": "@contember/admin"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 3404,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 54,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L54"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 3402,
+					"name": "contentField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 52,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L52"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10171,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 3412,
+					"name": "embedContentDiscriminationField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 65,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L65"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10171,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 3413,
+					"name": "embedHandlers",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 66,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L66"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+							"qualifiedName": "Iterable"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 3354,
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "EmbedHandler",
+								"package": "@contember/admin"
+							}
+						],
+						"name": "Iterable",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 3411,
+					"name": "embedReferenceDiscriminateBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 64,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L64"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9412,
+						"name": "OptionallyVariableFieldValue",
+						"package": "@contember/binding"
+					}
+				},
+				{
+					"id": 3419,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10115,
+						"name": "SugaredRelativeEntityList.expectedMutation"
+					}
+				},
+				{
+					"id": 3418,
+					"name": "field",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/RelativeEntityList.d.ts",
+							"line": 17,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10093,
+								"name": "SugarableRelativeEntityList",
+								"package": "@contember/binding"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10114,
+						"name": "SugaredRelativeEntityList.field"
+					}
+				},
+				{
+					"id": 3425,
+					"name": "initialEntityCount",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListPreferences.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10121,
+						"name": "SugaredRelativeEntityList.initialEntityCount"
+					}
+				},
+				{
+					"id": 3415,
+					"name": "inlineButtons",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 71,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L71"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"target": 4042,
+									"name": "ToolbarButtonSpec",
+									"package": "@contember/admin"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "array",
+									"elementType": {
+										"type": "reference",
+										"target": 4042,
+										"name": "ToolbarButtonSpec",
+										"package": "@contember/admin"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 3420,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10116,
+						"name": "SugaredRelativeEntityList.isNonbearing"
+					}
+				},
+				{
+					"id": 3400,
+					"name": "label",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 50,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L50"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 3406,
+					"name": "leadingFieldBackedElements",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 57,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L57"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 3470,
+							"name": "FieldBackedElement",
+							"package": "@contember/admin"
+						}
+					}
+				},
+				{
+					"id": 3424,
+					"name": "limit",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10120,
+						"name": "SugaredRelativeEntityList.limit"
+					}
+				},
+				{
+					"id": 3410,
+					"name": "monolithicReferencesMode",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 62,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L62"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 3423,
+					"name": "offset",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10119,
+						"name": "SugaredRelativeEntityList.offset"
+					}
+				},
+				{
+					"id": 3429,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7237,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7237,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10125,
+						"name": "SugaredRelativeEntityList.onBeforePersist"
+					}
+				},
+				{
+					"id": 3428,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7228,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7228,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10124,
+						"name": "SugaredRelativeEntityList.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 3432,
+					"name": "onChildBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10128,
+						"name": "SugaredRelativeEntityList.onChildBeforeUpdate"
+					}
+				},
+				{
+					"id": 3431,
+					"name": "onChildInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10127,
+						"name": "SugaredRelativeEntityList.onChildInitialize"
+					}
+				},
+				{
+					"id": 3430,
+					"name": "onChildUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7102,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10126,
+						"name": "SugaredRelativeEntityList.onChildUpdate"
+					}
+				},
+				{
+					"id": 3427,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7228,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7228,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10123,
+						"name": "SugaredRelativeEntityList.onInitialize"
+					}
+				},
+				{
+					"id": 3433,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7242,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7242,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10129,
+						"name": "SugaredRelativeEntityList.onPersistError"
+					}
+				},
+				{
+					"id": 3434,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7247,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7247,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10130,
+						"name": "SugaredRelativeEntityList.onPersistSuccess"
+					}
+				},
+				{
+					"id": 3426,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7233,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7233,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10122,
+						"name": "SugaredRelativeEntityList.onUpdate"
+					}
+				},
+				{
+					"id": 3422,
+					"name": "orderBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9735,
+						"name": "SugaredOrderBy",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10118,
+						"name": "SugaredRelativeEntityList.orderBy"
+					}
+				},
+				{
+					"id": 3417,
+					"name": "otherBlockButtons",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 73,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L73"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 3251,
+							"name": "BlockHoveringToolbarConfig",
+							"package": "@contember/admin"
+						}
+					}
+				},
+				{
+					"id": 3401,
+					"name": "placeholder",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 51,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L51"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 3435,
+					"name": "plugins",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+							"line": 44,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L44"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 2874,
+							"name": "BuiltinEditorPlugins",
+							"package": "@contember/admin"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 2864,
+						"name": "CreateEditorPublicOptions.plugins"
+					}
+				},
+				{
+					"id": 3409,
+					"name": "referenceDiscriminationField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 61,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L61"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10171,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 3408,
+					"name": "referencesField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 60,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L60"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10113,
+								"name": "SugaredRelativeEntityList",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 3421,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10117,
+						"name": "SugaredRelativeEntityList.setOnCreate"
+					}
+				},
+				{
+					"id": 3405,
+					"name": "size",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 55,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L55"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15562,
+						"name": "EditorCanvasSize",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 3403,
+					"name": "sortableBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 53,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L53"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10171,
+								"name": "SugaredRelativeSingleField",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 3414,
+					"name": "toolbarScheme",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 68,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L68"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18288,
+						"name": "Scheme",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 3407,
+					"name": "trailingFieldBackedElements",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+							"line": 58,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L58"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 3470,
+							"name": "FieldBackedElement",
+							"package": "@contember/admin"
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						3436,
+						3440,
+						3416,
+						3404,
+						3402,
+						3412,
+						3413,
+						3411,
+						3419,
+						3418,
+						3425,
+						3415,
+						3420,
+						3400,
+						3406,
+						3424,
+						3410,
+						3423,
+						3429,
+						3428,
+						3432,
+						3431,
+						3430,
+						3427,
+						3433,
+						3434,
+						3426,
+						3422,
+						3417,
+						3401,
+						3435,
+						3409,
+						3408,
+						3421,
+						3405,
+						3403,
+						3414,
+						3407
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+					"line": 49,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L49"
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 10113,
+					"name": "SugaredRelativeEntityList",
+					"package": "@contember/binding"
+				},
+				{
+					"type": "reference",
+					"target": 2863,
+					"typeArguments": [
+						{
+							"type": "reference",
+							"target": 3283,
+							"name": "EditorWithBlocks",
+							"package": "@contember/admin"
+						}
+					],
+					"name": "CreateEditorPublicOptions",
+					"package": "@contember/admin"
+				}
+			]
+		},
+		{
+			"id": 2863,
+			"name": "CreateEditorPublicOptions",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 2865,
+					"name": "augmentEditor",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+							"line": 45,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 2866,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+									"line": 45,
+									"character": 17,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+								}
+							],
+							"signatures": [
+								{
+									"id": 2867,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+											"line": 45,
+											"character": 17,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+										}
+									],
+									"parameters": [
+										{
+											"id": 2868,
+											"name": "baseEditor",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 4164,
+												"name": "Editor",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											},
+											{
+												"type": "reference",
+												"target": 4164,
+												"name": "Editor",
+												"package": "@contember/admin"
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 2869,
+					"name": "augmentEditorBuiltins",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+							"line": 46,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 2870,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+									"line": 46,
+									"character": 25,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+								}
+							],
+							"signatures": [
+								{
+									"id": 2871,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+											"line": 46,
+											"character": 25,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+										}
+									],
+									"parameters": [
+										{
+											"id": 2872,
+											"name": "editor",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "E",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											},
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "E",
+												"refersToTypeParameter": true
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 2864,
+					"name": "plugins",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+							"line": 44,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L44"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 2874,
+							"name": "BuiltinEditorPlugins",
+							"package": "@contember/admin"
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2865,
+						2869,
+						2864
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
+					"line": 43,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L43"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 2873,
+					"name": "E",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/slate/dist/packages/slate/src/interfaces/editor.ts",
+							"qualifiedName": "Editor"
+						},
+						"name": "Editor",
+						"package": "slate"
+					},
+					"default": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/slate/dist/packages/slate/src/interfaces/editor.ts",
+							"qualifiedName": "Editor"
+						},
+						"name": "Editor",
+						"package": "slate"
+					}
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 3284,
+					"name": "CreateEditorOptions"
+				},
+				{
+					"type": "reference",
+					"target": 3399,
+					"name": "BlockEditorProps"
+				},
+				{
+					"type": "reference",
+					"target": 4086,
+					"name": "RichTextFieldProps"
+				},
+				{
+					"type": "reference",
+					"target": 4126,
+					"name": "LegacyDeprecatedEditorFormerlyKnownAsRichTextFieldProps"
+				}
+			]
+		},
+		{
+			"id": 10113,
+			"name": "SugaredRelativeEntityList",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10115,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10097,
+						"name": "UnsugarableRelativeEntityList.expectedMutation"
+					}
+				},
+				{
+					"id": 10114,
+					"name": "field",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/RelativeEntityList.d.ts",
+							"line": 17,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10093,
+								"name": "SugarableRelativeEntityList",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 10121,
+					"name": "initialEntityCount",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListPreferences.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10103,
+						"name": "UnsugarableRelativeEntityList.initialEntityCount"
+					}
+				},
+				{
+					"id": 10116,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10098,
+						"name": "UnsugarableRelativeEntityList.isNonbearing"
+					}
+				},
+				{
+					"id": 10120,
+					"name": "limit",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10102,
+						"name": "UnsugarableRelativeEntityList.limit"
+					}
+				},
+				{
+					"id": 10119,
+					"name": "offset",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10101,
+						"name": "UnsugarableRelativeEntityList.offset"
+					}
+				},
+				{
+					"id": 10125,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7237,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7237,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10107,
+						"name": "UnsugarableRelativeEntityList.onBeforePersist"
+					}
+				},
+				{
+					"id": 10124,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7228,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7228,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10106,
+						"name": "UnsugarableRelativeEntityList.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 10128,
+					"name": "onChildBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10110,
+						"name": "UnsugarableRelativeEntityList.onChildBeforeUpdate"
+					}
+				},
+				{
+					"id": 10127,
+					"name": "onChildInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10109,
+						"name": "UnsugarableRelativeEntityList.onChildInitialize"
+					}
+				},
+				{
+					"id": 10126,
+					"name": "onChildUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7102,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10108,
+						"name": "UnsugarableRelativeEntityList.onChildUpdate"
+					}
+				},
+				{
+					"id": 10123,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7228,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7228,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10105,
+						"name": "UnsugarableRelativeEntityList.onInitialize"
+					}
+				},
+				{
+					"id": 10129,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7242,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7242,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10111,
+						"name": "UnsugarableRelativeEntityList.onPersistError"
+					}
+				},
+				{
+					"id": 10130,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7247,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7247,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10112,
+						"name": "UnsugarableRelativeEntityList.onPersistSuccess"
+					}
+				},
+				{
+					"id": 10122,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7233,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7233,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10104,
+						"name": "UnsugarableRelativeEntityList.onUpdate"
+					}
+				},
+				{
+					"id": 10118,
+					"name": "orderBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9735,
+						"name": "SugaredOrderBy",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10100,
+						"name": "UnsugarableRelativeEntityList.orderBy"
+					}
+				},
+				{
+					"id": 10117,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10099,
+						"name": "UnsugarableRelativeEntityList.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10115,
+						10114,
+						10121,
+						10116,
+						10120,
+						10119,
+						10125,
+						10124,
+						10128,
+						10127,
+						10126,
+						10123,
+						10129,
+						10130,
+						10122,
+						10118,
+						10117
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/RelativeEntityList.d.ts",
+					"line": 16,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 10096,
+					"name": "UnsugarableRelativeEntityList",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 1691,
+					"name": "RepeaterProps"
+				},
+				{
+					"type": "reference",
+					"target": 3399,
+					"name": "BlockEditorProps"
+				}
+			]
+		},
+		{
+			"id": 9753,
+			"name": "UnsugarableEntityCreationParameters",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9754,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 9755,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9754,
+						9755
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+					"line": 9,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9962,
+					"name": "UnsugarableQualifiedEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10039,
+					"name": "UnsugarableQualifiedSingleEntity"
+				},
+				{
+					"type": "reference",
+					"target": 10086,
+					"name": "UnsugarableRelation"
+				},
+				{
+					"type": "reference",
+					"target": 10203,
+					"name": "UnsugarableUnconstrainedQualifiedEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10248,
+					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
+				}
+			]
+		},
+		{
+			"id": 9764,
+			"name": "UnsugarableEntityListParameters",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9768,
+					"name": "initialEntityCount",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListPreferences.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9773,
+						"name": "UnsugarableEntityListPreferences.initialEntityCount"
+					}
+				},
+				{
+					"id": 9767,
+					"name": "limit",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 9766,
+					"name": "offset",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 9765,
+					"name": "orderBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9735,
+						"name": "SugaredOrderBy",
+						"package": "@contember/binding"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9768,
+						9767,
+						9766,
+						9765
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+					"line": 12,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9772,
+					"name": "UnsugarableEntityListPreferences",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9865,
+					"name": "UnsugarableHasManyRelation"
+				},
+				{
+					"type": "reference",
+					"target": 9962,
+					"name": "UnsugarableQualifiedEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10096,
+					"name": "UnsugarableRelativeEntityList"
+				}
+			]
+		},
+		{
+			"id": 9772,
+			"name": "UnsugarableEntityListPreferences",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9773,
+					"name": "initialEntityCount",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListPreferences.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9773
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/EntityListPreferences.d.ts",
+					"line": 5,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9764,
+					"name": "UnsugarableEntityListParameters"
+				},
+				{
+					"type": "reference",
+					"target": 10203,
+					"name": "UnsugarableUnconstrainedQualifiedEntityList"
+				}
+			]
+		},
+		{
+			"id": 10086,
+			"name": "UnsugarableRelation",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10087,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					}
+				},
+				{
+					"id": 10088,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9754,
+						"name": "UnsugarableEntityCreationParameters.isNonbearing"
+					}
+				},
+				{
+					"id": 10089,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9755,
+						"name": "UnsugarableEntityCreationParameters.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10087,
+						10088,
+						10089
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+					"line": 12,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9753,
+					"name": "UnsugarableEntityCreationParameters",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9865,
+					"name": "UnsugarableHasManyRelation"
+				},
+				{
+					"type": "reference",
+					"target": 9894,
+					"name": "UnsugarableHasOneRelation"
+				},
+				{
+					"type": "reference",
+					"target": 10096,
+					"name": "UnsugarableRelativeEntityList"
+				}
+			]
+		},
+		{
+			"id": 10096,
+			"name": "UnsugarableRelativeEntityList",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10097,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10087,
+						"name": "UnsugarableRelation.expectedMutation"
+					}
+				},
+				{
+					"id": 10103,
+					"name": "initialEntityCount",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListPreferences.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9768,
+						"name": "UnsugarableEntityListParameters.initialEntityCount"
+					}
+				},
+				{
+					"id": 10098,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10088,
+						"name": "UnsugarableRelation.isNonbearing"
+					}
+				},
+				{
+					"id": 10102,
+					"name": "limit",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9767,
+						"name": "UnsugarableEntityListParameters.limit"
+					}
+				},
+				{
+					"id": 10101,
+					"name": "offset",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9766,
+						"name": "UnsugarableEntityListParameters.offset"
+					}
+				},
+				{
+					"id": 10107,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7237,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7237,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onBeforePersist"
+					}
+				},
+				{
+					"id": 10106,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7228,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7228,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 10110,
+					"name": "onChildBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onChildBeforeUpdate"
+					}
+				},
+				{
+					"id": 10109,
+					"name": "onChildInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onChildInitialize"
+					}
+				},
+				{
+					"id": 10108,
+					"name": "onChildUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7102,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onChildUpdate"
+					}
+				},
+				{
+					"id": 10105,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7228,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7228,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onInitialize"
+					}
+				},
+				{
+					"id": 10111,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7242,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7242,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onPersistError"
+					}
+				},
+				{
+					"id": 10112,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7247,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7247,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onPersistSuccess"
+					}
+				},
+				{
+					"id": 10104,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7233,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityListAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7233,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityListAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableEntityListEventListeners.onUpdate"
+					}
+				},
+				{
+					"id": 10100,
+					"name": "orderBy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityListParameters.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9735,
+						"name": "SugaredOrderBy",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9765,
+						"name": "UnsugarableEntityListParameters.orderBy"
+					}
+				},
+				{
+					"id": 10099,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10089,
+						"name": "UnsugarableRelation.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10097,
+						10103,
+						10098,
+						10102,
+						10101,
+						10107,
+						10106,
+						10110,
+						10109,
+						10108,
+						10105,
+						10111,
+						10112,
+						10104,
+						10100,
+						10099
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/RelativeEntityList.d.ts",
+					"line": 14,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 10086,
+					"name": "UnsugarableRelation",
+					"package": "@contember/binding"
+				},
+				{
+					"type": "reference",
+					"target": 9764,
+					"name": "UnsugarableEntityListParameters",
+					"package": "@contember/binding"
+				},
+				{
+					"type": "reference",
+					"target": 9849,
+					"name": "UnsugarableEntityListEventListeners",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 10113,
+					"name": "SugaredRelativeEntityList"
+				}
+			]
+		},
+		{
+			"id": 9849,
+			"name": "UnsugarableEntityListEventListeners",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/EntityListEventListeners.d.ts",
+					"line": 11,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "mapped",
+				"parameter": "EventType",
+				"parameterType": {
+					"type": "intersection",
+					"types": [
+						{
+							"type": "typeOperator",
+							"operator": "keyof",
+							"target": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../binding/src/treeParameters/EntityListEventListeners.ts",
+									"qualifiedName": "UnsugarableEvents"
+								},
+								"name": "UnsugarableEvents",
+								"package": "@contember/binding"
+							}
+						},
+						{
+							"type": "intrinsic",
+							"name": "string"
+						}
+					]
+				},
+				"templateType": {
+					"type": "union",
+					"types": [
+						{
+							"type": "indexedAccess",
+							"indexType": {
+								"type": "reference",
+								"target": -1,
+								"name": "EventType",
+								"refersToTypeParameter": true
+							},
+							"objectType": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../binding/src/treeParameters/EntityListEventListeners.ts",
+									"qualifiedName": "UnsugarableEvents"
+								},
+								"name": "UnsugarableEvents",
+								"package": "@contember/binding"
+							}
+						},
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+								"qualifiedName": "Set"
+							},
+							"typeArguments": [
+								{
+									"type": "indexedAccess",
+									"indexType": {
+										"type": "reference",
+										"target": -1,
+										"name": "EventType",
+										"refersToTypeParameter": true
+									},
+									"objectType": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../binding/src/treeParameters/EntityListEventListeners.ts",
+											"qualifiedName": "UnsugarableEvents"
+										},
+										"name": "UnsugarableEvents",
+										"package": "@contember/binding"
+									}
+								}
+							],
+							"name": "Set",
+							"package": "typescript"
+						}
+					]
+				},
+				"optionalModifier": "+",
+				"nameType": {
+					"type": "templateLiteral",
+					"head": "on",
+					"tail": [
+						[
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+									"qualifiedName": "Capitalize"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "EventType",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "Capitalize",
+								"package": "typescript"
+							},
+							""
+						]
+					]
+				}
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9865,
+					"name": "UnsugarableHasManyRelation"
+				},
+				{
+					"type": "reference",
+					"target": 9962,
+					"name": "UnsugarableQualifiedEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10096,
+					"name": "UnsugarableRelativeEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10203,
+					"name": "UnsugarableUnconstrainedQualifiedEntityList"
+				}
+			]
+		},
+		{
+			"id": 3444,
+			"name": "BlockEditor",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
+					"line": 327,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L327"
+				}
+			],
+			"signatures": [
+				{
+					"id": 3445,
+					"name": "BlockEditor",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The "
+							},
+							{
+								"kind": "code",
+								"text": "`BlockEditor`"
+							},
+							{
+								"kind": "text",
+								"text": " component is the main component of the editor. It is responsible for rendering the content editor."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 3446,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 3399,
+								"name": "BlockEditorProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 3447,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

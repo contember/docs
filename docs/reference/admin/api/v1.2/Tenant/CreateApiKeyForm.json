@@ -1,0 +1,188 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6012,
+			"name": "CreateApiKeyFormProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 6015,
+					"name": "apiKeyListLink",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5945,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6013,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 6014,
+					"name": "rolesConfig",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6119,
+						"name": "RolesConfig",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						6015,
+						6013,
+						6014
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
+					"line": 9,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L9"
+				}
+			]
+		},
+		{
+			"id": 6016,
+			"name": "CreateApiKeyForm",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
+					"line": 22,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L22"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6017,
+					"name": "CreateApiKeyForm",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 6018,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 6012,
+								"name": "CreateApiKeyFormProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 6019,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

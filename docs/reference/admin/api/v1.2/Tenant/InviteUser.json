@@ -1,0 +1,234 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6290,
+			"name": "InviteUserProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 6295,
+					"name": "mailVariant",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 6294,
+					"name": "method",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6555,
+						"name": "InviteMethod",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6291,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 6292,
+					"name": "rolesConfig",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6119,
+						"name": "RolesConfig",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6293,
+					"name": "userListLink",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5945,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						6295,
+						6294,
+						6291,
+						6292,
+						6293
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+					"line": 8,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L8"
+				}
+			]
+		},
+		{
+			"id": 6296,
+			"name": "InviteUser",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/person/InviteUser.tsx",
+					"line": 19,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/InviteUser.tsx#L19"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6297,
+					"name": "InviteUser",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 6298,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 6290,
+								"name": "InviteUserProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 6299,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

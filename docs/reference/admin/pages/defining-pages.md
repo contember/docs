@@ -32,7 +32,7 @@ Contember provides several prepared page components to help you quickly set up c
 
 The most basic page component in Contember. It simply renders its children inside a layout. It also has a number of props that can be used to modify the page layout, such as `title`, `side`, `navigation`, or `actions`. These props allow you to customize the page's title, add content to the side panel, add navigation elements, or add actions to the page.
 
-For more details on these props and their usage, see the [API reference](../api/Pages/GenericPage.mdx).
+For more details on these props and their usage, see the [API reference](../api/v1.2/Pages/GenericPage.mdx).
 
 #### Example how to use GenericPage
 ```typescript jsx
@@ -57,7 +57,7 @@ You can use the `rendererProps` prop to modify the layout of the page, similar t
 
 If you set the `orderField` prop, the specified field will be automatically filled with the next available value. This is useful for entities that have an order field, as it allows you to easily specify the order in which the entities should be displayed.
 
-For more details on CreatePage props and their usage, see the [API reference](../api/Pages/CreatePage.mdx).
+For more details on CreatePage props and their usage, see the [API reference](../api/v1.2/Pages/CreatePage.mdx).
 
 #### Example how to use CreatePage
 
@@ -87,7 +87,7 @@ EditPage is a page component used for editing a specific entity. It requires an 
 
 The `redirectOnSuccess` prop allows you to specify a target page to navigate to after the entity has been successfully edited, and the `rendererProps` prop allows you to pass props to modify the layout of the page, such as the `title`, `side`, `navigation` props etc.
 
-For more details on EditPage props and their usage, see the [API reference](../api/Pages/EditPage.mdx).
+For more details on EditPage props and their usage, see the [API reference](../api/v1.2/Pages/EditPage.mdx).
 
 #### Example how to use EditPage
 ```typescript jsx
@@ -117,7 +117,7 @@ The `DetailPage` component is used to display the details of a single entity. It
 
 A `rendererProps` prop can be used to modify the layout of the page, such as adding a title or custom actions.
 
-For more details on DetailPage props and their usage, see the [API reference](../api/Pages/DetailPage.mdx).
+For more details on DetailPage props and their usage, see the [API reference](../api/v1.2/Pages/DetailPage.mdx).
 
 #### Example how to use DetailPage
 ```typescript jsx
@@ -143,7 +143,7 @@ The `ListPage` allows you to display a simple list of specified entities. It req
 
 You can also use `rendererProps` prop to modify the layout of the page, such as adding a title or custom actions.
 
-For more details on ListPage props and their usage, see the [API reference](../api/Pages/ListPage.mdx).
+For more details on ListPage props and their usage, see the [API reference](../api/v1.2/Pages/ListPage.mdx).
 
 ```typescript jsx
 import { ListPage, Field } from '@contember/admin'
@@ -167,7 +167,7 @@ To use `DataGridPage`, you need to pass the `entities` prop (of type [qualified 
 
 To define the cells of the grid, you pass them as children to the DataGridPage component. These will be rendered as columns in the grid.
 
-For more details on DataGridPage props and their usage, see the [API reference](../api/Pages/DataGridPage.mdx).
+For more details on DataGridPage props and their usage, see the [API reference](../api/v1.2/Pages/DataGridPage.mdx).
 
 #### Example how to use DataGridPage
 
@@ -203,7 +203,7 @@ To use` MultiEditPage`, you must specify the entities you want to edit using the
 
 `MultiEditPage` should only be used for editing a small number of entities, as it does not support advanced features such as pagination or filtering.
 
-For more details on MultiEditPage props and their usage, see the [API reference](../api/Pages/EditPage.mdx).
+For more details on MultiEditPage props and their usage, see the [API reference](../api/v1.2/Pages/EditPage.mdx).
 
 
 #### Example how to use MultiEditPage

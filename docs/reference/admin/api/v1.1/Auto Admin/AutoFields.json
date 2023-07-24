@@ -1,0 +1,262 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 72,
+			"name": "AutoFieldsProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L5"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 73,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 74,
+							"name": "createEditLink",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+									"line": 6,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L6"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 75,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+											"line": 6,
+											"character": 18,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L6"
+										}
+									],
+									"signatures": [
+										{
+											"id": 76,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"parameters": [
+												{
+													"id": 77,
+													"name": "entity",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": 5548,
+												"name": "RoutingLinkTarget",
+												"package": "@contember/admin"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 79,
+							"name": "excludedEntities",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L8"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						},
+						{
+							"id": 78,
+							"name": "excludedFields",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L7"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								74,
+								79,
+								78
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+							"line": 5,
+							"character": 30,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L5"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 80,
+			"name": "AutoFields",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/Auto/AutoFields.tsx",
+					"line": 14,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/Auto/AutoFields.tsx#L14"
+				}
+			],
+			"signatures": [
+				{
+					"id": 81,
+					"name": "AutoFields",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 82,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 72,
+								"name": "AutoFieldsProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

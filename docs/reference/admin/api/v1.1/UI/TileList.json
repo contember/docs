@@ -1,0 +1,116 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 4764,
+			"name": "TileList",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/ui/TileList.tsx",
+					"line": 6,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/ui/TileList.tsx#L6"
+				}
+			],
+			"signatures": [
+				{
+					"id": 4765,
+					"name": "TileList",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/ui/TileList.tsx",
+							"line": 6,
+							"character": 24,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/ui/TileList.tsx#L6"
+						}
+					],
+					"parameters": [
+						{
+							"id": 4766,
+							"name": "__namedParameters",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 4767,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 4768,
+											"name": "children",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/ui/TileList.tsx",
+													"line": 6,
+													"character": 40,
+													"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/ui/TileList.tsx#L6"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.ReactNode"
+												},
+												"name": "ReactNode",
+												"package": "@types/react",
+												"qualifiedName": "React.ReactNode"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												4768
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/ui/TileList.tsx",
+											"line": 6,
+											"character": 39,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/ui/TileList.tsx#L6"
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "__global.JSX.Element"
+						},
+						"name": "Element",
+						"package": "@types/react",
+						"qualifiedName": "__global.JSX.Element"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

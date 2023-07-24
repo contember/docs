@@ -1,0 +1,2114 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6671,
+			"name": "EntityAccessor",
+			"variant": "declaration",
+			"kind": 4,
+			"flags": {},
+			"children": [
+				{
+					"id": 6715,
+					"name": "EntityEventListenerMap",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 6717,
+							"name": "beforePersist",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 77,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6693,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 6709,
+								"name": "RuntimeEntityEventListenerMap.beforePersist"
+							}
+						},
+						{
+							"id": 6718,
+							"name": "beforeUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 78,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 6710,
+								"name": "RuntimeEntityEventListenerMap.beforeUpdate"
+							}
+						},
+						{
+							"id": 6719,
+							"name": "connectionUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 79,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 6711,
+								"name": "RuntimeEntityEventListenerMap.connectionUpdate"
+							}
+						},
+						{
+							"id": 6716,
+							"name": "initialize",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 85,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							}
+						},
+						{
+							"id": 6720,
+							"name": "persistError",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 80,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6698,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 6712,
+								"name": "RuntimeEntityEventListenerMap.persistError"
+							}
+						},
+						{
+							"id": 6721,
+							"name": "persistSuccess",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 81,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6703,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 6713,
+								"name": "RuntimeEntityEventListenerMap.persistSuccess"
+							}
+						},
+						{
+							"id": 6722,
+							"name": "update",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 82,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 6714,
+								"name": "RuntimeEntityEventListenerMap.update"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								6717,
+								6718,
+								6719,
+								6716,
+								6720,
+								6721,
+								6722
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+							"line": 84,
+							"character": 14
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"target": 6708,
+							"name": "RuntimeEntityEventListenerMap",
+							"package": "@contember/binding",
+							"qualifiedName": "EntityAccessor.RuntimeEntityEventListenerMap"
+						}
+					]
+				},
+				{
+					"id": 6708,
+					"name": "RuntimeEntityEventListenerMap",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 6709,
+							"name": "beforePersist",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 77,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6693,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							}
+						},
+						{
+							"id": 6710,
+							"name": "beforeUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 78,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							}
+						},
+						{
+							"id": 6711,
+							"name": "connectionUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 79,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							}
+						},
+						{
+							"id": 6712,
+							"name": "persistError",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 80,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6698,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							}
+						},
+						{
+							"id": 6713,
+							"name": "persistSuccess",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 81,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6703,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							}
+						},
+						{
+							"id": 6714,
+							"name": "update",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 82,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								6709,
+								6710,
+								6711,
+								6712,
+								6713,
+								6714
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+							"line": 76,
+							"character": 14
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"target": 6715,
+							"name": "EntityEventListenerMap"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						6715,
+						6672,
+						6708
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						6684,
+						6693,
+						6723,
+						6680,
+						6676,
+						6681,
+						6675,
+						6698,
+						6703,
+						6689
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+					"line": 14,
+					"character": 14
+				},
+				{
+					"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+					"line": 61,
+					"character": 18
+				}
+			]
+		},
+		{
+			"id": 7812,
+			"name": "ParentEntityProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 7813,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/coreComponents/ParentEntity.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 7817,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6693,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6693,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9529,
+						"name": "SugaredParentEntityParameters.onBeforePersist"
+					}
+				},
+				{
+					"id": 7816,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6684,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9528,
+						"name": "SugaredParentEntityParameters.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 7820,
+					"name": "onConnectionUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 7821,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 11,
+									"character": 25
+								}
+							],
+							"indexSignature": {
+								"id": 7822,
+								"name": "__index",
+								"variant": "signature",
+								"kind": 8192,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+										"line": 12,
+										"character": 8
+									}
+								],
+								"parameters": [
+									{
+										"id": 7823,
+										"name": "fieldName",
+										"variant": "param",
+										"kind": 32768,
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "union",
+									"types": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "literal",
+												"value": "connectionUpdate"
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 6715,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+												"qualifiedName": "Set"
+											},
+											"typeArguments": [
+												{
+													"type": "indexedAccess",
+													"indexType": {
+														"type": "literal",
+														"value": "connectionUpdate"
+													},
+													"objectType": {
+														"type": "reference",
+														"target": 6715,
+														"name": "EntityAccessor.EntityEventListenerMap",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"name": "Set",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9532,
+						"name": "SugaredParentEntityParameters.onConnectionUpdate"
+					}
+				},
+				{
+					"id": 7815,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6684,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9527,
+						"name": "SugaredParentEntityParameters.onInitialize"
+					}
+				},
+				{
+					"id": 7818,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6698,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6698,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9530,
+						"name": "SugaredParentEntityParameters.onPersistError"
+					}
+				},
+				{
+					"id": 7819,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6703,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6703,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9531,
+						"name": "SugaredParentEntityParameters.onPersistSuccess"
+					}
+				},
+				{
+					"id": 7814,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6689,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9526,
+						"name": "SugaredParentEntityParameters.onUpdate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						7813,
+						7817,
+						7816,
+						7820,
+						7815,
+						7818,
+						7819,
+						7814
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/coreComponents/ParentEntity.d.ts",
+					"line": 3,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9525,
+					"name": "SugaredParentEntityParameters",
+					"package": "@contember/binding"
+				}
+			]
+		},
+		{
+			"id": 9525,
+			"name": "SugaredParentEntityParameters",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9529,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6693,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6693,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9518,
+						"name": "UnsugarableParentEntityParameters.onBeforePersist"
+					}
+				},
+				{
+					"id": 9528,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6684,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9517,
+						"name": "UnsugarableParentEntityParameters.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 9532,
+					"name": "onConnectionUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 9533,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 11,
+									"character": 25
+								}
+							],
+							"indexSignature": {
+								"id": 9534,
+								"name": "__index",
+								"variant": "signature",
+								"kind": 8192,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+										"line": 12,
+										"character": 8
+									}
+								],
+								"parameters": [
+									{
+										"id": 9535,
+										"name": "fieldName",
+										"variant": "param",
+										"kind": 32768,
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "union",
+									"types": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "literal",
+												"value": "connectionUpdate"
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 6715,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+												"qualifiedName": "Set"
+											},
+											"typeArguments": [
+												{
+													"type": "indexedAccess",
+													"indexType": {
+														"type": "literal",
+														"value": "connectionUpdate"
+													},
+													"objectType": {
+														"type": "reference",
+														"target": 6715,
+														"name": "EntityAccessor.EntityEventListenerMap",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"name": "Set",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9521,
+						"name": "UnsugarableParentEntityParameters.onConnectionUpdate"
+					}
+				},
+				{
+					"id": 9527,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6684,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9516,
+						"name": "UnsugarableParentEntityParameters.onInitialize"
+					}
+				},
+				{
+					"id": 9530,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6698,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6698,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9519,
+						"name": "UnsugarableParentEntityParameters.onPersistError"
+					}
+				},
+				{
+					"id": 9531,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6703,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6703,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9520,
+						"name": "UnsugarableParentEntityParameters.onPersistSuccess"
+					}
+				},
+				{
+					"id": 9526,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6689,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9515,
+						"name": "UnsugarableParentEntityParameters.onUpdate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9529,
+						9528,
+						9532,
+						9527,
+						9530,
+						9531,
+						9526
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/ParentEntityParameters.d.ts",
+					"line": 6,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9514,
+					"name": "UnsugarableParentEntityParameters",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 7812,
+					"name": "ParentEntityProps"
+				}
+			]
+		},
+		{
+			"id": 9514,
+			"name": "UnsugarableParentEntityParameters",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9518,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6693,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6693,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onBeforePersist"
+					}
+				},
+				{
+					"id": 9517,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6684,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 9521,
+					"name": "onConnectionUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 9522,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 11,
+									"character": 25
+								}
+							],
+							"indexSignature": {
+								"id": 9523,
+								"name": "__index",
+								"variant": "signature",
+								"kind": 8192,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+										"line": 12,
+										"character": 8
+									}
+								],
+								"parameters": [
+									{
+										"id": 9524,
+										"name": "fieldName",
+										"variant": "param",
+										"kind": 32768,
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "union",
+									"types": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "literal",
+												"value": "connectionUpdate"
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 6715,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+												"qualifiedName": "Set"
+											},
+											"typeArguments": [
+												{
+													"type": "indexedAccess",
+													"indexType": {
+														"type": "literal",
+														"value": "connectionUpdate"
+													},
+													"objectType": {
+														"type": "reference",
+														"target": 6715,
+														"name": "EntityAccessor.EntityEventListenerMap",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"name": "Set",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onConnectionUpdate"
+					}
+				},
+				{
+					"id": 9516,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6684,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6684,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onInitialize"
+					}
+				},
+				{
+					"id": 9519,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6698,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6698,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onPersistError"
+					}
+				},
+				{
+					"id": 9520,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6703,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6703,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onPersistSuccess"
+					}
+				},
+				{
+					"id": 9515,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 6689,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 6689,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onUpdate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9518,
+						9517,
+						9521,
+						9516,
+						9519,
+						9520,
+						9515
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/ParentEntityParameters.d.ts",
+					"line": 4,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9776,
+					"name": "UnsugarableSingleEntityEventListeners",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9525,
+					"name": "SugaredParentEntityParameters"
+				}
+			]
+		},
+		{
+			"id": 9776,
+			"name": "UnsugarableSingleEntityEventListeners",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+					"line": 8,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "mapped",
+						"parameter": "EventName",
+						"parameterType": {
+							"type": "intersection",
+							"types": [
+								{
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+										"qualifiedName": "Exclude"
+									},
+									"typeArguments": [
+										{
+											"type": "typeOperator",
+											"operator": "keyof",
+											"target": {
+												"type": "reference",
+												"target": 6715,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "literal",
+											"value": "connectionUpdate"
+										}
+									],
+									"name": "Exclude",
+									"package": "typescript"
+								},
+								{
+									"type": "intrinsic",
+									"name": "string"
+								}
+							]
+						},
+						"templateType": {
+							"type": "union",
+							"types": [
+								{
+									"type": "indexedAccess",
+									"indexType": {
+										"type": "reference",
+										"target": -1,
+										"name": "EventName",
+										"refersToTypeParameter": true
+									},
+									"objectType": {
+										"type": "reference",
+										"target": 6715,
+										"name": "EntityAccessor.EntityEventListenerMap",
+										"package": "@contember/binding"
+									}
+								},
+								{
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+										"qualifiedName": "Set"
+									},
+									"typeArguments": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "reference",
+												"target": -1,
+												"name": "EventName",
+												"refersToTypeParameter": true
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 6715,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										}
+									],
+									"name": "Set",
+									"package": "typescript"
+								}
+							]
+						},
+						"optionalModifier": "+",
+						"nameType": {
+							"type": "templateLiteral",
+							"head": "on",
+							"tail": [
+								[
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Capitalize"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "EventName",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "Capitalize",
+										"package": "typescript"
+									},
+									""
+								]
+							]
+						}
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 9777,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 9778,
+									"name": "onConnectionUpdate",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+											"line": 11,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 9779,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+													"line": 11,
+													"character": 25
+												}
+											],
+											"indexSignature": {
+												"id": 9780,
+												"name": "__index",
+												"variant": "signature",
+												"kind": 8192,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+														"line": 12,
+														"character": 8
+													}
+												],
+												"parameters": [
+													{
+														"id": 9781,
+														"name": "fieldName",
+														"variant": "param",
+														"kind": 32768,
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												],
+												"type": {
+													"type": "union",
+													"types": [
+														{
+															"type": "indexedAccess",
+															"indexType": {
+																"type": "literal",
+																"value": "connectionUpdate"
+															},
+															"objectType": {
+																"type": "reference",
+																"target": 6715,
+																"name": "EntityAccessor.EntityEventListenerMap",
+																"package": "@contember/binding"
+															}
+														},
+														{
+															"type": "reference",
+															"target": {
+																"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+																"qualifiedName": "Set"
+															},
+															"typeArguments": [
+																{
+																	"type": "indexedAccess",
+																	"indexType": {
+																		"type": "literal",
+																		"value": "connectionUpdate"
+																	},
+																	"objectType": {
+																		"type": "reference",
+																		"target": 6715,
+																		"name": "EntityAccessor.EntityEventListenerMap",
+																		"package": "@contember/binding"
+																	}
+																}
+															],
+															"name": "Set",
+															"package": "typescript"
+														}
+													]
+												}
+											}
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										9778
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 10,
+									"character": 4
+								}
+							]
+						}
+					}
+				]
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9487,
+					"name": "UnsugarableHasOneRelation"
+				},
+				{
+					"type": "reference",
+					"target": 9514,
+					"name": "UnsugarableParentEntityParameters"
+				},
+				{
+					"type": "reference",
+					"target": 9632,
+					"name": "UnsugarableQualifiedSingleEntity"
+				},
+				{
+					"type": "reference",
+					"target": 9841,
+					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
+				}
+			]
+		},
+		{
+			"id": 7824,
+			"name": "ParentEntity",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/coreComponents/ParentEntity.d.ts",
+					"line": 9,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 7825,
+					"name": "ParentEntity",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 7826,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 7812,
+								"name": "ParentEntityProps",
+								"package": "@contember/binding"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

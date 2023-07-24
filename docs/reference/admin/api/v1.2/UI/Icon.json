@@ -1,0 +1,886 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 14901,
+			"name": "IconProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 14905,
+					"name": "alignWithLowercase",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 16,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 14910,
+					"name": "blueprintIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@blueprintjs/icons/lib/esm/iconName.d.ts",
+							"qualifiedName": "IconName"
+						},
+						"name": "IconName",
+						"package": "@blueprintjs/icons"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14898,
+						"name": "IconSourceSpecification.blueprintIcon"
+					}
+				},
+				{
+					"id": 14911,
+					"name": "contemberIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "table"
+							},
+							{
+								"type": "literal",
+								"value": "image"
+							},
+							{
+								"type": "literal",
+								"value": "download"
+							},
+							{
+								"type": "literal",
+								"value": "ellipsis"
+							},
+							{
+								"type": "literal",
+								"value": "person"
+							},
+							{
+								"type": "literal",
+								"value": "clock"
+							},
+							{
+								"type": "literal",
+								"value": "composedBlock"
+							},
+							{
+								"type": "literal",
+								"value": "contentLock"
+							},
+							{
+								"type": "literal",
+								"value": "gallery"
+							},
+							{
+								"type": "literal",
+								"value": "heading1"
+							},
+							{
+								"type": "literal",
+								"value": "heading1Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading2"
+							},
+							{
+								"type": "literal",
+								"value": "heading2Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading3"
+							},
+							{
+								"type": "literal",
+								"value": "heading3Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading4"
+							},
+							{
+								"type": "literal",
+								"value": "heading4Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading5"
+							},
+							{
+								"type": "literal",
+								"value": "heading5Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading6"
+							},
+							{
+								"type": "literal",
+								"value": "heading6Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "horizontalLine"
+							},
+							{
+								"type": "literal",
+								"value": "horizontalRule"
+							},
+							{
+								"type": "literal",
+								"value": "megaphone"
+							},
+							{
+								"type": "literal",
+								"value": "newNote"
+							},
+							{
+								"type": "literal",
+								"value": "paragraphNumbered"
+							},
+							{
+								"type": "literal",
+								"value": "pencil"
+							},
+							{
+								"type": "literal",
+								"value": "questionAnswer"
+							},
+							{
+								"type": "literal",
+								"value": "quote"
+							},
+							{
+								"type": "literal",
+								"value": "tipBox"
+							},
+							{
+								"type": "literal",
+								"value": "tipLink"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14899,
+						"name": "IconSourceSpecification.contemberIcon"
+					}
+				},
+				{
+					"id": 14912,
+					"name": "customIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 14900,
+						"name": "IconSourceSpecification.customIcon"
+					}
+				},
+				{
+					"id": 14906,
+					"name": "onClick",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 17,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 14907,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+									"line": 17,
+									"character": 14
+								}
+							],
+							"signatures": [
+								{
+									"id": 14908,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+											"line": 17,
+											"character": 14
+										}
+									],
+									"parameters": [
+										{
+											"id": 14909,
+											"name": "e",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.MouseEvent"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "HTMLElement"
+														},
+														"name": "HTMLElement",
+														"package": "typescript"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "MouseEvent"
+														},
+														"name": "MouseEvent",
+														"package": "typescript"
+													}
+												],
+												"name": "MouseEvent",
+												"package": "@types/react",
+												"qualifiedName": "React.MouseEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 14903,
+					"name": "size",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18286,
+						"name": "IconSize",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 14904,
+					"name": "style",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.CSSProperties"
+						},
+						"name": "CSSProperties",
+						"package": "@types/react",
+						"qualifiedName": "React.CSSProperties"
+					}
+				},
+				{
+					"id": 14902,
+					"name": "title",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						14905,
+						14910,
+						14911,
+						14912,
+						14906,
+						14903,
+						14904,
+						14902
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+					"line": 12,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 14897,
+					"name": "IconSourceSpecification",
+					"package": "@contember/ui"
+				}
+			]
+		},
+		{
+			"id": 14897,
+			"name": "IconSourceSpecification",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 14898,
+					"name": "blueprintIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@blueprintjs/icons/lib/esm/iconName.d.ts",
+							"qualifiedName": "IconName"
+						},
+						"name": "IconName",
+						"package": "@blueprintjs/icons"
+					}
+				},
+				{
+					"id": 14899,
+					"name": "contemberIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "table"
+							},
+							{
+								"type": "literal",
+								"value": "image"
+							},
+							{
+								"type": "literal",
+								"value": "download"
+							},
+							{
+								"type": "literal",
+								"value": "ellipsis"
+							},
+							{
+								"type": "literal",
+								"value": "person"
+							},
+							{
+								"type": "literal",
+								"value": "clock"
+							},
+							{
+								"type": "literal",
+								"value": "composedBlock"
+							},
+							{
+								"type": "literal",
+								"value": "contentLock"
+							},
+							{
+								"type": "literal",
+								"value": "gallery"
+							},
+							{
+								"type": "literal",
+								"value": "heading1"
+							},
+							{
+								"type": "literal",
+								"value": "heading1Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading2"
+							},
+							{
+								"type": "literal",
+								"value": "heading2Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading3"
+							},
+							{
+								"type": "literal",
+								"value": "heading3Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading4"
+							},
+							{
+								"type": "literal",
+								"value": "heading4Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading5"
+							},
+							{
+								"type": "literal",
+								"value": "heading5Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "heading6"
+							},
+							{
+								"type": "literal",
+								"value": "heading6Numbered"
+							},
+							{
+								"type": "literal",
+								"value": "horizontalLine"
+							},
+							{
+								"type": "literal",
+								"value": "horizontalRule"
+							},
+							{
+								"type": "literal",
+								"value": "megaphone"
+							},
+							{
+								"type": "literal",
+								"value": "newNote"
+							},
+							{
+								"type": "literal",
+								"value": "paragraphNumbered"
+							},
+							{
+								"type": "literal",
+								"value": "pencil"
+							},
+							{
+								"type": "literal",
+								"value": "questionAnswer"
+							},
+							{
+								"type": "literal",
+								"value": "quote"
+							},
+							{
+								"type": "literal",
+								"value": "tipBox"
+							},
+							{
+								"type": "literal",
+								"value": "tipLink"
+							}
+						]
+					}
+				},
+				{
+					"id": 14900,
+					"name": "customIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						14898,
+						14899,
+						14900
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+					"line": 7,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 4011,
+					"name": "CommonToolbarButton"
+				},
+				{
+					"type": "reference",
+					"target": 12733,
+					"name": "ToolbarButton"
+				},
+				{
+					"type": "reference",
+					"target": 14901,
+					"name": "IconProps"
+				}
+			]
+		},
+		{
+			"id": 14913,
+			"name": "Icon",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Icon/Icon.d.ts",
+					"line": 22,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 14914,
+					"name": "Icon",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 14915,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"target": 14901,
+										"name": "IconProps",
+										"package": "@contember/ui"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.RefAttributes"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+													"qualifiedName": "HTMLElement"
+												},
+												"name": "HTMLElement",
+												"package": "typescript"
+											}
+										],
+										"name": "RefAttributes",
+										"package": "@types/react",
+										"qualifiedName": "React.RefAttributes"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

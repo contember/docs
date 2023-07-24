@@ -1,0 +1,387 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 15260,
+			"name": "SpinnerContainerProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 15262,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"target": -1,
+						"name": "SpinnerOverlayProps.children"
+					}
+				},
+				{
+					"id": 15263,
+					"name": "className",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/utilities/dist/types/class-name/types.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/class-name/types.ts",
+							"qualifiedName": "NestedClassName"
+						},
+						"name": "NestedClassName",
+						"package": "@contember/utilities"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "SpinnerOverlayProps.className"
+					}
+				},
+				{
+					"id": 15264,
+					"name": "componentClassName",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/utilities/dist/types/class-name/types.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "SpinnerOverlayProps.componentClassName"
+					}
+				},
+				{
+					"id": 15261,
+					"name": "enabled",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 15265,
+					"name": "size",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18292,
+						"name": "Size",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "SpinnerOverlayProps.size"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						15262,
+						15263,
+						15264,
+						15261,
+						15265
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+					"line": 7,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 15257,
+					"name": "SpinnerOverlayProps",
+					"package": "@contember/ui"
+				}
+			]
+		},
+		{
+			"id": 15257,
+			"name": "SpinnerOverlayProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+					"line": 4,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/class-name/types.ts",
+							"qualifiedName": "ComponentClassNameProps"
+						},
+						"name": "ComponentClassNameProps",
+						"package": "@contember/utilities"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 15258,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 15259,
+									"name": "size",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+											"line": 5,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 18292,
+										"name": "Size",
+										"package": "@contember/ui"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										15259
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/ui/dist/types/components/SpinnerContainer/types.d.ts",
+									"line": 4,
+									"character": 60
+								}
+							]
+						}
+					}
+				]
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 15260,
+					"name": "SpinnerContainerProps"
+				}
+			]
+		},
+		{
+			"id": 15244,
+			"name": "SpinnerContainer",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/SpinnerContainer/SpinnerContainer.d.ts",
+					"line": 15,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 15245,
+					"name": "SpinnerContainer",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Displays a spinner above the children when enabled."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```tsx\n<SpinnerContainer enabled={true}>\n\t<SomeComponent />\n</SpinnerContainer>\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 15246,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 15260,
+								"name": "SpinnerContainerProps",
+								"package": "@contember/ui"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

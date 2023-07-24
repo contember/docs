@@ -1,0 +1,923 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 1180,
+			"name": "DataGridCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1184,
+					"name": "canBeHidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 1183,
+					"name": "hidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 1181,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 4,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1182,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 5,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1184,
+						1183,
+						1181,
+						1182
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+					"line": 3,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+				}
+			]
+		},
+		{
+			"id": 1339,
+			"name": "DataGridHeaderCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1343,
+					"name": "ascOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1344,
+					"name": "descOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1340,
+					"name": "header",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1342,
+					"name": "headerJustification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1341,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1343,
+						1344,
+						1340,
+						1342,
+						1341
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+					"line": 10,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 1357,
+					"name": "DataGridHeaderCellProps"
+				}
+			]
+		},
+		{
+			"id": 2280,
+			"name": "FieldFallbackViewProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 2281,
+					"name": "fallback",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 2282,
+					"name": "fallbackStyle",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 2279,
+								"name": "FieldFallbackViewStyle",
+								"package": "@contember/admin"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2281,
+						2282
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 8,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+				}
+			]
+		},
+		{
+			"id": 1207,
+			"name": "DataGridColumnPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 40,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1339,
+						"name": "DataGridHeaderCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 1180,
+						"name": "DataGridCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1208,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1210,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 45,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 1209,
+									"name": "columnKey",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 44,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1210,
+										1209
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 43,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1507,
+			"name": "EnumCellProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+					"line": 9,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L9"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1207,
+						"name": "DataGridColumnPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2283,
+						"name": "FieldFallbackViewPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 1593,
+						"name": "NullConditionFilterPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1508,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1509,
+									"name": "field",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+											"line": 14,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L14"
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "field"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 8577,
+											"name": "SugaredFieldProps",
+											"package": "@contember/binding"
+										}
+									}
+								},
+								{
+									"id": 1511,
+									"name": "format",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+											"line": 16,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L16"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 1512,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+													"line": 16,
+													"character": 11,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L16"
+												}
+											],
+											"signatures": [
+												{
+													"id": 1513,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"parameters": [
+														{
+															"id": 1514,
+															"name": "value",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	{
+																		"type": "literal",
+																		"value": null
+																	}
+																]
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 1515,
+									"name": "initialFilter",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+											"line": 17,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L17"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 1516,
+										"name": "EnumCellArtifacts",
+										"package": "@contember/admin"
+									}
+								},
+								{
+									"id": 1510,
+									"name": "options",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+											"line": 15,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L15"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Record"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "Record",
+										"package": "typescript"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1509,
+										1511,
+										1515,
+										1510
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+									"line": 13,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L13"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2283,
+			"name": "FieldFallbackViewPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 13,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+					"qualifiedName": "Partial"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": 2280,
+						"name": "FieldFallbackViewProps",
+						"package": "@contember/admin"
+					}
+				],
+				"name": "Partial",
+				"package": "typescript"
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 2250,
+					"name": "CoalesceFieldViewProps"
+				}
+			]
+		},
+		{
+			"id": 1593,
+			"name": "NullConditionFilterPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/NullConditionFilter.tsx",
+					"line": 9,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/NullConditionFilter.tsx#L9"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 1594,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 1595,
+							"name": "showNullConditionFilter",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/NullConditionFilter.tsx",
+									"line": 10,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/NullConditionFilter.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								1595
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/NullConditionFilter.tsx",
+							"line": 9,
+							"character": 45,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/NullConditionFilter.tsx#L9"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 1520,
+			"name": "EnumCell",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx",
+					"line": 46,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/EnumCell.tsx#L46"
+				}
+			],
+			"signatures": [
+				{
+					"id": 1521,
+					"name": "EnumCell",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "DataGrid cells for enums fields."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<EnumCell\n\tfield={'state'}\n\toptions={{\n\t\tdraft: 'Draft',\n\t\tpublished: 'Published',\n\t\tremoved: 'Removed',\n\t}}\n\theader={'State'}\n/>\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 1522,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 1507,
+								"name": "EnumCellProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

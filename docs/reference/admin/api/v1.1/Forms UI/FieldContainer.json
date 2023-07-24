@@ -1,0 +1,526 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 13336,
+			"name": "ErrorListProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 13337,
+					"name": "errors",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/ErrorList.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15030,
+						"name": "FieldErrors",
+						"package": "@contember/ui"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						13337
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/ErrorList.d.ts",
+					"line": 3,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 13356,
+			"name": "FieldContainer",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+					"line": 24,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 13357,
+					"name": "FieldContainer",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 351,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 13358,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 13359,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 13360,
+													"name": "children",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 7,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												},
+												{
+													"id": 13372,
+													"name": "className",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 19,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												},
+												{
+													"id": 13361,
+													"name": "description",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 8,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												},
+												{
+													"id": 13362,
+													"name": "direction",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 9,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "literal",
+																"value": "horizontal"
+															},
+															{
+																"type": "literal",
+																"value": "vertical"
+															},
+															{
+																"type": "literal",
+																"value": "vertical-reverse"
+															},
+															{
+																"type": "literal",
+																"value": "horizontal-reverse"
+															}
+														]
+													}
+												},
+												{
+													"id": 13363,
+													"name": "gap",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 10,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "literal",
+																"value": "none"
+															},
+															{
+																"type": "reference",
+																"target": 17458,
+																"name": "Size",
+																"package": "@contember/ui"
+															}
+														]
+													}
+												},
+												{
+													"id": 13364,
+													"name": "label",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 11,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												},
+												{
+													"id": 13365,
+													"name": "labelDescription",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 12,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												},
+												{
+													"id": 13366,
+													"name": "labelPosition",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 13,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 13373,
+														"name": "FieldContainerLabelPosition",
+														"package": "@contember/ui"
+													}
+												},
+												{
+													"id": 13368,
+													"name": "required",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 15,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 13369,
+													"name": "size",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 16,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 17458,
+														"name": "Size",
+														"package": "@contember/ui"
+													}
+												},
+												{
+													"id": 13371,
+													"name": "style",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 18,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+															"qualifiedName": "React.CSSProperties"
+														},
+														"name": "CSSProperties",
+														"package": "@types/react",
+														"qualifiedName": "React.CSSProperties"
+													}
+												},
+												{
+													"id": 13370,
+													"name": "useLabelElement",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 17,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 13367,
+													"name": "width",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 14,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "literal",
+																"value": "none"
+															},
+															{
+																"type": "literal",
+																"value": "column"
+															},
+															{
+																"type": "literal",
+																"value": "fluid"
+															}
+														]
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														13360,
+														13372,
+														13361,
+														13362,
+														13363,
+														13364,
+														13365,
+														13366,
+														13368,
+														13369,
+														13371,
+														13370,
+														13367
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+													"line": 6,
+													"character": 34
+												}
+											]
+										}
+									},
+									{
+										"type": "reference",
+										"target": 13336,
+										"name": "ErrorListProps",
+										"package": "@contember/ui"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

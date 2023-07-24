@@ -4,9 +4,8 @@ import { TypeVisitor, visitType } from "./TypeVisitor";
 
 
 
-export const filterSchema = (reflection: JSONOutput.DeclarationReflection, schema: Schema): JSONOutput.ProjectReflection => {
-	const usedDeclarations = new Set<number>()
-	usedDeclarations.add(reflection.id)
+export const filterSchema = (reflections: JSONOutput.DeclarationReflection[], schema: Schema): JSONOutput.ProjectReflection => {
+	const usedDeclarations = new Set<number>(reflections.map(it => it.id))
 	const visitor: TypeVisitor<JSONOutput.SomeType | undefined | (JSONOutput.SomeType | undefined)[]> = {
 		array: it => it.elementType,
 		conditional: it => [
@@ -60,7 +59,7 @@ export const filterSchema = (reflection: JSONOutput.DeclarationReflection, schem
 		literal: it => undefined,
 		unknown: it => undefined,
 	}
-	const types = getTypesFromDeclarationReflection(reflection)
+	const types = getTypesFromDeclarationReflection(reflections[reflections.length - 1])
 	while (types.length) {
 		const type = types.pop()
 		if (!type) {

@@ -1,0 +1,208 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 5827,
+			"name": "EditUserPageProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
+					"line": 7,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L7"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 5828,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 5829,
+							"name": "identityId",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L8"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 5830,
+							"name": "rolesConfig",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
+									"line": 9,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L9"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 5708,
+								"name": "RolesConfig",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 5831,
+							"name": "userListLink",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
+									"line": 10,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 5548,
+								"name": "RoutingLinkTarget",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								5829,
+								5830,
+								5831
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
+							"line": 7,
+							"character": 32,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L7"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 5832,
+			"name": "EditUserPage",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L16"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5833,
+					"name": "EditUserPage",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 521,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 5834,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 5827,
+								"name": "EditUserPageProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 5835,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

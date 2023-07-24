@@ -1,0 +1,317 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6136,
+			"name": "MemberListProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 6141,
+					"name": "Identity",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+							"line": 16,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 6142,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 6143,
+											"name": "identity",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+													"line": 16,
+													"character": 27,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": 6340,
+												"name": "MemberIdentity",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												6143
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+											"line": 16,
+											"character": 25,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
+										}
+									]
+								}
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 6138,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "undefined"
+					}
+				},
+				{
+					"id": 6139,
+					"name": "createRoleRenderer",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6153,
+						"name": "RoleRendererFactory",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6144,
+					"name": "editIdentityLink",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+							"line": 17,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L17"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5945,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6140,
+					"name": "memberType",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6358,
+						"name": "ListMembersMemberType",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6137,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						6141,
+						6138,
+						6139,
+						6144,
+						6140,
+						6137
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+					"line": 11,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L11"
+				}
+			]
+		},
+		{
+			"id": 6145,
+			"name": "MemberList",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
+					"line": 23,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L23"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6146,
+					"name": "MemberList",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 6147,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 6136,
+								"name": "MemberListProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

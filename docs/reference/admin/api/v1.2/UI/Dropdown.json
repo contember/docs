@@ -1,0 +1,723 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 12287,
+			"name": "DropdownProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 12303,
+					"name": "alignment",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 16,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15560,
+						"name": "DropdownAlignment",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 12302,
+					"name": "buttonProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 13321,
+						"name": "ButtonProps",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 12306,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 19,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 12307,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+											"line": 19,
+											"character": 31
+										}
+									],
+									"signatures": [
+										{
+											"id": 12308,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+													"line": 19,
+													"character": 31
+												}
+											],
+											"parameters": [
+												{
+													"id": 12309,
+													"name": "props",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 12277,
+														"name": "DropdownRenderProps",
+														"package": "@contember/ui"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ReactNode"
+												},
+												"name": "ReactNode",
+												"package": "@types/react",
+												"qualifiedName": "React.ReactNode"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 12305,
+					"name": "contentContainer",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 18,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+							"qualifiedName": "HTMLElement"
+						},
+						"name": "HTMLElement",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 12311,
+					"name": "onDismiss",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 21,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 12312,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+									"line": 21,
+									"character": 16
+								}
+							],
+							"signatures": [
+								{
+									"id": 12313,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+											"line": 21,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 12298,
+					"name": "renderContent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 12299,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+									"line": 14,
+									"character": 20
+								}
+							],
+							"signatures": [
+								{
+									"id": 12300,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+											"line": 14,
+											"character": 20
+										}
+									],
+									"parameters": [
+										{
+											"id": 12301,
+											"name": "props",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 12277,
+												"name": "DropdownRenderProps",
+												"package": "@contember/ui"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 12288,
+					"name": "renderToggle",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 12289,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+									"line": 10,
+									"character": 19
+								}
+							],
+							"signatures": [
+								{
+									"id": 12290,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+											"line": 10,
+											"character": 19
+										}
+									],
+									"parameters": [
+										{
+											"id": 12291,
+											"name": "props",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 12292,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 12294,
+															"name": "onClick",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+																	"line": 12,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "reflection",
+																"declaration": {
+																	"id": 12295,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+																			"line": 12,
+																			"character": 17
+																		}
+																	],
+																	"signatures": [
+																		{
+																			"id": 12296,
+																			"name": "__type",
+																			"variant": "signature",
+																			"kind": 4096,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+																					"line": 12,
+																					"character": 17
+																				}
+																			],
+																			"parameters": [
+																				{
+																					"id": 12297,
+																					"name": "event",
+																					"variant": "param",
+																					"kind": 32768,
+																					"flags": {},
+																					"type": {
+																						"type": "reference",
+																						"target": {
+																							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																							"qualifiedName": "React.MouseEvent"
+																						},
+																						"typeArguments": [
+																							{
+																								"type": "reference",
+																								"target": {
+																									"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+																									"qualifiedName": "HTMLElement"
+																								},
+																								"name": "HTMLElement",
+																								"package": "typescript"
+																							},
+																							{
+																								"type": "reference",
+																								"target": {
+																									"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+																									"qualifiedName": "MouseEvent"
+																								},
+																								"name": "MouseEvent",
+																								"package": "typescript"
+																							}
+																						],
+																						"name": "MouseEvent",
+																						"package": "@types/react",
+																						"qualifiedName": "React.MouseEvent"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "intrinsic",
+																				"name": "void"
+																			}
+																		}
+																	]
+																}
+															}
+														},
+														{
+															"id": 12293,
+															"name": "ref",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+																	"line": 11,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																	"qualifiedName": "React.Ref"
+																},
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+																			"qualifiedName": "HTMLElement"
+																		},
+																		"name": "HTMLElement",
+																		"package": "typescript"
+																	}
+																],
+																"name": "Ref",
+																"package": "@types/react",
+																"qualifiedName": "React.Ref"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																12294,
+																12293
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+															"line": 10,
+															"character": 27
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 12304,
+					"name": "strategy",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 17,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "fixed"
+							},
+							{
+								"type": "literal",
+								"value": "absolute"
+							}
+						]
+					}
+				},
+				{
+					"id": 12310,
+					"name": "styledContent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+							"line": 20,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						12303,
+						12302,
+						12306,
+						12305,
+						12311,
+						12298,
+						12288,
+						12304,
+						12310
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+					"line": 9,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 12314,
+			"name": "Dropdown",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Dropdown/Dropdown.d.ts",
+					"line": 26,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 12315,
+					"name": "Dropdown",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 12316,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 12287,
+								"name": "DropdownProps",
+								"package": "@contember/ui"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

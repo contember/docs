@@ -1,0 +1,501 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 889,
+			"name": "DataGridCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 893,
+					"name": "canBeHidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 892,
+					"name": "hidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 890,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 4,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 17455,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 891,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 5,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						893,
+						892,
+						890,
+						891
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+					"line": 3,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+				}
+			]
+		},
+		{
+			"id": 1048,
+			"name": "DataGridHeaderCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1052,
+					"name": "ascOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1053,
+					"name": "descOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1049,
+					"name": "header",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1051,
+					"name": "headerJustification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 17455,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1050,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1052,
+						1053,
+						1049,
+						1051,
+						1050
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+					"line": 10,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 1066,
+					"name": "DataGridHeaderCellProps"
+				}
+			]
+		},
+		{
+			"id": 916,
+			"name": "DataGridColumnPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 40,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1048,
+						"name": "DataGridHeaderCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 889,
+						"name": "DataGridCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 917,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 919,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 45,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 918,
+									"name": "columnKey",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 44,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										919,
+										918
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 43,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1211,
+			"name": "GenericCell",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/GenericCell.tsx",
+					"line": 20,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/GenericCell.tsx#L20"
+				}
+			],
+			"signatures": [
+				{
+					"id": 1212,
+					"name": "GenericCell",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Cell for displaying arbitrary content such as buttons. This cell does not support sorting or filtering."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<GenericCell canBeHidden={false} justification=\"justifyEnd\">\n\t<LinkButton to={`article/edit(id: $entity.id)`} Component={AnchorButton}>Edit</LinkButton>\n\t<DeleteEntityButton title=\"Delete\" immediatePersist={true} />\n</GenericCell>\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 521,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 1213,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 916,
+								"name": "DataGridColumnPublicProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 1214,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

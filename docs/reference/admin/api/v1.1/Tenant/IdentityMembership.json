@@ -1,0 +1,169 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 5718,
+			"name": "IdentityMembershipProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 5719,
+					"name": "RoleRenderer",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L7"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5738,
+						"name": "RoleRenderer",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 5720,
+					"name": "memberships",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
+							"line": 8,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L8"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 6172,
+							"name": "Membership",
+							"package": "@contember/admin"
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						5719,
+						5720
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
+					"line": 6,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L6"
+				}
+			]
+		},
+		{
+			"id": 5721,
+			"name": "IdentityMembership",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
+					"line": 14,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/e1ec9d097/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L14"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5722,
+					"name": "IdentityMembership",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/index.d.ts",
+							"line": 521,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 5723,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 5718,
+								"name": "IdentityMembershipProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 5724,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

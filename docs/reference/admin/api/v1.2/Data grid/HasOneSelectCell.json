@@ -1,0 +1,4089 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 7084,
+			"name": "EntityAccessor",
+			"variant": "declaration",
+			"kind": 4,
+			"flags": {},
+			"children": [
+				{
+					"id": 7128,
+					"name": "EntityEventListenerMap",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 7130,
+							"name": "beforePersist",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 82,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7106,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 7122,
+								"name": "RuntimeEntityEventListenerMap.beforePersist"
+							}
+						},
+						{
+							"id": 7131,
+							"name": "beforeUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 83,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 7123,
+								"name": "RuntimeEntityEventListenerMap.beforeUpdate"
+							}
+						},
+						{
+							"id": 7132,
+							"name": "connectionUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 84,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 7124,
+								"name": "RuntimeEntityEventListenerMap.connectionUpdate"
+							}
+						},
+						{
+							"id": 7129,
+							"name": "initialize",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 90,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							}
+						},
+						{
+							"id": 7133,
+							"name": "persistError",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 85,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7111,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 7125,
+								"name": "RuntimeEntityEventListenerMap.persistError"
+							}
+						},
+						{
+							"id": 7134,
+							"name": "persistSuccess",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 86,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7116,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 7126,
+								"name": "RuntimeEntityEventListenerMap.persistSuccess"
+							}
+						},
+						{
+							"id": 7135,
+							"name": "update",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 87,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": 7127,
+								"name": "RuntimeEntityEventListenerMap.update"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								7130,
+								7131,
+								7132,
+								7129,
+								7133,
+								7134,
+								7135
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+							"line": 89,
+							"character": 14
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"target": 7121,
+							"name": "RuntimeEntityEventListenerMap",
+							"package": "@contember/binding",
+							"qualifiedName": "EntityAccessor.RuntimeEntityEventListenerMap"
+						}
+					]
+				},
+				{
+					"id": 7121,
+					"name": "RuntimeEntityEventListenerMap",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 7122,
+							"name": "beforePersist",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 82,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7106,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							}
+						},
+						{
+							"id": 7123,
+							"name": "beforeUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 83,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							}
+						},
+						{
+							"id": 7124,
+							"name": "connectionUpdate",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 84,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							}
+						},
+						{
+							"id": 7125,
+							"name": "persistError",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 85,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7111,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							}
+						},
+						{
+							"id": 7126,
+							"name": "persistSuccess",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 86,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7116,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							}
+						},
+						{
+							"id": 7127,
+							"name": "update",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+									"line": 87,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								7122,
+								7123,
+								7124,
+								7125,
+								7126,
+								7127
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+							"line": 81,
+							"character": 14
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"target": 7128,
+							"name": "EntityEventListenerMap"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						7128,
+						7085,
+						7121
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						7097,
+						7106,
+						7136,
+						7093,
+						7089,
+						7094,
+						7088,
+						7111,
+						7116,
+						7102
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+					"line": 15,
+					"character": 14
+				},
+				{
+					"fileName": "packages/binding/dist/types/accessors/EntityAccessor.d.ts",
+					"line": 66,
+					"character": 18
+				}
+			]
+		},
+		{
+			"id": 1180,
+			"name": "DataGridCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1184,
+					"name": "canBeHidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 1183,
+					"name": "hidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 1181,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 4,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1182,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 5,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1184,
+						1183,
+						1181,
+						1182
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+					"line": 3,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+				}
+			]
+		},
+		{
+			"id": 1339,
+			"name": "DataGridHeaderCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1343,
+					"name": "ascOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1344,
+					"name": "descOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1340,
+					"name": "header",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1342,
+					"name": "headerJustification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1341,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1343,
+						1344,
+						1340,
+						1342,
+						1341
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+					"line": 10,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 1357,
+					"name": "DataGridHeaderCellProps"
+				}
+			]
+		},
+		{
+			"id": 2280,
+			"name": "FieldFallbackViewProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 2281,
+					"name": "fallback",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 2282,
+					"name": "fallbackStyle",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 2279,
+								"name": "FieldFallbackViewStyle",
+								"package": "@contember/admin"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2281,
+						2282
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 8,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+				}
+			]
+		},
+		{
+			"id": 2350,
+			"name": "LegacyChoiceFieldWithOptionRenderer",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "use optionLabel"
+							}
+						]
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 2355,
+					"name": "options",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+							"line": 17,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L17"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9981,
+								"name": "SugaredQualifiedEntityList",
+								"package": "@contember/binding"
+							},
+							{
+								"type": "reference",
+								"target": 9958,
+								"name": "SugarableQualifiedEntityList",
+								"package": "@contember/binding"
+							}
+						]
+					}
+				},
+				{
+					"id": 2356,
+					"name": "optionsStaticRender",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+							"line": 18,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 2357,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 18,
+											"character": 38,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
+										}
+									],
+									"signatures": [
+										{
+											"id": 2358,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+													"line": 18,
+													"character": 38,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
+												}
+											],
+											"parameters": [
+												{
+													"id": 2359,
+													"name": "environment",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 8244,
+														"name": "Environment",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ReactElement"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																	"qualifiedName": "React.JSXElementConstructor"
+																},
+																"typeArguments": [
+																	{
+																		"type": "intrinsic",
+																		"name": "any"
+																	}
+																],
+																"name": "JSXElementConstructor",
+																"package": "@types/react",
+																"qualifiedName": "React.JSXElementConstructor"
+															}
+														]
+													}
+												],
+												"name": "ReactElement",
+												"package": "@types/react",
+												"qualifiedName": "React.ReactElement"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 2351,
+					"name": "renderOption",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+							"line": 16,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 2352,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+									"line": 16,
+									"character": 15,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
+								}
+							],
+							"signatures": [
+								{
+									"id": 2353,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 16,
+											"character": 15,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
+										}
+									],
+									"parameters": [
+										{
+											"id": 2354,
+											"name": "entityAccessor",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 6993,
+												"name": "EntityAccessor",
+												"package": "@contember/binding"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2355,
+						2356,
+						2351
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+					"line": 15,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L15"
+				}
+			]
+		},
+		{
+			"id": 2345,
+			"name": "SelectFuseOptionsProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 2346,
+					"name": "fuseOptions",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts#L6"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/fuse.js/dist/fuse.d.ts",
+									"qualifiedName": "Fuse.IFuseOptions"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 2411,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "SingleOption",
+										"package": "@contember/admin",
+										"qualifiedName": "ChoiceFieldData.SingleOption"
+									}
+								],
+								"name": "IFuseOptions",
+								"package": "fuse.js",
+								"qualifiedName": "Fuse.IFuseOptions"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						2346
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts",
+					"line": 5,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts#L5"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 2347,
+					"name": "T",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {}
+				}
+			]
+		},
+		{
+			"id": 10149,
+			"name": "SugaredRelativeSingleEntity",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10151,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10136,
+						"name": "UnsugarableRelativeSingleEntity.expectedMutation"
+					}
+				},
+				{
+					"id": 10150,
+					"name": "field",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/RelativeSingleEntity.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 9890,
+								"name": "SugarableHasOneRelation",
+								"package": "@contember/binding"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"target": 9890,
+									"name": "SugarableHasOneRelation",
+									"package": "@contember/binding"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 10152,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10137,
+						"name": "UnsugarableRelativeSingleEntity.isNonbearing"
+					}
+				},
+				{
+					"id": 10157,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7106,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7106,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10142,
+						"name": "UnsugarableRelativeSingleEntity.onBeforePersist"
+					}
+				},
+				{
+					"id": 10156,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10141,
+						"name": "UnsugarableRelativeSingleEntity.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 10160,
+					"name": "onConnectionUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 10161,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 11,
+									"character": 25
+								}
+							],
+							"indexSignature": {
+								"id": 10162,
+								"name": "__index",
+								"variant": "signature",
+								"kind": 8192,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+										"line": 12,
+										"character": 8
+									}
+								],
+								"parameters": [
+									{
+										"id": 10163,
+										"name": "fieldName",
+										"variant": "param",
+										"kind": 32768,
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "union",
+									"types": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "literal",
+												"value": "connectionUpdate"
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 7128,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+												"qualifiedName": "Set"
+											},
+											"typeArguments": [
+												{
+													"type": "indexedAccess",
+													"indexType": {
+														"type": "literal",
+														"value": "connectionUpdate"
+													},
+													"objectType": {
+														"type": "reference",
+														"target": 7128,
+														"name": "EntityAccessor.EntityEventListenerMap",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"name": "Set",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10145,
+						"name": "UnsugarableRelativeSingleEntity.onConnectionUpdate"
+					}
+				},
+				{
+					"id": 10155,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10140,
+						"name": "UnsugarableRelativeSingleEntity.onInitialize"
+					}
+				},
+				{
+					"id": 10158,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7111,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7111,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10143,
+						"name": "UnsugarableRelativeSingleEntity.onPersistError"
+					}
+				},
+				{
+					"id": 10159,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7116,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7116,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10144,
+						"name": "UnsugarableRelativeSingleEntity.onPersistSuccess"
+					}
+				},
+				{
+					"id": 10154,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7102,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10139,
+						"name": "UnsugarableRelativeSingleEntity.onUpdate"
+					}
+				},
+				{
+					"id": 10153,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10138,
+						"name": "UnsugarableRelativeSingleEntity.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10151,
+						10150,
+						10152,
+						10157,
+						10156,
+						10160,
+						10155,
+						10158,
+						10159,
+						10154,
+						10153
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/RelativeSingleEntity.d.ts",
+					"line": 10,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 10135,
+					"name": "UnsugarableRelativeSingleEntity",
+					"package": "@contember/binding"
+				}
+			]
+		},
+		{
+			"id": 9753,
+			"name": "UnsugarableEntityCreationParameters",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9754,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 9755,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9754,
+						9755
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+					"line": 9,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9962,
+					"name": "UnsugarableQualifiedEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10039,
+					"name": "UnsugarableQualifiedSingleEntity"
+				},
+				{
+					"type": "reference",
+					"target": 10086,
+					"name": "UnsugarableRelation"
+				},
+				{
+					"type": "reference",
+					"target": 10203,
+					"name": "UnsugarableUnconstrainedQualifiedEntityList"
+				},
+				{
+					"type": "reference",
+					"target": 10248,
+					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
+				}
+			]
+		},
+		{
+			"id": 9894,
+			"name": "UnsugarableHasOneRelation",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 9895,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10087,
+						"name": "UnsugarableRelation.expectedMutation"
+					}
+				},
+				{
+					"id": 9896,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10088,
+						"name": "UnsugarableRelation.isNonbearing"
+					}
+				},
+				{
+					"id": 9901,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7106,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7106,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onBeforePersist"
+					}
+				},
+				{
+					"id": 9900,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 9904,
+					"name": "onConnectionUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 9905,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 11,
+									"character": 25
+								}
+							],
+							"indexSignature": {
+								"id": 9906,
+								"name": "__index",
+								"variant": "signature",
+								"kind": 8192,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+										"line": 12,
+										"character": 8
+									}
+								],
+								"parameters": [
+									{
+										"id": 9907,
+										"name": "fieldName",
+										"variant": "param",
+										"kind": 32768,
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "union",
+									"types": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "literal",
+												"value": "connectionUpdate"
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 7128,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+												"qualifiedName": "Set"
+											},
+											"typeArguments": [
+												{
+													"type": "indexedAccess",
+													"indexType": {
+														"type": "literal",
+														"value": "connectionUpdate"
+													},
+													"objectType": {
+														"type": "reference",
+														"target": 7128,
+														"name": "EntityAccessor.EntityEventListenerMap",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"name": "Set",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onConnectionUpdate"
+					}
+				},
+				{
+					"id": 9899,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onInitialize"
+					}
+				},
+				{
+					"id": 9902,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7111,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7111,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onPersistError"
+					}
+				},
+				{
+					"id": 9903,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7116,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7116,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onPersistSuccess"
+					}
+				},
+				{
+					"id": 9898,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7102,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "UnsugarableSingleEntityEventListeners.onUpdate"
+					}
+				},
+				{
+					"id": 9897,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 10089,
+						"name": "UnsugarableRelation.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						9895,
+						9896,
+						9901,
+						9900,
+						9904,
+						9899,
+						9902,
+						9903,
+						9898,
+						9897
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/HasOneRelation.d.ts",
+					"line": 11,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 10086,
+					"name": "UnsugarableRelation",
+					"package": "@contember/binding"
+				},
+				{
+					"type": "reference",
+					"target": 10183,
+					"name": "UnsugarableSingleEntityEventListeners",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 10135,
+					"name": "UnsugarableRelativeSingleEntity"
+				}
+			]
+		},
+		{
+			"id": 10086,
+			"name": "UnsugarableRelation",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10087,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					}
+				},
+				{
+					"id": 10088,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9754,
+						"name": "UnsugarableEntityCreationParameters.isNonbearing"
+					}
+				},
+				{
+					"id": 10089,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9755,
+						"name": "UnsugarableEntityCreationParameters.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10087,
+						10088,
+						10089
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+					"line": 12,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9753,
+					"name": "UnsugarableEntityCreationParameters",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9865,
+					"name": "UnsugarableHasManyRelation"
+				},
+				{
+					"type": "reference",
+					"target": 9894,
+					"name": "UnsugarableHasOneRelation"
+				},
+				{
+					"type": "reference",
+					"target": 10096,
+					"name": "UnsugarableRelativeEntityList"
+				}
+			]
+		},
+		{
+			"id": 10135,
+			"name": "UnsugarableRelativeSingleEntity",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10136,
+					"name": "expectedMutation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/Relation.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 9409,
+						"name": "ExpectedRelationMutation",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9895,
+						"name": "UnsugarableHasOneRelation.expectedMutation"
+					}
+				},
+				{
+					"id": 10137,
+					"name": "isNonbearing",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9896,
+						"name": "UnsugarableHasOneRelation.isNonbearing"
+					}
+				},
+				{
+					"id": 10142,
+					"name": "onBeforePersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7106,
+								"name": "BeforePersistHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BeforePersistHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7106,
+										"name": "BeforePersistHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BeforePersistHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9901,
+						"name": "UnsugarableHasOneRelation.onBeforePersist"
+					}
+				},
+				{
+					"id": 10141,
+					"name": "onBeforeUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9900,
+						"name": "UnsugarableHasOneRelation.onBeforeUpdate"
+					}
+				},
+				{
+					"id": 10145,
+					"name": "onConnectionUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 10146,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 11,
+									"character": 25
+								}
+							],
+							"indexSignature": {
+								"id": 10147,
+								"name": "__index",
+								"variant": "signature",
+								"kind": 8192,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+										"line": 12,
+										"character": 8
+									}
+								],
+								"parameters": [
+									{
+										"id": 10148,
+										"name": "fieldName",
+										"variant": "param",
+										"kind": 32768,
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "union",
+									"types": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "literal",
+												"value": "connectionUpdate"
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 7128,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+												"qualifiedName": "Set"
+											},
+											"typeArguments": [
+												{
+													"type": "indexedAccess",
+													"indexType": {
+														"type": "literal",
+														"value": "connectionUpdate"
+													},
+													"objectType": {
+														"type": "reference",
+														"target": 7128,
+														"name": "EntityAccessor.EntityEventListenerMap",
+														"package": "@contember/binding"
+													}
+												}
+											],
+											"name": "Set",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9904,
+						"name": "UnsugarableHasOneRelation.onConnectionUpdate"
+					}
+				},
+				{
+					"id": 10140,
+					"name": "onInitialize",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7097,
+								"name": "BatchUpdatesHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7097,
+										"name": "BatchUpdatesHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9899,
+						"name": "UnsugarableHasOneRelation.onInitialize"
+					}
+				},
+				{
+					"id": 10143,
+					"name": "onPersistError",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7111,
+								"name": "PersistErrorHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistErrorHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7111,
+										"name": "PersistErrorHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistErrorHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9902,
+						"name": "UnsugarableHasOneRelation.onPersistError"
+					}
+				},
+				{
+					"id": 10144,
+					"name": "onPersistSuccess",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7116,
+								"name": "PersistSuccessHandler",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7116,
+										"name": "PersistSuccessHandler",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.PersistSuccessHandler"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9903,
+						"name": "UnsugarableHasOneRelation.onPersistSuccess"
+					}
+				},
+				{
+					"id": 10139,
+					"name": "onUpdate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": 7102,
+								"name": "UpdateListener",
+								"package": "@contember/binding",
+								"qualifiedName": "EntityAccessor.UpdateListener"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+									"qualifiedName": "Set"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 7102,
+										"name": "UpdateListener",
+										"package": "@contember/binding",
+										"qualifiedName": "EntityAccessor.UpdateListener"
+									}
+								],
+								"name": "Set",
+								"package": "typescript"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9898,
+						"name": "UnsugarableHasOneRelation.onUpdate"
+					}
+				},
+				{
+					"id": 10138,
+					"name": "setOnCreate",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/treeParameters/EntityCreationParameters.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 10175,
+						"name": "SugaredSetOnCreate",
+						"package": "@contember/binding"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 9897,
+						"name": "UnsugarableHasOneRelation.setOnCreate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10136,
+						10137,
+						10142,
+						10141,
+						10145,
+						10140,
+						10143,
+						10144,
+						10139,
+						10138
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/RelativeSingleEntity.d.ts",
+					"line": 8,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 9894,
+					"name": "UnsugarableHasOneRelation",
+					"package": "@contember/binding"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 10149,
+					"name": "SugaredRelativeSingleEntity"
+				}
+			]
+		},
+		{
+			"id": 2374,
+			"name": "BaseDynamicChoiceField",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+					"line": 53,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L53"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 2373,
+						"name": "BaseDynamicChoiceFieldOptions",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2345,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 6993,
+								"name": "EntityAccessor",
+								"package": "@contember/binding"
+							}
+						],
+						"name": "SelectFuseOptionsProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 2375,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 2377,
+									"name": "createNewForm",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 58,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L58"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								},
+								{
+									"id": 2378,
+									"name": "lazy",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 59,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L59"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 2386,
+										"name": "LazyChoiceFieldSettings",
+										"package": "@contember/admin"
+									}
+								},
+								{
+									"id": 2379,
+									"name": "renderedOptionsLimit",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 60,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L60"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 2376,
+									"name": "searchByFields",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 57,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L57"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 2365,
+										"name": "ChoiceFieldSearchByFields",
+										"package": "@contember/admin"
+									}
+								},
+								{
+									"id": 2385,
+									"name": "sortableBy",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 62,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L62"
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "field"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 8577,
+											"name": "SugaredFieldProps",
+											"package": "@contember/binding"
+										}
+									}
+								},
+								{
+									"id": 2380,
+									"name": "transformOptions",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+											"line": 61,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L61"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 2381,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+													"line": 61,
+													"character": 21,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L61"
+												}
+											],
+											"signatures": [
+												{
+													"id": 2382,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"parameters": [
+														{
+															"id": 2383,
+															"name": "data",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"target": 2418,
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"target": 6993,
+																		"name": "EntityAccessor",
+																		"package": "@contember/binding"
+																	}
+																],
+																"name": "ChoiceFieldData.Options",
+																"package": "@contember/admin"
+															}
+														},
+														{
+															"id": 2384,
+															"name": "input",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "undefined"
+																	}
+																]
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 2418,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 6993,
+																"name": "EntityAccessor",
+																"package": "@contember/binding"
+															}
+														],
+														"name": "ChoiceFieldData.Options",
+														"package": "@contember/admin"
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										2377,
+										2378,
+										2379,
+										2376,
+										2385,
+										2380
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+									"line": 56,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L56"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2373,
+			"name": "BaseDynamicChoiceFieldOptions",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+					"line": 48,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L48"
+				}
+			],
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"target": 2370,
+						"name": "DynamicChoiceFieldOptionProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2366,
+						"name": "DynamicChoiceFieldWithCustomLabelProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2350,
+						"name": "LegacyChoiceFieldWithOptionRenderer",
+						"package": "@contember/admin"
+					}
+				]
+			}
+		},
+		{
+			"id": 1207,
+			"name": "DataGridColumnPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 40,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1339,
+						"name": "DataGridHeaderCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 1180,
+						"name": "DataGridCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1208,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1210,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 45,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 1209,
+									"name": "columnKey",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 44,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1210,
+										1209
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 43,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2370,
+			"name": "DynamicChoiceFieldOptionProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+					"line": 44,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L44"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 2371,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 2372,
+							"name": "options",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+									"line": 45,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L45"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 2364,
+								"name": "ChoiceFieldOptionsAsFieldList",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								2372
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+							"line": 44,
+							"character": 44,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L44"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 2366,
+			"name": "DynamicChoiceFieldWithCustomLabelProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+					"line": 39,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L39"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 2367,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 2369,
+							"name": "optionLabel",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+									"line": 41,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L41"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactNode"
+								},
+								"name": "ReactNode",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactNode"
+							}
+						},
+						{
+							"id": 2368,
+							"name": "options",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+									"line": 40,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L40"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 2363,
+								"name": "ChoiceFieldOptionsAsEntityList",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								2369,
+								2368
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
+							"line": 39,
+							"character": 53,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L39"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 2283,
+			"name": "FieldFallbackViewPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
+					"line": 13,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+					"qualifiedName": "Partial"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": 2280,
+						"name": "FieldFallbackViewProps",
+						"package": "@contember/admin"
+					}
+				],
+				"name": "Partial",
+				"package": "typescript"
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 2250,
+					"name": "CoalesceFieldViewProps"
+				}
+			]
+		},
+		{
+			"id": 1547,
+			"name": "HasOneSelectProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx",
+					"line": 17,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx#L17"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1207,
+						"name": "DataGridColumnPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2374,
+						"name": "BaseDynamicChoiceField",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 2283,
+						"name": "FieldFallbackViewPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 10149,
+						"name": "SugaredRelativeSingleEntity",
+						"package": "@contember/binding"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1548,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1549,
+									"name": "initialFilter",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx",
+											"line": 23,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx#L23"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 1464,
+										"name": "SelectCellArtifacts",
+										"package": "@contember/admin"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1549
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx",
+									"line": 22,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx#L22"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 10183,
+			"name": "UnsugarableSingleEntityEventListeners",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+					"line": 8,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "mapped",
+						"parameter": "EventName",
+						"parameterType": {
+							"type": "intersection",
+							"types": [
+								{
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+										"qualifiedName": "Exclude"
+									},
+									"typeArguments": [
+										{
+											"type": "typeOperator",
+											"operator": "keyof",
+											"target": {
+												"type": "reference",
+												"target": 7128,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										},
+										{
+											"type": "literal",
+											"value": "connectionUpdate"
+										}
+									],
+									"name": "Exclude",
+									"package": "typescript"
+								},
+								{
+									"type": "intrinsic",
+									"name": "string"
+								}
+							]
+						},
+						"templateType": {
+							"type": "union",
+							"types": [
+								{
+									"type": "indexedAccess",
+									"indexType": {
+										"type": "reference",
+										"target": -1,
+										"name": "EventName",
+										"refersToTypeParameter": true
+									},
+									"objectType": {
+										"type": "reference",
+										"target": 7128,
+										"name": "EntityAccessor.EntityEventListenerMap",
+										"package": "@contember/binding"
+									}
+								},
+								{
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+										"qualifiedName": "Set"
+									},
+									"typeArguments": [
+										{
+											"type": "indexedAccess",
+											"indexType": {
+												"type": "reference",
+												"target": -1,
+												"name": "EventName",
+												"refersToTypeParameter": true
+											},
+											"objectType": {
+												"type": "reference",
+												"target": 7128,
+												"name": "EntityAccessor.EntityEventListenerMap",
+												"package": "@contember/binding"
+											}
+										}
+									],
+									"name": "Set",
+									"package": "typescript"
+								}
+							]
+						},
+						"optionalModifier": "+",
+						"nameType": {
+							"type": "templateLiteral",
+							"head": "on",
+							"tail": [
+								[
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Capitalize"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "EventName",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "Capitalize",
+										"package": "typescript"
+									},
+									""
+								]
+							]
+						}
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 10184,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 10185,
+									"name": "onConnectionUpdate",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+											"line": 11,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 10186,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+													"line": 11,
+													"character": 25
+												}
+											],
+											"indexSignature": {
+												"id": 10187,
+												"name": "__index",
+												"variant": "signature",
+												"kind": 8192,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+														"line": 12,
+														"character": 8
+													}
+												],
+												"parameters": [
+													{
+														"id": 10188,
+														"name": "fieldName",
+														"variant": "param",
+														"kind": 32768,
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												],
+												"type": {
+													"type": "union",
+													"types": [
+														{
+															"type": "indexedAccess",
+															"indexType": {
+																"type": "literal",
+																"value": "connectionUpdate"
+															},
+															"objectType": {
+																"type": "reference",
+																"target": 7128,
+																"name": "EntityAccessor.EntityEventListenerMap",
+																"package": "@contember/binding"
+															}
+														},
+														{
+															"type": "reference",
+															"target": {
+																"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+																"qualifiedName": "Set"
+															},
+															"typeArguments": [
+																{
+																	"type": "indexedAccess",
+																	"indexType": {
+																		"type": "literal",
+																		"value": "connectionUpdate"
+																	},
+																	"objectType": {
+																		"type": "reference",
+																		"target": 7128,
+																		"name": "EntityAccessor.EntityEventListenerMap",
+																		"package": "@contember/binding"
+																	}
+																}
+															],
+															"name": "Set",
+															"package": "typescript"
+														}
+													]
+												}
+											}
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										10185
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/treeParameters/SingleEntityEventListeners.d.ts",
+									"line": 10,
+									"character": 4
+								}
+							]
+						}
+					}
+				]
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 9894,
+					"name": "UnsugarableHasOneRelation"
+				},
+				{
+					"type": "reference",
+					"target": 9921,
+					"name": "UnsugarableParentEntityParameters"
+				},
+				{
+					"type": "reference",
+					"target": 10039,
+					"name": "UnsugarableQualifiedSingleEntity"
+				},
+				{
+					"type": "reference",
+					"target": 10248,
+					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
+				}
+			]
+		},
+		{
+			"id": 1550,
+			"name": "HasOneSelectCell",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx",
+					"line": 36,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/HasOneSelectCell.tsx#L36"
+				}
+			],
+			"signatures": [
+				{
+					"id": 1551,
+					"name": "HasOneSelectCell",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "DataGrid cell which allows displaying and filtering by has-one relations."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<HasOneSelectCell header=\"Category\" field=\"category\" options=\"Category.name\" />\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 1552,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 1547,
+								"name": "HasOneSelectProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 1553,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

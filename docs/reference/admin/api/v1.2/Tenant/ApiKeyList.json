@@ -1,0 +1,218 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6004,
+			"name": "ApiKeyListProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 6006,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "undefined"
+					}
+				},
+				{
+					"id": 6007,
+					"name": "createRoleRenderer",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
+							"line": 8,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L8"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6153,
+						"name": "RoleRendererFactory",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6008,
+					"name": "editApiKeyLink",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5945,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6005,
+					"name": "project",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L6"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						6006,
+						6007,
+						6008,
+						6005
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
+					"line": 5,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L5"
+				}
+			]
+		},
+		{
+			"id": 6009,
+			"name": "ApiKeyList",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
+					"line": 15,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L15"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6010,
+					"name": "ApiKeyList",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 6011,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 6004,
+								"name": "ApiKeyListProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

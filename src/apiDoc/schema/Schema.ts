@@ -22,6 +22,9 @@ export class Schema {
 				if (it.kind === ReflectionKind.Module || it.kind === ReflectionKind.Namespace) {
 					traverseReflection(it, newPath)
 				}
+				if (it.kind === ReflectionKind.Variable && it.type.declaration) {
+					traverseReflection(it.type.declaration, newPath)
+				}
 			})
 		}
 		traverseReflection(this.project, [])

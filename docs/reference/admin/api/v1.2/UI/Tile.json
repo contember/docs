@@ -1,0 +1,722 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 12059,
+			"name": "BoxOwnProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 12060,
+					"name": "actions",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 12061,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 12063,
+					"name": "direction",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "horizontal"
+							},
+							{
+								"type": "literal",
+								"value": "vertical"
+							},
+							{
+								"type": "literal",
+								"value": "vertical-reverse"
+							},
+							{
+								"type": "literal",
+								"value": "horizontal-reverse"
+							}
+						]
+					}
+				},
+				{
+					"id": 12062,
+					"name": "distinction",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 7,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15556,
+						"name": "BoxDistinction",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 12064,
+					"name": "gap",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "none"
+							},
+							{
+								"type": "reference",
+								"target": 18292,
+								"name": "Size",
+								"package": "@contember/ui"
+							}
+						]
+					}
+				},
+				{
+					"id": 12065,
+					"name": "heading",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 12067,
+					"name": "intent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 12,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 12066,
+					"name": "isActive",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 12068,
+					"name": "padding",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "no-padding"
+							},
+							{
+								"type": "literal",
+								"value": "with-padding"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						12060,
+						12061,
+						12063,
+						12062,
+						12064,
+						12065,
+						12067,
+						12066,
+						12068
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+					"line": 4,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 4791,
+					"name": "MiscPageLayoutProps"
+				},
+				{
+					"type": "reference",
+					"target": 5140,
+					"name": "TileProps"
+				}
+			]
+		},
+		{
+			"id": 5140,
+			"name": "TileProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 5141,
+					"name": "actions",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12060,
+						"name": "BoxOwnProps.actions"
+					}
+				},
+				{
+					"id": 5142,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 6,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12061,
+						"name": "BoxOwnProps.children"
+					}
+				},
+				{
+					"id": 5144,
+					"name": "direction",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 8,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "horizontal"
+							},
+							{
+								"type": "literal",
+								"value": "vertical"
+							},
+							{
+								"type": "literal",
+								"value": "vertical-reverse"
+							},
+							{
+								"type": "literal",
+								"value": "horizontal-reverse"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12063,
+						"name": "BoxOwnProps.direction"
+					}
+				},
+				{
+					"id": 5143,
+					"name": "distinction",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 7,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 15556,
+						"name": "BoxDistinction",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12062,
+						"name": "BoxOwnProps.distinction"
+					}
+				},
+				{
+					"id": 5145,
+					"name": "gap",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 9,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "none"
+							},
+							{
+								"type": "reference",
+								"target": 18292,
+								"name": "Size",
+								"package": "@contember/ui"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12064,
+						"name": "BoxOwnProps.gap"
+					}
+				},
+				{
+					"id": 5146,
+					"name": "heading",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12065,
+						"name": "BoxOwnProps.heading"
+					}
+				},
+				{
+					"id": 5148,
+					"name": "intent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 12,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18287,
+						"name": "Intent",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12067,
+						"name": "BoxOwnProps.intent"
+					}
+				},
+				{
+					"id": 5147,
+					"name": "isActive",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12066,
+						"name": "BoxOwnProps.isActive"
+					}
+				},
+				{
+					"id": 5149,
+					"name": "padding",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Box/Box.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "no-padding"
+							},
+							{
+								"type": "literal",
+								"value": "with-padding"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 12068,
+						"name": "BoxOwnProps.padding"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						5141,
+						5142,
+						5144,
+						5143,
+						5145,
+						5146,
+						5148,
+						5147,
+						5149
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/ui/Tile.tsx",
+					"line": 4,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Tile.tsx#L4"
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 12059,
+					"name": "BoxOwnProps",
+					"package": "@contember/ui"
+				}
+			]
+		},
+		{
+			"id": 5150,
+			"name": "Tile",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/ui/Tile.tsx",
+					"line": 9,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Tile.tsx#L9"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5151,
+					"name": "Tile",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 5152,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 5140,
+								"name": "TileProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

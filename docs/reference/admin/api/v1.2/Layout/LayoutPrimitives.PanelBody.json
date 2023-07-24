@@ -1,0 +1,6050 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 66,
+			"name": "LayoutPrimitives",
+			"variant": "declaration",
+			"kind": 4,
+			"flags": {},
+			"children": [
+				{
+					"id": 200,
+					"name": "ControlledPanelProps",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 201,
+							"name": "behavior",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 53,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L53"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "literal",
+										"value": "static"
+									},
+									{
+										"type": "literal",
+										"value": "collapsible"
+									},
+									{
+										"type": "literal",
+										"value": "overlay"
+									},
+									{
+										"type": "literal",
+										"value": "modal"
+									}
+								]
+							}
+						},
+						{
+							"id": 202,
+							"name": "defaultBehavior",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 54,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L54"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "undefined"
+							}
+						},
+						{
+							"id": 203,
+							"name": "defaultVisibility",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 55,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L55"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "undefined"
+							}
+						},
+						{
+							"id": 204,
+							"name": "onBehaviorChange",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 56,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L56"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 205,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 56,
+											"character": 19,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L56"
+										}
+									],
+									"signatures": [
+										{
+											"id": 206,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 56,
+													"character": 19,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L56"
+												}
+											],
+											"parameters": [
+												{
+													"id": 207,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 208,
+							"name": "onKeyPress",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 57,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L57"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 209,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 57,
+											"character": 14,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L57"
+										}
+									],
+									"signatures": [
+										{
+											"id": 210,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 57,
+													"character": 14,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L57"
+												}
+											],
+											"parameters": [
+												{
+													"id": 211,
+													"name": "event",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "KeyboardEvent"
+														},
+														"name": "KeyboardEvent",
+														"package": "typescript"
+													}
+												},
+												{
+													"id": 212,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 213,
+							"name": "onVisibilityChange",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 58,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L58"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 214,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 58,
+											"character": 21,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L58"
+										}
+									],
+									"signatures": [
+										{
+											"id": 215,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 58,
+													"character": 21,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L58"
+												}
+											],
+											"parameters": [
+												{
+													"id": 216,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 217,
+							"name": "visibility",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 59,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L59"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "literal",
+										"value": "visible"
+									},
+									{
+										"type": "literal",
+										"value": "hidden"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								201,
+								202,
+								203,
+								204,
+								208,
+								213,
+								217
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 52,
+							"character": 17,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L52"
+						}
+					]
+				},
+				{
+					"id": 187,
+					"name": "PanelBasicProps",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 192,
+							"name": "children",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isExternal": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 778,
+									"character": 48
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactNode"
+								},
+								"name": "ReactNode",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactNode"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": -1,
+								"name": "ComponentClassNameProps.children"
+							}
+						},
+						{
+							"id": 190,
+							"name": "className",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/utilities/dist/types/class-name/types.d.ts",
+									"line": 8,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/class-name/types.ts",
+									"qualifiedName": "NestedClassName"
+								},
+								"name": "NestedClassName",
+								"package": "@contember/utilities"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": -1,
+								"name": "ComponentClassNameProps.className"
+							}
+						},
+						{
+							"id": 191,
+							"name": "componentClassName",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/utilities/dist/types/class-name/types.d.ts",
+									"line": 9,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": -1,
+								"name": "ComponentClassNameProps.componentClassName"
+							}
+						},
+						{
+							"id": 189,
+							"name": "tabIndex",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 41,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L41"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "undefined"
+							}
+						},
+						{
+							"id": 188,
+							"name": "trapFocusInModal",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 40,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L40"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								192,
+								190,
+								191,
+								189,
+								188
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 39,
+							"character": 17,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L39"
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "../utilities/src/class-name/types.ts",
+								"qualifiedName": "ComponentClassNameProps"
+							},
+							"name": "ComponentClassNameProps",
+							"package": "@contember/utilities"
+						}
+					]
+				},
+				{
+					"id": 218,
+					"name": "UncontrolledPanelProps",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 219,
+							"name": "behavior",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 62,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L62"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "undefined"
+							}
+						},
+						{
+							"id": 220,
+							"name": "defaultBehavior",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 63,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L63"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "literal",
+										"value": "static"
+									},
+									{
+										"type": "literal",
+										"value": "collapsible"
+									},
+									{
+										"type": "literal",
+										"value": "overlay"
+									},
+									{
+										"type": "literal",
+										"value": "modal"
+									}
+								]
+							}
+						},
+						{
+							"id": 221,
+							"name": "defaultVisibility",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 64,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L64"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "literal",
+										"value": "visible"
+									},
+									{
+										"type": "literal",
+										"value": "hidden"
+									}
+								]
+							}
+						},
+						{
+							"id": 222,
+							"name": "onBehaviorChange",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 65,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L65"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 223,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 65,
+											"character": 20,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L65"
+										}
+									],
+									"signatures": [
+										{
+											"id": 224,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 65,
+													"character": 20,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L65"
+												}
+											],
+											"parameters": [
+												{
+													"id": 225,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "intrinsic",
+														"name": "void"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Partial"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 182,
+																"name": "PanelState",
+																"package": "@contember/layout"
+															}
+														],
+														"name": "Partial",
+														"package": "typescript"
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 226,
+							"name": "onKeyPress",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 66,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L66"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 227,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 66,
+											"character": 14,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L66"
+										}
+									],
+									"signatures": [
+										{
+											"id": 228,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 66,
+													"character": 14,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L66"
+												}
+											],
+											"parameters": [
+												{
+													"id": 229,
+													"name": "event",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "KeyboardEvent"
+														},
+														"name": "KeyboardEvent",
+														"package": "typescript"
+													}
+												},
+												{
+													"id": 230,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "intrinsic",
+														"name": "void"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Partial"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 182,
+																"name": "PanelState",
+																"package": "@contember/layout"
+															}
+														],
+														"name": "Partial",
+														"package": "typescript"
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 231,
+							"name": "onVisibilityChange",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 67,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L67"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 232,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 67,
+											"character": 22,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L67"
+										}
+									],
+									"signatures": [
+										{
+											"id": 233,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 67,
+													"character": 22,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L67"
+												}
+											],
+											"parameters": [
+												{
+													"id": 234,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "intrinsic",
+														"name": "void"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Partial"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 182,
+																"name": "PanelState",
+																"package": "@contember/layout"
+															}
+														],
+														"name": "Partial",
+														"package": "typescript"
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 235,
+							"name": "visibility",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 68,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L68"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "undefined"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								219,
+								220,
+								221,
+								222,
+								226,
+								231,
+								235
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 61,
+							"character": 17,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L61"
+						}
+					]
+				},
+				{
+					"id": 193,
+					"name": "CommonPanelConfigProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 44,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L44"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 194,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 195,
+									"name": "basis",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 45,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L45"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "literal",
+												"value": null
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 196,
+									"name": "maxWidth",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 46,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L46"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "literal",
+												"value": null
+											}
+										]
+									}
+								},
+								{
+									"id": 197,
+									"name": "minWidth",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 47,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L47"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "literal",
+												"value": null
+											}
+										]
+									}
+								},
+								{
+									"id": 198,
+									"name": "name",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 48,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L48"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 199,
+									"name": "priority",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 49,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L49"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "literal",
+												"value": null
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										195,
+										196,
+										197,
+										198,
+										199
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 44,
+									"character": 37,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L44"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 175,
+					"name": "ContainerComponentType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 27,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L27"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 176,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 28,
+											"character": 4,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L28"
+										}
+									],
+									"signatures": [
+										{
+											"id": 177,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"typeParameter": [
+												{
+													"id": 179,
+													"name": "C",
+													"variant": "typeParam",
+													"kind": 131072,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ElementType"
+														},
+														"name": "ElementType",
+														"package": "@types/react",
+														"qualifiedName": "React.ElementType"
+													},
+													"default": {
+														"type": "literal",
+														"value": "div"
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 178,
+													"name": "props",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 173,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "C",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "ContainerProps",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactElement"
+														},
+														"name": "React.ReactElement",
+														"package": "@types/react"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 180,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 181,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 30,
+													"character": 2,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L30"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												181
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 29,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L29"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 173,
+					"name": "ContainerProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 25,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L25"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 174,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+							"qualifiedName": "PolymorphicComponentPropsWithRef"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "C",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": 170,
+								"name": "OwnContainerProps",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "PolymorphicComponentPropsWithRef",
+						"package": "@contember/utilities"
+					}
+				},
+				{
+					"id": 115,
+					"name": "GetLayoutPanelsStateContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 29,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L29"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 116,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 117,
+									"name": "allPanelsCanBeVisible",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 30,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L30"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 119,
+									"name": "currentlyActivePanel",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 32,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L32"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 118,
+									"name": "panels",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 31,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L31"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+											"qualifiedName": "Map"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": 240,
+												"name": "PanelConfig",
+												"package": "@contember/layout"
+											}
+										],
+										"name": "Map",
+										"package": "typescript"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										117,
+										119,
+										118
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Contexts.ts",
+									"line": 29,
+									"character": 46,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L29"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 67,
+					"name": "LayoutContainerWidthContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "use "
+									},
+									{
+										"kind": "code",
+										"text": "`import type { ContainerWidthContextType }  from '@contember/react-utils'`"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/index.ts",
+							"line": 15,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/index.ts#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../react-utils/src/hooks/useContainerWidth.ts",
+							"qualifiedName": "ContainerWidthContextType"
+						},
+						"name": "ContainerWidthContextType",
+						"package": "@contember/react-utils"
+					}
+				},
+				{
+					"id": 86,
+					"name": "LayoutPanelCallback",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 11,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L11"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 87,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Contexts.ts",
+									"line": 11,
+									"character": 34,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L11"
+								}
+							],
+							"signatures": [
+								{
+									"id": 88,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"parameters": [
+										{
+											"id": 89,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 160,
+					"name": "MaybePanelBehavior",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 7,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L7"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"target": 156,
+								"name": "PanelBehavior",
+								"package": "@contember/layout"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				},
+				{
+					"id": 166,
+					"name": "MaybePanelVisibility",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 12,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L12"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"target": 162,
+								"name": "PanelVisibility",
+								"package": "@contember/layout"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				},
+				{
+					"id": 170,
+					"name": "OwnContainerProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 19,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L19"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/class-name/types.ts",
+									"qualifiedName": "ComponentClassNameProps"
+								},
+								"name": "ComponentClassNameProps",
+								"package": "@contember/utilities"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 171,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 172,
+											"name": "showDataState",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 22,
+													"character": 2,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												172
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 21,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L21"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 250,
+					"name": "OwnPanelBodyProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 97,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L97"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 251,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 252,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 98,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L98"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 253,
+									"name": "className",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 99,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L99"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/class-name/types.ts",
+											"qualifiedName": "NestedClassName"
+										},
+										"name": "NestedClassName",
+										"package": "@contember/utilities"
+									}
+								},
+								{
+									"id": 254,
+									"name": "componentClassName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 100,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L100"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										252,
+										253,
+										254
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 97,
+									"character": 32,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L97"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 264,
+					"name": "OwnPanelFooterProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 111,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L111"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 265,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 266,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 112,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L112"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 267,
+									"name": "className",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 113,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L113"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/class-name/types.ts",
+											"qualifiedName": "NestedClassName"
+										},
+										"name": "NestedClassName",
+										"package": "@contember/utilities"
+									}
+								},
+								{
+									"id": 268,
+									"name": "componentClassName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 114,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L114"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										266,
+										267,
+										268
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 111,
+									"character": 34,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L111"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 278,
+					"name": "OwnPanelHeaderProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 125,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L125"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 279,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 280,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 126,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L126"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 281,
+									"name": "className",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 127,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L127"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/class-name/types.ts",
+											"qualifiedName": "NestedClassName"
+										},
+										"name": "NestedClassName",
+										"package": "@contember/utilities"
+									}
+								},
+								{
+									"id": 282,
+									"name": "componentClassName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 128,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L128"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										280,
+										281,
+										282
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 125,
+									"character": 34,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L125"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 237,
+					"name": "OwnPanelProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 75,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L75"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"target": 187,
+								"name": "PanelBasicProps",
+								"package": "@contember/layout"
+							},
+							{
+								"type": "reference",
+								"target": 236,
+								"name": "PanelConfigProps",
+								"package": "@contember/layout"
+							}
+						]
+					}
+				},
+				{
+					"id": 156,
+					"name": "PanelBehavior",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 5,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L5"
+						}
+					],
+					"type": {
+						"type": "indexedAccess",
+						"indexType": {
+							"type": "intrinsic",
+							"name": "number"
+						},
+						"objectType": {
+							"type": "query",
+							"queryType": {
+								"type": "reference",
+								"target": 155,
+								"name": "panelBehaviorsList",
+								"package": "@contember/layout"
+							}
+						}
+					}
+				},
+				{
+					"id": 257,
+					"name": "PanelBodyComponentType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 105,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L105"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 258,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 105,
+											"character": 38,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L105"
+										}
+									],
+									"signatures": [
+										{
+											"id": 259,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"typeParameter": [
+												{
+													"id": 261,
+													"name": "C",
+													"variant": "typeParam",
+													"kind": 131072,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ElementType"
+														},
+														"name": "ElementType",
+														"package": "@types/react",
+														"qualifiedName": "React.ElementType"
+													},
+													"default": {
+														"type": "literal",
+														"value": "div"
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 260,
+													"name": "props",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 255,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "C",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "PanelBodyProps",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactElement"
+														},
+														"name": "React.ReactElement",
+														"package": "@types/react"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 262,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 263,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 108,
+													"character": 1,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L108"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												263
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 107,
+											"character": 34,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L107"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 255,
+					"name": "PanelBodyProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 103,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L103"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 256,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+							"qualifiedName": "PolymorphicComponentPropsWithRef"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "C",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": 250,
+								"name": "OwnPanelBodyProps",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "PolymorphicComponentPropsWithRef",
+						"package": "@contember/utilities"
+					}
+				},
+				{
+					"id": 243,
+					"name": "PanelComponentType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 91,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L91"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 244,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 92,
+											"character": 4,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L92"
+										}
+									],
+									"signatures": [
+										{
+											"id": 245,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"typeParameter": [
+												{
+													"id": 247,
+													"name": "C",
+													"variant": "typeParam",
+													"kind": 131072,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ElementType"
+														},
+														"name": "ElementType",
+														"package": "@types/react",
+														"qualifiedName": "React.ElementType"
+													},
+													"default": {
+														"type": "literal",
+														"value": "section"
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 246,
+													"name": "props",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 238,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "C",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "PanelProps",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactElement"
+														},
+														"name": "ReactElement",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactElement"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 248,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 249,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 94,
+													"character": 2,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L94"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												249
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 93,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L93"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 240,
+					"name": "PanelConfig",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 81,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L81"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "mapped",
+								"parameter": "P",
+								"parameterType": {
+									"type": "typeOperator",
+									"operator": "keyof",
+									"target": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Omit"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 236,
+												"name": "PanelConfigProps",
+												"package": "@contember/layout"
+											},
+											{
+												"type": "templateLiteral",
+												"head": "on",
+												"tail": [
+													[
+														{
+															"type": "intrinsic",
+															"name": "string"
+														},
+														""
+													]
+												]
+											}
+										],
+										"name": "Omit",
+										"package": "typescript"
+									}
+								},
+								"templateType": {
+									"type": "conditional",
+									"checkType": {
+										"type": "reference",
+										"target": -1,
+										"name": "P",
+										"refersToTypeParameter": true
+									},
+									"extendsType": {
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "basis"
+											},
+											{
+												"type": "literal",
+												"value": "minWidth"
+											}
+										]
+									},
+									"trueType": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Exclude"
+										},
+										"typeArguments": [
+											{
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"target": -1,
+													"name": "P",
+													"refersToTypeParameter": true
+												},
+												"objectType": {
+													"type": "reference",
+													"target": 237,
+													"name": "OwnPanelProps",
+													"package": "@contember/layout"
+												}
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													}
+												]
+											}
+										],
+										"name": "Exclude",
+										"package": "typescript"
+									},
+									"falseType": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Exclude"
+										},
+										"typeArguments": [
+											{
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"target": -1,
+													"name": "P",
+													"refersToTypeParameter": true
+												},
+												"objectType": {
+													"type": "reference",
+													"target": 237,
+													"name": "OwnPanelProps",
+													"package": "@contember/layout"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										],
+										"name": "Exclude",
+										"package": "typescript"
+									}
+								},
+								"optionalModifier": "-"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 241,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 242,
+											"name": "ref",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 88,
+													"character": 2,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L88"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.RefObject"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "HTMLElement"
+														},
+														"name": "HTMLElement",
+														"package": "typescript"
+													}
+												],
+												"name": "RefObject",
+												"package": "@types/react",
+												"qualifiedName": "React.RefObject"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												242
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 87,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L87"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 236,
+					"name": "PanelConfigProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 71,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L71"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"target": 193,
+								"name": "CommonPanelConfigProps",
+								"package": "@contember/layout"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"target": 200,
+										"name": "ControlledPanelProps",
+										"package": "@contember/layout"
+									},
+									{
+										"type": "reference",
+										"target": 218,
+										"name": "UncontrolledPanelProps",
+										"package": "@contember/layout"
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": 271,
+					"name": "PanelFooterComponentType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 119,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L119"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 272,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 120,
+											"character": 4,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L120"
+										}
+									],
+									"signatures": [
+										{
+											"id": 273,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"typeParameter": [
+												{
+													"id": 275,
+													"name": "C",
+													"variant": "typeParam",
+													"kind": 131072,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ElementType"
+														},
+														"name": "ElementType",
+														"package": "@types/react",
+														"qualifiedName": "React.ElementType"
+													},
+													"default": {
+														"type": "literal",
+														"value": "footer"
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 274,
+													"name": "props",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 269,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "C",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "PanelFooterProps",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactElement"
+														},
+														"name": "React.ReactElement",
+														"package": "@types/react"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 276,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 277,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 122,
+													"character": 2,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L122"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												277
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 121,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L121"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 269,
+					"name": "PanelFooterProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 117,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L117"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 270,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+							"qualifiedName": "PolymorphicComponentPropsWithRef"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "C",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": 264,
+								"name": "OwnPanelFooterProps",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "PolymorphicComponentPropsWithRef",
+						"package": "@contember/utilities"
+					}
+				},
+				{
+					"id": 285,
+					"name": "PanelHeaderComponentType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 133,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L133"
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 286,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 134,
+											"character": 4,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L134"
+										}
+									],
+									"signatures": [
+										{
+											"id": 287,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"typeParameter": [
+												{
+													"id": 289,
+													"name": "C",
+													"variant": "typeParam",
+													"kind": 131072,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ElementType"
+														},
+														"name": "ElementType",
+														"package": "@types/react",
+														"qualifiedName": "React.ElementType"
+													},
+													"default": {
+														"type": "literal",
+														"value": "header"
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 288,
+													"name": "props",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 283,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "C",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "PanelHeaderProps",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactElement"
+														},
+														"name": "React.ReactElement",
+														"package": "@types/react"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 290,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 291,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/Types.ts",
+													"line": 136,
+													"character": 2,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L136"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												291
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 135,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L135"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 283,
+					"name": "PanelHeaderProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 131,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L131"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 284,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+							"qualifiedName": "PolymorphicComponentPropsWithRef"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "C",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": 278,
+								"name": "OwnPanelHeaderProps",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "PolymorphicComponentPropsWithRef",
+						"package": "@contember/utilities"
+					}
+				},
+				{
+					"id": 238,
+					"name": "PanelProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 79,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L79"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 239,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+							"qualifiedName": "PolymorphicComponentPropsWithRef"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "C",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": 237,
+								"name": "OwnPanelProps",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "PolymorphicComponentPropsWithRef",
+						"package": "@contember/utilities"
+					}
+				},
+				{
+					"id": 182,
+					"name": "PanelState",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 33,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L33"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 183,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 184,
+									"name": "behavior",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 34,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L34"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 156,
+										"name": "PanelBehavior",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 185,
+									"name": "panel",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 35,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L35"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 186,
+									"name": "visibility",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Types.ts",
+											"line": 36,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L36"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 162,
+										"name": "PanelVisibility",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										184,
+										185,
+										186
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 33,
+									"character": 25,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L33"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 162,
+					"name": "PanelVisibility",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 10,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L10"
+						}
+					],
+					"type": {
+						"type": "indexedAccess",
+						"indexType": {
+							"type": "intrinsic",
+							"name": "number"
+						},
+						"objectType": {
+							"type": "query",
+							"queryType": {
+								"type": "reference",
+								"target": 161,
+								"name": "panelVisibilityList",
+								"package": "@contember/layout"
+							}
+						}
+					}
+				},
+				{
+					"id": 79,
+					"name": "PanelWidthContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 4,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L4"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 80,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 81,
+									"name": "height",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 5,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L5"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 82,
+									"name": "width",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 6,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L6"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										81,
+										82
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Contexts.ts",
+									"line": 4,
+									"character": 36,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L4"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 91,
+					"name": "RegisterLayoutPanel",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 13,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L13"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 92,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Contexts.ts",
+									"line": 13,
+									"character": 34,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L13"
+								}
+							],
+							"signatures": [
+								{
+									"id": 93,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"parameters": [
+										{
+											"id": 94,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 95,
+											"name": "config",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 240,
+												"name": "PanelConfig",
+												"package": "@contember/layout"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 90,
+					"name": "SetLayoutPanelVisibility",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 12,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L12"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 86,
+						"name": "LayoutPanelCallback",
+						"package": "@contember/layout"
+					}
+				},
+				{
+					"id": 102,
+					"name": "SetLayoutPanelsStateContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 16,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L16"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 103,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 110,
+									"name": "activate",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 23,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L23"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 86,
+										"name": "LayoutPanelCallback",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 111,
+									"name": "deactivate",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 24,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L24"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 86,
+										"name": "LayoutPanelCallback",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 107,
+									"name": "hide",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 20,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L20"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 90,
+										"name": "SetLayoutPanelVisibility",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 104,
+									"name": "registerLayoutPanel",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 17,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L17"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 91,
+										"name": "RegisterLayoutPanel",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 109,
+									"name": "reset",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 22,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L22"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 90,
+										"name": "SetLayoutPanelVisibility",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 106,
+									"name": "show",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 19,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L19"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 90,
+										"name": "SetLayoutPanelVisibility",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 105,
+									"name": "unregisterLayoutPanel",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 18,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L18"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 96,
+										"name": "UnregisterLayoutPanel",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 108,
+									"name": "update",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/Contexts.ts",
+											"line": 21,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L21"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 97,
+										"name": "UpdateLayoutPanel",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										110,
+										111,
+										107,
+										104,
+										109,
+										106,
+										105,
+										108
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Contexts.ts",
+									"line": 16,
+									"character": 46,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L16"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 96,
+					"name": "UnregisterLayoutPanel",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 14,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 86,
+						"name": "LayoutPanelCallback",
+						"package": "@contember/layout"
+					}
+				},
+				{
+					"id": 97,
+					"name": "UpdateLayoutPanel",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 15,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L15"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 98,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Contexts.ts",
+									"line": 15,
+									"character": 32,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L15"
+								}
+							],
+							"signatures": [
+								{
+									"id": 99,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"parameters": [
+										{
+											"id": 100,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 101,
+											"name": "config",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Partial"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																	"qualifiedName": "Omit"
+																},
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"target": 240,
+																		"name": "PanelConfig",
+																		"package": "@contember/layout"
+																	},
+																	{
+																		"type": "literal",
+																		"value": "name"
+																	}
+																],
+																"name": "Omit",
+																"package": "typescript"
+															}
+														],
+														"name": "Partial",
+														"package": "typescript"
+													},
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 120,
+					"name": "GetLayoutPanelsStateContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 34,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L34"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 115,
+								"name": "GetLayoutPanelsStateContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 68,
+					"name": "LayoutContainerWidthContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "use "
+									},
+									{
+										"kind": "code",
+										"text": "`import type { ContainerWidthContext }  from '@contember/react-utils'`"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/index.ts",
+							"line": 17,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/index.ts#L17"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					},
+					"defaultValue": "ContainerWidthContext"
+				},
+				{
+					"id": 123,
+					"name": "LayoutPanelContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 37,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L37"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 182,
+								"name": "PanelState",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 83,
+					"name": "PanelWidthContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 8,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L8"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 79,
+								"name": "PanelWidthContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 112,
+					"name": "SetLayoutPanelsStateContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 26,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L26"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 102,
+								"name": "SetLayoutPanelsStateContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 155,
+					"name": "panelBehaviorsList",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 4,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L4"
+						}
+					],
+					"type": {
+						"type": "typeOperator",
+						"operator": "readonly",
+						"target": {
+							"type": "tuple",
+							"elements": [
+								{
+									"type": "literal",
+									"value": "static"
+								},
+								{
+									"type": "literal",
+									"value": "collapsible"
+								},
+								{
+									"type": "literal",
+									"value": "overlay"
+								},
+								{
+									"type": "literal",
+									"value": "modal"
+								}
+							]
+						}
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 161,
+					"name": "panelVisibilityList",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 9,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L9"
+						}
+					],
+					"type": {
+						"type": "typeOperator",
+						"operator": "readonly",
+						"target": {
+							"type": "tuple",
+							"elements": [
+								{
+									"type": "literal",
+									"value": "visible"
+								},
+								{
+									"type": "literal",
+									"value": "hidden"
+								}
+							]
+						}
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 126,
+					"name": "Panel",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Panel.tsx",
+							"line": 17,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Panel.tsx#L17"
+						}
+					],
+					"signatures": [
+						{
+							"id": 127,
+							"name": "Panel",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 92,
+									"character": 4,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L92"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 128,
+									"name": "C",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ElementType"
+										},
+										"name": "ElementType",
+										"package": "@types/react",
+										"qualifiedName": "React.ElementType"
+									},
+									"default": {
+										"type": "literal",
+										"value": "section"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 129,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 238,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "C",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "PanelProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 130,
+					"name": "PanelBody",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/PanelBody.tsx",
+							"line": 11,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/PanelBody.tsx#L11"
+						}
+					],
+					"signatures": [
+						{
+							"id": 131,
+							"name": "PanelBody",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 105,
+									"character": 38,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L105"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 132,
+									"name": "C",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ElementType"
+										},
+										"name": "ElementType",
+										"package": "@types/react",
+										"qualifiedName": "React.ElementType"
+									},
+									"default": {
+										"type": "literal",
+										"value": "div"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 133,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 255,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "C",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "PanelBodyProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 134,
+					"name": "PanelFooter",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/PanelFooter.tsx",
+							"line": 11,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/PanelFooter.tsx#L11"
+						}
+					],
+					"signatures": [
+						{
+							"id": 135,
+							"name": "PanelFooter",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 120,
+									"character": 4,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L120"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 136,
+									"name": "C",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ElementType"
+										},
+										"name": "ElementType",
+										"package": "@types/react",
+										"qualifiedName": "React.ElementType"
+									},
+									"default": {
+										"type": "literal",
+										"value": "footer"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 137,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 269,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "C",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "PanelFooterProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 138,
+					"name": "PanelHeader",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/PanelHeader.tsx",
+							"line": 11,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/PanelHeader.tsx#L11"
+						}
+					],
+					"signatures": [
+						{
+							"id": 139,
+							"name": "PanelHeader",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 134,
+									"character": 4,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L134"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 140,
+									"name": "C",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ElementType"
+										},
+										"name": "ElementType",
+										"package": "@types/react",
+										"qualifiedName": "React.ElementType"
+									},
+									"default": {
+										"type": "literal",
+										"value": "header"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 141,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 283,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "C",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "PanelHeaderProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 142,
+					"name": "PanelsStateProvider",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/PanelsStateProvider.tsx",
+							"line": 10,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/PanelsStateProvider.tsx#L10"
+						}
+					],
+					"signatures": [
+						{
+							"id": 143,
+							"name": "PanelsStateProvider",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 144,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 145,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 146,
+													"name": "children",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/primitives/PanelsStateProvider.tsx",
+															"line": 10,
+															"character": 42,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/PanelsStateProvider.tsx#L10"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														146
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/PanelsStateProvider.tsx",
+													"line": 10,
+													"character": 40,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/PanelsStateProvider.tsx#L10"
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 147,
+					"name": "ResponsiveContainer",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/ResponsiveContainer.tsx",
+							"line": 12,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/ResponsiveContainer.tsx#L12"
+						}
+					],
+					"signatures": [
+						{
+							"id": 148,
+							"name": "ResponsiveContainer",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 28,
+									"character": 4,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L28"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 149,
+									"name": "C",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ElementType"
+										},
+										"name": "ElementType",
+										"package": "@types/react",
+										"qualifiedName": "React.ElementType"
+									},
+									"default": {
+										"type": "literal",
+										"value": "div"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 150,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 173,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "C",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ContainerProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 151,
+					"name": "Root",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Root.tsx",
+							"line": 12,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Root.tsx#L12"
+						}
+					],
+					"signatures": [
+						{
+							"id": 152,
+							"name": "Root",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/Types.ts",
+									"line": 28,
+									"character": 4,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L28"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 153,
+									"name": "C",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ElementType"
+										},
+										"name": "ElementType",
+										"package": "@types/react",
+										"qualifiedName": "React.ElementType"
+									},
+									"default": {
+										"type": "literal",
+										"value": "div"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 154,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 173,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "C",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ContainerProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 167,
+					"name": "isComponentClassName",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 14,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 168,
+							"name": "isComponentClassName",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/utilities/dist/types/assert-types/types.d.ts",
+									"line": 2,
+									"character": 40
+								}
+							],
+							"parameters": [
+								{
+									"id": 169,
+									"name": "value",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								}
+							],
+							"type": {
+								"type": "predicate",
+								"name": "value",
+								"asserts": false,
+								"targetType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "array",
+											"elementType": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 157,
+					"name": "isOneOfPanelBehaviors",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 6,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L6"
+						}
+					],
+					"signatures": [
+						{
+							"id": 158,
+							"name": "isOneOfPanelBehaviors",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/utilities/dist/types/assert-types/Predicates.d.ts",
+									"line": 19,
+									"character": 112
+								}
+							],
+							"parameters": [
+								{
+									"id": 159,
+									"name": "value",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								}
+							],
+							"type": {
+								"type": "predicate",
+								"name": "value",
+								"asserts": false,
+								"targetType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "literal",
+											"value": "static"
+										},
+										{
+											"type": "literal",
+											"value": "collapsible"
+										},
+										{
+											"type": "literal",
+											"value": "overlay"
+										},
+										{
+											"type": "literal",
+											"value": "modal"
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 163,
+					"name": "isOneOfPanelVisibilities",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Types.ts",
+							"line": 11,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Types.ts#L11"
+						}
+					],
+					"signatures": [
+						{
+							"id": 164,
+							"name": "isOneOfPanelVisibilities",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/utilities/dist/types/assert-types/Predicates.d.ts",
+									"line": 19,
+									"character": 112
+								}
+							],
+							"parameters": [
+								{
+									"id": 165,
+									"name": "value",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								}
+							],
+							"type": {
+								"type": "predicate",
+								"name": "value",
+								"asserts": false,
+								"targetType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "literal",
+											"value": "visible"
+										},
+										{
+											"type": "literal",
+											"value": "hidden"
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 292,
+					"name": "useClosePanelOnEscape",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/useClosePanelOnEscape.ts",
+							"line": 4,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/useClosePanelOnEscape.ts#L4"
+						}
+					],
+					"signatures": [
+						{
+							"id": 293,
+							"name": "useClosePanelOnEscape",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/primitives/useClosePanelOnEscape.ts",
+									"line": 4,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/useClosePanelOnEscape.ts#L4"
+								}
+							],
+							"parameters": [
+								{
+									"id": 294,
+									"name": "behaviors",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "union",
+											"types": [
+												{
+													"type": "literal",
+													"value": "static"
+												},
+												{
+													"type": "literal",
+													"value": "collapsible"
+												},
+												{
+													"type": "literal",
+													"value": "overlay"
+												},
+												{
+													"type": "literal",
+													"value": "modal"
+												}
+											]
+										}
+									},
+									"defaultValue": "..."
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 295,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/primitives/useClosePanelOnEscape.ts",
+											"line": 5,
+											"character": 20,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/useClosePanelOnEscape.ts#L5"
+										}
+									],
+									"signatures": [
+										{
+											"id": 296,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/primitives/useClosePanelOnEscape.ts",
+													"line": 5,
+													"character": 20,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/useClosePanelOnEscape.ts#L5"
+												}
+											],
+											"parameters": [
+												{
+													"id": 297,
+													"name": "event",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "KeyboardEvent"
+														},
+														"name": "KeyboardEvent",
+														"package": "typescript"
+													}
+												},
+												{
+													"id": 298,
+													"name": "state",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": 182,
+														"name": "PanelState",
+														"package": "@contember/layout"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 299,
+															"name": "__type",
+															"variant": "declaration",
+															"kind": 65536,
+															"flags": {},
+															"children": [
+																{
+																	"id": 300,
+																	"name": "visibility",
+																	"variant": "declaration",
+																	"kind": 1024,
+																	"flags": {
+																		"isReadonly": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "packages/layout/src/primitives/useClosePanelOnEscape.ts",
+																			"line": 12,
+																			"character": 13,
+																			"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/useClosePanelOnEscape.ts#L12"
+																		}
+																	],
+																	"type": {
+																		"type": "literal",
+																		"value": "hidden"
+																	},
+																	"defaultValue": "'hidden'"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Properties",
+																	"children": [
+																		300
+																	]
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "packages/layout/src/primitives/useClosePanelOnEscape.ts",
+																	"line": 12,
+																	"character": 11,
+																	"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/useClosePanelOnEscape.ts#L12"
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 71,
+					"name": "useDocumentTitle",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/index.ts",
+							"line": 21,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/index.ts#L21"
+						}
+					],
+					"signatures": [
+						{
+							"id": 72,
+							"name": "useDocumentTitle",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [],
+								"blockTags": [
+									{
+										"tag": "@deprecated",
+										"content": [
+											{
+												"kind": "text",
+												"text": "use "
+											},
+											{
+												"kind": "code",
+												"text": "`import { useDocumentTitle }  from '@contember/react-utils'`"
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/hooks/useDocumentTitle.d.ts",
+									"line": 1,
+									"character": 0
+								}
+							],
+							"parameters": [
+								{
+									"id": 73,
+									"name": "title",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "literal",
+												"value": null
+											},
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										]
+									}
+								},
+								{
+									"id": 74,
+									"name": "formatter",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 75,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/react-utils/dist/types/hooks/useDocumentTitle.d.ts",
+													"line": 1,
+													"character": 87
+												}
+											],
+											"signatures": [
+												{
+													"id": 76,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/react-utils/dist/types/hooks/useDocumentTitle.d.ts",
+															"line": 1,
+															"character": 87
+														}
+													],
+													"parameters": [
+														{
+															"id": 77,
+															"name": "title",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 78,
+															"name": "initialTitle",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 121,
+					"name": "useGetLayoutPanelsStateContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 34,
+							"character": 43,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L34"
+						}
+					],
+					"signatures": [
+						{
+							"id": 122,
+							"name": "useGetLayoutPanelsStateContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 115,
+								"name": "GetLayoutPanelsStateContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				},
+				{
+					"id": 69,
+					"name": "useLayoutContainerWidth",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/index.ts",
+							"line": 19,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/index.ts#L19"
+						}
+					],
+					"signatures": [
+						{
+							"id": 70,
+							"name": "useLayoutContainerWidth",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [],
+								"blockTags": [
+									{
+										"tag": "@deprecated",
+										"content": [
+											{
+												"kind": "text",
+												"text": "use "
+											},
+											{
+												"kind": "code",
+												"text": "`import { useContainerWidth }  from '@contember/react-utils'`"
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/hooks/useContainerWidth.d.ts",
+									"line": 3,
+									"character": 0
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					]
+				},
+				{
+					"id": 124,
+					"name": "useLayoutPanelContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 37,
+							"character": 34,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L37"
+						}
+					],
+					"signatures": [
+						{
+							"id": 125,
+							"name": "useLayoutPanelContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 182,
+								"name": "PanelState",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				},
+				{
+					"id": 84,
+					"name": "usePanelWidthContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 8,
+							"character": 33,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L8"
+						}
+					],
+					"signatures": [
+						{
+							"id": 85,
+							"name": "usePanelWidthContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 79,
+								"name": "PanelWidthContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				},
+				{
+					"id": 113,
+					"name": "useSetLayoutPanelsStateContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/primitives/Contexts.ts",
+							"line": 26,
+							"character": 43,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/Contexts.ts#L26"
+						}
+					],
+					"signatures": [
+						{
+							"id": 114,
+							"name": "useSetLayoutPanelsStateContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 102,
+								"name": "SetLayoutPanelsStateContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						200,
+						187,
+						218
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						193,
+						175,
+						173,
+						115,
+						67,
+						86,
+						160,
+						166,
+						170,
+						250,
+						264,
+						278,
+						237,
+						156,
+						257,
+						255,
+						243,
+						240,
+						236,
+						271,
+						269,
+						285,
+						283,
+						238,
+						182,
+						162,
+						79,
+						91,
+						90,
+						102,
+						96,
+						97
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						120,
+						68,
+						123,
+						83,
+						112,
+						155,
+						161
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						167,
+						157,
+						163,
+						292,
+						71,
+						121,
+						69,
+						124,
+						84,
+						113
+					]
+				},
+				{
+					"title": "Layout",
+					"children": [
+						126,
+						130,
+						134,
+						138,
+						142,
+						147,
+						151
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/layout/src/primitives/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/primitives/index.ts#L1"
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

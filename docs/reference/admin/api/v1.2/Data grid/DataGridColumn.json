@@ -1,0 +1,1033 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 1180,
+			"name": "DataGridCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1184,
+					"name": "canBeHidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 7,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 1183,
+					"name": "hidden",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 6,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 1181,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 4,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1182,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+							"line": 5,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1184,
+						1183,
+						1181,
+						1182
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
+					"line": 3,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+				}
+			]
+		},
+		{
+			"id": 1339,
+			"name": "DataGridHeaderCellPublicProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 1343,
+					"name": "ascOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 14,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1344,
+					"name": "descOrderIcon",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 15,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1340,
+					"name": "header",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 1342,
+					"name": "headerJustification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 13,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18289,
+						"name": "Justification",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 1341,
+					"name": "shrunk",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+							"line": 12,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						1343,
+						1344,
+						1340,
+						1342,
+						1341
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
+					"line": 10,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 1357,
+					"name": "DataGridHeaderCellProps"
+				}
+			]
+		},
+		{
+			"id": 1190,
+			"name": "DataGridColumnFiltering",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 18,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L18"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 1199,
+					"name": "FA",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 1334,
+						"name": "DataGridFilterArtifact",
+						"package": "@contember/admin"
+					},
+					"default": {
+						"type": "reference",
+						"target": 1334,
+						"name": "DataGridFilterArtifact",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1191,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1192,
+									"name": "enableFiltering",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 20,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L20"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": false
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1192
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 19,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L19"
+								}
+							]
+						}
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1193,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1197,
+									"name": "emptyFilter",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 26,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L26"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "FA",
+										"refersToTypeParameter": true
+									}
+								},
+								{
+									"id": 1194,
+									"name": "enableFiltering",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 23,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L23"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": true
+									}
+								},
+								{
+									"id": 1198,
+									"name": "filterRenderer",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 27,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L27"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ComponentType"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 1185,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "FA",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "FilterRendererProps",
+												"package": "@contember/admin"
+											}
+										],
+										"name": "ComponentType",
+										"package": "@types/react",
+										"qualifiedName": "React.ComponentType"
+									}
+								},
+								{
+									"id": 1196,
+									"name": "getNewFilter",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 25,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L25"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 1442,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "FA",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "GetNewFilter",
+										"package": "@contember/admin"
+									}
+								},
+								{
+									"id": 1195,
+									"name": "initialFilter",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 24,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L24"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "FA",
+										"refersToTypeParameter": true
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1197,
+										1194,
+										1198,
+										1196,
+										1195
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 22,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L22"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1200,
+			"name": "DataGridColumnOrdering",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 30,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L30"
+				}
+			],
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1201,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1202,
+									"name": "enableOrdering",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 32,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L32"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": false
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1202
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 31,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L31"
+								}
+							]
+						}
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1203,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1204,
+									"name": "enableOrdering",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 35,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L35"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": true
+									}
+								},
+								{
+									"id": 1206,
+									"name": "getNewOrderBy",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 37,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L37"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 1450,
+										"name": "GetNewOrderBy",
+										"package": "@contember/admin"
+									}
+								},
+								{
+									"id": 1205,
+									"name": "initialOrder",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 36,
+											"character": 3,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L36"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 1380,
+										"name": "DataGridOrderDirection",
+										"package": "@contember/admin"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1204,
+										1206,
+										1205
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 34,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L34"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1211,
+			"name": "DataGridColumnProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 48,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L48"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 1212,
+					"name": "FA",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 1334,
+						"name": "DataGridFilterArtifact",
+						"package": "@contember/admin"
+					},
+					"default": {
+						"type": "reference",
+						"target": 1334,
+						"name": "DataGridFilterArtifact",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1207,
+						"name": "DataGridColumnPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 1190,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "FA",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "DataGridColumnFiltering",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 1200,
+						"name": "DataGridColumnOrdering",
+						"package": "@contember/admin"
+					}
+				]
+			}
+		},
+		{
+			"id": 1207,
+			"name": "DataGridColumnPublicProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 40,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 1339,
+						"name": "DataGridHeaderCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reference",
+						"target": 1180,
+						"name": "DataGridCellPublicProps",
+						"package": "@contember/admin"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1208,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1210,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 45,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 1209,
+									"name": "columnKey",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+											"line": 44,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1210,
+										1209
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+									"line": 43,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 1334,
+			"name": "DataGridFilterArtifact",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridFilterArtifact.ts",
+					"line": 3,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridFilterArtifact.ts#L3"
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../react-utils/src/types.ts",
+					"qualifiedName": "Serializable"
+				},
+				"name": "Serializable",
+				"package": "@contember/react-utils"
+			}
+		},
+		{
+			"id": 1214,
+			"name": "DataGridColumn",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+					"line": 61,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L61"
+				}
+			],
+			"signatures": [
+				{
+					"id": 1215,
+					"name": "DataGridColumn",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Constructor for custom DataGrid cell."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
+							"line": 61,
+							"character": 29,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L61"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 1216,
+							"name": "FA",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../react-utils/src/types.ts",
+									"qualifiedName": "Serializable"
+								},
+								"name": "Serializable",
+								"package": "@contember/react-utils"
+							},
+							"default": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../react-utils/src/types.ts",
+									"qualifiedName": "Serializable"
+								},
+								"name": "Serializable",
+								"package": "@contember/react-utils"
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 1217,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 1211,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "FA",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "DataGridColumnProps",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactElement"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.JSXElementConstructor"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor",
+										"package": "@types/react",
+										"qualifiedName": "React.JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactElement"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

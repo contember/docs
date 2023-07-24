@@ -7,16 +7,16 @@ import LiveCode from "@site/src/components/liveCode";
 import CodeBlock from '@theme/CodeBlock';
 
 export const ReactComponentEntrypoint = ({ schema, name }: { schema: Schema, name: string }) => {
-	let refl = schema.getDeclarationByName([name]);
+	let refl = schema.getDeclarationByName(name.split('.'));
 	if (!refl) {
 		return <>Declaration {name} not found</>
 	}
-	const reactComponent = getReactComponent(refl)
+	const reactComponent = getReactComponent(refl, schema)
 	if (!reactComponent) {
 		return <>{name} is not a react component</>
 	}
 	const context = SchemaContext.create(schema)
-	const signature = reactComponent.reflection.signatures[0]
+	const signature = reactComponent.reflection.signatures?.[0]
 	const textSummary = signature?.comment?.summary?.map(it => it.text).join('') ?? ''
 
 	return (

@@ -55,6 +55,8 @@
     "react-dom": "^17",
     "react-live": "^4.0.0",
     "sass": "^1.62.0",
+    "tsx": "^3.12.7",
+    "typedoc": "^0.24.8",
     "typescript": "^5.0.4",
     "vite": "^4.3.9"
   }
