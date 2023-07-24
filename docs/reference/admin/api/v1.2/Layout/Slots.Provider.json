@@ -1,0 +1,3389 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 301,
+			"name": "Slots",
+			"variant": "declaration",
+			"kind": 4,
+			"flags": {},
+			"children": [
+				{
+					"id": 353,
+					"name": "ActiveSlotPortalsContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 9,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+							"qualifiedName": "Set"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						],
+						"name": "Set",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 310,
+					"name": "OwnTargetContainerProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/Target.tsx",
+							"line": 8,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Target.tsx#L8"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 311,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 314,
+									"name": "className",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/Target.tsx",
+											"line": 11,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Target.tsx#L11"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 312,
+									"name": "data-has-own-children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/Target.tsx",
+											"line": 9,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Target.tsx#L9"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 313,
+									"name": "data-name",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/Target.tsx",
+											"line": 10,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Target.tsx#L10"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										314,
+										312,
+										313
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/Target.tsx",
+									"line": 8,
+									"character": 38,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Target.tsx#L8"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 342,
+					"name": "RegisterSlotTarget",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 6,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L6"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 343,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/contexts.ts",
+									"line": 6,
+									"character": 33,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L6"
+								}
+							],
+							"signatures": [
+								{
+									"id": 344,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"parameters": [
+										{
+											"id": 345,
+											"name": "id",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 346,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 347,
+											"name": "ref",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.RefObject"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+															"qualifiedName": "HTMLElement"
+														},
+														"name": "HTMLElement",
+														"package": "typescript"
+													}
+												],
+												"name": "RefObject",
+												"package": "@types/react",
+												"qualifiedName": "React.RefObject"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 364,
+					"name": "RenderToSlotPortalContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 55,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L55"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 365,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 370,
+									"name": "createSlotPortal",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Use "
+													},
+													{
+														"kind": "code",
+														"text": "`getTarget`"
+													},
+													{
+														"kind": "text",
+														"text": " instead"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 58,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L58"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "never"
+									}
+								},
+								{
+									"id": 366,
+									"name": "getTarget",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 56,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L56"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 367,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/slots/contexts.ts",
+															"line": 56,
+															"character": 25,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L56"
+														}
+													],
+													"signatures": [
+														{
+															"id": 368,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 369,
+																	"name": "slot",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+																			"qualifiedName": "HTMLElement"
+																		},
+																		"name": "HTMLElement",
+																		"package": "typescript"
+																	},
+																	{
+																		"type": "literal",
+																		"value": null
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "undefined"
+																	}
+																]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 371,
+									"name": "registerSlotSource",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 59,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L59"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 372,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/slots/contexts.ts",
+															"line": 59,
+															"character": 34,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L59"
+														}
+													],
+													"signatures": [
+														{
+															"id": 373,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 374,
+																	"name": "id",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																},
+																{
+																	"id": 375,
+																	"name": "slot",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 376,
+									"name": "unregisterSlotSource",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 60,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L60"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 377,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/slots/contexts.ts",
+															"line": 60,
+															"character": 36,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L60"
+														}
+													],
+													"signatures": [
+														{
+															"id": 378,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 379,
+																	"name": "id",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																},
+																{
+																	"id": 380,
+																	"name": "slot",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										370,
+										366,
+										371,
+										376
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/contexts.ts",
+									"line": 55,
+									"character": 44,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L55"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 423,
+					"name": "SlotComponentsRecords",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/types.ts",
+							"line": 6,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L6"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 424,
+							"name": "K",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Readonly"
+						},
+						"typeArguments": [
+							{
+								"type": "mapped",
+								"parameter": "P",
+								"parameterType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/type-fest/source/pascal-case.d.ts",
+										"qualifiedName": "PascalCase"
+									},
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": -1,
+											"name": "K",
+											"refersToTypeParameter": true
+										}
+									],
+									"name": "PascalCase",
+									"package": "type-fest"
+								},
+								"templateType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+										"qualifiedName": "React.ComponentType"
+									},
+									"name": "ComponentType",
+									"package": "@types/react",
+									"qualifiedName": "React.ComponentType"
+								},
+								"readonlyModifier": "+"
+							}
+						],
+						"name": "Readonly",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 425,
+					"name": "SlotSourceComponentsRecord",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/types.ts",
+							"line": 10,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L10"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 426,
+							"name": "K",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Readonly"
+						},
+						"typeArguments": [
+							{
+								"type": "mapped",
+								"parameter": "P",
+								"parameterType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/type-fest/source/pascal-case.d.ts",
+										"qualifiedName": "PascalCase"
+									},
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": -1,
+											"name": "K",
+											"refersToTypeParameter": true
+										}
+									],
+									"name": "PascalCase",
+									"package": "type-fest"
+								},
+								"templateType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+										"qualifiedName": "ReturnType"
+									},
+									"typeArguments": [
+										{
+											"type": "query",
+											"queryType": {
+												"type": "reference",
+												"target": 400,
+												"name": "createSlotSourceComponent",
+												"package": "@contember/layout"
+											}
+										}
+									],
+									"name": "ReturnType",
+									"package": "typescript"
+								},
+								"readonlyModifier": "+"
+							}
+						],
+						"name": "Readonly",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 427,
+					"name": "SlotTargetComponentsRecord",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/types.ts",
+							"line": 14,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L14"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 428,
+							"name": "K",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Readonly"
+						},
+						"typeArguments": [
+							{
+								"type": "mapped",
+								"parameter": "P",
+								"parameterType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/type-fest/source/pascal-case.d.ts",
+										"qualifiedName": "PascalCase"
+									},
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": -1,
+											"name": "K",
+											"refersToTypeParameter": true
+										}
+									],
+									"name": "PascalCase",
+									"package": "type-fest"
+								},
+								"templateType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+										"qualifiedName": "ReturnType"
+									},
+									"typeArguments": [
+										{
+											"type": "query",
+											"queryType": {
+												"type": "reference",
+												"target": 413,
+												"name": "createSlotTargetComponent",
+												"package": "@contember/layout"
+											}
+										}
+									],
+									"name": "ReturnType",
+									"package": "typescript"
+								},
+								"readonlyModifier": "+"
+							}
+						],
+						"name": "Readonly",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 357,
+					"name": "SlotTargetsRegistryContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 46,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L46"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 358,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 359,
+									"name": "registerSlotTarget",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 47,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L47"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 342,
+										"name": "RegisterSlotTarget",
+										"package": "@contember/layout"
+									}
+								},
+								{
+									"id": 360,
+									"name": "unregisterSlotTarget",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 48,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L48"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 348,
+										"name": "UnregisterSlotTarget",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										359,
+										360
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/contexts.ts",
+									"line": 46,
+									"character": 45,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L46"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 341,
+					"name": "SlotsRefMap",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 5,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L5"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+							"qualifiedName": "Map"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.RefObject"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+											"qualifiedName": "HTMLElement"
+										},
+										"name": "HTMLElement",
+										"package": "typescript"
+									}
+								],
+								"name": "RefObject",
+								"package": "@types/react",
+								"qualifiedName": "React.RefObject"
+							}
+						],
+						"name": "Map",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 429,
+					"name": "SourcePortalProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/types.ts",
+							"line": 18,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L18"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 433,
+							"name": "K",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"default": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 430,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 431,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/types.ts",
+											"line": 19,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L19"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 432,
+									"name": "name",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/types.ts",
+											"line": 20,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L20"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "K",
+										"refersToTypeParameter": true
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										431,
+										432
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/types.ts",
+									"line": 18,
+									"character": 59,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L18"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 434,
+					"name": "TargetProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/types.ts",
+							"line": 23,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L23"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 439,
+							"name": "Name",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"default": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/class-name/types.ts",
+									"qualifiedName": "ComponentClassNameProps"
+								},
+								"name": "ComponentClassNameProps",
+								"package": "@contember/utilities"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 435,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 436,
+											"name": "as",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "Type of the container element, default is "
+													},
+													{
+														"kind": "code",
+														"text": "`div`"
+													},
+													{
+														"kind": "text",
+														"text": ".\n\nIn case you provide custom Element, mak sure to pass component wrapped in forwardRef\notherwise the ref will not be passed to the container element and the slot will not work."
+													}
+												],
+												"blockTags": [
+													{
+														"tag": "@example",
+														"content": [
+															{
+																"kind": "code",
+																"text": "```\n<Target as={forwardRef((props, ref) => <h1 {...props} ref={ref} />)} />\n```"
+															}
+														]
+													}
+												]
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/types.ts",
+													"line": 35,
+													"character": 1,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L35"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ElementType"
+												},
+												"name": "ElementType",
+												"package": "@types/react",
+												"qualifiedName": "React.ElementType"
+											}
+										},
+										{
+											"id": 437,
+											"name": "children",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/types.ts",
+													"line": 36,
+													"character": 1,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L36"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ReactNode"
+												},
+												"name": "ReactNode",
+												"package": "@types/react",
+												"qualifiedName": "React.ReactNode"
+											}
+										},
+										{
+											"id": 438,
+											"name": "name",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/types.ts",
+													"line": 37,
+													"character": 1,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L37"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "Name",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												436,
+												437,
+												438
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/types.ts",
+											"line": 23,
+											"character": 82,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L23"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 348,
+					"name": "UnregisterSlotTarget",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 7,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L7"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 349,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/contexts.ts",
+									"line": 7,
+									"character": 35,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L7"
+								}
+							],
+							"signatures": [
+								{
+									"id": 350,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"parameters": [
+										{
+											"id": 351,
+											"name": "id",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 352,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 354,
+					"name": "ActiveSlotPortalsContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 10,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L10"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 353,
+								"name": "ActiveSlotPortalsContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 381,
+					"name": "PortalsRegistryContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 63,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L63"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 364,
+								"name": "RenderToSlotPortalContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 361,
+					"name": "TargetsRegistryContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 50,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L50"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 357,
+								"name": "SlotTargetsRegistryContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 302,
+					"name": "Provider",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/Provider.tsx",
+							"line": 7,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Provider.tsx#L7"
+						}
+					],
+					"signatures": [
+						{
+							"id": 303,
+							"name": "Provider",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 304,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 305,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 306,
+													"name": "children",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/slots/Provider.tsx",
+															"line": 7,
+															"character": 31,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Provider.tsx#L7"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														306
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/Provider.tsx",
+													"line": 7,
+													"character": 29,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Provider.tsx#L7"
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 307,
+					"name": "Source",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/Source.tsx",
+							"line": 9,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Source.tsx#L9"
+						}
+					],
+					"signatures": [
+						{
+							"id": 308,
+							"name": "Source",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 309,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 429,
+										"name": "SourcePortalProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 315,
+					"name": "Target",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/Target.tsx",
+							"line": 17,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/Target.tsx#L17"
+						}
+					],
+					"signatures": [
+						{
+							"id": 316,
+							"name": "Target",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 317,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 434,
+										"name": "TargetProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 384,
+					"name": "createSlotComponents",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/createSlotComponents.ts",
+							"line": 10,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotComponents.ts#L10"
+						}
+					],
+					"signatures": [
+						{
+							"id": 385,
+							"name": "createSlotComponents",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/createSlotComponents.ts",
+									"line": 10,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotComponents.ts#L10"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 386,
+									"name": "K",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 387,
+									"name": "slots",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "typeOperator",
+										"operator": "readonly",
+										"target": {
+											"type": "array",
+											"elementType": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/type-fest/source/pascal-case.d.ts",
+													"qualifiedName": "PascalCase"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "K",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "PascalCase",
+												"package": "type-fest"
+											}
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "typeOperator",
+								"operator": "readonly",
+								"target": {
+									"type": "tuple",
+									"elements": [
+										{
+											"type": "typeOperator",
+											"operator": "readonly",
+											"target": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"target": {
+														"sourceFileName": "../../node_modules/type-fest/source/pascal-case.d.ts",
+														"qualifiedName": "PascalCase"
+													},
+													"typeArguments": [
+														{
+															"type": "reference",
+															"target": -1,
+															"name": "K",
+															"refersToTypeParameter": true
+														}
+													],
+													"name": "PascalCase",
+													"package": "type-fest"
+												}
+											}
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+												"qualifiedName": "Readonly"
+											},
+											"typeArguments": [
+												{
+													"type": "reference",
+													"target": {
+														"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+														"qualifiedName": "Readonly"
+													},
+													"typeArguments": [
+														{
+															"type": "mapped",
+															"parameter": "P",
+															"parameterType": {
+																"type": "literal",
+																"value": ""
+															},
+															"templateType": {
+																"type": "reflection",
+																"declaration": {
+																	"id": 388,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {},
+																	"children": [
+																		{
+																			"id": 389,
+																			"name": "displayName",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																					"line": 18,
+																					"character": 11,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L18"
+																				}
+																			],
+																			"type": {
+																				"type": "intrinsic",
+																				"name": "string"
+																			}
+																		},
+																		{
+																			"id": 390,
+																			"name": "slot",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																					"line": 19,
+																					"character": 11,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L19"
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": -1,
+																				"name": "P",
+																				"refersToTypeParameter": true
+																			}
+																		}
+																	],
+																	"groups": [
+																		{
+																			"title": "Properties",
+																			"children": [
+																				389,
+																				390
+																			]
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																			"line": 6,
+																			"character": 19,
+																			"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+																		}
+																	],
+																	"signatures": [
+																		{
+																			"id": 391,
+																			"name": "__type",
+																			"variant": "signature",
+																			"kind": 4096,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																					"line": 6,
+																					"character": 19,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+																				}
+																			],
+																			"parameters": [
+																				{
+																					"id": 392,
+																					"name": "__namedParameters",
+																					"variant": "param",
+																					"kind": 32768,
+																					"flags": {},
+																					"type": {
+																						"type": "intersection",
+																						"types": [
+																							{
+																								"type": "reference",
+																								"target": {
+																									"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																									"qualifiedName": "Omit"
+																								},
+																								"typeArguments": [
+																									{
+																										"type": "reference",
+																										"target": 429,
+																										"name": "SourcePortalProps",
+																										"package": "@contember/layout"
+																									},
+																									{
+																										"type": "literal",
+																										"value": "name"
+																									}
+																								],
+																								"name": "Omit",
+																								"package": "typescript"
+																							},
+																							{
+																								"type": "reflection",
+																								"declaration": {
+																									"id": 393,
+																									"name": "__type",
+																									"variant": "declaration",
+																									"kind": 65536,
+																									"flags": {},
+																									"children": [
+																										{
+																											"id": 394,
+																											"name": "name",
+																											"variant": "declaration",
+																											"kind": 1024,
+																											"flags": {
+																												"isOptional": true
+																											},
+																											"sources": [
+																												{
+																													"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																													"line": 6,
+																													"character": 76,
+																													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+																												}
+																											],
+																											"type": {
+																												"type": "reference",
+																												"target": {
+																													"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																													"qualifiedName": "Capitalize"
+																												},
+																												"typeArguments": [
+																													{
+																														"type": "intrinsic",
+																														"name": "string"
+																													}
+																												],
+																												"name": "Capitalize",
+																												"package": "typescript"
+																											}
+																										}
+																									],
+																									"groups": [
+																										{
+																											"title": "Properties",
+																											"children": [
+																												394
+																											]
+																										}
+																									],
+																									"sources": [
+																										{
+																											"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																											"line": 6,
+																											"character": 74,
+																											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+																										}
+																									]
+																								}
+																							}
+																						]
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																					"qualifiedName": "__global.JSX.Element"
+																				},
+																				"name": "Element",
+																				"package": "@types/react",
+																				"qualifiedName": "__global.JSX.Element"
+																			}
+																		}
+																	]
+																}
+															},
+															"readonlyModifier": "+"
+														}
+													],
+													"name": "Readonly",
+													"package": "typescript"
+												}
+											],
+											"name": "Readonly",
+											"package": "typescript"
+										},
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+												"qualifiedName": "Readonly"
+											},
+											"typeArguments": [
+												{
+													"type": "reference",
+													"target": {
+														"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+														"qualifiedName": "Readonly"
+													},
+													"typeArguments": [
+														{
+															"type": "mapped",
+															"parameter": "P",
+															"parameterType": {
+																"type": "literal",
+																"value": ""
+															},
+															"templateType": {
+																"type": "reflection",
+																"declaration": {
+																	"id": 395,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {},
+																	"children": [
+																		{
+																			"id": 396,
+																			"name": "displayName",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+																					"line": 12,
+																					"character": 11,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L12"
+																				}
+																			],
+																			"type": {
+																				"type": "intrinsic",
+																				"name": "string"
+																			}
+																		},
+																		{
+																			"id": 397,
+																			"name": "slot",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+																					"line": 13,
+																					"character": 11,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L13"
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": -1,
+																				"name": "P",
+																				"refersToTypeParameter": true
+																			}
+																		}
+																	],
+																	"groups": [
+																		{
+																			"title": "Properties",
+																			"children": [
+																				396,
+																				397
+																			]
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+																			"line": 6,
+																			"character": 19,
+																			"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L6"
+																		}
+																	],
+																	"signatures": [
+																		{
+																			"id": 398,
+																			"name": "__type",
+																			"variant": "signature",
+																			"kind": 4096,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+																					"line": 6,
+																					"character": 19,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L6"
+																				}
+																			],
+																			"parameters": [
+																				{
+																					"id": 399,
+																					"name": "__namedParameters",
+																					"variant": "param",
+																					"kind": 32768,
+																					"flags": {},
+																					"type": {
+																						"type": "reference",
+																						"target": {
+																							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																							"qualifiedName": "Omit"
+																						},
+																						"typeArguments": [
+																							{
+																								"type": "reference",
+																								"target": 434,
+																								"name": "TargetProps",
+																								"package": "@contember/layout"
+																							},
+																							{
+																								"type": "literal",
+																								"value": "name"
+																							}
+																						],
+																						"name": "Omit",
+																						"package": "typescript"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																					"qualifiedName": "__global.JSX.Element"
+																				},
+																				"name": "Element",
+																				"package": "@types/react",
+																				"qualifiedName": "__global.JSX.Element"
+																			}
+																		}
+																	]
+																}
+															},
+															"readonlyModifier": "+"
+														}
+													],
+													"name": "Readonly",
+													"package": "typescript"
+												}
+											],
+											"name": "Readonly",
+											"package": "typescript"
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 400,
+					"name": "createSlotSourceComponent",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+							"line": 5,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L5"
+						}
+					],
+					"signatures": [
+						{
+							"id": 401,
+							"name": "createSlotSourceComponent",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+									"line": 5,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L5"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 402,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 403,
+									"name": "slot",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "T",
+										"refersToTypeParameter": true
+									}
+								},
+								{
+									"id": 404,
+									"name": "displayName",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 405,
+									"name": "defaultContent",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									},
+									"defaultValue": "null"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 406,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 407,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+													"line": 18,
+													"character": 11,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L18"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 408,
+											"name": "slot",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+													"line": 19,
+													"character": 11,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L19"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												407,
+												408
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+											"line": 6,
+											"character": 19,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+										}
+									],
+									"signatures": [
+										{
+											"id": 409,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+													"line": 6,
+													"character": 19,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+												}
+											],
+											"parameters": [
+												{
+													"id": 410,
+													"name": "__namedParameters",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intersection",
+														"types": [
+															{
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																	"qualifiedName": "Omit"
+																},
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"target": 429,
+																		"name": "SourcePortalProps",
+																		"package": "@contember/layout"
+																	},
+																	{
+																		"type": "literal",
+																		"value": "name"
+																	}
+																],
+																"name": "Omit",
+																"package": "typescript"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 411,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {},
+																	"children": [
+																		{
+																			"id": 412,
+																			"name": "name",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {
+																				"isOptional": true
+																			},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																					"line": 6,
+																					"character": 76,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																					"qualifiedName": "Capitalize"
+																				},
+																				"typeArguments": [
+																					{
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				],
+																				"name": "Capitalize",
+																				"package": "typescript"
+																			}
+																		}
+																	],
+																	"groups": [
+																		{
+																			"title": "Properties",
+																			"children": [
+																				412
+																			]
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "packages/layout/src/slots/createSlotSourceComponent.tsx",
+																			"line": 6,
+																			"character": 74,
+																			"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotSourceComponent.tsx#L6"
+																		}
+																	]
+																}
+															}
+														]
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "__global.JSX.Element"
+												},
+												"name": "Element",
+												"package": "@types/react",
+												"qualifiedName": "__global.JSX.Element"
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 413,
+					"name": "createSlotTargetComponent",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+							"line": 5,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L5"
+						}
+					],
+					"signatures": [
+						{
+							"id": 414,
+							"name": "createSlotTargetComponent",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+									"line": 5,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L5"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 415,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 416,
+									"name": "name",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "T",
+										"refersToTypeParameter": true
+									}
+								},
+								{
+									"id": 417,
+									"name": "displayName",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 418,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 419,
+											"name": "displayName",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+													"line": 12,
+													"character": 11,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L12"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 420,
+											"name": "slot",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+													"line": 13,
+													"character": 11,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L13"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												419,
+												420
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+											"line": 6,
+											"character": 19,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L6"
+										}
+									],
+									"signatures": [
+										{
+											"id": 421,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/createSlotTargetComponent.tsx",
+													"line": 6,
+													"character": 19,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/createSlotTargetComponent.tsx#L6"
+												}
+											],
+											"parameters": [
+												{
+													"id": 422,
+													"name": "__namedParameters",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Omit"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 434,
+																"name": "TargetProps",
+																"package": "@contember/layout"
+															},
+															{
+																"type": "literal",
+																"value": "name"
+															}
+														],
+														"name": "Omit",
+														"package": "typescript"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "__global.JSX.Element"
+												},
+												"name": "Element",
+												"package": "@types/react",
+												"qualifiedName": "__global.JSX.Element"
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 355,
+					"name": "useActiveSlotPortalsContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 10,
+							"character": 40,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L10"
+						}
+					],
+					"signatures": [
+						{
+							"id": 356,
+							"name": "useActiveSlotPortalsContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 353,
+								"name": "ActiveSlotPortalsContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				},
+				{
+					"id": 318,
+					"name": "useHasActiveSlotsFactory",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 12,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L12"
+						}
+					],
+					"signatures": [
+						{
+							"id": 319,
+							"name": "useHasActiveSlotsFactory",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/contexts.ts",
+									"line": 12,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L12"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 320,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Readonly"
+										},
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 321,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/slots/types.ts",
+															"line": 10,
+															"character": 68,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L10"
+														}
+													]
+												}
+											}
+										],
+										"name": "Readonly",
+										"package": "typescript"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 322,
+									"name": "SlotTargets",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "T",
+										"refersToTypeParameter": true
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 323,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 15,
+											"character": 20,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L15"
+										}
+									],
+									"signatures": [
+										{
+											"id": 324,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/contexts.ts",
+													"line": 15,
+													"character": 20,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L15"
+												}
+											],
+											"parameters": [
+												{
+													"id": 325,
+													"name": "slots",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {
+														"isRest": true
+													},
+													"type": {
+														"type": "typeOperator",
+														"operator": "readonly",
+														"target": {
+															"type": "array",
+															"elementType": {
+																"type": "intersection",
+																"types": [
+																	{
+																		"type": "typeOperator",
+																		"operator": "keyof",
+																		"target": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																]
+															}
+														}
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 382,
+					"name": "usePortalsRegistryContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 63,
+							"character": 38,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L63"
+						}
+					],
+					"signatures": [
+						{
+							"id": 383,
+							"name": "usePortalsRegistryContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 364,
+								"name": "RenderToSlotPortalContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				},
+				{
+					"id": 326,
+					"name": "useTargetsIfActiveFactory",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 20,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L20"
+						}
+					],
+					"signatures": [
+						{
+							"id": 327,
+							"name": "useTargetsIfActiveFactory",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/slots/contexts.ts",
+									"line": 20,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L20"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 328,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Readonly"
+										},
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 329,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/slots/types.ts",
+															"line": 10,
+															"character": 68,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/types.ts#L10"
+														}
+													]
+												}
+											}
+										],
+										"name": "Readonly",
+										"package": "typescript"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 330,
+									"name": "SlotTargets",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "T",
+										"refersToTypeParameter": true
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 331,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/slots/contexts.ts",
+											"line": 23,
+											"character": 29,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L23"
+										}
+									],
+									"signatures": [
+										{
+											"id": 332,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/slots/contexts.ts",
+													"line": 23,
+													"character": 20,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L23"
+												}
+											],
+											"typeParameter": [
+												{
+													"id": 333,
+													"name": "Children",
+													"variant": "typeParam",
+													"kind": 131072,
+													"flags": {},
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																	"qualifiedName": "React.ReactNode"
+																},
+																"name": "ReactNode",
+																"package": "@types/react",
+																"qualifiedName": "React.ReactNode"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 334,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "packages/layout/src/slots/contexts.ts",
+																			"line": 23,
+																			"character": 75,
+																			"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L23"
+																		}
+																	],
+																	"signatures": [
+																		{
+																			"id": 335,
+																			"name": "__type",
+																			"variant": "signature",
+																			"kind": 4096,
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "packages/layout/src/slots/contexts.ts",
+																					"line": 23,
+																					"character": 75,
+																					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L23"
+																				}
+																			],
+																			"parameters": [
+																				{
+																					"id": 336,
+																					"name": "args",
+																					"variant": "param",
+																					"kind": 32768,
+																					"flags": {
+																						"isRest": true
+																					},
+																					"type": {
+																						"type": "array",
+																						"elementType": {
+																							"type": "intrinsic",
+																							"name": "any"
+																						}
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																					"qualifiedName": "React.ReactNode"
+																				},
+																				"name": "ReactNode",
+																				"package": "@types/react",
+																				"qualifiedName": "React.ReactNode"
+																			}
+																		}
+																	]
+																}
+															}
+														]
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 337,
+													"name": "slots",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "typeOperator",
+														"operator": "readonly",
+														"target": {
+															"type": "array",
+															"elementType": {
+																"type": "intersection",
+																"types": [
+																	{
+																		"type": "typeOperator",
+																		"operator": "keyof",
+																		"target": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																]
+															}
+														}
+													}
+												},
+												{
+													"id": 338,
+													"name": "children",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {
+														"isOptional": true
+													},
+													"type": {
+														"type": "reference",
+														"target": -1,
+														"name": "Children",
+														"refersToTypeParameter": true
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "NonNullable"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "Children",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "NonNullable",
+														"package": "typescript"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.FunctionComponentElement"
+														},
+														"typeArguments": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 339,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {},
+																	"children": [
+																		{
+																			"id": 340,
+																			"name": "children",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {
+																				"isExternal": true,
+																				"isOptional": true
+																			},
+																			"sources": [
+																				{
+																					"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+																					"line": 369,
+																					"character": 38
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																					"qualifiedName": "React.ReactNode"
+																				},
+																				"name": "ReactNode",
+																				"package": "@types/react",
+																				"qualifiedName": "React.ReactNode"
+																			}
+																		}
+																	],
+																	"groups": [
+																		{
+																			"title": "Properties",
+																			"children": [
+																				340
+																			]
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+																			"line": 369,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														],
+														"name": "FunctionComponentElement",
+														"package": "@types/react",
+														"qualifiedName": "React.FunctionComponentElement"
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 362,
+					"name": "useTargetsRegistryContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/slots/contexts.ts",
+							"line": 50,
+							"character": 38,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/contexts.ts#L50"
+						}
+					],
+					"signatures": [
+						{
+							"id": 363,
+							"name": "useTargetsRegistryContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 357,
+								"name": "SlotTargetsRegistryContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Type Aliases",
+					"children": [
+						353,
+						310,
+						342,
+						364,
+						423,
+						425,
+						427,
+						357,
+						341,
+						429,
+						434,
+						348
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						354,
+						381,
+						361
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						384,
+						400,
+						413,
+						355,
+						318,
+						382,
+						326,
+						362
+					]
+				},
+				{
+					"title": "Layout",
+					"children": [
+						302,
+						307,
+						315
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/layout/src/slots/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/slots/index.ts#L1"
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

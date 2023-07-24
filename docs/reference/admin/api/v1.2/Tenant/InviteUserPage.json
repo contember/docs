@@ -1,0 +1,212 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6225,
+			"name": "InviteUserPageProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
+					"line": 10,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L10"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 6226,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 6229,
+							"name": "method",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
+									"line": 13,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L13"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6555,
+								"name": "InviteMethod",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 6227,
+							"name": "rolesConfig",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
+									"line": 11,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 6119,
+								"name": "RolesConfig",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 6228,
+							"name": "userListLink",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
+									"line": 12,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L12"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 5945,
+								"name": "RoutingLinkTarget",
+								"package": "@contember/admin"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								6229,
+								6227,
+								6228
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
+							"line": 10,
+							"character": 34,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L10"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 6230,
+			"name": "InviteUserPage",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
+					"line": 19,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L19"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6231,
+					"name": "InviteUserPage",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 6232,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 6225,
+								"name": "InviteUserPageProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 6233,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

@@ -1,0 +1,314 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 490,
+			"name": "InsetsConsumerProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+					"line": 14,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L14"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 491,
+					"name": "C",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ElementType"
+						},
+						"name": "ElementType",
+						"package": "@types/react",
+						"qualifiedName": "React.ElementType"
+					}
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+					"qualifiedName": "PolymorphicComponentPropsWithRef"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": -1,
+						"name": "C",
+						"refersToTypeParameter": true
+					},
+					{
+						"type": "reference",
+						"target": 485,
+						"name": "OwnInsetsConsumerProps",
+						"package": "@contember/layout"
+					}
+				],
+				"name": "PolymorphicComponentPropsWithRef",
+				"package": "@contember/utilities"
+			}
+		},
+		{
+			"id": 485,
+			"name": "OwnInsetsConsumerProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+					"line": 8,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L8"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 486,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 487,
+							"name": "children",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+									"line": 9,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L9"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactNode"
+								},
+								"name": "ReactNode",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactNode"
+							}
+						},
+						{
+							"id": 488,
+							"name": "className",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+									"line": 10,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/class-name/types.ts",
+									"qualifiedName": "NestedClassName"
+								},
+								"name": "NestedClassName",
+								"package": "@contember/utilities"
+							}
+						},
+						{
+							"id": 489,
+							"name": "componentClassName",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+									"line": 11,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								487,
+								488,
+								489
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+							"line": 8,
+							"character": 37,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L8"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 499,
+			"name": "InsetsConsumer",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+					"line": 25,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L25"
+				}
+			],
+			"signatures": [
+				{
+					"id": 500,
+					"name": "InsetsConsumer",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/insets/InsetsConsumer.tsx",
+							"line": 17,
+							"character": 4,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsConsumer.tsx#L17"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 501,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							},
+							"default": {
+								"type": "literal",
+								"value": "div"
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 502,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 490,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "C",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "InsetsConsumerProps",
+								"package": "@contember/layout"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

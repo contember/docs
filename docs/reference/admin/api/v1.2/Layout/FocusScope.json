@@ -1,0 +1,201 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 443,
+			"name": "FocusScopeProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L5"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 444,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 445,
+							"name": "active",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+									"line": 6,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L6"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 448,
+							"name": "children",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+									"line": 9,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L9"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactNode"
+								},
+								"name": "ReactNode",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactNode"
+							}
+						},
+						{
+							"id": 447,
+							"name": "pressToSkipToFirstLabel",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L8"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 446,
+							"name": "pressToSkipToLastLabel",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L7"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								445,
+								448,
+								447,
+								446
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+							"line": 5,
+							"character": 30,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L5"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 440,
+			"name": "FocusScope",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+					"line": 85,
+					"character": 16,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L85"
+				}
+			],
+			"signatures": [
+				{
+					"id": 441,
+					"name": "FocusScope",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/focus-scope/FocusScope.tsx",
+							"line": 85,
+							"character": 0,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/focus-scope/FocusScope.tsx#L85"
+						}
+					],
+					"parameters": [
+						{
+							"id": 442,
+							"name": "__namedParameters",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 443,
+								"name": "FocusScopeProps",
+								"package": "@contember/layout"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "__global.JSX.Element"
+						},
+						"name": "Element",
+						"package": "@types/react",
+						"qualifiedName": "__global.JSX.Element"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

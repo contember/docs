@@ -1,0 +1,489 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 7555,
+			"name": "AccessorTreeStateOptions",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 7556,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessorTree/AccessorTreeStateOptions.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 7557,
+					"name": "refreshOnPersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessorTree/AccessorTreeStateOptions.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 7558,
+					"name": "skipStateUpdateAfterPersist",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/accessorTree/AccessorTreeStateOptions.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						7556,
+						7557,
+						7558
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/accessorTree/AccessorTreeStateOptions.d.ts",
+					"line": 2,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 8069,
+			"name": "DataBindingProviderBaseProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+					"line": 10,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": 7555,
+				"name": "AccessorTreeStateOptions",
+				"package": "@contember/binding"
+			}
+		},
+		{
+			"id": 8073,
+			"name": "DataBindingProviderProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+					"line": 15,
+					"character": 12
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 8074,
+					"name": "StateProps",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": 8069,
+						"name": "DataBindingProviderBaseProps",
+						"package": "@contember/binding"
+					},
+					{
+						"type": "reference",
+						"target": 8061,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "StateProps",
+								"refersToTypeParameter": true
+							}
+						],
+						"name": "DataBindingProviderStateComponent",
+						"package": "@contember/binding"
+					}
+				]
+			}
+		},
+		{
+			"id": 8061,
+			"name": "DataBindingProviderStateComponent",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+					"line": 3,
+					"character": 12
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 8068,
+					"name": "StateProps",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {}
+				}
+			],
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 8062,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 8063,
+									"name": "stateComponent",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+											"line": 4,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "never"
+									}
+								},
+								{
+									"id": 8064,
+									"name": "stateProps",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+											"line": 5,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "never"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										8063,
+										8064
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+									"line": 3,
+									"character": 61
+								}
+							]
+						}
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 8065,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 8066,
+									"name": "stateComponent",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+											"line": 7,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ComponentType"
+										},
+										"typeArguments": [
+											{
+												"type": "intersection",
+												"types": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "StateProps",
+														"refersToTypeParameter": true
+													},
+													{
+														"type": "reference",
+														"target": 8070,
+														"name": "DataBindingStateComponentProps",
+														"package": "@contember/binding"
+													}
+												]
+											}
+										],
+										"name": "ComponentType",
+										"package": "@types/react",
+										"qualifiedName": "React.ComponentType"
+									}
+								},
+								{
+									"id": 8067,
+									"name": "stateProps",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+											"line": 8,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "StateProps",
+										"refersToTypeParameter": true
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										8066,
+										8067
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+									"line": 6,
+									"character": 4
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 8075,
+			"name": "DataBindingProvider",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+					"line": 26,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 8076,
+					"name": "DataBindingProvider",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The "
+							},
+							{
+								"kind": "code",
+								"text": "`DataBindingProvider`"
+							},
+							{
+								"kind": "text",
+								"text": " is a root component for all other data binding related components."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```\n<DataBindingProvider stateComponent={FeedbackRenderer} />\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/binding/dist/types/coreComponents/DataBindingProvider.d.ts",
+							"line": 26,
+							"character": 42
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 8077,
+							"name": "StateProps",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"parameters": [
+						{
+							"id": 8078,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 8073,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "StateProps",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "DataBindingProviderProps",
+								"package": "@contember/binding"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactElement"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.JSXElementConstructor"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor",
+										"package": "@types/react",
+										"qualifiedName": "React.JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactElement"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

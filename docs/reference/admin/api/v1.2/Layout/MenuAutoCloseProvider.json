@@ -1,0 +1,182 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 1109,
+			"name": "MenuAutoCloseProviderProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L5"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 1110,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 1111,
+							"name": "children",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+									"line": 6,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L6"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactNode"
+								},
+								"name": "ReactNode",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactNode"
+							}
+						},
+						{
+							"id": 1112,
+							"name": "onAutoClose",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L7"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 1113,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+											"line": 7,
+											"character": 14,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L7"
+										}
+									],
+									"signatures": [
+										{
+											"id": 1114,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								1111,
+								1112
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+							"line": 5,
+							"character": 41,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L5"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 1106,
+			"name": "MenuAutoCloseProvider",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+					"line": 15,
+					"character": 16,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L15"
+				}
+			],
+			"signatures": [
+				{
+					"id": 1107,
+					"name": "MenuAutoCloseProvider",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
+							"line": 15,
+							"character": 0,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L15"
+						}
+					],
+					"parameters": [
+						{
+							"id": 1108,
+							"name": "__namedParameters",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 1109,
+								"name": "MenuAutoCloseProviderProps",
+								"package": "@contember/layout"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactElement"
+						},
+						"name": "ReactElement",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactElement"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

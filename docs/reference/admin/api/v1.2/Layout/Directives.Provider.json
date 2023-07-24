@@ -1,0 +1,1632 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 1,
+			"name": "Directives",
+			"variant": "declaration",
+			"kind": 4,
+			"flags": {},
+			"children": [
+				{
+					"id": 14,
+					"name": "DirectiveComponentType",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 16,
+							"name": "$$typeof",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isExternal": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 330,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "symbol"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"target": -1,
+								"name": "React.ExoticComponent.$$typeof"
+							}
+						},
+						{
+							"id": 15,
+							"name": "displayName",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/directives/Directive.tsx",
+									"line": 11,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								16,
+								15
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/Directive.tsx",
+							"line": 8,
+							"character": 17,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L8"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 17,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+									"qualifiedName": "Record"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								],
+								"name": "Record",
+								"package": "typescript"
+							},
+							"default": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+									"qualifiedName": "Record"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								],
+								"name": "Record",
+								"package": "typescript"
+							}
+						}
+					],
+					"signatures": [
+						{
+							"id": 18,
+							"name": "DirectiveComponentType",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "**NOTE**: Exotic components are not callable."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 19,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 9,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../utilities/src/types/RequiredDeepPlainObject.ts",
+													"qualifiedName": "RequiredDeepPlainObject"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "T",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "RequiredDeepPlainObject",
+												"package": "@contember/utilities"
+											}
+										],
+										"name": "DirectiveProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+								"qualifiedName": "React.ExoticComponent"
+							},
+							"typeArguments": [
+								{
+									"type": "reference",
+									"target": 9,
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../utilities/src/types/RequiredDeepPlainObject.ts",
+												"qualifiedName": "RequiredDeepPlainObject"
+											},
+											"typeArguments": [
+												{
+													"type": "reference",
+													"target": -1,
+													"name": "T",
+													"refersToTypeParameter": true
+												}
+											],
+											"name": "RequiredDeepPlainObject",
+											"package": "@contember/utilities"
+										}
+									],
+									"name": "DirectiveProps",
+									"package": "@contember/layout"
+								}
+							],
+							"name": "ExoticComponent",
+							"package": "@types/react",
+							"qualifiedName": "React.ExoticComponent"
+						}
+					]
+				},
+				{
+					"id": 9,
+					"name": "DirectiveProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/Directive.tsx",
+							"line": 6,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 13,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"type": {
+						"type": "indexedAccess",
+						"indexType": {
+							"type": "typeOperator",
+							"operator": "keyof",
+							"target": {
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							}
+						},
+						"objectType": {
+							"type": "mapped",
+							"parameter": "K",
+							"parameterType": {
+								"type": "typeOperator",
+								"operator": "keyof",
+								"target": {
+									"type": "reference",
+									"target": -1,
+									"name": "T",
+									"refersToTypeParameter": true
+								}
+							},
+							"templateType": {
+								"type": "reflection",
+								"declaration": {
+									"id": 10,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 12,
+											"name": "content",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/directives/Directive.tsx",
+													"line": 6,
+													"character": 61,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+												}
+											],
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "reference",
+													"target": -1,
+													"name": "K",
+													"refersToTypeParameter": true
+												},
+												"objectType": {
+													"type": "reference",
+													"target": -1,
+													"name": "T",
+													"refersToTypeParameter": true
+												}
+											}
+										},
+										{
+											"id": 11,
+											"name": "name",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/layout/src/directives/Directive.tsx",
+													"line": 6,
+													"character": 52,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "K",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												12,
+												11
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/layout/src/directives/Directive.tsx",
+											"line": 6,
+											"character": 50,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 26,
+					"name": "ProviderProps",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/Provider.tsx",
+							"line": 11,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 27,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 29,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/directives/Provider.tsx",
+											"line": 13,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L13"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ReactNode"
+												},
+												"name": "ReactNode",
+												"package": "@types/react",
+												"qualifiedName": "React.ReactNode"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 30,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/directives/Provider.tsx",
+															"line": 13,
+															"character": 24,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L13"
+														}
+													],
+													"signatures": [
+														{
+															"id": 31,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 32,
+																	"name": "directives",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																			"qualifiedName": "Record"
+																		},
+																		"typeArguments": [
+																			{
+																				"type": "intrinsic",
+																				"name": "string"
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "unknown"
+																			}
+																		],
+																		"name": "Record",
+																		"package": "typescript"
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																	"qualifiedName": "React.ReactNode"
+																},
+																"name": "ReactNode",
+																"package": "@types/react",
+																"qualifiedName": "React.ReactNode"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 28,
+									"name": "value",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/directives/Provider.tsx",
+											"line": 12,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L12"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Record"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										],
+										"name": "Record",
+										"package": "typescript"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										29,
+										28
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/directives/Provider.tsx",
+									"line": 11,
+									"character": 28,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L11"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 43,
+					"name": "RegistryContextType",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/types.ts",
+							"line": 1,
+							"character": 12,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L1"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 65,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+									"qualifiedName": "Record"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								],
+								"name": "Record",
+								"package": "typescript"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 44,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 45,
+									"name": "register",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/directives/types.ts",
+											"line": 2,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L2"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 46,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/directives/types.ts",
+															"line": 2,
+															"character": 12,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L2"
+														}
+													],
+													"signatures": [
+														{
+															"id": 47,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"typeParameter": [
+																{
+																	"id": 51,
+																	"name": "K",
+																	"variant": "typeParam",
+																	"kind": 131072,
+																	"flags": {},
+																	"type": {
+																		"type": "typeOperator",
+																		"operator": "keyof",
+																		"target": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	}
+																}
+															],
+															"parameters": [
+																{
+																	"id": 48,
+																	"name": "key",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": -1,
+																		"name": "K",
+																		"refersToTypeParameter": true
+																	}
+																},
+																{
+																	"id": 49,
+																	"name": "componentId",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																},
+																{
+																	"id": 50,
+																	"name": "value",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "indexedAccess",
+																		"indexType": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "K",
+																			"refersToTypeParameter": true
+																		},
+																		"objectType": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 59,
+									"name": "unregister",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/directives/types.ts",
+											"line": 4,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L4"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 60,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/directives/types.ts",
+															"line": 4,
+															"character": 14,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L4"
+														}
+													],
+													"signatures": [
+														{
+															"id": 61,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"typeParameter": [
+																{
+																	"id": 64,
+																	"name": "K",
+																	"variant": "typeParam",
+																	"kind": 131072,
+																	"flags": {},
+																	"type": {
+																		"type": "typeOperator",
+																		"operator": "keyof",
+																		"target": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	}
+																}
+															],
+															"parameters": [
+																{
+																	"id": 62,
+																	"name": "key",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": -1,
+																		"name": "K",
+																		"refersToTypeParameter": true
+																	}
+																},
+																{
+																	"id": 63,
+																	"name": "componentId",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 52,
+									"name": "update",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/directives/types.ts",
+											"line": 3,
+											"character": 1,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L3"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 53,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/directives/types.ts",
+															"line": 3,
+															"character": 10,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L3"
+														}
+													],
+													"signatures": [
+														{
+															"id": 54,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"typeParameter": [
+																{
+																	"id": 58,
+																	"name": "K",
+																	"variant": "typeParam",
+																	"kind": 131072,
+																	"flags": {},
+																	"type": {
+																		"type": "typeOperator",
+																		"operator": "keyof",
+																		"target": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	}
+																}
+															],
+															"parameters": [
+																{
+																	"id": 55,
+																	"name": "key",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": -1,
+																		"name": "K",
+																		"refersToTypeParameter": true
+																	}
+																},
+																{
+																	"id": 56,
+																	"name": "componentId",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																},
+																{
+																	"id": 57,
+																	"name": "value",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "indexedAccess",
+																		"indexType": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "K",
+																			"refersToTypeParameter": true
+																		},
+																		"objectType": {
+																			"type": "reference",
+																			"target": -1,
+																			"name": "T",
+																			"refersToTypeParameter": true
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										45,
+										59,
+										52
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/directives/types.ts",
+									"line": 1,
+									"character": 69,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L1"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 40,
+					"name": "RegistryContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/contexts.tsx",
+							"line": 9,
+							"character": 14,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 43,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Record"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										],
+										"name": "Record",
+										"package": "typescript"
+									}
+								],
+								"name": "RegistryContextType",
+								"package": "@contember/layout"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					}
+				},
+				{
+					"id": 39,
+					"name": "StateContext",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/contexts.tsx",
+							"line": 6,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L6"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.Context"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/types/RequiredDeepPlainObject.ts",
+									"qualifiedName": "RequiredDeepPlainObject"
+								},
+								"name": "RequiredDeepPlainObject",
+								"package": "@contember/utilities"
+							}
+						],
+						"name": "Context",
+						"package": "@types/react",
+						"qualifiedName": "React.Context"
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 20,
+					"name": "Directive",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/Directive.tsx",
+							"line": 51,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L51"
+						}
+					],
+					"signatures": [
+						{
+							"id": 21,
+							"name": "Directive",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 22,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 23,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 25,
+													"name": "content",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/directives/Directive.tsx",
+															"line": 6,
+															"character": 61,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												},
+												{
+													"id": 24,
+													"name": "name",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/layout/src/directives/Directive.tsx",
+															"line": 6,
+															"character": 52,
+															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														25,
+														24
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "packages/layout/src/directives/Directive.tsx",
+													"line": 6,
+													"character": 50,
+													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 33,
+					"name": "Provider",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/Provider.tsx",
+							"line": 19,
+							"character": 13,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L19"
+						}
+					],
+					"signatures": [
+						{
+							"id": 34,
+							"name": "Provider",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+									"line": 329,
+									"character": 8
+								}
+							],
+							"parameters": [
+								{
+									"id": 35,
+									"name": "props",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 26,
+										"name": "ProviderProps",
+										"package": "@contember/layout"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": null
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactElement"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											},
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.JSXElementConstructor"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "JSXElementConstructor",
+														"package": "@types/react",
+														"qualifiedName": "React.JSXElementConstructor"
+													}
+												]
+											}
+										],
+										"name": "ReactElement",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactElement"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "useDirectiveLifecycle",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/Directive.tsx",
+							"line": 14,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 3,
+							"name": "useDirectiveLifecycle",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/directives/Directive.tsx",
+									"line": 14,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L14"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 4,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/types/RequiredDeepPlainObject.ts",
+											"qualifiedName": "RequiredDeepPlainObject"
+										},
+										"name": "RequiredDeepPlainObject",
+										"package": "@contember/utilities"
+									}
+								},
+								{
+									"id": 5,
+									"name": "K",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "intrinsic",
+												"name": "symbol"
+											}
+										]
+									}
+								},
+								{
+									"id": 6,
+									"name": "V",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 7,
+									"name": "name",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "K",
+										"refersToTypeParameter": true
+									}
+								},
+								{
+									"id": 8,
+									"name": "content",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": -1,
+										"name": "V",
+										"refersToTypeParameter": true
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				},
+				{
+					"id": 36,
+					"name": "useDirectives",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/contexts.tsx",
+							"line": 15,
+							"character": 16,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L15"
+						}
+					],
+					"signatures": [
+						{
+							"id": 37,
+							"name": "useDirectives",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/directives/contexts.tsx",
+									"line": 15,
+									"character": 0,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L15"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 38,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/types/RequiredDeepPlainObject.ts",
+											"qualifiedName": "RequiredDeepPlainObject"
+										},
+										"name": "RequiredDeepPlainObject",
+										"package": "@contember/utilities"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							}
+						}
+					]
+				},
+				{
+					"id": 41,
+					"name": "useRegistryContext",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/directives/contexts.tsx",
+							"line": 9,
+							"character": 31,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L9"
+						}
+					],
+					"signatures": [
+						{
+							"id": 42,
+							"name": "useRegistryContext",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/react-utils/dist/types/context/createNonNullableContextFactory.d.ts",
+									"line": 2,
+									"character": 112
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 43,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Record"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										],
+										"name": "Record",
+										"package": "typescript"
+									}
+								],
+								"name": "RegistryContextType",
+								"package": "@contember/layout"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						14
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						9,
+						26,
+						43
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						40,
+						39
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						2,
+						36,
+						41
+					]
+				},
+				{
+					"title": "Layout",
+					"children": [
+						20,
+						33
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/layout/src/directives/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/index.ts#L1"
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

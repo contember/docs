@@ -1,0 +1,394 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 512,
+			"name": "InsetsProviderProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+					"line": 16,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L16"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 513,
+					"name": "C",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ElementType"
+						},
+						"name": "ElementType",
+						"package": "@types/react",
+						"qualifiedName": "React.ElementType"
+					}
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+					"qualifiedName": "PolymorphicComponentPropsWithRef"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": -1,
+						"name": "C",
+						"refersToTypeParameter": true
+					},
+					{
+						"type": "reference",
+						"target": 503,
+						"name": "OwnInsetsProviderProps",
+						"package": "@contember/layout"
+					}
+				],
+				"name": "PolymorphicComponentPropsWithRef",
+				"package": "@contember/utilities"
+			}
+		},
+		{
+			"id": 503,
+			"name": "OwnInsetsProviderProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+					"line": 6,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L6"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 504,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 508,
+							"name": "bottom",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 10,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 505,
+							"name": "children",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L7"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactNode"
+								},
+								"name": "ReactNode",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactNode"
+							}
+						},
+						{
+							"id": 506,
+							"name": "className",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L8"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/class-name/types.ts",
+									"qualifiedName": "NestedClassName"
+								},
+								"name": "NestedClassName",
+								"package": "@contember/utilities"
+							}
+						},
+						{
+							"id": 507,
+							"name": "componentClassName",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 9,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L9"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 509,
+							"name": "left",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 11,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 510,
+							"name": "right",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 12,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L12"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 511,
+							"name": "top",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+									"line": 13,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L13"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								508,
+								505,
+								506,
+								507,
+								509,
+								510,
+								511
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+							"line": 6,
+							"character": 37,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L6"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 521,
+			"name": "InsetsProvider",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+					"line": 27,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L27"
+				}
+			],
+			"signatures": [
+				{
+					"id": 522,
+					"name": "InsetsProvider",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
+							"line": 18,
+							"character": 43,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L18"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 523,
+							"name": "C",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ElementType"
+								},
+								"name": "ElementType",
+								"package": "@types/react",
+								"qualifiedName": "React.ElementType"
+							},
+							"default": {
+								"type": "literal",
+								"value": "div"
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 524,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 512,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "C",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "InsetsProviderProps",
+								"package": "@contember/layout"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

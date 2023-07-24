@@ -1,0 +1,414 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 5540,
+			"name": "RoutingLinkProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 5541,
+					"name": "Component",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+							"line": 56,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L56"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ComponentType"
+						},
+						"typeArguments": [
+							{
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"target": 5264,
+										"name": "InnerRoutingLinkProps",
+										"package": "@contember/admin"
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "T",
+										"refersToTypeParameter": true
+									}
+								]
+							}
+						],
+						"name": "ComponentType",
+						"package": "@types/react",
+						"qualifiedName": "React.ComponentType"
+					}
+				},
+				{
+					"id": 5543,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+							"line": 58,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L58"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactNode"
+						},
+						"name": "ReactNode",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactNode"
+					}
+				},
+				{
+					"id": 5542,
+					"name": "componentProps",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+							"line": 57,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L57"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": -1,
+						"name": "T",
+						"refersToTypeParameter": true
+					}
+				},
+				{
+					"id": 5546,
+					"name": "parameters",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+							"line": 61,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L61"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5924,
+						"name": "RequestParameters",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 5545,
+					"name": "parametersResolver",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+							"line": 60,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L60"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5941,
+						"name": "RoutingParameterResolver",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 5544,
+					"name": "to",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+							"line": 59,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L59"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 5945,
+						"name": "RoutingLinkTarget",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						5541,
+						5543,
+						5542,
+						5546,
+						5545,
+						5544
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+					"line": 55,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L55"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 5547,
+					"name": "T",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"default": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5548,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+									"line": 55,
+									"character": 38,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L55"
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 5549,
+			"name": "PublicAnchorProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+					"line": 45,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L45"
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+					"qualifiedName": "Omit"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.AnchorHTMLAttributes"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/typescript/lib/lib.dom.d.ts",
+									"qualifiedName": "HTMLAnchorElement"
+								},
+								"name": "HTMLAnchorElement",
+								"package": "typescript"
+							}
+						],
+						"name": "AnchorHTMLAttributes",
+						"package": "@types/react",
+						"qualifiedName": "React.AnchorHTMLAttributes"
+					},
+					{
+						"type": "literal",
+						"value": "href"
+					}
+				],
+				"name": "Omit",
+				"package": "typescript"
+			}
+		},
+		{
+			"id": 5550,
+			"name": "RoutingLink",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/routing/RoutingLink.tsx",
+					"line": 25,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L25"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5551,
+					"name": "RoutingLink",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Low level link. Usually, you should use "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "Link",
+								"target": 5831
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 329,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 5552,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"target": 5540,
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 5553,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {}
+												}
+											}
+										],
+										"name": "RoutingLinkProps",
+										"package": "@contember/admin"
+									},
+									{
+										"type": "reference",
+										"target": 5549,
+										"name": "PublicAnchorProps",
+										"package": "@contember/admin"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.JSXElementConstructor"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor",
+												"package": "@types/react",
+												"qualifiedName": "React.JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

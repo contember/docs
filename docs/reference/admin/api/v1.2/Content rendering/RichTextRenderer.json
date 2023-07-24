@@ -1,0 +1,1091 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 10509,
+			"name": "RichTextElement",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10511,
+					"name": "children",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextElement.d.ts",
+							"line": 4,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"target": 10509,
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": -1,
+											"name": "CustomElements",
+											"refersToTypeParameter": true
+										},
+										{
+											"type": "reference",
+											"target": -1,
+											"name": "CustomLeaves",
+											"refersToTypeParameter": true
+										}
+									],
+									"name": "RichTextElement",
+									"package": "@contember/react-client"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "reference",
+											"target": 10523,
+											"name": "RichTextLeaf",
+											"package": "@contember/react-client"
+										},
+										{
+											"type": "reference",
+											"target": -1,
+											"name": "CustomLeaves",
+											"refersToTypeParameter": true
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 10512,
+					"name": "referenceId",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextElement.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10510,
+					"name": "type",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextElement.d.ts",
+							"line": 3,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10511,
+						10512,
+						10510
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextElement.d.ts",
+					"line": 2,
+					"character": 17
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 10513,
+					"name": "CustomElements",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 10509,
+						"name": "RichTextElement",
+						"package": "@contember/react-client"
+					},
+					"default": {
+						"type": "intrinsic",
+						"name": "never"
+					}
+				},
+				{
+					"id": 10514,
+					"name": "CustomLeaves",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 10523,
+						"name": "RichTextLeaf",
+						"package": "@contember/react-client"
+					},
+					"default": {
+						"type": "intrinsic",
+						"name": "never"
+					}
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 10395,
+					"name": "RichTextAnchorElement"
+				},
+				{
+					"type": "reference",
+					"target": 10402,
+					"name": "RichTextHeadingElement"
+				},
+				{
+					"type": "reference",
+					"target": 10410,
+					"name": "RichTextOrderedListElement"
+				},
+				{
+					"type": "reference",
+					"target": 10416,
+					"name": "RichTextUnorderedListElement"
+				},
+				{
+					"type": "reference",
+					"target": 10422,
+					"name": "RichTextListItemElement"
+				},
+				{
+					"type": "reference",
+					"target": 10428,
+					"name": "RichTextHorizontalRuleElement"
+				},
+				{
+					"type": "reference",
+					"target": 10434,
+					"name": "RichTextParagraphElement"
+				},
+				{
+					"type": "reference",
+					"target": 10441,
+					"name": "RichTextReferenceElement"
+				},
+				{
+					"type": "reference",
+					"target": 10447,
+					"name": "RichTextScrollTargetElement"
+				},
+				{
+					"type": "reference",
+					"target": 10454,
+					"name": "RichTextTableElement"
+				},
+				{
+					"type": "reference",
+					"target": 10460,
+					"name": "RichTextTableCellElement"
+				},
+				{
+					"type": "reference",
+					"target": 10468,
+					"name": "RichTextTableRowElement"
+				}
+			]
+		},
+		{
+			"id": 10523,
+			"name": "RichTextLeaf",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10524,
+					"name": "text",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextLeaf.d.ts",
+							"line": 2,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10524
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextLeaf.d.ts",
+					"line": 1,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 10476,
+					"name": "RichTextBoldLeaf"
+				},
+				{
+					"type": "reference",
+					"target": 10479,
+					"name": "RichTextCodeLeaf"
+				},
+				{
+					"type": "reference",
+					"target": 10482,
+					"name": "RichTextHighlightLeaf"
+				},
+				{
+					"type": "reference",
+					"target": 10485,
+					"name": "RichTextItalicLeaf"
+				},
+				{
+					"type": "reference",
+					"target": 10488,
+					"name": "RichTextStrikeThroughLeaf"
+				},
+				{
+					"type": "reference",
+					"target": 10491,
+					"name": "RichTextUnderlineLeaf"
+				}
+			]
+		},
+		{
+			"id": 10531,
+			"name": "RichTextRendererBlockProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10532,
+					"name": "blocks",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"target": 10508,
+							"name": "RichTextBlock",
+							"package": "@contember/react-client"
+						}
+					}
+				},
+				{
+					"id": 10536,
+					"name": "referenceDiscriminationField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 17,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10533,
+					"name": "referenceRenderers",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Record"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"target": 10501,
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomElements",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomLeaves",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "ReferenceRenderer",
+								"package": "@contember/react-client"
+							}
+						],
+						"name": "Record",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 10535,
+					"name": "referencesField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 16,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 10534,
+					"name": "sourceField",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 15,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10532,
+						10536,
+						10533,
+						10535,
+						10534
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+					"line": 12,
+					"character": 17
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 10537,
+					"name": "CustomElements",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 10509,
+						"name": "RichTextElement",
+						"package": "@contember/react-client"
+					},
+					"default": {
+						"type": "intrinsic",
+						"name": "never"
+					}
+				},
+				{
+					"id": 10538,
+					"name": "CustomLeaves",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 10523,
+						"name": "RichTextLeaf",
+						"package": "@contember/react-client"
+					},
+					"default": {
+						"type": "intrinsic",
+						"name": "never"
+					}
+				}
+			]
+		},
+		{
+			"id": 10529,
+			"name": "RichTextRendererFieldProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 10530,
+					"name": "source",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 10,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						10530
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+					"line": 9,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 10539,
+			"name": "RichTextRendererProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+					"line": 19,
+					"character": 12
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 10552,
+					"name": "CustomElements",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 10509,
+						"name": "RichTextElement",
+						"package": "@contember/react-client"
+					},
+					"default": {
+						"type": "intrinsic",
+						"name": "never"
+					}
+				},
+				{
+					"id": 10553,
+					"name": "CustomLeaves",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": 10523,
+						"name": "RichTextLeaf",
+						"package": "@contember/react-client"
+					},
+					"default": {
+						"type": "intrinsic",
+						"name": "never"
+					}
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 10540,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 10547,
+									"name": "attributeNamePrefix",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+											"line": 23,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 10541,
+									"name": "deserialize",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+											"line": 20,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 10542,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+													"line": 20,
+													"character": 18
+												}
+											],
+											"signatures": [
+												{
+													"id": 10543,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"parameters": [
+														{
+															"id": 10544,
+															"name": "source",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 10570,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "CustomElements",
+																"refersToTypeParameter": true
+															},
+															{
+																"type": "reference",
+																"target": -1,
+																"name": "CustomLeaves",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "RootEditorNode",
+														"package": "@contember/react-client"
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 10548,
+									"name": "renderBlock",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+											"line": 24,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ComponentType"
+										},
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 10549,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 10550,
+															"name": "block",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+																	"line": 25,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														},
+														{
+															"id": 10551,
+															"name": "children",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+																	"line": 26,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+																	"qualifiedName": "React.ReactNode"
+																},
+																"name": "ReactNode",
+																"package": "@types/react",
+																"qualifiedName": "React.ReactNode"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																10550,
+																10551
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+															"line": 24,
+															"character": 32
+														}
+													]
+												}
+											}
+										],
+										"name": "ComponentType",
+										"package": "@types/react",
+										"qualifiedName": "React.ComponentType"
+									}
+								},
+								{
+									"id": 10545,
+									"name": "renderElement",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+											"line": 21,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 10373,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "CustomElements",
+												"refersToTypeParameter": true
+											},
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "CustomLeaves",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "RenderElement",
+										"package": "@contember/react-client"
+									}
+								},
+								{
+									"id": 10546,
+									"name": "renderLeaf",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+											"line": 22,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 10387,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "CustomLeaves",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "RenderLeaf",
+										"package": "@contember/react-client"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										10547,
+										10541,
+										10548,
+										10545,
+										10546
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+									"line": 19,
+									"character": 127
+								}
+							]
+						}
+					},
+					{
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"target": 10529,
+								"name": "RichTextRendererFieldProps",
+								"package": "@contember/react-client"
+							},
+							{
+								"type": "reference",
+								"target": 10531,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomElements",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomLeaves",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "RichTextRendererBlockProps",
+								"package": "@contember/react-client"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": 10554,
+			"name": "RichTextRenderer",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+					"line": 32,
+					"character": 21
+				}
+			],
+			"signatures": [
+				{
+					"id": 10555,
+					"name": "RichTextRenderer",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/react-client/dist/types/components/RichTextRenderer/RichTextRenderer.d.ts",
+							"line": 32,
+							"character": 39
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 10556,
+							"name": "CustomElements",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 10509,
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "never"
+									},
+									{
+										"type": "intrinsic",
+										"name": "never"
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomElements",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "RichTextElement",
+								"package": "@contember/react-client"
+							},
+							"default": {
+								"type": "intrinsic",
+								"name": "never"
+							}
+						},
+						{
+							"id": 10557,
+							"name": "CustomLeaves",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 10523,
+								"name": "RichTextLeaf",
+								"package": "@contember/react-client"
+							},
+							"default": {
+								"type": "intrinsic",
+								"name": "never"
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 10558,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 10539,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomElements",
+										"refersToTypeParameter": true
+									},
+									{
+										"type": "reference",
+										"target": -1,
+										"name": "CustomLeaves",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "RichTextRendererProps",
+								"package": "@contember/react-client"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ReactElement"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.JSXElementConstructor"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor",
+										"package": "@types/react",
+										"qualifiedName": "React.JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement",
+						"package": "@types/react",
+						"qualifiedName": "React.ReactElement"
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

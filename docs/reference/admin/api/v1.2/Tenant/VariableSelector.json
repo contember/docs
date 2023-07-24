@@ -1,0 +1,260 @@
+{
+	"id": 0,
+	"name": "@contember/admin",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 6180,
+			"name": "VariableSelectorProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"children": [
+				{
+					"id": 6182,
+					"name": "membership",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+							"line": 9,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6580,
+						"name": "Membership",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6184,
+					"name": "onChange",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+							"line": 11,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 6185,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+									"line": 11,
+									"character": 11,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
+								}
+							],
+							"signatures": [
+								{
+									"id": 6186,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+											"line": 11,
+											"character": 11,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
+										}
+									],
+									"parameters": [
+										{
+											"id": 6187,
+											"name": "newMembership",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 6580,
+												"name": "Membership",
+												"package": "@contember/admin"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 6181,
+					"name": "rolesConfig",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+							"line": 8,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L8"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6119,
+						"name": "RolesConfig",
+						"package": "@contember/admin"
+					}
+				},
+				{
+					"id": 6183,
+					"name": "variable",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+							"line": 10,
+							"character": 1,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L10"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 6408,
+						"name": "RoleVariableDefinition",
+						"package": "@contember/admin"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						6182,
+						6184,
+						6181,
+						6183
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+					"line": 7,
+					"character": 17,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L7"
+				}
+			]
+		},
+		{
+			"id": 6188,
+			"name": "VariableSelector",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
+					"line": 73,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L73"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6189,
+					"name": "VariableSelector",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
+							"line": 499,
+							"character": 8
+						}
+					],
+					"parameters": [
+						{
+							"id": 6190,
+							"name": "props",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": 6180,
+								"name": "VariableSelectorProps",
+								"package": "@contember/admin"
+							}
+						},
+						{
+							"id": 6191,
+							"name": "context",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": null
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.ReactElement"
+								},
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ReactElement",
+								"package": "@types/react",
+								"qualifiedName": "React.ReactElement"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"symbolIdMap": {}
+}

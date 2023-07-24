@@ -1,0 +1,787 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 923,
+			"name": "FrameComponentType",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/kit/Types.ts",
+					"line": 22,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L22"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 924,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/Types.ts",
+									"line": 23,
+									"character": 4,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L23"
+								}
+							],
+							"signatures": [
+								{
+									"id": 925,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 927,
+											"name": "C",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ElementType"
+												},
+												"name": "ElementType",
+												"package": "@types/react",
+												"qualifiedName": "React.ElementType"
+											},
+											"default": {
+												"type": "literal",
+												"value": "div"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 926,
+											"name": "props",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 921,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "C",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "FrameProps",
+												"package": "@contember/layout"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+													"qualifiedName": "React.ReactElement"
+												},
+												"name": "React.ReactElement",
+												"package": "@types/react"
+											},
+											{
+												"type": "literal",
+												"value": null
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 928,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 929,
+									"name": "displayName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 24,
+											"character": 5,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L24"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										929
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/Types.ts",
+									"line": 24,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L24"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 921,
+			"name": "FrameProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/kit/Types.ts",
+					"line": 20,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L20"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 922,
+					"name": "C",
+					"variant": "typeParam",
+					"kind": 131072,
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+							"qualifiedName": "React.ElementType"
+						},
+						"name": "ElementType",
+						"package": "@types/react",
+						"qualifiedName": "React.ElementType"
+					}
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "../utilities/src/types/PolymorphicRefs.ts",
+					"qualifiedName": "PolymorphicComponentPropsWithRef"
+				},
+				"typeArguments": [
+					{
+						"type": "reference",
+						"target": -1,
+						"name": "C",
+						"refersToTypeParameter": true
+					},
+					{
+						"type": "reference",
+						"target": 909,
+						"name": "OwnFrameProps",
+						"package": "@contember/layout"
+					}
+				],
+				"name": "PolymorphicComponentPropsWithRef",
+				"package": "@contember/utilities"
+			}
+		},
+		{
+			"id": 909,
+			"name": "OwnFrameProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/kit/Types.ts",
+					"line": 5,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L5"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../utilities/src/class-name/types.ts",
+							"qualifiedName": "ComponentClassNameProps"
+						},
+						"name": "ComponentClassNameProps",
+						"package": "@contember/utilities"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 910,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 911,
+									"name": "bodyFooter",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 8,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L8"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 912,
+									"name": "bodyHeader",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 9,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L9"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 913,
+									"name": "footer",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 10,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L10"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 915,
+									"name": "footerClassName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 12,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L12"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/class-name/types.ts",
+											"qualifiedName": "NestedClassName"
+										},
+										"name": "NestedClassName",
+										"package": "@contember/utilities"
+									}
+								},
+								{
+									"id": 914,
+									"name": "footerIsFixed",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 11,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L11"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 916,
+									"name": "header",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 13,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L13"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 918,
+									"name": "headerClassName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 15,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L15"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../utilities/src/class-name/types.ts",
+											"qualifiedName": "NestedClassName"
+										},
+										"name": "NestedClassName",
+										"package": "@contember/utilities"
+									}
+								},
+								{
+									"id": 917,
+									"name": "headerIsFixed",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 14,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L14"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 919,
+									"name": "minimumFooterHeight",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 16,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L16"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 920,
+									"name": "minimumHeaderHeight",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 17,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L17"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										911,
+										912,
+										913,
+										915,
+										914,
+										916,
+										918,
+										917,
+										919,
+										920
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/Types.ts",
+									"line": 7,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L7"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 561,
+			"name": "LayoutKit",
+			"variant": "declaration",
+			"kind": 32,
+			"flags": {
+				"isConst": true
+			},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/kit/index.ts",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L16"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 562,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 563,
+							"name": "ContentPanelMain",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 17,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L17"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 953,
+								"name": "ContentPanelComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 564,
+							"name": "Footer",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 22,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L22"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1023,
+								"name": "BarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 565,
+							"name": "Frame",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 27,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L27"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 923,
+								"name": "FrameComponentType",
+								"package": "@contember/layout"
+							}
+						},
+						{
+							"id": 566,
+							"name": "Header",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 28,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L28"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1023,
+								"name": "BarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 567,
+							"name": "SidebarLeft",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 33,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L33"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1056,
+								"name": "SidebarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 568,
+							"name": "SidebarRight",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 38,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L38"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1056,
+								"name": "SidebarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 569,
+							"name": "ToggleMenuButton",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 43,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L43"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.NamedExoticComponent"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 1067,
+										"name": "ToggleMenuButtonProps",
+										"package": "@contember/layout"
+									}
+								],
+								"name": "NamedExoticComponent",
+								"package": "@types/react",
+								"qualifiedName": "React.NamedExoticComponent"
+							}
+						},
+						{
+							"id": 570,
+							"name": "ToggleSidebarButton",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 44,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L44"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.NamedExoticComponent"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 1073,
+										"name": "ToggleSidebarButtonProps",
+										"package": "@contember/layout"
+									}
+								],
+								"name": "NamedExoticComponent",
+								"package": "@types/react",
+								"qualifiedName": "React.NamedExoticComponent"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								563,
+								564,
+								565,
+								566,
+								567,
+								568,
+								569,
+								570
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/kit/index.ts",
+							"line": 16,
+							"character": 25,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L16"
+						}
+					]
+				}
+			},
+			"defaultValue": "..."
+		}
+	],
+	"symbolIdMap": {}
+}

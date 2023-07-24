@@ -1,0 +1,417 @@
+{
+	"id": 0,
+	"name": "@contember/layout",
+	"kind": 1,
+	"flags": {},
+	"variant": "project",
+	"children": [
+		{
+			"id": 1067,
+			"name": "ToggleMenuButtonProps",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/kit/Types.ts",
+					"line": 127,
+					"character": 12,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L127"
+				}
+			],
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Omit"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../utilities/src/class-name/types.ts",
+									"qualifiedName": "ComponentClassNameProps"
+								},
+								"name": "ComponentClassNameProps",
+								"package": "@contember/utilities"
+							},
+							{
+								"type": "literal",
+								"value": "children"
+							}
+						],
+						"name": "Omit",
+						"package": "typescript"
+					},
+					{
+						"type": "reflection",
+						"declaration": {
+							"id": 1068,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 1069,
+									"name": "children",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 130,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L130"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "never"
+									}
+								},
+								{
+									"id": 1070,
+									"name": "labelWhenClosed",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 131,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L131"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 1071,
+									"name": "labelWhenOpen",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 132,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L132"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 1072,
+									"name": "panelName",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/layout/src/kit/Types.ts",
+											"line": 133,
+											"character": 2,
+											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L133"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										1069,
+										1070,
+										1071,
+										1072
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/Types.ts",
+									"line": 129,
+									"character": 3,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L129"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 561,
+			"name": "LayoutKit",
+			"variant": "declaration",
+			"kind": 32,
+			"flags": {
+				"isConst": true
+			},
+			"sources": [
+				{
+					"fileName": "packages/layout/src/kit/index.ts",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L16"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 562,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 563,
+							"name": "ContentPanelMain",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 17,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L17"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 953,
+								"name": "ContentPanelComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 564,
+							"name": "Footer",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 22,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L22"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1023,
+								"name": "BarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 565,
+							"name": "Frame",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 27,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L27"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 923,
+								"name": "FrameComponentType",
+								"package": "@contember/layout"
+							}
+						},
+						{
+							"id": 566,
+							"name": "Header",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 28,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L28"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1023,
+								"name": "BarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 567,
+							"name": "SidebarLeft",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 33,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L33"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1056,
+								"name": "SidebarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 568,
+							"name": "SidebarRight",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 38,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L38"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 1056,
+								"name": "SidebarComponentType",
+								"package": "@contember/layout"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 569,
+							"name": "ToggleMenuButton",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 43,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L43"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.NamedExoticComponent"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 1067,
+										"name": "ToggleMenuButtonProps",
+										"package": "@contember/layout"
+									}
+								],
+								"name": "NamedExoticComponent",
+								"package": "@types/react",
+								"qualifiedName": "React.NamedExoticComponent"
+							}
+						},
+						{
+							"id": 570,
+							"name": "ToggleSidebarButton",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/layout/src/kit/index.ts",
+									"line": 44,
+									"character": 1,
+									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L44"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+									"qualifiedName": "React.NamedExoticComponent"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 1073,
+										"name": "ToggleSidebarButtonProps",
+										"package": "@contember/layout"
+									}
+								],
+								"name": "NamedExoticComponent",
+								"package": "@types/react",
+								"qualifiedName": "React.NamedExoticComponent"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								563,
+								564,
+								565,
+								566,
+								567,
+								568,
+								569,
+								570
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/layout/src/kit/index.ts",
+							"line": 16,
+							"character": 25,
+							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L16"
+						}
+					]
+				}
+			},
+			"defaultValue": "..."
+		}
+	],
+	"symbolIdMap": {}
+}
