@@ -50,8 +50,22 @@ module.exports = {
 			collapsed: true,
 			items: [
 				'reference/admin/introduction',
-				'reference/admin/pages/defining-pages',
-				'reference/admin/pages/links',
+				{
+					type: "category",
+					label: "Pages, routing and scopes",
+					collapsed: true,
+					items: [
+						{
+							type: "doc",
+							id: "reference/admin/pages/overview",
+							label: "Overview",
+						},
+						'reference/admin/pages/routing',
+						'reference/admin/pages/links',
+						'reference/admin/pages/scopes',
+						'reference/admin/pages/pages-components',
+					],
+				},
 				'reference/admin/data-binding/overview',
 				'reference/admin/data-binding/query-language',
 				{
