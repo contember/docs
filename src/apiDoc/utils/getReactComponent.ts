@@ -9,7 +9,8 @@ export interface ReactComponentLike {
 	isInternal: boolean
 }
 
-export const getReactComponent = (reflection: JSONOutput.DeclarationReflection, schema: Schema): ReactComponentLike | null => {
+export const getReactComponent = (reflection: JSONOutput.DeclarationReflection, schema: Schema, debug = false): ReactComponentLike | null => {
+	debug && console.log(reflection)
 	if (reflection.kind === ReflectionKind.Function || reflection.kind === ReflectionKind.TypeLiteral) {
 		const signature = reflection.signatures?.[0]
 		if (!signature || !signature.type) {
@@ -34,7 +35,7 @@ export const getReactComponent = (reflection: JSONOutput.DeclarationReflection, 
 		if (reflection.type.type !== 'reference') {
 			return null
 		}
-		if (reflection.type.package === '@types/react' && reflection.type.name === 'ComponentType') {
+		if (reflection.type.package === '@types/react' && (reflection.type.name === 'ComponentType' || reflection.type.name === 'NamedExoticComponent')) {
 			const props = reflection.type.typeArguments?.[0]
 			if (props) {
 				return { props, reflection, isInternal: false }

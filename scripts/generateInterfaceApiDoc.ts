@@ -19,11 +19,12 @@ import { ReflectionKind } from "@site/src/apiDoc/schema/ReflectionKind";
 		})
 	})
 
-	const tryWriteComponent = async (child: JSONOutput.DeclarationReflection, groupName: tring, prefix: string = '')  => {
-		const component = getReactComponent(child, schema)
-		const componentName = prefix ? `${prefix}.${child.name}` : child.name
+	const tryWriteComponent = async (reflections: JSONOutput.DeclarationReflection[], groupName: string)  => {
+		const child = reflections[reflections.length - 1]
+		const component = getReactComponent(child, schema, false)
+		const componentName = reflections.map(it => it.name).join('.')
 		if (!component || component.isInternal) {
-			// console.log('Not a component ' + componentName)
+			console.log('Not a component ' + componentName)
 
 			return
 		}
@@ -36,7 +37,7 @@ import { ReflectionKind } from "@site/src/apiDoc/schema/ReflectionKind";
 			console.log('Will write ' + componentName + ' (' + groupName + ')')
 			return
 		} else {
-			const filteredSchema = filterSchema(child, new Schema(file))
+			const filteredSchema = filterSchema(reflections, new Schema(file))
 
 			const jsonFile = path.join(target, groupName, componentName + '.json')
 			const mdxFile = path.join(target, groupName, componentName + '.mdx')
@@ -71,7 +72,7 @@ import declarations from './__name__.json'
 	for (const child of file.children) {
 		const groupName = idToGroupMap.get(child.id)
 
-		await tryWriteComponent(child, groupName)
+		await tryWriteComponent([child], groupName)
 
 		const children = child.kind === ReflectionKind.Namespace && 'children' in child
 			? child.children
@@ -80,7 +81,11 @@ import declarations from './__name__.json'
 				: []
 
 		for (const child2 of children) {
-			await tryWriteComponent(child2, groupName, child.name)
+			let localGroupName = groupName
+			if (localGroupName === 'Namespaces') {
+				localGroupName = child.groups?.find(it => it.children.includes(child2.id))?.title
+			}
+			await tryWriteComponent([child, child2], localGroupName)
 		}
 	}
 })().catch(e => {
