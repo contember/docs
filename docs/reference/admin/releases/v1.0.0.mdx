@@ -12,7 +12,7 @@ import CompareCode from "@src/components/CompareCode"
 * One-time password support [#60](https://github.com/contember/admin/pull/60)
 * Collaboration server in admin-server [#85](https://github.com/contember/admin/pull/85)
 * Editor: Sortable blocks and major refactoring including new API for adding custom blocks and bug fixes [#71](https://github.com/contember/admin/pull/71), [#76](https://github.com/contember/admin/pull/76), [#82](https://github.com/contember/admin/pull/82)
-* Datagrid: `HasOneSelectCell` and [`HasManySelectCell`](/reference/admin/api/Data%20grid/HasManySelectCell) [#87](https://github.com/contember/admin/pull/87)
+* Datagrid: `HasOneSelectCell` and [`HasManySelectCell`](/reference/admin/api/v1.1/Data%20grid/HasManySelectCell) [#87](https://github.com/contember/admin/pull/87)
 * Datagrid: Remembers selected filters and page when navigating back [#81](https://github.com/contember/admin/pull/81)
 
 ### Fixes
@@ -60,7 +60,7 @@ We've simplified the layout components to make them easier to use. To use the ne
 
 #### Remove `<TitleBar />`
 
-- Move prop `actions` from the [`<TitleBar />`](/reference/admin/api/UI/TitleBar) component to page component (e.g. `<Page />` `<GenericPage />`, `<LayoutPage />`).
+- Move prop `actions` from the [`<TitleBar />`](/reference/admin/api/v1.1/UI/TitleBar) component to page component (e.g. `<Page />` `<GenericPage />`, `<LayoutPage />`).
 - Remove the `<TitleBar />` component and insert the contents of the `<TitleBar />` component into the `title` property of the page.
 
 <CompareCode>
@@ -120,11 +120,11 @@ We've simplified the layout components to make them easier to use. To use the ne
 
 #### Remove `<AltPersistButton />` component
 
-- We no longer support `<AltPersistButton />` component. Remove it or change it to [`<PersistButton />`](/reference/admin/api/Action%20buttons/PersistButton).
+- We no longer support `<AltPersistButton />` component. Remove it or change it to [`<PersistButton />`](/reference/admin/api/v1.1/Action%20buttons/PersistButton).
 
 #### Tenant pages
 
-- Change the [`<GenericPage />`](/reference/admin/api/Pages/GenericPage) component that wraps the tenant pages to `<Page />` component.
+- Change the [`<GenericPage />`](/reference/admin/api/v1.1/Pages/GenericPage) component that wraps the tenant pages to `<Page />` component.
 
 ### Recommended changes
 
