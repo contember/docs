@@ -235,3 +235,8 @@ article {
 .table-of-contents__link span {
   display: none;
 }
+
+img[alt="Contember Cloud Actions"] {
+  max-width: 360px;
+  text-align: center;
+}

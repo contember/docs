@@ -202,7 +202,11 @@ module.exports = {
 					type: "category",
 					label: "Actions",
 					items: [
-						"reference/engine/actions/overview",
+						{
+							type: "doc",
+							id: "reference/engine/actions/overview",
+							label: "Overview",
+						},
 						"reference/engine/actions/definition",
 						"reference/engine/actions/managing",
 						"reference/engine/actions/invocation",

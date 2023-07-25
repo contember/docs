@@ -2,9 +2,7 @@
 title: Actions definition
 ---
 
-:::caution Alpha Feature
-Please note, the Actions feature is only available starting from version 1.3, which is currently in alpha. [Read more](./overview.md#alpha-stage-feature)
-:::
+# <span className="version">Engine EE 1.3+</span> Actions definition
 
 This section of the documentation will guide you through the syntax and definition of Actions, facilitating their optimal utilization within your applications.
 
