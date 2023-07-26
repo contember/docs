@@ -48,7 +48,7 @@ When a batch of events is dispatched and the corresponding webhook is invoked, t
 }
 ```
 
-:::note
+:::caution
 Even when a batch is configured to contain only a single event, it is still sent in the `events` field as an array with a single item. This consistent structure allows for unified handling of batched events, ensuring consistent processing logic regardless of the number of events in the batch.
 :::
 
@@ -59,35 +59,48 @@ A `watch` event payload represents a change in the watched entity and provides d
 - `id` (string or int): The unique identifier of the entity event.
 - `entity` (string): The entity type of the watched entity.
 - `events` (array of objects): An array of event payloads representing the changes in the watched entity. Each event payload has the following properties:
-	- `id` (string): The unique identifier for the event.
-	- `path` (array of string): The path to this entity relative to the watched entity.
-	- `entity` (string): The entity type of the event.
-	- `operation` (string): The type of operation performed on the entity, such as `create`, `update`, `delete`, `junction_connect`, or `junction_disconnect`.
+  - `id` (string): The unique identifier for the event.
+  - `path` (array of string): The path to this entity relative to the watched entity.
+  - `entity` (string): The entity type of the event.
+  - `operation` (string): The type of operation performed on the entity, such as `create`, `update`, `delete`, `junction_connect`, or `junction_disconnect`.
   - [other fields based on operation type](#basic-events)
 - `trigger` (string): The name of the trigger associated with the event.
 - `operation` (string): The operation type of the event, which is set to `watch` for a watch event.
 - `selection` (object): Custom payload defined by `selection` on a watch definition
 - `meta` (object): [see event meta](#event-metadata)
 
-#### Example: payload of a `watch` event payload for a `Book` entity:
+#### Example: a body payload with a `watch` event payload for a `Book` entity:
 
 ```json
 {
-  "id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
-  "entity": "Book",
-  "events": [
-    {
-      "id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
-      "entity": "Book",
-      "values": {
-        "title": "Sample Book Title"
-      },
-      "operation": "update"
-    }
-  ],
-  "trigger": "book_updated_watch",
-  "operation": "watch",
-  "selection": {}
+	"events": [
+		{
+			"id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
+			"entity": "Book",
+			"events": [
+				{
+					"id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
+					"entity": "Book",
+					"values": {
+						"title": "Sample Book Title"
+					},
+					"operation": "update"
+				}
+			],
+			"trigger": "book_updated_watch",
+			"operation": "watch",
+			"selection": {},
+			"meta": {
+				"eventId": "73bbf733-36a5-4e5c-8798-1ba1b7900b39",
+				"transactionId": "53e3790d-5485-490c-9420-a1e79b19b5d3",
+				"createdAt": "2023-07-25T15:30:17.937Z",
+				"lastStateChange": "2023-07-25T15:30:17.937Z",
+				"numRetries": 0,
+				"trigger": "book_updated_watch",
+				"target": "book_updated_watch_target"
+			}
+		}
+	]
 }
 ```
 
@@ -106,17 +119,31 @@ Trigger event payloads represent payloads for events invoked by `trigger` and co
 
 Here's an example of a basic event payload for an `update` operation on a `Book` entity:
 
+#### Example: a body payload with a `update` event payload for a `Book` entity:
 ```json
 {
-  "id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
-  "entity": "Book",
-  "values": {
-    "title": "Updated Book Title",
-    "author": "John Doe"
-  },
-  "operation": "update",
-  "selection": {},
-  "path": ["books", "123"]
+	"events": [
+		{
+			"id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
+			"entity": "Book",
+			"values": {
+				"title": "Updated Book Title",
+				"author": "John Doe"
+			},
+			"operation": "update",
+			"selection": {},
+			"trigger": "book_updated_watch",
+			"meta": {
+				"eventId": "73bbf733-36a5-4e5c-8798-1ba1b7900b39",
+				"transactionId": "53e3790d-5485-490c-9420-a1e79b19b5d3",
+				"createdAt": "2023-07-25T15:30:17.937Z",
+				"lastStateChange": "2023-07-25T15:30:17.937Z",
+				"numRetries": 0,
+				"trigger": "book_updated_watch",
+				"target": "book_updated_watch_target"
+			}
+		}
+	]
 }
 ```
 
@@ -140,40 +167,40 @@ Basic event payloads represent individual operations performed on entities. They
 
 ```typescript
 export type UpdateEvent = {
-	operation: 'update'
-	entity: string
-	id: PrimaryValue
-	values: JSONObject
-	old?: JSONObject
+  operation: 'update'
+  entity: string
+  id: PrimaryValue
+  values: JSONObject
+  old?: JSONObject
 }
 
 export type CreateEvent = {
-	operation: 'create'
-	entity: string
-	id: PrimaryValue
-	values: JSONObject
+  operation: 'create'
+  entity: string
+  id: PrimaryValue
+  values: JSONObject
 }
 
 export type DeleteEvent = {
-	operation: 'delete'
-	entity: string
-	id: PrimaryValue
+  operation: 'delete'
+  entity: string
+  id: PrimaryValue
 }
 
 export type JunctionConnectEvent = {
-	operation: 'junction_connect'
-	entity: string
-	id: PrimaryValue
-	relation: string
-	inverseId: PrimaryValue
+  operation: 'junction_connect'
+  entity: string
+  id: PrimaryValue
+  relation: string
+  inverseId: PrimaryValue
 }
 
 export type JunctionDisconnectEvent = {
-	operation: 'junction_disconnect'
-	entity: string
-	id: PrimaryValue
-	relation: string
-	inverseId: PrimaryValue
+  operation: 'junction_disconnect'
+  entity: string
+  id: PrimaryValue
+  relation: string
+  inverseId: PrimaryValue
 }
 ```
 
@@ -188,17 +215,15 @@ When processing the response received from a webhook invocation, Contember follo
 1. **Not-OK Response Status**: If the HTTP response status falls outside the 2xx range (i.e., it is not considered OK), the entire batch is considered unsuccessful. Detailed information about the failure is stored in the `log` field of each event.
 
 2. **OK Response Status with Specific Non-Empty Body**: If the HTTP response status is within the 2xx range (OK) and the response body contains a valid JSON object with a `failures` key, the response is further analyzed:
-
-	- **Invalid Structure or unknown `eventId`**: If the structure of the response doesn't adhere to the required format (`failures` must contain an array of objects containing an `eventId` (UUID format) and optionally an `error` (string format)) or if the `eventId` present in the response does not correspond with any event in the batch, the entire batch is considered unsuccessful.
-
-	- **Valid Structure and `eventId`**: If the structure of the response is as expected and the `eventId` in the response matches an event in the batch, only the events specified in the `failures` field are marked as unsuccessful, while the remaining events are deemed successful.
+    - **Invalid Structure or unknown `eventId`**: If the structure of the response doesn't adhere to the required format (`failures` must contain an array of objects containing an `eventId` (UUID format) and optionally an `error` (string format)) or if the `eventId` present in the response does not correspond with any event in the batch, the entire batch is considered unsuccessful.
+    - **Valid Structure and `eventId`**: If the structure of the response is as expected and the `eventId` in the response matches an event in the batch, only the events specified in the `failures` field are marked as unsuccessful, while the remaining events are deemed successful.
 
 3. **OK Response Status with Empty or Other Non-Specific Body**: If the HTTP response status is OK (2xx) and the response body is either empty or contains anything other than a valid JSON object with a `failures` key, the entire batch is treated as successful, ignoring the specifics of the response content.
 
 
 Following the processing of the response, the standard retry mechanism is applied to the events that were marked as unsuccessful. This ensures that the unsuccessful events are retried according to the configured retry logic, allowing for subsequent attempts to process them successfully.
 
-Example: webhook response payload with the `failures` field indicating event failures:
+#### Example: webhook response payload with the `failures` field indicating event failures:
 
 ```json
 {
