@@ -5,7 +5,7 @@ title: Using Contember Actions with Superface AI
 import DocsCard from '../../src/components/global/DocsCard';
 import DocsCards from '../../src/components/global/DocsCards';
 
-In this example, we'll set up notifications for new articles to be sent to Slack. Assuming you've already prepared an Action as per our [Actions tutorial](/intro/actions), the next step is to construct a Cloudflare Worker. This worker will receive the payload from the Action and then send a notification to Slack.
+In this example, we'll set up notifications for new articles to be sent to Slack. Assuming you've already prepared an Action as per our [Actions tutorial](/intro/actions), the next step is to construct a simple Node.js app to receive the payload from the Action and then send a notification to Slack.
 
 We'll be following the [guide provided by Superface AI](https://superface.ai/docs/api-examples/slack) step by step. One of the key advantages of Superface AI is that it generates the code we need, meaning there's no need to delve into the Slack API documentation.
 
@@ -14,7 +14,7 @@ Superface AI is designed to aid in building your integration, but it doesn't lim
 Start by installing their CLI and specifying Slack as the platform to work with.
 
 ```bash
-brew install superfaceai/cli/superface
+npm i -g @superfaceai/cli@latest
 ```
 
 ```bash
@@ -27,7 +27,7 @@ Next, let's specify our objective: sending messages to a Slack channel.
 superface new slack "send message to channel"
 ```
 
-The CLI will then instruct us to run the following:
+The CLI will then instruct us to run the map command. Please note your file names may differ from ours and running the commands the CLI outputs is the way to go.
 
 ```bash
 superface map slack chat-communication/post-message
@@ -35,7 +35,7 @@ superface map slack chat-communication/post-message
 
 Once that's done, you'll need the Slack API token. This part can be a bit tricky. You can find a guide on Slack's website that explains the process, but in brief, you need to create a testing app, install it to your workspace, and then return to the tutorial. Your token, which should begin with xoxb-, will be displayed there. Add this token to your .ENV file.
 
-Now, in the generated file `chat-communication.post-message.slack.mjs``, update the channel name to the one where you want to send your test message and run:
+Now, in the generated file `chat-communication.post-message.slack.mjs`, update the channel name to the one where you want to send your test message and run:
 
 ```bash
 superface execute slack chat-communication/post-message
@@ -68,48 +68,55 @@ app.use(express.json()); // for parsing application/json
 
 // POST endpoint for receiving payload
 app.post('/payload', async (req, res) => {
-  const { id, entity, values, operation } = req.body;
+  const { events } = req.body;
 
-  if (operation === 'create' && entity === 'Article') {
-    try {
-      const result = await useCase.perform(
-        {
-          channel: 'random',
-          text: `New article with ${values.title} created`,
-          as_user: true,
-          attachments: [],
-          blocks: [],
-        },
-        {
-          provider: 'slack',
-          parameters: {},
-          security: { slackBearerToken: { token: process.env.SLACK_TOKEN } }
+  for (const event of events) {
+    const { id, entity, values, operation } = event;
+
+    if (operation === 'create' && entity === 'Article') {
+      try {
+        const result = await useCase.perform(
+          {
+            channel: 'random',
+            text: `New article with ${values.title} created`,
+            as_user: true,
+            attachments: [],
+            blocks: [],
+          },
+          {
+            provider: 'slack',
+            parameters: {},
+            security: { slackBearerToken: { token: process.env.SLACK_TOKEN } }
+          }
+        );
+
+        console.log("RESULT:", JSON.stringify(result, null, 2));
+
+      } catch (e) {
+        if (e instanceof PerformError) {
+          console.log('ERROR RESULT:', e.errorResult);
+          res.status(500).send({ message: 'Perform Error', error: e.errorResult });
+          return;
+        } else if (e instanceof UnexpectedError) {
+          console.error('ERROR:', e);
+          res.status(500).send({ message: 'Unexpected Error', error: e.message });
+          return;
+        } else {
+          throw e;
         }
-      );
-
-      console.log("RESULT:", JSON.stringify(result, null, 2));
-      res.status(200).send({ message: 'Message sent successfully' });
-
-    } catch (e) {
-      if (e instanceof PerformError) {
-        console.log('ERROR RESULT:', e.errorResult);
-        res.status(500).send({ message: 'Perform Error', error: e.errorResult });
-      } else if (e instanceof UnexpectedError) {
-        console.error('ERROR:', e);
-        res.status(500).send({ message: 'Unexpected Error', error: e.message });
-      } else {
-        throw e;
       }
+    } else {
+      res.status(400).send({ message: 'Invalid payload' });
+      return;
     }
-  } else {
-    res.status(400).send({ message: 'Invalid payload' });
   }
+
+  res.status(200).send({ message: 'Messages sent successfully' });
 });
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
-
 ```
 
 In this updated code, an Express server is set up with a POST endpoint `/payload`. When you send a POST request to this endpoint with the payload, it will check if the operation is `create` and entity is `Article`. If it is, it sends a message to the `random` channel with the text `New article with {values.title} created`. If the operation is not `create` or the entity is not `Article`, it will return a 400 status code with a message `Invalid payload`.
