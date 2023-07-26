@@ -74,7 +74,6 @@ app.post('/payload', async (req, res) => {
     try {
       const result = await useCase.perform(
         {
-          token: 'xoxp-1234567890-abcdefgh',
           channel: 'random',
           text: `New article with ${values.title} created`,
           as_user: true,
