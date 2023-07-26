@@ -50,12 +50,16 @@ The Action you've just configured will send the specified payload wherever you d
 
 ```json
 {
-  "id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
-  "entity": "Article",
-  "values": {
-    "title": "Article Title",
-  },
-  "operation": "create",
+  "events": [
+    {
+      "id": "f4f0a97d-7850-4add-8946-a1ce016306ce",
+      "entity": "Article",
+      "values": {
+        "title": "Article Title",
+      },
+      "operation": "create",
+    }
+  ]
 }
 ```
 
