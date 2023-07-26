@@ -89,7 +89,7 @@ You will need to modify `admin/index.tsx` and `admin/vite.config.ts` files based
 import * as React from 'react'
 import { ApplicationEntrypoint, LoginEntrypoint, Pages, runReactApp } from '@contember/admin'
 import { Layout } from './components/Layout'
-import '@contember/admin/style.css'
+import '@contember/admin/index.css'
 
 const apiBaseUrl = import.meta.env.VITE_CONTEMBER_ADMIN_API_BASE_URL as string
 const loginToken = import.meta.env.VITE_CONTEMBER_ADMIN_LOGIN_TOKEN as string

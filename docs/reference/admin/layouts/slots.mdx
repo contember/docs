@@ -3,51 +3,59 @@ title: Slots
 ---
 
 import CodeBlock from '@theme/CodeBlock'
-import _components_SlotsSource from '!!raw-loader!./_Example/components/Slots.ts'
+import _components_SlotsSource from '!!raw-loader!./_Example/components/Slots.tsx'
 import _pages_example_Source from '!!raw-loader!./_Example/pages/example.tsx'
 
 # <span className="version">Interface 1.2+</span> Slots
 
+**Use Slots to render contents of your page the other areas of the layout.**
+
+Every Contember component can [access data binding context](/reference/admin/data-binding/overview/)
+and render it to the page but this composition is limited to how the content might be rendered as is.
+
+For example you can't render a persist button to save the form in the header from the page because
+it is nested within the descendants of the page that is rendered in the layout.
+
+To overcome this limitation slots provide a way to *escape*  and render to other parts of the layout easily, even
+the parts that are not directly descendants of the page, e.g. header or footer of the layout.
+
+## What are slots?
+
 **Layout slots** are React components that can be used to render content in predefined
-places of the layout. Each Slot will append its content to the target as
+places of the layout. Each `SlotSource` can render (append) its children to the target as
 [createPortal()](https://react.dev/reference/react-dom/createPortal) would do.
 
 This is useful when you want to render a button in the footer, header, sidebar or any
-other place of the layout that is not directly accessible from within rendered page.
+other place of the layout that is not directly accessible from within inside of the rendered page.
 
-You can use any of already available common slots that are typical for all Contember
+You can use these already pre-build common slots that are typical for all Contember
 layouts and layout specific slots. Common slots are:
 
-- **Title** - Slot for rendering page title (usually in the header)
 - **Actions** – Slot for rendering page actions (usually in the header)
 - **Back** – Slot for rendering back button (usually in the header near title)
 - **Logo** – Slot for rendering logo (usually in the header)
 - **Navigation** – Slot for rendering navigation (usually in the sidebar)
-- **Content** – Slot for rendering page content in the main area of the layout
 - **Sidebar** – Slot for rendering sidebar (usually in the right side of the layout)
+- **Title** – Slot for rendering page title (usually in the header)
+- **Profile** – Slot for rendering profile with dropdown, logout button (usually in the header)
+- **Switchers** – Slot for rendering switchers for e.g. language or color scheme (usually in the header)
 
-You can even create your own layout with custom slots and use them in your pages just
-like the built-in ones.
+You are not tied to using our predefined layouts or slots. You are free to create your own layouts with
+custom slots and use them in your pages just like the built-in ones.
 
-## 1. Rendering content to slot from the page
+## Creating your own slots
 
-```tsx title="admin/pages/example.tsx" {4}
-import { Slots } from '../components/Slots'
-
-export default () => (
-	<Slots.Subtitle>This is a subtitle</Slots.Subtitle>
-)
-```
-
-## 2. Creating your own slots
+Slots are made of two pair components. One component is used to render content to the portal (source)
+and the other component is used to render the content from the portal (target).
 
 To create your slot you need to create two components:
 
-- **Slot** – React component that will be used to [render content from pages](#1-rendering-content-to-slot-from-the-page)
+- **SlotSource** – React component that will be used to [render content from pages](#1-rendering-content-to-slot-from-the-page)
 - **SlotTarget** – React component that will be used in place where you want to render content
 
 :::tip
-Using the `activeSlots` from the context you can check if there is any content to render.
+You can check if there is any content to render and draw `SlotTarget` components on demand using
+the `useTargetsIfActiveFactory` or `useHasActiveSlotsFactory` hooks.
 :::
 
 <CodeBlock
@@ -57,22 +65,66 @@ Using the `activeSlots` from the context you can check if there is any content t
 	{_components_SlotsSource}
 </CodeBlock>
 
-## 3. Placing slots in the layout
+## Rendering page content to a slot source
 
-```tsx title="admin/components/Layout.tsx" {3,9}
-import { slotTargets, SlotTargets } from '../components/Slots'
+By wrapping the content in the slot source component, instead of rendering it as an immediate
+descendants of the page, you will create a *portal* that will render the content to the
+target component.
 
-export const Layout = ({ children: pages }: React.PropsWithChildren) => {
-  const { activeSlots } = useLayoutSlotRegistryContext()
+```tsx title="admin/pages/example.tsx" {4}
+import { SlotSources } from '../components/Slots
+
+export default () => (
+	<SlotSources.Subtitle>
+		<p>This is a subtitle that will be rendered somewhere else</p>
+	</SlotSources.Subtitle>
+)
+```
+
+## Placing slot targets in the layout
+
+- **Slots.useTargetsIfActiveFactory()** – Hook that returns a function that returns listed Slot target elements
+if there is any content to render, otherwise it returns `null`. If you provide the second argument
+it will be returned instead of creating the target elements automatically giving you manual control
+over how the target elements are rendered.
+- **Slots.useHasActiveSlotsFactory()** – Hook that returns a function that returns `true` if there is any content
+to render, otherwise it returns `false` which gives you even more control to compose layout.
+
+```tsx title="admin/components/Layout.tsx" {4-5,9-14,16,18-22}
+import { SlotSources } from '../components/SlotTargets'
+
+export const Layout = ({ children }: React.PropsWithChildren) => {
+	const slotTargetsIfActive = Slots.useTargetsIfActiveFactory(SlotTargets)
+	const hasActiveSlots = Slots.useHasActiveSlotsFactory(SlotTargets)
 
 	return (
-		<>
-			<div className="layout">
-				{activeSlots.has(slotTargets.Subtitle) ? <SlotTargets.Subtitle /> : null}
-			</div>
+		<div className="layout">
+			{slotTargetsIfActive(['Back', 'Title'], (
+				<>
+					<Back />
+					<Title as="h1" />
+				</>
+			))}
 
-			{pages}
-		</>
+			{slotTargetsIfActive(['Subtitle'])}
+
+			{hasActiveSlots('Actions') && (
+				<div className="layout__actions">
+					<Actions />
+				</div>
+			)}
+
+			{children}
+		</div>
 	)
 }
 ```
+
+:::note
+Slots use `React.createPortal` under the hood. But  Slots gives you extra tools to control how your layout behaves, when there is no content to render.
+:::
+
+## Context Providers
+
+Using slots is optional. Their respective providers are included in our project templates in the application entry point.
+Once you decide to go your own way just remove the `<Slots.Provider>` from the `index.tsx` file.

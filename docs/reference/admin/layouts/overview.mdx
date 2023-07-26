@@ -1,52 +1,31 @@
 ---
-title: Layout overview
+title: Overview
 ---
+
+import CodeBlock from '@theme/CodeBlock'
+import LayoutKitSvg from '@site/static/assets/layout-kit.svg'
+import _pages_exampleSource from '!!raw-loader!./_Example/pages/example.tsx'
+import _indexSource from '!!raw-loader!./_Example/index.tsx'
+
 
 # <span className="version">Interface 1.2+</span> Layout overview
 
-Contember comes with flexible and declarative layout controls to render content in any layout you want.
-And control layout from within any rendered page — introducing **Slots** and **Directives**.
-
-:::note Slots and Directives are available in Contember Interface version 1.2.
+:::note
+`LayoutKit`, `Slots` and `Directives` are available in Contember Interface version 1.2 and are meant to be used together with [`Scopes`](/reference/admin/pages/scopes).
 :::
 
-```tsx title="admin/pages/example.tsx" {3,4,6,10,12-14,16-18,20-22}
-import * as React from 'react'
-import { Button } from '@contember/admin'
-import { Directive } from '../components/Directives'
-import { Actions, Content, Sidebar } from '../components/Slots'
+Contember comes with built-in components to help you build layouts of your projects easily:
 
-const { Actions, Content } = CommonSlots
+- [Layout Kit](/reference/admin/layouts/layout-kit) — components to build your application layout:
+	- Frame — your application frame
+	- Bars — application bars e.g. headers, footers for tabs, actions of title
+	- Content panels — panels to render main content of the page
+	- Sidebar panels and toggle buttons — collapsible panels with, e.g. navigation
+- [Slots](/reference/admin/layouts/slots) — components to render content in predefined places of the layout
+- [Directives](/reference/admin/layouts/directives) — components to control your app from within any rendered page
 
-export default () => (
-	<>
-		<Directive name="title" content="Example Page" />
+<img src={LayoutKitSvg} />
 
-		<Actions>
-			<Button>Done</Button>
-		</Actions>
-
-		<Content>
-			<p>Some content</p>
-		</Content>
-
-		<Sidebar>
-			<p>Some sidebar content</p>
-		</Sidebar>
-	</>
-)
-```
-
-## Slots
-
-Slots are components built upon the React portals and they let you render content
-in predefined places of the layout.
-
-[Learn about Slots](/reference/admin/layouts/slots)
-
-## Directives
-
-Directives are components that let you pass even rendered values to the upper context
-giving you the ability to control your app.
-
-[Learn about Directives](/reference/admin/layouts/directives)
+<CodeBlock language="typescript" title="admin/pages/example.tsx">
+	{_pages_exampleSource}
+</CodeBlock>

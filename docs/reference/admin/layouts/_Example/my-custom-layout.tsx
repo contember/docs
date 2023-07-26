@@ -1,39 +1,60 @@
-import { DropdownContentContainerProvider } from "@contember/admin"
-import {
-  commonSlotTargets,
-  CommonSlotTargets,
-  useDocumentTitle,
-  useLayoutSlotRegistryContext,
-} from "@contember/layout"
+import { Slots } from "@contember/layout"
+import { PropsWithChildren } from "react"
 import { useDirectives } from "./components/Directives"
-import { SlotTargets, slotTargets } from "./components/Slots"
+import { SlotTargets } from "./components/Slots"
 
-export function MyCustomLayout() {
-  const { activeSlots } = useLayoutSlotRegistryContext()
+const { Actions, Back, Logo, Navigation, Sidebar, Title, Profile, Subtitle, Switchers, ...rest } = SlotTargets
+
+// Make sure we implement all the slots:
+if (import.meta.env.DEV) {
+  const __EMPTY_REST_GUARD: { [key: string]: never } = rest
+}
+
+export function MyCustomLayout({ children }: PropsWithChildren) {
+  const slotTargetsIfActive = Slots.useTargetsIfActiveFactory(SlotTargets)
+
   const directives = useDirectives()
 
-  useDocumentTitle(directives.title)
-
   return (
-    <div className="layout">
-      <header className="layout__header">
-        {activeSlots.has(commonSlotTargets.Back) ? <CommonSlotTargets.Back /> : null}
-        {activeSlots.has(commonSlotTargets.Logo) ? <CommonSlotTargets.Logo /> : null}
-        {activeSlots.has(commonSlotTargets.Actions) ? <CommonSlotTargets.Actions /> : null}
-      </header>
+    <div className="layout" data-full-width={directives ? true : undefined}>
+      {slotTargetsIfActive(['Logo', 'Actions'], (
+        <header className="layout__header">
+          <Logo />
+          <Actions />
+          <Profile />
+        </header>
+      ))}
+      {slotTargetsIfActive(['Navigation'], (
+        <aside className="layout__aside">
+          <Navigation />
+        </aside>
+      ))}
       <main className="layout__main">
-        <h1>{directives.title}</h1>
-        {activeSlots.has(slotTargets.Subtitle) ? <SlotTargets.Subtitle /> : null}
-        {activeSlots.has(commonSlotTargets.Content) ? <CommonSlotTargets.Content /> : null}
+        <section className="layout__main__content">
+          {slotTargetsIfActive(['Back', 'Title'], (
+            <>
+              <Back />
+              <Title as="h1" />
+            </>
+          ))}
+          {slotTargetsIfActive(['Subtitle'])}
+          {children}
+        </section>
+
+        {slotTargetsIfActive(['Sidebar'], (
+          <section className="layout__main__sidebar">
+            <Sidebar />
+          </section>
+        ))}
       </main>
-      <aside className="layout__aside">
-        {activeSlots.has(commonSlotTargets.Navigation) ? <CommonSlotTargets.Navigation /> : null}
-        {activeSlots.has(commonSlotTargets.Sidebar) ? <CommonSlotTargets.Sidebar /> : null}
-      </aside>
-      <footer className="layout__footer">
-      </footer>
-      <DropdownContentContainerProvider />
-      <div id="portal-root" />
+
+
+      {slotTargetsIfActive(['Profile', 'Switchers'], (
+        <footer className="layout__footer">
+          <Switchers />
+          <Profile />
+        </footer>
+      ))}
     </div>
   )
 }

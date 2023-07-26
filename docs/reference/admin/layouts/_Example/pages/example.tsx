@@ -1,15 +1,22 @@
-import { CommonSlots } from '@contember/layout'
-import { Title } from '../components/Directives'
-import { Slots } from '../components/Slots'
+import { EditScope, FieldView, PersistButton } from '@contember/admin'
+import { Directive } from '../components/Directives'
+import { EditOrCreateForm } from '../components/EditOrCreateForm'
+import { SlotSources, Title } from '../components/Slots'
 
 export default () => (
   <>
-    <Title>My page title</Title>
+    <Directive name="full-width" content={true} />
 
-    <Slots.Subtitle>This is a subtitle</Slots.Subtitle>
+    <EditScope entity="Article(id = $id)">
+      <FieldView field="title" render={title => (
+        <Title>{`Edit ${title.value ? title.value : 'Article'}`}</Title>
+      )} />
 
-    <CommonSlots.Content>
-      <p>My page content</p>
-    </CommonSlots.Content>
+      <EditOrCreateForm />
+
+      <SlotSources.Actions>
+        <PersistButton />
+      </SlotSources.Actions>
+    </EditScope>
   </>
 )

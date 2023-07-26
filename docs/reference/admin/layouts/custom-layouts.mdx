@@ -7,7 +7,7 @@ import _LayoutUISource from '!!raw-loader!./_Example/my-custom-layout.tsx'
 import _components_LayoutSource from '!!raw-loader!./_Example/components/Layout.tsx'
 import _pages_example_Source from '!!raw-loader!./_Example/pages/example.tsx'
 
-# <span className="version">Interface 1.2+</span> Custom layouts
+# <span className="version">Interface 1.2+</span> Any HTML can be your layout
 
 With slots and directives you have all the tools you need to:
 
@@ -18,8 +18,6 @@ Slots and directives lets you decouple content from the layout,
 so you can use any layout you want, even have multiple layouts
 for different parts of your app.
 
-## 1. Any HTML can be your layout
-
 Take any HTML, set where content should be rendered using the slot targets,
 connect directives to control any aspect of your app (layout, theme, etc.)
 and you have a custom layout.
@@ -28,7 +26,7 @@ and you have a custom layout.
 	{_LayoutUISource}
 </CodeBlock>
 
-## 2. Using your custom layout
+## Using your custom layout
 
 Now that we have a layout, we need to connect it with Contember,
 swap it anytime you need.

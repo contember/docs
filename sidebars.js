@@ -85,7 +85,7 @@ module.exports = {
 					label: "Layouts",
 					items: [
 						'reference/admin/layouts/overview',
-						'reference/admin/layouts/providers',
+						'reference/admin/layouts/layout-kit',
 						'reference/admin/layouts/slots',
 						'reference/admin/layouts/directives',
 						'reference/admin/layouts/custom-layouts',
