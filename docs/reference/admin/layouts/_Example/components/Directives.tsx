@@ -1,18 +1,15 @@
-import { createDirectiveContext } from '@contember/layout';
-import * as React from 'react';
+import { Directives } from '@contember/layout';
 
-type DirectivesType = {
-  'title': string | null | undefined;
+export type DirectivesType = {
+  'full-width': boolean
 }
 
-const directivesDefaultValues: DirectivesType = Object.freeze({
-  'title': undefined,
-})
+export const initialDirectives: DirectivesType = {
+  'full-width': false,
+}
 
-export const directivesList = Object.keys(directivesDefaultValues) as (keyof DirectivesType)[]
-export const [DirectivesProvider, Directive, DirectivesConsumer, useDirectives] = createDirectiveContext<DirectivesType>('Directives', directivesDefaultValues)
+// Local export with current DirectivesType specific to the project
+export const Directive = Directives.Directive as unknown as Directives.DirectiveComponentType<DirectivesType>
 
-// Short-hand for <Directive name="title" content={children} />
-export const Title = React.memo<{ children: string | null | undefined }>(({ children }) => (
-  <Directive name="title" content={children} />
-))
+// Local export with current DirectivesType specific to the project
+export const useDirectives = Directives.useDirectives<DirectivesType>

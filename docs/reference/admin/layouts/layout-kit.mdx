@@ -1,0 +1,205 @@
+---
+title: Layout Kit
+---
+
+import CodeBlock from '@theme/CodeBlock'
+import _LayoutUISource from '!!raw-loader!./_Example/my-custom-layout.tsx'
+import _components_LayoutSource from '!!raw-loader!./_Example/components/Layout.tsx'
+import _pages_example_Source from '!!raw-loader!./_Example/pages/example.tsx'
+
+# <span className="version">Interface 1.2+</span> LayoutKit
+
+Most application layouts are divided into panels, have a header and footer bars and
+in most cases, at least one sidebar.
+
+For this reason, Contember comes with a set of pre-built components that you can use to build your
+application layout, we call it `LayoutKit`, it is a set of UI components to handle application layout.
+
+The core of `LayoutKit` is a `LayoutKit.Frame` component, which is a container component.
+Its main purpose is to manage state of panels by wrapping the `LayoutPrimitives.ResponsiveContainer`.
+The responsive container provides means for `LayoutKit.ContentMainPanel`, `LayoutKit.SidebarLeft`
+and `LayoutKit.SidebarRight` to work seamlessly together without much effort on your side.
+
+Together with toggle buttons your have a fully functional layout with responsive panels you can
+use to compose most application layouts on top of.
+
+## `LayoutKit.Frame`
+
+`LayoutKit.Frame` is a container component that provides a basic frame for your app,
+it accepts `header` and `footer` bars, or `children` via props. Its purpose is to manage
+state of panels but it also calculates safe area insets for panels added as its children,
+e.g. when header or footer are in fixed positions.
+
+:::tip
+Handling "safe-areas" of your app
+You will need to wrap your layout component	with `<SafeAreaInsetsProvider>` component
+but also update `viewport` meta tag of `index.html` by adding `viewport-fit=cover` value
+by which you instruct browser that you will handle the safe area insets yourself:
+
+```html
+<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1">
+```
+:::
+
+```tsx title="admin/components/LayoutComponent.tsx"
+import { LayoutKit, SafeAreaInsetsProvider } from '@contember/layout'
+import { PropsWithChildren } from 'react'
+import '@contember/layout/index.css'
+
+export function LayoutComponent({ children }: PropsWithChildren) {
+	return (
+		<SafeAreaInsetsProvider>
+			<LayoutKit.Frame
+				header={<h1>Welcome!</h1>}
+				children={children}
+				footer={<p><small>Created with <a className="content-link" href="https://www.contember.com/">AI-assisted Contember Studio</a></small></p>}
+			/>
+		</SafeAreaInsetsProvider>
+	)
+}
+```
+
+## `LayoutKit.Header` and `LayoutKit.Footer`
+
+`LayoutKit.Header` and `LayoutKit.Footer` bars are pre-defined components that provide 3 areas for content – `start`, `center` and `end`.
+
+```tsx title="admin/components/LayoutComponent.tsx"
+import { LayoutKit, SafeAreaInsetsProvider } from '@contember/layout'
+import { PropsWithChildren } from 'react'
+import '@contember/layout/index.css'
+
+export function LayoutComponent({ children }: PropsWithChildren) {
+	return (
+		<SafeAreaInsetsProvider>
+			<LayoutKit.Frame
+				header={
+					<LayoutKit.Header
+						start={<a href="#">Back</a>}
+						center={<h1>Contember</h1>}
+						end={<a href="#">Logout</a>}
+					/>
+				}
+				children={children}
+				footer={
+					<LayoutKit.Footer
+						start={false}
+						center={<p><small>Created with <a className="content-link" href="https://www.contember.com/">AI-assisted Contember Studio</a></small></p>}
+						end={false}
+					/>
+				}
+			/>
+		</SafeAreaInsetsProvider>
+	)
+}
+```
+
+:::tip
+When you pass `false` to `start`, `center` or `end` props, `<div>` wrapper around the area won't be rendered.
+:::
+
+
+You can also create own instance of bar component to create secondary bars, e.g. to create a tab bar with features that are tied to the tab bar only or because `Header` and `Footer` are too coupled to other pieces of the Layout Kit.
+
+```tsx
+import { createLayoutBarComponent } from '@contember/layout'
+
+export const MyHeader = createLayoutBarComponent({
+	name: 'my-header',
+	defaultAs: 'header',
+	displayName: 'MyHeader',
+})
+```
+
+## `LayoutKit.ContentMainPanel`
+
+`LayoutKit.ContentMainPanel` is a pre-defined component that provides a main panel for your content,
+it accepts `header` and `footer`, or `body` via props and is always visible.
+
+```tsx title="admin/components/LayoutComponent.tsx"
+import { LayoutKit, SafeAreaInsetsProvider } from '@contember/layout'
+import { PropsWithChildren } from 'react'
+import '@contember/layout/index.css'
+
+export function LayoutComponent({ children }: PropsWithChildren) {
+	return (
+		<SafeAreaInsetsProvider>
+			<LayoutKit.Frame
+				header={<h1>Welcome!</h1>}
+				footer={<p><small>Created with <a className="content-link" href="https://www.contember.com/">AI-assisted Contember Studio</a></small></p>}
+			>
+				<LayoutKit.ContentMainPanel
+					header={<h2>My content</h2>}
+					body={children}
+				/>
+			</LayoutKit.Frame>
+		</SafeAreaInsetsProvider>
+	)
+}
+```
+
+You can also create own instance of content panel component:
+
+```tsx
+import { createLayoutContentPanelComponent } from '@contember/layout'
+
+export const MyContentPanel: createLayoutContentPanelComponent({
+	name: 'my-content-panel',
+	defaultAs: 'section',
+	displayName: 'MyContentPanel',
+})
+```
+
+## `LayoutKit.SidebarLeft` and `LayoutKit.SidebarRight`
+
+`LayoutKit.SidebarLeft` and `LayoutKit.SidebarRight` are pre-defined components that provide a sidebar for your content,
+it accepts `header` and `footer`, or `body` via props and both are collapsible, meaning they will hide automatically when
+there is not enough space for them and you can close any of them using the `Escape` key.
+
+To open the sidebar, you can use `<LayoutKit.ToggleMenuButton />` or `<LayoutKit.ToggleSidebarButton />` components.
+
+
+```tsx title="admin/components/LayoutComponent.tsx"
+import { LayoutKit, SafeAreaInsetsProvider } from '@contember/layout'
+import { PropsWithChildren } from 'react'
+import { Navigation } from './Navigation'
+import '@contember/layout/index.css'
+
+export function LayoutComponent({ children }: PropsWithChildren) {
+	return (
+		<SafeAreaInsetsProvider>
+			<LayoutKit.Frame
+				header={(
+					<LayoutKit.Header
+						start={<a href="#">Back</a>}
+						center={<h1>Contember</h1>}
+						end={<LayoutKit.ToggleMenuButton panelName={LayoutKit.SidebarLeft.NAME} />}
+					/>
+				)}
+				footer={<p><small>Created with <a className="content-link" href="https://www.contember.com/">AI-assisted Contember Studio</a></small></p>}
+			>
+				<LayoutKit.SidebarLeft
+					header={<h2>My sidebar</h2>}
+					body={<Navigation />}
+				/>
+				{children}
+			</LayoutKit.Frame>
+		</SafeAreaInsetsProvider>
+	)
+}
+```
+
+You can also create own instance of sidebar component:
+
+```tsx
+import { createLayoutSidebarComponent } from '@contember/layout'
+
+export const MySidebar = createLayoutSidebarComponent({
+		name: 'my-sidebar',
+		defaultAs: 'aside',
+		displayName: 'MySidebar',
+	}),
+```
+
+## Context Providers
+
+`LayoutKit` panels also include their own providers. If you are using them you don't need to include those as global ones.

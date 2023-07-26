@@ -5,11 +5,11 @@ title: Building the UI
 import DocsCard from '../../src/components/global/DocsCard';
 import DocsCards from '../../src/components/global/DocsCards';
 
-Now we're going to work with Contember Interface. It's a React framework for fast custom UI building. Contember Engine can work separately as a GraphQL API, but, it's often used with Interface to quickly build interface for users that need to work with data.
+Contember Interface is a React framework for building fast custom UIs. Contember Engine can work separately as an **headless GraphQL API**, but together with Interface you can quickly build interface for users that need to work with data right away.
 
-In this example we'll create just a simple UI. But with Interface, you can use any React component. This lets you build almost any single page application. Data binding also makes this very easy and fast.
+In this example we will create an UI for managing articles. You can use any React components alongside the Interface components. Data binding makes this very easy and fast to build almost any **single page application (SPA)** imaginable.
 
-## Building simple UI
+## Building user interfaces
 
 :::note important
 
@@ -19,33 +19,40 @@ Before we start, make sure you already have a Contember project running on your 
 
 :::tip New
 
-In Interface 1.2 we are introducing new layout with `Slots` and `Directives` which replaces `Pages`. The upgrade is smooth but it gives you way more power. [About new layouts](/reference/admin/layouts/overview)
+In Interface 1.2 we are introducing new [`LayoutKit`](/reference/admin/layouts/layout-kit) that fully embraces new [`Scopes`](/reference/admin/pages/scopes). Together with [`Slots`](/reference/admin/layouts/slots) nad [`Directives`](/reference/admin/layouts/directives) it replaces [legacy `Pages`](/reference/admin/pages/pages-components). The upgrade is smooth and it gives you way more power and options how you can build layouts. [About new layouts](/reference/admin/layouts/overview)
 
 :::
 
 ### List all articles
 
-First, we want to create a display for all articles present in our project. To achieve this, we're using the DataGridPage component. This component generates a table, including filters for sorting and searching data.
+First, we want to create a display for all articles present in our project. To achieve this, we're using the `DataGridScope` component. This component generates a table, including filters for sorting and searching data.
 
 To start, navigate to admin/pages and create a new file named articleList.tsx.
 
 ```tsx title="admin/pages/articleList.tsx"
 import * as React from 'react'
-import { DataGridPage, TextCell } from '@contember/admin'
+import { DataGridScope, TextCell } from '@contember/admin'
+import { SlotSources } from '../components/Slots'
+
+const { Title } = SlotSources
 
 export default () => (
-  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
-    <TextCell field="title" header="Title" />
-  </DataGridPage>
+  <>
+    <Title>Articles</Title>
+    <DataGridScope entities="Article">
+      <TextCell field="title" header="Title" />
+    </DataGridScope>
+  </>
 )
 ```
 
 What we've created here is a page that renders a table listing all the articles in our project. The table includes a column for the title of each article. Let's break down what's happening:
 
-1. We begin by importing the @contember/admin package. This package contains all necessary components and also supports TypeScript autocompletion.
+1. We begin by importing the `@contember/admin` package. This package contains all necessary components and also supports TypeScript autocompletion.
+2. We also import the `SlotSources` component namespace from `../components/Slots` used to define the title of our page. To learn more about this, see the [Slots](/reference/admin/layouts/slots#2-creating-your-own-slots) documentation.
 2. Next, we export the page component as the default export. This is necessary for our routing and navigation.
-3. We implement the DataGridPage component to display our data in a simple, easy-to-read grid format.
-4. We specify the entity we want to work with, which in this case is Article. This entity name should match what we defined in our model.
+3. We implement the `DataGridScope` component to display our data in a simple, easy-to-read grid format.
+4. We specify the entity we want to work with, which in this case is `Article`. This entity name should match what we defined in our model.
 5. Lastly, we use the TextCell component to add a text column, designated for the title of each article.
 
 When you navigate to localhost:1480/article-list, you should now see a list of your articles. Keep in mind, this list will be empty if no articles have been added to the data model yet.
@@ -70,18 +77,27 @@ Now we're moving on to creating an article. For this, we'll make a new file call
 
 ```tsx title="admin/pages/articleCreate.tsx"
 import * as React from 'react'
-import { CreatePage, RichTextField, TextField } from '@contember/admin'
+import { CreateScope, PersistButton, RichTextField, TextField } from '@contember/admin'
+import { SlotSources } from '../components/Slots'
+
+const { Title, Actions } = SlotSources
 
 export default () => (
-  <CreatePage entity="Article" rendererProps={{ title: 'Create Article' }}>
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </CreatePage>
+  <>
+    <Title>Create Article</Title>
+    <CreateScope entity="Article">
+      <TextField field="title" label="Title" />
+      <RichTextField field="content" label="Content" />
+      <Actions>
+        <PersistButton />
+      </Actions>
+    </CreateScope>
+  </>
 )
 ```
 
 1. First, we're creating a new file named articleCreate.tsx in the admin/pages directory.
-2. We're using the CreatePage component. This component allows us to create new entries for our specified entity - in this case, an Article.
+2. We're using the `CreateScope` component. This component allows us to create new entries for our specified entity - in this case, an Article.
 3. We're defining the entity we're adding, which is Article again.
 4. We're employing two components to capture user input: `TextField` and `RichTextField`. These components are connected to the `title` and `content` fields of our `Article` entity respectively.
 
@@ -95,20 +111,29 @@ Now we're going to tackle editing an article. To do this, we'll create a new pag
 
 ```tsx title="admin/pages/articleEdit.tsx"
 import * as React from 'react'
-import { EditPage, RichTextField, TextField } from '@contember/admin'
+import { EditScope, PersistButton, RichTextField, TextField } from '@contember/admin'
+import { SlotSources } from '../components/Slots'
+
+const { Title, Actions } = SlotSources
 
 export default () => (
-	<EditPage entity="Article(id = $id)" rendererProps={{ title: 'Edit Article' }}>
-		<TextField field="title" label="Title" />
-		<RichTextField field="content" label="Content" />
-	</EditPage>
+  <>
+    <Title>Edit Article</Title>
+    <EditScope entity="Article(id = $id)">
+      <TextField field="title" label="Title" />
+      <RichTextField field="content" label="Content" />
+      <Actions>
+        <PersistButton />
+      </Actions>
+    </EditScope>
+  </>
 )
 ```
 
 Here's the breakdown of this code:
 
 1. We start by creating a new file named articleEdit.tsx in the `admin/pages` directory.
-2. We're using the `EditPage` component this time. This component is similar to `CreatePage` but it is used for modifying existing entities.
+2. We're using the `EditScope` component this time. This component is similar to `CreateScope` but it is used for modifying existing entities.
 3. We specify which Article entity we want to edit by providing an id: `Article(id = $id)`. This id will be dynamically populated based on the article selected for editing.
 4. Like before, we're using `TextField` and `RichTextField` components to handle editing for the title and content fields respectively.
 
@@ -116,27 +141,35 @@ Now, with this new edit page in place, you'll be able to modify existing article
 
 ```tsx title="admin/pages/articleCreate.tsx"
 import * as React from 'react'
-import { CreatePage, RichTextField, TextField } from '@contember/admin'
+import { CreateScope, PersistButton, RichTextField, TextField } from '@contember/admin'
+import { SlotSources } from '../components/Slots'
+
+const { Title, Actions } = SlotSources
 
 export default () => (
-  <CreatePage
-    entity="Article"
-    rendererProps={{ title: 'Create Article' }}
-    {/* highlight-start */}
-    redirectOnSuccess="articleEdit(id: $entity.id)"
-    {/* highlight-end */}
-  >
-    <TextField field="title" label="Title" />
-    <RichTextField field="content" label="Content" />
-  </CreatePage>
+  <>
+    <Title>Create Article</Title>
+
+    <CreateScope
+      entity="Article"
+      {/* highlight-next-line */}
+      redirectOnSuccess="articleEdit(id: $entity.id)"
+    >
+      <TextField field="title" label="Title" />
+      <RichTextField field="content" label="Content" />
+      <Actions>
+        <PersistButton />
+      </Actions>
+    </CreateScope>
+  </>
 )
 ```
 
 This is done with `redirectOnSuccess` prop where we specify link to page where user should be redirected. This is our first encounter with Contember Interface query language. Now if you create a new article you're automatically redirected to the edit page.
 
 <DocsCards>
-  <DocsCard header="All pages" href="/reference/admin/pages/overview/">
-    <p>Explanation of all pages components.</p>
+  <DocsCard header="All scopes" href="/reference/admin/pages/scopes">
+    <p>Explanation of all scope components.</p>
   </DocsCard>
   <DocsCard header="Query language" href="/reference/admin/data-binding/query-language">
     <p>Learn query language to specify entities, fields, and filters.</p>
@@ -145,20 +178,29 @@ This is done with `redirectOnSuccess` prop where we specify link to page where u
 
 ### More cells in datagrid
 
-Next, let's enhance our data grid with additional cells to open detail or delete an article.
+Next, let's enhance our data grid with additional cells to open detail, create new or delete an existing article.
 
 ```tsx title="admin/pages/articleList.tsx"
 import * as React from 'react'
-import { DataGridPage, DeleteEntityButton, GenericCell, Link, TextCell } from '@contember/admin'
+import { DataGridScope, DeleteEntityButton, GenericCell, Link, LinkButton, TextCell } from '@contember/admin'
+import { SlotSources } from '../components/Slots'
+
+const { Title, Actions } = SlotSources
 
 export default () => (
-  <DataGridPage entities="Article" rendererProps={{ title: 'Articles' }}>
+  <Title>Articles</Title>
+  {/* highlight-start */}
+  <Actions>
+    <LinkButton to="articleCreate">Add article</LinkButton>
+  </Actions>
+  {/* highlight-end */}
+  <DataGridScope entities="Article">
     <TextCell field="title" header="Title" />
     {/* highlight-start */}
     <GenericCell shrunk><Link to="articleEdit(id: $entity.id)">Edit</Link></GenericCell>
     <GenericCell shrunk><DeleteEntityButton immediatePersist /></GenericCell>
     {/* highlight-end */}
-  </DataGridPage>
+  </DataGridScope>
 )
 ```
 
@@ -168,8 +210,9 @@ Let's break this down:
 2. The first `GenericCell` includes a [Link component](/reference/admin/pages/links/). This links to the `articleEdit` page and passes the id of the current row's entity as a parameter. This lets us navigate directly to the edit page for a specific article.
 3. The second `GenericCell` incorporates a `DeleteEntityButton`. This allows users to delete a specific article directly from the data grid.
 4. We're using the `shrunk` property on both `GenericCell` components. This keeps these cells as small as possible, ensuring that they don't take up unnecessary space in the data grid.
+5. We've also added a new `LinkButton` component to the `Actions` slot. This button links to the `articleCreate` page, allowing users to create a new article directly from the data grid.
 
-Now, with these additions, our data grid is more functional, providing quick access to both editing and deleting articles.
+Now, with these additions, our data grid is more functional, providing quick access to both editing, creating and deleting articles.
 
 ### Add pages to side menu
 

@@ -1,6 +1,6 @@
-import chroma from "chroma-js"
-import { COLORS_COUNT } from "../Config"
-import list from './list'
+import chroma from "chroma-js";
+import { WEIGHT_MAXIMUM } from "../Config";
+import { blackOnWhite as list } from './blackOnWhite';
 
 export function scaleGradient(
   lightHex: string,
@@ -11,24 +11,13 @@ export function scaleGradient(
   const lightColor = chroma(lightHex);
   const middleColor = chroma(middleHex);
 
-  // const targetHSV_h = color.get("hsv.h");
-  // const targetHSV_s = color.get("hsv.s");
-
   const scale = chroma
     .scale([lightColor, middleColor, color])
     .mode("lab")
     .correctLightness()
-    .colors(COLORS_COUNT);
+    .colors(WEIGHT_MAXIMUM + 1);
 
   return list.map((luminance, index) => {
-    let color: chroma.Color = chroma(scale[index]).luminance(luminance);
-
-    // const lightness = color.get("hcl.l");
-    // color = color.set("hsv.s", targetHSV_s);
-    // color = iterateToLightness(color, lightness);
-
-    // color = iterateToSaturation(color, targetHSV_s);
-
-    return color;
-  });
+    return chroma(scale[index]).luminance(luminance)
+  }).filter((_, index) => index % 25 === 0)
 }

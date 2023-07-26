@@ -5,11 +5,9 @@ import {
   Icon,
   Spacer,
   Stack,
-  toSchemeClass,
   toStateClass,
 } from '@contember/ui'
-import { useColorMode } from '@docusaurus/theme-common'
-import classNames from "classnames"
+import "@contember/ui/index.css"
 import * as React from 'react'
 import {
   CONTEMBER_THEMES,
@@ -18,7 +16,7 @@ import {
   WHITE_SPACE
 } from "../Config"
 import { copyTextToClipboard, cssToSASS, indentText } from "../Helpers"
-import { scaleGradient, scaleToColorWeightMap, scaleToCSSProperties } from "../Scale"
+import { scaleGradient, scaleToCSSProperties, scaleToColorWeightMap } from "../Scale"
 import { ColorInput } from './ColorInput'
 import { Scale } from "./Scale"
 
@@ -31,14 +29,8 @@ function useColorInputProps(name: ThemeName, colors: [string, string, string], o
   const [middleHex, setMiddleHex] = React.useState(colors[1])
   const [hex, setHex] = React.useState(colors[2])
 
-  // const scale = React.useMemo(() => scaleGradient(lightHex, middleHex, hex), [
-  //   lightHex,
-  //   middleHex,
-  //   hex,
-  // ])
-
   React.useEffect(() => {
-    const [initialLightHex, initialMiddleHex, initialHex ] = initial.current
+    const [initialLightHex, initialMiddleHex, initialHex] = initial.current
     const similarWithInitial =
       initialLightHex === lightHex
       && initialMiddleHex === middleHex
@@ -88,7 +80,7 @@ const Theme = ({
   editing?: boolean,
   name: ThemeName,
   onChange: ThemeChangeCallback,
-  onEditFactory: (name: ThemeName) => () => void,
+    onEditFactory: (name: ThemeName | null) => () => void,
 }) => {
   const { onReset, ...colorInputProps } = useColorInputProps(name, colors, onChange)
   const onEdit = React.useCallback(onEditFactory(name), [name])
@@ -128,7 +120,7 @@ const Theme = ({
   </Scale>
 }
 
-type DirtyThemesMap = {[ Property in ThemeName]: boolean }
+type DirtyThemesMap = { [Property in ThemeName]: boolean }
 
 const ThemeEditor = React.memo(({
   dirty,
@@ -139,7 +131,7 @@ const ThemeEditor = React.memo(({
   themeEntries: ThemeEntries,
   onThemesChange: ThemeChangeCallback,
 }) => {
-  const [editingTheme, setEditingTheme] = React.useState<ThemeName>(null)
+  const [editingTheme, setEditingTheme] = React.useState<ThemeName | null>(null)
   const onEditFactory = React.useCallback((name: ThemeName | null) => () => {
     setEditingTheme(name)
   }, [])
@@ -166,25 +158,23 @@ ThemeEditor.displayName = 'ThemeEditor'
 type ThemeEntries = [ThemeName, [string, string, string]][]
 
 function themeEntriesToCSS(themeEntries: ThemeEntries) {
-  return `:root {\n${themeEntries
+  return `:where(.cui-root) {\n${themeEntries
     .map(
-      ([name, [lightHex, middleHex, hex ]]) =>
-        `${WHITE_SPACE}/* ${name}: [${lightHex}, ${middleHex}, ${hex}] */\n${indentText(
+      ([name, [lightHex, middleHex, hex]]) =>
+        `${WHITE_SPACE}/* ${name}: [${lightHex}, ${middleHex}, ${hex}] */\n${WHITE_SPACE}${indentText(
           scaleToCSSProperties(
-            `${PREFIX}-theme-${name}`,
+            `${PREFIX}-theme-${name}-rgb`,
             scaleToColorWeightMap(scaleGradient(lightHex, middleHex, hex))
           )
             .reverse()
-            .join(";\n")
-        )};\n`
+            .join(`;\n${WHITE_SPACE}`)
+        )};\n${WHITE_SPACE}`
     )
     .join("\n")}}\n`
 }
 
 export const Generator = React.memo(() => {
-  const { colorMode } = useColorMode()
   const [verbose, setVerbose] = React.useState(false)
-
   const [themes, setThemes] = React.useState(CONTEMBER_THEMES)
   const themeEntries = React.useMemo(() => Object.entries(themes) as ThemeEntries, [themes])
 
@@ -219,7 +209,9 @@ export const Generator = React.memo(() => {
 
   const changedThemeEntries = React.useMemo(() => themeEntries.filter(([name]) => dirtyThemes.current[name]), [themeEntries])
 
-  const cssResult =  changedThemeEntries.length === 0
+  const allCSSResult = themeEntriesToCSS(themeEntries)
+
+  const cssResult = changedThemeEntries.length === 0
     ? '/* Edit theme colors to see changes */'
     : themeEntriesToCSS(changedThemeEntries)
 
@@ -227,43 +219,28 @@ export const Generator = React.memo(() => {
     await copyTextToClipboard(cssResult);
   }, [cssResult])
 
-  const copySASSToClipboard = React.useCallback(async () => {
-    await copyTextToClipboard(cssToSASS(cssResult));
-  }, [cssResult]);
-
-  const palettesConfig = React.useMemo(() => 'export const palette = ' + JSON.stringify(themeEntries.map(
-    ([name, [lightHex, middleHex, hex ]]) => ({
-      hex,
-      name,
-      colors: scaleGradient(lightHex, middleHex, hex).map(color => color.hex())
-    })
-  ), null, "\t"), [])
-
-  const copyPalettesToClipboard = React.useCallback(async () => {
-    await copyTextToClipboard(palettesConfig)
-  }, [palettesConfig])
-
-  return <Stack direction='vertical' className={classNames(
-    'theming-generator',
-    toSchemeClass(colorMode === 'dark' ? 'dark' : 'light'),
-  )}>
-    <Stack align="center" direction="horizontal" className="sm:flex-wrap">
-      <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
-      <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="outlined" onClick={copySASSToClipboard}>Copy SASS</Button>
-      {verbose && <Button distinction="outlined" onClick={copyPalettesToClipboard}>Copy palettes config</Button>}
-      {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
-      <Spacer className="flex-grow" />
-      <FieldContainer label="Verbose" labelPosition="labelInlineRight">
-        <Checkbox notNull value={verbose} onChange={setVerbose} />
-      </FieldContainer>
+  const copyAllCSSToClipboard = React.useCallback(async () => {
+    await copyTextToClipboard(allCSSResult);
+  }, [allCSSResult])
+  return (
+    <Stack direction='vertical' className="theming-generator scheme-system">
+      <Stack align="center" direction="horizontal" className="sm:flex-wrap">
+        <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
+        {verbose && <Button distinction="outlined" onClick={copyAllCSSToClipboard}>Copy All CSS</Button>}
+        {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
+        <Spacer className="flex-grow" />
+        <FieldContainer label="Verbose" labelPosition="labelInlineRight">
+          <Checkbox notNull value={verbose} onChange={it => setVerbose(!!it)} />
+        </FieldContainer>
+      </Stack>
+      <ThemeEditor
+        dirty={dirtyThemes.current}
+        themeEntries={themeEntries}
+        onThemesChange={onThemesChange}
+      />
+      {verbose && <div className="is-visible-style">{cssResult}</div>}
+      <style>{themeEntriesToCSS(themeEntries)}</style>
     </Stack>
-    <ThemeEditor
-      dirty={dirtyThemes.current}
-      themeEntries={themeEntries}
-      onThemesChange={onThemesChange}
-    />
-    {verbose && <div className="is-visible-style">{cssResult}</div>}
-    <style>{themeEntriesToCSS(themeEntries)}</style>
-  </Stack>
+  )
 })
 Generator.displayName = 'Generator'

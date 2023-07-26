@@ -5,7 +5,8 @@ export const Layout = ({
   children: pages,
 }: React.PropsWithChildren) => (
   <>
-    <MyCustomLayout />
-    {pages}
+    <MyCustomLayout>
+      {pages}
+    </MyCustomLayout>
   </>
 )
