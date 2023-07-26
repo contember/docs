@@ -41,6 +41,7 @@ module.exports = {
 				},
 				"intro/interface",
 				"intro/deployment",
+				"intro/actions",
 			],
 		},
 
@@ -226,6 +227,7 @@ module.exports = {
 				'guides/seo',
 				'guides/acl-definition',
 				'guides/outdated-application',
+				'guides/superface',
 			],
 		},
 		{

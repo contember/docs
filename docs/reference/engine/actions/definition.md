@@ -7,7 +7,7 @@ title: Actions definition
 This section of the documentation will guide you through the syntax and definition of Actions, facilitating their optimal utilization within your applications.
 
 :::note
-While working with Actions in Contember, please remember that any addition or modification of Actions necessitates the generation and application of [schema migrations](../schema/migrations.md).
+Keep in mind, whenever you add or modify Actions in Contember, it's essential to create and apply schema migrations. This ensures your changes are correctly integrated. You can learn more about [schema migrations](../schema/migrations.md).
 :::
 
 ## Defining a Watch Action
@@ -25,7 +25,7 @@ import { SchemaDefinition as def, ActionsDefinition as actions } from '@contembe
   name: 'action_name',
   watch: `fields_to_watch`,
   webhook: 'webhook_url',
-  selection: 'optional_selection_for_payload',	
+  selection: 'optional_selection_for_payload',
 })
 export class YourEntity {
   // Entity properties and relationships
@@ -125,7 +125,7 @@ export class Order {
 
 ## Webhook Configuration
 
-The `webhook` property determines the URL where the webhook notification will be dispatched. This could be an external service or an endpoint within your own application that processes the webhook payload. 
+The `webhook` property determines the URL where the webhook notification will be dispatched. This could be an external service or an endpoint within your own application that processes the webhook payload.
 
 ### Advanced Webhook Options
 
