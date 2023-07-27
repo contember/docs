@@ -31,9 +31,9 @@
     ]
   },
   "devDependencies": {
-    "@contember/admin": "1.2.0-rc.11",
-    "@contember/layout": "1.2.0-rc.11",
-    "@contember/react-utils": "1.2.0-rc.11",
+    "@contember/admin": "1.2.0-rc.12",
+    "@contember/layout": "1.2.0-rc.12",
+    "@contember/react-utils": "1.2.0-rc.12",
     "@contember/schema": "1.2.1",
     "@contember/schema-definition": "1.2.1",
     "@docusaurus/module-type-aliases": "^2.4.0",

@@ -15,7 +15,7 @@ import {
   ThemeName,
   WHITE_SPACE
 } from "../Config"
-import { copyTextToClipboard, cssToSASS, indentText } from "../Helpers"
+import { copyTextToClipboard, indentText } from "../Helpers"
 import { scaleGradient, scaleToCSSProperties, scaleToColorWeightMap } from "../Scale"
 import { ColorInput } from './ColorInput'
 import { Scale } from "./Scale"
@@ -161,7 +161,7 @@ function themeEntriesToCSS(themeEntries: ThemeEntries) {
   return `:where(.cui-root) {\n${themeEntries
     .map(
       ([name, [lightHex, middleHex, hex]]) =>
-        `${WHITE_SPACE}/* ${name}: [${lightHex}, ${middleHex}, ${hex}] */\n${WHITE_SPACE}${indentText(
+        `${WHITE_SPACE}/* ${name}: [${lightHex}, ${middleHex}, ${hex}] */\n${indentText(
           scaleToCSSProperties(
             `${PREFIX}-theme-${name}-rgb`,
             scaleToColorWeightMap(scaleGradient(lightHex, middleHex, hex))
@@ -223,7 +223,7 @@ export const Generator = React.memo(() => {
     await copyTextToClipboard(allCSSResult);
   }, [allCSSResult])
   return (
-    <Stack direction='vertical' className="theming-generator scheme-system">
+    <Stack className="cui-root theming-generator scheme-system">
       <Stack align="center" direction="horizontal" className="sm:flex-wrap">
         <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
         {verbose && <Button distinction="outlined" onClick={copyAllCSSToClipboard}>Copy All CSS</Button>}
@@ -239,7 +239,7 @@ export const Generator = React.memo(() => {
         onThemesChange={onThemesChange}
       />
       {verbose && <div className="is-visible-style">{cssResult}</div>}
-      <style>{themeEntriesToCSS(themeEntries)}</style>
+      <style>{allCSSResult}</style>
     </Stack>
   )
 })
