@@ -4,7 +4,7 @@ const path = require('path')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Contember',
-	tagline: 'Contember is an open-source platform for frontend developers to build and run bespoke backends with ease.',
+	tagline: 'Contember is an open source platform that empowers developers to quickly build and manage data-driven web applications.',
 	url: 'https://docs.contember.com',
 	baseUrl: '/',
 	favicon: 'img/favicon.png',
@@ -92,7 +92,7 @@ const config = {
 				},
 				{
 					name: 'twitter:description',
-					content: 'Contember is an open-source platform for frontend developers to build and run bespoke backends with ease.',
+					content: 'Contember is an open source platform that empowers developers to quickly build and manage data-driven web applications.',
 				},
 				{
 					name: 'twitter:image',
