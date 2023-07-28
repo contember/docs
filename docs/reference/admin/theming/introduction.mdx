@@ -2,7 +2,7 @@
 title: Theming overview
 ---
 
-import { Spacer, Stack } from '@contember/ui'
+import { Spacer, Stack, StyleProvider } from '@contember/ui'
 import {
   THEMES_LIST_BRANDS,
   THEMES_LIST_SYSTEM,
@@ -19,16 +19,16 @@ With Contember you can change **theme** and **scheme** independently. Contember 
 ## Color themes
 
 **Contember supports 3 color palettes (themes) to suit your branding needs:**
-- <Scale name={THEMES_LIST_BRANDS[0]} direction="horizontal" />
-- <Scale name={THEMES_LIST_BRANDS[1]} direction="horizontal" />
-- <Scale name={THEMES_LIST_BRANDS[2]} direction="horizontal" />
+- <StyleProvider><Scale name={THEMES_LIST_BRANDS[0]} direction="horizontal" /></StyleProvider>
+- <StyleProvider><Scale name={THEMES_LIST_BRANDS[1]} direction="horizontal" /></StyleProvider>
+- <StyleProvider><Scale name={THEMES_LIST_BRANDS[2]} direction="horizontal" /></StyleProvider>
 
 **Besides the branding color palettes, there are system palettes:**
-- <Scale name={THEMES_LIST_SYSTEM[0]} direction="horizontal" />
-- <Scale name={THEMES_LIST_SYSTEM[1]} direction="horizontal" />
-- <Scale name={THEMES_LIST_SYSTEM[2]} direction="horizontal" />
-- <Scale name={THEMES_LIST_SYSTEM[3]} direction="horizontal" />
-- <Scale name={THEMES_LIST_SYSTEM[4]} direction="horizontal" />
+- <StyleProvider><Scale name={THEMES_LIST_SYSTEM[0]} direction="horizontal" /></StyleProvider>
+- <StyleProvider><Scale name={THEMES_LIST_SYSTEM[1]} direction="horizontal" /></StyleProvider>
+- <StyleProvider><Scale name={THEMES_LIST_SYSTEM[2]} direction="horizontal" /></StyleProvider>
+- <StyleProvider><Scale name={THEMES_LIST_SYSTEM[3]} direction="horizontal" /></StyleProvider>
+- <StyleProvider><Scale name={THEMES_LIST_SYSTEM[4]} direction="horizontal" /></StyleProvider>
 
 To generate class names responsible for changing color theme use `toThemeClass(contentTheme, controlsTheme)` helper.
 
@@ -39,24 +39,29 @@ To generate class names responsible for changing color theme use `toThemeClass(c
 - `light` – container and it's descendants will be always displayed in the light mode
 - `dark` – container and it's descendants will be always displayed in the dark mode
 
+<StyleProvider>
 <Stack direction="horizontal" className="md:flex-wrap">
   <ThemePreview heading="Light scheme with default theming" scheme="light" />
   <ThemePreview heading="Dark scheme with default theming" scheme="dark" />
   <ThemePreview heading="System scheme with default theming" scheme="system" />
 </Stack>
+</StyleProvider>
 
 To generate class names responsible for changin color theme use `toSchemeClass(contentTheme, controlsTheme)` helper.
 
 ### Secondary themed controls
 
+<StyleProvider>
 <Stack direction="horizontal" className="md:flex-wrap">
   <ThemePreview heading="Light scheme with secondary themed primary button on default content theme" scheme="light" themeControls="secondary" />
   <ThemePreview heading="Dark scheme with secondary themed primary button on default content theme" scheme="dark" themeControls="secondary" />
   <ThemePreview heading="System scheme with secondary themed primary button on default content theme" scheme="system" themeControls="secondary" />
 </Stack>
+</StyleProvider>
 
 ### Examples of combinations
 
+<StyleProvider>
 <Stack direction="horizontal" className="md:flex-wrap">
   <ThemePreview heading="Light scheme with success theme for content and positive for primary button and content" scheme="light" theme="success" themeControls="positive" />
   <ThemePreview heading="Dark scheme with success theme for content and positive for primary button and content" scheme="dark" theme="success" themeControls="positive" />
@@ -70,82 +75,49 @@ To generate class names responsible for changin color theme use `toSchemeClass(c
   <ThemePreview heading="Dark scheme with danger themed primary button on primary themed content" scheme="dark" theme="primary" themeControls="danger" controls />
   <ThemePreview heading="System scheme with danger themed primary button on primary themed content" scheme="system" theme="primary" themeControls="danger" controls />
 </Stack>
+</StyleProvider>
 
-## Theming the Layout
+## Theming interface
 
-With `Layout` component you are already able to set theme and scheme on 3 main parts of your admin application:
+In Contember you need to use `ColorSchemeProvider` to set the color schema for its children. The `ColorSchemeProvider` accepts `scheme` prop which can be either `light`, `dark` or `system`.
 
-1. The whole app, including the side bar with navigation
-2. Page content (applied by the `PageLayout` component)
-3. Title bar of the page content (applied by the `PageLayout` component)
-
-### Scheme props
-
-Prop          | Type     | Description
---------------|----------|------------
-`scheme`      | [`Scheme`](#appendix-available-theme-and-scheme-values) | Sets the scheme of all layout parts
-`pageScheme`  | [`Scheme`](#appendix-available-theme-and-scheme-values) | Sets the page scheme of the page part of the layout
-`titleScheme` | [`Scheme`](#appendix-available-theme-and-scheme-values) | Sets the scheme of the page title
-
-### Theme props
-
-You can fine-tune layout using only the props to target specific regions of the layout, also you can target the content of the controls independently. See the table for the list of affected regions by the props.
-
-Prop                 | Type     | Lyout content | Layout controls | Page content | Page controls | Page title content | Page title controls |
----------------------|----------|:-------------:|:---------------:|:------------:|:-------------:|:------------------:|:-------------------:|
-`theme`              | [`Intent`](#appendix-available-theme-and-scheme-values) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
-`themeContent`       | [`Intent`](#appendix-available-theme-and-scheme-values) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌
-`themeControls`      | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ✅ | ❌ | ✅ | ❌ | ✅
-`pageTheme`          | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ✅ | ✅ | ✅ | ✅
-`pageThemeContent`   | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ✅ | ❌ | ✅ | ❌
-`pageThemeControls`  | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ✅ | ❌ | ✅
-`titleTheme`         | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅
-`titleThemeContent`  | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌
-`titleThemeControls` | [`Intent`](#appendix-available-theme-and-scheme-values) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅
-
-### Layout code example
+Content and controls theme can be set using `contentThemeClassName` and `controlsThemeClassName` helper functions. These functions accept `theme` argument which can be either `primary`, `secondary`, `tertiary`, `success`, `warn` or `danger`.
 
 ```tsx
-<Layout
-    sidebarHeader={<a href="#home"><Icon blueprintIcon="home" /> ACME</a>}
-    navigation={<Menu id="main-navigation">
-      <Menu.Item>
-        <Menu.Item title="Foo" href="#" />
-        <Menu.Item title="Bar" href="#" />
-      </Menu.Item>
-    </Menu>}
-    sidebarFooter={<a href="#logout">Log out</a>}
-    scheme="dark" // The full layout is in dark mode and ignore the system settings
-    // pageScheme="system" // Uncomment to allow page section to adapt to system mode
-    // titleScheme="dark" // Uncomment to set page title in dark mode and ignore the system settings
-    theme="default" // Both content and controls are colorless...
-    pageTheme="secondary" // ... however the page theme is in secondary theme...
-    titleTheme="secondary" // ... and the title theme is secondary too.
-    // themeContent="tertiary" // Uncomment to override theme prop of the content
-    // themeControls="secondary" // Uncomment to override theme prop of the control components
-    // pageThemeContent="success" // turns page contents green
-    // pageThemeControls="danger" // turns controls red
-    // titleThemeContent="tertiary" // turns page title contents violet
-    // titleThemeControls="primary" // // turns page title controls to primary blue
-  >
-    <LayoutPage title="Hello world!">
-      <Box>
-        <FieldContainer label="Your email">
-          <TextInput name="email" />
-        </FieldContainer>
-        <Spacer />
-        <Button distinction="primary">Continue</Button>
+import { Box, Button, Intent, Scheme, } from "@contember/admin"
+import { ColorSchemeProvider } from "@contember/react-utils"
+import { colorSchemeClassName, contentThemeClassName, controlsThemeClassName, listClassName } from '@contember/utilities'
+
+export const Example = ({
+  scheme,
+  themeContent,
+  themeControls,
+}: {
+  scheme: Scheme,
+  themeContent?: Intent,
+  themeControls?: Intent,
+}) => {
+  const colorScheme = colorSchemeClassName(scheme)
+  const contentTheme = contentThemeClassName(themeContent ?? theme)
+  const controlsTheme = controlsThemeClassName(themeControls ?? theme)
+
+  return (
+    <ColorSchemeProvider scheme={scheme}>
+      <Box className={listClassName([colorScheme, contentTheme, controlsTheme])}>
+        <Button intent={themeControls}>Button with intent</Button>
+        <Button distinction="inverse">Inverse button</Button>
+        <Button distinction="primary" intent={themeControls}>I am important!</Button>
+        <Button distinction="toned">Toned button</Button>
+        <Button disabled>Disabled</Button>
       </Box>
-    </LayoutPage>
-  </Layout>`}
-/>
+    </ColorSchemeProvider>
+  )
+}
 ```
 
 ## Appendix: Available theme and scheme values
 
 Type | Values
 -----|--------
-Scheme | `"system"`, `"light"`, `"light-above"`, `"light-below"`, `"dark"`, `"dark-above"` or `"dark-below"`
-Intent | `"primary"`, `"secondary"`, `"tertiary"`, `"positive"`, `"success"`, `"warn"` or `"danger"`
-
-_**Note:** Internally, Contember uses the `*-above` schema variants to make compoents stand out (lighter) and `*-below` schema variants to push them a litthe to the back (darker). We don't endorse nor discourage you to use these in your layouts._
+Scheme | `"system"`, `"light"` or `"dark"`
+Intent | `"accent"`, `"primary"`, `"secondary"`, `"tertiary"`, `"positive"`, `"success"`, `"warn"` or `"danger"`
