@@ -4,9 +4,7 @@
   border-style: solid;
   border-radius: 0.25em;
   display: flex;
-  flex-basis: 10em;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-basis: 8em;
   gap: 1em;
   position: relative;
 }

@@ -6,7 +6,7 @@ import { indexToWeight } from '../Helpers'
 import { arrayRange } from '../Helpers/arrayRange'
 import { Swatch } from './Swatch'
 
-type SlaceProps = {
+type ScaleProps = {
   actions?: React.ReactNode,
   direction?: 'vertical' | 'horizontal',
   elevated?: boolean,
@@ -17,13 +17,13 @@ type SlaceProps = {
 
 const weights = arrayRange(COLORS_COUNT).map(v => indexToWeight(COLORS_COUNT, v))
 
-export const Scale = ({ actions, children, className, elevated, name, direction = 'vertical', verbose = false }: SlaceProps) => {
+export const Scale = ({ actions, children, className, elevated, name, direction = 'vertical', verbose = false }: ScaleProps) => {
   const { colorMode } = useColorMode()
 
   return (
     <Stack
       gap="none"
-      direction={direction}
+      horizontal={direction === 'horizontal'}
       className={`theming-scale ${toStateClass('elevated', elevated)} ${className || ''} scheme-${colorMode === 'dark' ? 'dark' : 'light'}`}
     >
       <Stack
@@ -41,16 +41,19 @@ export const Scale = ({ actions, children, className, elevated, name, direction 
       {children}
       <Stack
         gap="none"
-        direction={direction}
+        horizontal={direction === 'horizontal'}
         className="theming-scale-list"
       >
-        {weights.map(weight => <Swatch
-          key={weight}
-          property={`--cui-theme-${name}-rgb-${weight}`}
-          weight={weight}
-        >
-          {verbose ? <small>{weight}</small> : null}
-        </Swatch>)}
+        {weights.map(weight => (
+          <Swatch
+            key={weight}
+            property={`--cui-theme-${name}-rgb-${weight}`}
+            weight={weight}
+          >
+            {/* {verbose ?  : null} */}
+            <small>{weight}</small>
+          </Swatch>
+        ))}
       </Stack>
     </Stack>
   )
