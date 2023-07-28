@@ -10,7 +10,6 @@ import {
   Scale,
   Swatch,
 } from "@src/theming"
-import LiveCode from "@src/components/liveCode"
 
 With Contember you can change **theme** and **scheme** independently. Contember combine theme for content and controls with light and dark scheme resulting in many flexible combinations. By default, the content is themed with **default** theme and controls in **primary** theme.
 
@@ -106,9 +105,8 @@ Prop                 | Type     | Lyout content | Layout controls | Page content
 
 ### Layout code example
 
-<LiveCode
-  noPreviewPadding
-  code={`<Layout
+```tsx
+<Layout
     sidebarHeader={<a href="#home"><Icon blueprintIcon="home" /> ACME</a>}
     navigation={<Menu id="main-navigation">
       <Menu.Item>
@@ -141,6 +139,7 @@ Prop                 | Type     | Lyout content | Layout controls | Page content
     </LayoutPage>
   </Layout>`}
 />
+```
 
 ## Appendix: Available theme and scheme values
 
