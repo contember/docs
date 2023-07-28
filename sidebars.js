@@ -228,6 +228,7 @@ module.exports = {
 				'guides/acl-definition',
 				'guides/outdated-application',
 				'guides/superface',
+				'guides/migration-from-v1-1',
 			],
 		},
 	],
