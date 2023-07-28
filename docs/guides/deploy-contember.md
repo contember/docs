@@ -18,7 +18,7 @@ Go to https://contember.cloud and create an account if you don't have one. After
 You should receive an email with a link to sign into administration. You don't need it right now - we will come back to it.
 
 
-On your project's page in Contember Cloud console click on a "Create new deploy token" to create a deploy command with your deploy secret token.
+On your project's page in Contember Cloud console click on "Deploy token" to create a deploy command with your deploy secret token.
 
 ![Contember Cloud: project detail](/assets/cloud-project-detail-v2.png)
 
