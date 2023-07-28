@@ -5,9 +5,9 @@ import {
   Icon,
   Spacer,
   Stack,
+  StyleProvider,
   toStateClass,
 } from '@contember/ui'
-import "@contember/ui/index.css"
 import * as React from 'react'
 import {
   CONTEMBER_THEMES,
@@ -20,14 +20,31 @@ import { scaleGradient, scaleToCSSProperties, scaleToColorWeightMap } from "../S
 import { ColorInput } from './ColorInput'
 import { Scale } from "./Scale"
 
+function useDebouncedState<S>(initialState: S | (() => S), timeout: number = 300) {
+  const [state, setState] = React.useState(initialState)
+  const timeoutRef = React.useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const setDebouncedState: React.Dispatch<React.SetStateAction<S>> = React.useCallback((newState: S | ((prevState: S) => S)) => {
+    if (timeoutRef.current !== null) {
+      clearTimeout(timeoutRef.current)
+    }
+
+    timeoutRef.current = setTimeout(() => {
+      setState(newState)
+    }, timeout)
+  }, [])
+
+  return [state, setDebouncedState, setState] as const
+}
+
 type ThemeChangeCallback = (name: ThemeName, colors: [string, string, string] | null) => void
 
 function useColorInputProps(name: ThemeName, colors: [string, string, string], onChange: ThemeChangeCallback) {
   const initial = React.useRef(colors)
 
-  const [lightHex, setLightHex] = React.useState(colors[0])
-  const [middleHex, setMiddleHex] = React.useState(colors[1])
-  const [hex, setHex] = React.useState(colors[2])
+  const [lightHex, setLightHex, setLightHexImmediately] = useDebouncedState(colors[0], 100)
+  const [middleHex, setMiddleHex, setMiddleHexImmediately] = useDebouncedState(colors[1], 100)
+  const [hex, setHex, setHexImmediately] = useDebouncedState(colors[2], 100)
 
   React.useEffect(() => {
     const [initialLightHex, initialMiddleHex, initialHex] = initial.current
@@ -47,9 +64,9 @@ function useColorInputProps(name: ThemeName, colors: [string, string, string], o
   ])
 
   const onReset = React.useCallback(() => {
-    setLightHex(colors[0])
-    setMiddleHex(colors[1])
-    setHex(colors[2])
+    setLightHexImmediately(colors[0])
+    setMiddleHexImmediately(colors[1])
+    setHexImmediately(colors[2])
   }, [])
 
   return React.useMemo(() => ({
@@ -74,6 +91,7 @@ const Theme = ({
   name,
   onChange,
   onEditFactory,
+  verbose,
 }: {
   colors: [string, string, string],
   dirty: boolean,
@@ -81,43 +99,48 @@ const Theme = ({
   name: ThemeName,
   onChange: ThemeChangeCallback,
     onEditFactory: (name: ThemeName | null) => () => void,
+    verbose: boolean,
 }) => {
   const { onReset, ...colorInputProps } = useColorInputProps(name, colors, onChange)
   const onEdit = React.useCallback(onEditFactory(name), [name])
   const onClose = React.useCallback(onEditFactory(null), [name])
 
-  return <Scale
-    actions={<>
-      {editing && <Button
-        distinction="seamless"
-        flow="circular"
-        size="small"
-        onClick={onReset}
-        intent="default"
-        bland
-      >
-        <Icon blueprintIcon={"undo"} />
-      </Button>}
-      <Button
-        distinction="seamless"
-        flow="circular"
-        size="small"
-        onClick={editing ? onClose : onEdit}
-        intent="default"
-        bland
-      >
-        <Icon blueprintIcon={editing ? "cross" : "edit"} />
-      </Button>
-    </>}
-    elevated
-    verbose
-    name={name}
-    className={toStateClass('dirty', dirty)}
-  >
-    {editing && <ColorInput
-      {...colorInputProps}
-    />}
-  </Scale>
+  return (
+    <Scale
+      actions={<>
+        {editing && <Button
+          distinction="seamless"
+          flow="circular"
+          size="small"
+          onClick={onReset}
+          intent="default"
+          bland
+        >
+          <Icon blueprintIcon={"undo"} />
+        </Button>}
+        <Button
+          distinction="seamless"
+          flow="circular"
+          size="small"
+          onClick={editing ? onClose : onEdit}
+          intent="default"
+          bland
+        >
+          <Icon blueprintIcon={editing ? "cross" : "edit"} />
+        </Button>
+      </>}
+      elevated
+      verbose={verbose}
+      name={name}
+      className={toStateClass('dirty', dirty)}
+    >
+      {editing && (
+        <ColorInput
+          {...colorInputProps}
+        />
+      )}
+    </Scale>
+  )
 }
 
 type DirtyThemesMap = { [Property in ThemeName]: boolean }
@@ -126,10 +149,12 @@ const ThemeEditor = React.memo(({
   dirty,
   themeEntries,
   onThemesChange,
+  verbose,
 }: {
   dirty: DirtyThemesMap,
   themeEntries: ThemeEntries,
   onThemesChange: ThemeChangeCallback,
+    verbose: boolean,
 }) => {
   const [editingTheme, setEditingTheme] = React.useState<ThemeName | null>(null)
   const onEditFactory = React.useCallback((name: ThemeName | null) => () => {
@@ -138,18 +163,22 @@ const ThemeEditor = React.memo(({
 
   return <div className="theming-generator-editor-scroll-wrapper">
     <Stack
+      evenly
+      horizontal
       className="theming-generator-editor"
-      direction="horizontal"
     >
-      {themeEntries.map(([name, colors]) => <Theme
-        dirty={dirty[name]}
-        key={name}
-        editing={editingTheme === name}
-        name={name}
-        colors={colors}
-        onEditFactory={onEditFactory}
-        onChange={onThemesChange}
-      />)}
+      {themeEntries.map(([name, colors]) => (
+        <Theme
+          dirty={dirty[name]}
+          key={name}
+          editing={editingTheme === name}
+          name={name}
+          colors={colors}
+          onEditFactory={onEditFactory}
+          onChange={onThemesChange}
+          verbose={verbose}
+        />
+      ))}
     </Stack>
   </div>
 })
@@ -165,10 +194,8 @@ function themeEntriesToCSS(themeEntries: ThemeEntries) {
           scaleToCSSProperties(
             `${PREFIX}-theme-${name}-rgb`,
             scaleToColorWeightMap(scaleGradient(lightHex, middleHex, hex))
-          )
-            .reverse()
-            .join(`;\n${WHITE_SPACE}`)
-        )};\n${WHITE_SPACE}`
+          ).reverse().join(`;\n`)
+        )};\n`
     )
     .join("\n")}}\n`
 }
@@ -223,24 +250,27 @@ export const Generator = React.memo(() => {
     await copyTextToClipboard(allCSSResult);
   }, [allCSSResult])
   return (
-    <Stack className="cui-root theming-generator scheme-system">
-      <Stack align="center" direction="horizontal" className="sm:flex-wrap">
-        <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
-        {verbose && <Button distinction="outlined" onClick={copyAllCSSToClipboard}>Copy All CSS</Button>}
-        {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
-        <Spacer className="flex-grow" />
-        <FieldContainer label="Verbose" labelPosition="labelInlineRight">
-          <Checkbox notNull value={verbose} onChange={it => setVerbose(!!it)} />
-        </FieldContainer>
+    <StyleProvider>
+      <Stack className="theming-generator">
+        <Stack align="center" direction="horizontal" className="sm:flex-wrap">
+          <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
+          {verbose && <Button distinction="outlined" onClick={copyAllCSSToClipboard}>Copy All CSS</Button>}
+          {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}
+          <Spacer className="flex-grow" />
+          <FieldContainer label="Verbose" labelPosition="labelInlineRight">
+            <Checkbox notNull value={verbose} onChange={it => setVerbose(!!it)} />
+          </FieldContainer>
+        </Stack>
+        <ThemeEditor
+          dirty={dirtyThemes.current}
+          themeEntries={themeEntries}
+          onThemesChange={onThemesChange}
+          verbose={verbose}
+        />
+        {verbose && <div className="is-visible-style">{cssResult}</div>}
+        <style>{allCSSResult}</style>
       </Stack>
-      <ThemeEditor
-        dirty={dirtyThemes.current}
-        themeEntries={themeEntries}
-        onThemesChange={onThemesChange}
-      />
-      {verbose && <div className="is-visible-style">{cssResult}</div>}
-      <style>{allCSSResult}</style>
-    </Stack>
+    </StyleProvider>
   )
 })
 Generator.displayName = 'Generator'

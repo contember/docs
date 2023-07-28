@@ -1,13 +1,6 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Intent,
-  Scheme,
-  toSchemeClass,
-  toThemeClass
-} from "@contember/ui"
-import classNames from "classnames"
+import { ColorSchemeProvider } from "@contember/react-utils"
+import { Box, Button, Heading, Intent, Scheme, } from "@contember/ui"
+import { colorSchemeClassName, contentThemeClassName, controlsThemeClassName, listClassName } from '@contember/utilities'
 import * as React from 'react'
 
 export const ThemePreview = ({
@@ -23,19 +16,23 @@ export const ThemePreview = ({
   themeContent?: Intent,
   themeControls?: Intent,
 }) => {
-  const themeClassNames = toThemeClass(themeContent ?? theme, themeContent ?? theme)
-  const schemeClassName = toSchemeClass(scheme)
 
-  return <Box gap="default" className={classNames('theming-theme-preview', schemeClassName, themeClassNames)}>
-    <Heading>{heading}</Heading>
-    {(themeClassNames || schemeClassName) && <p>CSS classes: {classNames(schemeClassName, themeClassNames)}</p>}
-    <Button>Button</Button>
-    <Button intent={themeControls ?? theme}>Button with intent</Button>
-    <Button distinction="toned">Toned button</Button>
-    <Button disabled>Disabled</Button>
-    <Button
-      distinction="primary"
-      intent={themeControls ?? theme}
-    >I am important!</Button>
-  </Box>
+  const colorScheme = colorSchemeClassName(scheme)
+  const contentTheme = contentThemeClassName(themeContent ?? theme)
+  const controlsTheme = controlsThemeClassName(themeControls ?? theme)
+
+  return (
+    <ColorSchemeProvider scheme={scheme}>
+      <Box gap="default" className={listClassName(['theming-theme-preview', colorScheme, contentTheme, controlsTheme])}>
+        <Heading>{heading}</Heading>
+        {(contentTheme || controlsTheme || colorScheme) && <p>CSS classes: {listClassName([colorScheme, contentTheme, controlsTheme])}</p>}
+        <Button>Button</Button>
+        <Button intent={themeControls ?? theme}>Button with intent</Button>
+        <Button distinction="inverse">Inverse button</Button>
+        <Button distinction="primary" intent={themeControls ?? theme}>I am important!</Button>
+        <Button distinction="toned">Toned button</Button>
+        <Button disabled>Disabled</Button>
+      </Box>
+    </ColorSchemeProvider>
+  )
 }

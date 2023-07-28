@@ -10,19 +10,14 @@ export const WEIGHT_STEP = WEIGHT_MAXIMUM / (COLORS_COUNT - 1);
 export const WEIGHT_STEP_LIGHT = WEIGHT_STEP * 1
 export const WEIGHT_STEP_DARK = WEIGHT_STEP * 1
 
-/**
- * @deprecated
- */
 export const THEMES_LIST_BRANDS = [
   'primary',
   'secondary',
   'tertiary',
 ]
 
-/**
- * @deprecated
- */
 export const THEMES_LIST_SYSTEM = [
+  'accent',
   'positive',
   'success',
   'warn',
@@ -49,12 +44,13 @@ export const themeNames = {
 export type ThemeName = keyof typeof themeNames
 
 export const CONTEMBER_THEMES: {[Property in ThemeName]: [string, string, string]} = Object.freeze({
-  primary: ["#00E1FF", "#0062FF", "#000067"], // "#15009C", 1F00B0 000067
-  secondary: ["#3DA9EB", "#3DA9EB", "#3DA9EB"],
-  tertiary: ["#AE65FF", "#AE65FF", "#AE65FF"],
-  positive: ["#006AFF", "#006AFF", "#006AFF"], // "#4390FF",
-  success: ["#6EBB00", "#6EBB00", "#6EBB00"],
-  warn: ["#FF6600", "#FF6600", "#FF6600"], //"#EC9117",
+  accent: ['#006AFF', '#006AFF', '#006AFF'],
+  primary: ['#AFE9FF', '#00AEFF', '#004397'],
+  secondary: ["#A980FD", "#841DFB", "#54017E"],
+  tertiary: ["#EEEDA1", "#DCDA41", "#97961D"],
+  positive: ['#006AFF', '#006AFF', '#006AFF'],
+  success: ["#97E6C0", "#4AD18F", "#008B46" /* "#007F40" */],
+  warn: ["#F9A986", "#FF4E00" /*"#D94C0F"*/, "#B43E09" /* "#792A06" */],
   danger: ["#FF004C", "#FF4D00", "#FF0000"], //"#FF4827",
-  default: ["#8494A4", "#8494A4", "#8494A4"]
+  default: ["#FFFFFA", "#FFFFFA", "#FFFFFA"],
 })
