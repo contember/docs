@@ -49,6 +49,7 @@
   }
 }
 
+@import "@contember/ui/index.css";
 @import './styles/liveCode.css';
 @import './theming/Components/index.css';
 @import "./apiDoc/style.css";
