@@ -1,6 +1,8 @@
 require('dotenv').config()
 const path = require('path')
 
+const prismTheme = require('prism-react-renderer/themes/nightOwl')
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Contember',
@@ -21,7 +23,26 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			prism: {
-				theme: require('prism-react-renderer/themes/nightOwl'),
+				theme: {
+					...prismTheme,
+					styles: [
+						...prismTheme.styles,
+						{
+							types: ["deleted"],
+							style: {
+								color: "rgb(255, 76, 76)",
+								fontStyle: "italic",
+							},
+						},
+						{
+							types: ["inserted"],
+							style: {
+								color: "rgb(127, 219, 202)",
+								fontStyle: "italic",
+							},
+						},
+					]
+				},
 				additionalLanguages: ['typescript', 'json5'],
 			},
 			docs: {
