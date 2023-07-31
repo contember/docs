@@ -161,6 +161,7 @@ module.exports = {
 						"reference/engine/schema/overview",
 						"reference/engine/schema/columns",
 						"reference/engine/schema/relationships",
+						"reference/engine/schema/views",
 						"reference/engine/schema/migrations",
 						"reference/engine/schema/acl",
 						"reference/engine/schema/validations",
