@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6129,
+			"id": 6438,
 			"name": "IdentityMembershipProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6130,
+					"id": 6439,
 					"name": "RoleRenderer",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,18 +23,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L7"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6149,
+						"target": 6458,
 						"name": "RoleRenderer",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6131,
+					"id": 6440,
 					"name": "memberships",
 					"variant": "declaration",
 					"kind": 1024,
@@ -44,14 +44,14 @@
 							"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L8"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 6580,
+							"target": 6889,
 							"name": "Membership",
 							"package": "@contember/admin"
 						}
@@ -62,8 +62,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						6130,
-						6131
+						6439,
+						6440
 					]
 				}
 			],
@@ -72,12 +72,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
 					"line": 6,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L6"
 				}
 			]
 		},
 		{
-			"id": 6132,
+			"id": 6441,
 			"name": "IdentityMembership",
 			"variant": "declaration",
 			"kind": 64,
@@ -87,12 +87,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/IdentityMembership.tsx",
 					"line": 14,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L14"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/IdentityMembership.tsx#L14"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6133,
+					"id": 6442,
 					"name": "IdentityMembership",
 					"variant": "signature",
 					"kind": 4096,
@@ -106,20 +106,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6134,
+							"id": 6443,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6129,
+								"target": 6438,
 								"name": "IdentityMembershipProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6135,
+							"id": 6444,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

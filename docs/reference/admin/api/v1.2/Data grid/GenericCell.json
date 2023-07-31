@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 1180,
+			"id": 1201,
 			"name": "DataGridCellPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 1184,
+					"id": 1205,
 					"name": "canBeHidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 1183,
+					"id": 1204,
 					"name": "hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,7 +46,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
 						}
 					],
 					"type": {
@@ -55,7 +55,7 @@
 					}
 				},
 				{
-					"id": 1181,
+					"id": 1202,
 					"name": "justification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,18 +67,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 4,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 1182,
+					"id": 1203,
 					"name": "shrunk",
 					"variant": "declaration",
 					"kind": 1024,
@@ -90,7 +90,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 5,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
 						}
 					],
 					"type": {
@@ -103,10 +103,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						1184,
-						1183,
-						1181,
-						1182
+						1205,
+						1204,
+						1202,
+						1203
 					]
 				}
 			],
@@ -115,19 +115,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 					"line": 3,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
 				}
 			]
 		},
 		{
-			"id": 1339,
+			"id": 1360,
 			"name": "DataGridHeaderCellPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 1343,
+					"id": 1364,
 					"name": "ascOrderIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -139,7 +139,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
 						}
 					],
 					"type": {
@@ -154,7 +154,7 @@
 					}
 				},
 				{
-					"id": 1344,
+					"id": 1365,
 					"name": "descOrderIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -166,7 +166,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
 						}
 					],
 					"type": {
@@ -181,7 +181,7 @@
 					}
 				},
 				{
-					"id": 1340,
+					"id": 1361,
 					"name": "header",
 					"variant": "declaration",
 					"kind": 1024,
@@ -193,7 +193,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
 						}
 					],
 					"type": {
@@ -208,7 +208,7 @@
 					}
 				},
 				{
-					"id": 1342,
+					"id": 1363,
 					"name": "headerJustification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -220,18 +220,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 1341,
+					"id": 1362,
 					"name": "shrunk",
 					"variant": "declaration",
 					"kind": 1024,
@@ -243,7 +243,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
 						}
 					],
 					"type": {
@@ -256,11 +256,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						1343,
-						1344,
-						1340,
-						1342,
-						1341
+						1364,
+						1365,
+						1361,
+						1363,
+						1362
 					]
 				}
 			],
@@ -269,19 +269,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 					"line": 10,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
 				}
 			],
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1357,
+					"target": 1378,
 					"name": "DataGridHeaderCellProps"
 				}
 			]
 		},
 		{
-			"id": 1207,
+			"id": 1228,
 			"name": "DataGridColumnPublicProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -291,7 +291,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 					"line": 40,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
 				}
 			],
 			"type": {
@@ -299,27 +299,27 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 1339,
+						"target": 1360,
 						"name": "DataGridHeaderCellPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 1180,
+						"target": 1201,
 						"name": "DataGridCellPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 1208,
+							"id": 1229,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 1210,
+									"id": 1231,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -331,7 +331,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 											"line": 45,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
 										}
 									],
 									"type": {
@@ -346,7 +346,7 @@
 									}
 								},
 								{
-									"id": 1209,
+									"id": 1230,
 									"name": "columnKey",
 									"variant": "declaration",
 									"kind": 1024,
@@ -358,7 +358,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 											"line": 44,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
 										}
 									],
 									"type": {
@@ -371,8 +371,8 @@
 								{
 									"title": "Properties",
 									"children": [
-										1210,
-										1209
+										1231,
+										1230
 									]
 								}
 							],
@@ -381,7 +381,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 									"line": 43,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
 								}
 							]
 						}
@@ -390,7 +390,7 @@
 			}
 		},
 		{
-			"id": 1524,
+			"id": 1545,
 			"name": "GenericCell",
 			"variant": "declaration",
 			"kind": 64,
@@ -400,12 +400,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/GenericCell.tsx",
 					"line": 20,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/GenericCell.tsx#L20"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/GenericCell.tsx#L20"
 				}
 			],
 			"signatures": [
 				{
-					"id": 1525,
+					"id": 1546,
 					"name": "GenericCell",
 					"variant": "signature",
 					"kind": 4096,
@@ -438,20 +438,20 @@
 					],
 					"parameters": [
 						{
-							"id": 1526,
+							"id": 1547,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 1207,
+								"target": 1228,
 								"name": "DataGridColumnPublicProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 1527,
+							"id": 1548,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

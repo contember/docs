@@ -16,7 +16,7 @@
 					"fileName": "packages/layout/src/kit/Types.ts",
 					"line": 127,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L127"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/Types.ts#L127"
 				}
 			],
 			"type": {
@@ -68,7 +68,7 @@
 											"fileName": "packages/layout/src/kit/Types.ts",
 											"line": 130,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L130"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/Types.ts#L130"
 										}
 									],
 									"type": {
@@ -89,7 +89,7 @@
 											"fileName": "packages/layout/src/kit/Types.ts",
 											"line": 131,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L131"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/Types.ts#L131"
 										}
 									],
 									"type": {
@@ -110,7 +110,7 @@
 											"fileName": "packages/layout/src/kit/Types.ts",
 											"line": 132,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L132"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/Types.ts#L132"
 										}
 									],
 									"type": {
@@ -129,7 +129,7 @@
 											"fileName": "packages/layout/src/kit/Types.ts",
 											"line": 133,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L133"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/Types.ts#L133"
 										}
 									],
 									"type": {
@@ -154,7 +154,7 @@
 									"fileName": "packages/layout/src/kit/Types.ts",
 									"line": 129,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/Types.ts#L129"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/Types.ts#L129"
 								}
 							]
 						}
@@ -175,7 +175,7 @@
 					"fileName": "packages/layout/src/kit/index.ts",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L16"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L16"
 				}
 			],
 			"type": {
@@ -198,7 +198,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 17,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L17"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L17"
 								}
 							],
 							"type": {
@@ -220,7 +220,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 22,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L22"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L22"
 								}
 							],
 							"type": {
@@ -242,7 +242,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 27,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L27"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L27"
 								}
 							],
 							"type": {
@@ -263,7 +263,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 28,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L28"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L28"
 								}
 							],
 							"type": {
@@ -285,7 +285,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 33,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L33"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L33"
 								}
 							],
 							"type": {
@@ -307,7 +307,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 38,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L38"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L38"
 								}
 							],
 							"type": {
@@ -329,7 +329,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 43,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L43"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L43"
 								}
 							],
 							"type": {
@@ -362,7 +362,7 @@
 									"fileName": "packages/layout/src/kit/index.ts",
 									"line": 44,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L44"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L44"
 								}
 							],
 							"type": {
@@ -405,7 +405,7 @@
 							"fileName": "packages/layout/src/kit/index.ts",
 							"line": 16,
 							"character": 25,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/kit/index.ts#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/kit/index.ts#L16"
 						}
 					]
 				}

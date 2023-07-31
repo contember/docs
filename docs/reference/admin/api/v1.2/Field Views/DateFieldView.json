@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 2280,
+			"id": 2580,
 			"name": "FieldFallbackViewProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2281,
+					"id": 2581,
 					"name": "fallback",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
 						}
 					],
 					"type": {
@@ -38,7 +38,7 @@
 					}
 				},
 				{
-					"id": 2282,
+					"id": 2582,
 					"name": "fallbackStyle",
 					"variant": "declaration",
 					"kind": 1024,
@@ -48,7 +48,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
 						}
 					],
 					"type": {
@@ -60,7 +60,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 2279,
+								"target": 2579,
 								"name": "FieldFallbackViewStyle",
 								"package": "@contember/admin"
 							}
@@ -72,8 +72,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						2281,
-						2282
+						2581,
+						2582
 					]
 				}
 			],
@@ -82,12 +82,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 					"line": 8,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
 				}
 			]
 		},
 		{
-			"id": 2263,
+			"id": 2563,
 			"name": "DateFieldViewProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -97,7 +97,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 					"line": 5,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L5"
 				}
 			],
 			"type": {
@@ -106,14 +106,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 2264,
+							"id": 2564,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 2265,
+									"id": 2565,
 									"name": "field",
 									"variant": "declaration",
 									"kind": 1024,
@@ -123,7 +123,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 											"line": 6,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L6"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L6"
 										}
 									],
 									"type": {
@@ -134,7 +134,7 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 8577,
+											"target": 8886,
 											"name": "SugaredFieldProps",
 											"package": "@contember/binding"
 										}
@@ -145,7 +145,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										2265
+										2565
 									]
 								}
 							],
@@ -154,7 +154,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 									"line": 5,
 									"character": 33,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L5"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L5"
 								}
 							]
 						}
@@ -165,14 +165,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 2266,
+									"id": 2566,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 2267,
+											"id": 2567,
 											"name": "format",
 											"variant": "declaration",
 											"kind": 1024,
@@ -184,7 +184,7 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 													"line": 8,
 													"character": 5,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
 												}
 											],
 											"type": {
@@ -193,7 +193,7 @@
 													{
 														"type": "reflection",
 														"declaration": {
-															"id": 2268,
+															"id": 2568,
 															"name": "__type",
 															"variant": "declaration",
 															"kind": 65536,
@@ -203,19 +203,19 @@
 																	"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 																	"line": 8,
 																	"character": 15,
-																	"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+																	"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
 																}
 															],
 															"signatures": [
 																{
-																	"id": 2269,
+																	"id": 2569,
 																	"name": "__type",
 																	"variant": "signature",
 																	"kind": 4096,
 																	"flags": {},
 																	"parameters": [
 																		{
-																			"id": 2270,
+																			"id": 2570,
 																			"name": "date",
 																			"variant": "param",
 																			"kind": 32768,
@@ -258,7 +258,7 @@
 											}
 										},
 										{
-											"id": 2271,
+											"id": 2571,
 											"name": "locale",
 											"variant": "declaration",
 											"kind": 1024,
@@ -270,7 +270,7 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 													"line": 8,
 													"character": 72,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
 												}
 											],
 											"type": {
@@ -283,8 +283,8 @@
 										{
 											"title": "Properties",
 											"children": [
-												2267,
-												2271
+												2567,
+												2571
 											]
 										}
 									],
@@ -293,7 +293,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 											"line": 8,
 											"character": 3,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L8"
 										}
 									]
 								}
@@ -301,14 +301,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 2272,
+									"id": 2572,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 2273,
+											"id": 2573,
 											"name": "format",
 											"variant": "declaration",
 											"kind": 1024,
@@ -320,7 +320,7 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 													"line": 9,
 													"character": 5,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
 												}
 											],
 											"type": {
@@ -334,7 +334,7 @@
 											}
 										},
 										{
-											"id": 2274,
+											"id": 2574,
 											"name": "locale",
 											"variant": "declaration",
 											"kind": 1024,
@@ -344,7 +344,7 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 													"line": 9,
 													"character": 42,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
 												}
 											],
 											"type": {
@@ -369,8 +369,8 @@
 										{
 											"title": "Properties",
 											"children": [
-												2273,
-												2274
+												2573,
+												2574
 											]
 										}
 									],
@@ -379,7 +379,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 											"line": 9,
 											"character": 3,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L9"
 										}
 									]
 								}
@@ -388,7 +388,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 2283,
+						"target": 2583,
 						"name": "FieldFallbackViewPublicProps",
 						"package": "@contember/admin"
 					}
@@ -396,7 +396,7 @@
 			}
 		},
 		{
-			"id": 2283,
+			"id": 2583,
 			"name": "FieldFallbackViewPublicProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -406,7 +406,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 					"line": 13,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
 				}
 			],
 			"type": {
@@ -418,7 +418,7 @@
 				"typeArguments": [
 					{
 						"type": "reference",
-						"target": 2280,
+						"target": 2580,
 						"name": "FieldFallbackViewProps",
 						"package": "@contember/admin"
 					}
@@ -429,13 +429,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 2250,
+					"target": 2550,
 					"name": "CoalesceFieldViewProps"
 				}
 			]
 		},
 		{
-			"id": 2275,
+			"id": 2575,
 			"name": "DateFieldView",
 			"variant": "declaration",
 			"kind": 64,
@@ -445,12 +445,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L16"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/DateFieldView.tsx#L16"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2276,
+					"id": 2576,
 					"name": "DateFieldView",
 					"variant": "signature",
 					"kind": 4096,
@@ -464,20 +464,20 @@
 					],
 					"parameters": [
 						{
-							"id": 2277,
+							"id": 2577,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 2263,
+								"target": 2563,
 								"name": "DateFieldViewProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 2278,
+							"id": 2578,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

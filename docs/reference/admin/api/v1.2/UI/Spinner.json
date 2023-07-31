@@ -6,7 +6,7 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15241,
+			"id": 15528,
 			"name": "Spinner",
 			"variant": "declaration",
 			"kind": 64,
@@ -20,7 +20,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15242,
+					"id": 15529,
 					"name": "Spinner",
 					"variant": "signature",
 					"kind": 4096,
@@ -34,7 +34,7 @@
 					],
 					"parameters": [
 						{
-							"id": 15243,
+							"id": 15530,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,

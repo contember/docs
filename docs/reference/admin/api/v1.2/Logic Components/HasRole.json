@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 4696,
+			"id": 5022,
 			"name": "HasRoleProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4697,
+					"id": 5023,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/Identity/HasRole.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Identity/HasRole.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Identity/HasRole.tsx#L10"
 						}
 					],
 					"type": {
@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"id": 4698,
+					"id": 5024,
 					"name": "role",
 					"variant": "declaration",
 					"kind": 1024,
@@ -50,12 +50,12 @@
 							"fileName": "packages/admin/src/components/Identity/HasRole.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Identity/HasRole.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Identity/HasRole.tsx#L11"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 4692,
+						"target": 5018,
 						"name": "RoleCondition",
 						"package": "@contember/admin"
 					}
@@ -65,8 +65,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						4697,
-						4698
+						5023,
+						5024
 					]
 				}
 			],
@@ -75,12 +75,12 @@
 					"fileName": "packages/admin/src/components/Identity/HasRole.tsx",
 					"line": 9,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Identity/HasRole.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Identity/HasRole.tsx#L9"
 				}
 			]
 		},
 		{
-			"id": 4699,
+			"id": 5025,
 			"name": "HasRole",
 			"variant": "declaration",
 			"kind": 64,
@@ -90,12 +90,12 @@
 					"fileName": "packages/admin/src/components/Identity/HasRole.tsx",
 					"line": 17,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Identity/HasRole.tsx#L17"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Identity/HasRole.tsx#L17"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4700,
+					"id": 5026,
 					"name": "HasRole",
 					"variant": "signature",
 					"kind": 4096,
@@ -109,14 +109,14 @@
 					],
 					"parameters": [
 						{
-							"id": 4701,
+							"id": 5027,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4696,
+								"target": 5022,
 								"name": "HasRoleProps",
 								"package": "@contember/admin"
 							}

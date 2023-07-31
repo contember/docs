@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 14948,
+			"id": 15801,
 			"name": "LayoutChromeProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14949,
+					"id": 15802,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22,7 +22,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 5,
 							"character": 4
 						}
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"id": 14950,
+					"id": 15803,
 					"name": "navigation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -48,7 +48,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 6,
 							"character": 4
 						}
@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"id": 14951,
+					"id": 15804,
 					"name": "pageScheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -74,20 +74,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 7,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14952,
+					"id": 15805,
 					"name": "pageTheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -96,20 +96,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 8,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14953,
+					"id": 15806,
 					"name": "pageThemeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -118,20 +118,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 9,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14954,
+					"id": 15807,
 					"name": "pageThemeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -140,20 +140,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 10,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14962,
+					"id": 15815,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -162,25 +162,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 3,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14922,
+						"target": 15775,
 						"name": "ThemeScheme.scheme"
 					}
 				},
 				{
-					"id": 14955,
+					"id": 15808,
 					"name": "sidebarFooter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -189,7 +189,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 11,
 							"character": 4
 						}
@@ -206,7 +206,7 @@
 					}
 				},
 				{
-					"id": 14956,
+					"id": 15809,
 					"name": "sidebarHeader",
 					"variant": "declaration",
 					"kind": 1024,
@@ -215,7 +215,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 12,
 							"character": 4
 						}
@@ -232,7 +232,7 @@
 					}
 				},
 				{
-					"id": 14957,
+					"id": 15810,
 					"name": "switchers",
 					"variant": "declaration",
 					"kind": 1024,
@@ -241,7 +241,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 13,
 							"character": 4
 						}
@@ -258,7 +258,7 @@
 					}
 				},
 				{
-					"id": 14963,
+					"id": 15816,
 					"name": "theme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -267,25 +267,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 4,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14923,
+						"target": 15776,
 						"name": "ThemeScheme.theme"
 					}
 				},
 				{
-					"id": 14964,
+					"id": 15817,
 					"name": "themeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -294,25 +294,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 5,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14924,
+						"target": 15777,
 						"name": "ThemeScheme.themeContent"
 					}
 				},
 				{
-					"id": 14965,
+					"id": 15818,
 					"name": "themeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -321,25 +321,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 6,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14925,
+						"target": 15778,
 						"name": "ThemeScheme.themeControls"
 					}
 				},
 				{
-					"id": 14958,
+					"id": 15811,
 					"name": "titleScheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -348,20 +348,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 14,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14959,
+					"id": 15812,
 					"name": "titleTheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -370,20 +370,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 15,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14960,
+					"id": 15813,
 					"name": "titleThemeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -392,20 +392,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 16,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14961,
+					"id": 15814,
 					"name": "titleThemeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -414,14 +414,14 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 17,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
@@ -431,29 +431,29 @@
 				{
 					"title": "Properties",
 					"children": [
-						14949,
-						14950,
-						14951,
-						14952,
-						14953,
-						14954,
-						14962,
-						14955,
-						14956,
-						14957,
-						14963,
-						14964,
-						14965,
-						14958,
-						14959,
-						14960,
-						14961
+						15802,
+						15803,
+						15804,
+						15805,
+						15806,
+						15807,
+						15815,
+						15808,
+						15809,
+						15810,
+						15816,
+						15817,
+						15818,
+						15811,
+						15812,
+						15813,
+						15814
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+					"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 					"line": 4,
 					"character": 17
 				}
@@ -461,7 +461,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 14921,
+					"target": 15774,
 					"name": "ThemeScheme",
 					"package": "@contember/ui"
 				}
@@ -469,20 +469,20 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 14926,
+					"target": 15779,
 					"name": "LayoutProps"
 				}
 			]
 		},
 		{
-			"id": 14926,
+			"id": 15779,
 			"name": "LayoutProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14928,
+					"id": 15781,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -491,7 +491,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 5,
 							"character": 4
 						}
@@ -508,12 +508,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14949,
+						"target": 15802,
 						"name": "LayoutChromeProps.children"
 					}
 				},
 				{
-					"id": 14927,
+					"id": 15780,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -522,7 +522,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Layout.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Layout.d.ts",
 							"line": 4,
 							"character": 4
 						}
@@ -533,7 +533,7 @@
 					}
 				},
 				{
-					"id": 14929,
+					"id": 15782,
 					"name": "navigation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -542,7 +542,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 6,
 							"character": 4
 						}
@@ -559,12 +559,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14950,
+						"target": 15803,
 						"name": "LayoutChromeProps.navigation"
 					}
 				},
 				{
-					"id": 14930,
+					"id": 15783,
 					"name": "pageScheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -573,25 +573,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 7,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14951,
+						"target": 15804,
 						"name": "LayoutChromeProps.pageScheme"
 					}
 				},
 				{
-					"id": 14931,
+					"id": 15784,
 					"name": "pageTheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -600,25 +600,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 8,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14952,
+						"target": 15805,
 						"name": "LayoutChromeProps.pageTheme"
 					}
 				},
 				{
-					"id": 14932,
+					"id": 15785,
 					"name": "pageThemeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -627,25 +627,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 9,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14953,
+						"target": 15806,
 						"name": "LayoutChromeProps.pageThemeContent"
 					}
 				},
 				{
-					"id": 14933,
+					"id": 15786,
 					"name": "pageThemeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -654,25 +654,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 10,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14954,
+						"target": 15807,
 						"name": "LayoutChromeProps.pageThemeControls"
 					}
 				},
 				{
-					"id": 14941,
+					"id": 15794,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -681,25 +681,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 3,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14962,
+						"target": 15815,
 						"name": "LayoutChromeProps.scheme"
 					}
 				},
 				{
-					"id": 14934,
+					"id": 15787,
 					"name": "sidebarFooter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -708,7 +708,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 11,
 							"character": 4
 						}
@@ -725,12 +725,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14955,
+						"target": 15808,
 						"name": "LayoutChromeProps.sidebarFooter"
 					}
 				},
 				{
-					"id": 14935,
+					"id": 15788,
 					"name": "sidebarHeader",
 					"variant": "declaration",
 					"kind": 1024,
@@ -739,7 +739,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 12,
 							"character": 4
 						}
@@ -756,12 +756,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14956,
+						"target": 15809,
 						"name": "LayoutChromeProps.sidebarHeader"
 					}
 				},
 				{
-					"id": 14936,
+					"id": 15789,
 					"name": "switchers",
 					"variant": "declaration",
 					"kind": 1024,
@@ -770,7 +770,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 13,
 							"character": 4
 						}
@@ -787,12 +787,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14957,
+						"target": 15810,
 						"name": "LayoutChromeProps.switchers"
 					}
 				},
 				{
-					"id": 14942,
+					"id": 15795,
 					"name": "theme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -801,25 +801,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 4,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14963,
+						"target": 15816,
 						"name": "LayoutChromeProps.theme"
 					}
 				},
 				{
-					"id": 14943,
+					"id": 15796,
 					"name": "themeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -828,25 +828,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 5,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14964,
+						"target": 15817,
 						"name": "LayoutChromeProps.themeContent"
 					}
 				},
 				{
-					"id": 14944,
+					"id": 15797,
 					"name": "themeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -855,25 +855,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 6,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14965,
+						"target": 15818,
 						"name": "LayoutChromeProps.themeControls"
 					}
 				},
 				{
-					"id": 14937,
+					"id": 15790,
 					"name": "titleScheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -882,25 +882,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 14,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14958,
+						"target": 15811,
 						"name": "LayoutChromeProps.titleScheme"
 					}
 				},
 				{
-					"id": 14938,
+					"id": 15791,
 					"name": "titleTheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -909,25 +909,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 15,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14959,
+						"target": 15812,
 						"name": "LayoutChromeProps.titleTheme"
 					}
 				},
 				{
-					"id": 14939,
+					"id": 15792,
 					"name": "titleThemeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -936,25 +936,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 16,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14960,
+						"target": 15813,
 						"name": "LayoutChromeProps.titleThemeContent"
 					}
 				},
 				{
-					"id": 14940,
+					"id": 15793,
 					"name": "titleThemeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -963,20 +963,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutChrome.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutChrome.d.ts",
 							"line": 17,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14961,
+						"target": 15814,
 						"name": "LayoutChromeProps.titleThemeControls"
 					}
 				}
@@ -985,30 +985,30 @@
 				{
 					"title": "Properties",
 					"children": [
-						14928,
-						14927,
-						14929,
-						14930,
-						14931,
-						14932,
-						14933,
-						14941,
-						14934,
-						14935,
-						14936,
-						14942,
-						14943,
-						14944,
-						14937,
-						14938,
-						14939,
-						14940
+						15781,
+						15780,
+						15782,
+						15783,
+						15784,
+						15785,
+						15786,
+						15794,
+						15787,
+						15788,
+						15789,
+						15795,
+						15796,
+						15797,
+						15790,
+						15791,
+						15792,
+						15793
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Layout/Layout.d.ts",
+					"fileName": "packages/ui/dist/types/deprecated/Layout/Layout.d.ts",
 					"line": 3,
 					"character": 17
 				}
@@ -1016,21 +1016,21 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 14948,
+					"target": 15801,
 					"name": "LayoutChromeProps",
 					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 14921,
+			"id": 15774,
 			"name": "ThemeScheme",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14922,
+					"id": 15775,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1039,20 +1039,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 3,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14923,
+					"id": 15776,
 					"name": "theme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1061,20 +1061,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 4,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14924,
+					"id": 15777,
 					"name": "themeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1083,20 +1083,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 5,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14925,
+					"id": 15778,
 					"name": "themeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1105,14 +1105,14 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 6,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
@@ -1122,16 +1122,16 @@
 				{
 					"title": "Properties",
 					"children": [
-						14922,
-						14923,
-						14924,
-						14925
+						15775,
+						15776,
+						15777,
+						15778
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+					"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 					"line": 2,
 					"character": 17
 				}
@@ -1139,37 +1139,37 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 14948,
+					"target": 15651,
+					"name": "TitleBarProps"
+				},
+				{
+					"type": "reference",
+					"target": 15801,
 					"name": "LayoutChromeProps"
 				},
 				{
 					"type": "reference",
-					"target": 14969,
+					"target": 15822,
 					"name": "LayoutPageProps"
-				},
-				{
-					"type": "reference",
-					"target": 15368,
-					"name": "TitleBarProps"
 				}
 			]
 		},
 		{
-			"id": 14945,
+			"id": 15798,
 			"name": "Layout",
 			"variant": "declaration",
 			"kind": 64,
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Layout/Layout.d.ts",
-					"line": 23,
+					"fileName": "packages/ui/dist/types/deprecated/Layout/Layout.d.ts",
+					"line": 25,
 					"character": 21
 				}
 			],
 			"signatures": [
 				{
-					"id": 14946,
+					"id": 15799,
 					"name": "Layout",
 					"variant": "signature",
 					"kind": 4096,
@@ -1191,6 +1191,31 @@
 						],
 						"blockTags": [
 							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`LayoutKit`"
+									},
+									{
+										"kind": "text",
+										"text": " from "
+									},
+									{
+										"kind": "code",
+										"text": "`@contember/layout`"
+									},
+									{
+										"kind": "text",
+										"text": " instead."
+									}
+								]
+							},
+							{
 								"tag": "@example",
 								"content": [
 									{
@@ -1210,14 +1235,14 @@
 					],
 					"parameters": [
 						{
-							"id": 14947,
+							"id": 15800,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 14926,
+								"target": 15779,
 								"name": "LayoutProps",
 								"package": "@contember/ui"
 							}

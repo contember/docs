@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 5033,
+			"id": 5351,
 			"name": "AvatarProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 5036,
+					"id": 5354,
 					"name": "email",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/ui/Avatar.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Avatar.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/Avatar.tsx#L8"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 5035,
+					"id": 5353,
 					"name": "shape",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,7 +46,7 @@
 							"fileName": "packages/admin/src/components/ui/Avatar.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Avatar.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/Avatar.tsx#L7"
 						}
 					],
 					"type": {
@@ -64,7 +64,7 @@
 					}
 				},
 				{
-					"id": 5034,
+					"id": 5352,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -76,7 +76,7 @@
 							"fileName": "packages/admin/src/components/ui/Avatar.tsx",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Avatar.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/Avatar.tsx#L6"
 						}
 					],
 					"type": {
@@ -110,9 +110,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						5036,
-						5035,
-						5034
+						5354,
+						5353,
+						5352
 					]
 				}
 			],
@@ -121,12 +121,12 @@
 					"fileName": "packages/admin/src/components/ui/Avatar.tsx",
 					"line": 5,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Avatar.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/Avatar.tsx#L5"
 				}
 			]
 		},
 		{
-			"id": 5037,
+			"id": 5355,
 			"name": "Avatar",
 			"variant": "declaration",
 			"kind": 64,
@@ -136,12 +136,12 @@
 					"fileName": "packages/admin/src/components/ui/Avatar.tsx",
 					"line": 14,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/Avatar.tsx#L14"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/Avatar.tsx#L14"
 				}
 			],
 			"signatures": [
 				{
-					"id": 5038,
+					"id": 5356,
 					"name": "Avatar",
 					"variant": "signature",
 					"kind": 4096,
@@ -155,20 +155,20 @@
 					],
 					"parameters": [
 						{
-							"id": 5039,
+							"id": 5357,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 5033,
+								"target": 5351,
 								"name": "AvatarProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 5040,
+							"id": 5358,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

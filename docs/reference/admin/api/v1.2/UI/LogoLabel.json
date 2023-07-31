@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15035,
+			"id": 15293,
 			"name": "LogoLabelProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15037,
+					"id": 15295,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,7 @@
 					}
 				},
 				{
-					"id": 15036,
+					"id": 15294,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -57,7 +57,7 @@
 					}
 				},
 				{
-					"id": 15038,
+					"id": 15296,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -80,7 +80,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 18292,
+								"target": 18677,
 								"name": "Size",
 								"package": "@contember/ui"
 							}
@@ -92,9 +92,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						15037,
-						15036,
-						15038
+						15295,
+						15294,
+						15296
 					]
 				}
 			],
@@ -107,7 +107,7 @@
 			]
 		},
 		{
-			"id": 15039,
+			"id": 15297,
 			"name": "LogoLabel",
 			"variant": "declaration",
 			"kind": 64,
@@ -121,7 +121,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15040,
+					"id": 15298,
 					"name": "LogoLabel",
 					"variant": "signature",
 					"kind": 4096,
@@ -135,14 +135,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15041,
+							"id": 15299,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15035,
+								"target": 15293,
 								"name": "LogoLabelProps",
 								"package": "@contember/ui"
 							}

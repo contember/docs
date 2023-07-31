@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 12073,
+			"id": 12394,
 			"name": "BreadcrumbsProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12074,
+					"id": 12395,
 					"name": "items",
 					"variant": "declaration",
 					"kind": 1024,
@@ -44,7 +44,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						12074
+						12395
 					]
 				}
 			],
@@ -57,7 +57,7 @@
 			]
 		},
 		{
-			"id": 12075,
+			"id": 12396,
 			"name": "Breadcrumbs",
 			"variant": "declaration",
 			"kind": 64,
@@ -71,7 +71,7 @@
 			],
 			"signatures": [
 				{
-					"id": 12076,
+					"id": 12397,
 					"name": "Breadcrumbs",
 					"variant": "signature",
 					"kind": 4096,
@@ -85,14 +85,14 @@
 					],
 					"parameters": [
 						{
-							"id": 12077,
+							"id": 12398,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 12073,
+								"target": 12394,
 								"name": "BreadcrumbsProps",
 								"package": "@contember/ui"
 							}

@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 13716,
+			"id": 14072,
 			"name": "CheckboxButtonProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 13721,
+					"id": 14077,
 					"name": "active",
 					"variant": "declaration",
 					"kind": 1024,
@@ -45,7 +45,7 @@
 					}
 				},
 				{
-					"id": 13717,
+					"id": 14073,
 					"name": "checked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -74,7 +74,7 @@
 					}
 				},
 				{
-					"id": 13722,
+					"id": 14078,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -106,7 +106,7 @@
 					}
 				},
 				{
-					"id": 13729,
+					"id": 14082,
 					"name": "disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -138,7 +138,7 @@
 					}
 				},
 				{
-					"id": 13727,
+					"id": 14083,
 					"name": "distinction",
 					"variant": "declaration",
 					"kind": 1024,
@@ -159,7 +159,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 15558,
+								"target": 15943,
 								"name": "ControlDistinction",
 								"package": "@contember/ui"
 							}
@@ -172,7 +172,7 @@
 					}
 				},
 				{
-					"id": 13734,
+					"id": 14090,
 					"name": "focused",
 					"variant": "declaration",
 					"kind": 1024,
@@ -204,7 +204,7 @@
 					}
 				},
 				{
-					"id": 13735,
+					"id": 14091,
 					"name": "hovered",
 					"variant": "declaration",
 					"kind": 1024,
@@ -236,7 +236,7 @@
 					}
 				},
 				{
-					"id": 13723,
+					"id": 14079,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -268,7 +268,7 @@
 					}
 				},
 				{
-					"id": 13718,
+					"id": 14074,
 					"name": "indeterminate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -288,7 +288,7 @@
 					}
 				},
 				{
-					"id": 13726,
+					"id": 14084,
 					"name": "intent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -309,7 +309,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 18287,
+								"target": 18672,
 								"name": "Intent",
 								"package": "@contember/ui"
 							}
@@ -322,7 +322,7 @@
 					}
 				},
 				{
-					"id": 13728,
+					"id": 14085,
 					"name": "loading",
 					"variant": "declaration",
 					"kind": 1024,
@@ -354,7 +354,7 @@
 					}
 				},
 				{
-					"id": 13720,
+					"id": 14076,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -386,7 +386,7 @@
 					}
 				},
 				{
-					"id": 13724,
+					"id": 14080,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -422,7 +422,7 @@
 					}
 				},
 				{
-					"id": 13731,
+					"id": 14087,
 					"name": "readOnly",
 					"variant": "declaration",
 					"kind": 1024,
@@ -454,7 +454,7 @@
 					}
 				},
 				{
-					"id": 13732,
+					"id": 14088,
 					"name": "required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -486,7 +486,7 @@
 					}
 				},
 				{
-					"id": 13730,
+					"id": 14086,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -507,7 +507,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 18288,
+								"target": 18673,
 								"name": "Scheme",
 								"package": "@contember/ui"
 							}
@@ -520,7 +520,7 @@
 					}
 				},
 				{
-					"id": 13725,
+					"id": 14081,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -541,7 +541,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 18292,
+								"target": 18677,
 								"name": "Size",
 								"package": "@contember/ui"
 							}
@@ -554,7 +554,7 @@
 					}
 				},
 				{
-					"id": 13719,
+					"id": 14075,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -592,7 +592,7 @@
 					}
 				},
 				{
-					"id": 13733,
+					"id": 14089,
 					"name": "validationState",
 					"variant": "declaration",
 					"kind": 1024,
@@ -613,7 +613,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 18293,
+								"target": 18678,
 								"name": "ValidationState",
 								"package": "@contember/ui"
 							}
@@ -630,25 +630,25 @@
 				{
 					"title": "Properties",
 					"children": [
-						13721,
-						13717,
-						13722,
-						13729,
-						13727,
-						13734,
-						13735,
-						13723,
-						13718,
-						13726,
-						13728,
-						13720,
-						13724,
-						13731,
-						13732,
-						13730,
-						13725,
-						13719,
-						13733
+						14077,
+						14073,
+						14078,
+						14082,
+						14083,
+						14090,
+						14091,
+						14079,
+						14074,
+						14084,
+						14085,
+						14076,
+						14080,
+						14087,
+						14088,
+						14086,
+						14081,
+						14075,
+						14089
 					]
 				}
 			],
@@ -662,21 +662,21 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 14808,
+					"target": 15173,
 					"name": "NonOptionalVisuallyDependentControlProps",
 					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 14773,
+			"id": 15138,
 			"name": "ControlDisplayProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14774,
+					"id": 15139,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -696,7 +696,7 @@
 					}
 				},
 				{
-					"id": 14775,
+					"id": 15140,
 					"name": "distinction",
 					"variant": "declaration",
 					"kind": 1024,
@@ -712,13 +712,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15558,
+						"target": 15943,
 						"name": "ControlDistinction",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14776,
+					"id": 15141,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -738,7 +738,7 @@
 					}
 				},
 				{
-					"id": 14777,
+					"id": 15142,
 					"name": "intent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -754,13 +754,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14782,
+					"id": 15147,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -780,7 +780,7 @@
 					}
 				},
 				{
-					"id": 14781,
+					"id": 15146,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -809,7 +809,7 @@
 					}
 				},
 				{
-					"id": 14778,
+					"id": 15143,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -825,13 +825,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14779,
+					"id": 15144,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -847,13 +847,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14783,
+					"id": 15148,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -879,7 +879,7 @@
 					}
 				},
 				{
-					"id": 14780,
+					"id": 15145,
 					"name": "type",
 					"variant": "declaration",
 					"kind": 1024,
@@ -903,16 +903,16 @@
 				{
 					"title": "Properties",
 					"children": [
-						14774,
-						14775,
-						14776,
-						14777,
-						14782,
-						14781,
-						14778,
-						14779,
-						14783,
-						14780
+						15139,
+						15140,
+						15141,
+						15142,
+						15147,
+						15146,
+						15143,
+						15144,
+						15148,
+						15145
 					]
 				}
 			],
@@ -925,14 +925,14 @@
 			]
 		},
 		{
-			"id": 14754,
+			"id": 15119,
 			"name": "ControlStateProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14755,
+					"id": 15120,
 					"name": "active",
 					"variant": "declaration",
 					"kind": 1024,
@@ -952,7 +952,7 @@
 					}
 				},
 				{
-					"id": 14756,
+					"id": 15121,
 					"name": "disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -972,7 +972,7 @@
 					}
 				},
 				{
-					"id": 14760,
+					"id": 15125,
 					"name": "focused",
 					"variant": "declaration",
 					"kind": 1024,
@@ -992,7 +992,7 @@
 					}
 				},
 				{
-					"id": 14761,
+					"id": 15126,
 					"name": "hovered",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1012,7 +1012,7 @@
 					}
 				},
 				{
-					"id": 14757,
+					"id": 15122,
 					"name": "loading",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1032,7 +1032,7 @@
 					}
 				},
 				{
-					"id": 14758,
+					"id": 15123,
 					"name": "readOnly",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1052,7 +1052,7 @@
 					}
 				},
 				{
-					"id": 14759,
+					"id": 15124,
 					"name": "required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1076,13 +1076,13 @@
 				{
 					"title": "Properties",
 					"children": [
-						14755,
-						14756,
-						14760,
-						14761,
-						14757,
-						14758,
-						14759
+						15120,
+						15121,
+						15125,
+						15126,
+						15122,
+						15123,
+						15124
 					]
 				}
 			],
@@ -1095,14 +1095,14 @@
 			]
 		},
 		{
-			"id": 14748,
+			"id": 15113,
 			"name": "ValidationStateProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14749,
+					"id": 15114,
 					"name": "onValidationStateChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1119,7 +1119,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 14750,
+							"id": 15115,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -1133,7 +1133,7 @@
 							],
 							"signatures": [
 								{
-									"id": 14751,
+									"id": 15116,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -1147,7 +1147,7 @@
 									],
 									"parameters": [
 										{
-											"id": 14752,
+											"id": 15117,
 											"name": "error",
 											"variant": "param",
 											"kind": 32768,
@@ -1170,7 +1170,7 @@
 					}
 				},
 				{
-					"id": 14753,
+					"id": 15118,
 					"name": "validationState",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1186,7 +1186,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18293,
+						"target": 18678,
 						"name": "ValidationState",
 						"package": "@contember/ui"
 					}
@@ -1196,8 +1196,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						14749,
-						14753
+						15114,
+						15118
 					]
 				}
 			],
@@ -1210,7 +1210,7 @@
 			]
 		},
 		{
-			"id": 14808,
+			"id": 15173,
 			"name": "NonOptionalVisuallyDependentControlProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1238,7 +1238,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 14807,
+								"target": 15172,
 								"name": "VisuallyDependentControlProps",
 								"package": "@contember/ui"
 							}
@@ -1257,13 +1257,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 13716,
+					"target": 14072,
 					"name": "CheckboxButtonProps"
 				}
 			]
 		},
 		{
-			"id": 14807,
+			"id": 15172,
 			"name": "VisuallyDependentControlProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1280,13 +1280,13 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 14754,
+						"target": 15119,
 						"name": "ControlStateProps",
 						"package": "@contember/ui"
 					},
 					{
 						"type": "reference",
-						"target": 14773,
+						"target": 15138,
 						"name": "ControlDisplayProps",
 						"package": "@contember/ui"
 					},
@@ -1299,7 +1299,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 14748,
+								"target": 15113,
 								"name": "ValidationStateProps",
 								"package": "@contember/ui"
 							},
@@ -1315,7 +1315,7 @@
 			}
 		},
 		{
-			"id": 13736,
+			"id": 14092,
 			"name": "CheckboxButton",
 			"variant": "declaration",
 			"kind": 64,
@@ -1329,7 +1329,7 @@
 			],
 			"signatures": [
 				{
-					"id": 13737,
+					"id": 14093,
 					"name": "CheckboxButton",
 					"variant": "signature",
 					"kind": 4096,
@@ -1343,14 +1343,14 @@
 					],
 					"parameters": [
 						{
-							"id": 13738,
+							"id": 14094,
 							"name": "__namedParameters",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 13716,
+								"target": 14072,
 								"name": "CheckboxButtonProps",
 								"package": "@contember/ui"
 							}

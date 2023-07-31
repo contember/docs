@@ -6,14 +6,28 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 13333,
+			"id": 13689,
 			"name": "ButtonGroupProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "No alternative"
+							}
+						]
+					}
+				]
+			},
 			"children": [
 				{
-					"id": 13334,
+					"id": 13690,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22,8 +36,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-							"line": 6,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 40,
 							"character": 4
 						}
 					],
@@ -44,7 +58,7 @@
 					}
 				},
 				{
-					"id": 13339,
+					"id": 13694,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -74,7 +88,7 @@
 					}
 				},
 				{
-					"id": 13340,
+					"id": 13695,
 					"name": "componentClassName",
 					"variant": "declaration",
 					"kind": 1024,
@@ -111,49 +125,124 @@
 					}
 				},
 				{
-					"id": 13337,
+					"id": 13691,
+					"name": "display",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 41,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "inline"
+							},
+							{
+								"type": "literal",
+								"value": "block"
+							}
+						]
+					}
+				},
+				{
+					"id": 13696,
 					"name": "flow",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
 						"isOptional": true
 					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`display`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-							"line": 9,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 75,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13357,
+						"target": 13701,
 						"name": "ButtonGroupFlow",
 						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13712,
+						"name": "DeprecatedButtonGroupProps.flow"
 					}
 				},
 				{
-					"id": 13338,
+					"id": 13697,
 					"name": "isTopToolbar",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
 						"isOptional": true
 					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "No alterative"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-							"line": 10,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 77,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "intrinsic",
 						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13713,
+						"name": "DeprecatedButtonGroupProps.isTopToolbar"
 					}
 				},
 				{
-					"id": 13336,
+					"id": 13692,
 					"name": "orientation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -162,20 +251,31 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-							"line": 8,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 42,
 							"character": 4
 						}
 					],
 					"type": {
-						"type": "reference",
-						"target": 13358,
-						"name": "ButtonGroupOrientation",
-						"package": "@contember/ui"
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "horizontal"
+							},
+							{
+								"type": "literal",
+								"value": "vertical"
+							},
+							{
+								"type": "literal",
+								"value": "default"
+							}
+						]
 					}
 				},
 				{
-					"id": 13335,
+					"id": 13693,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -184,16 +284,31 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-							"line": 7,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 43,
 							"character": 4
 						}
 					],
 					"type": {
-						"type": "reference",
-						"target": 18292,
-						"name": "Size",
-						"package": "@contember/ui"
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							}
+						]
 					}
 				}
 			],
@@ -201,20 +316,21 @@
 				{
 					"title": "Properties",
 					"children": [
-						13334,
-						13339,
-						13340,
-						13337,
-						13338,
-						13336,
-						13335
+						13690,
+						13694,
+						13695,
+						13691,
+						13696,
+						13697,
+						13692,
+						13693
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-					"line": 5,
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 39,
 					"character": 17
 				}
 			],
@@ -227,11 +343,141 @@
 					},
 					"name": "ComponentClassNameProps",
 					"package": "@contember/utilities"
+				},
+				{
+					"type": "reference",
+					"target": 13711,
+					"name": "DeprecatedButtonGroupProps",
+					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 13341,
+			"id": 13711,
+			"name": "DeprecatedButtonGroupProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "No alternative"
+							}
+						]
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 13712,
+					"name": "flow",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`display`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 75,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 13701,
+						"name": "ButtonGroupFlow",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 13713,
+					"name": "isTopToolbar",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "No alterative"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 77,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						13712,
+						13713
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 73,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 13689,
+					"name": "ButtonGroupProps"
+				}
+			]
+		},
+		{
+			"id": 13102,
 			"name": "ButtonGroup",
 			"variant": "declaration",
 			"kind": 64,
@@ -239,13 +485,13 @@
 			"sources": [
 				{
 					"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonGroup.d.ts",
-					"line": 15,
+					"line": 6,
 					"character": 21
 				}
 			],
 			"signatures": [
 				{
-					"id": 13342,
+					"id": 13103,
 					"name": "ButtonGroup",
 					"variant": "signature",
 					"kind": 4096,
@@ -259,14 +505,14 @@
 					],
 					"parameters": [
 						{
-							"id": 13343,
+							"id": 13104,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 13333,
+								"target": 13689,
 								"name": "ButtonGroupProps",
 								"package": "@contember/ui"
 							}

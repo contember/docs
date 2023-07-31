@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15313,
+			"id": 15596,
 			"name": "TableCellProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15315,
+					"id": 15598,
 					"name": "alignment",
 					"variant": "declaration",
 					"kind": 1024,
@@ -29,13 +29,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15554,
+						"target": 15939,
 						"name": "Alignment",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15314,
+					"id": 15597,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -61,7 +61,7 @@
 					}
 				},
 				{
-					"id": 15319,
+					"id": 15602,
 					"name": "colSpan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -81,7 +81,7 @@
 					}
 				},
 				{
-					"id": 15316,
+					"id": 15599,
 					"name": "justification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -97,13 +97,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15318,
+					"id": 15601,
 					"name": "numeric",
 					"variant": "declaration",
 					"kind": 1024,
@@ -123,7 +123,7 @@
 					}
 				},
 				{
-					"id": 15317,
+					"id": 15600,
 					"name": "shrunk",
 					"variant": "declaration",
 					"kind": 1024,
@@ -147,12 +147,12 @@
 				{
 					"title": "Properties",
 					"children": [
-						15315,
-						15314,
-						15319,
-						15316,
-						15318,
-						15317
+						15598,
+						15597,
+						15602,
+						15599,
+						15601,
+						15600
 					]
 				}
 			],
@@ -165,7 +165,7 @@
 			]
 		},
 		{
-			"id": 15320,
+			"id": 15603,
 			"name": "TableCell",
 			"variant": "declaration",
 			"kind": 64,
@@ -179,7 +179,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15321,
+					"id": 15604,
 					"name": "TableCell",
 					"variant": "signature",
 					"kind": 4096,
@@ -193,14 +193,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15322,
+							"id": 15605,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15313,
+								"target": 15596,
 								"name": "TableCellProps",
 								"package": "@contember/ui"
 							}

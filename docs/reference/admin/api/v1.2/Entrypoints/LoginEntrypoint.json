@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 4761,
+			"id": 5087,
 			"name": "LoginEntrypointProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4762,
+					"id": 5088,
 					"name": "apiBaseUrl",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 23,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L23"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L23"
 						}
 					],
 					"type": {
@@ -32,7 +32,7 @@
 					}
 				},
 				{
-					"id": 4765,
+					"id": 5091,
 					"name": "basePath",
 					"variant": "declaration",
 					"kind": 1024,
@@ -44,7 +44,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 26,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L26"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L26"
 						}
 					],
 					"type": {
@@ -53,7 +53,7 @@
 					}
 				},
 				{
-					"id": 4776,
+					"id": 5102,
 					"name": "collapsedEmailLogin",
 					"variant": "declaration",
 					"kind": 1024,
@@ -65,7 +65,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 32,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L32"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L32"
 						}
 					],
 					"type": {
@@ -74,7 +74,7 @@
 					}
 				},
 				{
-					"id": 4770,
+					"id": 5096,
 					"name": "formatProjectUrl",
 					"variant": "declaration",
 					"kind": 1024,
@@ -84,13 +84,13 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 29,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L29"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L29"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4771,
+							"id": 5097,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -100,12 +100,12 @@
 									"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 									"line": 29,
 									"character": 19,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L29"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L29"
 								}
 							],
 							"signatures": [
 								{
-									"id": 4772,
+									"id": 5098,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -115,19 +115,19 @@
 											"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 											"line": 29,
 											"character": 19,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L29"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L29"
 										}
 									],
 									"parameters": [
 										{
-											"id": 4773,
+											"id": 5099,
 											"name": "project",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 5018,
+												"target": 5336,
 												"name": "Project",
 												"package": "@contember/admin"
 											}
@@ -143,7 +143,7 @@
 					}
 				},
 				{
-					"id": 4774,
+					"id": 5100,
 					"name": "heading",
 					"variant": "declaration",
 					"kind": 1024,
@@ -155,7 +155,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 30,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L30"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L30"
 						}
 					],
 					"type": {
@@ -164,7 +164,7 @@
 					}
 				},
 				{
-					"id": 4769,
+					"id": 5095,
 					"name": "identityProviders",
 					"variant": "declaration",
 					"kind": 1024,
@@ -176,7 +176,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 28,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L28"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L28"
 						}
 					],
 					"type": {
@@ -186,7 +186,7 @@
 							"type": "array",
 							"elementType": {
 								"type": "reference",
-								"target": 6020,
+								"target": 6329,
 								"name": "IDP",
 								"package": "@contember/admin"
 							}
@@ -194,7 +194,7 @@
 					}
 				},
 				{
-					"id": 4763,
+					"id": 5089,
 					"name": "loginToken",
 					"variant": "declaration",
 					"kind": 1024,
@@ -204,7 +204,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 24,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L24"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L24"
 						}
 					],
 					"type": {
@@ -213,7 +213,7 @@
 					}
 				},
 				{
-					"id": 4766,
+					"id": 5092,
 					"name": "projects",
 					"variant": "declaration",
 					"kind": 1024,
@@ -223,7 +223,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 27,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L27"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L27"
 						}
 					],
 					"type": {
@@ -243,7 +243,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 4767,
+									"id": 5093,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -253,12 +253,12 @@
 											"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 											"line": 27,
 											"character": 32,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L27"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L27"
 										}
 									],
 									"signatures": [
 										{
-											"id": 4768,
+											"id": 5094,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -268,7 +268,7 @@
 													"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 													"line": 27,
 													"character": 32,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L27"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L27"
 												}
 											],
 											"type": {
@@ -301,7 +301,7 @@
 					}
 				},
 				{
-					"id": 4775,
+					"id": 5101,
 					"name": "projectsPageActions",
 					"variant": "declaration",
 					"kind": 1024,
@@ -313,7 +313,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 31,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L31"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L31"
 						}
 					],
 					"type": {
@@ -328,7 +328,7 @@
 					}
 				},
 				{
-					"id": 4764,
+					"id": 5090,
 					"name": "sessionToken",
 					"variant": "declaration",
 					"kind": 1024,
@@ -340,7 +340,7 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 25,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L25"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L25"
 						}
 					],
 					"type": {
@@ -353,16 +353,16 @@
 				{
 					"title": "Properties",
 					"children": [
-						4762,
-						4765,
-						4776,
-						4770,
-						4774,
-						4769,
-						4763,
-						4766,
-						4775,
-						4764
+						5088,
+						5091,
+						5102,
+						5096,
+						5100,
+						5095,
+						5089,
+						5092,
+						5101,
+						5090
 					]
 				}
 			],
@@ -371,12 +371,12 @@
 					"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 					"line": 22,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L22"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L22"
 				}
 			]
 		},
 		{
-			"id": 4777,
+			"id": 5103,
 			"name": "LoginEntrypoint",
 			"variant": "declaration",
 			"kind": 64,
@@ -386,12 +386,12 @@
 					"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 					"line": 44,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L44"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L44"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4778,
+					"id": 5104,
 					"name": "LoginEntrypoint",
 					"variant": "signature",
 					"kind": 4096,
@@ -401,19 +401,19 @@
 							"fileName": "packages/admin/src/components/Login/LoginEntrypoint.tsx",
 							"line": 44,
 							"character": 31,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Login/LoginEntrypoint.tsx#L44"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Login/LoginEntrypoint.tsx#L44"
 						}
 					],
 					"parameters": [
 						{
-							"id": 4779,
+							"id": 5105,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4761,
+								"target": 5087,
 								"name": "LoginEntrypointProps",
 								"package": "@contember/admin"
 							}

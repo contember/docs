@@ -23,9 +23,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 14,
+							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L15"
 						}
 					],
 					"type": {
@@ -56,9 +56,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 15,
+							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L16"
 						}
 					],
 					"type": {
@@ -83,9 +83,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 13,
+							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L14"
 						}
 					],
 					"type": {
@@ -106,9 +106,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 12,
+							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L13"
 						}
 					],
 					"type": {
@@ -137,21 +137,21 @@
 			"sources": [
 				{
 					"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-					"line": 11,
+					"line": 12,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L11"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L12"
 				}
 			]
 		},
 		{
-			"id": 12755,
+			"id": 13088,
 			"name": "ErrorListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12756,
+					"id": 13089,
 					"name": "errors",
 					"variant": "declaration",
 					"kind": 1024,
@@ -167,7 +167,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15565,
+						"target": 15950,
 						"name": "FieldErrors",
 						"package": "@contember/ui"
 					}
@@ -177,7 +177,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						12756
+						13089
 					]
 				}
 			],
@@ -190,14 +190,14 @@
 			]
 		},
 		{
-			"id": 4501,
+			"id": 4827,
 			"name": "InternalFileKind",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4503,
+					"id": 4829,
 					"name": "acceptFile",
 					"variant": "declaration",
 					"kind": 1024,
@@ -212,7 +212,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "AcceptFileKindError",
-								"target": 4257
+								"target": 4583
 							},
 							{
 								"kind": "text",
@@ -225,7 +225,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 22,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
 						}
 					],
 					"type": {
@@ -238,7 +238,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 4504,
+									"id": 4830,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -248,12 +248,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 											"line": 22,
 											"character": 14,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
 										}
 									],
 									"signatures": [
 										{
-											"id": 4505,
+											"id": 4831,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -263,19 +263,19 @@
 													"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 													"line": 22,
 													"character": 14,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
 												}
 											],
 											"parameters": [
 												{
-													"id": 4506,
+													"id": 4832,
 													"name": "options",
 													"variant": "param",
 													"kind": 32768,
 													"flags": {},
 													"type": {
 														"type": "reference",
-														"target": 4491,
+														"target": 4817,
 														"name": "AcceptFileOptions",
 														"package": "@contember/admin"
 													}
@@ -315,7 +315,7 @@
 					}
 				},
 				{
-					"id": 4502,
+					"id": 4828,
 					"name": "acceptMimeTypes",
 					"variant": "declaration",
 					"kind": 1024,
@@ -325,7 +325,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L19"
 						}
 					],
 					"type": {
@@ -350,7 +350,7 @@
 					}
 				},
 				{
-					"id": 4513,
+					"id": 4839,
 					"name": "baseEntity",
 					"variant": "declaration",
 					"kind": 1024,
@@ -362,7 +362,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 27,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L27"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L27"
 						}
 					],
 					"type": {
@@ -371,7 +371,7 @@
 					}
 				},
 				{
-					"id": 4515,
+					"id": 4841,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -383,7 +383,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 29,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L29"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L29"
 						}
 					],
 					"type": {
@@ -398,7 +398,7 @@
 					}
 				},
 				{
-					"id": 4514,
+					"id": 4840,
 					"name": "childrenOutsideBaseEntity",
 					"variant": "declaration",
 					"kind": 1024,
@@ -410,7 +410,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 28,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L28"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L28"
 						}
 					],
 					"type": {
@@ -419,7 +419,7 @@
 					}
 				},
 				{
-					"id": 4507,
+					"id": 4833,
 					"name": "renderFilePreview",
 					"variant": "declaration",
 					"kind": 1024,
@@ -429,13 +429,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 23,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4508,
+							"id": 4834,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -445,12 +445,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 									"line": 23,
 									"character": 20,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
 								}
 							],
 							"signatures": [
 								{
-									"id": 4509,
+									"id": 4835,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -460,19 +460,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 											"line": 23,
 											"character": 20,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
 										}
 									],
 									"parameters": [
 										{
-											"id": 4510,
+											"id": 4836,
 											"name": "options",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 4486,
+												"target": 4812,
 												"typeArguments": [
 													{
 														"type": "reference",
@@ -502,7 +502,7 @@
 					}
 				},
 				{
-					"id": 4511,
+					"id": 4837,
 					"name": "renderUploadedFile",
 					"variant": "declaration",
 					"kind": 1024,
@@ -512,7 +512,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 24,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L24"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L24"
 						}
 					],
 					"type": {
@@ -527,7 +527,7 @@
 					}
 				},
 				{
-					"id": 4512,
+					"id": 4838,
 					"name": "uploader",
 					"variant": "declaration",
 					"kind": 1024,
@@ -537,12 +537,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 25,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L25"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L25"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 11795,
+						"target": 12104,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -552,7 +552,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 11826,
+								"target": 12135,
 								"name": "FileUploadError",
 								"package": "@contember/client"
 							}
@@ -566,14 +566,14 @@
 				{
 					"title": "Properties",
 					"children": [
-						4503,
-						4502,
-						4513,
-						4515,
-						4514,
-						4507,
-						4511,
-						4512
+						4829,
+						4828,
+						4839,
+						4841,
+						4840,
+						4833,
+						4837,
+						4838
 					]
 				}
 			],
@@ -582,12 +582,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 					"line": 18,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L18"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L18"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4516,
+					"id": 4842,
 					"name": "UploadResult",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -598,7 +598,7 @@
 					}
 				},
 				{
-					"id": 4517,
+					"id": 4843,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -628,9 +628,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 21,
+							"line": 22,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L21"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L22"
 						}
 					],
 					"type": {
@@ -661,9 +661,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 22,
+							"line": 23,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L22"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L23"
 						}
 					],
 					"type": {
@@ -688,9 +688,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 20,
+							"line": 21,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L21"
 						}
 					],
 					"type": {
@@ -711,9 +711,9 @@
 					"sources": [
 						{
 							"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-							"line": 19,
+							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L20"
 						}
 					],
 					"type": {
@@ -742,21 +742,21 @@
 			"sources": [
 				{
 					"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx",
-					"line": 18,
+					"line": 19,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L18"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/CreateNewEntityButton.tsx#L19"
 				}
 			]
 		},
 		{
-			"id": 4281,
+			"id": 4607,
 			"name": "SelectFileInputSelectionComponentProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4282,
+					"id": 4608,
 					"name": "fileSelectionComponent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -768,7 +768,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L16"
 						}
 					],
 					"type": {
@@ -789,7 +789,7 @@
 									},
 									{
 										"type": "reference",
-										"target": 4266,
+										"target": 4592,
 										"name": "FileSelectionProps",
 										"package": "@contember/admin"
 									}
@@ -802,7 +802,7 @@
 					}
 				},
 				{
-					"id": 4284,
+					"id": 4610,
 					"name": "fileSelectionLabel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -814,7 +814,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L18"
 						}
 					],
 					"type": {
@@ -829,7 +829,7 @@
 					}
 				},
 				{
-					"id": 4283,
+					"id": 4609,
 					"name": "fileSelectionProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -841,7 +841,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L17"
 						}
 					],
 					"type": {
@@ -856,9 +856,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						4282,
-						4284,
-						4283
+						4608,
+						4610,
+						4609
 					]
 				}
 			],
@@ -867,12 +867,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 					"line": 15,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4285,
+					"id": 4611,
 					"name": "SFExtraProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -880,7 +880,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4286,
+							"id": 4612,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -890,7 +890,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 									"line": 15,
 									"character": 77,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
 								}
 							]
 						}
@@ -899,7 +899,7 @@
 			]
 		},
 		{
-			"id": 4526,
+			"id": 4852,
 			"name": "DiscriminatedFileKindsProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -909,12 +909,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 					"line": 6,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L6"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4531,
+					"id": 4857,
 					"name": "SFExtraProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -922,7 +922,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4532,
+							"id": 4858,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -932,7 +932,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 									"line": 6,
 									"character": 61,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L6"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L6"
 								}
 							]
 						}
@@ -940,7 +940,7 @@
 					"default": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4533,
+							"id": 4859,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -950,7 +950,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 									"line": 6,
 									"character": 66,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L6"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L6"
 								}
 							]
 						}
@@ -962,7 +962,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4281,
+						"target": 4607,
 						"typeArguments": [
 							{
 								"type": "intrinsic",
@@ -975,14 +975,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4527,
+							"id": 4853,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4530,
+									"id": 4856,
 									"name": "baseEntity",
 									"variant": "declaration",
 									"kind": 1024,
@@ -994,7 +994,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 											"line": 11,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L11"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L11"
 										}
 									],
 									"type": {
@@ -1003,7 +1003,7 @@
 									}
 								},
 								{
-									"id": 4529,
+									"id": 4855,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1013,7 +1013,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 											"line": 10,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L10"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L10"
 										}
 									],
 									"type": {
@@ -1028,7 +1028,7 @@
 									}
 								},
 								{
-									"id": 4528,
+									"id": 4854,
 									"name": "discriminationField",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1038,7 +1038,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 											"line": 9,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L9"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L9"
 										}
 									],
 									"type": {
@@ -1049,7 +1049,7 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 8577,
+											"target": 8886,
 											"name": "SugaredFieldProps",
 											"package": "@contember/binding"
 										}
@@ -1060,9 +1060,9 @@
 								{
 									"title": "Properties",
 									"children": [
-										4530,
-										4529,
-										4528
+										4856,
+										4855,
+										4854
 									]
 								}
 							],
@@ -1071,7 +1071,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 									"line": 8,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L8"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L8"
 								}
 							]
 						}
@@ -1080,7 +1080,7 @@
 			}
 		},
 		{
-			"id": 13739,
+			"id": 14095,
 			"name": "FieldContainerProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1098,14 +1098,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 13740,
+							"id": 14096,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 13741,
+									"id": 14097,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1129,7 +1129,7 @@
 									}
 								},
 								{
-									"id": 13753,
+									"id": 14113,
 									"name": "className",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1139,7 +1139,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 19,
+											"line": 25,
 											"character": 4
 										}
 									],
@@ -1149,7 +1149,7 @@
 									}
 								},
 								{
-									"id": 13742,
+									"id": 14098,
 									"name": "description",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1175,17 +1175,39 @@
 									}
 								},
 								{
-									"id": 13743,
+									"id": 14099,
 									"name": "direction",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
 										"isOptional": true
 									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Use "
+													},
+													{
+														"kind": "code",
+														"text": "`horizontal`"
+													},
+													{
+														"kind": "text",
+														"text": " instead"
+													}
+												]
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 9,
+											"line": 10,
 											"character": 4
 										}
 									],
@@ -1197,96 +1219,15 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 15278,
+											"target": 15568,
 											"name": "StackProps",
 											"package": "@contember/ui"
 										}
 									}
 								},
 								{
-									"id": 13744,
-									"name": "gap",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {
-										"isOptional": true
-									},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 10,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "reference",
-												"target": 18292,
-												"name": "Size",
-												"package": "@contember/ui"
-											},
-											{
-												"type": "literal",
-												"value": "none"
-											}
-										]
-									}
-								},
-								{
-									"id": 13745,
-									"name": "label",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 11,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "reference",
-										"target": {
-											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-											"qualifiedName": "React.ReactNode"
-										},
-										"name": "ReactNode",
-										"package": "@types/react",
-										"qualifiedName": "React.ReactNode"
-									}
-								},
-								{
-									"id": 13746,
-									"name": "labelDescription",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {
-										"isOptional": true
-									},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 12,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "reference",
-										"target": {
-											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-											"qualifiedName": "React.ReactNode"
-										},
-										"name": "ReactNode",
-										"package": "@types/react",
-										"qualifiedName": "React.ReactNode"
-									}
-								},
-								{
-									"id": 13747,
-									"name": "labelPosition",
+									"id": 14102,
+									"name": "display",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -1300,15 +1241,22 @@
 										}
 									],
 									"type": {
-										"type": "reference",
-										"target": 13771,
-										"name": "FieldContainerLabelPosition",
-										"package": "@contember/ui"
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "inline"
+											},
+											{
+												"type": "literal",
+												"value": "block"
+											}
+										]
 									}
 								},
 								{
-									"id": 13749,
-									"name": "required",
+									"id": 14100,
+									"name": "evenly",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -1317,18 +1265,109 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 11,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "evenly"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14101,
+									"name": "gap",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 12,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "gap"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14103,
+									"name": "horizontal",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 14,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "horizontal"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14104,
+									"name": "label",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
 											"line": 15,
 											"character": 4
 										}
 									],
 									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
 									}
 								},
 								{
-									"id": 13750,
-									"name": "size",
+									"id": 14105,
+									"name": "labelDescription",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -1343,13 +1382,110 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 18292,
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 14106,
+									"name": "labelPosition",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 17,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 14135,
+										"name": "FieldContainerLabelPosition",
+										"package": "@contember/ui"
+									}
+								},
+								{
+									"id": 14108,
+									"name": "required",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 20,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 14111,
+									"name": "reverse",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 23,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "reverse"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14109,
+									"name": "size",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 21,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 18677,
 										"name": "Size",
 										"package": "@contember/ui"
 									}
 								},
 								{
-									"id": 13752,
+									"id": 14112,
 									"name": "style",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1359,7 +1495,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 18,
+											"line": 24,
 											"character": 4
 										}
 									],
@@ -1375,7 +1511,7 @@
 									}
 								},
 								{
-									"id": 13751,
+									"id": 14110,
 									"name": "useLabelElement",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1385,7 +1521,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 17,
+											"line": 22,
 											"character": 4
 										}
 									],
@@ -1395,17 +1531,31 @@
 									}
 								},
 								{
-									"id": 13748,
+									"id": 14107,
 									"name": "width",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
 										"isOptional": true
 									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "No alternative"
+													}
+												]
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 14,
+											"line": 19,
 											"character": 4
 										}
 									],
@@ -1432,19 +1582,23 @@
 								{
 									"title": "Properties",
 									"children": [
-										13741,
-										13753,
-										13742,
-										13743,
-										13744,
-										13745,
-										13746,
-										13747,
-										13749,
-										13750,
-										13752,
-										13751,
-										13748
+										14097,
+										14113,
+										14098,
+										14099,
+										14102,
+										14100,
+										14101,
+										14103,
+										14104,
+										14105,
+										14106,
+										14108,
+										14111,
+										14109,
+										14112,
+										14110,
+										14107
 									]
 								}
 							],
@@ -1459,7 +1613,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 12755,
+						"target": 13088,
 						"name": "ErrorListProps",
 						"package": "@contember/ui"
 					}
@@ -1467,7 +1621,7 @@
 			}
 		},
 		{
-			"id": 4292,
+			"id": 4618,
 			"name": "FileInputPublicProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1477,7 +1631,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
 					"line": 9,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L9"
 				}
 			],
 			"type": {
@@ -1492,7 +1646,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 13739,
+								"target": 14095,
 								"name": "FieldContainerProps",
 								"package": "@contember/ui"
 							},
@@ -1525,21 +1679,21 @@
 					},
 					{
 						"type": "reference",
-						"target": 4296,
+						"target": 4622,
 						"name": "SelectFileInputPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4293,
+							"id": 4619,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4295,
+									"id": 4621,
 									"name": "addButtonSubText",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1551,7 +1705,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
 											"line": 15,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L15"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L15"
 										}
 									],
 									"type": {
@@ -1566,7 +1720,7 @@
 									}
 								},
 								{
-									"id": 4294,
+									"id": 4620,
 									"name": "enableAddingNew",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1578,7 +1732,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
 											"line": 14,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L14"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L14"
 										}
 									],
 									"type": {
@@ -1591,8 +1745,8 @@
 								{
 									"title": "Properties",
 									"children": [
-										4295,
-										4294
+										4621,
+										4620
 									]
 								}
 							],
@@ -1601,7 +1755,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx",
 									"line": 13,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L13"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/FileInput.tsx#L13"
 								}
 							]
 						}
@@ -1610,7 +1764,7 @@
 			}
 		},
 		{
-			"id": 4521,
+			"id": 4847,
 			"name": "FullFileKind",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1620,12 +1774,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 					"line": 36,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L36"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L36"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4524,
+					"id": 4850,
 					"name": "UploadResult",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1636,7 +1790,7 @@
 					}
 				},
 				{
-					"id": 4525,
+					"id": 4851,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1652,7 +1806,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4501,
+						"target": 4827,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -1673,14 +1827,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4522,
+							"id": 4848,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4523,
+									"id": 4849,
 									"name": "extractors",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1690,14 +1844,14 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 											"line": 39,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L39"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L39"
 										}
 									],
 									"type": {
 										"type": "array",
 										"elementType": {
 											"type": "reference",
-											"target": 4321,
+											"target": 4647,
 											"typeArguments": [
 												{
 													"type": "intrinsic",
@@ -1726,7 +1880,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										4523
+										4849
 									]
 								}
 							],
@@ -1735,7 +1889,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 									"line": 38,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L38"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L38"
 								}
 							]
 						}
@@ -1744,7 +1898,7 @@
 			}
 		},
 		{
-			"id": 4540,
+			"id": 4866,
 			"name": "HybridFileKindProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1754,7 +1908,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 					"line": 21,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L21"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L21"
 				}
 			],
 			"type": {
@@ -1762,13 +1916,13 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4526,
+						"target": 4852,
 						"name": "DiscriminatedFileKindsProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 4534,
+						"target": 4860,
 						"name": "SingleKindFileProps",
 						"package": "@contember/admin"
 					}
@@ -1776,7 +1930,7 @@
 			}
 		},
 		{
-			"id": 4296,
+			"id": 4622,
 			"name": "SelectFileInputPublicProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1786,7 +1940,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 					"line": 21,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L21"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L21"
 				}
 			],
 			"type": {
@@ -1801,14 +1955,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4297,
+							"id": 4623,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4298,
+									"id": 4624,
 									"name": "insertSelectedText",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1820,7 +1974,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 											"line": 24,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L24"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L24"
 										}
 									],
 									"type": {
@@ -1833,7 +1987,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										4298
+										4624
 									]
 								}
 							],
@@ -1842,7 +1996,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 									"line": 23,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L23"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L23"
 								}
 							]
 						}
@@ -1851,7 +2005,7 @@
 			}
 		},
 		{
-			"id": 4534,
+			"id": 4860,
 			"name": "SingleKindFileProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1861,7 +2015,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 					"line": 14,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L14"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L14"
 				}
 			],
 			"type": {
@@ -1869,13 +2023,13 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4521,
+						"target": 4847,
 						"name": "FullFileKind",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 4281,
+						"target": 4607,
 						"typeArguments": [
 							{
 								"type": "intrinsic",
@@ -1888,14 +2042,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4535,
+							"id": 4861,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4536,
+									"id": 4862,
 									"name": "hasUploadedFile",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1905,13 +2059,13 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 											"line": 18,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L18"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L18"
 										}
 									],
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 4537,
+											"id": 4863,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -1921,26 +2075,26 @@
 													"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 													"line": 18,
 													"character": 19,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L18"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L18"
 												}
 											],
 											"signatures": [
 												{
-													"id": 4538,
+													"id": 4864,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
 													"flags": {},
 													"parameters": [
 														{
-															"id": 4539,
+															"id": 4865,
 															"name": "entity",
 															"variant": "param",
 															"kind": 32768,
 															"flags": {},
 															"type": {
 																"type": "reference",
-																"target": 6993,
+																"target": 7302,
 																"name": "EntityAccessor",
 																"package": "@contember/binding"
 															}
@@ -1960,7 +2114,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										4536
+										4862
 									]
 								}
 							],
@@ -1969,7 +2123,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts",
 									"line": 17,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L17"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/HybridFileKind.ts#L17"
 								}
 							]
 						}
@@ -1978,7 +2132,7 @@
 			}
 		},
 		{
-			"id": 4632,
+			"id": 4958,
 			"name": "UploadFieldProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1988,12 +2142,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 					"line": 9,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L9"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4635,
+					"id": 4961,
 					"name": "SFExtraProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -2001,7 +2155,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4636,
+							"id": 4962,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -2011,7 +2165,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 									"line": 9,
 									"character": 50,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L9"
 								}
 							]
 						}
@@ -2019,7 +2173,7 @@
 					"default": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4637,
+							"id": 4963,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -2029,7 +2183,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 									"line": 9,
 									"character": 55,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L9"
 								}
 							]
 						}
@@ -2041,27 +2195,27 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4292,
+						"target": 4618,
 						"name": "FileInputPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 4540,
+						"target": 4866,
 						"name": "HybridFileKindProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4633,
+							"id": 4959,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4634,
+									"id": 4960,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2073,7 +2227,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 											"line": 13,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L13"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L13"
 										}
 									],
 									"type": {
@@ -2092,7 +2246,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										4634
+										4960
 									]
 								}
 							],
@@ -2101,7 +2255,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 									"line": 12,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L12"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L12"
 								}
 							]
 						}
@@ -2110,7 +2264,7 @@
 			}
 		},
 		{
-			"id": 4638,
+			"id": 4964,
 			"name": "UploadField",
 			"variant": "declaration",
 			"kind": 64,
@@ -2120,12 +2274,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 					"line": 19,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L19"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L19"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4639,
+					"id": 4965,
 					"name": "UploadField",
 					"variant": "signature",
 					"kind": 4096,
@@ -2135,12 +2289,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx",
 							"line": 29,
 							"character": 5,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L29"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/wrappers/generic/UploadField.tsx#L29"
 						}
 					],
 					"typeParameter": [
 						{
-							"id": 4640,
+							"id": 4966,
 							"name": "SFExtraProps",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -2148,7 +2302,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 4641,
+									"id": 4967,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -2158,7 +2312,7 @@
 							"default": {
 								"type": "reflection",
 								"declaration": {
-									"id": 4642,
+									"id": 4968,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -2169,14 +2323,14 @@
 					],
 					"parameters": [
 						{
-							"id": 4643,
+							"id": 4969,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4632,
+								"target": 4958,
 								"typeArguments": [
 									{
 										"type": "reference",

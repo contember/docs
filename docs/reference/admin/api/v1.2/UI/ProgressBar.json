@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15130,
+			"id": 15403,
 			"name": "ProgressBarProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15131,
+					"id": 15404,
 					"name": "progress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -35,7 +35,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						15131
+						15404
 					]
 				}
 			],
@@ -48,7 +48,7 @@
 			]
 		},
 		{
-			"id": 15132,
+			"id": 15405,
 			"name": "ProgressBar",
 			"variant": "declaration",
 			"kind": 64,
@@ -62,7 +62,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15133,
+					"id": 15406,
 					"name": "ProgressBar",
 					"variant": "signature",
 					"kind": 4096,
@@ -76,14 +76,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15134,
+							"id": 15407,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15130,
+								"target": 15403,
 								"name": "ProgressBarProps",
 								"package": "@contember/ui"
 							}

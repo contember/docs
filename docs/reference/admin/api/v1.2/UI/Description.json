@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15421,
+			"id": 15704,
 			"name": "DescriptionProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15423,
+					"id": 15706,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,7 @@
 					}
 				},
 				{
-					"id": 15422,
+					"id": 15705,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -61,8 +61,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						15423,
-						15422
+						15706,
+						15705
 					]
 				}
 			],
@@ -75,7 +75,7 @@
 			]
 		},
 		{
-			"id": 15424,
+			"id": 15707,
 			"name": "Description",
 			"variant": "declaration",
 			"kind": 64,
@@ -89,7 +89,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15425,
+					"id": 15708,
 					"name": "Description",
 					"variant": "signature",
 					"kind": 4096,
@@ -103,14 +103,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15426,
+							"id": 15709,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15421,
+								"target": 15704,
 								"name": "DescriptionProps",
 								"package": "@contember/ui"
 							}

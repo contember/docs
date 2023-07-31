@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6012,
+			"id": 6321,
 			"name": "CreateApiKeyFormProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6015,
+					"id": 6324,
 					"name": "apiKeyListLink",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,18 +23,18 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L12"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5945,
+						"target": 6254,
 						"name": "RoutingLinkTarget",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6013,
+					"id": 6322,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -44,7 +44,7 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L10"
 						}
 					],
 					"type": {
@@ -53,7 +53,7 @@
 					}
 				},
 				{
-					"id": 6014,
+					"id": 6323,
 					"name": "rolesConfig",
 					"variant": "declaration",
 					"kind": 1024,
@@ -65,12 +65,12 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L11"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6119,
+						"target": 6428,
 						"name": "RolesConfig",
 						"package": "@contember/admin"
 					}
@@ -80,9 +80,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						6015,
-						6013,
-						6014
+						6324,
+						6322,
+						6323
 					]
 				}
 			],
@@ -91,12 +91,12 @@
 					"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
 					"line": 9,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L9"
 				}
 			]
 		},
 		{
-			"id": 6016,
+			"id": 6325,
 			"name": "CreateApiKeyForm",
 			"variant": "declaration",
 			"kind": 64,
@@ -106,12 +106,12 @@
 					"fileName": "packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx",
 					"line": 22,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L22"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/CreateApiKeyForm.tsx#L22"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6017,
+					"id": 6326,
 					"name": "CreateApiKeyForm",
 					"variant": "signature",
 					"kind": 4096,
@@ -125,20 +125,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6018,
+							"id": 6327,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6012,
+								"target": 6321,
 								"name": "CreateApiKeyFormProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6019,
+							"id": 6328,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

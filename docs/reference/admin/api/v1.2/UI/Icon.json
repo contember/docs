@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 14901,
+			"id": 15266,
 			"name": "IconProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14905,
+					"id": 15270,
 					"name": "alignWithLowercase",
 					"variant": "declaration",
 					"kind": 1024,
@@ -33,7 +33,7 @@
 					}
 				},
 				{
-					"id": 14910,
+					"id": 15275,
 					"name": "blueprintIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -58,12 +58,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14898,
+						"target": 15263,
 						"name": "IconSourceSpecification.blueprintIcon"
 					}
 				},
 				{
-					"id": 14911,
+					"id": 15276,
 					"name": "contemberIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -99,6 +99,10 @@
 							{
 								"type": "literal",
 								"value": "person"
+							},
+							{
+								"type": "literal",
+								"value": "horizontalRule"
 							},
 							{
 								"type": "literal",
@@ -170,10 +174,6 @@
 							},
 							{
 								"type": "literal",
-								"value": "horizontalRule"
-							},
-							{
-								"type": "literal",
 								"value": "megaphone"
 							},
 							{
@@ -208,12 +208,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14899,
+						"target": 15264,
 						"name": "IconSourceSpecification.contemberIcon"
 					}
 				},
 				{
-					"id": 14912,
+					"id": 15277,
 					"name": "customIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -282,12 +282,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14900,
+						"target": 15265,
 						"name": "IconSourceSpecification.customIcon"
 					}
 				},
 				{
-					"id": 14906,
+					"id": 15271,
 					"name": "onClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -304,7 +304,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 14907,
+							"id": 15272,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -318,7 +318,7 @@
 							],
 							"signatures": [
 								{
-									"id": 14908,
+									"id": 15273,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -332,7 +332,7 @@
 									],
 									"parameters": [
 										{
-											"id": 14909,
+											"id": 15274,
 											"name": "e",
 											"variant": "param",
 											"kind": 32768,
@@ -379,7 +379,7 @@
 					}
 				},
 				{
-					"id": 14903,
+					"id": 15268,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -395,13 +395,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18286,
+						"target": 18671,
 						"name": "IconSize",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14904,
+					"id": 15269,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -427,7 +427,7 @@
 					}
 				},
 				{
-					"id": 14902,
+					"id": 15267,
 					"name": "title",
 					"variant": "declaration",
 					"kind": 1024,
@@ -451,14 +451,14 @@
 				{
 					"title": "Properties",
 					"children": [
-						14905,
-						14910,
-						14911,
-						14912,
-						14906,
-						14903,
-						14904,
-						14902
+						15270,
+						15275,
+						15276,
+						15277,
+						15271,
+						15268,
+						15269,
+						15267
 					]
 				}
 			],
@@ -472,21 +472,21 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 14897,
+					"target": 15262,
 					"name": "IconSourceSpecification",
 					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 14897,
+			"id": 15262,
 			"name": "IconSourceSpecification",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14898,
+					"id": 15263,
 					"name": "blueprintIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -511,7 +511,7 @@
 					}
 				},
 				{
-					"id": 14899,
+					"id": 15264,
 					"name": "contemberIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -547,6 +547,10 @@
 							{
 								"type": "literal",
 								"value": "person"
+							},
+							{
+								"type": "literal",
+								"value": "horizontalRule"
 							},
 							{
 								"type": "literal",
@@ -618,10 +622,6 @@
 							},
 							{
 								"type": "literal",
-								"value": "horizontalRule"
-							},
-							{
-								"type": "literal",
 								"value": "megaphone"
 							},
 							{
@@ -656,7 +656,7 @@
 					}
 				},
 				{
-					"id": 14900,
+					"id": 15265,
 					"name": "customIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -729,9 +729,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						14898,
-						14899,
-						14900
+						15263,
+						15264,
+						15265
 					]
 				}
 			],
@@ -745,23 +745,23 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 4011,
+					"target": 4329,
 					"name": "CommonToolbarButton"
 				},
 				{
 					"type": "reference",
-					"target": 12733,
+					"target": 13059,
 					"name": "ToolbarButton"
 				},
 				{
 					"type": "reference",
-					"target": 14901,
+					"target": 15266,
 					"name": "IconProps"
 				}
 			]
 		},
 		{
-			"id": 14913,
+			"id": 15278,
 			"name": "Icon",
 			"variant": "declaration",
 			"kind": 64,
@@ -775,7 +775,7 @@
 			],
 			"signatures": [
 				{
-					"id": 14914,
+					"id": 15279,
 					"name": "Icon",
 					"variant": "signature",
 					"kind": 4096,
@@ -789,7 +789,7 @@
 					],
 					"parameters": [
 						{
-							"id": 14915,
+							"id": 15280,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
@@ -799,7 +799,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"target": 14901,
+										"target": 15266,
 										"name": "IconProps",
 										"package": "@contember/ui"
 									},

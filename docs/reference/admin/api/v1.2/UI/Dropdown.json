@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 12287,
+			"id": 12613,
 			"name": "DropdownProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12303,
+					"id": 12629,
 					"name": "alignment",
 					"variant": "declaration",
 					"kind": 1024,
@@ -29,13 +29,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15560,
+						"target": 15945,
 						"name": "DropdownAlignment",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 12302,
+					"id": 12628,
 					"name": "buttonProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -51,13 +51,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 13321,
+						"target": 13677,
 						"name": "ButtonProps",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 12306,
+					"id": 12632,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -118,7 +118,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 12307,
+									"id": 12633,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -132,7 +132,7 @@
 									],
 									"signatures": [
 										{
-											"id": 12308,
+											"id": 12634,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -146,14 +146,14 @@
 											],
 											"parameters": [
 												{
-													"id": 12309,
+													"id": 12635,
 													"name": "props",
 													"variant": "param",
 													"kind": 32768,
 													"flags": {},
 													"type": {
 														"type": "reference",
-														"target": 12277,
+														"target": 12603,
 														"name": "DropdownRenderProps",
 														"package": "@contember/ui"
 													}
@@ -177,7 +177,7 @@
 					}
 				},
 				{
-					"id": 12305,
+					"id": 12631,
 					"name": "contentContainer",
 					"variant": "declaration",
 					"kind": 1024,
@@ -202,7 +202,7 @@
 					}
 				},
 				{
-					"id": 12311,
+					"id": 12637,
 					"name": "onDismiss",
 					"variant": "declaration",
 					"kind": 1024,
@@ -219,7 +219,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12312,
+							"id": 12638,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -233,7 +233,7 @@
 							],
 							"signatures": [
 								{
-									"id": 12313,
+									"id": 12639,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -255,7 +255,7 @@
 					}
 				},
 				{
-					"id": 12298,
+					"id": 12624,
 					"name": "renderContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -272,7 +272,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12299,
+							"id": 12625,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -286,7 +286,7 @@
 							],
 							"signatures": [
 								{
-									"id": 12300,
+									"id": 12626,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -300,14 +300,14 @@
 									],
 									"parameters": [
 										{
-											"id": 12301,
+											"id": 12627,
 											"name": "props",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 12277,
+												"target": 12603,
 												"name": "DropdownRenderProps",
 												"package": "@contember/ui"
 											}
@@ -329,7 +329,7 @@
 					}
 				},
 				{
-					"id": 12288,
+					"id": 12614,
 					"name": "renderToggle",
 					"variant": "declaration",
 					"kind": 1024,
@@ -346,7 +346,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12289,
+							"id": 12615,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -360,7 +360,7 @@
 							],
 							"signatures": [
 								{
-									"id": 12290,
+									"id": 12616,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -374,7 +374,7 @@
 									],
 									"parameters": [
 										{
-											"id": 12291,
+											"id": 12617,
 											"name": "props",
 											"variant": "param",
 											"kind": 32768,
@@ -382,14 +382,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 12292,
+													"id": 12618,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 12294,
+															"id": 12620,
 															"name": "onClick",
 															"variant": "declaration",
 															"kind": 1024,
@@ -404,7 +404,7 @@
 															"type": {
 																"type": "reflection",
 																"declaration": {
-																	"id": 12295,
+																	"id": 12621,
 																	"name": "__type",
 																	"variant": "declaration",
 																	"kind": 65536,
@@ -418,7 +418,7 @@
 																	],
 																	"signatures": [
 																		{
-																			"id": 12296,
+																			"id": 12622,
 																			"name": "__type",
 																			"variant": "signature",
 																			"kind": 4096,
@@ -432,7 +432,7 @@
 																			],
 																			"parameters": [
 																				{
-																					"id": 12297,
+																					"id": 12623,
 																					"name": "event",
 																					"variant": "param",
 																					"kind": 32768,
@@ -479,7 +479,7 @@
 															}
 														},
 														{
-															"id": 12293,
+															"id": 12619,
 															"name": "ref",
 															"variant": "declaration",
 															"kind": 1024,
@@ -518,8 +518,8 @@
 														{
 															"title": "Properties",
 															"children": [
-																12294,
-																12293
+																12620,
+																12619
 															]
 														}
 													],
@@ -550,7 +550,7 @@
 					}
 				},
 				{
-					"id": 12304,
+					"id": 12630,
 					"name": "strategy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -579,7 +579,7 @@
 					}
 				},
 				{
-					"id": 12310,
+					"id": 12636,
 					"name": "styledContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -603,15 +603,15 @@
 				{
 					"title": "Properties",
 					"children": [
-						12303,
-						12302,
-						12306,
-						12305,
-						12311,
-						12298,
-						12288,
-						12304,
-						12310
+						12629,
+						12628,
+						12632,
+						12631,
+						12637,
+						12624,
+						12614,
+						12630,
+						12636
 					]
 				}
 			],
@@ -624,7 +624,7 @@
 			]
 		},
 		{
-			"id": 12314,
+			"id": 12640,
 			"name": "Dropdown",
 			"variant": "declaration",
 			"kind": 64,
@@ -638,7 +638,7 @@
 			],
 			"signatures": [
 				{
-					"id": 12315,
+					"id": 12641,
 					"name": "Dropdown",
 					"variant": "signature",
 					"kind": 4096,
@@ -652,14 +652,14 @@
 					],
 					"parameters": [
 						{
-							"id": 12316,
+							"id": 12642,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 12287,
+								"target": 12613,
 								"name": "DropdownProps",
 								"package": "@contember/ui"
 							}

@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6004,
+			"id": 6313,
 			"name": "ApiKeyListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6006,
+					"id": 6315,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L7"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 6007,
+					"id": 6316,
 					"name": "createRoleRenderer",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,18 +46,18 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L8"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6153,
+						"target": 6462,
 						"name": "RoleRendererFactory",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6008,
+					"id": 6317,
 					"name": "editApiKeyLink",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,18 +67,18 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L9"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5945,
+						"target": 6254,
 						"name": "RoutingLinkTarget",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6005,
+					"id": 6314,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -88,7 +88,7 @@
 							"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L6"
 						}
 					],
 					"type": {
@@ -101,10 +101,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						6006,
-						6007,
-						6008,
-						6005
+						6315,
+						6316,
+						6317,
+						6314
 					]
 				}
 			],
@@ -113,12 +113,12 @@
 					"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
 					"line": 5,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L5"
 				}
 			]
 		},
 		{
-			"id": 6009,
+			"id": 6318,
 			"name": "ApiKeyList",
 			"variant": "declaration",
 			"kind": 64,
@@ -128,12 +128,12 @@
 					"fileName": "packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx",
 					"line": 15,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L15"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/apiKey/ApiKeyList.tsx#L15"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6010,
+					"id": 6319,
 					"name": "ApiKeyList",
 					"variant": "signature",
 					"kind": 4096,
@@ -147,14 +147,14 @@
 					],
 					"parameters": [
 						{
-							"id": 6011,
+							"id": 6320,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6004,
+								"target": 6313,
 								"name": "ApiKeyListProps",
 								"package": "@contember/admin"
 							}

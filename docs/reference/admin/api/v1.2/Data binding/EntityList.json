@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 8086,
+			"id": 8395,
 			"name": "EntityListBaseProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 8087,
+					"id": 8396,
 					"name": "accessor",
 					"variant": "declaration",
 					"kind": 1024,
@@ -27,13 +27,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 7137,
+						"target": 7446,
 						"name": "EntityListAccessor",
 						"package": "@contember/binding"
 					}
 				},
 				{
-					"id": 8088,
+					"id": 8397,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -63,8 +63,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						8087,
-						8088
+						8396,
+						8397
 					]
 				}
 			],
@@ -78,13 +78,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1263,
+					"target": 1284,
 					"name": "DataGridContainerProps"
 				}
 			]
 		},
 		{
-			"id": 8089,
+			"id": 8398,
 			"name": "EntityListProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -98,7 +98,7 @@
 			],
 			"typeParameters": [
 				{
-					"id": 8094,
+					"id": 8403,
 					"name": "ListProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -110,7 +110,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 8086,
+						"target": 8395,
 						"name": "EntityListBaseProps",
 						"package": "@contember/binding"
 					},
@@ -120,7 +120,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 8090,
+									"id": 8399,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -137,14 +137,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 8091,
+									"id": 8400,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 8092,
+											"id": 8401,
 											"name": "listComponent",
 											"variant": "declaration",
 											"kind": 1024,
@@ -174,7 +174,7 @@
 															},
 															{
 																"type": "reference",
-																"target": 8086,
+																"target": 8395,
 																"name": "EntityListBaseProps",
 																"package": "@contember/binding"
 															}
@@ -187,7 +187,7 @@
 											}
 										},
 										{
-											"id": 8093,
+											"id": 8402,
 											"name": "listProps",
 											"variant": "declaration",
 											"kind": 1024,
@@ -213,8 +213,8 @@
 										{
 											"title": "Properties",
 											"children": [
-												8092,
-												8093
+												8401,
+												8402
 											]
 										}
 									],
@@ -233,7 +233,7 @@
 			}
 		},
 		{
-			"id": 8095,
+			"id": 8404,
 			"name": "EntityList",
 			"variant": "declaration",
 			"kind": 64,
@@ -247,7 +247,7 @@
 			],
 			"signatures": [
 				{
-					"id": 8096,
+					"id": 8405,
 					"name": "EntityList",
 					"variant": "signature",
 					"kind": 4096,
@@ -261,7 +261,7 @@
 					],
 					"typeParameter": [
 						{
-							"id": 8097,
+							"id": 8406,
 							"name": "ListProps",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -270,14 +270,14 @@
 					],
 					"parameters": [
 						{
-							"id": 8098,
+							"id": 8407,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 8089,
+								"target": 8398,
 								"typeArguments": [
 									{
 										"type": "reference",

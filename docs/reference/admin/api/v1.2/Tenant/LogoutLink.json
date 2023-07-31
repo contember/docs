@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 4785,
+			"id": 5111,
 			"name": "LogoutLinkProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4786,
+					"id": 5112,
 					"name": "Component",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/LogoutLink.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/LogoutLink.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/LogoutLink.tsx#L10"
 						}
 					],
 					"type": {
@@ -37,7 +37,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 4780,
+								"target": 5106,
 								"name": "LogoutLinkInnerProps",
 								"package": "@contember/admin"
 							}
@@ -48,7 +48,7 @@
 					}
 				},
 				{
-					"id": 4787,
+					"id": 5113,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -60,7 +60,7 @@
 							"fileName": "packages/admin/src/components/LogoutLink.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/LogoutLink.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/LogoutLink.tsx#L11"
 						}
 					],
 					"type": {
@@ -79,8 +79,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						4786,
-						4787
+						5112,
+						5113
 					]
 				}
 			],
@@ -89,12 +89,12 @@
 					"fileName": "packages/admin/src/components/LogoutLink.tsx",
 					"line": 9,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/LogoutLink.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/LogoutLink.tsx#L9"
 				}
 			]
 		},
 		{
-			"id": 4788,
+			"id": 5114,
 			"name": "LogoutLink",
 			"variant": "declaration",
 			"kind": 64,
@@ -104,12 +104,12 @@
 					"fileName": "packages/admin/src/components/LogoutLink.tsx",
 					"line": 24,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/LogoutLink.tsx#L24"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/LogoutLink.tsx#L24"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4789,
+					"id": 5115,
 					"name": "LogoutLink",
 					"variant": "signature",
 					"kind": 4096,
@@ -123,14 +123,14 @@
 					],
 					"parameters": [
 						{
-							"id": 4790,
+							"id": 5116,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4785,
+								"target": 5111,
 								"name": "LogoutLinkProps",
 								"package": "@contember/admin"
 							}

@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 7517,
+			"id": 7826,
 			"name": "AccessorTreeProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 7519,
+					"id": 7828,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,7 @@
 					}
 				},
 				{
-					"id": 7518,
+					"id": 7827,
 					"name": "state",
 					"variant": "declaration",
 					"kind": 1024,
@@ -51,7 +51,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 7537,
+						"target": 7846,
 						"name": "AccessorTreeState",
 						"package": "@contember/binding"
 					}
@@ -61,8 +61,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						7519,
-						7518
+						7828,
+						7827
 					]
 				}
 			],
@@ -75,7 +75,7 @@
 			]
 		},
 		{
-			"id": 7520,
+			"id": 7829,
 			"name": "AccessorTree",
 			"variant": "declaration",
 			"kind": 64,
@@ -89,7 +89,7 @@
 			],
 			"signatures": [
 				{
-					"id": 7521,
+					"id": 7830,
 					"name": "AccessorTree",
 					"variant": "signature",
 					"kind": 4096,
@@ -103,14 +103,14 @@
 					],
 					"parameters": [
 						{
-							"id": 7522,
+							"id": 7831,
 							"name": "__namedParameters",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 7517,
+								"target": 7826,
 								"name": "AccessorTreeProps",
 								"package": "@contember/binding"
 							}

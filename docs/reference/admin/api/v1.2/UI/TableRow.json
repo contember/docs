@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15332,
+			"id": 15615,
 			"name": "TableRowProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15334,
+					"id": 15617,
 					"name": "active",
 					"variant": "declaration",
 					"kind": 1024,
@@ -33,7 +33,7 @@
 					}
 				},
 				{
-					"id": 15335,
+					"id": 15618,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -59,7 +59,7 @@
 					}
 				},
 				{
-					"id": 15333,
+					"id": 15616,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -88,7 +88,7 @@
 					}
 				},
 				{
-					"id": 15336,
+					"id": 15619,
 					"name": "justification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -104,13 +104,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15337,
+					"id": 15620,
 					"name": "onClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -127,7 +127,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 15338,
+							"id": 15621,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -141,7 +141,7 @@
 							],
 							"signatures": [
 								{
-									"id": 15339,
+									"id": 15622,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -155,7 +155,7 @@
 									],
 									"parameters": [
 										{
-											"id": 15340,
+											"id": 15623,
 											"name": "id",
 											"variant": "param",
 											"kind": 32768,
@@ -189,11 +189,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						15334,
-						15335,
-						15333,
-						15336,
-						15337
+						15617,
+						15618,
+						15616,
+						15619,
+						15620
 					]
 				}
 			],
@@ -206,7 +206,7 @@
 			]
 		},
 		{
-			"id": 15341,
+			"id": 15624,
 			"name": "TableRow",
 			"variant": "declaration",
 			"kind": 64,
@@ -220,7 +220,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15342,
+					"id": 15625,
 					"name": "TableRow",
 					"variant": "signature",
 					"kind": 4096,
@@ -234,14 +234,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15343,
+							"id": 15626,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15332,
+								"target": 15615,
 								"name": "TableRowProps",
 								"package": "@contember/ui"
 							}

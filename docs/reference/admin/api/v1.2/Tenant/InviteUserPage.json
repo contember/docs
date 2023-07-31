@@ -6,7 +6,7 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6225,
+			"id": 6534,
 			"name": "InviteUserPageProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -16,20 +16,20 @@
 					"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
 					"line": 10,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L10"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L10"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 6226,
+					"id": 6535,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 6229,
+							"id": 6538,
 							"name": "method",
 							"variant": "declaration",
 							"kind": 1024,
@@ -41,18 +41,18 @@
 									"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
 									"line": 13,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L13"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L13"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 6555,
+								"target": 6864,
 								"name": "InviteMethod",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6227,
+							"id": 6536,
 							"name": "rolesConfig",
 							"variant": "declaration",
 							"kind": 1024,
@@ -64,18 +64,18 @@
 									"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
 									"line": 11,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L11"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 6119,
+								"target": 6428,
 								"name": "RolesConfig",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6228,
+							"id": 6537,
 							"name": "userListLink",
 							"variant": "declaration",
 							"kind": 1024,
@@ -87,12 +87,12 @@
 									"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
 									"line": 12,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L12"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L12"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 5945,
+								"target": 6254,
 								"name": "RoutingLinkTarget",
 								"package": "@contember/admin"
 							}
@@ -102,9 +102,9 @@
 						{
 							"title": "Properties",
 							"children": [
-								6229,
-								6227,
-								6228
+								6538,
+								6536,
+								6537
 							]
 						}
 					],
@@ -113,14 +113,14 @@
 							"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
 							"line": 10,
 							"character": 34,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L10"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 6230,
+			"id": 6539,
 			"name": "InviteUserPage",
 			"variant": "declaration",
 			"kind": 64,
@@ -130,12 +130,12 @@
 					"fileName": "packages/admin/src/tenant/components/pages/InviteUserPage.tsx",
 					"line": 19,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L19"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/InviteUserPage.tsx#L19"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6231,
+					"id": 6540,
 					"name": "InviteUserPage",
 					"variant": "signature",
 					"kind": 4096,
@@ -149,20 +149,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6232,
+							"id": 6541,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6225,
+								"target": 6534,
 								"name": "InviteUserPageProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6233,
+							"id": 6542,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

@@ -16,7 +16,7 @@
 					"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 					"line": 16,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L16"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L16"
 				}
 			],
 			"typeParameters": [
@@ -73,7 +73,7 @@
 					"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 					"line": 6,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L6"
 				}
 			],
 			"type": {
@@ -96,7 +96,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 10,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L10"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L10"
 								}
 							],
 							"type": {
@@ -117,7 +117,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 7,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L7"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L7"
 								}
 							],
 							"type": {
@@ -144,7 +144,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 8,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L8"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L8"
 								}
 							],
 							"type": {
@@ -170,7 +170,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 9,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L9"
 								}
 							],
 							"type": {
@@ -189,7 +189,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 11,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L11"
 								}
 							],
 							"type": {
@@ -208,7 +208,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 12,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L12"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L12"
 								}
 							],
 							"type": {
@@ -227,7 +227,7 @@
 									"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 									"line": 13,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L13"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L13"
 								}
 							],
 							"type": {
@@ -255,7 +255,7 @@
 							"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 							"line": 6,
 							"character": 37,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L6"
 						}
 					]
 				}
@@ -272,7 +272,7 @@
 					"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 					"line": 27,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L27"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L27"
 				}
 			],
 			"signatures": [
@@ -287,7 +287,7 @@
 							"fileName": "packages/layout/src/insets/InsetsProvider.tsx",
 							"line": 18,
 							"character": 43,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/insets/InsetsProvider.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/insets/InsetsProvider.tsx#L18"
 						}
 					],
 					"typeParameter": [

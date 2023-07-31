@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15260,
+			"id": 15547,
 			"name": "SpinnerContainerProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15262,
+					"id": 15549,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -42,7 +42,7 @@
 					}
 				},
 				{
-					"id": 15263,
+					"id": 15550,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -72,7 +72,7 @@
 					}
 				},
 				{
-					"id": 15264,
+					"id": 15551,
 					"name": "componentClassName",
 					"variant": "declaration",
 					"kind": 1024,
@@ -109,7 +109,7 @@
 					}
 				},
 				{
-					"id": 15261,
+					"id": 15548,
 					"name": "enabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -129,7 +129,7 @@
 					}
 				},
 				{
-					"id": 15265,
+					"id": 15552,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -145,7 +145,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					},
@@ -160,11 +160,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						15262,
-						15263,
-						15264,
-						15261,
-						15265
+						15549,
+						15550,
+						15551,
+						15548,
+						15552
 					]
 				}
 			],
@@ -178,14 +178,14 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 15257,
+					"target": 15544,
 					"name": "SpinnerOverlayProps",
 					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 15257,
+			"id": 15544,
 			"name": "SpinnerOverlayProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -212,14 +212,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 15258,
+							"id": 15545,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 15259,
+									"id": 15546,
 									"name": "size",
 									"variant": "declaration",
 									"kind": 1024,
@@ -235,7 +235,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 18292,
+										"target": 18677,
 										"name": "Size",
 										"package": "@contember/ui"
 									}
@@ -245,7 +245,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										15259
+										15546
 									]
 								}
 							],
@@ -263,13 +263,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 15260,
+					"target": 15547,
 					"name": "SpinnerContainerProps"
 				}
 			]
 		},
 		{
-			"id": 15479,
+			"id": 15762,
 			"name": "ContainerSpinner",
 			"variant": "declaration",
 			"kind": 64,
@@ -283,7 +283,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15480,
+					"id": 15763,
 					"name": "ContainerSpinner",
 					"variant": "signature",
 					"kind": 4096,
@@ -311,14 +311,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15481,
+							"id": 15764,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15260,
+								"target": 15547,
 								"name": "SpinnerContainerProps",
 								"package": "@contember/ui"
 							}

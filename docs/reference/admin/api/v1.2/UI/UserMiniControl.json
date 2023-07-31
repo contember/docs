@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15451,
+			"id": 15734,
 			"name": "UserMiniControlProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15452,
+					"id": 15735,
 					"name": "avatarUrl",
 					"variant": "declaration",
 					"kind": 1024,
@@ -33,7 +33,7 @@
 					}
 				},
 				{
-					"id": 15453,
+					"id": 15736,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -57,7 +57,7 @@
 					}
 				},
 				{
-					"id": 15454,
+					"id": 15737,
 					"name": "note",
 					"variant": "declaration",
 					"kind": 1024,
@@ -87,9 +87,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						15452,
-						15453,
-						15454
+						15735,
+						15736,
+						15737
 					]
 				}
 			],
@@ -102,7 +102,7 @@
 			]
 		},
 		{
-			"id": 15455,
+			"id": 15738,
 			"name": "UserMiniControl",
 			"variant": "declaration",
 			"kind": 64,
@@ -116,7 +116,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15456,
+					"id": 15739,
 					"name": "UserMiniControl",
 					"variant": "signature",
 					"kind": 4096,
@@ -130,20 +130,20 @@
 					],
 					"parameters": [
 						{
-							"id": 15457,
+							"id": 15740,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15451,
+								"target": 15734,
 								"name": "UserMiniControlProps",
 								"package": "@contember/ui"
 							}
 						},
 						{
-							"id": 15458,
+							"id": 15741,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

@@ -6,22 +6,22 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 12760,
+			"id": 13108,
 			"name": "ButtonBasedProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12761,
+					"id": 13109,
 					"name": "Component",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 5,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 6,
 							"character": 4
 						}
 					],
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"id": 12792,
+					"id": 13140,
 					"name": "about",
 					"variant": "declaration",
 					"kind": 1024,
@@ -57,7 +57,7 @@
 					}
 				},
 				{
-					"id": 12775,
+					"id": 13123,
 					"name": "accessKey",
 					"variant": "declaration",
 					"kind": 1024,
@@ -83,7 +83,7 @@
 					}
 				},
 				{
-					"id": 12816,
+					"id": 13164,
 					"name": "aria-activedescendant",
 					"variant": "declaration",
 					"kind": 1024,
@@ -117,7 +117,7 @@
 					}
 				},
 				{
-					"id": 12817,
+					"id": 13165,
 					"name": "aria-atomic",
 					"variant": "declaration",
 					"kind": 1024,
@@ -156,7 +156,7 @@
 					}
 				},
 				{
-					"id": 12818,
+					"id": 13166,
 					"name": "aria-autocomplete",
 					"variant": "declaration",
 					"kind": 1024,
@@ -207,7 +207,7 @@
 					}
 				},
 				{
-					"id": 12819,
+					"id": 13167,
 					"name": "aria-busy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -246,7 +246,7 @@
 					}
 				},
 				{
-					"id": 12820,
+					"id": 13168,
 					"name": "aria-checked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -328,7 +328,7 @@
 					}
 				},
 				{
-					"id": 12821,
+					"id": 13169,
 					"name": "aria-colcount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -373,7 +373,7 @@
 					}
 				},
 				{
-					"id": 12822,
+					"id": 13170,
 					"name": "aria-colindex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -438,7 +438,7 @@
 					}
 				},
 				{
-					"id": 12823,
+					"id": 13171,
 					"name": "aria-colspan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -503,7 +503,7 @@
 					}
 				},
 				{
-					"id": 12824,
+					"id": 13172,
 					"name": "aria-controls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -548,7 +548,7 @@
 					}
 				},
 				{
-					"id": 12825,
+					"id": 13173,
 					"name": "aria-current",
 					"variant": "declaration",
 					"kind": 1024,
@@ -615,7 +615,7 @@
 					}
 				},
 				{
-					"id": 12826,
+					"id": 13174,
 					"name": "aria-describedby",
 					"variant": "declaration",
 					"kind": 1024,
@@ -660,7 +660,7 @@
 					}
 				},
 				{
-					"id": 12827,
+					"id": 13175,
 					"name": "aria-details",
 					"variant": "declaration",
 					"kind": 1024,
@@ -705,7 +705,7 @@
 					}
 				},
 				{
-					"id": 12828,
+					"id": 13176,
 					"name": "aria-disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -775,7 +775,7 @@
 					}
 				},
 				{
-					"id": 12829,
+					"id": 13177,
 					"name": "aria-dropeffect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -845,7 +845,7 @@
 					}
 				},
 				{
-					"id": 12830,
+					"id": 13178,
 					"name": "aria-errormessage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -910,7 +910,7 @@
 					}
 				},
 				{
-					"id": 12831,
+					"id": 13179,
 					"name": "aria-expanded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -949,7 +949,7 @@
 					}
 				},
 				{
-					"id": 12832,
+					"id": 13180,
 					"name": "aria-flowto",
 					"variant": "declaration",
 					"kind": 1024,
@@ -983,7 +983,7 @@
 					}
 				},
 				{
-					"id": 12833,
+					"id": 13181,
 					"name": "aria-grabbed",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1033,7 +1033,7 @@
 					}
 				},
 				{
-					"id": 12834,
+					"id": 13182,
 					"name": "aria-haspopup",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1100,7 +1100,7 @@
 					}
 				},
 				{
-					"id": 12835,
+					"id": 13183,
 					"name": "aria-hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1150,7 +1150,7 @@
 					}
 				},
 				{
-					"id": 12836,
+					"id": 13184,
 					"name": "aria-invalid",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1216,7 +1216,7 @@
 					}
 				},
 				{
-					"id": 12837,
+					"id": 13185,
 					"name": "aria-keyshortcuts",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1250,7 +1250,7 @@
 					}
 				},
 				{
-					"id": 12838,
+					"id": 13186,
 					"name": "aria-label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1295,7 +1295,7 @@
 					}
 				},
 				{
-					"id": 12839,
+					"id": 13187,
 					"name": "aria-labelledby",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1340,7 +1340,7 @@
 					}
 				},
 				{
-					"id": 12840,
+					"id": 13188,
 					"name": "aria-level",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1374,7 +1374,7 @@
 					}
 				},
 				{
-					"id": 12841,
+					"id": 13189,
 					"name": "aria-live",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1421,7 +1421,7 @@
 					}
 				},
 				{
-					"id": 12842,
+					"id": 13190,
 					"name": "aria-modal",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1460,7 +1460,7 @@
 					}
 				},
 				{
-					"id": 12843,
+					"id": 13191,
 					"name": "aria-multiline",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1499,7 +1499,7 @@
 					}
 				},
 				{
-					"id": 12844,
+					"id": 13192,
 					"name": "aria-multiselectable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1538,7 +1538,7 @@
 					}
 				},
 				{
-					"id": 12845,
+					"id": 13193,
 					"name": "aria-orientation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1581,7 +1581,7 @@
 					}
 				},
 				{
-					"id": 12846,
+					"id": 13194,
 					"name": "aria-owns",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1626,7 +1626,7 @@
 					}
 				},
 				{
-					"id": 12847,
+					"id": 13195,
 					"name": "aria-placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1660,7 +1660,7 @@
 					}
 				},
 				{
-					"id": 12848,
+					"id": 13196,
 					"name": "aria-posinset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1705,7 +1705,7 @@
 					}
 				},
 				{
-					"id": 12849,
+					"id": 13197,
 					"name": "aria-pressed",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1787,7 +1787,7 @@
 					}
 				},
 				{
-					"id": 12850,
+					"id": 13198,
 					"name": "aria-readonly",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1837,7 +1837,7 @@
 					}
 				},
 				{
-					"id": 12851,
+					"id": 13199,
 					"name": "aria-relevant",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1923,7 +1923,7 @@
 					}
 				},
 				{
-					"id": 12852,
+					"id": 13200,
 					"name": "aria-required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1962,7 +1962,7 @@
 					}
 				},
 				{
-					"id": 12853,
+					"id": 13201,
 					"name": "aria-roledescription",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1996,7 +1996,7 @@
 					}
 				},
 				{
-					"id": 12854,
+					"id": 13202,
 					"name": "aria-rowcount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2041,7 +2041,7 @@
 					}
 				},
 				{
-					"id": 12855,
+					"id": 13203,
 					"name": "aria-rowindex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2106,7 +2106,7 @@
 					}
 				},
 				{
-					"id": 12856,
+					"id": 13204,
 					"name": "aria-rowspan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2171,7 +2171,7 @@
 					}
 				},
 				{
-					"id": 12857,
+					"id": 13205,
 					"name": "aria-selected",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2241,7 +2241,7 @@
 					}
 				},
 				{
-					"id": 12858,
+					"id": 13206,
 					"name": "aria-setsize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2286,7 +2286,7 @@
 					}
 				},
 				{
-					"id": 12859,
+					"id": 13207,
 					"name": "aria-sort",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2337,7 +2337,7 @@
 					}
 				},
 				{
-					"id": 12860,
+					"id": 13208,
 					"name": "aria-valuemax",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2371,7 +2371,7 @@
 					}
 				},
 				{
-					"id": 12861,
+					"id": 13209,
 					"name": "aria-valuemin",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2405,7 +2405,7 @@
 					}
 				},
 				{
-					"id": 12862,
+					"id": 13210,
 					"name": "aria-valuenow",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2450,7 +2450,7 @@
 					}
 				},
 				{
-					"id": 12863,
+					"id": 13211,
 					"name": "aria-valuetext",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2484,7 +2484,7 @@
 					}
 				},
 				{
-					"id": 12802,
+					"id": 13150,
 					"name": "autoCapitalize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2510,7 +2510,7 @@
 					}
 				},
 				{
-					"id": 12803,
+					"id": 13151,
 					"name": "autoCorrect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2536,7 +2536,7 @@
 					}
 				},
 				{
-					"id": 12776,
+					"id": 13124,
 					"name": "autoFocus",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2562,7 +2562,7 @@
 					}
 				},
 				{
-					"id": 12804,
+					"id": 13152,
 					"name": "autoSave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2588,7 +2588,7 @@
 					}
 				},
 				{
-					"id": 12763,
+					"id": 13111,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2620,7 +2620,7 @@
 					}
 				},
 				{
-					"id": 12777,
+					"id": 13125,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2646,7 +2646,7 @@
 					}
 				},
 				{
-					"id": 12805,
+					"id": 13153,
 					"name": "color",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2672,7 +2672,7 @@
 					}
 				},
 				{
-					"id": 12793,
+					"id": 13141,
 					"name": "content",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2698,7 +2698,7 @@
 					}
 				},
 				{
-					"id": 12778,
+					"id": 13126,
 					"name": "contentEditable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2738,7 +2738,7 @@
 					}
 				},
 				{
-					"id": 12779,
+					"id": 13127,
 					"name": "contextMenu",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2764,7 +2764,7 @@
 					}
 				},
 				{
-					"id": 12864,
+					"id": 13212,
 					"name": "dangerouslySetInnerHTML",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2782,7 +2782,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12865,
+							"id": 13213,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -2791,7 +2791,7 @@
 							},
 							"children": [
 								{
-									"id": 12866,
+									"id": 13214,
 									"name": "__html",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2829,7 +2829,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										12866
+										13214
 									]
 								}
 							],
@@ -2849,7 +2849,7 @@
 					}
 				},
 				{
-					"id": 12794,
+					"id": 13142,
 					"name": "datatype",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2875,7 +2875,7 @@
 					}
 				},
 				{
-					"id": 12771,
+					"id": 13119,
 					"name": "defaultChecked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2901,7 +2901,7 @@
 					}
 				},
 				{
-					"id": 12772,
+					"id": 13120,
 					"name": "defaultValue",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2947,7 +2947,7 @@
 					}
 				},
 				{
-					"id": 12780,
+					"id": 13128,
 					"name": "dir",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2973,7 +2973,7 @@
 					}
 				},
 				{
-					"id": 13029,
+					"id": 13377,
 					"name": "disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2999,7 +2999,7 @@
 					}
 				},
 				{
-					"id": 12781,
+					"id": 13129,
 					"name": "draggable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3030,7 +3030,7 @@
 					}
 				},
 				{
-					"id": 12764,
+					"id": 13112,
 					"name": "form",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3056,7 +3056,7 @@
 					}
 				},
 				{
-					"id": 13030,
+					"id": 13378,
 					"name": "formAction",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3082,7 +3082,7 @@
 					}
 				},
 				{
-					"id": 13031,
+					"id": 13379,
 					"name": "formEncType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3108,7 +3108,7 @@
 					}
 				},
 				{
-					"id": 13032,
+					"id": 13380,
 					"name": "formMethod",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3134,7 +3134,7 @@
 					}
 				},
 				{
-					"id": 13033,
+					"id": 13381,
 					"name": "formNoValidate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3160,7 +3160,7 @@
 					}
 				},
 				{
-					"id": 13034,
+					"id": 13382,
 					"name": "formTarget",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3186,7 +3186,7 @@
 					}
 				},
 				{
-					"id": 12782,
+					"id": 13130,
 					"name": "hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3212,7 +3212,7 @@
 					}
 				},
 				{
-					"id": 12783,
+					"id": 13131,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3238,7 +3238,7 @@
 					}
 				},
 				{
-					"id": 12795,
+					"id": 13143,
 					"name": "inlist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3264,7 +3264,7 @@
 					}
 				},
 				{
-					"id": 12814,
+					"id": 13162,
 					"name": "inputMode",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3342,7 +3342,7 @@
 					}
 				},
 				{
-					"id": 12815,
+					"id": 13163,
 					"name": "is",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3387,7 +3387,7 @@
 					}
 				},
 				{
-					"id": 12809,
+					"id": 13157,
 					"name": "itemID",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3413,7 +3413,7 @@
 					}
 				},
 				{
-					"id": 12806,
+					"id": 13154,
 					"name": "itemProp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3439,7 +3439,7 @@
 					}
 				},
 				{
-					"id": 12810,
+					"id": 13158,
 					"name": "itemRef",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3465,7 +3465,7 @@
 					}
 				},
 				{
-					"id": 12807,
+					"id": 13155,
 					"name": "itemScope",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3491,7 +3491,7 @@
 					}
 				},
 				{
-					"id": 12808,
+					"id": 13156,
 					"name": "itemType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3517,7 +3517,7 @@
 					}
 				},
 				{
-					"id": 12784,
+					"id": 13132,
 					"name": "lang",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3543,7 +3543,7 @@
 					}
 				},
 				{
-					"id": 12769,
+					"id": 13117,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3569,7 +3569,7 @@
 					}
 				},
 				{
-					"id": 12785,
+					"id": 13133,
 					"name": "nonce",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3595,7 +3595,7 @@
 					}
 				},
 				{
-					"id": 12905,
+					"id": 13253,
 					"name": "onAbort",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3638,7 +3638,7 @@
 					}
 				},
 				{
-					"id": 12906,
+					"id": 13254,
 					"name": "onAbortCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3681,7 +3681,7 @@
 					}
 				},
 				{
-					"id": 13023,
+					"id": 13371,
 					"name": "onAnimationEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3724,7 +3724,7 @@
 					}
 				},
 				{
-					"id": 13024,
+					"id": 13372,
 					"name": "onAnimationEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3767,7 +3767,7 @@
 					}
 				},
 				{
-					"id": 13025,
+					"id": 13373,
 					"name": "onAnimationIteration",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3810,7 +3810,7 @@
 					}
 				},
 				{
-					"id": 13026,
+					"id": 13374,
 					"name": "onAnimationIterationCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3853,7 +3853,7 @@
 					}
 				},
 				{
-					"id": 13021,
+					"id": 13369,
 					"name": "onAnimationStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3896,7 +3896,7 @@
 					}
 				},
 				{
-					"id": 13022,
+					"id": 13370,
 					"name": "onAnimationStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3939,7 +3939,7 @@
 					}
 				},
 				{
-					"id": 12951,
+					"id": 13299,
 					"name": "onAuxClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3982,7 +3982,7 @@
 					}
 				},
 				{
-					"id": 12952,
+					"id": 13300,
 					"name": "onAuxClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4025,7 +4025,7 @@
 					}
 				},
 				{
-					"id": 12885,
+					"id": 13233,
 					"name": "onBeforeInput",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4068,7 +4068,7 @@
 					}
 				},
 				{
-					"id": 12886,
+					"id": 13234,
 					"name": "onBeforeInputCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4111,7 +4111,7 @@
 					}
 				},
 				{
-					"id": 12881,
+					"id": 13229,
 					"name": "onBlur",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4154,7 +4154,7 @@
 					}
 				},
 				{
-					"id": 12882,
+					"id": 13230,
 					"name": "onBlurCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4197,7 +4197,7 @@
 					}
 				},
 				{
-					"id": 12907,
+					"id": 13255,
 					"name": "onCanPlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4240,7 +4240,7 @@
 					}
 				},
 				{
-					"id": 12908,
+					"id": 13256,
 					"name": "onCanPlayCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4283,7 +4283,7 @@
 					}
 				},
 				{
-					"id": 12909,
+					"id": 13257,
 					"name": "onCanPlayThrough",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4326,7 +4326,7 @@
 					}
 				},
 				{
-					"id": 12910,
+					"id": 13258,
 					"name": "onCanPlayThroughCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4369,7 +4369,7 @@
 					}
 				},
 				{
-					"id": 12883,
+					"id": 13231,
 					"name": "onChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4412,7 +4412,7 @@
 					}
 				},
 				{
-					"id": 12884,
+					"id": 13232,
 					"name": "onChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4455,7 +4455,7 @@
 					}
 				},
 				{
-					"id": 12953,
+					"id": 13301,
 					"name": "onClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4498,7 +4498,7 @@
 					}
 				},
 				{
-					"id": 12954,
+					"id": 13302,
 					"name": "onClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4541,7 +4541,7 @@
 					}
 				},
 				{
-					"id": 12873,
+					"id": 13221,
 					"name": "onCompositionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4584,7 +4584,7 @@
 					}
 				},
 				{
-					"id": 12874,
+					"id": 13222,
 					"name": "onCompositionEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4627,7 +4627,7 @@
 					}
 				},
 				{
-					"id": 12875,
+					"id": 13223,
 					"name": "onCompositionStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4670,7 +4670,7 @@
 					}
 				},
 				{
-					"id": 12876,
+					"id": 13224,
 					"name": "onCompositionStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4713,7 +4713,7 @@
 					}
 				},
 				{
-					"id": 12877,
+					"id": 13225,
 					"name": "onCompositionUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4756,7 +4756,7 @@
 					}
 				},
 				{
-					"id": 12878,
+					"id": 13226,
 					"name": "onCompositionUpdateCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4799,7 +4799,7 @@
 					}
 				},
 				{
-					"id": 12955,
+					"id": 13303,
 					"name": "onContextMenu",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4842,7 +4842,7 @@
 					}
 				},
 				{
-					"id": 12956,
+					"id": 13304,
 					"name": "onContextMenuCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4885,7 +4885,7 @@
 					}
 				},
 				{
-					"id": 12867,
+					"id": 13215,
 					"name": "onCopy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4928,7 +4928,7 @@
 					}
 				},
 				{
-					"id": 12868,
+					"id": 13216,
 					"name": "onCopyCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4971,7 +4971,7 @@
 					}
 				},
 				{
-					"id": 12869,
+					"id": 13217,
 					"name": "onCut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5014,7 +5014,7 @@
 					}
 				},
 				{
-					"id": 12870,
+					"id": 13218,
 					"name": "onCutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5057,7 +5057,7 @@
 					}
 				},
 				{
-					"id": 12957,
+					"id": 13305,
 					"name": "onDoubleClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5100,7 +5100,7 @@
 					}
 				},
 				{
-					"id": 12958,
+					"id": 13306,
 					"name": "onDoubleClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5143,7 +5143,7 @@
 					}
 				},
 				{
-					"id": 12959,
+					"id": 13307,
 					"name": "onDrag",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5186,7 +5186,7 @@
 					}
 				},
 				{
-					"id": 12960,
+					"id": 13308,
 					"name": "onDragCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5229,7 +5229,7 @@
 					}
 				},
 				{
-					"id": 12961,
+					"id": 13309,
 					"name": "onDragEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5272,7 +5272,7 @@
 					}
 				},
 				{
-					"id": 12962,
+					"id": 13310,
 					"name": "onDragEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5315,7 +5315,7 @@
 					}
 				},
 				{
-					"id": 12963,
+					"id": 13311,
 					"name": "onDragEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5358,7 +5358,7 @@
 					}
 				},
 				{
-					"id": 12964,
+					"id": 13312,
 					"name": "onDragEnterCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5401,7 +5401,7 @@
 					}
 				},
 				{
-					"id": 12965,
+					"id": 13313,
 					"name": "onDragExit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5444,7 +5444,7 @@
 					}
 				},
 				{
-					"id": 12966,
+					"id": 13314,
 					"name": "onDragExitCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5487,7 +5487,7 @@
 					}
 				},
 				{
-					"id": 12967,
+					"id": 13315,
 					"name": "onDragLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5530,7 +5530,7 @@
 					}
 				},
 				{
-					"id": 12968,
+					"id": 13316,
 					"name": "onDragLeaveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5573,7 +5573,7 @@
 					}
 				},
 				{
-					"id": 12969,
+					"id": 13317,
 					"name": "onDragOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5616,7 +5616,7 @@
 					}
 				},
 				{
-					"id": 12970,
+					"id": 13318,
 					"name": "onDragOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5659,7 +5659,7 @@
 					}
 				},
 				{
-					"id": 12971,
+					"id": 13319,
 					"name": "onDragStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5702,7 +5702,7 @@
 					}
 				},
 				{
-					"id": 12972,
+					"id": 13320,
 					"name": "onDragStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5745,7 +5745,7 @@
 					}
 				},
 				{
-					"id": 12973,
+					"id": 13321,
 					"name": "onDrop",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5788,7 +5788,7 @@
 					}
 				},
 				{
-					"id": 12974,
+					"id": 13322,
 					"name": "onDropCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5831,7 +5831,7 @@
 					}
 				},
 				{
-					"id": 12911,
+					"id": 13259,
 					"name": "onDurationChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5874,7 +5874,7 @@
 					}
 				},
 				{
-					"id": 12912,
+					"id": 13260,
 					"name": "onDurationChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5917,7 +5917,7 @@
 					}
 				},
 				{
-					"id": 12913,
+					"id": 13261,
 					"name": "onEmptied",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5960,7 +5960,7 @@
 					}
 				},
 				{
-					"id": 12914,
+					"id": 13262,
 					"name": "onEmptiedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6003,7 +6003,7 @@
 					}
 				},
 				{
-					"id": 12915,
+					"id": 13263,
 					"name": "onEncrypted",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6046,7 +6046,7 @@
 					}
 				},
 				{
-					"id": 12916,
+					"id": 13264,
 					"name": "onEncryptedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6089,7 +6089,7 @@
 					}
 				},
 				{
-					"id": 12917,
+					"id": 13265,
 					"name": "onEnded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6132,7 +6132,7 @@
 					}
 				},
 				{
-					"id": 12918,
+					"id": 13266,
 					"name": "onEndedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6175,7 +6175,7 @@
 					}
 				},
 				{
-					"id": 12897,
+					"id": 13245,
 					"name": "onError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6218,7 +6218,7 @@
 					}
 				},
 				{
-					"id": 12898,
+					"id": 13246,
 					"name": "onErrorCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6261,7 +6261,7 @@
 					}
 				},
 				{
-					"id": 12879,
+					"id": 13227,
 					"name": "onFocus",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6304,7 +6304,7 @@
 					}
 				},
 				{
-					"id": 12880,
+					"id": 13228,
 					"name": "onFocusCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6347,7 +6347,7 @@
 					}
 				},
 				{
-					"id": 13013,
+					"id": 13361,
 					"name": "onGotPointerCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6390,7 +6390,7 @@
 					}
 				},
 				{
-					"id": 13014,
+					"id": 13362,
 					"name": "onGotPointerCaptureCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6433,7 +6433,7 @@
 					}
 				},
 				{
-					"id": 12887,
+					"id": 13235,
 					"name": "onInput",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6476,7 +6476,7 @@
 					}
 				},
 				{
-					"id": 12888,
+					"id": 13236,
 					"name": "onInputCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6519,7 +6519,7 @@
 					}
 				},
 				{
-					"id": 12893,
+					"id": 13241,
 					"name": "onInvalid",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6562,7 +6562,7 @@
 					}
 				},
 				{
-					"id": 12894,
+					"id": 13242,
 					"name": "onInvalidCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6605,7 +6605,7 @@
 					}
 				},
 				{
-					"id": 12899,
+					"id": 13247,
 					"name": "onKeyDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6648,7 +6648,7 @@
 					}
 				},
 				{
-					"id": 12900,
+					"id": 13248,
 					"name": "onKeyDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6691,7 +6691,7 @@
 					}
 				},
 				{
-					"id": 12901,
+					"id": 13249,
 					"name": "onKeyPress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6743,7 +6743,7 @@
 					}
 				},
 				{
-					"id": 12902,
+					"id": 13250,
 					"name": "onKeyPressCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6795,7 +6795,7 @@
 					}
 				},
 				{
-					"id": 12903,
+					"id": 13251,
 					"name": "onKeyUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6838,7 +6838,7 @@
 					}
 				},
 				{
-					"id": 12904,
+					"id": 13252,
 					"name": "onKeyUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6881,7 +6881,7 @@
 					}
 				},
 				{
-					"id": 12895,
+					"id": 13243,
 					"name": "onLoad",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6924,7 +6924,7 @@
 					}
 				},
 				{
-					"id": 12896,
+					"id": 13244,
 					"name": "onLoadCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6967,7 +6967,7 @@
 					}
 				},
 				{
-					"id": 12923,
+					"id": 13271,
 					"name": "onLoadStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7010,7 +7010,7 @@
 					}
 				},
 				{
-					"id": 12924,
+					"id": 13272,
 					"name": "onLoadStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7053,7 +7053,7 @@
 					}
 				},
 				{
-					"id": 12919,
+					"id": 13267,
 					"name": "onLoadedData",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7096,7 +7096,7 @@
 					}
 				},
 				{
-					"id": 12920,
+					"id": 13268,
 					"name": "onLoadedDataCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7139,7 +7139,7 @@
 					}
 				},
 				{
-					"id": 12921,
+					"id": 13269,
 					"name": "onLoadedMetadata",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7182,7 +7182,7 @@
 					}
 				},
 				{
-					"id": 12922,
+					"id": 13270,
 					"name": "onLoadedMetadataCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7225,7 +7225,7 @@
 					}
 				},
 				{
-					"id": 13015,
+					"id": 13363,
 					"name": "onLostPointerCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7268,7 +7268,7 @@
 					}
 				},
 				{
-					"id": 13016,
+					"id": 13364,
 					"name": "onLostPointerCaptureCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7311,7 +7311,7 @@
 					}
 				},
 				{
-					"id": 12975,
+					"id": 13323,
 					"name": "onMouseDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7354,7 +7354,7 @@
 					}
 				},
 				{
-					"id": 12976,
+					"id": 13324,
 					"name": "onMouseDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7397,7 +7397,7 @@
 					}
 				},
 				{
-					"id": 12977,
+					"id": 13325,
 					"name": "onMouseEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7440,7 +7440,7 @@
 					}
 				},
 				{
-					"id": 12978,
+					"id": 13326,
 					"name": "onMouseLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7483,7 +7483,7 @@
 					}
 				},
 				{
-					"id": 12979,
+					"id": 13327,
 					"name": "onMouseMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7526,7 +7526,7 @@
 					}
 				},
 				{
-					"id": 12980,
+					"id": 13328,
 					"name": "onMouseMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7569,7 +7569,7 @@
 					}
 				},
 				{
-					"id": 12981,
+					"id": 13329,
 					"name": "onMouseOut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7612,7 +7612,7 @@
 					}
 				},
 				{
-					"id": 12982,
+					"id": 13330,
 					"name": "onMouseOutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7655,7 +7655,7 @@
 					}
 				},
 				{
-					"id": 12983,
+					"id": 13331,
 					"name": "onMouseOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7698,7 +7698,7 @@
 					}
 				},
 				{
-					"id": 12984,
+					"id": 13332,
 					"name": "onMouseOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7741,7 +7741,7 @@
 					}
 				},
 				{
-					"id": 12985,
+					"id": 13333,
 					"name": "onMouseUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7784,7 +7784,7 @@
 					}
 				},
 				{
-					"id": 12986,
+					"id": 13334,
 					"name": "onMouseUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7827,7 +7827,7 @@
 					}
 				},
 				{
-					"id": 12871,
+					"id": 13219,
 					"name": "onPaste",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7870,7 +7870,7 @@
 					}
 				},
 				{
-					"id": 12872,
+					"id": 13220,
 					"name": "onPasteCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7913,7 +7913,7 @@
 					}
 				},
 				{
-					"id": 12925,
+					"id": 13273,
 					"name": "onPause",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7956,7 +7956,7 @@
 					}
 				},
 				{
-					"id": 12926,
+					"id": 13274,
 					"name": "onPauseCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7999,7 +7999,7 @@
 					}
 				},
 				{
-					"id": 12927,
+					"id": 13275,
 					"name": "onPlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8042,7 +8042,7 @@
 					}
 				},
 				{
-					"id": 12928,
+					"id": 13276,
 					"name": "onPlayCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8085,7 +8085,7 @@
 					}
 				},
 				{
-					"id": 12929,
+					"id": 13277,
 					"name": "onPlaying",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8128,7 +8128,7 @@
 					}
 				},
 				{
-					"id": 12930,
+					"id": 13278,
 					"name": "onPlayingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8171,7 +8171,7 @@
 					}
 				},
 				{
-					"id": 13003,
+					"id": 13351,
 					"name": "onPointerCancel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8214,7 +8214,7 @@
 					}
 				},
 				{
-					"id": 13004,
+					"id": 13352,
 					"name": "onPointerCancelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8257,7 +8257,7 @@
 					}
 				},
 				{
-					"id": 12997,
+					"id": 13345,
 					"name": "onPointerDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8300,7 +8300,7 @@
 					}
 				},
 				{
-					"id": 12998,
+					"id": 13346,
 					"name": "onPointerDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8343,7 +8343,7 @@
 					}
 				},
 				{
-					"id": 13005,
+					"id": 13353,
 					"name": "onPointerEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8386,7 +8386,7 @@
 					}
 				},
 				{
-					"id": 13006,
+					"id": 13354,
 					"name": "onPointerEnterCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8429,7 +8429,7 @@
 					}
 				},
 				{
-					"id": 13007,
+					"id": 13355,
 					"name": "onPointerLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8472,7 +8472,7 @@
 					}
 				},
 				{
-					"id": 13008,
+					"id": 13356,
 					"name": "onPointerLeaveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8515,7 +8515,7 @@
 					}
 				},
 				{
-					"id": 12999,
+					"id": 13347,
 					"name": "onPointerMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8558,7 +8558,7 @@
 					}
 				},
 				{
-					"id": 13000,
+					"id": 13348,
 					"name": "onPointerMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8601,7 +8601,7 @@
 					}
 				},
 				{
-					"id": 13011,
+					"id": 13359,
 					"name": "onPointerOut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8644,7 +8644,7 @@
 					}
 				},
 				{
-					"id": 13012,
+					"id": 13360,
 					"name": "onPointerOutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8687,7 +8687,7 @@
 					}
 				},
 				{
-					"id": 13009,
+					"id": 13357,
 					"name": "onPointerOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8730,7 +8730,7 @@
 					}
 				},
 				{
-					"id": 13010,
+					"id": 13358,
 					"name": "onPointerOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8773,7 +8773,7 @@
 					}
 				},
 				{
-					"id": 13001,
+					"id": 13349,
 					"name": "onPointerUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8816,7 +8816,7 @@
 					}
 				},
 				{
-					"id": 13002,
+					"id": 13350,
 					"name": "onPointerUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8859,7 +8859,7 @@
 					}
 				},
 				{
-					"id": 12931,
+					"id": 13279,
 					"name": "onProgress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8902,7 +8902,7 @@
 					}
 				},
 				{
-					"id": 12932,
+					"id": 13280,
 					"name": "onProgressCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8945,7 +8945,7 @@
 					}
 				},
 				{
-					"id": 12933,
+					"id": 13281,
 					"name": "onRateChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8988,7 +8988,7 @@
 					}
 				},
 				{
-					"id": 12934,
+					"id": 13282,
 					"name": "onRateChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9031,7 +9031,7 @@
 					}
 				},
 				{
-					"id": 12889,
+					"id": 13237,
 					"name": "onReset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9074,7 +9074,7 @@
 					}
 				},
 				{
-					"id": 12890,
+					"id": 13238,
 					"name": "onResetCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9117,7 +9117,7 @@
 					}
 				},
 				{
-					"id": 12935,
+					"id": 13283,
 					"name": "onResize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9160,7 +9160,7 @@
 					}
 				},
 				{
-					"id": 12936,
+					"id": 13284,
 					"name": "onResizeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9203,7 +9203,7 @@
 					}
 				},
 				{
-					"id": 13017,
+					"id": 13365,
 					"name": "onScroll",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9246,7 +9246,7 @@
 					}
 				},
 				{
-					"id": 13018,
+					"id": 13366,
 					"name": "onScrollCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9289,7 +9289,7 @@
 					}
 				},
 				{
-					"id": 12937,
+					"id": 13285,
 					"name": "onSeeked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9332,7 +9332,7 @@
 					}
 				},
 				{
-					"id": 12938,
+					"id": 13286,
 					"name": "onSeekedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9375,7 +9375,7 @@
 					}
 				},
 				{
-					"id": 12939,
+					"id": 13287,
 					"name": "onSeeking",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9418,7 +9418,7 @@
 					}
 				},
 				{
-					"id": 12940,
+					"id": 13288,
 					"name": "onSeekingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9461,7 +9461,7 @@
 					}
 				},
 				{
-					"id": 12987,
+					"id": 13335,
 					"name": "onSelect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9504,7 +9504,7 @@
 					}
 				},
 				{
-					"id": 12988,
+					"id": 13336,
 					"name": "onSelectCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9547,7 +9547,7 @@
 					}
 				},
 				{
-					"id": 12941,
+					"id": 13289,
 					"name": "onStalled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9590,7 +9590,7 @@
 					}
 				},
 				{
-					"id": 12942,
+					"id": 13290,
 					"name": "onStalledCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9633,7 +9633,7 @@
 					}
 				},
 				{
-					"id": 12891,
+					"id": 13239,
 					"name": "onSubmit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9676,7 +9676,7 @@
 					}
 				},
 				{
-					"id": 12892,
+					"id": 13240,
 					"name": "onSubmitCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9719,7 +9719,7 @@
 					}
 				},
 				{
-					"id": 12943,
+					"id": 13291,
 					"name": "onSuspend",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9762,7 +9762,7 @@
 					}
 				},
 				{
-					"id": 12944,
+					"id": 13292,
 					"name": "onSuspendCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9805,7 +9805,7 @@
 					}
 				},
 				{
-					"id": 12945,
+					"id": 13293,
 					"name": "onTimeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9848,7 +9848,7 @@
 					}
 				},
 				{
-					"id": 12946,
+					"id": 13294,
 					"name": "onTimeUpdateCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9891,7 +9891,7 @@
 					}
 				},
 				{
-					"id": 12989,
+					"id": 13337,
 					"name": "onTouchCancel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9934,7 +9934,7 @@
 					}
 				},
 				{
-					"id": 12990,
+					"id": 13338,
 					"name": "onTouchCancelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9977,7 +9977,7 @@
 					}
 				},
 				{
-					"id": 12991,
+					"id": 13339,
 					"name": "onTouchEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10020,7 +10020,7 @@
 					}
 				},
 				{
-					"id": 12992,
+					"id": 13340,
 					"name": "onTouchEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10063,7 +10063,7 @@
 					}
 				},
 				{
-					"id": 12993,
+					"id": 13341,
 					"name": "onTouchMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10106,7 +10106,7 @@
 					}
 				},
 				{
-					"id": 12994,
+					"id": 13342,
 					"name": "onTouchMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10149,7 +10149,7 @@
 					}
 				},
 				{
-					"id": 12995,
+					"id": 13343,
 					"name": "onTouchStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10192,7 +10192,7 @@
 					}
 				},
 				{
-					"id": 12996,
+					"id": 13344,
 					"name": "onTouchStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10235,7 +10235,7 @@
 					}
 				},
 				{
-					"id": 13027,
+					"id": 13375,
 					"name": "onTransitionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10278,7 +10278,7 @@
 					}
 				},
 				{
-					"id": 13028,
+					"id": 13376,
 					"name": "onTransitionEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10321,7 +10321,7 @@
 					}
 				},
 				{
-					"id": 12947,
+					"id": 13295,
 					"name": "onVolumeChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10364,7 +10364,7 @@
 					}
 				},
 				{
-					"id": 12948,
+					"id": 13296,
 					"name": "onVolumeChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10407,7 +10407,7 @@
 					}
 				},
 				{
-					"id": 12949,
+					"id": 13297,
 					"name": "onWaiting",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10450,7 +10450,7 @@
 					}
 				},
 				{
-					"id": 12950,
+					"id": 13298,
 					"name": "onWaitingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10493,7 +10493,7 @@
 					}
 				},
 				{
-					"id": 13019,
+					"id": 13367,
 					"name": "onWheel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10536,7 +10536,7 @@
 					}
 				},
 				{
-					"id": 13020,
+					"id": 13368,
 					"name": "onWheelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10579,7 +10579,7 @@
 					}
 				},
 				{
-					"id": 12786,
+					"id": 13134,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10605,7 +10605,7 @@
 					}
 				},
 				{
-					"id": 12796,
+					"id": 13144,
 					"name": "prefix",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10631,7 +10631,7 @@
 					}
 				},
 				{
-					"id": 12762,
+					"id": 13110,
 					"name": "property",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10657,7 +10657,7 @@
 					}
 				},
 				{
-					"id": 12790,
+					"id": 13138,
 					"name": "radioGroup",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10683,7 +10683,7 @@
 					}
 				},
 				{
-					"id": 12797,
+					"id": 13145,
 					"name": "rel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10709,7 +10709,7 @@
 					}
 				},
 				{
-					"id": 12798,
+					"id": 13146,
 					"name": "resource",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10735,7 +10735,7 @@
 					}
 				},
 				{
-					"id": 12811,
+					"id": 13159,
 					"name": "results",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10761,7 +10761,7 @@
 					}
 				},
 				{
-					"id": 12799,
+					"id": 13147,
 					"name": "rev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10787,7 +10787,7 @@
 					}
 				},
 				{
-					"id": 12791,
+					"id": 13139,
 					"name": "role",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10819,7 +10819,7 @@
 					}
 				},
 				{
-					"id": 12812,
+					"id": 13160,
 					"name": "security",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10845,7 +10845,7 @@
 					}
 				},
 				{
-					"id": 12765,
+					"id": 13113,
 					"name": "slot",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10871,7 +10871,7 @@
 					}
 				},
 				{
-					"id": 12787,
+					"id": 13135,
 					"name": "spellCheck",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10902,7 +10902,7 @@
 					}
 				},
 				{
-					"id": 12766,
+					"id": 13114,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10934,7 +10934,7 @@
 					}
 				},
 				{
-					"id": 12773,
+					"id": 13121,
 					"name": "suppressContentEditableWarning",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10960,7 +10960,7 @@
 					}
 				},
 				{
-					"id": 12774,
+					"id": 13122,
 					"name": "suppressHydrationWarning",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10986,7 +10986,7 @@
 					}
 				},
 				{
-					"id": 12788,
+					"id": 13136,
 					"name": "tabIndex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11012,7 +11012,7 @@
 					}
 				},
 				{
-					"id": 12767,
+					"id": 13115,
 					"name": "title",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11038,7 +11038,7 @@
 					}
 				},
 				{
-					"id": 12789,
+					"id": 13137,
 					"name": "translate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11073,7 +11073,7 @@
 					}
 				},
 				{
-					"id": 12770,
+					"id": 13118,
 					"name": "type",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11112,7 +11112,7 @@
 					}
 				},
 				{
-					"id": 12800,
+					"id": 13148,
 					"name": "typeof",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11138,7 +11138,7 @@
 					}
 				},
 				{
-					"id": 12813,
+					"id": 13161,
 					"name": "unselectable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11173,7 +11173,7 @@
 					}
 				},
 				{
-					"id": 12768,
+					"id": 13116,
 					"name": "value",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11219,7 +11219,7 @@
 					}
 				},
 				{
-					"id": 12801,
+					"id": 13149,
 					"name": "vocab",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11249,285 +11249,285 @@
 				{
 					"title": "Properties",
 					"children": [
-						12761,
-						12792,
-						12775,
-						12816,
-						12817,
-						12818,
-						12819,
-						12820,
-						12821,
-						12822,
-						12823,
-						12824,
-						12825,
-						12826,
-						12827,
-						12828,
-						12829,
-						12830,
-						12831,
-						12832,
-						12833,
-						12834,
-						12835,
-						12836,
-						12837,
-						12838,
-						12839,
-						12840,
-						12841,
-						12842,
-						12843,
-						12844,
-						12845,
-						12846,
-						12847,
-						12848,
-						12849,
-						12850,
-						12851,
-						12852,
-						12853,
-						12854,
-						12855,
-						12856,
-						12857,
-						12858,
-						12859,
-						12860,
-						12861,
-						12862,
-						12863,
-						12802,
-						12803,
-						12776,
-						12804,
-						12763,
-						12777,
-						12805,
-						12793,
-						12778,
-						12779,
-						12864,
-						12794,
-						12771,
-						12772,
-						12780,
-						13029,
-						12781,
-						12764,
-						13030,
-						13031,
-						13032,
-						13033,
-						13034,
-						12782,
-						12783,
-						12795,
-						12814,
-						12815,
-						12809,
-						12806,
-						12810,
-						12807,
-						12808,
-						12784,
-						12769,
-						12785,
-						12905,
-						12906,
-						13023,
-						13024,
-						13025,
-						13026,
-						13021,
-						13022,
-						12951,
-						12952,
-						12885,
-						12886,
-						12881,
-						12882,
-						12907,
-						12908,
-						12909,
-						12910,
-						12883,
-						12884,
-						12953,
-						12954,
-						12873,
-						12874,
-						12875,
-						12876,
-						12877,
-						12878,
-						12955,
-						12956,
-						12867,
-						12868,
-						12869,
-						12870,
-						12957,
-						12958,
-						12959,
-						12960,
-						12961,
-						12962,
-						12963,
-						12964,
-						12965,
-						12966,
-						12967,
-						12968,
-						12969,
-						12970,
-						12971,
-						12972,
-						12973,
-						12974,
-						12911,
-						12912,
-						12913,
-						12914,
-						12915,
-						12916,
-						12917,
-						12918,
-						12897,
-						12898,
-						12879,
-						12880,
-						13013,
-						13014,
-						12887,
-						12888,
-						12893,
-						12894,
-						12899,
-						12900,
-						12901,
-						12902,
-						12903,
-						12904,
-						12895,
-						12896,
-						12923,
-						12924,
-						12919,
-						12920,
-						12921,
-						12922,
-						13015,
-						13016,
-						12975,
-						12976,
-						12977,
-						12978,
-						12979,
-						12980,
-						12981,
-						12982,
-						12983,
-						12984,
-						12985,
-						12986,
-						12871,
-						12872,
-						12925,
-						12926,
-						12927,
-						12928,
-						12929,
-						12930,
-						13003,
-						13004,
-						12997,
-						12998,
-						13005,
-						13006,
-						13007,
-						13008,
-						12999,
-						13000,
-						13011,
-						13012,
-						13009,
-						13010,
-						13001,
-						13002,
-						12931,
-						12932,
-						12933,
-						12934,
-						12889,
-						12890,
-						12935,
-						12936,
-						13017,
-						13018,
-						12937,
-						12938,
-						12939,
-						12940,
-						12987,
-						12988,
-						12941,
-						12942,
-						12891,
-						12892,
-						12943,
-						12944,
-						12945,
-						12946,
-						12989,
-						12990,
-						12991,
-						12992,
-						12993,
-						12994,
-						12995,
-						12996,
-						13027,
-						13028,
-						12947,
-						12948,
-						12949,
-						12950,
-						13019,
-						13020,
-						12786,
-						12796,
-						12762,
-						12790,
-						12797,
-						12798,
-						12811,
-						12799,
-						12791,
-						12812,
-						12765,
-						12787,
-						12766,
-						12773,
-						12774,
-						12788,
-						12767,
-						12789,
-						12770,
-						12800,
-						12813,
-						12768,
-						12801
+						13109,
+						13140,
+						13123,
+						13164,
+						13165,
+						13166,
+						13167,
+						13168,
+						13169,
+						13170,
+						13171,
+						13172,
+						13173,
+						13174,
+						13175,
+						13176,
+						13177,
+						13178,
+						13179,
+						13180,
+						13181,
+						13182,
+						13183,
+						13184,
+						13185,
+						13186,
+						13187,
+						13188,
+						13189,
+						13190,
+						13191,
+						13192,
+						13193,
+						13194,
+						13195,
+						13196,
+						13197,
+						13198,
+						13199,
+						13200,
+						13201,
+						13202,
+						13203,
+						13204,
+						13205,
+						13206,
+						13207,
+						13208,
+						13209,
+						13210,
+						13211,
+						13150,
+						13151,
+						13124,
+						13152,
+						13111,
+						13125,
+						13153,
+						13141,
+						13126,
+						13127,
+						13212,
+						13142,
+						13119,
+						13120,
+						13128,
+						13377,
+						13129,
+						13112,
+						13378,
+						13379,
+						13380,
+						13381,
+						13382,
+						13130,
+						13131,
+						13143,
+						13162,
+						13163,
+						13157,
+						13154,
+						13158,
+						13155,
+						13156,
+						13132,
+						13117,
+						13133,
+						13253,
+						13254,
+						13371,
+						13372,
+						13373,
+						13374,
+						13369,
+						13370,
+						13299,
+						13300,
+						13233,
+						13234,
+						13229,
+						13230,
+						13255,
+						13256,
+						13257,
+						13258,
+						13231,
+						13232,
+						13301,
+						13302,
+						13221,
+						13222,
+						13223,
+						13224,
+						13225,
+						13226,
+						13303,
+						13304,
+						13215,
+						13216,
+						13217,
+						13218,
+						13305,
+						13306,
+						13307,
+						13308,
+						13309,
+						13310,
+						13311,
+						13312,
+						13313,
+						13314,
+						13315,
+						13316,
+						13317,
+						13318,
+						13319,
+						13320,
+						13321,
+						13322,
+						13259,
+						13260,
+						13261,
+						13262,
+						13263,
+						13264,
+						13265,
+						13266,
+						13245,
+						13246,
+						13227,
+						13228,
+						13361,
+						13362,
+						13235,
+						13236,
+						13241,
+						13242,
+						13247,
+						13248,
+						13249,
+						13250,
+						13251,
+						13252,
+						13243,
+						13244,
+						13271,
+						13272,
+						13267,
+						13268,
+						13269,
+						13270,
+						13363,
+						13364,
+						13323,
+						13324,
+						13325,
+						13326,
+						13327,
+						13328,
+						13329,
+						13330,
+						13331,
+						13332,
+						13333,
+						13334,
+						13219,
+						13220,
+						13273,
+						13274,
+						13275,
+						13276,
+						13277,
+						13278,
+						13351,
+						13352,
+						13345,
+						13346,
+						13353,
+						13354,
+						13355,
+						13356,
+						13347,
+						13348,
+						13359,
+						13360,
+						13357,
+						13358,
+						13349,
+						13350,
+						13279,
+						13280,
+						13281,
+						13282,
+						13237,
+						13238,
+						13283,
+						13284,
+						13365,
+						13366,
+						13285,
+						13286,
+						13287,
+						13288,
+						13335,
+						13336,
+						13289,
+						13290,
+						13239,
+						13240,
+						13291,
+						13292,
+						13293,
+						13294,
+						13337,
+						13338,
+						13339,
+						13340,
+						13341,
+						13342,
+						13343,
+						13344,
+						13375,
+						13376,
+						13295,
+						13296,
+						13297,
+						13298,
+						13367,
+						13368,
+						13134,
+						13144,
+						13110,
+						13138,
+						13145,
+						13146,
+						13159,
+						13147,
+						13139,
+						13160,
+						13113,
+						13135,
+						13114,
+						13121,
+						13122,
+						13136,
+						13115,
+						13137,
+						13118,
+						13148,
+						13161,
+						13116,
+						13149
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-					"line": 4,
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 5,
 					"character": 17
 				}
 			],
@@ -11541,7 +11541,7 @@
 					"typeArguments": [
 						{
 							"type": "reference",
-							"target": 15841,
+							"target": 16226,
 							"name": "HTMLButtonElementProps",
 							"package": "@contember/ui"
 						},
@@ -11565,14 +11565,28 @@
 			]
 		},
 		{
-			"id": 13308,
+			"id": 13656,
 			"name": "ButtonOwnProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "No alternative"
+							}
+						]
+					}
+				]
+			},
 			"children": [
 				{
-					"id": 13315,
+					"id": 13657,
 					"name": "active",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11581,8 +11595,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 17,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 12,
 							"character": 4
 						}
 					],
@@ -11592,8 +11606,8 @@
 					}
 				},
 				{
-					"id": 13317,
-					"name": "bland",
+					"id": 13658,
+					"name": "align",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
@@ -11601,18 +11615,123 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 19,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "center"
+							},
+							{
+								"type": "literal",
+								"value": "stretch"
+							},
+							{
+								"type": "literal",
+								"value": "end"
+							},
+							{
+								"type": "literal",
+								"value": "start"
+							}
+						]
+					}
+				},
+				{
+					"id": 13673,
+					"name": "bland",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`distinction`"
+									},
+									{
+										"kind": "text",
+										"text": " instead to suppress button visuals"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 64,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "intrinsic",
 						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13707,
+						"name": "DeprecatedButtonOwnProps.bland"
 					}
 				},
 				{
-					"id": 13318,
+					"id": 13659,
+					"name": "borderRadius",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "padding"
+							},
+							{
+								"type": "literal",
+								"value": "full"
+							},
+							{
+								"type": "literal",
+								"value": "gap"
+							},
+							{
+								"type": "literal",
+								"value": "gutter"
+							}
+						]
+					}
+				},
+				{
+					"id": 13660,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11621,8 +11740,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 20,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 15,
 							"character": 4
 						}
 					],
@@ -11638,7 +11757,7 @@
 					}
 				},
 				{
-					"id": 13316,
+					"id": 13662,
 					"name": "disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11647,8 +11766,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 18,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 17,
 							"character": 4
 						}
 					],
@@ -11658,7 +11777,36 @@
 					}
 				},
 				{
-					"id": 13312,
+					"id": 13661,
+					"name": "display",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 16,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "inline"
+							},
+							{
+								"type": "literal",
+								"value": "block"
+							}
+						]
+					}
+				},
+				{
+					"id": 13663,
 					"name": "distinction",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11667,21 +11815,44 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 14,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 18,
 							"character": 4
 						}
 					],
 					"type": {
-						"type": "reference",
-						"target": 13355,
-						"name": "ButtonDistinction",
-						"package": "@contember/ui"
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "seamless"
+							},
+							{
+								"type": "literal",
+								"value": "primary"
+							},
+							{
+								"type": "literal",
+								"value": "toned"
+							},
+							{
+								"type": "literal",
+								"value": "outlined"
+							},
+							{
+								"type": "literal",
+								"value": "inverse"
+							},
+							{
+								"type": "literal",
+								"value": "default"
+							}
+						]
 					}
 				},
 				{
-					"id": 13320,
-					"name": "elevation",
+					"id": 13664,
+					"name": "elevated",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
@@ -11689,96 +11860,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 22,
-							"character": 4
-						}
-					],
-					"type": {
-						"type": "reference",
-						"target": 13356,
-						"name": "ButtonElevation",
-						"package": "@contember/ui"
-					}
-				},
-				{
-					"id": 13311,
-					"name": "flow",
-					"variant": "declaration",
-					"kind": 1024,
-					"flags": {
-						"isOptional": true
-					},
-					"sources": [
-						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 13,
-							"character": 4
-						}
-					],
-					"type": {
-						"type": "reference",
-						"target": 13354,
-						"name": "ButtonFlow",
-						"package": "@contember/ui"
-					}
-				},
-				{
-					"id": 13309,
-					"name": "intent",
-					"variant": "declaration",
-					"kind": 1024,
-					"flags": {
-						"isOptional": true
-					},
-					"sources": [
-						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 11,
-							"character": 4
-						}
-					],
-					"type": {
-						"type": "reference",
-						"target": 18287,
-						"name": "Intent",
-						"package": "@contember/ui"
-					}
-				},
-				{
-					"id": 13313,
-					"name": "justification",
-					"variant": "declaration",
-					"kind": 1024,
-					"flags": {
-						"isOptional": true
-					},
-					"sources": [
-						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 15,
-							"character": 4
-						}
-					],
-					"type": {
-						"type": "reference",
-						"target": 18289,
-						"name": "Justification",
-						"package": "@contember/ui"
-					}
-				},
-				{
-					"id": 13314,
-					"name": "loading",
-					"variant": "declaration",
-					"kind": 1024,
-					"flags": {
-						"isOptional": true
-					},
-					"sources": [
-						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 16,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 19,
 							"character": 4
 						}
 					],
@@ -11788,7 +11871,337 @@
 					}
 				},
 				{
-					"id": 13319,
+					"id": 13674,
+					"name": "elevation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`elevated`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 66,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 13700,
+						"name": "ButtonElevation",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13708,
+						"name": "DeprecatedButtonOwnProps.elevation"
+					}
+				},
+				{
+					"id": 13675,
+					"name": "flow",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use combination of "
+									},
+									{
+										"kind": "code",
+										"text": "`display`"
+									},
+									{
+										"kind": "text",
+										"text": ", "
+									},
+									{
+										"kind": "code",
+										"text": "`padding`"
+									},
+									{
+										"kind": "text",
+										"text": " and "
+									},
+									{
+										"kind": "code",
+										"text": "`borderRadius`"
+									},
+									{
+										"kind": "text",
+										"text": " props instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 68,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 13702,
+						"name": "ButtonFlow",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13709,
+						"name": "DeprecatedButtonOwnProps.flow"
+					}
+				},
+				{
+					"id": 13665,
+					"name": "inset",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 20,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "padding"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "gap"
+							},
+							{
+								"type": "literal",
+								"value": "gutter"
+							}
+						]
+					}
+				},
+				{
+					"id": 13666,
+					"name": "intent",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 21,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18672,
+						"name": "Intent",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 13676,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`justify`"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 70,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18674,
+						"name": "Justification",
+						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13710,
+						"name": "DeprecatedButtonOwnProps.justification"
+					}
+				},
+				{
+					"id": 13667,
+					"name": "justify",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 22,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "center"
+							},
+							{
+								"type": "literal",
+								"value": "space-around"
+							},
+							{
+								"type": "literal",
+								"value": "space-between"
+							},
+							{
+								"type": "literal",
+								"value": "space-evenly"
+							},
+							{
+								"type": "literal",
+								"value": "end"
+							},
+							{
+								"type": "literal",
+								"value": "start"
+							}
+						]
+					}
+				},
+				{
+					"id": 13668,
+					"name": "loading",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 23,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 13669,
+					"name": "padding",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 24,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "padding"
+							},
+							{
+								"type": "literal",
+								"value": "gap"
+							},
+							{
+								"type": "literal",
+								"value": "gutter"
+							},
+							{
+								"type": "reference",
+								"target": 13703,
+								"name": "DeprecatedButtonPadding",
+								"package": "@contember/ui"
+							}
+						]
+					}
+				},
+				{
+					"id": 13670,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11797,20 +12210,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 21,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 25,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 13310,
+					"id": 13672,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11819,15 +12232,301 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-							"line": 12,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 27,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							}
+						]
+					}
+				},
+				{
+					"id": 13671,
+					"name": "square",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 26,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						13657,
+						13658,
+						13673,
+						13659,
+						13660,
+						13662,
+						13661,
+						13663,
+						13664,
+						13674,
+						13675,
+						13665,
+						13666,
+						13676,
+						13667,
+						13668,
+						13669,
+						13670,
+						13672,
+						13671
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 11,
+					"character": 17
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"target": 13706,
+					"name": "DeprecatedButtonOwnProps",
+					"package": "@contember/ui"
+				}
+			]
+		},
+		{
+			"id": 13706,
+			"name": "DeprecatedButtonOwnProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "No alternative"
+							}
+						]
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 13707,
+					"name": "bland",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`distinction`"
+									},
+									{
+										"kind": "text",
+										"text": " instead to suppress button visuals"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 64,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 13708,
+					"name": "elevation",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`elevated`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 66,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
-						"name": "Size",
+						"target": 13700,
+						"name": "ButtonElevation",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 13709,
+					"name": "flow",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use combination of "
+									},
+									{
+										"kind": "code",
+										"text": "`display`"
+									},
+									{
+										"kind": "text",
+										"text": ", "
+									},
+									{
+										"kind": "code",
+										"text": "`padding`"
+									},
+									{
+										"kind": "text",
+										"text": " and "
+									},
+									{
+										"kind": "code",
+										"text": "`borderRadius`"
+									},
+									{
+										"kind": "text",
+										"text": " props instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 68,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 13702,
+						"name": "ButtonFlow",
+						"package": "@contember/ui"
+					}
+				},
+				{
+					"id": 13710,
+					"name": "justification",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`justify`"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 70,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 18674,
+						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				}
@@ -11836,38 +12535,37 @@
 				{
 					"title": "Properties",
 					"children": [
-						13315,
-						13317,
-						13318,
-						13316,
-						13312,
-						13320,
-						13311,
-						13309,
-						13313,
-						13314,
-						13319,
-						13310
+						13707,
+						13708,
+						13709,
+						13710
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Forms/Button/Button.d.ts",
-					"line": 10,
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 62,
 					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 13656,
+					"name": "ButtonOwnProps"
 				}
 			]
 		},
 		{
-			"id": 15841,
+			"id": 16226,
 			"name": "HTMLButtonElementProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15876,
+					"id": 16261,
 					"name": "about",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11893,7 +12591,7 @@
 					}
 				},
 				{
-					"id": 15856,
+					"id": 16241,
 					"name": "accessKey",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11919,7 +12617,7 @@
 					}
 				},
 				{
-					"id": 15901,
+					"id": 16286,
 					"name": "aria-activedescendant",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11953,7 +12651,7 @@
 					}
 				},
 				{
-					"id": 15902,
+					"id": 16287,
 					"name": "aria-atomic",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11992,7 +12690,7 @@
 					}
 				},
 				{
-					"id": 15903,
+					"id": 16288,
 					"name": "aria-autocomplete",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12043,7 +12741,7 @@
 					}
 				},
 				{
-					"id": 15904,
+					"id": 16289,
 					"name": "aria-busy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12082,7 +12780,7 @@
 					}
 				},
 				{
-					"id": 15905,
+					"id": 16290,
 					"name": "aria-checked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12164,7 +12862,7 @@
 					}
 				},
 				{
-					"id": 15906,
+					"id": 16291,
 					"name": "aria-colcount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12209,7 +12907,7 @@
 					}
 				},
 				{
-					"id": 15907,
+					"id": 16292,
 					"name": "aria-colindex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12274,7 +12972,7 @@
 					}
 				},
 				{
-					"id": 15908,
+					"id": 16293,
 					"name": "aria-colspan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12339,7 +13037,7 @@
 					}
 				},
 				{
-					"id": 15909,
+					"id": 16294,
 					"name": "aria-controls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12384,7 +13082,7 @@
 					}
 				},
 				{
-					"id": 15910,
+					"id": 16295,
 					"name": "aria-current",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12451,7 +13149,7 @@
 					}
 				},
 				{
-					"id": 15911,
+					"id": 16296,
 					"name": "aria-describedby",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12496,7 +13194,7 @@
 					}
 				},
 				{
-					"id": 15912,
+					"id": 16297,
 					"name": "aria-details",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12541,7 +13239,7 @@
 					}
 				},
 				{
-					"id": 15913,
+					"id": 16298,
 					"name": "aria-disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12611,7 +13309,7 @@
 					}
 				},
 				{
-					"id": 15914,
+					"id": 16299,
 					"name": "aria-dropeffect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12681,7 +13379,7 @@
 					}
 				},
 				{
-					"id": 15915,
+					"id": 16300,
 					"name": "aria-errormessage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12746,7 +13444,7 @@
 					}
 				},
 				{
-					"id": 15916,
+					"id": 16301,
 					"name": "aria-expanded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12785,7 +13483,7 @@
 					}
 				},
 				{
-					"id": 15917,
+					"id": 16302,
 					"name": "aria-flowto",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12819,7 +13517,7 @@
 					}
 				},
 				{
-					"id": 15918,
+					"id": 16303,
 					"name": "aria-grabbed",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12869,7 +13567,7 @@
 					}
 				},
 				{
-					"id": 15919,
+					"id": 16304,
 					"name": "aria-haspopup",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12936,7 +13634,7 @@
 					}
 				},
 				{
-					"id": 15920,
+					"id": 16305,
 					"name": "aria-hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -12986,7 +13684,7 @@
 					}
 				},
 				{
-					"id": 15921,
+					"id": 16306,
 					"name": "aria-invalid",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13052,7 +13750,7 @@
 					}
 				},
 				{
-					"id": 15922,
+					"id": 16307,
 					"name": "aria-keyshortcuts",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13086,7 +13784,7 @@
 					}
 				},
 				{
-					"id": 15923,
+					"id": 16308,
 					"name": "aria-label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13131,7 +13829,7 @@
 					}
 				},
 				{
-					"id": 15924,
+					"id": 16309,
 					"name": "aria-labelledby",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13176,7 +13874,7 @@
 					}
 				},
 				{
-					"id": 15925,
+					"id": 16310,
 					"name": "aria-level",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13210,7 +13908,7 @@
 					}
 				},
 				{
-					"id": 15926,
+					"id": 16311,
 					"name": "aria-live",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13257,7 +13955,7 @@
 					}
 				},
 				{
-					"id": 15927,
+					"id": 16312,
 					"name": "aria-modal",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13296,7 +13994,7 @@
 					}
 				},
 				{
-					"id": 15928,
+					"id": 16313,
 					"name": "aria-multiline",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13335,7 +14033,7 @@
 					}
 				},
 				{
-					"id": 15929,
+					"id": 16314,
 					"name": "aria-multiselectable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13374,7 +14072,7 @@
 					}
 				},
 				{
-					"id": 15930,
+					"id": 16315,
 					"name": "aria-orientation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13417,7 +14115,7 @@
 					}
 				},
 				{
-					"id": 15931,
+					"id": 16316,
 					"name": "aria-owns",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13462,7 +14160,7 @@
 					}
 				},
 				{
-					"id": 15932,
+					"id": 16317,
 					"name": "aria-placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13496,7 +14194,7 @@
 					}
 				},
 				{
-					"id": 15933,
+					"id": 16318,
 					"name": "aria-posinset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13541,7 +14239,7 @@
 					}
 				},
 				{
-					"id": 15934,
+					"id": 16319,
 					"name": "aria-pressed",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13623,7 +14321,7 @@
 					}
 				},
 				{
-					"id": 15935,
+					"id": 16320,
 					"name": "aria-readonly",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13673,7 +14371,7 @@
 					}
 				},
 				{
-					"id": 15936,
+					"id": 16321,
 					"name": "aria-relevant",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13759,7 +14457,7 @@
 					}
 				},
 				{
-					"id": 15937,
+					"id": 16322,
 					"name": "aria-required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13798,7 +14496,7 @@
 					}
 				},
 				{
-					"id": 15938,
+					"id": 16323,
 					"name": "aria-roledescription",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13832,7 +14530,7 @@
 					}
 				},
 				{
-					"id": 15939,
+					"id": 16324,
 					"name": "aria-rowcount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13877,7 +14575,7 @@
 					}
 				},
 				{
-					"id": 15940,
+					"id": 16325,
 					"name": "aria-rowindex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -13942,7 +14640,7 @@
 					}
 				},
 				{
-					"id": 15941,
+					"id": 16326,
 					"name": "aria-rowspan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14007,7 +14705,7 @@
 					}
 				},
 				{
-					"id": 15942,
+					"id": 16327,
 					"name": "aria-selected",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14077,7 +14775,7 @@
 					}
 				},
 				{
-					"id": 15943,
+					"id": 16328,
 					"name": "aria-setsize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14122,7 +14820,7 @@
 					}
 				},
 				{
-					"id": 15944,
+					"id": 16329,
 					"name": "aria-sort",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14173,7 +14871,7 @@
 					}
 				},
 				{
-					"id": 15945,
+					"id": 16330,
 					"name": "aria-valuemax",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14207,7 +14905,7 @@
 					}
 				},
 				{
-					"id": 15946,
+					"id": 16331,
 					"name": "aria-valuemin",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14241,7 +14939,7 @@
 					}
 				},
 				{
-					"id": 15947,
+					"id": 16332,
 					"name": "aria-valuenow",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14286,7 +14984,7 @@
 					}
 				},
 				{
-					"id": 15948,
+					"id": 16333,
 					"name": "aria-valuetext",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14320,7 +15018,7 @@
 					}
 				},
 				{
-					"id": 15887,
+					"id": 16272,
 					"name": "autoCapitalize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14346,7 +15044,7 @@
 					}
 				},
 				{
-					"id": 15888,
+					"id": 16273,
 					"name": "autoCorrect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14372,7 +15070,7 @@
 					}
 				},
 				{
-					"id": 15857,
+					"id": 16242,
 					"name": "autoFocus",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14398,7 +15096,7 @@
 					}
 				},
 				{
-					"id": 15889,
+					"id": 16274,
 					"name": "autoSave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14424,7 +15122,7 @@
 					}
 				},
 				{
-					"id": 15949,
+					"id": 16334,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14456,7 +15154,7 @@
 					}
 				},
 				{
-					"id": 15858,
+					"id": 16243,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14482,7 +15180,7 @@
 					}
 				},
 				{
-					"id": 15890,
+					"id": 16275,
 					"name": "color",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14508,7 +15206,7 @@
 					}
 				},
 				{
-					"id": 15877,
+					"id": 16262,
 					"name": "content",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14534,7 +15232,7 @@
 					}
 				},
 				{
-					"id": 15859,
+					"id": 16244,
 					"name": "contentEditable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14574,7 +15272,7 @@
 					}
 				},
 				{
-					"id": 15860,
+					"id": 16245,
 					"name": "contextMenu",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14600,7 +15298,7 @@
 					}
 				},
 				{
-					"id": 15950,
+					"id": 16335,
 					"name": "dangerouslySetInnerHTML",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14618,7 +15316,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 15951,
+							"id": 16336,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -14627,7 +15325,7 @@
 							},
 							"children": [
 								{
-									"id": 15952,
+									"id": 16337,
 									"name": "__html",
 									"variant": "declaration",
 									"kind": 1024,
@@ -14665,7 +15363,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										15952
+										16337
 									]
 								}
 							],
@@ -14685,7 +15383,7 @@
 					}
 				},
 				{
-					"id": 15878,
+					"id": 16263,
 					"name": "datatype",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14711,7 +15409,7 @@
 					}
 				},
 				{
-					"id": 15852,
+					"id": 16237,
 					"name": "defaultChecked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14737,7 +15435,7 @@
 					}
 				},
 				{
-					"id": 15853,
+					"id": 16238,
 					"name": "defaultValue",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14783,7 +15481,7 @@
 					}
 				},
 				{
-					"id": 15861,
+					"id": 16246,
 					"name": "dir",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14809,7 +15507,7 @@
 					}
 				},
 				{
-					"id": 15842,
+					"id": 16227,
 					"name": "disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14835,7 +15533,7 @@
 					}
 				},
 				{
-					"id": 15862,
+					"id": 16247,
 					"name": "draggable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14866,7 +15564,7 @@
 					}
 				},
 				{
-					"id": 15843,
+					"id": 16228,
 					"name": "form",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14892,7 +15590,7 @@
 					}
 				},
 				{
-					"id": 15844,
+					"id": 16229,
 					"name": "formAction",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14918,7 +15616,7 @@
 					}
 				},
 				{
-					"id": 15845,
+					"id": 16230,
 					"name": "formEncType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14944,7 +15642,7 @@
 					}
 				},
 				{
-					"id": 15846,
+					"id": 16231,
 					"name": "formMethod",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14970,7 +15668,7 @@
 					}
 				},
 				{
-					"id": 15847,
+					"id": 16232,
 					"name": "formNoValidate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -14996,7 +15694,7 @@
 					}
 				},
 				{
-					"id": 15848,
+					"id": 16233,
 					"name": "formTarget",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15022,7 +15720,7 @@
 					}
 				},
 				{
-					"id": 15863,
+					"id": 16248,
 					"name": "hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15048,7 +15746,7 @@
 					}
 				},
 				{
-					"id": 15864,
+					"id": 16249,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15074,7 +15772,7 @@
 					}
 				},
 				{
-					"id": 15879,
+					"id": 16264,
 					"name": "inlist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15100,7 +15798,7 @@
 					}
 				},
 				{
-					"id": 15899,
+					"id": 16284,
 					"name": "inputMode",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15178,7 +15876,7 @@
 					}
 				},
 				{
-					"id": 15900,
+					"id": 16285,
 					"name": "is",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15223,7 +15921,7 @@
 					}
 				},
 				{
-					"id": 15894,
+					"id": 16279,
 					"name": "itemID",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15249,7 +15947,7 @@
 					}
 				},
 				{
-					"id": 15891,
+					"id": 16276,
 					"name": "itemProp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15275,7 +15973,7 @@
 					}
 				},
 				{
-					"id": 15895,
+					"id": 16280,
 					"name": "itemRef",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15301,7 +15999,7 @@
 					}
 				},
 				{
-					"id": 15892,
+					"id": 16277,
 					"name": "itemScope",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15327,7 +16025,7 @@
 					}
 				},
 				{
-					"id": 15893,
+					"id": 16278,
 					"name": "itemType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15353,7 +16051,7 @@
 					}
 				},
 				{
-					"id": 15865,
+					"id": 16250,
 					"name": "lang",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15379,7 +16077,7 @@
 					}
 				},
 				{
-					"id": 15849,
+					"id": 16234,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15405,7 +16103,7 @@
 					}
 				},
 				{
-					"id": 15866,
+					"id": 16251,
 					"name": "nonce",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15431,7 +16129,7 @@
 					}
 				},
 				{
-					"id": 15991,
+					"id": 16376,
 					"name": "onAbort",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15474,7 +16172,7 @@
 					}
 				},
 				{
-					"id": 15992,
+					"id": 16377,
 					"name": "onAbortCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15517,7 +16215,7 @@
 					}
 				},
 				{
-					"id": 16109,
+					"id": 16494,
 					"name": "onAnimationEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15560,7 +16258,7 @@
 					}
 				},
 				{
-					"id": 16110,
+					"id": 16495,
 					"name": "onAnimationEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15603,7 +16301,7 @@
 					}
 				},
 				{
-					"id": 16111,
+					"id": 16496,
 					"name": "onAnimationIteration",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15646,7 +16344,7 @@
 					}
 				},
 				{
-					"id": 16112,
+					"id": 16497,
 					"name": "onAnimationIterationCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15689,7 +16387,7 @@
 					}
 				},
 				{
-					"id": 16107,
+					"id": 16492,
 					"name": "onAnimationStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15732,7 +16430,7 @@
 					}
 				},
 				{
-					"id": 16108,
+					"id": 16493,
 					"name": "onAnimationStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15775,7 +16473,7 @@
 					}
 				},
 				{
-					"id": 16037,
+					"id": 16422,
 					"name": "onAuxClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15818,7 +16516,7 @@
 					}
 				},
 				{
-					"id": 16038,
+					"id": 16423,
 					"name": "onAuxClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15861,7 +16559,7 @@
 					}
 				},
 				{
-					"id": 15971,
+					"id": 16356,
 					"name": "onBeforeInput",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15904,7 +16602,7 @@
 					}
 				},
 				{
-					"id": 15972,
+					"id": 16357,
 					"name": "onBeforeInputCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15947,7 +16645,7 @@
 					}
 				},
 				{
-					"id": 15967,
+					"id": 16352,
 					"name": "onBlur",
 					"variant": "declaration",
 					"kind": 1024,
@@ -15990,7 +16688,7 @@
 					}
 				},
 				{
-					"id": 15968,
+					"id": 16353,
 					"name": "onBlurCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16033,7 +16731,7 @@
 					}
 				},
 				{
-					"id": 15993,
+					"id": 16378,
 					"name": "onCanPlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16076,7 +16774,7 @@
 					}
 				},
 				{
-					"id": 15994,
+					"id": 16379,
 					"name": "onCanPlayCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16119,7 +16817,7 @@
 					}
 				},
 				{
-					"id": 15995,
+					"id": 16380,
 					"name": "onCanPlayThrough",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16162,7 +16860,7 @@
 					}
 				},
 				{
-					"id": 15996,
+					"id": 16381,
 					"name": "onCanPlayThroughCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16205,7 +16903,7 @@
 					}
 				},
 				{
-					"id": 15969,
+					"id": 16354,
 					"name": "onChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16248,7 +16946,7 @@
 					}
 				},
 				{
-					"id": 15970,
+					"id": 16355,
 					"name": "onChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16291,7 +16989,7 @@
 					}
 				},
 				{
-					"id": 16039,
+					"id": 16424,
 					"name": "onClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16334,7 +17032,7 @@
 					}
 				},
 				{
-					"id": 16040,
+					"id": 16425,
 					"name": "onClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16377,7 +17075,7 @@
 					}
 				},
 				{
-					"id": 15959,
+					"id": 16344,
 					"name": "onCompositionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16420,7 +17118,7 @@
 					}
 				},
 				{
-					"id": 15960,
+					"id": 16345,
 					"name": "onCompositionEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16463,7 +17161,7 @@
 					}
 				},
 				{
-					"id": 15961,
+					"id": 16346,
 					"name": "onCompositionStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16506,7 +17204,7 @@
 					}
 				},
 				{
-					"id": 15962,
+					"id": 16347,
 					"name": "onCompositionStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16549,7 +17247,7 @@
 					}
 				},
 				{
-					"id": 15963,
+					"id": 16348,
 					"name": "onCompositionUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16592,7 +17290,7 @@
 					}
 				},
 				{
-					"id": 15964,
+					"id": 16349,
 					"name": "onCompositionUpdateCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16635,7 +17333,7 @@
 					}
 				},
 				{
-					"id": 16041,
+					"id": 16426,
 					"name": "onContextMenu",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16678,7 +17376,7 @@
 					}
 				},
 				{
-					"id": 16042,
+					"id": 16427,
 					"name": "onContextMenuCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16721,7 +17419,7 @@
 					}
 				},
 				{
-					"id": 15953,
+					"id": 16338,
 					"name": "onCopy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16764,7 +17462,7 @@
 					}
 				},
 				{
-					"id": 15954,
+					"id": 16339,
 					"name": "onCopyCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16807,7 +17505,7 @@
 					}
 				},
 				{
-					"id": 15955,
+					"id": 16340,
 					"name": "onCut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16850,7 +17548,7 @@
 					}
 				},
 				{
-					"id": 15956,
+					"id": 16341,
 					"name": "onCutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16893,7 +17591,7 @@
 					}
 				},
 				{
-					"id": 16043,
+					"id": 16428,
 					"name": "onDoubleClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16936,7 +17634,7 @@
 					}
 				},
 				{
-					"id": 16044,
+					"id": 16429,
 					"name": "onDoubleClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -16979,7 +17677,7 @@
 					}
 				},
 				{
-					"id": 16045,
+					"id": 16430,
 					"name": "onDrag",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17022,7 +17720,7 @@
 					}
 				},
 				{
-					"id": 16046,
+					"id": 16431,
 					"name": "onDragCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17065,7 +17763,7 @@
 					}
 				},
 				{
-					"id": 16047,
+					"id": 16432,
 					"name": "onDragEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17108,7 +17806,7 @@
 					}
 				},
 				{
-					"id": 16048,
+					"id": 16433,
 					"name": "onDragEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17151,7 +17849,7 @@
 					}
 				},
 				{
-					"id": 16049,
+					"id": 16434,
 					"name": "onDragEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17194,7 +17892,7 @@
 					}
 				},
 				{
-					"id": 16050,
+					"id": 16435,
 					"name": "onDragEnterCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17237,7 +17935,7 @@
 					}
 				},
 				{
-					"id": 16051,
+					"id": 16436,
 					"name": "onDragExit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17280,7 +17978,7 @@
 					}
 				},
 				{
-					"id": 16052,
+					"id": 16437,
 					"name": "onDragExitCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17323,7 +18021,7 @@
 					}
 				},
 				{
-					"id": 16053,
+					"id": 16438,
 					"name": "onDragLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17366,7 +18064,7 @@
 					}
 				},
 				{
-					"id": 16054,
+					"id": 16439,
 					"name": "onDragLeaveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17409,7 +18107,7 @@
 					}
 				},
 				{
-					"id": 16055,
+					"id": 16440,
 					"name": "onDragOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17452,7 +18150,7 @@
 					}
 				},
 				{
-					"id": 16056,
+					"id": 16441,
 					"name": "onDragOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17495,7 +18193,7 @@
 					}
 				},
 				{
-					"id": 16057,
+					"id": 16442,
 					"name": "onDragStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17538,7 +18236,7 @@
 					}
 				},
 				{
-					"id": 16058,
+					"id": 16443,
 					"name": "onDragStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17581,7 +18279,7 @@
 					}
 				},
 				{
-					"id": 16059,
+					"id": 16444,
 					"name": "onDrop",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17624,7 +18322,7 @@
 					}
 				},
 				{
-					"id": 16060,
+					"id": 16445,
 					"name": "onDropCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17667,7 +18365,7 @@
 					}
 				},
 				{
-					"id": 15997,
+					"id": 16382,
 					"name": "onDurationChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17710,7 +18408,7 @@
 					}
 				},
 				{
-					"id": 15998,
+					"id": 16383,
 					"name": "onDurationChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17753,7 +18451,7 @@
 					}
 				},
 				{
-					"id": 15999,
+					"id": 16384,
 					"name": "onEmptied",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17796,7 +18494,7 @@
 					}
 				},
 				{
-					"id": 16000,
+					"id": 16385,
 					"name": "onEmptiedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17839,7 +18537,7 @@
 					}
 				},
 				{
-					"id": 16001,
+					"id": 16386,
 					"name": "onEncrypted",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17882,7 +18580,7 @@
 					}
 				},
 				{
-					"id": 16002,
+					"id": 16387,
 					"name": "onEncryptedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17925,7 +18623,7 @@
 					}
 				},
 				{
-					"id": 16003,
+					"id": 16388,
 					"name": "onEnded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -17968,7 +18666,7 @@
 					}
 				},
 				{
-					"id": 16004,
+					"id": 16389,
 					"name": "onEndedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18011,7 +18709,7 @@
 					}
 				},
 				{
-					"id": 15983,
+					"id": 16368,
 					"name": "onError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18054,7 +18752,7 @@
 					}
 				},
 				{
-					"id": 15984,
+					"id": 16369,
 					"name": "onErrorCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18097,7 +18795,7 @@
 					}
 				},
 				{
-					"id": 15965,
+					"id": 16350,
 					"name": "onFocus",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18140,7 +18838,7 @@
 					}
 				},
 				{
-					"id": 15966,
+					"id": 16351,
 					"name": "onFocusCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18183,7 +18881,7 @@
 					}
 				},
 				{
-					"id": 16099,
+					"id": 16484,
 					"name": "onGotPointerCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18226,7 +18924,7 @@
 					}
 				},
 				{
-					"id": 16100,
+					"id": 16485,
 					"name": "onGotPointerCaptureCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18269,7 +18967,7 @@
 					}
 				},
 				{
-					"id": 15973,
+					"id": 16358,
 					"name": "onInput",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18312,7 +19010,7 @@
 					}
 				},
 				{
-					"id": 15974,
+					"id": 16359,
 					"name": "onInputCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18355,7 +19053,7 @@
 					}
 				},
 				{
-					"id": 15979,
+					"id": 16364,
 					"name": "onInvalid",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18398,7 +19096,7 @@
 					}
 				},
 				{
-					"id": 15980,
+					"id": 16365,
 					"name": "onInvalidCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18441,7 +19139,7 @@
 					}
 				},
 				{
-					"id": 15985,
+					"id": 16370,
 					"name": "onKeyDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18484,7 +19182,7 @@
 					}
 				},
 				{
-					"id": 15986,
+					"id": 16371,
 					"name": "onKeyDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18527,7 +19225,7 @@
 					}
 				},
 				{
-					"id": 15987,
+					"id": 16372,
 					"name": "onKeyPress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18579,7 +19277,7 @@
 					}
 				},
 				{
-					"id": 15988,
+					"id": 16373,
 					"name": "onKeyPressCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18631,7 +19329,7 @@
 					}
 				},
 				{
-					"id": 15989,
+					"id": 16374,
 					"name": "onKeyUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18674,7 +19372,7 @@
 					}
 				},
 				{
-					"id": 15990,
+					"id": 16375,
 					"name": "onKeyUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18717,7 +19415,7 @@
 					}
 				},
 				{
-					"id": 15981,
+					"id": 16366,
 					"name": "onLoad",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18760,7 +19458,7 @@
 					}
 				},
 				{
-					"id": 15982,
+					"id": 16367,
 					"name": "onLoadCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18803,7 +19501,7 @@
 					}
 				},
 				{
-					"id": 16009,
+					"id": 16394,
 					"name": "onLoadStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18846,7 +19544,7 @@
 					}
 				},
 				{
-					"id": 16010,
+					"id": 16395,
 					"name": "onLoadStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18889,7 +19587,7 @@
 					}
 				},
 				{
-					"id": 16005,
+					"id": 16390,
 					"name": "onLoadedData",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18932,7 +19630,7 @@
 					}
 				},
 				{
-					"id": 16006,
+					"id": 16391,
 					"name": "onLoadedDataCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -18975,7 +19673,7 @@
 					}
 				},
 				{
-					"id": 16007,
+					"id": 16392,
 					"name": "onLoadedMetadata",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19018,7 +19716,7 @@
 					}
 				},
 				{
-					"id": 16008,
+					"id": 16393,
 					"name": "onLoadedMetadataCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19061,7 +19759,7 @@
 					}
 				},
 				{
-					"id": 16101,
+					"id": 16486,
 					"name": "onLostPointerCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19104,7 +19802,7 @@
 					}
 				},
 				{
-					"id": 16102,
+					"id": 16487,
 					"name": "onLostPointerCaptureCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19147,7 +19845,7 @@
 					}
 				},
 				{
-					"id": 16061,
+					"id": 16446,
 					"name": "onMouseDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19190,7 +19888,7 @@
 					}
 				},
 				{
-					"id": 16062,
+					"id": 16447,
 					"name": "onMouseDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19233,7 +19931,7 @@
 					}
 				},
 				{
-					"id": 16063,
+					"id": 16448,
 					"name": "onMouseEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19276,7 +19974,7 @@
 					}
 				},
 				{
-					"id": 16064,
+					"id": 16449,
 					"name": "onMouseLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19319,7 +20017,7 @@
 					}
 				},
 				{
-					"id": 16065,
+					"id": 16450,
 					"name": "onMouseMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19362,7 +20060,7 @@
 					}
 				},
 				{
-					"id": 16066,
+					"id": 16451,
 					"name": "onMouseMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19405,7 +20103,7 @@
 					}
 				},
 				{
-					"id": 16067,
+					"id": 16452,
 					"name": "onMouseOut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19448,7 +20146,7 @@
 					}
 				},
 				{
-					"id": 16068,
+					"id": 16453,
 					"name": "onMouseOutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19491,7 +20189,7 @@
 					}
 				},
 				{
-					"id": 16069,
+					"id": 16454,
 					"name": "onMouseOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19534,7 +20232,7 @@
 					}
 				},
 				{
-					"id": 16070,
+					"id": 16455,
 					"name": "onMouseOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19577,7 +20275,7 @@
 					}
 				},
 				{
-					"id": 16071,
+					"id": 16456,
 					"name": "onMouseUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19620,7 +20318,7 @@
 					}
 				},
 				{
-					"id": 16072,
+					"id": 16457,
 					"name": "onMouseUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19663,7 +20361,7 @@
 					}
 				},
 				{
-					"id": 15957,
+					"id": 16342,
 					"name": "onPaste",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19706,7 +20404,7 @@
 					}
 				},
 				{
-					"id": 15958,
+					"id": 16343,
 					"name": "onPasteCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19749,7 +20447,7 @@
 					}
 				},
 				{
-					"id": 16011,
+					"id": 16396,
 					"name": "onPause",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19792,7 +20490,7 @@
 					}
 				},
 				{
-					"id": 16012,
+					"id": 16397,
 					"name": "onPauseCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19835,7 +20533,7 @@
 					}
 				},
 				{
-					"id": 16013,
+					"id": 16398,
 					"name": "onPlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19878,7 +20576,7 @@
 					}
 				},
 				{
-					"id": 16014,
+					"id": 16399,
 					"name": "onPlayCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19921,7 +20619,7 @@
 					}
 				},
 				{
-					"id": 16015,
+					"id": 16400,
 					"name": "onPlaying",
 					"variant": "declaration",
 					"kind": 1024,
@@ -19964,7 +20662,7 @@
 					}
 				},
 				{
-					"id": 16016,
+					"id": 16401,
 					"name": "onPlayingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20007,7 +20705,7 @@
 					}
 				},
 				{
-					"id": 16089,
+					"id": 16474,
 					"name": "onPointerCancel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20050,7 +20748,7 @@
 					}
 				},
 				{
-					"id": 16090,
+					"id": 16475,
 					"name": "onPointerCancelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20093,7 +20791,7 @@
 					}
 				},
 				{
-					"id": 16083,
+					"id": 16468,
 					"name": "onPointerDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20136,7 +20834,7 @@
 					}
 				},
 				{
-					"id": 16084,
+					"id": 16469,
 					"name": "onPointerDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20179,7 +20877,7 @@
 					}
 				},
 				{
-					"id": 16091,
+					"id": 16476,
 					"name": "onPointerEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20222,7 +20920,7 @@
 					}
 				},
 				{
-					"id": 16092,
+					"id": 16477,
 					"name": "onPointerEnterCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20265,7 +20963,7 @@
 					}
 				},
 				{
-					"id": 16093,
+					"id": 16478,
 					"name": "onPointerLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20308,7 +21006,7 @@
 					}
 				},
 				{
-					"id": 16094,
+					"id": 16479,
 					"name": "onPointerLeaveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20351,7 +21049,7 @@
 					}
 				},
 				{
-					"id": 16085,
+					"id": 16470,
 					"name": "onPointerMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20394,7 +21092,7 @@
 					}
 				},
 				{
-					"id": 16086,
+					"id": 16471,
 					"name": "onPointerMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20437,7 +21135,7 @@
 					}
 				},
 				{
-					"id": 16097,
+					"id": 16482,
 					"name": "onPointerOut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20480,7 +21178,7 @@
 					}
 				},
 				{
-					"id": 16098,
+					"id": 16483,
 					"name": "onPointerOutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20523,7 +21221,7 @@
 					}
 				},
 				{
-					"id": 16095,
+					"id": 16480,
 					"name": "onPointerOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20566,7 +21264,7 @@
 					}
 				},
 				{
-					"id": 16096,
+					"id": 16481,
 					"name": "onPointerOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20609,7 +21307,7 @@
 					}
 				},
 				{
-					"id": 16087,
+					"id": 16472,
 					"name": "onPointerUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20652,7 +21350,7 @@
 					}
 				},
 				{
-					"id": 16088,
+					"id": 16473,
 					"name": "onPointerUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20695,7 +21393,7 @@
 					}
 				},
 				{
-					"id": 16017,
+					"id": 16402,
 					"name": "onProgress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20738,7 +21436,7 @@
 					}
 				},
 				{
-					"id": 16018,
+					"id": 16403,
 					"name": "onProgressCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20781,7 +21479,7 @@
 					}
 				},
 				{
-					"id": 16019,
+					"id": 16404,
 					"name": "onRateChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20824,7 +21522,7 @@
 					}
 				},
 				{
-					"id": 16020,
+					"id": 16405,
 					"name": "onRateChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20867,7 +21565,7 @@
 					}
 				},
 				{
-					"id": 15975,
+					"id": 16360,
 					"name": "onReset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20910,7 +21608,7 @@
 					}
 				},
 				{
-					"id": 15976,
+					"id": 16361,
 					"name": "onResetCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20953,7 +21651,7 @@
 					}
 				},
 				{
-					"id": 16021,
+					"id": 16406,
 					"name": "onResize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -20996,7 +21694,7 @@
 					}
 				},
 				{
-					"id": 16022,
+					"id": 16407,
 					"name": "onResizeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21039,7 +21737,7 @@
 					}
 				},
 				{
-					"id": 16103,
+					"id": 16488,
 					"name": "onScroll",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21082,7 +21780,7 @@
 					}
 				},
 				{
-					"id": 16104,
+					"id": 16489,
 					"name": "onScrollCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21125,7 +21823,7 @@
 					}
 				},
 				{
-					"id": 16023,
+					"id": 16408,
 					"name": "onSeeked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21168,7 +21866,7 @@
 					}
 				},
 				{
-					"id": 16024,
+					"id": 16409,
 					"name": "onSeekedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21211,7 +21909,7 @@
 					}
 				},
 				{
-					"id": 16025,
+					"id": 16410,
 					"name": "onSeeking",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21254,7 +21952,7 @@
 					}
 				},
 				{
-					"id": 16026,
+					"id": 16411,
 					"name": "onSeekingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21297,7 +21995,7 @@
 					}
 				},
 				{
-					"id": 16073,
+					"id": 16458,
 					"name": "onSelect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21340,7 +22038,7 @@
 					}
 				},
 				{
-					"id": 16074,
+					"id": 16459,
 					"name": "onSelectCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21383,7 +22081,7 @@
 					}
 				},
 				{
-					"id": 16027,
+					"id": 16412,
 					"name": "onStalled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21426,7 +22124,7 @@
 					}
 				},
 				{
-					"id": 16028,
+					"id": 16413,
 					"name": "onStalledCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21469,7 +22167,7 @@
 					}
 				},
 				{
-					"id": 15977,
+					"id": 16362,
 					"name": "onSubmit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21512,7 +22210,7 @@
 					}
 				},
 				{
-					"id": 15978,
+					"id": 16363,
 					"name": "onSubmitCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21555,7 +22253,7 @@
 					}
 				},
 				{
-					"id": 16029,
+					"id": 16414,
 					"name": "onSuspend",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21598,7 +22296,7 @@
 					}
 				},
 				{
-					"id": 16030,
+					"id": 16415,
 					"name": "onSuspendCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21641,7 +22339,7 @@
 					}
 				},
 				{
-					"id": 16031,
+					"id": 16416,
 					"name": "onTimeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21684,7 +22382,7 @@
 					}
 				},
 				{
-					"id": 16032,
+					"id": 16417,
 					"name": "onTimeUpdateCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21727,7 +22425,7 @@
 					}
 				},
 				{
-					"id": 16075,
+					"id": 16460,
 					"name": "onTouchCancel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21770,7 +22468,7 @@
 					}
 				},
 				{
-					"id": 16076,
+					"id": 16461,
 					"name": "onTouchCancelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21813,7 +22511,7 @@
 					}
 				},
 				{
-					"id": 16077,
+					"id": 16462,
 					"name": "onTouchEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21856,7 +22554,7 @@
 					}
 				},
 				{
-					"id": 16078,
+					"id": 16463,
 					"name": "onTouchEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21899,7 +22597,7 @@
 					}
 				},
 				{
-					"id": 16079,
+					"id": 16464,
 					"name": "onTouchMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21942,7 +22640,7 @@
 					}
 				},
 				{
-					"id": 16080,
+					"id": 16465,
 					"name": "onTouchMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -21985,7 +22683,7 @@
 					}
 				},
 				{
-					"id": 16081,
+					"id": 16466,
 					"name": "onTouchStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22028,7 +22726,7 @@
 					}
 				},
 				{
-					"id": 16082,
+					"id": 16467,
 					"name": "onTouchStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22071,7 +22769,7 @@
 					}
 				},
 				{
-					"id": 16113,
+					"id": 16498,
 					"name": "onTransitionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22114,7 +22812,7 @@
 					}
 				},
 				{
-					"id": 16114,
+					"id": 16499,
 					"name": "onTransitionEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22157,7 +22855,7 @@
 					}
 				},
 				{
-					"id": 16033,
+					"id": 16418,
 					"name": "onVolumeChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22200,7 +22898,7 @@
 					}
 				},
 				{
-					"id": 16034,
+					"id": 16419,
 					"name": "onVolumeChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22243,7 +22941,7 @@
 					}
 				},
 				{
-					"id": 16035,
+					"id": 16420,
 					"name": "onWaiting",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22286,7 +22984,7 @@
 					}
 				},
 				{
-					"id": 16036,
+					"id": 16421,
 					"name": "onWaitingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22329,7 +23027,7 @@
 					}
 				},
 				{
-					"id": 16105,
+					"id": 16490,
 					"name": "onWheel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22372,7 +23070,7 @@
 					}
 				},
 				{
-					"id": 16106,
+					"id": 16491,
 					"name": "onWheelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22415,7 +23113,7 @@
 					}
 				},
 				{
-					"id": 15867,
+					"id": 16252,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22441,7 +23139,7 @@
 					}
 				},
 				{
-					"id": 15880,
+					"id": 16265,
 					"name": "prefix",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22467,7 +23165,7 @@
 					}
 				},
 				{
-					"id": 15881,
+					"id": 16266,
 					"name": "property",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22493,7 +23191,7 @@
 					}
 				},
 				{
-					"id": 15874,
+					"id": 16259,
 					"name": "radioGroup",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22519,7 +23217,7 @@
 					}
 				},
 				{
-					"id": 15882,
+					"id": 16267,
 					"name": "rel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22545,7 +23243,7 @@
 					}
 				},
 				{
-					"id": 15883,
+					"id": 16268,
 					"name": "resource",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22571,7 +23269,7 @@
 					}
 				},
 				{
-					"id": 15896,
+					"id": 16281,
 					"name": "results",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22597,7 +23295,7 @@
 					}
 				},
 				{
-					"id": 15884,
+					"id": 16269,
 					"name": "rev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22623,7 +23321,7 @@
 					}
 				},
 				{
-					"id": 15875,
+					"id": 16260,
 					"name": "role",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22655,7 +23353,7 @@
 					}
 				},
 				{
-					"id": 15897,
+					"id": 16282,
 					"name": "security",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22681,7 +23379,7 @@
 					}
 				},
 				{
-					"id": 15868,
+					"id": 16253,
 					"name": "slot",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22707,7 +23405,7 @@
 					}
 				},
 				{
-					"id": 15869,
+					"id": 16254,
 					"name": "spellCheck",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22738,7 +23436,7 @@
 					}
 				},
 				{
-					"id": 15870,
+					"id": 16255,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22770,7 +23468,7 @@
 					}
 				},
 				{
-					"id": 15854,
+					"id": 16239,
 					"name": "suppressContentEditableWarning",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22796,7 +23494,7 @@
 					}
 				},
 				{
-					"id": 15855,
+					"id": 16240,
 					"name": "suppressHydrationWarning",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22822,7 +23520,7 @@
 					}
 				},
 				{
-					"id": 15871,
+					"id": 16256,
 					"name": "tabIndex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22848,7 +23546,7 @@
 					}
 				},
 				{
-					"id": 15872,
+					"id": 16257,
 					"name": "title",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22874,7 +23572,7 @@
 					}
 				},
 				{
-					"id": 15873,
+					"id": 16258,
 					"name": "translate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22909,7 +23607,7 @@
 					}
 				},
 				{
-					"id": 15850,
+					"id": 16235,
 					"name": "type",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22948,7 +23646,7 @@
 					}
 				},
 				{
-					"id": 15885,
+					"id": 16270,
 					"name": "typeof",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22974,7 +23672,7 @@
 					}
 				},
 				{
-					"id": 15898,
+					"id": 16283,
 					"name": "unselectable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23009,7 +23707,7 @@
 					}
 				},
 				{
-					"id": 15851,
+					"id": 16236,
 					"name": "value",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23055,7 +23753,7 @@
 					}
 				},
 				{
-					"id": 15886,
+					"id": 16271,
 					"name": "vocab",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23085,277 +23783,277 @@
 				{
 					"title": "Properties",
 					"children": [
-						15876,
-						15856,
-						15901,
-						15902,
-						15903,
-						15904,
-						15905,
-						15906,
-						15907,
-						15908,
-						15909,
-						15910,
-						15911,
-						15912,
-						15913,
-						15914,
-						15915,
-						15916,
-						15917,
-						15918,
-						15919,
-						15920,
-						15921,
-						15922,
-						15923,
-						15924,
-						15925,
-						15926,
-						15927,
-						15928,
-						15929,
-						15930,
-						15931,
-						15932,
-						15933,
-						15934,
-						15935,
-						15936,
-						15937,
-						15938,
-						15939,
-						15940,
-						15941,
-						15942,
-						15943,
-						15944,
-						15945,
-						15946,
-						15947,
-						15948,
-						15887,
-						15888,
-						15857,
-						15889,
-						15949,
-						15858,
-						15890,
-						15877,
-						15859,
-						15860,
-						15950,
-						15878,
-						15852,
-						15853,
-						15861,
-						15842,
-						15862,
-						15843,
-						15844,
-						15845,
-						15846,
-						15847,
-						15848,
-						15863,
-						15864,
-						15879,
-						15899,
-						15900,
-						15894,
-						15891,
-						15895,
-						15892,
-						15893,
-						15865,
-						15849,
-						15866,
-						15991,
-						15992,
-						16109,
-						16110,
-						16111,
-						16112,
-						16107,
-						16108,
-						16037,
-						16038,
-						15971,
-						15972,
-						15967,
-						15968,
-						15993,
-						15994,
-						15995,
-						15996,
-						15969,
-						15970,
-						16039,
-						16040,
-						15959,
-						15960,
-						15961,
-						15962,
-						15963,
-						15964,
-						16041,
-						16042,
-						15953,
-						15954,
-						15955,
-						15956,
-						16043,
-						16044,
-						16045,
-						16046,
-						16047,
-						16048,
-						16049,
-						16050,
-						16051,
-						16052,
-						16053,
-						16054,
-						16055,
-						16056,
-						16057,
-						16058,
-						16059,
-						16060,
-						15997,
-						15998,
-						15999,
-						16000,
-						16001,
-						16002,
-						16003,
-						16004,
-						15983,
-						15984,
-						15965,
-						15966,
-						16099,
-						16100,
-						15973,
-						15974,
-						15979,
-						15980,
-						15985,
-						15986,
-						15987,
-						15988,
-						15989,
-						15990,
-						15981,
-						15982,
-						16009,
-						16010,
-						16005,
-						16006,
-						16007,
-						16008,
-						16101,
-						16102,
-						16061,
-						16062,
-						16063,
-						16064,
-						16065,
-						16066,
-						16067,
-						16068,
-						16069,
-						16070,
-						16071,
-						16072,
-						15957,
-						15958,
-						16011,
-						16012,
-						16013,
-						16014,
-						16015,
-						16016,
-						16089,
-						16090,
-						16083,
-						16084,
-						16091,
-						16092,
-						16093,
-						16094,
-						16085,
-						16086,
-						16097,
-						16098,
-						16095,
-						16096,
-						16087,
-						16088,
-						16017,
-						16018,
-						16019,
-						16020,
-						15975,
-						15976,
-						16021,
-						16022,
-						16103,
-						16104,
-						16023,
-						16024,
-						16025,
-						16026,
-						16073,
-						16074,
-						16027,
-						16028,
-						15977,
-						15978,
-						16029,
-						16030,
-						16031,
-						16032,
-						16075,
-						16076,
-						16077,
-						16078,
-						16079,
-						16080,
-						16081,
-						16082,
-						16113,
-						16114,
-						16033,
-						16034,
-						16035,
-						16036,
-						16105,
-						16106,
-						15867,
-						15880,
-						15881,
-						15874,
-						15882,
-						15883,
-						15896,
-						15884,
-						15875,
-						15897,
-						15868,
-						15869,
-						15870,
-						15854,
-						15855,
-						15871,
-						15872,
-						15873,
-						15850,
-						15885,
-						15898,
-						15851,
-						15886
+						16261,
+						16241,
+						16286,
+						16287,
+						16288,
+						16289,
+						16290,
+						16291,
+						16292,
+						16293,
+						16294,
+						16295,
+						16296,
+						16297,
+						16298,
+						16299,
+						16300,
+						16301,
+						16302,
+						16303,
+						16304,
+						16305,
+						16306,
+						16307,
+						16308,
+						16309,
+						16310,
+						16311,
+						16312,
+						16313,
+						16314,
+						16315,
+						16316,
+						16317,
+						16318,
+						16319,
+						16320,
+						16321,
+						16322,
+						16323,
+						16324,
+						16325,
+						16326,
+						16327,
+						16328,
+						16329,
+						16330,
+						16331,
+						16332,
+						16333,
+						16272,
+						16273,
+						16242,
+						16274,
+						16334,
+						16243,
+						16275,
+						16262,
+						16244,
+						16245,
+						16335,
+						16263,
+						16237,
+						16238,
+						16246,
+						16227,
+						16247,
+						16228,
+						16229,
+						16230,
+						16231,
+						16232,
+						16233,
+						16248,
+						16249,
+						16264,
+						16284,
+						16285,
+						16279,
+						16276,
+						16280,
+						16277,
+						16278,
+						16250,
+						16234,
+						16251,
+						16376,
+						16377,
+						16494,
+						16495,
+						16496,
+						16497,
+						16492,
+						16493,
+						16422,
+						16423,
+						16356,
+						16357,
+						16352,
+						16353,
+						16378,
+						16379,
+						16380,
+						16381,
+						16354,
+						16355,
+						16424,
+						16425,
+						16344,
+						16345,
+						16346,
+						16347,
+						16348,
+						16349,
+						16426,
+						16427,
+						16338,
+						16339,
+						16340,
+						16341,
+						16428,
+						16429,
+						16430,
+						16431,
+						16432,
+						16433,
+						16434,
+						16435,
+						16436,
+						16437,
+						16438,
+						16439,
+						16440,
+						16441,
+						16442,
+						16443,
+						16444,
+						16445,
+						16382,
+						16383,
+						16384,
+						16385,
+						16386,
+						16387,
+						16388,
+						16389,
+						16368,
+						16369,
+						16350,
+						16351,
+						16484,
+						16485,
+						16358,
+						16359,
+						16364,
+						16365,
+						16370,
+						16371,
+						16372,
+						16373,
+						16374,
+						16375,
+						16366,
+						16367,
+						16394,
+						16395,
+						16390,
+						16391,
+						16392,
+						16393,
+						16486,
+						16487,
+						16446,
+						16447,
+						16448,
+						16449,
+						16450,
+						16451,
+						16452,
+						16453,
+						16454,
+						16455,
+						16456,
+						16457,
+						16342,
+						16343,
+						16396,
+						16397,
+						16398,
+						16399,
+						16400,
+						16401,
+						16474,
+						16475,
+						16468,
+						16469,
+						16476,
+						16477,
+						16478,
+						16479,
+						16470,
+						16471,
+						16482,
+						16483,
+						16480,
+						16481,
+						16472,
+						16473,
+						16402,
+						16403,
+						16404,
+						16405,
+						16360,
+						16361,
+						16406,
+						16407,
+						16488,
+						16489,
+						16408,
+						16409,
+						16410,
+						16411,
+						16458,
+						16459,
+						16412,
+						16413,
+						16362,
+						16363,
+						16414,
+						16415,
+						16416,
+						16417,
+						16460,
+						16461,
+						16462,
+						16463,
+						16464,
+						16465,
+						16466,
+						16467,
+						16498,
+						16499,
+						16418,
+						16419,
+						16420,
+						16421,
+						16490,
+						16491,
+						16252,
+						16265,
+						16266,
+						16259,
+						16267,
+						16268,
+						16281,
+						16269,
+						16260,
+						16282,
+						16253,
+						16254,
+						16255,
+						16239,
+						16240,
+						16256,
+						16257,
+						16258,
+						16235,
+						16270,
+						16283,
+						16236,
+						16271
 					]
 				}
 			],
@@ -23399,9 +24097,9 @@
 			"sources": [
 				{
 					"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx",
-					"line": 32,
+					"line": 26,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L32"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L26"
 				}
 			],
 			"signatures": [
@@ -23467,9 +24165,9 @@
 													"sources": [
 														{
 															"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx",
-															"line": 18,
+															"line": 12,
 															"character": 2,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L18"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L12"
 														}
 													],
 													"type": {
@@ -23494,9 +24192,9 @@
 													"sources": [
 														{
 															"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx",
-															"line": 17,
+															"line": 11,
 															"character": 2,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L17"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L11"
 														}
 													],
 													"type": {
@@ -23517,16 +24215,16 @@
 											"sources": [
 												{
 													"fileName": "packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx",
-													"line": 16,
+													"line": 10,
 													"character": 3,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L16"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/helpers/DeleteEntityButton.tsx#L10"
 												}
 											]
 										}
 									},
 									{
 										"type": "reference",
-										"target": 13308,
+										"target": 13656,
 										"name": "ButtonOwnProps",
 										"package": "@contember/ui"
 									},
@@ -23539,7 +24237,7 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 12760,
+												"target": 13108,
 												"name": "ButtonBasedProps",
 												"package": "@contember/ui"
 											},

@@ -6,7 +6,7 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6238,
+			"id": 6547,
 			"name": "EditUserPageProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -16,20 +16,20 @@
 					"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
 					"line": 7,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L7"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L7"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 6239,
+					"id": 6548,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 6240,
+							"id": 6549,
 							"name": "identityId",
 							"variant": "declaration",
 							"kind": 1024,
@@ -39,7 +39,7 @@
 									"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
 									"line": 8,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L8"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L8"
 								}
 							],
 							"type": {
@@ -48,7 +48,7 @@
 							}
 						},
 						{
-							"id": 6241,
+							"id": 6550,
 							"name": "rolesConfig",
 							"variant": "declaration",
 							"kind": 1024,
@@ -60,18 +60,18 @@
 									"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
 									"line": 9,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L9"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 6119,
+								"target": 6428,
 								"name": "RolesConfig",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6242,
+							"id": 6551,
 							"name": "userListLink",
 							"variant": "declaration",
 							"kind": 1024,
@@ -83,12 +83,12 @@
 									"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
 									"line": 10,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L10"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L10"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 5945,
+								"target": 6254,
 								"name": "RoutingLinkTarget",
 								"package": "@contember/admin"
 							}
@@ -98,9 +98,9 @@
 						{
 							"title": "Properties",
 							"children": [
-								6240,
-								6241,
-								6242
+								6549,
+								6550,
+								6551
 							]
 						}
 					],
@@ -109,14 +109,14 @@
 							"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
 							"line": 7,
 							"character": 32,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L7"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 6243,
+			"id": 6552,
 			"name": "EditUserPage",
 			"variant": "declaration",
 			"kind": 64,
@@ -126,12 +126,12 @@
 					"fileName": "packages/admin/src/tenant/components/pages/EditUserPage.tsx",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L16"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/EditUserPage.tsx#L16"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6244,
+					"id": 6553,
 					"name": "EditUserPage",
 					"variant": "signature",
 					"kind": 4096,
@@ -145,20 +145,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6245,
+							"id": 6554,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6238,
+								"target": 6547,
 								"name": "EditUserPageProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6246,
+							"id": 6555,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

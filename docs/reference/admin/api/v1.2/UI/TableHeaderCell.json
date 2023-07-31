@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15323,
+			"id": 15606,
 			"name": "TableHeaderCellProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15324,
+					"id": 15607,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"id": 15325,
+					"id": 15608,
 					"name": "justification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -55,13 +55,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15328,
+					"id": 15611,
 					"name": "onClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -98,7 +98,7 @@
 					}
 				},
 				{
-					"id": 15327,
+					"id": 15610,
 					"name": "scope",
 					"variant": "declaration",
 					"kind": 1024,
@@ -127,7 +127,7 @@
 					}
 				},
 				{
-					"id": 15326,
+					"id": 15609,
 					"name": "shrunk",
 					"variant": "declaration",
 					"kind": 1024,
@@ -151,11 +151,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						15324,
-						15325,
-						15328,
-						15327,
-						15326
+						15607,
+						15608,
+						15611,
+						15610,
+						15609
 					]
 				}
 			],
@@ -168,7 +168,7 @@
 			]
 		},
 		{
-			"id": 15329,
+			"id": 15612,
 			"name": "TableHeaderCell",
 			"variant": "declaration",
 			"kind": 64,
@@ -182,7 +182,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15330,
+					"id": 15613,
 					"name": "TableHeaderCell",
 					"variant": "signature",
 					"kind": 4096,
@@ -196,14 +196,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15331,
+							"id": 15614,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15323,
+								"target": 15606,
 								"name": "TableHeaderCellProps",
 								"package": "@contember/ui"
 							}

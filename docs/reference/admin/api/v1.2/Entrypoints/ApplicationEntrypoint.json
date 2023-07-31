@@ -31,7 +31,7 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10690,
+						"target": 10999,
 						"name": "ContemberClientProps.apiBaseUrl"
 					}
 				},
@@ -48,7 +48,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L14"
 						}
 					],
 					"type": {
@@ -67,7 +67,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 21,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L21"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L21"
 						}
 					],
 					"type": {
@@ -94,12 +94,12 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5920,
+						"target": 6229,
 						"name": "SelectedDimension",
 						"package": "@contember/admin"
 					}
@@ -117,7 +117,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L18"
 						}
 					],
 					"type": {
@@ -138,7 +138,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 23,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L23"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L23"
 						}
 					],
 					"type": {
@@ -165,12 +165,12 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L19"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5205,
+						"target": 5514,
 						"name": "MessageDictionaryByLocaleCode",
 						"package": "@contember/admin"
 					}
@@ -188,7 +188,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L20"
 						}
 					],
 					"type": {
@@ -232,7 +232,7 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10692,
+						"target": 11001,
 						"name": "ContemberClientProps.loginToken"
 					}
 				},
@@ -249,7 +249,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 22,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
 						}
 					],
 					"type": {
@@ -265,7 +265,7 @@
 									"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 									"line": 22,
 									"character": 21,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
 								}
 							],
 							"signatures": [
@@ -280,7 +280,7 @@
 											"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 											"line": 22,
 											"character": 21,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L22"
 										}
 									],
 									"type": {
@@ -313,7 +313,7 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10693,
+						"target": 11002,
 						"name": "ContemberClientProps.project"
 					}
 				},
@@ -330,7 +330,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 24,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L24"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L24"
 						}
 					],
 					"type": {
@@ -413,12 +413,12 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L16"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5971,
+						"target": 6280,
 						"name": "RouteMap",
 						"package": "@contember/admin"
 					}
@@ -436,7 +436,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L15"
 						}
 					],
 					"type": {
@@ -445,7 +445,7 @@
 					},
 					"overwrites": {
 						"type": "reference",
-						"target": 10691,
+						"target": 11000,
 						"name": "ContemberClientProps.sessionToken"
 					}
 				},
@@ -470,7 +470,7 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10694,
+						"target": 11003,
 						"name": "ContemberClientProps.stage"
 					}
 				}
@@ -502,27 +502,27 @@
 					"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 					"line": 13,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L13"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L13"
 				}
 			],
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10689,
+					"target": 10998,
 					"name": "ContemberClientProps",
 					"package": "@contember/react-client"
 				}
 			]
 		},
 		{
-			"id": 10689,
+			"id": 10998,
 			"name": "ContemberClientProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10690,
+					"id": 10999,
 					"name": "apiBaseUrl",
 					"variant": "declaration",
 					"kind": 1024,
@@ -540,7 +540,7 @@
 					}
 				},
 				{
-					"id": 10692,
+					"id": 11001,
 					"name": "loginToken",
 					"variant": "declaration",
 					"kind": 1024,
@@ -560,7 +560,7 @@
 					}
 				},
 				{
-					"id": 10693,
+					"id": 11002,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -580,7 +580,7 @@
 					}
 				},
 				{
-					"id": 10691,
+					"id": 11000,
 					"name": "sessionToken",
 					"variant": "declaration",
 					"kind": 1024,
@@ -600,7 +600,7 @@
 					}
 				},
 				{
-					"id": 10694,
+					"id": 11003,
 					"name": "stage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -624,11 +624,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						10690,
-						10692,
-						10693,
-						10691,
-						10694
+						10999,
+						11001,
+						11002,
+						11000,
+						11003
 					]
 				}
 			],
@@ -658,7 +658,7 @@
 					"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 					"line": 36,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L36"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L36"
 				}
 			],
 			"signatures": [
@@ -673,7 +673,7 @@
 							"fileName": "packages/admin/src/components/ApplicationEntrypoint.tsx",
 							"line": 36,
 							"character": 37,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ApplicationEntrypoint.tsx#L36"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ApplicationEntrypoint.tsx#L36"
 						}
 					],
 					"parameters": [
