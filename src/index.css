@@ -241,3 +241,31 @@ img[alt="Contember Cloud Actions"] {
   max-width: 360px;
   text-align: center;
 }
+
+.acl-table td:has(.acl-y) {
+  background: #8ade8a;
+}
+
+.acl-table td:has(.acl-n) {
+  background: #e57575;
+}
+
+.acl-table th {
+  font-weight: normal;
+  font-size: 0.8rem;
+  padding: 3px;
+}
+.acl-table tr td {
+  height: 70px;
+}
+.acl-table tr td:first-child {
+  font-size: 0.8rem;
+  line-height: 100%;
+  width: auto;
+}
+
+.acl-table tr td:not(:first-child) {
+  min-width: 70px;
+  width: 70px;
+  max-width: 70px;
+}
