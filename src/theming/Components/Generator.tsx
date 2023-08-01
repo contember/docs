@@ -192,7 +192,7 @@ function themeEntriesToCSS(themeEntries: ThemeEntries) {
       ([name, [lightHex, middleHex, hex]]) =>
         `${WHITE_SPACE}/* ${name}: [${lightHex}, ${middleHex}, ${hex}] */\n${indentText(
           scaleToCSSProperties(
-            `${PREFIX}-theme-${name}-rgb`,
+            `${PREFIX}-theme-${name}--rgb`,
             scaleToColorWeightMap(scaleGradient(lightHex, middleHex, hex))
           ).reverse().join(`;\n`)
         )};\n`
@@ -252,7 +252,7 @@ export const Generator = React.memo(() => {
   return (
     <StyleProvider>
       <Stack className="theming-generator">
-        <Stack align="center" direction="horizontal" className="sm:flex-wrap">
+        <Stack align="center" horizontal className="sm:flex-wrap">
           <Button className="sm:flex-grow" disabled={changedThemeEntries.length === 0} distinction="primary" onClick={copyCSSToClipboard}>Copy CSS</Button>
           {verbose && <Button distinction="outlined" onClick={copyAllCSSToClipboard}>Copy All CSS</Button>}
           {changedThemeEntries.length === 0 && <span className="theming-generator-hint">Edit the colors to copy CSS first</span>}

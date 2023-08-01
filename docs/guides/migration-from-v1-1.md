@@ -23,7 +23,7 @@ This guide is a work in progress to enable you to migrate your application from 
 -    "@contember/schema-definition": "1.2.1",
 +    "@contember/schema-definition": "1.3.0-rc.1",
 -    "@contember/admin": "^1.0.0",
-+    "@contember/admin": "^1.2.0-rc.14",
++    "@contember/admin": "^1.2.0-rc.16",
      ...
 -    "@types/react": "^17",
 +    "@types/react": "^18",
