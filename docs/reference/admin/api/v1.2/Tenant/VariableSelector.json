@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6180,
+			"id": 6489,
 			"name": "VariableSelectorProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6182,
+					"id": 6491,
 					"name": "membership",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,18 +23,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L9"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6580,
+						"target": 6889,
 						"name": "Membership",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6184,
+					"id": 6493,
 					"name": "onChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -44,13 +44,13 @@
 							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 6185,
+							"id": 6494,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -60,12 +60,12 @@
 									"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 									"line": 11,
 									"character": 11,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
 								}
 							],
 							"signatures": [
 								{
-									"id": 6186,
+									"id": 6495,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -75,19 +75,19 @@
 											"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 											"line": 11,
 											"character": 11,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L11"
 										}
 									],
 									"parameters": [
 										{
-											"id": 6187,
+											"id": 6496,
 											"name": "newMembership",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 6580,
+												"target": 6889,
 												"name": "Membership",
 												"package": "@contember/admin"
 											}
@@ -103,7 +103,7 @@
 					}
 				},
 				{
-					"id": 6181,
+					"id": 6490,
 					"name": "rolesConfig",
 					"variant": "declaration",
 					"kind": 1024,
@@ -115,18 +115,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L8"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6119,
+						"target": 6428,
 						"name": "RolesConfig",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6183,
+					"id": 6492,
 					"name": "variable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -136,12 +136,12 @@
 							"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L10"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6408,
+						"target": 6717,
 						"name": "RoleVariableDefinition",
 						"package": "@contember/admin"
 					}
@@ -151,10 +151,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						6182,
-						6184,
-						6181,
-						6183
+						6491,
+						6493,
+						6490,
+						6492
 					]
 				}
 			],
@@ -163,12 +163,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 					"line": 7,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L7"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L7"
 				}
 			]
 		},
 		{
-			"id": 6188,
+			"id": 6497,
 			"name": "VariableSelector",
 			"variant": "declaration",
 			"kind": 64,
@@ -178,12 +178,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/VariableSelector.tsx",
 					"line": 73,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/VariableSelector.tsx#L73"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/VariableSelector.tsx#L73"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6189,
+					"id": 6498,
 					"name": "VariableSelector",
 					"variant": "signature",
 					"kind": 4096,
@@ -197,20 +197,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6190,
+							"id": 6499,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6180,
+								"target": 6489,
 								"name": "VariableSelectorProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6191,
+							"id": 6500,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

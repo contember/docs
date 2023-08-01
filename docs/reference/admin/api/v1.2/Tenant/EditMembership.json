@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6120,
+			"id": 6429,
 			"name": "EditMembershipProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6122,
+					"id": 6431,
 					"name": "memberships",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditMembership.tsx",
 							"line": 27,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditMembership.tsx#L27"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditMembership.tsx#L27"
 						}
 					],
 					"type": {
@@ -37,7 +37,7 @@
 								},
 								{
 									"type": "reference",
-									"target": 6580,
+									"target": 6889,
 									"name": "Membership",
 									"package": "@contember/admin"
 								}
@@ -46,7 +46,7 @@
 					}
 				},
 				{
-					"id": 6121,
+					"id": 6430,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -56,7 +56,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditMembership.tsx",
 							"line": 26,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditMembership.tsx#L26"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditMembership.tsx#L26"
 						}
 					],
 					"type": {
@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"id": 6124,
+					"id": 6433,
 					"name": "rolesConfig",
 					"variant": "declaration",
 					"kind": 1024,
@@ -77,18 +77,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditMembership.tsx",
 							"line": 29,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditMembership.tsx#L29"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditMembership.tsx#L29"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6119,
+						"target": 6428,
 						"name": "RolesConfig",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6123,
+					"id": 6432,
 					"name": "setMemberships",
 					"variant": "declaration",
 					"kind": 1024,
@@ -98,7 +98,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditMembership.tsx",
 							"line": 28,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditMembership.tsx#L28"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditMembership.tsx#L28"
 						}
 					],
 					"type": {
@@ -126,7 +126,7 @@
 												},
 												{
 													"type": "reference",
-													"target": 6580,
+													"target": 6889,
 													"name": "Membership",
 													"package": "@contember/admin"
 												}
@@ -149,10 +149,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						6122,
-						6121,
-						6124,
-						6123
+						6431,
+						6430,
+						6433,
+						6432
 					]
 				}
 			],
@@ -161,12 +161,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/EditMembership.tsx",
 					"line": 25,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditMembership.tsx#L25"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditMembership.tsx#L25"
 				}
 			]
 		},
 		{
-			"id": 6125,
+			"id": 6434,
 			"name": "EditMembership",
 			"variant": "declaration",
 			"kind": 64,
@@ -176,12 +176,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/EditMembership.tsx",
 					"line": 35,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditMembership.tsx#L35"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditMembership.tsx#L35"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6126,
+					"id": 6435,
 					"name": "EditMembership",
 					"variant": "signature",
 					"kind": 4096,
@@ -195,20 +195,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6127,
+							"id": 6436,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6120,
+								"target": 6429,
 								"name": "EditMembershipProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6128,
+							"id": 6437,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

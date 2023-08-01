@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 2348,
+			"id": 2648,
 			"name": "DynamicMultipleChoiceWithConnectingEntityFieldProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2349,
+					"id": 2649,
 					"name": "connectingEntityField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceWithConnectingEntityField.ts",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceWithConnectingEntityField.ts#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceWithConnectingEntityField.ts#L17"
 						}
 					],
 					"type": {
@@ -35,7 +35,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10149,
+								"target": 10458,
 								"name": "SugaredRelativeSingleEntity",
 								"package": "@contember/binding"
 							}
@@ -47,7 +47,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						2349
+						2649
 					]
 				}
 			],
@@ -56,19 +56,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceWithConnectingEntityField.ts",
 					"line": 16,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceWithConnectingEntityField.ts#L16"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceWithConnectingEntityField.ts#L16"
 				}
 			]
 		},
 		{
-			"id": 12755,
+			"id": 13088,
 			"name": "ErrorListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12756,
+					"id": 13089,
 					"name": "errors",
 					"variant": "declaration",
 					"kind": 1024,
@@ -84,7 +84,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15565,
+						"target": 15950,
 						"name": "FieldErrors",
 						"package": "@contember/ui"
 					}
@@ -94,7 +94,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						12756
+						13089
 					]
 				}
 			],
@@ -107,7 +107,7 @@
 			]
 		},
 		{
-			"id": 2350,
+			"id": 2650,
 			"name": "LegacyChoiceFieldWithOptionRenderer",
 			"variant": "declaration",
 			"kind": 256,
@@ -128,7 +128,7 @@
 			},
 			"children": [
 				{
-					"id": 2355,
+					"id": 2655,
 					"name": "options",
 					"variant": "declaration",
 					"kind": 1024,
@@ -138,7 +138,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L17"
 						}
 					],
 					"type": {
@@ -150,13 +150,13 @@
 							},
 							{
 								"type": "reference",
-								"target": 9981,
+								"target": 10290,
 								"name": "SugaredQualifiedEntityList",
 								"package": "@contember/binding"
 							},
 							{
 								"type": "reference",
-								"target": 9958,
+								"target": 10267,
 								"name": "SugarableQualifiedEntityList",
 								"package": "@contember/binding"
 							}
@@ -164,7 +164,7 @@
 					}
 				},
 				{
-					"id": 2356,
+					"id": 2656,
 					"name": "optionsStaticRender",
 					"variant": "declaration",
 					"kind": 1024,
@@ -174,7 +174,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
 						}
 					],
 					"type": {
@@ -224,7 +224,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 2357,
+									"id": 2657,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -234,12 +234,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 18,
 											"character": 38,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
 										}
 									],
 									"signatures": [
 										{
-											"id": 2358,
+											"id": 2658,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -249,19 +249,19 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 													"line": 18,
 													"character": 38,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L18"
 												}
 											],
 											"parameters": [
 												{
-													"id": 2359,
+													"id": 2659,
 													"name": "environment",
 													"variant": "param",
 													"kind": 32768,
 													"flags": {},
 													"type": {
 														"type": "reference",
-														"target": 8244,
+														"target": 8553,
 														"name": "Environment",
 														"package": "@contember/binding"
 													}
@@ -316,7 +316,7 @@
 					}
 				},
 				{
-					"id": 2351,
+					"id": 2651,
 					"name": "renderOption",
 					"variant": "declaration",
 					"kind": 1024,
@@ -326,13 +326,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 2352,
+							"id": 2652,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -342,12 +342,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 									"line": 16,
 									"character": 15,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
 								}
 							],
 							"signatures": [
 								{
-									"id": 2353,
+									"id": 2653,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -357,19 +357,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 16,
 											"character": 15,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L16"
 										}
 									],
 									"parameters": [
 										{
-											"id": 2354,
+											"id": 2654,
 											"name": "entityAccessor",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 6993,
+												"target": 7302,
 												"name": "EntityAccessor",
 												"package": "@contember/binding"
 											}
@@ -395,9 +395,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						2355,
-						2356,
-						2351
+						2655,
+						2656,
+						2651
 					]
 				}
 			],
@@ -406,19 +406,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 					"line": 15,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L15"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L15"
 				}
 			]
 		},
 		{
-			"id": 2656,
+			"id": 2966,
 			"name": "MultiSelectFieldInnerPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2661,
+					"id": 2972,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -428,7 +428,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 19,
+							"line": 25,
 							"character": 4
 						}
 					],
@@ -443,7 +443,7 @@
 					}
 				},
 				{
-					"id": 2668,
+					"id": 2982,
 					"name": "description",
 					"variant": "declaration",
 					"kind": 1024,
@@ -474,17 +474,39 @@
 					}
 				},
 				{
-					"id": 2663,
+					"id": 2976,
 					"name": "direction",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
 						"isOptional": true
 					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`horizontal`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 9,
+							"line": 10,
 							"character": 4
 						}
 					],
@@ -516,7 +538,41 @@
 					}
 				},
 				{
-					"id": 2667,
+					"id": 2975,
+					"name": "display",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "inline"
+							},
+							{
+								"type": "literal",
+								"value": "block"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.display"
+					}
+				},
+				{
+					"id": 2981,
 					"name": "errors",
 					"variant": "declaration",
 					"kind": 1024,
@@ -532,7 +588,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15565,
+						"target": 15950,
 						"name": "FieldErrors",
 						"package": "@contember/ui"
 					},
@@ -543,7 +599,32 @@
 					}
 				},
 				{
-					"id": 2664,
+					"id": 2977,
+					"name": "evenly",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.evenly"
+					}
+				},
+				{
+					"id": 2978,
 					"name": "gap",
 					"variant": "declaration",
 					"kind": 1024,
@@ -553,7 +634,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 10,
+							"line": 12,
 							"character": 4
 						}
 					],
@@ -561,13 +642,29 @@
 						"type": "union",
 						"types": [
 							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
 								"type": "literal",
-								"value": "none"
+								"value": "padding"
+							},
+							{
+								"type": "literal",
+								"value": "larger"
+							},
+							{
+								"type": "literal",
+								"value": "gap"
+							},
+							{
+								"type": "literal",
+								"value": "gutter"
 							},
 							{
 								"type": "reference",
-								"target": 18292,
-								"name": "Size",
+								"target": 15553,
+								"name": "DeprecatedStackSize",
 								"package": "@contember/ui"
 							}
 						]
@@ -579,7 +676,32 @@
 					}
 				},
 				{
-					"id": 2659,
+					"id": 2973,
+					"name": "horizontal",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.horizontal"
+					}
+				},
+				{
+					"id": 2969,
 					"name": "label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -587,7 +709,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 11,
+							"line": 15,
 							"character": 4
 						}
 					],
@@ -608,7 +730,7 @@
 					}
 				},
 				{
-					"id": 2669,
+					"id": 2983,
 					"name": "labelDescription",
 					"variant": "declaration",
 					"kind": 1024,
@@ -618,7 +740,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 12,
+							"line": 16,
 							"character": 4
 						}
 					],
@@ -639,7 +761,7 @@
 					}
 				},
 				{
-					"id": 2670,
+					"id": 2984,
 					"name": "labelPosition",
 					"variant": "declaration",
 					"kind": 1024,
@@ -649,13 +771,13 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 13,
+							"line": 17,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13771,
+						"target": 14135,
 						"name": "FieldContainerLabelPosition",
 						"package": "@contember/ui"
 					},
@@ -666,7 +788,7 @@
 					}
 				},
 				{
-					"id": 2657,
+					"id": 2967,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -678,7 +800,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx",
 							"line": 37,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L37"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L37"
 						}
 					],
 					"type": {
@@ -687,7 +809,7 @@
 					}
 				},
 				{
-					"id": 2658,
+					"id": 2968,
 					"name": "reactSelectProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -699,7 +821,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx",
 							"line": 38,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L38"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L38"
 						}
 					],
 					"type": {
@@ -730,7 +852,7 @@
 					}
 				},
 				{
-					"id": 2666,
+					"id": 2980,
 					"name": "required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -740,7 +862,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 15,
+							"line": 20,
 							"character": 4
 						}
 					],
@@ -755,7 +877,32 @@
 					}
 				},
 				{
-					"id": 2662,
+					"id": 2971,
+					"name": "reverse",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 23,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.reverse"
+					}
+				},
+				{
+					"id": 2974,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -765,13 +912,13 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 16,
+							"line": 21,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					},
@@ -782,7 +929,7 @@
 					}
 				},
 				{
-					"id": 2660,
+					"id": 2970,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -792,7 +939,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 18,
+							"line": 24,
 							"character": 4
 						}
 					],
@@ -813,7 +960,7 @@
 					}
 				},
 				{
-					"id": 2671,
+					"id": 2985,
 					"name": "useLabelElement",
 					"variant": "declaration",
 					"kind": 1024,
@@ -823,7 +970,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 17,
+							"line": 22,
 							"character": 4
 						}
 					],
@@ -838,17 +985,31 @@
 					}
 				},
 				{
-					"id": 2665,
+					"id": 2979,
 					"name": "width",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
 						"isOptional": true
 					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "No alternative"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 14,
+							"line": 19,
 							"character": 4
 						}
 					],
@@ -880,21 +1041,25 @@
 				{
 					"title": "Properties",
 					"children": [
-						2661,
-						2668,
-						2663,
-						2667,
-						2664,
-						2659,
-						2669,
-						2670,
-						2657,
-						2658,
-						2666,
-						2662,
-						2660,
-						2671,
-						2665
+						2972,
+						2982,
+						2976,
+						2975,
+						2981,
+						2977,
+						2978,
+						2973,
+						2969,
+						2983,
+						2984,
+						2967,
+						2968,
+						2980,
+						2971,
+						2974,
+						2970,
+						2985,
+						2979
 					]
 				}
 			],
@@ -903,7 +1068,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx",
 					"line": 36,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L36"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L36"
 				}
 			],
 			"extendedTypes": [
@@ -916,7 +1081,7 @@
 					"typeArguments": [
 						{
 							"type": "reference",
-							"target": 13739,
+							"target": 14095,
 							"name": "FieldContainerProps",
 							"package": "@contember/ui"
 						},
@@ -931,14 +1096,14 @@
 			]
 		},
 		{
-			"id": 2345,
+			"id": 2645,
 			"name": "SelectFuseOptionsProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2346,
+					"id": 2646,
 					"name": "fuseOptions",
 					"variant": "declaration",
 					"kind": 1024,
@@ -950,7 +1115,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts#L6"
 						}
 					],
 					"type": {
@@ -969,7 +1134,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 2411,
+										"target": 2711,
 										"typeArguments": [
 											{
 												"type": "reference",
@@ -995,7 +1160,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						2346
+						2646
 					]
 				}
 			],
@@ -1004,12 +1169,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts",
 					"line": 5,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useFuseFilteredOptions.ts#L5"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 2347,
+					"id": 2647,
 					"name": "T",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1018,14 +1183,14 @@
 			]
 		},
 		{
-			"id": 10113,
+			"id": 10422,
 			"name": "SugaredRelativeEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10115,
+					"id": 10424,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1041,18 +1206,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10097,
+						"target": 10406,
 						"name": "UnsugarableRelativeEntityList.expectedMutation"
 					}
 				},
 				{
-					"id": 10114,
+					"id": 10423,
 					"name": "field",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1073,7 +1238,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10093,
+								"target": 10402,
 								"name": "SugarableRelativeEntityList",
 								"package": "@contember/binding"
 							}
@@ -1081,7 +1246,7 @@
 					}
 				},
 				{
-					"id": 10121,
+					"id": 10430,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1101,12 +1266,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10103,
+						"target": 10412,
 						"name": "UnsugarableRelativeEntityList.initialEntityCount"
 					}
 				},
 				{
-					"id": 10116,
+					"id": 10425,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1126,12 +1291,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10098,
+						"target": 10407,
 						"name": "UnsugarableRelativeEntityList.isNonbearing"
 					}
 				},
 				{
-					"id": 10120,
+					"id": 10429,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1151,12 +1316,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10102,
+						"target": 10411,
 						"name": "UnsugarableRelativeEntityList.limit"
 					}
 				},
 				{
-					"id": 10119,
+					"id": 10428,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1176,12 +1341,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10101,
+						"target": 10410,
 						"name": "UnsugarableRelativeEntityList.offset"
 					}
 				},
 				{
-					"id": 10125,
+					"id": 10434,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1195,7 +1360,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1209,7 +1374,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1222,12 +1387,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10107,
+						"target": 10416,
 						"name": "UnsugarableRelativeEntityList.onBeforePersist"
 					}
 				},
 				{
-					"id": 10124,
+					"id": 10433,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1241,7 +1406,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1255,7 +1420,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1268,12 +1433,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10106,
+						"target": 10415,
 						"name": "UnsugarableRelativeEntityList.onBeforeUpdate"
 					}
 				},
 				{
-					"id": 10128,
+					"id": 10437,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1287,7 +1452,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1301,7 +1466,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1314,12 +1479,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10110,
+						"target": 10419,
 						"name": "UnsugarableRelativeEntityList.onChildBeforeUpdate"
 					}
 				},
 				{
-					"id": 10127,
+					"id": 10436,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1333,7 +1498,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1347,7 +1512,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1360,12 +1525,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10109,
+						"target": 10418,
 						"name": "UnsugarableRelativeEntityList.onChildInitialize"
 					}
 				},
 				{
-					"id": 10126,
+					"id": 10435,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1379,7 +1544,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -1393,7 +1558,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -1406,12 +1571,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10108,
+						"target": 10417,
 						"name": "UnsugarableRelativeEntityList.onChildUpdate"
 					}
 				},
 				{
-					"id": 10123,
+					"id": 10432,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1425,7 +1590,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1439,7 +1604,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1452,12 +1617,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10105,
+						"target": 10414,
 						"name": "UnsugarableRelativeEntityList.onInitialize"
 					}
 				},
 				{
-					"id": 10129,
+					"id": 10438,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1471,7 +1636,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -1485,7 +1650,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -1498,12 +1663,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10111,
+						"target": 10420,
 						"name": "UnsugarableRelativeEntityList.onPersistError"
 					}
 				},
 				{
-					"id": 10130,
+					"id": 10439,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1517,7 +1682,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -1531,7 +1696,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -1544,12 +1709,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10112,
+						"target": 10421,
 						"name": "UnsugarableRelativeEntityList.onPersistSuccess"
 					}
 				},
 				{
-					"id": 10122,
+					"id": 10431,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1563,7 +1728,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -1577,7 +1742,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -1590,12 +1755,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10104,
+						"target": 10413,
 						"name": "UnsugarableRelativeEntityList.onUpdate"
 					}
 				},
 				{
-					"id": 10118,
+					"id": 10427,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1611,18 +1776,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10100,
+						"target": 10409,
 						"name": "UnsugarableRelativeEntityList.orderBy"
 					}
 				},
 				{
-					"id": 10117,
+					"id": 10426,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1638,13 +1803,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10099,
+						"target": 10408,
 						"name": "UnsugarableRelativeEntityList.setOnCreate"
 					}
 				}
@@ -1653,23 +1818,23 @@
 				{
 					"title": "Properties",
 					"children": [
-						10115,
-						10114,
-						10121,
-						10116,
-						10120,
-						10119,
-						10125,
-						10124,
-						10128,
-						10127,
-						10126,
-						10123,
-						10129,
-						10130,
-						10122,
-						10118,
-						10117
+						10424,
+						10423,
+						10430,
+						10425,
+						10429,
+						10428,
+						10434,
+						10433,
+						10437,
+						10436,
+						10435,
+						10432,
+						10438,
+						10439,
+						10431,
+						10427,
+						10426
 					]
 				}
 			],
@@ -1683,7 +1848,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList",
 					"package": "@contember/binding"
 				}
@@ -1691,25 +1856,25 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1691,
+					"target": 1712,
 					"name": "RepeaterProps"
 				},
 				{
 					"type": "reference",
-					"target": 3399,
+					"target": 3717,
 					"name": "BlockEditorProps"
 				}
 			]
 		},
 		{
-			"id": 9753,
+			"id": 10062,
 			"name": "UnsugarableEntityCreationParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9754,
+					"id": 10063,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1729,7 +1894,7 @@
 					}
 				},
 				{
-					"id": 9755,
+					"id": 10064,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1745,7 +1910,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					}
@@ -1755,8 +1920,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						9754,
-						9755
+						10063,
+						10064
 					]
 				}
 			],
@@ -1770,40 +1935,40 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10039,
+					"target": 10348,
 					"name": "UnsugarableQualifiedSingleEntity"
 				},
 				{
 					"type": "reference",
-					"target": 10086,
+					"target": 10395,
 					"name": "UnsugarableRelation"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10248,
+					"target": 10557,
 					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
 				}
 			]
 		},
 		{
-			"id": 9764,
+			"id": 10073,
 			"name": "UnsugarableEntityListParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9768,
+					"id": 10077,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1823,12 +1988,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9773,
+						"target": 10082,
 						"name": "UnsugarableEntityListPreferences.initialEntityCount"
 					}
 				},
 				{
-					"id": 9767,
+					"id": 10076,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1848,7 +2013,7 @@
 					}
 				},
 				{
-					"id": 9766,
+					"id": 10075,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1868,7 +2033,7 @@
 					}
 				},
 				{
-					"id": 9765,
+					"id": 10074,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1884,7 +2049,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					}
@@ -1894,10 +2059,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						9768,
-						9767,
-						9766,
-						9765
+						10077,
+						10076,
+						10075,
+						10074
 					]
 				}
 			],
@@ -1911,7 +2076,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9772,
+					"target": 10081,
 					"name": "UnsugarableEntityListPreferences",
 					"package": "@contember/binding"
 				}
@@ -1919,30 +2084,30 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 9772,
+			"id": 10081,
 			"name": "UnsugarableEntityListPreferences",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9773,
+					"id": 10082,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1966,7 +2131,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						9773
+						10082
 					]
 				}
 			],
@@ -1980,25 +2145,25 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9764,
+					"target": 10073,
 					"name": "UnsugarableEntityListParameters"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 10086,
+			"id": 10395,
 			"name": "UnsugarableRelation",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10087,
+					"id": 10396,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2014,13 +2179,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					}
 				},
 				{
-					"id": 10088,
+					"id": 10397,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2040,12 +2205,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9754,
+						"target": 10063,
 						"name": "UnsugarableEntityCreationParameters.isNonbearing"
 					}
 				},
 				{
-					"id": 10089,
+					"id": 10398,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2061,13 +2226,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9755,
+						"target": 10064,
 						"name": "UnsugarableEntityCreationParameters.setOnCreate"
 					}
 				}
@@ -2076,9 +2241,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						10087,
-						10088,
-						10089
+						10396,
+						10397,
+						10398
 					]
 				}
 			],
@@ -2092,7 +2257,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9753,
+					"target": 10062,
 					"name": "UnsugarableEntityCreationParameters",
 					"package": "@contember/binding"
 				}
@@ -2100,30 +2265,30 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9894,
+					"target": 10203,
 					"name": "UnsugarableHasOneRelation"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 10096,
+			"id": 10405,
 			"name": "UnsugarableRelativeEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10097,
+					"id": 10406,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2139,18 +2304,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10087,
+						"target": 10396,
 						"name": "UnsugarableRelation.expectedMutation"
 					}
 				},
 				{
-					"id": 10103,
+					"id": 10412,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2170,12 +2335,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9768,
+						"target": 10077,
 						"name": "UnsugarableEntityListParameters.initialEntityCount"
 					}
 				},
 				{
-					"id": 10098,
+					"id": 10407,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2195,12 +2360,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10088,
+						"target": 10397,
 						"name": "UnsugarableRelation.isNonbearing"
 					}
 				},
 				{
-					"id": 10102,
+					"id": 10411,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2220,12 +2385,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9767,
+						"target": 10076,
 						"name": "UnsugarableEntityListParameters.limit"
 					}
 				},
 				{
-					"id": 10101,
+					"id": 10410,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2245,12 +2410,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9766,
+						"target": 10075,
 						"name": "UnsugarableEntityListParameters.offset"
 					}
 				},
 				{
-					"id": 10107,
+					"id": 10416,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2264,7 +2429,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -2278,7 +2443,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -2296,7 +2461,7 @@
 					}
 				},
 				{
-					"id": 10106,
+					"id": 10415,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2310,7 +2475,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2324,7 +2489,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2342,7 +2507,7 @@
 					}
 				},
 				{
-					"id": 10110,
+					"id": 10419,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2356,7 +2521,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2370,7 +2535,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2388,7 +2553,7 @@
 					}
 				},
 				{
-					"id": 10109,
+					"id": 10418,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2402,7 +2567,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2416,7 +2581,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2434,7 +2599,7 @@
 					}
 				},
 				{
-					"id": 10108,
+					"id": 10417,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2448,7 +2613,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2462,7 +2627,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2480,7 +2645,7 @@
 					}
 				},
 				{
-					"id": 10105,
+					"id": 10414,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2494,7 +2659,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2508,7 +2673,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2526,7 +2691,7 @@
 					}
 				},
 				{
-					"id": 10111,
+					"id": 10420,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2540,7 +2705,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -2554,7 +2719,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -2572,7 +2737,7 @@
 					}
 				},
 				{
-					"id": 10112,
+					"id": 10421,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2586,7 +2751,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -2600,7 +2765,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -2618,7 +2783,7 @@
 					}
 				},
 				{
-					"id": 10104,
+					"id": 10413,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2632,7 +2797,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -2646,7 +2811,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -2664,7 +2829,7 @@
 					}
 				},
 				{
-					"id": 10100,
+					"id": 10409,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2680,18 +2845,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9765,
+						"target": 10074,
 						"name": "UnsugarableEntityListParameters.orderBy"
 					}
 				},
 				{
-					"id": 10099,
+					"id": 10408,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2707,13 +2872,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10089,
+						"target": 10398,
 						"name": "UnsugarableRelation.setOnCreate"
 					}
 				}
@@ -2722,22 +2887,22 @@
 				{
 					"title": "Properties",
 					"children": [
-						10097,
-						10103,
-						10098,
-						10102,
-						10101,
-						10107,
-						10106,
-						10110,
-						10109,
-						10108,
-						10105,
-						10111,
-						10112,
-						10104,
-						10100,
-						10099
+						10406,
+						10412,
+						10407,
+						10411,
+						10410,
+						10416,
+						10415,
+						10419,
+						10418,
+						10417,
+						10414,
+						10420,
+						10421,
+						10413,
+						10409,
+						10408
 					]
 				}
 			],
@@ -2751,19 +2916,19 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10086,
+					"target": 10395,
 					"name": "UnsugarableRelation",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9764,
+					"target": 10073,
 					"name": "UnsugarableEntityListParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9849,
+					"target": 10158,
 					"name": "UnsugarableEntityListEventListeners",
 					"package": "@contember/binding"
 				}
@@ -2771,13 +2936,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 10113,
+					"target": 10422,
 					"name": "SugaredRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 2374,
+			"id": 2674,
 			"name": "BaseDynamicChoiceField",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -2787,7 +2952,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 					"line": 53,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L53"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L53"
 				}
 			],
 			"type": {
@@ -2795,17 +2960,17 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 2373,
+						"target": 2673,
 						"name": "BaseDynamicChoiceFieldOptions",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 2345,
+						"target": 2645,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 6993,
+								"target": 7302,
 								"name": "EntityAccessor",
 								"package": "@contember/binding"
 							}
@@ -2816,14 +2981,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 2375,
+							"id": 2675,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 2377,
+									"id": 2677,
 									"name": "createNewForm",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2835,7 +3000,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 58,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L58"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L58"
 										}
 									],
 									"type": {
@@ -2850,7 +3015,7 @@
 									}
 								},
 								{
-									"id": 2378,
+									"id": 2678,
 									"name": "lazy",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2862,18 +3027,18 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 59,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L59"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L59"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 2386,
+										"target": 2686,
 										"name": "LazyChoiceFieldSettings",
 										"package": "@contember/admin"
 									}
 								},
 								{
-									"id": 2379,
+									"id": 2679,
 									"name": "renderedOptionsLimit",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2885,7 +3050,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 60,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L60"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L60"
 										}
 									],
 									"type": {
@@ -2894,7 +3059,7 @@
 									}
 								},
 								{
-									"id": 2376,
+									"id": 2676,
 									"name": "searchByFields",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2906,18 +3071,18 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 57,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L57"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L57"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 2365,
+										"target": 2665,
 										"name": "ChoiceFieldSearchByFields",
 										"package": "@contember/admin"
 									}
 								},
 								{
-									"id": 2385,
+									"id": 2685,
 									"name": "sortableBy",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2929,7 +3094,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 62,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L62"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L62"
 										}
 									],
 									"type": {
@@ -2940,14 +3105,14 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 8577,
+											"target": 8886,
 											"name": "SugaredFieldProps",
 											"package": "@contember/binding"
 										}
 									}
 								},
 								{
-									"id": 2380,
+									"id": 2680,
 									"name": "transformOptions",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2959,13 +3124,13 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 											"line": 61,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L61"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L61"
 										}
 									],
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 2381,
+											"id": 2681,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -2975,30 +3140,30 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 													"line": 61,
 													"character": 21,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L61"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L61"
 												}
 											],
 											"signatures": [
 												{
-													"id": 2382,
+													"id": 2682,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
 													"flags": {},
 													"parameters": [
 														{
-															"id": 2383,
+															"id": 2683,
 															"name": "data",
 															"variant": "param",
 															"kind": 32768,
 															"flags": {},
 															"type": {
 																"type": "reference",
-																"target": 2418,
+																"target": 2718,
 																"typeArguments": [
 																	{
 																		"type": "reference",
-																		"target": 6993,
+																		"target": 7302,
 																		"name": "EntityAccessor",
 																		"package": "@contember/binding"
 																	}
@@ -3008,7 +3173,7 @@
 															}
 														},
 														{
-															"id": 2384,
+															"id": 2684,
 															"name": "input",
 															"variant": "param",
 															"kind": 32768,
@@ -3030,11 +3195,11 @@
 													],
 													"type": {
 														"type": "reference",
-														"target": 2418,
+														"target": 2718,
 														"typeArguments": [
 															{
 																"type": "reference",
-																"target": 6993,
+																"target": 7302,
 																"name": "EntityAccessor",
 																"package": "@contember/binding"
 															}
@@ -3052,12 +3217,12 @@
 								{
 									"title": "Properties",
 									"children": [
-										2377,
-										2378,
-										2379,
-										2376,
-										2385,
-										2380
+										2677,
+										2678,
+										2679,
+										2676,
+										2685,
+										2680
 									]
 								}
 							],
@@ -3066,7 +3231,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 									"line": 56,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L56"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L56"
 								}
 							]
 						}
@@ -3075,7 +3240,7 @@
 			}
 		},
 		{
-			"id": 2373,
+			"id": 2673,
 			"name": "BaseDynamicChoiceFieldOptions",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3085,7 +3250,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 					"line": 48,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L48"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L48"
 				}
 			],
 			"type": {
@@ -3093,19 +3258,19 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 2370,
+						"target": 2670,
 						"name": "DynamicChoiceFieldOptionProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 2366,
+						"target": 2666,
 						"name": "DynamicChoiceFieldWithCustomLabelProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 2350,
+						"target": 2650,
 						"name": "LegacyChoiceFieldWithOptionRenderer",
 						"package": "@contember/admin"
 					}
@@ -3113,7 +3278,7 @@
 			}
 		},
 		{
-			"id": 2370,
+			"id": 2670,
 			"name": "DynamicChoiceFieldOptionProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3123,20 +3288,20 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 					"line": 44,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L44"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L44"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 2371,
+					"id": 2671,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 2372,
+							"id": 2672,
 							"name": "options",
 							"variant": "declaration",
 							"kind": 1024,
@@ -3146,12 +3311,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 									"line": 45,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L45"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L45"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 2364,
+								"target": 2664,
 								"name": "ChoiceFieldOptionsAsFieldList",
 								"package": "@contember/admin"
 							}
@@ -3161,7 +3326,7 @@
 						{
 							"title": "Properties",
 							"children": [
-								2372
+								2672
 							]
 						}
 					],
@@ -3170,14 +3335,14 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 							"line": 44,
 							"character": 44,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L44"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L44"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 2366,
+			"id": 2666,
 			"name": "DynamicChoiceFieldWithCustomLabelProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3187,20 +3352,20 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 					"line": 39,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L39"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L39"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 2367,
+					"id": 2667,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 2369,
+							"id": 2669,
 							"name": "optionLabel",
 							"variant": "declaration",
 							"kind": 1024,
@@ -3210,7 +3375,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 									"line": 41,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L41"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L41"
 								}
 							],
 							"type": {
@@ -3225,7 +3390,7 @@
 							}
 						},
 						{
-							"id": 2368,
+							"id": 2668,
 							"name": "options",
 							"variant": "declaration",
 							"kind": 1024,
@@ -3235,12 +3400,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 									"line": 40,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L40"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L40"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 2363,
+								"target": 2663,
 								"name": "ChoiceFieldOptionsAsEntityList",
 								"package": "@contember/admin"
 							}
@@ -3250,8 +3415,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								2369,
-								2368
+								2669,
+								2668
 							]
 						}
 					],
@@ -3260,14 +3425,14 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx",
 							"line": 39,
 							"character": 53,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L39"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/BaseDynamicChoiceField.tsx#L39"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 2524,
+			"id": 2824,
 			"name": "DynamicMultipleChoiceFieldProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3277,7 +3442,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceField.ts",
 					"line": 11,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceField.ts#L11"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceField.ts#L11"
 				}
 			],
 			"type": {
@@ -3285,13 +3450,13 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 10113,
+						"target": 10422,
 						"name": "SugaredRelativeEntityList",
 						"package": "@contember/binding"
 					},
 					{
 						"type": "reference",
-						"target": 2374,
+						"target": 2674,
 						"name": "BaseDynamicChoiceField",
 						"package": "@contember/admin"
 					},
@@ -3301,7 +3466,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 2525,
+									"id": 2825,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -3311,14 +3476,14 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceField.ts",
 											"line": 15,
 											"character": 4,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceField.ts#L15"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/ChoiceField/hooks/useDynamicMultipleChoiceField.ts#L15"
 										}
 									]
 								}
 							},
 							{
 								"type": "reference",
-								"target": 2348,
+								"target": 2648,
 								"name": "DynamicMultipleChoiceWithConnectingEntityFieldProps",
 								"package": "@contember/admin"
 							}
@@ -3328,7 +3493,7 @@
 			}
 		},
 		{
-			"id": 13739,
+			"id": 14095,
 			"name": "FieldContainerProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3346,14 +3511,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 13740,
+							"id": 14096,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 13741,
+									"id": 14097,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3377,7 +3542,7 @@
 									}
 								},
 								{
-									"id": 13753,
+									"id": 14113,
 									"name": "className",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3387,7 +3552,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 19,
+											"line": 25,
 											"character": 4
 										}
 									],
@@ -3397,7 +3562,7 @@
 									}
 								},
 								{
-									"id": 13742,
+									"id": 14098,
 									"name": "description",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3423,17 +3588,39 @@
 									}
 								},
 								{
-									"id": 13743,
+									"id": 14099,
 									"name": "direction",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
 										"isOptional": true
 									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Use "
+													},
+													{
+														"kind": "code",
+														"text": "`horizontal`"
+													},
+													{
+														"kind": "text",
+														"text": " instead"
+													}
+												]
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 9,
+											"line": 10,
 											"character": 4
 										}
 									],
@@ -3445,96 +3632,15 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 15278,
+											"target": 15568,
 											"name": "StackProps",
 											"package": "@contember/ui"
 										}
 									}
 								},
 								{
-									"id": 13744,
-									"name": "gap",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {
-										"isOptional": true
-									},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 10,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "reference",
-												"target": 18292,
-												"name": "Size",
-												"package": "@contember/ui"
-											},
-											{
-												"type": "literal",
-												"value": "none"
-											}
-										]
-									}
-								},
-								{
-									"id": 13745,
-									"name": "label",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 11,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "reference",
-										"target": {
-											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-											"qualifiedName": "React.ReactNode"
-										},
-										"name": "ReactNode",
-										"package": "@types/react",
-										"qualifiedName": "React.ReactNode"
-									}
-								},
-								{
-									"id": 13746,
-									"name": "labelDescription",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {
-										"isOptional": true
-									},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 12,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "reference",
-										"target": {
-											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-											"qualifiedName": "React.ReactNode"
-										},
-										"name": "ReactNode",
-										"package": "@types/react",
-										"qualifiedName": "React.ReactNode"
-									}
-								},
-								{
-									"id": 13747,
-									"name": "labelPosition",
+									"id": 14102,
+									"name": "display",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -3548,15 +3654,22 @@
 										}
 									],
 									"type": {
-										"type": "reference",
-										"target": 13771,
-										"name": "FieldContainerLabelPosition",
-										"package": "@contember/ui"
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "inline"
+											},
+											{
+												"type": "literal",
+												"value": "block"
+											}
+										]
 									}
 								},
 								{
-									"id": 13749,
-									"name": "required",
+									"id": 14100,
+									"name": "evenly",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -3565,18 +3678,109 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 11,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "evenly"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14101,
+									"name": "gap",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 12,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "gap"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14103,
+									"name": "horizontal",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 14,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "horizontal"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14104,
+									"name": "label",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
 											"line": 15,
 											"character": 4
 										}
 									],
 									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
 									}
 								},
 								{
-									"id": 13750,
-									"name": "size",
+									"id": 14105,
+									"name": "labelDescription",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -3591,13 +3795,110 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 18292,
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 14106,
+									"name": "labelPosition",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 17,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 14135,
+										"name": "FieldContainerLabelPosition",
+										"package": "@contember/ui"
+									}
+								},
+								{
+									"id": 14108,
+									"name": "required",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 20,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 14111,
+									"name": "reverse",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 23,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "reverse"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14109,
+									"name": "size",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 21,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 18677,
 										"name": "Size",
 										"package": "@contember/ui"
 									}
 								},
 								{
-									"id": 13752,
+									"id": 14112,
 									"name": "style",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3607,7 +3908,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 18,
+											"line": 24,
 											"character": 4
 										}
 									],
@@ -3623,7 +3924,7 @@
 									}
 								},
 								{
-									"id": 13751,
+									"id": 14110,
 									"name": "useLabelElement",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3633,7 +3934,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 17,
+											"line": 22,
 											"character": 4
 										}
 									],
@@ -3643,17 +3944,31 @@
 									}
 								},
 								{
-									"id": 13748,
+									"id": 14107,
 									"name": "width",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
 										"isOptional": true
 									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "No alternative"
+													}
+												]
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 14,
+											"line": 19,
 											"character": 4
 										}
 									],
@@ -3680,19 +3995,23 @@
 								{
 									"title": "Properties",
 									"children": [
-										13741,
-										13753,
-										13742,
-										13743,
-										13744,
-										13745,
-										13746,
-										13747,
-										13749,
-										13750,
-										13752,
-										13751,
-										13748
+										14097,
+										14113,
+										14098,
+										14099,
+										14102,
+										14100,
+										14101,
+										14103,
+										14104,
+										14105,
+										14106,
+										14108,
+										14111,
+										14109,
+										14112,
+										14110,
+										14107
 									]
 								}
 							],
@@ -3707,7 +4026,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 12755,
+						"target": 13088,
 						"name": "ErrorListProps",
 						"package": "@contember/ui"
 					}
@@ -3715,7 +4034,7 @@
 			}
 		},
 		{
-			"id": 2651,
+			"id": 2961,
 			"name": "MultiSelectFieldProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3725,7 +4044,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx",
 					"line": 18,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L18"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L18"
 				}
 			],
 			"type": {
@@ -3733,13 +4052,13 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 2656,
+						"target": 2966,
 						"name": "MultiSelectFieldInnerPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 2524,
+						"target": 2824,
 						"name": "DynamicMultipleChoiceFieldProps",
 						"package": "@contember/admin"
 					}
@@ -3747,7 +4066,7 @@
 			}
 		},
 		{
-			"id": 9849,
+			"id": 10158,
 			"name": "UnsugarableEntityListEventListeners",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3867,28 +4186,28 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 2652,
+			"id": 2962,
 			"name": "MultiSelectField",
 			"variant": "declaration",
 			"kind": 64,
@@ -3898,12 +4217,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx",
 					"line": 25,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L25"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/SelectField/MultiSelectField.tsx#L25"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2653,
+					"id": 2963,
 					"name": "MultiSelectField",
 					"variant": "signature",
 					"kind": 4096,
@@ -3917,20 +4236,20 @@
 					],
 					"parameters": [
 						{
-							"id": 2654,
+							"id": 2964,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 2651,
+								"target": 2961,
 								"name": "MultiSelectFieldProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 2655,
+							"id": 2965,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

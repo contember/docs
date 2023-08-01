@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15122,
+			"id": 15395,
 			"name": "PortalProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15123,
+					"id": 15396,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,7 @@
 					}
 				},
 				{
-					"id": 15124,
+					"id": 15397,
 					"name": "to",
 					"variant": "declaration",
 					"kind": 1024,
@@ -66,8 +66,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						15123,
-						15124
+						15396,
+						15397
 					]
 				}
 			],
@@ -80,7 +80,7 @@
 			]
 		},
 		{
-			"id": 15101,
+			"id": 15373,
 			"name": "Portal",
 			"variant": "declaration",
 			"kind": 64,
@@ -94,7 +94,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15102,
+					"id": 15374,
 					"name": "Portal",
 					"variant": "signature",
 					"kind": 4096,
@@ -155,14 +155,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15103,
+							"id": 15375,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15122,
+								"target": 15395,
 								"name": "PortalProps",
 								"package": "@contember/ui"
 							}

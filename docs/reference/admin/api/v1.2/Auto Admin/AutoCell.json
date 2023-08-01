@@ -16,7 +16,7 @@
 					"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 					"line": 24,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L24"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L24"
 				}
 			],
 			"type": {
@@ -41,7 +41,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 									"line": 28,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L28"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L28"
 								}
 							],
 							"type": {
@@ -57,7 +57,7 @@
 											"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 											"line": 28,
 											"character": 20,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L28"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L28"
 										}
 									],
 									"signatures": [
@@ -82,7 +82,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"target": 5945,
+												"target": 6254,
 												"name": "RoutingLinkTarget",
 												"package": "@contember/admin"
 											}
@@ -102,7 +102,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 									"line": 26,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L26"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L26"
 								}
 							],
 							"type": {
@@ -121,7 +121,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 									"line": 27,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L27"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L27"
 								}
 							],
 							"type": {
@@ -140,12 +140,12 @@
 									"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 									"line": 25,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L25"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L25"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 7724,
+								"target": 8033,
 								"name": "Schema",
 								"package": "@contember/binding"
 							}
@@ -167,7 +167,7 @@
 							"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 							"line": 24,
 							"character": 28,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L24"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L24"
 						}
 					]
 				}
@@ -184,7 +184,7 @@
 					"fileName": "packages/admin/src/components/Auto/AutoCell.tsx",
 					"line": 34,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoCell.tsx#L34"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoCell.tsx#L34"
 				}
 			],
 			"signatures": [

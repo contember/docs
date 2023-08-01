@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 8099,
+			"id": 8408,
 			"name": "EntityListSubTreeAdditionalProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 8100,
+					"id": 8409,
 					"name": "variables",
 					"variant": "declaration",
 					"kind": 1024,
@@ -29,7 +29,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 8390,
+						"target": 8699,
 						"name": "ValuesMapWithFactory",
 						"package": "@contember/binding",
 						"qualifiedName": "Environment.ValuesMapWithFactory"
@@ -40,7 +40,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						8100
+						8409
 					]
 				}
 			],
@@ -53,14 +53,14 @@
 			]
 		},
 		{
-			"id": 9981,
+			"id": 10290,
 			"name": "SugaredQualifiedEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9988,
+					"id": 10297,
 					"name": "alias",
 					"variant": "declaration",
 					"kind": 1024,
@@ -100,12 +100,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9968,
+						"target": 10277,
 						"name": "UnsugarableQualifiedEntityList.alias"
 					}
 				},
 				{
-					"id": 9982,
+					"id": 10291,
 					"name": "entities",
 					"variant": "declaration",
 					"kind": 1024,
@@ -126,7 +126,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 9958,
+								"target": 10267,
 								"name": "SugarableQualifiedEntityList",
 								"package": "@contember/binding"
 							}
@@ -134,7 +134,7 @@
 					}
 				},
 				{
-					"id": 9989,
+					"id": 10298,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -150,18 +150,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9408,
+						"target": 9717,
 						"name": "ExpectedQualifiedEntityMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9969,
+						"target": 10278,
 						"name": "UnsugarableQualifiedEntityList.expectedMutation"
 					}
 				},
 				{
-					"id": 9987,
+					"id": 10296,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -181,12 +181,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9967,
+						"target": 10276,
 						"name": "UnsugarableQualifiedEntityList.initialEntityCount"
 					}
 				},
 				{
-					"id": 9983,
+					"id": 10292,
 					"name": "isCreating",
 					"variant": "declaration",
 					"kind": 1024,
@@ -206,12 +206,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9963,
+						"target": 10272,
 						"name": "UnsugarableQualifiedEntityList.isCreating"
 					}
 				},
 				{
-					"id": 9990,
+					"id": 10299,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -231,12 +231,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9970,
+						"target": 10279,
 						"name": "UnsugarableQualifiedEntityList.isNonbearing"
 					}
 				},
 				{
-					"id": 9986,
+					"id": 10295,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -256,12 +256,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9966,
+						"target": 10275,
 						"name": "UnsugarableQualifiedEntityList.limit"
 					}
 				},
 				{
-					"id": 9985,
+					"id": 10294,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -281,12 +281,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9965,
+						"target": 10274,
 						"name": "UnsugarableQualifiedEntityList.offset"
 					}
 				},
 				{
-					"id": 9995,
+					"id": 10304,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -300,7 +300,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -314,7 +314,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -327,12 +327,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9975,
+						"target": 10284,
 						"name": "UnsugarableQualifiedEntityList.onBeforePersist"
 					}
 				},
 				{
-					"id": 9994,
+					"id": 10303,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -346,7 +346,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -360,7 +360,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -373,12 +373,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9974,
+						"target": 10283,
 						"name": "UnsugarableQualifiedEntityList.onBeforeUpdate"
 					}
 				},
 				{
-					"id": 9998,
+					"id": 10307,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -392,7 +392,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -406,7 +406,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -419,12 +419,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9978,
+						"target": 10287,
 						"name": "UnsugarableQualifiedEntityList.onChildBeforeUpdate"
 					}
 				},
 				{
-					"id": 9997,
+					"id": 10306,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -438,7 +438,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -452,7 +452,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -465,12 +465,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9977,
+						"target": 10286,
 						"name": "UnsugarableQualifiedEntityList.onChildInitialize"
 					}
 				},
 				{
-					"id": 9996,
+					"id": 10305,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -484,7 +484,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -498,7 +498,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -511,12 +511,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9976,
+						"target": 10285,
 						"name": "UnsugarableQualifiedEntityList.onChildUpdate"
 					}
 				},
 				{
-					"id": 9993,
+					"id": 10302,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -530,7 +530,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -544,7 +544,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -557,12 +557,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9973,
+						"target": 10282,
 						"name": "UnsugarableQualifiedEntityList.onInitialize"
 					}
 				},
 				{
-					"id": 9999,
+					"id": 10308,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -576,7 +576,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -590,7 +590,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -603,12 +603,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9979,
+						"target": 10288,
 						"name": "UnsugarableQualifiedEntityList.onPersistError"
 					}
 				},
 				{
-					"id": 10000,
+					"id": 10309,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -622,7 +622,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -636,7 +636,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -649,12 +649,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9980,
+						"target": 10289,
 						"name": "UnsugarableQualifiedEntityList.onPersistSuccess"
 					}
 				},
 				{
-					"id": 9992,
+					"id": 10301,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -668,7 +668,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -682,7 +682,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -695,12 +695,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9972,
+						"target": 10281,
 						"name": "UnsugarableQualifiedEntityList.onUpdate"
 					}
 				},
 				{
-					"id": 9984,
+					"id": 10293,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -716,18 +716,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9964,
+						"target": 10273,
 						"name": "UnsugarableQualifiedEntityList.orderBy"
 					}
 				},
 				{
-					"id": 9991,
+					"id": 10300,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -743,13 +743,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9971,
+						"target": 10280,
 						"name": "UnsugarableQualifiedEntityList.setOnCreate"
 					}
 				}
@@ -758,25 +758,25 @@
 				{
 					"title": "Properties",
 					"children": [
-						9988,
-						9982,
-						9989,
-						9987,
-						9983,
-						9990,
-						9986,
-						9985,
-						9995,
-						9994,
-						9998,
-						9997,
-						9996,
-						9993,
-						9999,
-						10000,
-						9992,
-						9984,
-						9991
+						10297,
+						10291,
+						10298,
+						10296,
+						10292,
+						10299,
+						10295,
+						10294,
+						10304,
+						10303,
+						10307,
+						10306,
+						10305,
+						10302,
+						10308,
+						10309,
+						10301,
+						10293,
+						10300
 					]
 				}
 			],
@@ -790,21 +790,21 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList",
 					"package": "@contember/binding"
 				}
 			]
 		},
 		{
-			"id": 10219,
+			"id": 10528,
 			"name": "SugaredUnconstrainedQualifiedEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10222,
+					"id": 10531,
 					"name": "alias",
 					"variant": "declaration",
 					"kind": 1024,
@@ -844,12 +844,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10205,
+						"target": 10514,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.alias"
 					}
 				},
 				{
-					"id": 10220,
+					"id": 10529,
 					"name": "entities",
 					"variant": "declaration",
 					"kind": 1024,
@@ -870,7 +870,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10200,
+								"target": 10509,
 								"name": "SugarableUnconstrainedQualifiedEntityList",
 								"package": "@contember/binding"
 							}
@@ -878,7 +878,7 @@
 					}
 				},
 				{
-					"id": 10223,
+					"id": 10532,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -894,18 +894,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9408,
+						"target": 9717,
 						"name": "ExpectedQualifiedEntityMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10206,
+						"target": 10515,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.expectedMutation"
 					}
 				},
 				{
-					"id": 10235,
+					"id": 10544,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -925,12 +925,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10218,
+						"target": 10527,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.initialEntityCount"
 					}
 				},
 				{
-					"id": 10221,
+					"id": 10530,
 					"name": "isCreating",
 					"variant": "declaration",
 					"kind": 1024,
@@ -948,12 +948,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10204,
+						"target": 10513,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.isCreating"
 					}
 				},
 				{
-					"id": 10224,
+					"id": 10533,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -973,12 +973,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10207,
+						"target": 10516,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.isNonbearing"
 					}
 				},
 				{
-					"id": 10229,
+					"id": 10538,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -992,7 +992,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1006,7 +1006,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1019,12 +1019,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10212,
+						"target": 10521,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onBeforePersist"
 					}
 				},
 				{
-					"id": 10228,
+					"id": 10537,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1038,7 +1038,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1052,7 +1052,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1065,12 +1065,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10211,
+						"target": 10520,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onBeforeUpdate"
 					}
 				},
 				{
-					"id": 10232,
+					"id": 10541,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1084,7 +1084,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1098,7 +1098,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1111,12 +1111,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10215,
+						"target": 10524,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onChildBeforeUpdate"
 					}
 				},
 				{
-					"id": 10231,
+					"id": 10540,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1130,7 +1130,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1144,7 +1144,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1157,12 +1157,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10214,
+						"target": 10523,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onChildInitialize"
 					}
 				},
 				{
-					"id": 10230,
+					"id": 10539,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1176,7 +1176,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -1190,7 +1190,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -1203,12 +1203,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10213,
+						"target": 10522,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onChildUpdate"
 					}
 				},
 				{
-					"id": 10227,
+					"id": 10536,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1222,7 +1222,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1236,7 +1236,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1249,12 +1249,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10210,
+						"target": 10519,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onInitialize"
 					}
 				},
 				{
-					"id": 10233,
+					"id": 10542,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1268,7 +1268,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -1282,7 +1282,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -1295,12 +1295,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10216,
+						"target": 10525,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onPersistError"
 					}
 				},
 				{
-					"id": 10234,
+					"id": 10543,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1314,7 +1314,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -1328,7 +1328,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -1341,12 +1341,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10217,
+						"target": 10526,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onPersistSuccess"
 					}
 				},
 				{
-					"id": 10226,
+					"id": 10535,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1360,7 +1360,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -1374,7 +1374,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -1387,12 +1387,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10209,
+						"target": 10518,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.onUpdate"
 					}
 				},
 				{
-					"id": 10225,
+					"id": 10534,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1408,13 +1408,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10208,
+						"target": 10517,
 						"name": "UnsugarableUnconstrainedQualifiedEntityList.setOnCreate"
 					}
 				}
@@ -1423,22 +1423,22 @@
 				{
 					"title": "Properties",
 					"children": [
-						10222,
-						10220,
-						10223,
-						10235,
-						10221,
-						10224,
-						10229,
-						10228,
-						10232,
-						10231,
-						10230,
-						10227,
-						10233,
-						10234,
-						10226,
-						10225
+						10531,
+						10529,
+						10532,
+						10544,
+						10530,
+						10533,
+						10538,
+						10537,
+						10541,
+						10540,
+						10539,
+						10536,
+						10542,
+						10543,
+						10535,
+						10534
 					]
 				}
 			],
@@ -1452,21 +1452,21 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList",
 					"package": "@contember/binding"
 				}
 			]
 		},
 		{
-			"id": 9753,
+			"id": 10062,
 			"name": "UnsugarableEntityCreationParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9754,
+					"id": 10063,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1486,7 +1486,7 @@
 					}
 				},
 				{
-					"id": 9755,
+					"id": 10064,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1502,7 +1502,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					}
@@ -1512,8 +1512,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						9754,
-						9755
+						10063,
+						10064
 					]
 				}
 			],
@@ -1527,40 +1527,40 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10039,
+					"target": 10348,
 					"name": "UnsugarableQualifiedSingleEntity"
 				},
 				{
 					"type": "reference",
-					"target": 10086,
+					"target": 10395,
 					"name": "UnsugarableRelation"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10248,
+					"target": 10557,
 					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
 				}
 			]
 		},
 		{
-			"id": 9764,
+			"id": 10073,
 			"name": "UnsugarableEntityListParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9768,
+					"id": 10077,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1580,12 +1580,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9773,
+						"target": 10082,
 						"name": "UnsugarableEntityListPreferences.initialEntityCount"
 					}
 				},
 				{
-					"id": 9767,
+					"id": 10076,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1605,7 +1605,7 @@
 					}
 				},
 				{
-					"id": 9766,
+					"id": 10075,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1625,7 +1625,7 @@
 					}
 				},
 				{
-					"id": 9765,
+					"id": 10074,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1641,7 +1641,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					}
@@ -1651,10 +1651,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						9768,
-						9767,
-						9766,
-						9765
+						10077,
+						10076,
+						10075,
+						10074
 					]
 				}
 			],
@@ -1668,7 +1668,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9772,
+					"target": 10081,
 					"name": "UnsugarableEntityListPreferences",
 					"package": "@contember/binding"
 				}
@@ -1676,30 +1676,30 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 9772,
+			"id": 10081,
 			"name": "UnsugarableEntityListPreferences",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9773,
+					"id": 10082,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1723,7 +1723,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						9773
+						10082
 					]
 				}
 			],
@@ -1737,25 +1737,25 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9764,
+					"target": 10073,
 					"name": "UnsugarableEntityListParameters"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 9962,
+			"id": 10271,
 			"name": "UnsugarableQualifiedEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9968,
+					"id": 10277,
 					"name": "alias",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1795,12 +1795,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10011,
+						"target": 10320,
 						"name": "UnsugarableQualifiedEntityParameters.alias"
 					}
 				},
 				{
-					"id": 9969,
+					"id": 10278,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1816,18 +1816,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9408,
+						"target": 9717,
 						"name": "ExpectedQualifiedEntityMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10012,
+						"target": 10321,
 						"name": "UnsugarableQualifiedEntityParameters.expectedMutation"
 					}
 				},
 				{
-					"id": 9967,
+					"id": 10276,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1847,12 +1847,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9768,
+						"target": 10077,
 						"name": "UnsugarableEntityListParameters.initialEntityCount"
 					}
 				},
 				{
-					"id": 9963,
+					"id": 10272,
 					"name": "isCreating",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1872,7 +1872,7 @@
 					}
 				},
 				{
-					"id": 9970,
+					"id": 10279,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1892,12 +1892,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9754,
+						"target": 10063,
 						"name": "UnsugarableEntityCreationParameters.isNonbearing"
 					}
 				},
 				{
-					"id": 9966,
+					"id": 10275,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1917,12 +1917,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9767,
+						"target": 10076,
 						"name": "UnsugarableEntityListParameters.limit"
 					}
 				},
 				{
-					"id": 9965,
+					"id": 10274,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1942,12 +1942,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9766,
+						"target": 10075,
 						"name": "UnsugarableEntityListParameters.offset"
 					}
 				},
 				{
-					"id": 9975,
+					"id": 10284,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1961,7 +1961,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1975,7 +1975,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1993,7 +1993,7 @@
 					}
 				},
 				{
-					"id": 9974,
+					"id": 10283,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2007,7 +2007,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2021,7 +2021,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2039,7 +2039,7 @@
 					}
 				},
 				{
-					"id": 9978,
+					"id": 10287,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2053,7 +2053,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2067,7 +2067,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2085,7 +2085,7 @@
 					}
 				},
 				{
-					"id": 9977,
+					"id": 10286,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2099,7 +2099,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2113,7 +2113,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2131,7 +2131,7 @@
 					}
 				},
 				{
-					"id": 9976,
+					"id": 10285,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2145,7 +2145,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2159,7 +2159,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2177,7 +2177,7 @@
 					}
 				},
 				{
-					"id": 9973,
+					"id": 10282,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2191,7 +2191,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2205,7 +2205,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2223,7 +2223,7 @@
 					}
 				},
 				{
-					"id": 9979,
+					"id": 10288,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2237,7 +2237,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -2251,7 +2251,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -2269,7 +2269,7 @@
 					}
 				},
 				{
-					"id": 9980,
+					"id": 10289,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2283,7 +2283,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -2297,7 +2297,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -2315,7 +2315,7 @@
 					}
 				},
 				{
-					"id": 9972,
+					"id": 10281,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2329,7 +2329,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -2343,7 +2343,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -2361,7 +2361,7 @@
 					}
 				},
 				{
-					"id": 9964,
+					"id": 10273,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2377,18 +2377,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9765,
+						"target": 10074,
 						"name": "UnsugarableEntityListParameters.orderBy"
 					}
 				},
 				{
-					"id": 9971,
+					"id": 10280,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2404,13 +2404,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9755,
+						"target": 10064,
 						"name": "UnsugarableEntityCreationParameters.setOnCreate"
 					}
 				}
@@ -2419,24 +2419,24 @@
 				{
 					"title": "Properties",
 					"children": [
-						9968,
-						9969,
-						9967,
-						9963,
-						9970,
-						9966,
-						9965,
-						9975,
-						9974,
-						9978,
-						9977,
-						9976,
-						9973,
-						9979,
-						9980,
-						9972,
-						9964,
-						9971
+						10277,
+						10278,
+						10276,
+						10272,
+						10279,
+						10275,
+						10274,
+						10284,
+						10283,
+						10287,
+						10286,
+						10285,
+						10282,
+						10288,
+						10289,
+						10281,
+						10273,
+						10280
 					]
 				}
 			],
@@ -2450,25 +2450,25 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9764,
+					"target": 10073,
 					"name": "UnsugarableEntityListParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 10010,
+					"target": 10319,
 					"name": "UnsugarableQualifiedEntityParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9753,
+					"target": 10062,
 					"name": "UnsugarableEntityCreationParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9849,
+					"target": 10158,
 					"name": "UnsugarableEntityListEventListeners",
 					"package": "@contember/binding"
 				}
@@ -2476,20 +2476,20 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9981,
+					"target": 10290,
 					"name": "SugaredQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 10010,
+			"id": 10319,
 			"name": "UnsugarableQualifiedEntityParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10011,
+					"id": 10320,
 					"name": "alias",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2529,7 +2529,7 @@
 					}
 				},
 				{
-					"id": 10012,
+					"id": 10321,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2545,7 +2545,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9408,
+						"target": 9717,
 						"name": "ExpectedQualifiedEntityMutation",
 						"package": "@contember/binding"
 					}
@@ -2555,8 +2555,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						10011,
-						10012
+						10320,
+						10321
 					]
 				}
 			],
@@ -2570,35 +2570,35 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10039,
+					"target": 10348,
 					"name": "UnsugarableQualifiedSingleEntity"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10248,
+					"target": 10557,
 					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
 				}
 			]
 		},
 		{
-			"id": 10203,
+			"id": 10512,
 			"name": "UnsugarableUnconstrainedQualifiedEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10205,
+					"id": 10514,
 					"name": "alias",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2638,12 +2638,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10011,
+						"target": 10320,
 						"name": "UnsugarableQualifiedEntityParameters.alias"
 					}
 				},
 				{
-					"id": 10206,
+					"id": 10515,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2659,18 +2659,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9408,
+						"target": 9717,
 						"name": "ExpectedQualifiedEntityMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10012,
+						"target": 10321,
 						"name": "UnsugarableQualifiedEntityParameters.expectedMutation"
 					}
 				},
 				{
-					"id": 10218,
+					"id": 10527,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2690,12 +2690,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9773,
+						"target": 10082,
 						"name": "UnsugarableEntityListPreferences.initialEntityCount"
 					}
 				},
 				{
-					"id": 10204,
+					"id": 10513,
 					"name": "isCreating",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2713,7 +2713,7 @@
 					}
 				},
 				{
-					"id": 10207,
+					"id": 10516,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2733,12 +2733,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9754,
+						"target": 10063,
 						"name": "UnsugarableEntityCreationParameters.isNonbearing"
 					}
 				},
 				{
-					"id": 10212,
+					"id": 10521,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2752,7 +2752,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -2766,7 +2766,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -2784,7 +2784,7 @@
 					}
 				},
 				{
-					"id": 10211,
+					"id": 10520,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2798,7 +2798,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2812,7 +2812,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2830,7 +2830,7 @@
 					}
 				},
 				{
-					"id": 10215,
+					"id": 10524,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2844,7 +2844,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2858,7 +2858,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2876,7 +2876,7 @@
 					}
 				},
 				{
-					"id": 10214,
+					"id": 10523,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2890,7 +2890,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2904,7 +2904,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2922,7 +2922,7 @@
 					}
 				},
 				{
-					"id": 10213,
+					"id": 10522,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2936,7 +2936,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2950,7 +2950,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2968,7 +2968,7 @@
 					}
 				},
 				{
-					"id": 10210,
+					"id": 10519,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2982,7 +2982,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2996,7 +2996,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -3014,7 +3014,7 @@
 					}
 				},
 				{
-					"id": 10216,
+					"id": 10525,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3028,7 +3028,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -3042,7 +3042,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -3060,7 +3060,7 @@
 					}
 				},
 				{
-					"id": 10217,
+					"id": 10526,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3074,7 +3074,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -3088,7 +3088,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -3106,7 +3106,7 @@
 					}
 				},
 				{
-					"id": 10209,
+					"id": 10518,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3120,7 +3120,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -3134,7 +3134,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -3152,7 +3152,7 @@
 					}
 				},
 				{
-					"id": 10208,
+					"id": 10517,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3168,13 +3168,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9755,
+						"target": 10064,
 						"name": "UnsugarableEntityCreationParameters.setOnCreate"
 					}
 				}
@@ -3183,21 +3183,21 @@
 				{
 					"title": "Properties",
 					"children": [
-						10205,
-						10206,
-						10218,
-						10204,
-						10207,
-						10212,
-						10211,
-						10215,
-						10214,
-						10213,
-						10210,
-						10216,
-						10217,
-						10209,
-						10208
+						10514,
+						10515,
+						10527,
+						10513,
+						10516,
+						10521,
+						10520,
+						10524,
+						10523,
+						10522,
+						10519,
+						10525,
+						10526,
+						10518,
+						10517
 					]
 				}
 			],
@@ -3211,25 +3211,25 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10010,
+					"target": 10319,
 					"name": "UnsugarableQualifiedEntityParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9753,
+					"target": 10062,
 					"name": "UnsugarableEntityCreationParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9849,
+					"target": 10158,
 					"name": "UnsugarableEntityListEventListeners",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9772,
+					"target": 10081,
 					"name": "UnsugarableEntityListPreferences",
 					"package": "@contember/binding"
 				}
@@ -3237,13 +3237,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 10219,
+					"target": 10528,
 					"name": "SugaredUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 8101,
+			"id": 8410,
 			"name": "EntityListSubTreeProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3257,14 +3257,14 @@
 			],
 			"typeParameters": [
 				{
-					"id": 8109,
+					"id": 8418,
 					"name": "ListProps",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {}
 				},
 				{
-					"id": 8110,
+					"id": 8419,
 					"name": "EntityProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -3277,14 +3277,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 8102,
+							"id": 8411,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 8104,
+									"id": 8413,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3310,7 +3310,7 @@
 									}
 								},
 								{
-									"id": 8103,
+									"id": 8412,
 									"name": "treeRootId",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3326,7 +3326,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 9739,
+										"target": 10048,
 										"name": "TreeRootId",
 										"package": "@contember/binding"
 									}
@@ -3336,8 +3336,8 @@
 								{
 									"title": "Properties",
 									"children": [
-										8104,
-										8103
+										8413,
+										8412
 									]
 								}
 							],
@@ -3352,7 +3352,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 8099,
+						"target": 8408,
 						"name": "EntityListSubTreeAdditionalProps",
 						"package": "@contember/binding"
 					},
@@ -3361,13 +3361,13 @@
 						"types": [
 							{
 								"type": "reference",
-								"target": 9981,
+								"target": 10290,
 								"name": "SugaredQualifiedEntityList",
 								"package": "@contember/binding"
 							},
 							{
 								"type": "reference",
-								"target": 10219,
+								"target": 10528,
 								"name": "SugaredUnconstrainedQualifiedEntityList",
 								"package": "@contember/binding"
 							}
@@ -3379,7 +3379,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 8105,
+									"id": 8414,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -3396,14 +3396,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 8106,
+									"id": 8415,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 8107,
+											"id": 8416,
 											"name": "listComponent",
 											"variant": "declaration",
 											"kind": 1024,
@@ -3433,7 +3433,7 @@
 															},
 															{
 																"type": "reference",
-																"target": 8086,
+																"target": 8395,
 																"name": "EntityListBaseProps",
 																"package": "@contember/binding"
 															}
@@ -3446,7 +3446,7 @@
 											}
 										},
 										{
-											"id": 8108,
+											"id": 8417,
 											"name": "listProps",
 											"variant": "declaration",
 											"kind": 1024,
@@ -3472,8 +3472,8 @@
 										{
 											"title": "Properties",
 											"children": [
-												8107,
-												8108
+												8416,
+												8417
 											]
 										}
 									],
@@ -3492,7 +3492,7 @@
 			}
 		},
 		{
-			"id": 9849,
+			"id": 10158,
 			"name": "UnsugarableEntityListEventListeners",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3612,28 +3612,28 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 8111,
+			"id": 8420,
 			"name": "EntityListSubTree",
 			"variant": "declaration",
 			"kind": 64,
@@ -3647,7 +3647,7 @@
 			],
 			"signatures": [
 				{
-					"id": 8112,
+					"id": 8421,
 					"name": "EntityListSubTree",
 					"variant": "signature",
 					"kind": 4096,
@@ -3680,14 +3680,14 @@
 					],
 					"typeParameter": [
 						{
-							"id": 8113,
+							"id": 8422,
 							"name": "ListProps",
 							"variant": "typeParam",
 							"kind": 131072,
 							"flags": {}
 						},
 						{
-							"id": 8114,
+							"id": 8423,
 							"name": "EntityProps",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -3696,14 +3696,14 @@
 					],
 					"parameters": [
 						{
-							"id": 8115,
+							"id": 8424,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 8101,
+								"target": 8410,
 								"typeArguments": [
 									{
 										"type": "reference",

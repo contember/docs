@@ -26,3 +26,6 @@ yarn-error.log*
 /admin/dist
 /node_modules
 /docker-compose.override.yaml
+
+# API docs data
+/data

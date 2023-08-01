@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L12"
 						}
 					],
 					"type": {
@@ -52,7 +52,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L13"
 						}
 					],
 					"type": {
@@ -79,7 +79,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L11"
 						}
 					],
 					"type": {
@@ -112,12 +112,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L9"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 9412,
+						"target": 9721,
 						"name": "OptionallyVariableFieldValue",
 						"package": "@contember/binding"
 					}
@@ -135,7 +135,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L10"
 						}
 					],
 					"type": {
@@ -167,13 +167,13 @@
 					"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 					"line": 5,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L5"
 				}
 			],
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 3220,
+					"target": 3538,
 					"name": "EditorReferenceBlock"
 				}
 			]
@@ -189,7 +189,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/blocks/Block.tsx",
 					"line": 26,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L26"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/blocks/Block.tsx#L26"
 				}
 			],
 			"signatures": [
@@ -209,7 +209,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "BlockRepeater",
-								"target": 1150
+								"target": 894
 							},
 							{
 								"kind": "text",
@@ -219,7 +219,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "BlockEditor",
-								"target": 3444
+								"target": 3762
 							},
 							{
 								"kind": "text",

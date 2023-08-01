@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 4191,
+			"id": 4517,
 			"name": "ConcealableFieldProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4192,
+					"id": 4518,
 					"name": "buttonProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,18 +25,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L12"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13321,
+						"target": 13677,
 						"name": "ButtonProps",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 4197,
+					"id": 4523,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,13 +46,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4198,
+							"id": 4524,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -62,12 +62,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 									"line": 15,
 									"character": 11,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
 								}
 							],
 							"signatures": [
 								{
-									"id": 4199,
+									"id": 4525,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -77,19 +77,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 											"line": 15,
 											"character": 11,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L15"
 										}
 									],
 									"parameters": [
 										{
-											"id": 4200,
+											"id": 4526,
 											"name": "rendererProps",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 4183,
+												"target": 4509,
 												"name": "ConcealableFieldRendererProps",
 												"package": "@contember/admin"
 											}
@@ -111,7 +111,7 @@
 					}
 				},
 				{
-					"id": 4193,
+					"id": 4519,
 					"name": "concealTimeout",
 					"variant": "declaration",
 					"kind": 1024,
@@ -123,7 +123,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L13"
 						}
 					],
 					"type": {
@@ -132,7 +132,7 @@
 					}
 				},
 				{
-					"id": 4202,
+					"id": 4528,
 					"name": "editButtonLabel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -144,7 +144,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L17"
 						}
 					],
 					"type": {
@@ -159,7 +159,7 @@
 					}
 				},
 				{
-					"id": 4201,
+					"id": 4527,
 					"name": "isExtended",
 					"variant": "declaration",
 					"kind": 1024,
@@ -171,7 +171,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L16"
 						}
 					],
 					"type": {
@@ -180,7 +180,7 @@
 					}
 				},
 				{
-					"id": 4194,
+					"id": 4520,
 					"name": "renderConcealedValue",
 					"variant": "declaration",
 					"kind": 1024,
@@ -190,13 +190,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4195,
+							"id": 4521,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -206,12 +206,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 									"line": 14,
 									"character": 23,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
 								}
 							],
 							"signatures": [
 								{
-									"id": 4196,
+									"id": 4522,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -221,7 +221,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 											"line": 14,
 											"character": 23,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L14"
 										}
 									],
 									"type": {
@@ -244,12 +244,12 @@
 				{
 					"title": "Properties",
 					"children": [
-						4192,
-						4197,
-						4193,
-						4202,
-						4201,
-						4194
+						4518,
+						4523,
+						4519,
+						4528,
+						4527,
+						4520
 					]
 				}
 			],
@@ -258,12 +258,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 					"line": 11,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L11"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L11"
 				}
 			]
 		},
 		{
-			"id": 4203,
+			"id": 4529,
 			"name": "ConcealableField",
 			"variant": "declaration",
 			"kind": 64,
@@ -273,12 +273,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx",
 					"line": 23,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L23"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/ui/ConcealableField.tsx#L23"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4204,
+					"id": 4530,
 					"name": "ConcealableField",
 					"variant": "signature",
 					"kind": 4096,
@@ -292,14 +292,14 @@
 					],
 					"parameters": [
 						{
-							"id": 4205,
+							"id": 4531,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4191,
+								"target": 4517,
 								"name": "ConcealableFieldProps",
 								"package": "@contember/admin"
 							}

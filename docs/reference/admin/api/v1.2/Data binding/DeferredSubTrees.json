@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 8467,
+			"id": 8776,
 			"name": "DeferredSubTreesProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 8469,
+					"id": 8778,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,7 @@
 					}
 				},
 				{
-					"id": 8468,
+					"id": 8777,
 					"name": "fallback",
 					"variant": "declaration",
 					"kind": 1024,
@@ -65,8 +65,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						8469,
-						8468
+						8778,
+						8777
 					]
 				}
 			],
@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"id": 8470,
+			"id": 8779,
 			"name": "DeferredSubTrees",
 			"variant": "declaration",
 			"kind": 64,
@@ -93,7 +93,7 @@
 			],
 			"signatures": [
 				{
-					"id": 8471,
+					"id": 8780,
 					"name": "DeferredSubTrees",
 					"variant": "signature",
 					"kind": 4096,
@@ -107,14 +107,14 @@
 					],
 					"parameters": [
 						{
-							"id": 8472,
+							"id": 8781,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 8467,
+								"target": 8776,
 								"name": "DeferredSubTreesProps",
 								"package": "@contember/binding"
 							}

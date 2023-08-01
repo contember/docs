@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15057,
+			"id": 15315,
 			"name": "MenuProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15058,
+					"id": 15316,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -38,7 +38,7 @@
 					}
 				},
 				{
-					"id": 15059,
+					"id": 15317,
 					"name": "componentClassName",
 					"variant": "declaration",
 					"kind": 1024,
@@ -58,7 +58,7 @@
 					}
 				},
 				{
-					"id": 15060,
+					"id": 15318,
 					"name": "focusMenuItemLabel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -78,7 +78,7 @@
 					}
 				},
 				{
-					"id": 15061,
+					"id": 15319,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -106,7 +106,7 @@
 					}
 				},
 				{
-					"id": 15062,
+					"id": 15320,
 					"name": "label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -126,7 +126,7 @@
 					}
 				},
 				{
-					"id": 15063,
+					"id": 15321,
 					"name": "showCaret",
 					"variant": "declaration",
 					"kind": 1024,
@@ -150,12 +150,12 @@
 				{
 					"title": "Properties",
 					"children": [
-						15058,
-						15059,
-						15060,
-						15061,
-						15062,
-						15063
+						15316,
+						15317,
+						15318,
+						15319,
+						15320,
+						15321
 					]
 				}
 			],
@@ -168,7 +168,7 @@
 			]
 		},
 		{
-			"id": 15049,
+			"id": 15307,
 			"name": "Menu",
 			"variant": "declaration",
 			"kind": 64,
@@ -182,7 +182,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15050,
+					"id": 15308,
 					"name": "Menu",
 					"variant": "signature",
 					"kind": 4096,
@@ -210,7 +210,7 @@
 					],
 					"parameters": [
 						{
-							"id": 15051,
+							"id": 15309,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
@@ -220,21 +220,21 @@
 								"types": [
 									{
 										"type": "reference",
-										"target": 15057,
+										"target": 15315,
 										"name": "MenuProps",
 										"package": "@contember/ui"
 									},
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 15052,
+											"id": 15310,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
 											"flags": {},
 											"children": [
 												{
-													"id": 15053,
+													"id": 15311,
 													"name": "children",
 													"variant": "declaration",
 													"kind": 1024,
@@ -265,7 +265,7 @@
 												{
 													"title": "Properties",
 													"children": [
-														15053
+														15311
 													]
 												}
 											],

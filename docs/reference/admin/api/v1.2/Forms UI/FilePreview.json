@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 14871,
+			"id": 15236,
 			"name": "FilePreviewProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14872,
+					"id": 15237,
 					"name": "actions",
 					"variant": "declaration",
 					"kind": 1024,
@@ -53,7 +53,7 @@
 					}
 				},
 				{
-					"id": 14873,
+					"id": 15238,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -79,7 +79,7 @@
 					}
 				},
 				{
-					"id": 14874,
+					"id": 15239,
 					"name": "isActive",
 					"variant": "declaration",
 					"kind": 1024,
@@ -99,7 +99,7 @@
 					}
 				},
 				{
-					"id": 14875,
+					"id": 15240,
 					"name": "overlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -129,10 +129,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						14872,
-						14873,
-						14874,
-						14875
+						15237,
+						15238,
+						15239,
+						15240
 					]
 				}
 			],
@@ -145,7 +145,7 @@
 			]
 		},
 		{
-			"id": 14876,
+			"id": 15241,
 			"name": "FilePreview",
 			"variant": "declaration",
 			"kind": 64,
@@ -159,7 +159,7 @@
 			],
 			"signatures": [
 				{
-					"id": 14877,
+					"id": 15242,
 					"name": "FilePreview",
 					"variant": "signature",
 					"kind": 4096,
@@ -173,14 +173,14 @@
 					],
 					"parameters": [
 						{
-							"id": 14878,
+							"id": 15243,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 14871,
+								"target": 15236,
 								"name": "FilePreviewProps",
 								"package": "@contember/ui"
 							}

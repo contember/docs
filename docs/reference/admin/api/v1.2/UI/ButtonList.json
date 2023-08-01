@@ -6,14 +6,28 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 13344,
+			"id": 13680,
 			"name": "ButtonListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "No alternative"
+							}
+						]
+					}
+				]
+			},
 			"children": [
 				{
-					"id": 13345,
+					"id": 13681,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -22,8 +36,8 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonList.d.ts",
-							"line": 6,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 33,
 							"character": 4
 						}
 					],
@@ -44,7 +58,7 @@
 					}
 				},
 				{
-					"id": 13349,
+					"id": 13686,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -74,7 +88,7 @@
 					}
 				},
 				{
-					"id": 13350,
+					"id": 13687,
 					"name": "componentClassName",
 					"variant": "declaration",
 					"kind": 1024,
@@ -111,8 +125,8 @@
 					}
 				},
 				{
-					"id": 13346,
-					"name": "flow",
+					"id": 13682,
+					"name": "display",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
@@ -120,20 +134,121 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonList.d.ts",
-							"line": 7,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 34,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "inline"
+							},
+							{
+								"type": "literal",
+								"value": "block"
+							}
+						]
+					}
+				},
+				{
+					"id": 13688,
+					"name": "flow",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`display`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 82,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13359,
+						"target": 13699,
 						"name": "ButtonListFlow",
 						"package": "@contember/ui"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": 13715,
+						"name": "DeprecatedButtonListProps.flow"
 					}
 				},
 				{
-					"id": 13348,
+					"id": 13683,
+					"name": "gap",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 35,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "padding"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "larger"
+							},
+							{
+								"type": "literal",
+								"value": "gap"
+							},
+							{
+								"type": "literal",
+								"value": "gutter"
+							}
+						]
+					}
+				},
+				{
+					"id": 13684,
 					"name": "orientation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -142,20 +257,31 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonList.d.ts",
-							"line": 9,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 36,
 							"character": 4
 						}
 					],
 					"type": {
-						"type": "reference",
-						"target": 13358,
-						"name": "ButtonGroupOrientation",
-						"package": "@contember/ui"
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "horizontal"
+							},
+							{
+								"type": "literal",
+								"value": "vertical"
+							},
+							{
+								"type": "literal",
+								"value": "default"
+							}
+						]
 					}
 				},
 				{
-					"id": 13347,
+					"id": 13685,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -164,16 +290,31 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonList.d.ts",
-							"line": 8,
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 37,
 							"character": 4
 						}
 					],
 					"type": {
-						"type": "reference",
-						"target": 18292,
-						"name": "Size",
-						"package": "@contember/ui"
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							}
+						]
 					}
 				}
 			],
@@ -181,19 +322,21 @@
 				{
 					"title": "Properties",
 					"children": [
-						13345,
-						13349,
-						13350,
-						13346,
-						13348,
-						13347
+						13681,
+						13686,
+						13687,
+						13682,
+						13688,
+						13683,
+						13684,
+						13685
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonList.d.ts",
-					"line": 5,
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 32,
 					"character": 17
 				}
 			],
@@ -206,11 +349,106 @@
 					},
 					"name": "ComponentClassNameProps",
 					"package": "@contember/utilities"
+				},
+				{
+					"type": "reference",
+					"target": 13714,
+					"name": "DeprecatedButtonListProps",
+					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 13351,
+			"id": 13714,
+			"name": "DeprecatedButtonListProps",
+			"variant": "declaration",
+			"kind": 256,
+			"flags": {},
+			"comment": {
+				"summary": [],
+				"blockTags": [
+					{
+						"tag": "@deprecated",
+						"content": [
+							{
+								"kind": "text",
+								"text": "No alternative"
+							}
+						]
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 13715,
+					"name": "flow",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`display`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+							"line": 82,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": 13699,
+						"name": "ButtonListFlow",
+						"package": "@contember/ui"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						13715
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/ui/dist/types/components/Forms/Button/Types.d.ts",
+					"line": 80,
+					"character": 17
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"target": 13680,
+					"name": "ButtonListProps"
+				}
+			]
+		},
+		{
+			"id": 13105,
 			"name": "ButtonList",
 			"variant": "declaration",
 			"kind": 64,
@@ -218,13 +456,13 @@
 			"sources": [
 				{
 					"fileName": "packages/ui/dist/types/components/Forms/Button/ButtonList.d.ts",
-					"line": 14,
+					"line": 6,
 					"character": 21
 				}
 			],
 			"signatures": [
 				{
-					"id": 13352,
+					"id": 13106,
 					"name": "ButtonList",
 					"variant": "signature",
 					"kind": 4096,
@@ -238,14 +476,14 @@
 					],
 					"parameters": [
 						{
-							"id": 13353,
+							"id": 13107,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 13344,
+								"target": 13680,
 								"name": "ButtonListProps",
 								"package": "@contember/ui"
 							}

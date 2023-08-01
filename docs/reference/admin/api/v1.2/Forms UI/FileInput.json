@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 5043,
+			"id": 5361,
 			"name": "FileInputProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 5045,
+					"id": 5363,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/ui/FileInput.tsx",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/FileInput.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/FileInput.tsx#L6"
 						}
 					],
 					"type": {
@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"id": 5044,
+					"id": 5362,
 					"name": "onChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -52,7 +52,7 @@
 							"fileName": "packages/admin/src/components/ui/FileInput.tsx",
 							"line": 5,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/FileInput.tsx#L5"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/FileInput.tsx#L5"
 						}
 					],
 					"type": {
@@ -82,8 +82,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						5045,
-						5044
+						5363,
+						5362
 					]
 				}
 			],
@@ -92,12 +92,12 @@
 					"fileName": "packages/admin/src/components/ui/FileInput.tsx",
 					"line": 4,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/FileInput.tsx#L4"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/FileInput.tsx#L4"
 				}
 			]
 		},
 		{
-			"id": 5046,
+			"id": 5364,
 			"name": "FileInput",
 			"variant": "declaration",
 			"kind": 64,
@@ -107,12 +107,12 @@
 					"fileName": "packages/admin/src/components/ui/FileInput.tsx",
 					"line": 12,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/FileInput.tsx#L12"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/FileInput.tsx#L12"
 				}
 			],
 			"signatures": [
 				{
-					"id": 5047,
+					"id": 5365,
 					"name": "FileInput",
 					"variant": "signature",
 					"kind": 4096,
@@ -126,20 +126,20 @@
 					],
 					"parameters": [
 						{
-							"id": 5048,
+							"id": 5366,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 5043,
+								"target": 5361,
 								"name": "FileInputProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 5049,
+							"id": 5367,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 10689,
+			"id": 10998,
 			"name": "ContemberClientProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10690,
+					"id": 10999,
 					"name": "apiBaseUrl",
 					"variant": "declaration",
 					"kind": 1024,
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"id": 10692,
+					"id": 11001,
 					"name": "loginToken",
 					"variant": "declaration",
 					"kind": 1024,
@@ -51,7 +51,7 @@
 					}
 				},
 				{
-					"id": 10693,
+					"id": 11002,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -71,7 +71,7 @@
 					}
 				},
 				{
-					"id": 10691,
+					"id": 11000,
 					"name": "sessionToken",
 					"variant": "declaration",
 					"kind": 1024,
@@ -91,7 +91,7 @@
 					}
 				},
 				{
-					"id": 10694,
+					"id": 11003,
 					"name": "stage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -115,11 +115,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						10690,
-						10692,
-						10693,
-						10691,
-						10694
+						10999,
+						11001,
+						11002,
+						11000,
+						11003
 					]
 				}
 			],
@@ -139,7 +139,7 @@
 			]
 		},
 		{
-			"id": 10695,
+			"id": 11004,
 			"name": "ContemberClient",
 			"variant": "declaration",
 			"kind": 64,
@@ -153,7 +153,7 @@
 			],
 			"signatures": [
 				{
-					"id": 10696,
+					"id": 11005,
 					"name": "ContemberClient",
 					"variant": "signature",
 					"kind": 4096,
@@ -167,7 +167,7 @@
 					],
 					"parameters": [
 						{
-							"id": 10697,
+							"id": 11006,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
@@ -177,21 +177,21 @@
 								"types": [
 									{
 										"type": "reference",
-										"target": 10689,
+										"target": 10998,
 										"name": "ContemberClientProps",
 										"package": "@contember/react-client"
 									},
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 10698,
+											"id": 11007,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
 											"flags": {},
 											"children": [
 												{
-													"id": 10699,
+													"id": 11008,
 													"name": "children",
 													"variant": "declaration",
 													"kind": 1024,
@@ -219,7 +219,7 @@
 												{
 													"title": "Properties",
 													"children": [
-														10699
+														11008
 													]
 												}
 											],

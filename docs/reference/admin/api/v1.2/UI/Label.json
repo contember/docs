@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 17743,
+			"id": 18128,
 			"name": "HTMLSpanElementProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 17768,
+					"id": 18153,
 					"name": "about",
 					"variant": "declaration",
 					"kind": 1024,
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"id": 17748,
+					"id": 18133,
 					"name": "accessKey",
 					"variant": "declaration",
 					"kind": 1024,
@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"id": 17793,
+					"id": 18178,
 					"name": "aria-activedescendant",
 					"variant": "declaration",
 					"kind": 1024,
@@ -99,7 +99,7 @@
 					}
 				},
 				{
-					"id": 17794,
+					"id": 18179,
 					"name": "aria-atomic",
 					"variant": "declaration",
 					"kind": 1024,
@@ -138,7 +138,7 @@
 					}
 				},
 				{
-					"id": 17795,
+					"id": 18180,
 					"name": "aria-autocomplete",
 					"variant": "declaration",
 					"kind": 1024,
@@ -189,7 +189,7 @@
 					}
 				},
 				{
-					"id": 17796,
+					"id": 18181,
 					"name": "aria-busy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -228,7 +228,7 @@
 					}
 				},
 				{
-					"id": 17797,
+					"id": 18182,
 					"name": "aria-checked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -310,7 +310,7 @@
 					}
 				},
 				{
-					"id": 17798,
+					"id": 18183,
 					"name": "aria-colcount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -355,7 +355,7 @@
 					}
 				},
 				{
-					"id": 17799,
+					"id": 18184,
 					"name": "aria-colindex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -420,7 +420,7 @@
 					}
 				},
 				{
-					"id": 17800,
+					"id": 18185,
 					"name": "aria-colspan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -485,7 +485,7 @@
 					}
 				},
 				{
-					"id": 17801,
+					"id": 18186,
 					"name": "aria-controls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -530,7 +530,7 @@
 					}
 				},
 				{
-					"id": 17802,
+					"id": 18187,
 					"name": "aria-current",
 					"variant": "declaration",
 					"kind": 1024,
@@ -597,7 +597,7 @@
 					}
 				},
 				{
-					"id": 17803,
+					"id": 18188,
 					"name": "aria-describedby",
 					"variant": "declaration",
 					"kind": 1024,
@@ -642,7 +642,7 @@
 					}
 				},
 				{
-					"id": 17804,
+					"id": 18189,
 					"name": "aria-details",
 					"variant": "declaration",
 					"kind": 1024,
@@ -687,7 +687,7 @@
 					}
 				},
 				{
-					"id": 17805,
+					"id": 18190,
 					"name": "aria-disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -757,7 +757,7 @@
 					}
 				},
 				{
-					"id": 17806,
+					"id": 18191,
 					"name": "aria-dropeffect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -827,7 +827,7 @@
 					}
 				},
 				{
-					"id": 17807,
+					"id": 18192,
 					"name": "aria-errormessage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -892,7 +892,7 @@
 					}
 				},
 				{
-					"id": 17808,
+					"id": 18193,
 					"name": "aria-expanded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -931,7 +931,7 @@
 					}
 				},
 				{
-					"id": 17809,
+					"id": 18194,
 					"name": "aria-flowto",
 					"variant": "declaration",
 					"kind": 1024,
@@ -965,7 +965,7 @@
 					}
 				},
 				{
-					"id": 17810,
+					"id": 18195,
 					"name": "aria-grabbed",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1015,7 +1015,7 @@
 					}
 				},
 				{
-					"id": 17811,
+					"id": 18196,
 					"name": "aria-haspopup",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1082,7 +1082,7 @@
 					}
 				},
 				{
-					"id": 17812,
+					"id": 18197,
 					"name": "aria-hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1132,7 +1132,7 @@
 					}
 				},
 				{
-					"id": 17813,
+					"id": 18198,
 					"name": "aria-invalid",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1198,7 +1198,7 @@
 					}
 				},
 				{
-					"id": 17814,
+					"id": 18199,
 					"name": "aria-keyshortcuts",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1232,7 +1232,7 @@
 					}
 				},
 				{
-					"id": 17815,
+					"id": 18200,
 					"name": "aria-label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1277,7 +1277,7 @@
 					}
 				},
 				{
-					"id": 17816,
+					"id": 18201,
 					"name": "aria-labelledby",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1322,7 +1322,7 @@
 					}
 				},
 				{
-					"id": 17817,
+					"id": 18202,
 					"name": "aria-level",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1356,7 +1356,7 @@
 					}
 				},
 				{
-					"id": 17818,
+					"id": 18203,
 					"name": "aria-live",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1403,7 +1403,7 @@
 					}
 				},
 				{
-					"id": 17819,
+					"id": 18204,
 					"name": "aria-modal",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1442,7 +1442,7 @@
 					}
 				},
 				{
-					"id": 17820,
+					"id": 18205,
 					"name": "aria-multiline",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1481,7 +1481,7 @@
 					}
 				},
 				{
-					"id": 17821,
+					"id": 18206,
 					"name": "aria-multiselectable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1520,7 +1520,7 @@
 					}
 				},
 				{
-					"id": 17822,
+					"id": 18207,
 					"name": "aria-orientation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1563,7 +1563,7 @@
 					}
 				},
 				{
-					"id": 17823,
+					"id": 18208,
 					"name": "aria-owns",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1608,7 +1608,7 @@
 					}
 				},
 				{
-					"id": 17824,
+					"id": 18209,
 					"name": "aria-placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1642,7 +1642,7 @@
 					}
 				},
 				{
-					"id": 17825,
+					"id": 18210,
 					"name": "aria-posinset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1687,7 +1687,7 @@
 					}
 				},
 				{
-					"id": 17826,
+					"id": 18211,
 					"name": "aria-pressed",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1769,7 +1769,7 @@
 					}
 				},
 				{
-					"id": 17827,
+					"id": 18212,
 					"name": "aria-readonly",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1819,7 +1819,7 @@
 					}
 				},
 				{
-					"id": 17828,
+					"id": 18213,
 					"name": "aria-relevant",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1905,7 +1905,7 @@
 					}
 				},
 				{
-					"id": 17829,
+					"id": 18214,
 					"name": "aria-required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1944,7 +1944,7 @@
 					}
 				},
 				{
-					"id": 17830,
+					"id": 18215,
 					"name": "aria-roledescription",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1978,7 +1978,7 @@
 					}
 				},
 				{
-					"id": 17831,
+					"id": 18216,
 					"name": "aria-rowcount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2023,7 +2023,7 @@
 					}
 				},
 				{
-					"id": 17832,
+					"id": 18217,
 					"name": "aria-rowindex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2088,7 +2088,7 @@
 					}
 				},
 				{
-					"id": 17833,
+					"id": 18218,
 					"name": "aria-rowspan",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2153,7 +2153,7 @@
 					}
 				},
 				{
-					"id": 17834,
+					"id": 18219,
 					"name": "aria-selected",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2223,7 +2223,7 @@
 					}
 				},
 				{
-					"id": 17835,
+					"id": 18220,
 					"name": "aria-setsize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2268,7 +2268,7 @@
 					}
 				},
 				{
-					"id": 17836,
+					"id": 18221,
 					"name": "aria-sort",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2319,7 +2319,7 @@
 					}
 				},
 				{
-					"id": 17837,
+					"id": 18222,
 					"name": "aria-valuemax",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2353,7 +2353,7 @@
 					}
 				},
 				{
-					"id": 17838,
+					"id": 18223,
 					"name": "aria-valuemin",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2387,7 +2387,7 @@
 					}
 				},
 				{
-					"id": 17839,
+					"id": 18224,
 					"name": "aria-valuenow",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2432,7 +2432,7 @@
 					}
 				},
 				{
-					"id": 17840,
+					"id": 18225,
 					"name": "aria-valuetext",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2466,7 +2466,7 @@
 					}
 				},
 				{
-					"id": 17779,
+					"id": 18164,
 					"name": "autoCapitalize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2492,7 +2492,7 @@
 					}
 				},
 				{
-					"id": 17780,
+					"id": 18165,
 					"name": "autoCorrect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2518,7 +2518,7 @@
 					}
 				},
 				{
-					"id": 17749,
+					"id": 18134,
 					"name": "autoFocus",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2544,7 +2544,7 @@
 					}
 				},
 				{
-					"id": 17781,
+					"id": 18166,
 					"name": "autoSave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2570,7 +2570,7 @@
 					}
 				},
 				{
-					"id": 17841,
+					"id": 18226,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2602,7 +2602,7 @@
 					}
 				},
 				{
-					"id": 17750,
+					"id": 18135,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2628,7 +2628,7 @@
 					}
 				},
 				{
-					"id": 17782,
+					"id": 18167,
 					"name": "color",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2654,7 +2654,7 @@
 					}
 				},
 				{
-					"id": 17769,
+					"id": 18154,
 					"name": "content",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2680,7 +2680,7 @@
 					}
 				},
 				{
-					"id": 17751,
+					"id": 18136,
 					"name": "contentEditable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2720,7 +2720,7 @@
 					}
 				},
 				{
-					"id": 17752,
+					"id": 18137,
 					"name": "contextMenu",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2746,7 +2746,7 @@
 					}
 				},
 				{
-					"id": 17842,
+					"id": 18227,
 					"name": "dangerouslySetInnerHTML",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2764,7 +2764,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 17843,
+							"id": 18228,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -2773,7 +2773,7 @@
 							},
 							"children": [
 								{
-									"id": 17844,
+									"id": 18229,
 									"name": "__html",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2811,7 +2811,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										17844
+										18229
 									]
 								}
 							],
@@ -2831,7 +2831,7 @@
 					}
 				},
 				{
-					"id": 17770,
+					"id": 18155,
 					"name": "datatype",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2857,7 +2857,7 @@
 					}
 				},
 				{
-					"id": 17744,
+					"id": 18129,
 					"name": "defaultChecked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2883,7 +2883,7 @@
 					}
 				},
 				{
-					"id": 17745,
+					"id": 18130,
 					"name": "defaultValue",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2929,7 +2929,7 @@
 					}
 				},
 				{
-					"id": 17753,
+					"id": 18138,
 					"name": "dir",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2955,7 +2955,7 @@
 					}
 				},
 				{
-					"id": 17754,
+					"id": 18139,
 					"name": "draggable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2986,7 +2986,7 @@
 					}
 				},
 				{
-					"id": 17755,
+					"id": 18140,
 					"name": "hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3012,7 +3012,7 @@
 					}
 				},
 				{
-					"id": 17756,
+					"id": 18141,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3038,7 +3038,7 @@
 					}
 				},
 				{
-					"id": 17771,
+					"id": 18156,
 					"name": "inlist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3064,7 +3064,7 @@
 					}
 				},
 				{
-					"id": 17791,
+					"id": 18176,
 					"name": "inputMode",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3142,7 +3142,7 @@
 					}
 				},
 				{
-					"id": 17792,
+					"id": 18177,
 					"name": "is",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3187,7 +3187,7 @@
 					}
 				},
 				{
-					"id": 17786,
+					"id": 18171,
 					"name": "itemID",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3213,7 +3213,7 @@
 					}
 				},
 				{
-					"id": 17783,
+					"id": 18168,
 					"name": "itemProp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3239,7 +3239,7 @@
 					}
 				},
 				{
-					"id": 17787,
+					"id": 18172,
 					"name": "itemRef",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3265,7 +3265,7 @@
 					}
 				},
 				{
-					"id": 17784,
+					"id": 18169,
 					"name": "itemScope",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3291,7 +3291,7 @@
 					}
 				},
 				{
-					"id": 17785,
+					"id": 18170,
 					"name": "itemType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3317,7 +3317,7 @@
 					}
 				},
 				{
-					"id": 17757,
+					"id": 18142,
 					"name": "lang",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3343,7 +3343,7 @@
 					}
 				},
 				{
-					"id": 17758,
+					"id": 18143,
 					"name": "nonce",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3369,7 +3369,7 @@
 					}
 				},
 				{
-					"id": 17883,
+					"id": 18268,
 					"name": "onAbort",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3412,7 +3412,7 @@
 					}
 				},
 				{
-					"id": 17884,
+					"id": 18269,
 					"name": "onAbortCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3455,7 +3455,7 @@
 					}
 				},
 				{
-					"id": 18001,
+					"id": 18386,
 					"name": "onAnimationEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3498,7 +3498,7 @@
 					}
 				},
 				{
-					"id": 18002,
+					"id": 18387,
 					"name": "onAnimationEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3541,7 +3541,7 @@
 					}
 				},
 				{
-					"id": 18003,
+					"id": 18388,
 					"name": "onAnimationIteration",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3584,7 +3584,7 @@
 					}
 				},
 				{
-					"id": 18004,
+					"id": 18389,
 					"name": "onAnimationIterationCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3627,7 +3627,7 @@
 					}
 				},
 				{
-					"id": 17999,
+					"id": 18384,
 					"name": "onAnimationStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3670,7 +3670,7 @@
 					}
 				},
 				{
-					"id": 18000,
+					"id": 18385,
 					"name": "onAnimationStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3713,7 +3713,7 @@
 					}
 				},
 				{
-					"id": 17929,
+					"id": 18314,
 					"name": "onAuxClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3756,7 +3756,7 @@
 					}
 				},
 				{
-					"id": 17930,
+					"id": 18315,
 					"name": "onAuxClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3799,7 +3799,7 @@
 					}
 				},
 				{
-					"id": 17863,
+					"id": 18248,
 					"name": "onBeforeInput",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3842,7 +3842,7 @@
 					}
 				},
 				{
-					"id": 17864,
+					"id": 18249,
 					"name": "onBeforeInputCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3885,7 +3885,7 @@
 					}
 				},
 				{
-					"id": 17859,
+					"id": 18244,
 					"name": "onBlur",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3928,7 +3928,7 @@
 					}
 				},
 				{
-					"id": 17860,
+					"id": 18245,
 					"name": "onBlurCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3971,7 +3971,7 @@
 					}
 				},
 				{
-					"id": 17885,
+					"id": 18270,
 					"name": "onCanPlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4014,7 +4014,7 @@
 					}
 				},
 				{
-					"id": 17886,
+					"id": 18271,
 					"name": "onCanPlayCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4057,7 +4057,7 @@
 					}
 				},
 				{
-					"id": 17887,
+					"id": 18272,
 					"name": "onCanPlayThrough",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4100,7 +4100,7 @@
 					}
 				},
 				{
-					"id": 17888,
+					"id": 18273,
 					"name": "onCanPlayThroughCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4143,7 +4143,7 @@
 					}
 				},
 				{
-					"id": 17861,
+					"id": 18246,
 					"name": "onChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4186,7 +4186,7 @@
 					}
 				},
 				{
-					"id": 17862,
+					"id": 18247,
 					"name": "onChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4229,7 +4229,7 @@
 					}
 				},
 				{
-					"id": 17931,
+					"id": 18316,
 					"name": "onClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4272,7 +4272,7 @@
 					}
 				},
 				{
-					"id": 17932,
+					"id": 18317,
 					"name": "onClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4315,7 +4315,7 @@
 					}
 				},
 				{
-					"id": 17851,
+					"id": 18236,
 					"name": "onCompositionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4358,7 +4358,7 @@
 					}
 				},
 				{
-					"id": 17852,
+					"id": 18237,
 					"name": "onCompositionEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4401,7 +4401,7 @@
 					}
 				},
 				{
-					"id": 17853,
+					"id": 18238,
 					"name": "onCompositionStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4444,7 +4444,7 @@
 					}
 				},
 				{
-					"id": 17854,
+					"id": 18239,
 					"name": "onCompositionStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4487,7 +4487,7 @@
 					}
 				},
 				{
-					"id": 17855,
+					"id": 18240,
 					"name": "onCompositionUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4530,7 +4530,7 @@
 					}
 				},
 				{
-					"id": 17856,
+					"id": 18241,
 					"name": "onCompositionUpdateCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4573,7 +4573,7 @@
 					}
 				},
 				{
-					"id": 17933,
+					"id": 18318,
 					"name": "onContextMenu",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4616,7 +4616,7 @@
 					}
 				},
 				{
-					"id": 17934,
+					"id": 18319,
 					"name": "onContextMenuCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4659,7 +4659,7 @@
 					}
 				},
 				{
-					"id": 17845,
+					"id": 18230,
 					"name": "onCopy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4702,7 +4702,7 @@
 					}
 				},
 				{
-					"id": 17846,
+					"id": 18231,
 					"name": "onCopyCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4745,7 +4745,7 @@
 					}
 				},
 				{
-					"id": 17847,
+					"id": 18232,
 					"name": "onCut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4788,7 +4788,7 @@
 					}
 				},
 				{
-					"id": 17848,
+					"id": 18233,
 					"name": "onCutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4831,7 +4831,7 @@
 					}
 				},
 				{
-					"id": 17935,
+					"id": 18320,
 					"name": "onDoubleClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4874,7 +4874,7 @@
 					}
 				},
 				{
-					"id": 17936,
+					"id": 18321,
 					"name": "onDoubleClickCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4917,7 +4917,7 @@
 					}
 				},
 				{
-					"id": 17937,
+					"id": 18322,
 					"name": "onDrag",
 					"variant": "declaration",
 					"kind": 1024,
@@ -4960,7 +4960,7 @@
 					}
 				},
 				{
-					"id": 17938,
+					"id": 18323,
 					"name": "onDragCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5003,7 +5003,7 @@
 					}
 				},
 				{
-					"id": 17939,
+					"id": 18324,
 					"name": "onDragEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5046,7 +5046,7 @@
 					}
 				},
 				{
-					"id": 17940,
+					"id": 18325,
 					"name": "onDragEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5089,7 +5089,7 @@
 					}
 				},
 				{
-					"id": 17941,
+					"id": 18326,
 					"name": "onDragEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5132,7 +5132,7 @@
 					}
 				},
 				{
-					"id": 17942,
+					"id": 18327,
 					"name": "onDragEnterCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5175,7 +5175,7 @@
 					}
 				},
 				{
-					"id": 17943,
+					"id": 18328,
 					"name": "onDragExit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5218,7 +5218,7 @@
 					}
 				},
 				{
-					"id": 17944,
+					"id": 18329,
 					"name": "onDragExitCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5261,7 +5261,7 @@
 					}
 				},
 				{
-					"id": 17945,
+					"id": 18330,
 					"name": "onDragLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5304,7 +5304,7 @@
 					}
 				},
 				{
-					"id": 17946,
+					"id": 18331,
 					"name": "onDragLeaveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5347,7 +5347,7 @@
 					}
 				},
 				{
-					"id": 17947,
+					"id": 18332,
 					"name": "onDragOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5390,7 +5390,7 @@
 					}
 				},
 				{
-					"id": 17948,
+					"id": 18333,
 					"name": "onDragOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5433,7 +5433,7 @@
 					}
 				},
 				{
-					"id": 17949,
+					"id": 18334,
 					"name": "onDragStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5476,7 +5476,7 @@
 					}
 				},
 				{
-					"id": 17950,
+					"id": 18335,
 					"name": "onDragStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5519,7 +5519,7 @@
 					}
 				},
 				{
-					"id": 17951,
+					"id": 18336,
 					"name": "onDrop",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5562,7 +5562,7 @@
 					}
 				},
 				{
-					"id": 17952,
+					"id": 18337,
 					"name": "onDropCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5605,7 +5605,7 @@
 					}
 				},
 				{
-					"id": 17889,
+					"id": 18274,
 					"name": "onDurationChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5648,7 +5648,7 @@
 					}
 				},
 				{
-					"id": 17890,
+					"id": 18275,
 					"name": "onDurationChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5691,7 +5691,7 @@
 					}
 				},
 				{
-					"id": 17891,
+					"id": 18276,
 					"name": "onEmptied",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5734,7 +5734,7 @@
 					}
 				},
 				{
-					"id": 17892,
+					"id": 18277,
 					"name": "onEmptiedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5777,7 +5777,7 @@
 					}
 				},
 				{
-					"id": 17893,
+					"id": 18278,
 					"name": "onEncrypted",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5820,7 +5820,7 @@
 					}
 				},
 				{
-					"id": 17894,
+					"id": 18279,
 					"name": "onEncryptedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5863,7 +5863,7 @@
 					}
 				},
 				{
-					"id": 17895,
+					"id": 18280,
 					"name": "onEnded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5906,7 +5906,7 @@
 					}
 				},
 				{
-					"id": 17896,
+					"id": 18281,
 					"name": "onEndedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5949,7 +5949,7 @@
 					}
 				},
 				{
-					"id": 17875,
+					"id": 18260,
 					"name": "onError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -5992,7 +5992,7 @@
 					}
 				},
 				{
-					"id": 17876,
+					"id": 18261,
 					"name": "onErrorCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6035,7 +6035,7 @@
 					}
 				},
 				{
-					"id": 17857,
+					"id": 18242,
 					"name": "onFocus",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6078,7 +6078,7 @@
 					}
 				},
 				{
-					"id": 17858,
+					"id": 18243,
 					"name": "onFocusCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6121,7 +6121,7 @@
 					}
 				},
 				{
-					"id": 17991,
+					"id": 18376,
 					"name": "onGotPointerCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6164,7 +6164,7 @@
 					}
 				},
 				{
-					"id": 17992,
+					"id": 18377,
 					"name": "onGotPointerCaptureCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6207,7 +6207,7 @@
 					}
 				},
 				{
-					"id": 17865,
+					"id": 18250,
 					"name": "onInput",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6250,7 +6250,7 @@
 					}
 				},
 				{
-					"id": 17866,
+					"id": 18251,
 					"name": "onInputCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6293,7 +6293,7 @@
 					}
 				},
 				{
-					"id": 17871,
+					"id": 18256,
 					"name": "onInvalid",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6336,7 +6336,7 @@
 					}
 				},
 				{
-					"id": 17872,
+					"id": 18257,
 					"name": "onInvalidCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6379,7 +6379,7 @@
 					}
 				},
 				{
-					"id": 17877,
+					"id": 18262,
 					"name": "onKeyDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6422,7 +6422,7 @@
 					}
 				},
 				{
-					"id": 17878,
+					"id": 18263,
 					"name": "onKeyDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6465,7 +6465,7 @@
 					}
 				},
 				{
-					"id": 17879,
+					"id": 18264,
 					"name": "onKeyPress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6517,7 +6517,7 @@
 					}
 				},
 				{
-					"id": 17880,
+					"id": 18265,
 					"name": "onKeyPressCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6569,7 +6569,7 @@
 					}
 				},
 				{
-					"id": 17881,
+					"id": 18266,
 					"name": "onKeyUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6612,7 +6612,7 @@
 					}
 				},
 				{
-					"id": 17882,
+					"id": 18267,
 					"name": "onKeyUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6655,7 +6655,7 @@
 					}
 				},
 				{
-					"id": 17873,
+					"id": 18258,
 					"name": "onLoad",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6698,7 +6698,7 @@
 					}
 				},
 				{
-					"id": 17874,
+					"id": 18259,
 					"name": "onLoadCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6741,7 +6741,7 @@
 					}
 				},
 				{
-					"id": 17901,
+					"id": 18286,
 					"name": "onLoadStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6784,7 +6784,7 @@
 					}
 				},
 				{
-					"id": 17902,
+					"id": 18287,
 					"name": "onLoadStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6827,7 +6827,7 @@
 					}
 				},
 				{
-					"id": 17897,
+					"id": 18282,
 					"name": "onLoadedData",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6870,7 +6870,7 @@
 					}
 				},
 				{
-					"id": 17898,
+					"id": 18283,
 					"name": "onLoadedDataCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6913,7 +6913,7 @@
 					}
 				},
 				{
-					"id": 17899,
+					"id": 18284,
 					"name": "onLoadedMetadata",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6956,7 +6956,7 @@
 					}
 				},
 				{
-					"id": 17900,
+					"id": 18285,
 					"name": "onLoadedMetadataCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6999,7 +6999,7 @@
 					}
 				},
 				{
-					"id": 17993,
+					"id": 18378,
 					"name": "onLostPointerCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7042,7 +7042,7 @@
 					}
 				},
 				{
-					"id": 17994,
+					"id": 18379,
 					"name": "onLostPointerCaptureCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7085,7 +7085,7 @@
 					}
 				},
 				{
-					"id": 17953,
+					"id": 18338,
 					"name": "onMouseDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7128,7 +7128,7 @@
 					}
 				},
 				{
-					"id": 17954,
+					"id": 18339,
 					"name": "onMouseDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7171,7 +7171,7 @@
 					}
 				},
 				{
-					"id": 17955,
+					"id": 18340,
 					"name": "onMouseEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7214,7 +7214,7 @@
 					}
 				},
 				{
-					"id": 17956,
+					"id": 18341,
 					"name": "onMouseLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7257,7 +7257,7 @@
 					}
 				},
 				{
-					"id": 17957,
+					"id": 18342,
 					"name": "onMouseMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7300,7 +7300,7 @@
 					}
 				},
 				{
-					"id": 17958,
+					"id": 18343,
 					"name": "onMouseMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7343,7 +7343,7 @@
 					}
 				},
 				{
-					"id": 17959,
+					"id": 18344,
 					"name": "onMouseOut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7386,7 +7386,7 @@
 					}
 				},
 				{
-					"id": 17960,
+					"id": 18345,
 					"name": "onMouseOutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7429,7 +7429,7 @@
 					}
 				},
 				{
-					"id": 17961,
+					"id": 18346,
 					"name": "onMouseOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7472,7 +7472,7 @@
 					}
 				},
 				{
-					"id": 17962,
+					"id": 18347,
 					"name": "onMouseOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7515,7 +7515,7 @@
 					}
 				},
 				{
-					"id": 17963,
+					"id": 18348,
 					"name": "onMouseUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7558,7 +7558,7 @@
 					}
 				},
 				{
-					"id": 17964,
+					"id": 18349,
 					"name": "onMouseUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7601,7 +7601,7 @@
 					}
 				},
 				{
-					"id": 17849,
+					"id": 18234,
 					"name": "onPaste",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7644,7 +7644,7 @@
 					}
 				},
 				{
-					"id": 17850,
+					"id": 18235,
 					"name": "onPasteCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7687,7 +7687,7 @@
 					}
 				},
 				{
-					"id": 17903,
+					"id": 18288,
 					"name": "onPause",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7730,7 +7730,7 @@
 					}
 				},
 				{
-					"id": 17904,
+					"id": 18289,
 					"name": "onPauseCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7773,7 +7773,7 @@
 					}
 				},
 				{
-					"id": 17905,
+					"id": 18290,
 					"name": "onPlay",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7816,7 +7816,7 @@
 					}
 				},
 				{
-					"id": 17906,
+					"id": 18291,
 					"name": "onPlayCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7859,7 +7859,7 @@
 					}
 				},
 				{
-					"id": 17907,
+					"id": 18292,
 					"name": "onPlaying",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7902,7 +7902,7 @@
 					}
 				},
 				{
-					"id": 17908,
+					"id": 18293,
 					"name": "onPlayingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7945,7 +7945,7 @@
 					}
 				},
 				{
-					"id": 17981,
+					"id": 18366,
 					"name": "onPointerCancel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7988,7 +7988,7 @@
 					}
 				},
 				{
-					"id": 17982,
+					"id": 18367,
 					"name": "onPointerCancelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8031,7 +8031,7 @@
 					}
 				},
 				{
-					"id": 17975,
+					"id": 18360,
 					"name": "onPointerDown",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8074,7 +8074,7 @@
 					}
 				},
 				{
-					"id": 17976,
+					"id": 18361,
 					"name": "onPointerDownCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8117,7 +8117,7 @@
 					}
 				},
 				{
-					"id": 17983,
+					"id": 18368,
 					"name": "onPointerEnter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8160,7 +8160,7 @@
 					}
 				},
 				{
-					"id": 17984,
+					"id": 18369,
 					"name": "onPointerEnterCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8203,7 +8203,7 @@
 					}
 				},
 				{
-					"id": 17985,
+					"id": 18370,
 					"name": "onPointerLeave",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8246,7 +8246,7 @@
 					}
 				},
 				{
-					"id": 17986,
+					"id": 18371,
 					"name": "onPointerLeaveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8289,7 +8289,7 @@
 					}
 				},
 				{
-					"id": 17977,
+					"id": 18362,
 					"name": "onPointerMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8332,7 +8332,7 @@
 					}
 				},
 				{
-					"id": 17978,
+					"id": 18363,
 					"name": "onPointerMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8375,7 +8375,7 @@
 					}
 				},
 				{
-					"id": 17989,
+					"id": 18374,
 					"name": "onPointerOut",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8418,7 +8418,7 @@
 					}
 				},
 				{
-					"id": 17990,
+					"id": 18375,
 					"name": "onPointerOutCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8461,7 +8461,7 @@
 					}
 				},
 				{
-					"id": 17987,
+					"id": 18372,
 					"name": "onPointerOver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8504,7 +8504,7 @@
 					}
 				},
 				{
-					"id": 17988,
+					"id": 18373,
 					"name": "onPointerOverCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8547,7 +8547,7 @@
 					}
 				},
 				{
-					"id": 17979,
+					"id": 18364,
 					"name": "onPointerUp",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8590,7 +8590,7 @@
 					}
 				},
 				{
-					"id": 17980,
+					"id": 18365,
 					"name": "onPointerUpCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8633,7 +8633,7 @@
 					}
 				},
 				{
-					"id": 17909,
+					"id": 18294,
 					"name": "onProgress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8676,7 +8676,7 @@
 					}
 				},
 				{
-					"id": 17910,
+					"id": 18295,
 					"name": "onProgressCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8719,7 +8719,7 @@
 					}
 				},
 				{
-					"id": 17911,
+					"id": 18296,
 					"name": "onRateChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8762,7 +8762,7 @@
 					}
 				},
 				{
-					"id": 17912,
+					"id": 18297,
 					"name": "onRateChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8805,7 +8805,7 @@
 					}
 				},
 				{
-					"id": 17867,
+					"id": 18252,
 					"name": "onReset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8848,7 +8848,7 @@
 					}
 				},
 				{
-					"id": 17868,
+					"id": 18253,
 					"name": "onResetCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8891,7 +8891,7 @@
 					}
 				},
 				{
-					"id": 17913,
+					"id": 18298,
 					"name": "onResize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8934,7 +8934,7 @@
 					}
 				},
 				{
-					"id": 17914,
+					"id": 18299,
 					"name": "onResizeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8977,7 +8977,7 @@
 					}
 				},
 				{
-					"id": 17995,
+					"id": 18380,
 					"name": "onScroll",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9020,7 +9020,7 @@
 					}
 				},
 				{
-					"id": 17996,
+					"id": 18381,
 					"name": "onScrollCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9063,7 +9063,7 @@
 					}
 				},
 				{
-					"id": 17915,
+					"id": 18300,
 					"name": "onSeeked",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9106,7 +9106,7 @@
 					}
 				},
 				{
-					"id": 17916,
+					"id": 18301,
 					"name": "onSeekedCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9149,7 +9149,7 @@
 					}
 				},
 				{
-					"id": 17917,
+					"id": 18302,
 					"name": "onSeeking",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9192,7 +9192,7 @@
 					}
 				},
 				{
-					"id": 17918,
+					"id": 18303,
 					"name": "onSeekingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9235,7 +9235,7 @@
 					}
 				},
 				{
-					"id": 17965,
+					"id": 18350,
 					"name": "onSelect",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9278,7 +9278,7 @@
 					}
 				},
 				{
-					"id": 17966,
+					"id": 18351,
 					"name": "onSelectCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9321,7 +9321,7 @@
 					}
 				},
 				{
-					"id": 17919,
+					"id": 18304,
 					"name": "onStalled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9364,7 +9364,7 @@
 					}
 				},
 				{
-					"id": 17920,
+					"id": 18305,
 					"name": "onStalledCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9407,7 +9407,7 @@
 					}
 				},
 				{
-					"id": 17869,
+					"id": 18254,
 					"name": "onSubmit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9450,7 +9450,7 @@
 					}
 				},
 				{
-					"id": 17870,
+					"id": 18255,
 					"name": "onSubmitCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9493,7 +9493,7 @@
 					}
 				},
 				{
-					"id": 17921,
+					"id": 18306,
 					"name": "onSuspend",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9536,7 +9536,7 @@
 					}
 				},
 				{
-					"id": 17922,
+					"id": 18307,
 					"name": "onSuspendCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9579,7 +9579,7 @@
 					}
 				},
 				{
-					"id": 17923,
+					"id": 18308,
 					"name": "onTimeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9622,7 +9622,7 @@
 					}
 				},
 				{
-					"id": 17924,
+					"id": 18309,
 					"name": "onTimeUpdateCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9665,7 +9665,7 @@
 					}
 				},
 				{
-					"id": 17967,
+					"id": 18352,
 					"name": "onTouchCancel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9708,7 +9708,7 @@
 					}
 				},
 				{
-					"id": 17968,
+					"id": 18353,
 					"name": "onTouchCancelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9751,7 +9751,7 @@
 					}
 				},
 				{
-					"id": 17969,
+					"id": 18354,
 					"name": "onTouchEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9794,7 +9794,7 @@
 					}
 				},
 				{
-					"id": 17970,
+					"id": 18355,
 					"name": "onTouchEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9837,7 +9837,7 @@
 					}
 				},
 				{
-					"id": 17971,
+					"id": 18356,
 					"name": "onTouchMove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9880,7 +9880,7 @@
 					}
 				},
 				{
-					"id": 17972,
+					"id": 18357,
 					"name": "onTouchMoveCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9923,7 +9923,7 @@
 					}
 				},
 				{
-					"id": 17973,
+					"id": 18358,
 					"name": "onTouchStart",
 					"variant": "declaration",
 					"kind": 1024,
@@ -9966,7 +9966,7 @@
 					}
 				},
 				{
-					"id": 17974,
+					"id": 18359,
 					"name": "onTouchStartCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10009,7 +10009,7 @@
 					}
 				},
 				{
-					"id": 18005,
+					"id": 18390,
 					"name": "onTransitionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10052,7 +10052,7 @@
 					}
 				},
 				{
-					"id": 18006,
+					"id": 18391,
 					"name": "onTransitionEndCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10095,7 +10095,7 @@
 					}
 				},
 				{
-					"id": 17925,
+					"id": 18310,
 					"name": "onVolumeChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10138,7 +10138,7 @@
 					}
 				},
 				{
-					"id": 17926,
+					"id": 18311,
 					"name": "onVolumeChangeCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10181,7 +10181,7 @@
 					}
 				},
 				{
-					"id": 17927,
+					"id": 18312,
 					"name": "onWaiting",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10224,7 +10224,7 @@
 					}
 				},
 				{
-					"id": 17928,
+					"id": 18313,
 					"name": "onWaitingCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10267,7 +10267,7 @@
 					}
 				},
 				{
-					"id": 17997,
+					"id": 18382,
 					"name": "onWheel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10310,7 +10310,7 @@
 					}
 				},
 				{
-					"id": 17998,
+					"id": 18383,
 					"name": "onWheelCapture",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10353,7 +10353,7 @@
 					}
 				},
 				{
-					"id": 17759,
+					"id": 18144,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10379,7 +10379,7 @@
 					}
 				},
 				{
-					"id": 17772,
+					"id": 18157,
 					"name": "prefix",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10405,7 +10405,7 @@
 					}
 				},
 				{
-					"id": 17773,
+					"id": 18158,
 					"name": "property",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10431,7 +10431,7 @@
 					}
 				},
 				{
-					"id": 17766,
+					"id": 18151,
 					"name": "radioGroup",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10457,7 +10457,7 @@
 					}
 				},
 				{
-					"id": 17774,
+					"id": 18159,
 					"name": "rel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10483,7 +10483,7 @@
 					}
 				},
 				{
-					"id": 17775,
+					"id": 18160,
 					"name": "resource",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10509,7 +10509,7 @@
 					}
 				},
 				{
-					"id": 17788,
+					"id": 18173,
 					"name": "results",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10535,7 +10535,7 @@
 					}
 				},
 				{
-					"id": 17776,
+					"id": 18161,
 					"name": "rev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10561,7 +10561,7 @@
 					}
 				},
 				{
-					"id": 17767,
+					"id": 18152,
 					"name": "role",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10593,7 +10593,7 @@
 					}
 				},
 				{
-					"id": 17789,
+					"id": 18174,
 					"name": "security",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10619,7 +10619,7 @@
 					}
 				},
 				{
-					"id": 17760,
+					"id": 18145,
 					"name": "slot",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10645,7 +10645,7 @@
 					}
 				},
 				{
-					"id": 17761,
+					"id": 18146,
 					"name": "spellCheck",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10676,7 +10676,7 @@
 					}
 				},
 				{
-					"id": 17762,
+					"id": 18147,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10708,7 +10708,7 @@
 					}
 				},
 				{
-					"id": 17746,
+					"id": 18131,
 					"name": "suppressContentEditableWarning",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10734,7 +10734,7 @@
 					}
 				},
 				{
-					"id": 17747,
+					"id": 18132,
 					"name": "suppressHydrationWarning",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10760,7 +10760,7 @@
 					}
 				},
 				{
-					"id": 17763,
+					"id": 18148,
 					"name": "tabIndex",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10786,7 +10786,7 @@
 					}
 				},
 				{
-					"id": 17764,
+					"id": 18149,
 					"name": "title",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10812,7 +10812,7 @@
 					}
 				},
 				{
-					"id": 17765,
+					"id": 18150,
 					"name": "translate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10847,7 +10847,7 @@
 					}
 				},
 				{
-					"id": 17777,
+					"id": 18162,
 					"name": "typeof",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10873,7 +10873,7 @@
 					}
 				},
 				{
-					"id": 17790,
+					"id": 18175,
 					"name": "unselectable",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10908,7 +10908,7 @@
 					}
 				},
 				{
-					"id": 17778,
+					"id": 18163,
 					"name": "vocab",
 					"variant": "declaration",
 					"kind": 1024,
@@ -10938,267 +10938,267 @@
 				{
 					"title": "Properties",
 					"children": [
-						17768,
-						17748,
-						17793,
-						17794,
-						17795,
-						17796,
-						17797,
-						17798,
-						17799,
-						17800,
-						17801,
-						17802,
-						17803,
-						17804,
-						17805,
-						17806,
-						17807,
-						17808,
-						17809,
-						17810,
-						17811,
-						17812,
-						17813,
-						17814,
-						17815,
-						17816,
-						17817,
-						17818,
-						17819,
-						17820,
-						17821,
-						17822,
-						17823,
-						17824,
-						17825,
-						17826,
-						17827,
-						17828,
-						17829,
-						17830,
-						17831,
-						17832,
-						17833,
-						17834,
-						17835,
-						17836,
-						17837,
-						17838,
-						17839,
-						17840,
-						17779,
-						17780,
-						17749,
-						17781,
-						17841,
-						17750,
-						17782,
-						17769,
-						17751,
-						17752,
-						17842,
-						17770,
-						17744,
-						17745,
-						17753,
-						17754,
-						17755,
-						17756,
-						17771,
-						17791,
-						17792,
-						17786,
-						17783,
-						17787,
-						17784,
-						17785,
-						17757,
-						17758,
-						17883,
-						17884,
-						18001,
-						18002,
-						18003,
-						18004,
-						17999,
-						18000,
-						17929,
-						17930,
-						17863,
-						17864,
-						17859,
-						17860,
-						17885,
-						17886,
-						17887,
-						17888,
-						17861,
-						17862,
-						17931,
-						17932,
-						17851,
-						17852,
-						17853,
-						17854,
-						17855,
-						17856,
-						17933,
-						17934,
-						17845,
-						17846,
-						17847,
-						17848,
-						17935,
-						17936,
-						17937,
-						17938,
-						17939,
-						17940,
-						17941,
-						17942,
-						17943,
-						17944,
-						17945,
-						17946,
-						17947,
-						17948,
-						17949,
-						17950,
-						17951,
-						17952,
-						17889,
-						17890,
-						17891,
-						17892,
-						17893,
-						17894,
-						17895,
-						17896,
-						17875,
-						17876,
-						17857,
-						17858,
-						17991,
-						17992,
-						17865,
-						17866,
-						17871,
-						17872,
-						17877,
-						17878,
-						17879,
-						17880,
-						17881,
-						17882,
-						17873,
-						17874,
-						17901,
-						17902,
-						17897,
-						17898,
-						17899,
-						17900,
-						17993,
-						17994,
-						17953,
-						17954,
-						17955,
-						17956,
-						17957,
-						17958,
-						17959,
-						17960,
-						17961,
-						17962,
-						17963,
-						17964,
-						17849,
-						17850,
-						17903,
-						17904,
-						17905,
-						17906,
-						17907,
-						17908,
-						17981,
-						17982,
-						17975,
-						17976,
-						17983,
-						17984,
-						17985,
-						17986,
-						17977,
-						17978,
-						17989,
-						17990,
-						17987,
-						17988,
-						17979,
-						17980,
-						17909,
-						17910,
-						17911,
-						17912,
-						17867,
-						17868,
-						17913,
-						17914,
-						17995,
-						17996,
-						17915,
-						17916,
-						17917,
-						17918,
-						17965,
-						17966,
-						17919,
-						17920,
-						17869,
-						17870,
-						17921,
-						17922,
-						17923,
-						17924,
-						17967,
-						17968,
-						17969,
-						17970,
-						17971,
-						17972,
-						17973,
-						17974,
-						18005,
-						18006,
-						17925,
-						17926,
-						17927,
-						17928,
-						17997,
-						17998,
-						17759,
-						17772,
-						17773,
-						17766,
-						17774,
-						17775,
-						17788,
-						17776,
-						17767,
-						17789,
-						17760,
-						17761,
-						17762,
-						17746,
-						17747,
-						17763,
-						17764,
-						17765,
-						17777,
-						17790,
-						17778
+						18153,
+						18133,
+						18178,
+						18179,
+						18180,
+						18181,
+						18182,
+						18183,
+						18184,
+						18185,
+						18186,
+						18187,
+						18188,
+						18189,
+						18190,
+						18191,
+						18192,
+						18193,
+						18194,
+						18195,
+						18196,
+						18197,
+						18198,
+						18199,
+						18200,
+						18201,
+						18202,
+						18203,
+						18204,
+						18205,
+						18206,
+						18207,
+						18208,
+						18209,
+						18210,
+						18211,
+						18212,
+						18213,
+						18214,
+						18215,
+						18216,
+						18217,
+						18218,
+						18219,
+						18220,
+						18221,
+						18222,
+						18223,
+						18224,
+						18225,
+						18164,
+						18165,
+						18134,
+						18166,
+						18226,
+						18135,
+						18167,
+						18154,
+						18136,
+						18137,
+						18227,
+						18155,
+						18129,
+						18130,
+						18138,
+						18139,
+						18140,
+						18141,
+						18156,
+						18176,
+						18177,
+						18171,
+						18168,
+						18172,
+						18169,
+						18170,
+						18142,
+						18143,
+						18268,
+						18269,
+						18386,
+						18387,
+						18388,
+						18389,
+						18384,
+						18385,
+						18314,
+						18315,
+						18248,
+						18249,
+						18244,
+						18245,
+						18270,
+						18271,
+						18272,
+						18273,
+						18246,
+						18247,
+						18316,
+						18317,
+						18236,
+						18237,
+						18238,
+						18239,
+						18240,
+						18241,
+						18318,
+						18319,
+						18230,
+						18231,
+						18232,
+						18233,
+						18320,
+						18321,
+						18322,
+						18323,
+						18324,
+						18325,
+						18326,
+						18327,
+						18328,
+						18329,
+						18330,
+						18331,
+						18332,
+						18333,
+						18334,
+						18335,
+						18336,
+						18337,
+						18274,
+						18275,
+						18276,
+						18277,
+						18278,
+						18279,
+						18280,
+						18281,
+						18260,
+						18261,
+						18242,
+						18243,
+						18376,
+						18377,
+						18250,
+						18251,
+						18256,
+						18257,
+						18262,
+						18263,
+						18264,
+						18265,
+						18266,
+						18267,
+						18258,
+						18259,
+						18286,
+						18287,
+						18282,
+						18283,
+						18284,
+						18285,
+						18378,
+						18379,
+						18338,
+						18339,
+						18340,
+						18341,
+						18342,
+						18343,
+						18344,
+						18345,
+						18346,
+						18347,
+						18348,
+						18349,
+						18234,
+						18235,
+						18288,
+						18289,
+						18290,
+						18291,
+						18292,
+						18293,
+						18366,
+						18367,
+						18360,
+						18361,
+						18368,
+						18369,
+						18370,
+						18371,
+						18362,
+						18363,
+						18374,
+						18375,
+						18372,
+						18373,
+						18364,
+						18365,
+						18294,
+						18295,
+						18296,
+						18297,
+						18252,
+						18253,
+						18298,
+						18299,
+						18380,
+						18381,
+						18300,
+						18301,
+						18302,
+						18303,
+						18350,
+						18351,
+						18304,
+						18305,
+						18254,
+						18255,
+						18306,
+						18307,
+						18308,
+						18309,
+						18352,
+						18353,
+						18354,
+						18355,
+						18356,
+						18357,
+						18358,
+						18359,
+						18390,
+						18391,
+						18310,
+						18311,
+						18312,
+						18313,
+						18382,
+						18383,
+						18144,
+						18157,
+						18158,
+						18151,
+						18159,
+						18160,
+						18173,
+						18161,
+						18152,
+						18174,
+						18145,
+						18146,
+						18147,
+						18131,
+						18132,
+						18148,
+						18149,
+						18150,
+						18162,
+						18175,
+						18163
 					]
 				}
 			],
@@ -11234,14 +11234,14 @@
 			]
 		},
 		{
-			"id": 15439,
+			"id": 15722,
 			"name": "LabelOwnProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15446,
+					"id": 15729,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11267,7 +11267,7 @@
 					}
 				},
 				{
-					"id": 15441,
+					"id": 15724,
 					"name": "isActive",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11287,7 +11287,7 @@
 					}
 				},
 				{
-					"id": 15440,
+					"id": 15723,
 					"name": "isDisabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11307,7 +11307,7 @@
 					}
 				},
 				{
-					"id": 15442,
+					"id": 15725,
 					"name": "isFocused",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11327,7 +11327,7 @@
 					}
 				},
 				{
-					"id": 15443,
+					"id": 15726,
 					"name": "isHover",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11347,7 +11347,7 @@
 					}
 				},
 				{
-					"id": 15444,
+					"id": 15727,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11363,13 +11363,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15445,
+					"id": 15728,
 					"name": "weight",
 					"variant": "declaration",
 					"kind": 1024,
@@ -11402,13 +11402,13 @@
 				{
 					"title": "Properties",
 					"children": [
-						15446,
-						15441,
-						15440,
-						15442,
-						15443,
-						15444,
-						15445
+						15729,
+						15724,
+						15723,
+						15725,
+						15726,
+						15727,
+						15728
 					]
 				}
 			],
@@ -11421,7 +11421,7 @@
 			]
 		},
 		{
-			"id": 15448,
+			"id": 15731,
 			"name": "Label",
 			"variant": "declaration",
 			"kind": 64,
@@ -11435,7 +11435,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15449,
+					"id": 15732,
 					"name": "Label",
 					"variant": "signature",
 					"kind": 4096,
@@ -11449,7 +11449,7 @@
 					],
 					"parameters": [
 						{
-							"id": 15450,
+							"id": 15733,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
@@ -11459,13 +11459,13 @@
 								"types": [
 									{
 										"type": "reference",
-										"target": 15439,
+										"target": 15722,
 										"name": "LabelOwnProps",
 										"package": "@contember/ui"
 									},
 									{
 										"type": "reference",
-										"target": 17743,
+										"target": 18128,
 										"name": "HTMLSpanElementProps",
 										"package": "@contember/ui"
 									}

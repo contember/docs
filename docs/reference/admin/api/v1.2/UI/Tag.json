@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15360,
+			"id": 15643,
 			"name": "TagProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15364,
+					"id": 15647,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,7 @@
 					}
 				},
 				{
-					"id": 15361,
+					"id": 15644,
 					"name": "onRemove",
 					"variant": "declaration",
 					"kind": 1024,
@@ -54,7 +54,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 15362,
+							"id": 15645,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -68,7 +68,7 @@
 							],
 							"signatures": [
 								{
-									"id": 15363,
+									"id": 15646,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -94,8 +94,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						15364,
-						15361
+						15647,
+						15644
 					]
 				}
 			],
@@ -108,7 +108,7 @@
 			]
 		},
 		{
-			"id": 15365,
+			"id": 15648,
 			"name": "Tag",
 			"variant": "declaration",
 			"kind": 64,
@@ -122,7 +122,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15366,
+					"id": 15649,
 					"name": "Tag",
 					"variant": "signature",
 					"kind": 4096,
@@ -136,14 +136,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15367,
+							"id": 15650,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15360,
+								"target": 15643,
 								"name": "TagProps",
 								"package": "@contember/ui"
 							}

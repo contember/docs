@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6136,
+			"id": 6445,
 			"name": "MemberListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6141,
+					"id": 6450,
 					"name": "Identity",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
 						}
 					],
 					"type": {
@@ -36,14 +36,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 6142,
+									"id": 6451,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 6143,
+											"id": 6452,
 											"name": "identity",
 											"variant": "declaration",
 											"kind": 1024,
@@ -53,12 +53,12 @@
 													"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 													"line": 16,
 													"character": 27,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
 												}
 											],
 											"type": {
 												"type": "reference",
-												"target": 6340,
+												"target": 6649,
 												"name": "MemberIdentity",
 												"package": "@contember/admin"
 											}
@@ -68,7 +68,7 @@
 										{
 											"title": "Properties",
 											"children": [
-												6143
+												6452
 											]
 										}
 									],
@@ -77,7 +77,7 @@
 											"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 											"line": 16,
 											"character": 25,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L16"
 										}
 									]
 								}
@@ -89,7 +89,7 @@
 					}
 				},
 				{
-					"id": 6138,
+					"id": 6447,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -101,7 +101,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L13"
 						}
 					],
 					"type": {
@@ -110,7 +110,7 @@
 					}
 				},
 				{
-					"id": 6139,
+					"id": 6448,
 					"name": "createRoleRenderer",
 					"variant": "declaration",
 					"kind": 1024,
@@ -122,18 +122,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L14"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6153,
+						"target": 6462,
 						"name": "RoleRendererFactory",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6144,
+					"id": 6453,
 					"name": "editIdentityLink",
 					"variant": "declaration",
 					"kind": 1024,
@@ -143,18 +143,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5945,
+						"target": 6254,
 						"name": "RoutingLinkTarget",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6140,
+					"id": 6449,
 					"name": "memberType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -164,18 +164,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L15"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6358,
+						"target": 6667,
 						"name": "ListMembersMemberType",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6137,
+					"id": 6446,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -185,7 +185,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L12"
 						}
 					],
 					"type": {
@@ -198,12 +198,12 @@
 				{
 					"title": "Properties",
 					"children": [
-						6141,
-						6138,
-						6139,
-						6144,
-						6140,
-						6137
+						6450,
+						6447,
+						6448,
+						6453,
+						6449,
+						6446
 					]
 				}
 			],
@@ -212,12 +212,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 					"line": 11,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L11"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L11"
 				}
 			]
 		},
 		{
-			"id": 6145,
+			"id": 6454,
 			"name": "MemberList",
 			"variant": "declaration",
 			"kind": 64,
@@ -227,12 +227,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/MemberList.tsx",
 					"line": 23,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/MemberList.tsx#L23"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/MemberList.tsx#L23"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6146,
+					"id": 6455,
 					"name": "MemberList",
 					"variant": "signature",
 					"kind": 4096,
@@ -246,14 +246,14 @@
 					],
 					"parameters": [
 						{
-							"id": 6147,
+							"id": 6456,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6136,
+								"target": 6445,
 								"name": "MemberListProps",
 								"package": "@contember/admin"
 							}

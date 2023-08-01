@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 1223,
+			"id": 1244,
 			"name": "DataGridContainerPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 1224,
+					"id": 1245,
 					"name": "allowAggregateFilterControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L12"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 1225,
+					"id": 1246,
 					"name": "allowColumnVisibilityControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,7 +46,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L13"
 						}
 					],
 					"type": {
@@ -55,7 +55,7 @@
 					}
 				},
 				{
-					"id": 1226,
+					"id": 1247,
 					"name": "emptyMessage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,7 +67,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L14"
 						}
 					],
 					"type": {
@@ -82,7 +82,7 @@
 					}
 				},
 				{
-					"id": 1227,
+					"id": 1248,
 					"name": "emptyMessageComponent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -94,7 +94,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L15"
 						}
 					],
 					"type": {
@@ -115,7 +115,7 @@
 					}
 				},
 				{
-					"id": 1228,
+					"id": 1249,
 					"name": "emptyMessageComponentExtraProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -127,13 +127,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L16"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 1229,
+							"id": 1250,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -142,7 +142,7 @@
 					}
 				},
 				{
-					"id": 1230,
+					"id": 1251,
 					"name": "onEntityClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -154,13 +154,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 1231,
+							"id": 1252,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -170,12 +170,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 									"line": 17,
 									"character": 17,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
 								}
 							],
 							"signatures": [
 								{
-									"id": 1232,
+									"id": 1253,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -185,19 +185,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 											"line": 17,
 											"character": 17,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
 										}
 									],
 									"parameters": [
 										{
-											"id": 1233,
+											"id": 1254,
 											"name": "entity",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 6993,
+												"target": 7302,
 												"name": "EntityAccessor",
 												"package": "@contember/binding"
 											}
@@ -213,7 +213,7 @@
 					}
 				},
 				{
-					"id": 1234,
+					"id": 1255,
 					"name": "selectedEntityIds",
 					"variant": "declaration",
 					"kind": 1024,
@@ -225,21 +225,21 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L18"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 9404,
+							"target": 9713,
 							"name": "EntityId",
 							"package": "@contember/binding"
 						}
 					}
 				},
 				{
-					"id": 1235,
+					"id": 1256,
 					"name": "tile",
 					"variant": "declaration",
 					"kind": 1024,
@@ -251,7 +251,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L19"
 						}
 					],
 					"type": {
@@ -266,7 +266,7 @@
 					}
 				},
 				{
-					"id": 1236,
+					"id": 1257,
 					"name": "tileSize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -278,7 +278,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L20"
 						}
 					],
 					"type": {
@@ -291,15 +291,15 @@
 				{
 					"title": "Properties",
 					"children": [
-						1224,
-						1225,
-						1226,
-						1227,
-						1228,
-						1230,
-						1234,
-						1235,
-						1236
+						1245,
+						1246,
+						1247,
+						1248,
+						1249,
+						1251,
+						1255,
+						1256,
+						1257
 					]
 				}
 			],
@@ -308,19 +308,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 					"line": 11,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L11"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L11"
 				}
 			],
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1237,
+					"target": 1258,
 					"name": "DataGridContainerOwnProps"
 				}
 			]
 		},
 		{
-			"id": 1634,
+			"id": 1655,
 			"name": "ControlledDataGridProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -330,12 +330,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 					"line": 9,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L9"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 1646,
+					"id": 1667,
 					"name": "ComponentExtraProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -343,7 +343,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 1647,
+							"id": 1668,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -353,7 +353,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 									"line": 9,
 									"character": 64,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L9"
 								}
 							]
 						}
@@ -365,21 +365,21 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 1223,
+						"target": 1244,
 						"name": "DataGridContainerPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 1635,
+							"id": 1656,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 1640,
+									"id": 1661,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -389,7 +389,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 17,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L17"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L17"
 										}
 									],
 									"type": {
@@ -404,7 +404,7 @@
 									}
 								},
 								{
-									"id": 1638,
+									"id": 1659,
 									"name": "dataGridKey",
 									"variant": "declaration",
 									"kind": 1024,
@@ -416,7 +416,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 14,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L14"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L14"
 										}
 									],
 									"type": {
@@ -425,7 +425,7 @@
 									}
 								},
 								{
-									"id": 1639,
+									"id": 1660,
 									"name": "entities",
 									"variant": "declaration",
 									"kind": 1024,
@@ -435,7 +435,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 16,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L16"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L16"
 										}
 									],
 									"type": {
@@ -446,14 +446,14 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 9981,
+											"target": 10290,
 											"name": "SugaredQualifiedEntityList",
 											"package": "@contember/binding"
 										}
 									}
 								},
 								{
-									"id": 1641,
+									"id": 1662,
 									"name": "itemsPerPage",
 									"variant": "declaration",
 									"kind": 1024,
@@ -465,7 +465,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 18,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L18"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L18"
 										}
 									],
 									"type": {
@@ -483,7 +483,7 @@
 									}
 								},
 								{
-									"id": 1636,
+									"id": 1657,
 									"name": "state",
 									"variant": "declaration",
 									"kind": 1024,
@@ -493,18 +493,18 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 12,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L12"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L12"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 1412,
+										"target": 1433,
 										"name": "DataGridState",
 										"package": "@contember/admin"
 									}
 								},
 								{
-									"id": 1637,
+									"id": 1658,
 									"name": "stateMethods",
 									"variant": "declaration",
 									"kind": 1024,
@@ -514,12 +514,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 13,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L13"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L13"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 1422,
+										"target": 1443,
 										"name": "DataGridStateMethods",
 										"package": "@contember/admin"
 									}
@@ -529,12 +529,12 @@
 								{
 									"title": "Properties",
 									"children": [
-										1640,
-										1638,
-										1639,
-										1641,
-										1636,
-										1637
+										1661,
+										1659,
+										1660,
+										1662,
+										1657,
+										1658
 									]
 								}
 							],
@@ -543,7 +543,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 									"line": 11,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L11"
 								}
 							]
 						}
@@ -554,7 +554,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1642,
+									"id": 1663,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -564,7 +564,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 21,
 											"character": 4,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L21"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L21"
 										}
 									]
 								}
@@ -572,14 +572,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1643,
+									"id": 1664,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 1644,
+											"id": 1665,
 											"name": "component",
 											"variant": "declaration",
 											"kind": 1024,
@@ -589,7 +589,7 @@
 													"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 													"line": 23,
 													"character": 3,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L23"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L23"
 												}
 											],
 											"type": {
@@ -604,7 +604,7 @@
 														"types": [
 															{
 																"type": "reference",
-																"target": 1263,
+																"target": 1284,
 																"name": "DataGridContainerProps",
 																"package": "@contember/admin"
 															},
@@ -623,7 +623,7 @@
 											}
 										},
 										{
-											"id": 1645,
+											"id": 1666,
 											"name": "componentProps",
 											"variant": "declaration",
 											"kind": 1024,
@@ -633,7 +633,7 @@
 													"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 													"line": 24,
 													"character": 3,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L24"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L24"
 												}
 											],
 											"type": {
@@ -648,8 +648,8 @@
 										{
 											"title": "Properties",
 											"children": [
-												1644,
-												1645
+												1665,
+												1666
 											]
 										}
 									],
@@ -658,7 +658,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 											"line": 22,
 											"character": 4,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L22"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L22"
 										}
 									]
 								}
@@ -669,7 +669,7 @@
 			}
 		},
 		{
-			"id": 1648,
+			"id": 1669,
 			"name": "ControlledDataGrid",
 			"variant": "declaration",
 			"kind": 64,
@@ -679,12 +679,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 					"line": 48,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L48"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L48"
 				}
 			],
 			"signatures": [
 				{
-					"id": 1649,
+					"id": 1670,
 					"name": "ControlledDataGrid",
 					"variant": "signature",
 					"kind": 4096,
@@ -699,7 +699,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "useDataGrid",
-								"target": 1455
+								"target": 1476
 							},
 							{
 								"kind": "text",
@@ -723,12 +723,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx",
 							"line": 103,
 							"character": 5,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L103"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/grid/ControlledDataGrid.tsx#L103"
 						}
 					],
 					"typeParameter": [
 						{
-							"id": 1650,
+							"id": 1671,
 							"name": "ComponentProps",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -736,7 +736,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1651,
+									"id": 1672,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -747,14 +747,14 @@
 					],
 					"parameters": [
 						{
-							"id": 1652,
+							"id": 1673,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 1634,
+								"target": 1655,
 								"typeArguments": [
 									{
 										"type": "reference",

@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 14969,
+			"id": 15822,
 			"name": "LayoutPageProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14978,
+					"id": 15831,
 					"name": "actions",
 					"variant": "declaration",
 					"kind": 1024,
@@ -44,7 +44,7 @@
 					}
 				},
 				{
-					"id": 14970,
+					"id": 15823,
 					"name": "afterTitle",
 					"variant": "declaration",
 					"kind": 1024,
@@ -53,7 +53,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 							"line": 6,
 							"character": 4
 						}
@@ -70,7 +70,7 @@
 					}
 				},
 				{
-					"id": 14971,
+					"id": 15824,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -79,7 +79,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 							"line": 7,
 							"character": 4
 						}
@@ -96,7 +96,7 @@
 					}
 				},
 				{
-					"id": 14972,
+					"id": 15825,
 					"name": "fit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -105,7 +105,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 							"line": 8,
 							"character": 4
 						}
@@ -125,7 +125,7 @@
 					}
 				},
 				{
-					"id": 14976,
+					"id": 15829,
 					"name": "navigation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -156,7 +156,7 @@
 					}
 				},
 				{
-					"id": 14973,
+					"id": 15826,
 					"name": "pageContentLayout",
 					"variant": "declaration",
 					"kind": 1024,
@@ -165,7 +165,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 							"line": 9,
 							"character": 4
 						}
@@ -193,7 +193,7 @@
 					}
 				},
 				{
-					"id": 14977,
+					"id": 15830,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -202,25 +202,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 3,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14922,
+						"target": 15775,
 						"name": "ThemeScheme.scheme"
 					}
 				},
 				{
-					"id": 14974,
+					"id": 15827,
 					"name": "side",
 					"variant": "declaration",
 					"kind": 1024,
@@ -229,7 +229,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 							"line": 10,
 							"character": 4
 						}
@@ -246,7 +246,7 @@
 					}
 				},
 				{
-					"id": 14979,
+					"id": 15832,
 					"name": "theme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -255,25 +255,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 4,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14923,
+						"target": 15776,
 						"name": "ThemeScheme.theme"
 					}
 				},
 				{
-					"id": 14980,
+					"id": 15833,
 					"name": "themeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -282,25 +282,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 5,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14924,
+						"target": 15777,
 						"name": "ThemeScheme.themeContent"
 					}
 				},
 				{
-					"id": 14981,
+					"id": 15834,
 					"name": "themeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -309,25 +309,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 6,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14925,
+						"target": 15778,
 						"name": "ThemeScheme.themeControls"
 					}
 				},
 				{
-					"id": 14975,
+					"id": 15828,
 					"name": "title",
 					"variant": "declaration",
 					"kind": 1024,
@@ -336,7 +336,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 							"line": 11,
 							"character": 4
 						}
@@ -357,24 +357,24 @@
 				{
 					"title": "Properties",
 					"children": [
-						14978,
-						14970,
-						14971,
-						14972,
-						14976,
-						14973,
-						14977,
-						14974,
-						14979,
-						14980,
-						14981,
-						14975
+						15831,
+						15823,
+						15824,
+						15825,
+						15829,
+						15826,
+						15830,
+						15827,
+						15832,
+						15833,
+						15834,
+						15828
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Layout/LayoutPage.d.ts",
+					"fileName": "packages/ui/dist/types/deprecated/Layout/LayoutPage.d.ts",
 					"line": 5,
 					"character": 17
 				}
@@ -389,7 +389,7 @@
 					"typeArguments": [
 						{
 							"type": "reference",
-							"target": 15368,
+							"target": 15651,
 							"name": "TitleBarProps",
 							"package": "@contember/ui"
 						},
@@ -412,7 +412,7 @@
 				},
 				{
 					"type": "reference",
-					"target": 14921,
+					"target": 15774,
 					"name": "ThemeScheme",
 					"package": "@contember/ui"
 				}
@@ -420,20 +420,20 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 2781,
+					"target": 3099,
 					"name": "LayoutRendererProps"
 				}
 			]
 		},
 		{
-			"id": 14921,
+			"id": 15774,
 			"name": "ThemeScheme",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14922,
+					"id": 15775,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -442,20 +442,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 3,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14923,
+					"id": 15776,
 					"name": "theme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -464,20 +464,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 4,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14924,
+					"id": 15777,
 					"name": "themeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -486,20 +486,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 5,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14925,
+					"id": 15778,
 					"name": "themeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -508,14 +508,14 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 6,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					}
@@ -525,16 +525,16 @@
 				{
 					"title": "Properties",
 					"children": [
-						14922,
-						14923,
-						14924,
-						14925
+						15775,
+						15776,
+						15777,
+						15778
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+					"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 					"line": 2,
 					"character": 17
 				}
@@ -542,30 +542,30 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 14948,
+					"target": 15651,
+					"name": "TitleBarProps"
+				},
+				{
+					"type": "reference",
+					"target": 15801,
 					"name": "LayoutChromeProps"
 				},
 				{
 					"type": "reference",
-					"target": 14969,
+					"target": 15822,
 					"name": "LayoutPageProps"
-				},
-				{
-					"type": "reference",
-					"target": 15368,
-					"name": "TitleBarProps"
 				}
 			]
 		},
 		{
-			"id": 15368,
+			"id": 15651,
 			"name": "TitleBarProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15372,
+					"id": 15655,
 					"name": "actions",
 					"variant": "declaration",
 					"kind": 1024,
@@ -591,7 +591,7 @@
 					}
 				},
 				{
-					"id": 15369,
+					"id": 15652,
 					"name": "after",
 					"variant": "declaration",
 					"kind": 1024,
@@ -617,7 +617,7 @@
 					}
 				},
 				{
-					"id": 15371,
+					"id": 15654,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -641,7 +641,7 @@
 					}
 				},
 				{
-					"id": 15370,
+					"id": 15653,
 					"name": "navigation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -667,7 +667,7 @@
 					}
 				},
 				{
-					"id": 15373,
+					"id": 15656,
 					"name": "scheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -676,25 +676,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 3,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14922,
+						"target": 15775,
 						"name": "ThemeScheme.scheme"
 					}
 				},
 				{
-					"id": 15374,
+					"id": 15657,
 					"name": "theme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -703,25 +703,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 4,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14923,
+						"target": 15776,
 						"name": "ThemeScheme.theme"
 					}
 				},
 				{
-					"id": 15375,
+					"id": 15658,
 					"name": "themeContent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -730,25 +730,25 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 5,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14924,
+						"target": 15777,
 						"name": "ThemeScheme.themeContent"
 					}
 				},
 				{
-					"id": 15376,
+					"id": 15659,
 					"name": "themeControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -757,20 +757,20 @@
 					},
 					"sources": [
 						{
-							"fileName": "packages/ui/dist/types/components/Layout/Types.d.ts",
+							"fileName": "packages/ui/dist/types/deprecated/Layout/Types.d.ts",
 							"line": 6,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18287,
+						"target": 18672,
 						"name": "Intent",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 14925,
+						"target": 15778,
 						"name": "ThemeScheme.themeControls"
 					}
 				}
@@ -779,14 +779,14 @@
 				{
 					"title": "Properties",
 					"children": [
-						15372,
-						15369,
-						15371,
-						15370,
-						15373,
-						15374,
-						15375,
-						15376
+						15655,
+						15652,
+						15654,
+						15653,
+						15656,
+						15657,
+						15658,
+						15659
 					]
 				}
 			],
@@ -800,14 +800,14 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 14921,
+					"target": 15774,
 					"name": "ThemeScheme",
 					"package": "@contember/ui"
 				}
 			]
 		},
 		{
-			"id": 4960,
+			"id": 5278,
 			"name": "GenericPageProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -817,7 +817,7 @@
 					"fileName": "packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx",
 					"line": 5,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L5"
 				}
 			],
 			"type": {
@@ -832,7 +832,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 14969,
+								"target": 15822,
 								"name": "LayoutPageProps",
 								"package": "@contember/ui"
 							},
@@ -847,14 +847,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4961,
+							"id": 5279,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4963,
+									"id": 5281,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -864,7 +864,7 @@
 											"fileName": "packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx",
 											"line": 9,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L9"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L9"
 										}
 									],
 									"type": {
@@ -879,7 +879,7 @@
 									}
 								},
 								{
-									"id": 4962,
+									"id": 5280,
 									"name": "pageName",
 									"variant": "declaration",
 									"kind": 1024,
@@ -891,7 +891,7 @@
 											"fileName": "packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx",
 											"line": 8,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L8"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L8"
 										}
 									],
 									"type": {
@@ -904,8 +904,8 @@
 								{
 									"title": "Properties",
 									"children": [
-										4963,
-										4962
+										5281,
+										5280
 									]
 								}
 							],
@@ -914,7 +914,7 @@
 									"fileName": "packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx",
 									"line": 7,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L7"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L7"
 								}
 							]
 						}
@@ -923,7 +923,7 @@
 			}
 		},
 		{
-			"id": 4964,
+			"id": 5282,
 			"name": "GenericPage",
 			"variant": "declaration",
 			"kind": 64,
@@ -933,12 +933,12 @@
 					"fileName": "packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx",
 					"line": 24,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L24"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L24"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4965,
+					"id": 5283,
 					"name": "GenericPage",
 					"variant": "signature",
 					"kind": 4096,
@@ -973,19 +973,19 @@
 							"fileName": "packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx",
 							"line": 25,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L25"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/pageRouting/pageComponents/GenericPage.tsx#L25"
 						}
 					],
 					"parameters": [
 						{
-							"id": 4966,
+							"id": 5284,
 							"name": "__namedParameters",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4960,
+								"target": 5278,
 								"name": "GenericPageProps",
 								"package": "@contember/admin"
 							}

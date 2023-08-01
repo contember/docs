@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 4346,
+			"id": 4672,
 			"name": "FileUrlDataExtractorProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4347,
+					"id": 4673,
 					"name": "urlField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx#L7"
 						}
 					],
 					"type": {
@@ -35,7 +35,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -47,7 +47,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						4347
+						4673
 					]
 				}
 			],
@@ -56,19 +56,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx",
 					"line": 6,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getFileUrlDataExtractor.tsx#L6"
 				}
 			]
 		},
 		{
-			"id": 4351,
+			"id": 4677,
 			"name": "GenericFileMetadataExtractorProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4352,
+					"id": 4678,
 					"name": "fileNameField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -80,7 +80,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L6"
 						}
 					],
 					"type": {
@@ -92,7 +92,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -100,7 +100,7 @@
 					}
 				},
 				{
-					"id": 4354,
+					"id": 4680,
 					"name": "fileSizeField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -112,7 +112,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L8"
 						}
 					],
 					"type": {
@@ -124,7 +124,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -132,7 +132,7 @@
 					}
 				},
 				{
-					"id": 4355,
+					"id": 4681,
 					"name": "fileTypeField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -144,7 +144,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L9"
 						}
 					],
 					"type": {
@@ -156,7 +156,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -164,7 +164,7 @@
 					}
 				},
 				{
-					"id": 4353,
+					"id": 4679,
 					"name": "lastModifiedField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -176,7 +176,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L7"
 						}
 					],
 					"type": {
@@ -188,7 +188,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -200,10 +200,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						4352,
-						4354,
-						4355,
-						4353
+						4678,
+						4680,
+						4681,
+						4679
 					]
 				}
 			],
@@ -212,19 +212,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx",
 					"line": 5,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getGenericFileMetadataExtractor.tsx#L5"
 				}
 			]
 		},
 		{
-			"id": 4501,
+			"id": 4827,
 			"name": "InternalFileKind",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4503,
+					"id": 4829,
 					"name": "acceptFile",
 					"variant": "declaration",
 					"kind": 1024,
@@ -239,7 +239,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "AcceptFileKindError",
-								"target": 4257
+								"target": 4583
 							},
 							{
 								"kind": "text",
@@ -252,7 +252,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 22,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
 						}
 					],
 					"type": {
@@ -265,7 +265,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 4504,
+									"id": 4830,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -275,12 +275,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 											"line": 22,
 											"character": 14,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
 										}
 									],
 									"signatures": [
 										{
-											"id": 4505,
+											"id": 4831,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -290,19 +290,19 @@
 													"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 													"line": 22,
 													"character": 14,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L22"
 												}
 											],
 											"parameters": [
 												{
-													"id": 4506,
+													"id": 4832,
 													"name": "options",
 													"variant": "param",
 													"kind": 32768,
 													"flags": {},
 													"type": {
 														"type": "reference",
-														"target": 4491,
+														"target": 4817,
 														"name": "AcceptFileOptions",
 														"package": "@contember/admin"
 													}
@@ -342,7 +342,7 @@
 					}
 				},
 				{
-					"id": 4502,
+					"id": 4828,
 					"name": "acceptMimeTypes",
 					"variant": "declaration",
 					"kind": 1024,
@@ -352,7 +352,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L19"
 						}
 					],
 					"type": {
@@ -377,7 +377,7 @@
 					}
 				},
 				{
-					"id": 4513,
+					"id": 4839,
 					"name": "baseEntity",
 					"variant": "declaration",
 					"kind": 1024,
@@ -389,7 +389,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 27,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L27"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L27"
 						}
 					],
 					"type": {
@@ -398,7 +398,7 @@
 					}
 				},
 				{
-					"id": 4515,
+					"id": 4841,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -410,7 +410,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 29,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L29"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L29"
 						}
 					],
 					"type": {
@@ -425,7 +425,7 @@
 					}
 				},
 				{
-					"id": 4514,
+					"id": 4840,
 					"name": "childrenOutsideBaseEntity",
 					"variant": "declaration",
 					"kind": 1024,
@@ -437,7 +437,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 28,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L28"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L28"
 						}
 					],
 					"type": {
@@ -446,7 +446,7 @@
 					}
 				},
 				{
-					"id": 4507,
+					"id": 4833,
 					"name": "renderFilePreview",
 					"variant": "declaration",
 					"kind": 1024,
@@ -456,13 +456,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 23,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4508,
+							"id": 4834,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -472,12 +472,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 									"line": 23,
 									"character": 20,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
 								}
 							],
 							"signatures": [
 								{
-									"id": 4509,
+									"id": 4835,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -487,19 +487,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 											"line": 23,
 											"character": 20,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L23"
 										}
 									],
 									"parameters": [
 										{
-											"id": 4510,
+											"id": 4836,
 											"name": "options",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 4486,
+												"target": 4812,
 												"typeArguments": [
 													{
 														"type": "reference",
@@ -529,7 +529,7 @@
 					}
 				},
 				{
-					"id": 4511,
+					"id": 4837,
 					"name": "renderUploadedFile",
 					"variant": "declaration",
 					"kind": 1024,
@@ -539,7 +539,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 24,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L24"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L24"
 						}
 					],
 					"type": {
@@ -554,7 +554,7 @@
 					}
 				},
 				{
-					"id": 4512,
+					"id": 4838,
 					"name": "uploader",
 					"variant": "declaration",
 					"kind": 1024,
@@ -564,12 +564,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 							"line": 25,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L25"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L25"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 11795,
+						"target": 12104,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -579,7 +579,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 11826,
+								"target": 12135,
 								"name": "FileUploadError",
 								"package": "@contember/client"
 							}
@@ -593,14 +593,14 @@
 				{
 					"title": "Properties",
 					"children": [
-						4503,
-						4502,
-						4513,
-						4515,
-						4514,
-						4507,
-						4511,
-						4512
+						4829,
+						4828,
+						4839,
+						4841,
+						4840,
+						4833,
+						4837,
+						4838
 					]
 				}
 			],
@@ -609,12 +609,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 					"line": 18,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L18"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L18"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4516,
+					"id": 4842,
 					"name": "UploadResult",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -625,7 +625,7 @@
 					}
 				},
 				{
-					"id": 4517,
+					"id": 4843,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -638,14 +638,14 @@
 			]
 		},
 		{
-			"id": 4281,
+			"id": 4607,
 			"name": "SelectFileInputSelectionComponentProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4282,
+					"id": 4608,
 					"name": "fileSelectionComponent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -657,7 +657,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L16"
 						}
 					],
 					"type": {
@@ -678,7 +678,7 @@
 									},
 									{
 										"type": "reference",
-										"target": 4266,
+										"target": 4592,
 										"name": "FileSelectionProps",
 										"package": "@contember/admin"
 									}
@@ -691,7 +691,7 @@
 					}
 				},
 				{
-					"id": 4284,
+					"id": 4610,
 					"name": "fileSelectionLabel",
 					"variant": "declaration",
 					"kind": 1024,
@@ -703,7 +703,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L18"
 						}
 					],
 					"type": {
@@ -718,7 +718,7 @@
 					}
 				},
 				{
-					"id": 4283,
+					"id": 4609,
 					"name": "fileSelectionProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -730,7 +730,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L17"
 						}
 					],
 					"type": {
@@ -745,9 +745,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						4282,
-						4284,
-						4283
+						4608,
+						4610,
+						4609
 					]
 				}
 			],
@@ -756,12 +756,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 					"line": 15,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4285,
+					"id": 4611,
 					"name": "SFExtraProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -769,7 +769,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4286,
+							"id": 4612,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -779,7 +779,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx",
 									"line": 15,
 									"character": 77,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/internalComponents/selection/SelectFileInput.tsx#L15"
 								}
 							]
 						}
@@ -788,14 +788,14 @@
 			]
 		},
 		{
-			"id": 4365,
+			"id": 4691,
 			"name": "VideoFileDataExtractorProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 4368,
+					"id": 4694,
 					"name": "durationField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -807,7 +807,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L8"
 						}
 					],
 					"type": {
@@ -819,7 +819,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -827,7 +827,7 @@
 					}
 				},
 				{
-					"id": 4367,
+					"id": 4693,
 					"name": "heightField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -839,7 +839,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L7"
 						}
 					],
 					"type": {
@@ -851,7 +851,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -859,7 +859,7 @@
 					}
 				},
 				{
-					"id": 4366,
+					"id": 4692,
 					"name": "widthField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -871,7 +871,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L6"
 						}
 					],
 					"type": {
@@ -883,7 +883,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -895,9 +895,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						4368,
-						4367,
-						4366
+						4694,
+						4693,
+						4692
 					]
 				}
 			],
@@ -906,12 +906,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx",
 					"line": 5,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileDataExtractors/getVideoFileDataExtractor.tsx#L5"
 				}
 			]
 		},
 		{
-			"id": 4541,
+			"id": 4867,
 			"name": "CommonFileKindProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -921,12 +921,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts",
 					"line": 5,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L5"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4544,
+					"id": 4870,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -942,11 +942,11 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4518,
+						"target": 4844,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 11885,
+								"target": 12194,
 								"name": "S3FileUploader.SuccessMetadata",
 								"package": "@contember/client"
 							},
@@ -962,27 +962,27 @@
 					},
 					{
 						"type": "reference",
-						"target": 4346,
+						"target": 4672,
 						"name": "FileUrlDataExtractorProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 4351,
+						"target": 4677,
 						"name": "GenericFileMetadataExtractorProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4542,
+							"id": 4868,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4543,
+									"id": 4869,
 									"name": "additionalExtractors",
 									"variant": "declaration",
 									"kind": 1024,
@@ -994,14 +994,14 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts",
 											"line": 10,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L10"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L10"
 										}
 									],
 									"type": {
 										"type": "array",
 										"elementType": {
 											"type": "reference",
-											"target": 4321,
+											"target": 4647,
 											"typeArguments": [
 												{
 													"type": "intrinsic",
@@ -1009,7 +1009,7 @@
 												},
 												{
 													"type": "reference",
-													"target": 11885,
+													"target": 12194,
 													"name": "S3FileUploader.SuccessMetadata",
 													"package": "@contember/client"
 												},
@@ -1030,7 +1030,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										4543
+										4869
 									]
 								}
 							],
@@ -1039,7 +1039,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts",
 									"line": 9,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/types.ts#L9"
 								}
 							]
 						}
@@ -1048,7 +1048,7 @@
 			}
 		},
 		{
-			"id": 4518,
+			"id": 4844,
 			"name": "PublicFileKind",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1058,12 +1058,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts",
 					"line": 33,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L33"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/FullFileKind.ts#L33"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4519,
+					"id": 4845,
 					"name": "UploadResult",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1074,7 +1074,7 @@
 					}
 				},
 				{
-					"id": 4520,
+					"id": 4846,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1097,7 +1097,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 4501,
+								"target": 4827,
 								"typeArguments": [
 									{
 										"type": "reference",
@@ -1123,7 +1123,7 @@
 			}
 		},
 		{
-			"id": 4457,
+			"id": 4783,
 			"name": "StockVideoFileKindProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1133,12 +1133,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/factories/getStockVideoFileKind.tsx",
 					"line": 13,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/factories/getStockVideoFileKind.tsx#L13"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/factories/getStockVideoFileKind.tsx#L13"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4458,
+					"id": 4784,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1154,7 +1154,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4541,
+						"target": 4867,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -1168,7 +1168,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 4365,
+						"target": 4691,
 						"name": "VideoFileDataExtractorProps",
 						"package": "@contember/admin"
 					}
@@ -1176,7 +1176,7 @@
 			}
 		},
 		{
-			"id": 4410,
+			"id": 4736,
 			"name": "VideoFilesProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -1186,12 +1186,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 					"line": 8,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L8"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L8"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 4413,
+					"id": 4739,
 					"name": "AcceptArtifacts",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1202,7 +1202,7 @@
 					}
 				},
 				{
-					"id": 4414,
+					"id": 4740,
 					"name": "SFExtraProps",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1210,7 +1210,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4415,
+							"id": 4741,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -1220,7 +1220,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 									"line": 8,
 									"character": 76,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L8"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L8"
 								}
 							]
 						}
@@ -1228,7 +1228,7 @@
 					"default": {
 						"type": "reflection",
 						"declaration": {
-							"id": 4416,
+							"id": 4742,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -1238,7 +1238,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 									"line": 8,
 									"character": 81,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L8"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L8"
 								}
 							]
 						}
@@ -1250,7 +1250,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 4457,
+						"target": 4783,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -1264,7 +1264,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 4281,
+						"target": 4607,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -1279,14 +1279,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 4411,
+							"id": 4737,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 4412,
+									"id": 4738,
 									"name": "discriminateBy",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1296,12 +1296,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 											"line": 12,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L12"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L12"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 1900,
+										"target": 2200,
 										"name": "SugaredDiscriminateBy",
 										"package": "@contember/admin"
 									}
@@ -1311,7 +1311,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										4412
+										4738
 									]
 								}
 							],
@@ -1320,7 +1320,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 									"line": 11,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L11"
 								}
 							]
 						}
@@ -1329,7 +1329,7 @@
 			}
 		},
 		{
-			"id": 4417,
+			"id": 4743,
 			"name": "VideoFiles",
 			"variant": "declaration",
 			"kind": 64,
@@ -1339,12 +1339,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 					"line": 18,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L18"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L18"
 				}
 			],
 			"signatures": [
 				{
-					"id": 4418,
+					"id": 4744,
 					"name": "VideoFiles",
 					"variant": "signature",
 					"kind": 4096,
@@ -1354,12 +1354,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx",
 							"line": 33,
 							"character": 5,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L33"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/upload/fileKinds/components/VideoFiles.tsx#L33"
 						}
 					],
 					"typeParameter": [
 						{
-							"id": 4419,
+							"id": 4745,
 							"name": "AcceptArtifacts",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -1372,14 +1372,14 @@
 					],
 					"parameters": [
 						{
-							"id": 4420,
+							"id": 4746,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 4410,
+								"target": 4736,
 								"typeArguments": [
 									{
 										"type": "reference",
@@ -1390,7 +1390,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 4421,
+											"id": 4747,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,

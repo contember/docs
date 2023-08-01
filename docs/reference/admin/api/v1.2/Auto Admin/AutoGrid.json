@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 1223,
+			"id": 1244,
 			"name": "DataGridContainerPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 1224,
+					"id": 1245,
 					"name": "allowAggregateFilterControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L12"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 1225,
+					"id": 1246,
 					"name": "allowColumnVisibilityControls",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,7 +46,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L13"
 						}
 					],
 					"type": {
@@ -55,7 +55,7 @@
 					}
 				},
 				{
-					"id": 1226,
+					"id": 1247,
 					"name": "emptyMessage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,7 +67,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L14"
 						}
 					],
 					"type": {
@@ -82,7 +82,7 @@
 					}
 				},
 				{
-					"id": 1227,
+					"id": 1248,
 					"name": "emptyMessageComponent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -94,7 +94,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L15"
 						}
 					],
 					"type": {
@@ -115,7 +115,7 @@
 					}
 				},
 				{
-					"id": 1228,
+					"id": 1249,
 					"name": "emptyMessageComponentExtraProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -127,13 +127,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L16"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 1229,
+							"id": 1250,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -142,7 +142,7 @@
 					}
 				},
 				{
-					"id": 1230,
+					"id": 1251,
 					"name": "onEntityClick",
 					"variant": "declaration",
 					"kind": 1024,
@@ -154,13 +154,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 1231,
+							"id": 1252,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -170,12 +170,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 									"line": 17,
 									"character": 17,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
 								}
 							],
 							"signatures": [
 								{
-									"id": 1232,
+									"id": 1253,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -185,19 +185,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 											"line": 17,
 											"character": 17,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L17"
 										}
 									],
 									"parameters": [
 										{
-											"id": 1233,
+											"id": 1254,
 											"name": "entity",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 6993,
+												"target": 7302,
 												"name": "EntityAccessor",
 												"package": "@contember/binding"
 											}
@@ -213,7 +213,7 @@
 					}
 				},
 				{
-					"id": 1234,
+					"id": 1255,
 					"name": "selectedEntityIds",
 					"variant": "declaration",
 					"kind": 1024,
@@ -225,21 +225,21 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L18"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 9404,
+							"target": 9713,
 							"name": "EntityId",
 							"package": "@contember/binding"
 						}
 					}
 				},
 				{
-					"id": 1235,
+					"id": 1256,
 					"name": "tile",
 					"variant": "declaration",
 					"kind": 1024,
@@ -251,7 +251,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L19"
 						}
 					],
 					"type": {
@@ -266,7 +266,7 @@
 					}
 				},
 				{
-					"id": 1236,
+					"id": 1257,
 					"name": "tileSize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -278,7 +278,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L20"
 						}
 					],
 					"type": {
@@ -291,15 +291,15 @@
 				{
 					"title": "Properties",
 					"children": [
-						1224,
-						1225,
-						1226,
-						1227,
-						1228,
-						1230,
-						1234,
-						1235,
-						1236
+						1245,
+						1246,
+						1247,
+						1248,
+						1249,
+						1251,
+						1255,
+						1256,
+						1257
 					]
 				}
 			],
@@ -308,13 +308,13 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts",
 					"line": 11,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L11"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridContainer/Types.ts#L11"
 				}
 			],
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1237,
+					"target": 1258,
 					"name": "DataGridContainerOwnProps"
 				}
 			]
@@ -330,7 +330,7 @@
 					"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 					"line": 6,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L6"
 				}
 			],
 			"type": {
@@ -338,7 +338,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 1223,
+						"target": 1244,
 						"name": "DataGridContainerPublicProps",
 						"package": "@contember/admin"
 					},
@@ -364,7 +364,7 @@
 											"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 											"line": 11,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L11"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L11"
 										}
 									],
 									"type": {
@@ -380,7 +380,7 @@
 													"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 													"line": 11,
 													"character": 25,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L11"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L11"
 												}
 											],
 											"signatures": [
@@ -405,7 +405,7 @@
 													],
 													"type": {
 														"type": "reference",
-														"target": 5945,
+														"target": 6254,
 														"name": "RoutingLinkTarget",
 														"package": "@contember/admin"
 													}
@@ -427,7 +427,7 @@
 											"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 											"line": 10,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L10"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L10"
 										}
 									],
 									"type": {
@@ -443,7 +443,7 @@
 													"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 													"line": 10,
 													"character": 25,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L10"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L10"
 												}
 											],
 											"signatures": [
@@ -468,7 +468,7 @@
 													],
 													"type": {
 														"type": "reference",
-														"target": 5945,
+														"target": 6254,
 														"name": "RoutingLinkTarget",
 														"package": "@contember/admin"
 													}
@@ -488,7 +488,7 @@
 											"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 											"line": 9,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L9"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L9"
 										}
 									],
 									"type": {
@@ -499,7 +499,7 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 1653,
+											"target": 1674,
 											"typeArguments": [
 												{
 													"type": "intrinsic",
@@ -527,7 +527,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 									"line": 8,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L8"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L8"
 								}
 							]
 						}
@@ -546,7 +546,7 @@
 					"fileName": "packages/admin/src/components/Auto/AutoGrid.tsx",
 					"line": 17,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoGrid.tsx#L17"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoGrid.tsx#L17"
 				}
 			],
 			"signatures": [

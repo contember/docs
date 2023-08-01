@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 14680,
+			"id": 15045,
 			"name": "RadioProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14681,
+					"id": 15046,
 					"name": "RadioButtonComponent",
 					"variant": "declaration",
 					"kind": 1024,
@@ -36,7 +36,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 14672,
+								"target": 15037,
 								"name": "RadioButtonProps",
 								"package": "@contember/ui"
 							}
@@ -47,7 +47,7 @@
 					}
 				},
 				{
-					"id": 14682,
+					"id": 15047,
 					"name": "disabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,7 +67,7 @@
 					}
 				},
 				{
-					"id": 14683,
+					"id": 15048,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -87,7 +87,7 @@
 					}
 				},
 				{
-					"id": 14684,
+					"id": 15049,
 					"name": "onChange",
 					"variant": "declaration",
 					"kind": 1024,
@@ -102,7 +102,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 14685,
+							"id": 15050,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -116,7 +116,7 @@
 							],
 							"signatures": [
 								{
-									"id": 14686,
+									"id": 15051,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -130,7 +130,7 @@
 									],
 									"parameters": [
 										{
-											"id": 14687,
+											"id": 15052,
 											"name": "newValue",
 											"variant": "param",
 											"kind": 32768,
@@ -151,7 +151,7 @@
 					}
 				},
 				{
-					"id": 14688,
+					"id": 15053,
 					"name": "options",
 					"variant": "declaration",
 					"kind": 1024,
@@ -167,14 +167,14 @@
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 14697,
+							"target": 15062,
 							"name": "RadioOption",
 							"package": "@contember/ui"
 						}
 					}
 				},
 				{
-					"id": 14689,
+					"id": 15054,
 					"name": "orientation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -203,7 +203,7 @@
 					}
 				},
 				{
-					"id": 14690,
+					"id": 15055,
 					"name": "readOnly",
 					"variant": "declaration",
 					"kind": 1024,
@@ -223,7 +223,7 @@
 					}
 				},
 				{
-					"id": 14691,
+					"id": 15056,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -239,13 +239,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14692,
+					"id": 15057,
 					"name": "validationState",
 					"variant": "declaration",
 					"kind": 1024,
@@ -261,13 +261,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18293,
+						"target": 18678,
 						"name": "ValidationState",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 14693,
+					"id": 15058,
 					"name": "value",
 					"variant": "declaration",
 					"kind": 1024,
@@ -291,16 +291,16 @@
 				{
 					"title": "Properties",
 					"children": [
-						14681,
-						14682,
-						14683,
-						14684,
-						14688,
-						14689,
-						14690,
-						14691,
-						14692,
-						14693
+						15046,
+						15047,
+						15048,
+						15049,
+						15053,
+						15054,
+						15055,
+						15056,
+						15057,
+						15058
 					]
 				}
 			],
@@ -313,7 +313,7 @@
 			]
 		},
 		{
-			"id": 14694,
+			"id": 15059,
 			"name": "Radio",
 			"variant": "declaration",
 			"kind": 64,
@@ -327,7 +327,7 @@
 			],
 			"signatures": [
 				{
-					"id": 14695,
+					"id": 15060,
 					"name": "Radio",
 					"variant": "signature",
 					"kind": 4096,
@@ -341,14 +341,14 @@
 					],
 					"parameters": [
 						{
-							"id": 14696,
+							"id": 15061,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 14680,
+								"target": 15045,
 								"name": "RadioProps",
 								"package": "@contember/ui"
 							}

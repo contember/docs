@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 8572,
+			"id": 8881,
 			"name": "StaticRenderProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 8573,
+					"id": 8882,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -43,7 +43,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						8573
+						8882
 					]
 				}
 			],
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"id": 8574,
+			"id": 8883,
 			"name": "StaticRender",
 			"variant": "declaration",
 			"kind": 64,
@@ -70,7 +70,7 @@
 			],
 			"signatures": [
 				{
-					"id": 8575,
+					"id": 8884,
 					"name": "StaticRender",
 					"variant": "signature",
 					"kind": 4096,
@@ -84,14 +84,14 @@
 					],
 					"parameters": [
 						{
-							"id": 8576,
+							"id": 8885,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 8572,
+								"target": 8881,
 								"name": "StaticRenderProps",
 								"package": "@contember/binding"
 							}

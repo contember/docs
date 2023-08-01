@@ -58,7 +58,7 @@
 									"fileName": "packages/layout/src/directives/Directive.tsx",
 									"line": 11,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L11"
 								}
 							],
 							"type": {
@@ -81,7 +81,7 @@
 							"fileName": "packages/layout/src/directives/Directive.tsx",
 							"line": 8,
 							"character": 17,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L8"
 						}
 					],
 					"typeParameters": [
@@ -290,7 +290,7 @@
 							"fileName": "packages/layout/src/directives/Directive.tsx",
 							"line": 6,
 							"character": 12,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 						}
 					],
 					"typeParameters": [
@@ -347,7 +347,7 @@
 													"fileName": "packages/layout/src/directives/Directive.tsx",
 													"line": 6,
 													"character": 61,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 												}
 											],
 											"type": {
@@ -377,7 +377,7 @@
 													"fileName": "packages/layout/src/directives/Directive.tsx",
 													"line": 6,
 													"character": 52,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 												}
 											],
 											"type": {
@@ -402,7 +402,7 @@
 											"fileName": "packages/layout/src/directives/Directive.tsx",
 											"line": 6,
 											"character": 50,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 										}
 									]
 								}
@@ -421,7 +421,7 @@
 							"fileName": "packages/layout/src/directives/Provider.tsx",
 							"line": 11,
 							"character": 12,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Provider.tsx#L11"
 						}
 					],
 					"type": {
@@ -444,7 +444,7 @@
 											"fileName": "packages/layout/src/directives/Provider.tsx",
 											"line": 13,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L13"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Provider.tsx#L13"
 										}
 									],
 									"type": {
@@ -473,7 +473,7 @@
 															"fileName": "packages/layout/src/directives/Provider.tsx",
 															"line": 13,
 															"character": 24,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L13"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Provider.tsx#L13"
 														}
 													],
 													"signatures": [
@@ -541,7 +541,7 @@
 											"fileName": "packages/layout/src/directives/Provider.tsx",
 											"line": 12,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L12"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Provider.tsx#L12"
 										}
 									],
 									"type": {
@@ -579,7 +579,7 @@
 									"fileName": "packages/layout/src/directives/Provider.tsx",
 									"line": 11,
 									"character": 28,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Provider.tsx#L11"
 								}
 							]
 						}
@@ -596,7 +596,7 @@
 							"fileName": "packages/layout/src/directives/types.ts",
 							"line": 1,
 							"character": 12,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L1"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L1"
 						}
 					],
 					"typeParameters": [
@@ -647,7 +647,7 @@
 											"fileName": "packages/layout/src/directives/types.ts",
 											"line": 2,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L2"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L2"
 										}
 									],
 									"type": {
@@ -666,7 +666,7 @@
 															"fileName": "packages/layout/src/directives/types.ts",
 															"line": 2,
 															"character": 12,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L2"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L2"
 														}
 													],
 													"signatures": [
@@ -769,7 +769,7 @@
 											"fileName": "packages/layout/src/directives/types.ts",
 											"line": 4,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L4"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L4"
 										}
 									],
 									"type": {
@@ -788,7 +788,7 @@
 															"fileName": "packages/layout/src/directives/types.ts",
 															"line": 4,
 															"character": 14,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L4"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L4"
 														}
 													],
 													"signatures": [
@@ -869,7 +869,7 @@
 											"fileName": "packages/layout/src/directives/types.ts",
 											"line": 3,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L3"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L3"
 										}
 									],
 									"type": {
@@ -888,7 +888,7 @@
 															"fileName": "packages/layout/src/directives/types.ts",
 															"line": 3,
 															"character": 10,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L3"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L3"
 														}
 													],
 													"signatures": [
@@ -996,7 +996,7 @@
 									"fileName": "packages/layout/src/directives/types.ts",
 									"line": 1,
 									"character": 69,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/types.ts#L1"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/types.ts#L1"
 								}
 							]
 						}
@@ -1013,7 +1013,7 @@
 							"fileName": "packages/layout/src/directives/contexts.tsx",
 							"line": 9,
 							"character": 14,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/contexts.tsx#L9"
 						}
 					],
 					"type": {
@@ -1069,7 +1069,7 @@
 							"fileName": "packages/layout/src/directives/contexts.tsx",
 							"line": 6,
 							"character": 13,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/contexts.tsx#L6"
 						}
 					],
 					"type": {
@@ -1106,7 +1106,7 @@
 							"fileName": "packages/layout/src/directives/Directive.tsx",
 							"line": 51,
 							"character": 13,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L51"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L51"
 						}
 					],
 					"signatures": [
@@ -1150,7 +1150,7 @@
 															"fileName": "packages/layout/src/directives/Directive.tsx",
 															"line": 6,
 															"character": 61,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 														}
 													],
 													"type": {
@@ -1169,7 +1169,7 @@
 															"fileName": "packages/layout/src/directives/Directive.tsx",
 															"line": 6,
 															"character": 52,
-															"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+															"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 														}
 													],
 													"type": {
@@ -1192,7 +1192,7 @@
 													"fileName": "packages/layout/src/directives/Directive.tsx",
 													"line": 6,
 													"character": 50,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L6"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L6"
 												}
 											]
 										}
@@ -1263,7 +1263,7 @@
 							"fileName": "packages/layout/src/directives/Provider.tsx",
 							"line": 19,
 							"character": 13,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Provider.tsx#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Provider.tsx#L19"
 						}
 					],
 					"signatures": [
@@ -1359,7 +1359,7 @@
 							"fileName": "packages/layout/src/directives/Directive.tsx",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L14"
 						}
 					],
 					"signatures": [
@@ -1374,7 +1374,7 @@
 									"fileName": "packages/layout/src/directives/Directive.tsx",
 									"line": 14,
 									"character": 0,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/Directive.tsx#L14"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/Directive.tsx#L14"
 								}
 							],
 							"typeParameter": [
@@ -1476,7 +1476,7 @@
 							"fileName": "packages/layout/src/directives/contexts.tsx",
 							"line": 15,
 							"character": 16,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/contexts.tsx#L15"
 						}
 					],
 					"signatures": [
@@ -1491,7 +1491,7 @@
 									"fileName": "packages/layout/src/directives/contexts.tsx",
 									"line": 15,
 									"character": 0,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L15"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/contexts.tsx#L15"
 								}
 							],
 							"typeParameter": [
@@ -1532,7 +1532,7 @@
 							"fileName": "packages/layout/src/directives/contexts.tsx",
 							"line": 9,
 							"character": 31,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/contexts.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/contexts.tsx#L9"
 						}
 					],
 					"signatures": [
@@ -1623,7 +1623,7 @@
 					"fileName": "packages/layout/src/directives/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/directives/index.ts#L1"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/directives/index.ts#L1"
 				}
 			]
 		}

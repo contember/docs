@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 12755,
+			"id": 13088,
 			"name": "ErrorListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12756,
+					"id": 13089,
 					"name": "errors",
 					"variant": "declaration",
 					"kind": 1024,
@@ -29,7 +29,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15565,
+						"target": 15950,
 						"name": "FieldErrors",
 						"package": "@contember/ui"
 					}
@@ -39,7 +39,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						12756
+						13089
 					]
 				}
 			],
@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"id": 13754,
+			"id": 14114,
 			"name": "FieldContainer",
 			"variant": "declaration",
 			"kind": 64,
@@ -60,17 +60,61 @@
 			"sources": [
 				{
 					"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-					"line": 24,
+					"line": 99,
 					"character": 21
 				}
 			],
 			"signatures": [
 				{
-					"id": 13755,
+					"id": 14115,
 					"name": "FieldContainer",
 					"variant": "signature",
 					"kind": 4096,
 					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The "
+							},
+							{
+								"kind": "code",
+								"text": "`FieldContainer`"
+							},
+							{
+								"kind": "text",
+								"text": " component is a container that can be used to wrap inputs to form a labeled field."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "text",
+										"text": "A basic FieldContainer:\n"
+									},
+									{
+										"kind": "code",
+										"text": "```tsx\n<FieldContainer label=\"Lorem ipsum\">\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n```"
+									}
+								]
+							},
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "text",
+										"text": "FieldContainer with various label positions:\n"
+									},
+									{
+										"kind": "code",
+										"text": "```tsx\n<FieldContainer\n\tlabel=\"Lorem ipsum\"\n\tlabelDescription=\"Lorem ipsum dolor\"\n\tdescription=\"Lorem ipsum dolor sit amet\"\n>\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n\n<FieldContainer\n\tdisplay=\"inline\"\n\tlabel=\"Lorem ipsum\"\n\tlabelPosition=\"left\"\n\tlabelDescription=\"Lorem ipsum dolor\"\n\tdescription=\"Lorem ipsum dolor sit amet\"\n>\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n\n<FieldContainer\n\tdisplay=\"inline\"\n\tlabelPosition=\"right\"\n\tlabel=\"Lorem ipsum\"\n\tlabelDescription=\"Lorem ipsum dolor\"\n\tdescription=\"Lorem ipsum dolor sit amet\"\n>\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n\n<FieldContainer\n\tlabelPosition=\"left\"\n\tlabel=\"Lorem ipsum\"\n\tlabelDescription=\"Lorem ipsum dolor\"\n\tdescription=\"Lorem ipsum dolor sit amet\"\n>\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n\n<FieldContainer\n\tlabelPosition=\"right\"\n\tlabel=\"Lorem ipsum\"\n\tlabelDescription=\"Lorem ipsum dolor\"\n\tdescription=\"Lorem ipsum dolor sit amet\"\n>\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n\n<FieldContainer\n\tlabelPosition=\"bottom\"\n\tlabel=\"Lorem ipsum\"\n\tlabelDescription=\"Lorem ipsum dolor\"\n\tdescription=\"Lorem ipsum dolor sit amet\"\n>\n\t<TextInput name=\"name\" placeholder=\"Enter name...\" />\n</FieldContainer>\n```"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
 							"fileName": "node_modules/@types/react/ts5.0/index.d.ts",
@@ -80,7 +124,7 @@
 					],
 					"parameters": [
 						{
-							"id": 13756,
+							"id": 14116,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
@@ -91,14 +135,14 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 13757,
+											"id": 14117,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
 											"flags": {},
 											"children": [
 												{
-													"id": 13758,
+													"id": 14118,
 													"name": "children",
 													"variant": "declaration",
 													"kind": 1024,
@@ -122,7 +166,7 @@
 													}
 												},
 												{
-													"id": 13770,
+													"id": 14134,
 													"name": "className",
 													"variant": "declaration",
 													"kind": 1024,
@@ -132,7 +176,7 @@
 													"sources": [
 														{
 															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 19,
+															"line": 25,
 															"character": 4
 														}
 													],
@@ -142,7 +186,7 @@
 													}
 												},
 												{
-													"id": 13759,
+													"id": 14119,
 													"name": "description",
 													"variant": "declaration",
 													"kind": 1024,
@@ -168,17 +212,39 @@
 													}
 												},
 												{
-													"id": 13760,
+													"id": 14120,
 													"name": "direction",
 													"variant": "declaration",
 													"kind": 1024,
 													"flags": {
 														"isOptional": true
 													},
+													"comment": {
+														"summary": [],
+														"blockTags": [
+															{
+																"tag": "@deprecated",
+																"content": [
+																	{
+																		"kind": "text",
+																		"text": "Use "
+																	},
+																	{
+																		"kind": "code",
+																		"text": "`horizontal`"
+																	},
+																	{
+																		"kind": "text",
+																		"text": " instead"
+																	}
+																]
+															}
+														]
+													},
 													"sources": [
 														{
 															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 9,
+															"line": 10,
 															"character": 4
 														}
 													],
@@ -205,89 +271,8 @@
 													}
 												},
 												{
-													"id": 13761,
-													"name": "gap",
-													"variant": "declaration",
-													"kind": 1024,
-													"flags": {
-														"isOptional": true
-													},
-													"sources": [
-														{
-															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 10,
-															"character": 4
-														}
-													],
-													"type": {
-														"type": "union",
-														"types": [
-															{
-																"type": "literal",
-																"value": "none"
-															},
-															{
-																"type": "reference",
-																"target": 18292,
-																"name": "Size",
-																"package": "@contember/ui"
-															}
-														]
-													}
-												},
-												{
-													"id": 13762,
-													"name": "label",
-													"variant": "declaration",
-													"kind": 1024,
-													"flags": {},
-													"sources": [
-														{
-															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 11,
-															"character": 4
-														}
-													],
-													"type": {
-														"type": "reference",
-														"target": {
-															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-															"qualifiedName": "React.ReactNode"
-														},
-														"name": "ReactNode",
-														"package": "@types/react",
-														"qualifiedName": "React.ReactNode"
-													}
-												},
-												{
-													"id": 13763,
-													"name": "labelDescription",
-													"variant": "declaration",
-													"kind": 1024,
-													"flags": {
-														"isOptional": true
-													},
-													"sources": [
-														{
-															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 12,
-															"character": 4
-														}
-													],
-													"type": {
-														"type": "reference",
-														"target": {
-															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-															"qualifiedName": "React.ReactNode"
-														},
-														"name": "ReactNode",
-														"package": "@types/react",
-														"qualifiedName": "React.ReactNode"
-													}
-												},
-												{
-													"id": 13764,
-													"name": "labelPosition",
+													"id": 14123,
+													"name": "display",
 													"variant": "declaration",
 													"kind": 1024,
 													"flags": {
@@ -301,15 +286,22 @@
 														}
 													],
 													"type": {
-														"type": "reference",
-														"target": 13771,
-														"name": "FieldContainerLabelPosition",
-														"package": "@contember/ui"
+														"type": "union",
+														"types": [
+															{
+																"type": "literal",
+																"value": "inline"
+															},
+															{
+																"type": "literal",
+																"value": "block"
+															}
+														]
 													}
 												},
 												{
-													"id": 13766,
-													"name": "required",
+													"id": 14121,
+													"name": "evenly",
 													"variant": "declaration",
 													"kind": 1024,
 													"flags": {
@@ -318,7 +310,7 @@
 													"sources": [
 														{
 															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 15,
+															"line": 11,
 															"character": 4
 														}
 													],
@@ -328,8 +320,99 @@
 													}
 												},
 												{
-													"id": 13767,
-													"name": "size",
+													"id": 14122,
+													"name": "gap",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 12,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															{
+																"type": "literal",
+																"value": "padding"
+															},
+															{
+																"type": "literal",
+																"value": "larger"
+															},
+															{
+																"type": "literal",
+																"value": "gap"
+															},
+															{
+																"type": "literal",
+																"value": "gutter"
+															},
+															{
+																"type": "reference",
+																"target": 15553,
+																"name": "DeprecatedStackSize",
+																"package": "@contember/ui"
+															}
+														]
+													}
+												},
+												{
+													"id": 14124,
+													"name": "horizontal",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 14,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 14125,
+													"name": "label",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 15,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												},
+												{
+													"id": 14126,
+													"name": "labelDescription",
 													"variant": "declaration",
 													"kind": 1024,
 													"flags": {
@@ -344,13 +427,101 @@
 													],
 													"type": {
 														"type": "reference",
-														"target": 18292,
+														"target": {
+															"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+															"qualifiedName": "React.ReactNode"
+														},
+														"name": "ReactNode",
+														"package": "@types/react",
+														"qualifiedName": "React.ReactNode"
+													}
+												},
+												{
+													"id": 14127,
+													"name": "labelPosition",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 17,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 14135,
+														"name": "FieldContainerLabelPosition",
+														"package": "@contember/ui"
+													}
+												},
+												{
+													"id": 14129,
+													"name": "required",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 20,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 14132,
+													"name": "reverse",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 23,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 14130,
+													"name": "size",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+															"line": 21,
+															"character": 4
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 18677,
 														"name": "Size",
 														"package": "@contember/ui"
 													}
 												},
 												{
-													"id": 13769,
+													"id": 14133,
 													"name": "style",
 													"variant": "declaration",
 													"kind": 1024,
@@ -360,7 +531,7 @@
 													"sources": [
 														{
 															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 18,
+															"line": 24,
 															"character": 4
 														}
 													],
@@ -376,7 +547,7 @@
 													}
 												},
 												{
-													"id": 13768,
+													"id": 14131,
 													"name": "useLabelElement",
 													"variant": "declaration",
 													"kind": 1024,
@@ -386,7 +557,7 @@
 													"sources": [
 														{
 															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 17,
+															"line": 22,
 															"character": 4
 														}
 													],
@@ -396,17 +567,31 @@
 													}
 												},
 												{
-													"id": 13765,
+													"id": 14128,
 													"name": "width",
 													"variant": "declaration",
 													"kind": 1024,
 													"flags": {
 														"isOptional": true
 													},
+													"comment": {
+														"summary": [],
+														"blockTags": [
+															{
+																"tag": "@deprecated",
+																"content": [
+																	{
+																		"kind": "text",
+																		"text": "No alternative"
+																	}
+																]
+															}
+														]
+													},
 													"sources": [
 														{
 															"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-															"line": 14,
+															"line": 19,
 															"character": 4
 														}
 													],
@@ -433,19 +618,23 @@
 												{
 													"title": "Properties",
 													"children": [
-														13758,
-														13770,
-														13759,
-														13760,
-														13761,
-														13762,
-														13763,
-														13764,
-														13766,
-														13767,
-														13769,
-														13768,
-														13765
+														14118,
+														14134,
+														14119,
+														14120,
+														14123,
+														14121,
+														14122,
+														14124,
+														14125,
+														14126,
+														14127,
+														14129,
+														14132,
+														14130,
+														14133,
+														14131,
+														14128
 													]
 												}
 											],
@@ -460,7 +649,7 @@
 									},
 									{
 										"type": "reference",
-										"target": 12755,
+										"target": 13088,
 										"name": "ErrorListProps",
 										"package": "@contember/ui"
 									}

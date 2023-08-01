@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 5540,
+			"id": 5849,
 			"name": "RoutingLinkProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 5541,
+					"id": 5850,
 					"name": "Component",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 							"line": 56,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L56"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L56"
 						}
 					],
 					"type": {
@@ -40,7 +40,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"target": 5264,
+										"target": 5573,
 										"name": "InnerRoutingLinkProps",
 										"package": "@contember/admin"
 									},
@@ -59,7 +59,7 @@
 					}
 				},
 				{
-					"id": 5543,
+					"id": 5852,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -71,7 +71,7 @@
 							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 							"line": 58,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L58"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L58"
 						}
 					],
 					"type": {
@@ -86,7 +86,7 @@
 					}
 				},
 				{
-					"id": 5542,
+					"id": 5851,
 					"name": "componentProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -98,7 +98,7 @@
 							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 							"line": 57,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L57"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L57"
 						}
 					],
 					"type": {
@@ -109,7 +109,7 @@
 					}
 				},
 				{
-					"id": 5546,
+					"id": 5855,
 					"name": "parameters",
 					"variant": "declaration",
 					"kind": 1024,
@@ -121,18 +121,18 @@
 							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 							"line": 61,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L61"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L61"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5924,
+						"target": 6233,
 						"name": "RequestParameters",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 5545,
+					"id": 5854,
 					"name": "parametersResolver",
 					"variant": "declaration",
 					"kind": 1024,
@@ -144,18 +144,18 @@
 							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 							"line": 60,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L60"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L60"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5941,
+						"target": 6250,
 						"name": "RoutingParameterResolver",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 5544,
+					"id": 5853,
 					"name": "to",
 					"variant": "declaration",
 					"kind": 1024,
@@ -165,12 +165,12 @@
 							"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 							"line": 59,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L59"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L59"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5945,
+						"target": 6254,
 						"name": "RoutingLinkTarget",
 						"package": "@contember/admin"
 					}
@@ -180,12 +180,12 @@
 				{
 					"title": "Properties",
 					"children": [
-						5541,
-						5543,
-						5542,
-						5546,
-						5545,
-						5544
+						5850,
+						5852,
+						5851,
+						5855,
+						5854,
+						5853
 					]
 				}
 			],
@@ -194,12 +194,12 @@
 					"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 					"line": 55,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L55"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L55"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 5547,
+					"id": 5856,
 					"name": "T",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -207,7 +207,7 @@
 					"default": {
 						"type": "reflection",
 						"declaration": {
-							"id": 5548,
+							"id": 5857,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -217,7 +217,7 @@
 									"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 									"line": 55,
 									"character": 38,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L55"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L55"
 								}
 							]
 						}
@@ -226,7 +226,7 @@
 			]
 		},
 		{
-			"id": 5549,
+			"id": 5858,
 			"name": "PublicAnchorProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -236,7 +236,7 @@
 					"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 					"line": 45,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L45"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L45"
 				}
 			],
 			"type": {
@@ -277,7 +277,7 @@
 			}
 		},
 		{
-			"id": 5550,
+			"id": 5859,
 			"name": "RoutingLink",
 			"variant": "declaration",
 			"kind": 64,
@@ -287,12 +287,12 @@
 					"fileName": "packages/admin/src/routing/RoutingLink.tsx",
 					"line": 25,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/routing/RoutingLink.tsx#L25"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/routing/RoutingLink.tsx#L25"
 				}
 			],
 			"signatures": [
 				{
-					"id": 5551,
+					"id": 5860,
 					"name": "RoutingLink",
 					"variant": "signature",
 					"kind": 4096,
@@ -307,7 +307,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "Link",
-								"target": 5831
+								"target": 6140
 							}
 						]
 					},
@@ -320,7 +320,7 @@
 					],
 					"parameters": [
 						{
-							"id": 5552,
+							"id": 5861,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
@@ -330,12 +330,12 @@
 								"types": [
 									{
 										"type": "reference",
-										"target": 5540,
+										"target": 5849,
 										"typeArguments": [
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 5553,
+													"id": 5862,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -348,7 +348,7 @@
 									},
 									{
 										"type": "reference",
-										"target": 5549,
+										"target": 5858,
 										"name": "PublicAnchorProps",
 										"package": "@contember/admin"
 									}

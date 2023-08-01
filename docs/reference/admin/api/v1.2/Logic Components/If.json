@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 8486,
+			"id": 8795,
 			"name": "IfCallbackProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 8491,
+					"id": 8800,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"id": 8487,
+					"id": 8796,
 					"name": "condition",
 					"variant": "declaration",
 					"kind": 1024,
@@ -54,7 +54,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 8488,
+							"id": 8797,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -68,7 +68,7 @@
 							],
 							"signatures": [
 								{
-									"id": 8489,
+									"id": 8798,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -82,14 +82,14 @@
 									],
 									"parameters": [
 										{
-											"id": 8490,
+											"id": 8799,
 											"name": "accessor",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 6993,
+												"target": 7302,
 												"name": "EntityAccessor",
 												"package": "@contember/binding"
 											}
@@ -109,8 +109,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						8491,
-						8487
+						8800,
+						8796
 					]
 				}
 			],
@@ -123,14 +123,14 @@
 			]
 		},
 		{
-			"id": 8483,
+			"id": 8792,
 			"name": "IfFilterProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 8485,
+					"id": 8794,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -156,7 +156,7 @@
 					}
 				},
 				{
-					"id": 8484,
+					"id": 8793,
 					"name": "condition",
 					"variant": "declaration",
 					"kind": 1024,
@@ -177,7 +177,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 9413,
+								"target": 9722,
 								"name": "Filter",
 								"package": "@contember/binding"
 							}
@@ -189,8 +189,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						8485,
-						8484
+						8794,
+						8793
 					]
 				}
 			],
@@ -203,7 +203,7 @@
 			]
 		},
 		{
-			"id": 8482,
+			"id": 8791,
 			"name": "IfProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -220,13 +220,13 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 8483,
+						"target": 8792,
 						"name": "IfFilterProps",
 						"package": "@contember/binding"
 					},
 					{
 						"type": "reference",
-						"target": 8486,
+						"target": 8795,
 						"name": "IfCallbackProps",
 						"package": "@contember/binding"
 					}
@@ -234,7 +234,7 @@
 			}
 		},
 		{
-			"id": 8492,
+			"id": 8801,
 			"name": "If",
 			"variant": "declaration",
 			"kind": 64,
@@ -248,7 +248,7 @@
 			],
 			"signatures": [
 				{
-					"id": 8493,
+					"id": 8802,
 					"name": "If",
 					"variant": "signature",
 					"kind": 4096,
@@ -262,14 +262,14 @@
 					],
 					"parameters": [
 						{
-							"id": 8494,
+							"id": 8803,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 8482,
+								"target": 8791,
 								"name": "IfProps",
 								"package": "@contember/binding"
 							}

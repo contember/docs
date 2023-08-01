@@ -6,7 +6,7 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 5153,
+			"id": 5462,
 			"name": "TileList",
 			"variant": "declaration",
 			"kind": 64,
@@ -16,12 +16,12 @@
 					"fileName": "packages/admin/src/components/ui/TileList.tsx",
 					"line": 6,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/TileList.tsx#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/TileList.tsx#L6"
 				}
 			],
 			"signatures": [
 				{
-					"id": 5154,
+					"id": 5463,
 					"name": "TileList",
 					"variant": "signature",
 					"kind": 4096,
@@ -31,12 +31,12 @@
 							"fileName": "packages/admin/src/components/ui/TileList.tsx",
 							"line": 6,
 							"character": 24,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/TileList.tsx#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/TileList.tsx#L6"
 						}
 					],
 					"parameters": [
 						{
-							"id": 5155,
+							"id": 5464,
 							"name": "__namedParameters",
 							"variant": "param",
 							"kind": 32768,
@@ -44,14 +44,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 5156,
+									"id": 5465,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 5157,
+											"id": 5466,
 											"name": "children",
 											"variant": "declaration",
 											"kind": 1024,
@@ -63,7 +63,7 @@
 													"fileName": "packages/admin/src/components/ui/TileList.tsx",
 													"line": 6,
 													"character": 40,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/TileList.tsx#L6"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/TileList.tsx#L6"
 												}
 											],
 											"type": {
@@ -82,7 +82,7 @@
 										{
 											"title": "Properties",
 											"children": [
-												5157
+												5466
 											]
 										}
 									],
@@ -91,7 +91,7 @@
 											"fileName": "packages/admin/src/components/ui/TileList.tsx",
 											"line": 6,
 											"character": 39,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/ui/TileList.tsx#L6"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/ui/TileList.tsx#L6"
 										}
 									]
 								}

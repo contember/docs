@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 1180,
+			"id": 1201,
 			"name": "DataGridCellPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 1184,
+					"id": 1205,
 					"name": "canBeHidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L7"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 1183,
+					"id": 1204,
 					"name": "hidden",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,7 +46,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 6,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L6"
 						}
 					],
 					"type": {
@@ -55,7 +55,7 @@
 					}
 				},
 				{
-					"id": 1181,
+					"id": 1202,
 					"name": "justification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,18 +67,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 4,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L4"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 1182,
+					"id": 1203,
 					"name": "shrunk",
 					"variant": "declaration",
 					"kind": 1024,
@@ -90,7 +90,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 							"line": 5,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L5"
 						}
 					],
 					"type": {
@@ -103,10 +103,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						1184,
-						1183,
-						1181,
-						1182
+						1205,
+						1204,
+						1202,
+						1203
 					]
 				}
 			],
@@ -115,19 +115,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts",
 					"line": 3,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridCellPublicProps.ts#L3"
 				}
 			]
 		},
 		{
-			"id": 1339,
+			"id": 1360,
 			"name": "DataGridHeaderCellPublicProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 1343,
+					"id": 1364,
 					"name": "ascOrderIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -139,7 +139,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L14"
 						}
 					],
 					"type": {
@@ -154,7 +154,7 @@
 					}
 				},
 				{
-					"id": 1344,
+					"id": 1365,
 					"name": "descOrderIcon",
 					"variant": "declaration",
 					"kind": 1024,
@@ -166,7 +166,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L15"
 						}
 					],
 					"type": {
@@ -181,7 +181,7 @@
 					}
 				},
 				{
-					"id": 1340,
+					"id": 1361,
 					"name": "header",
 					"variant": "declaration",
 					"kind": 1024,
@@ -193,7 +193,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L11"
 						}
 					],
 					"type": {
@@ -208,7 +208,7 @@
 					}
 				},
 				{
-					"id": 1342,
+					"id": 1363,
 					"name": "headerJustification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -220,18 +220,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L13"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 1341,
+					"id": 1362,
 					"name": "shrunk",
 					"variant": "declaration",
 					"kind": 1024,
@@ -243,7 +243,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L12"
 						}
 					],
 					"type": {
@@ -256,11 +256,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						1343,
-						1344,
-						1340,
-						1342,
-						1341
+						1364,
+						1365,
+						1361,
+						1363,
+						1362
 					]
 				}
 			],
@@ -269,26 +269,26 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx",
 					"line": 10,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridHeaderCell.tsx#L10"
 				}
 			],
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1357,
+					"target": 1378,
 					"name": "DataGridHeaderCellProps"
 				}
 			]
 		},
 		{
-			"id": 2280,
+			"id": 2580,
 			"name": "FieldFallbackViewProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2281,
+					"id": 2581,
 					"name": "fallback",
 					"variant": "declaration",
 					"kind": 1024,
@@ -298,7 +298,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
 						}
 					],
 					"type": {
@@ -313,7 +313,7 @@
 					}
 				},
 				{
-					"id": 2282,
+					"id": 2582,
 					"name": "fallbackStyle",
 					"variant": "declaration",
 					"kind": 1024,
@@ -323,7 +323,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
 						}
 					],
 					"type": {
@@ -335,7 +335,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 2279,
+								"target": 2579,
 								"name": "FieldFallbackViewStyle",
 								"package": "@contember/admin"
 							}
@@ -347,8 +347,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						2281,
-						2282
+						2581,
+						2582
 					]
 				}
 			],
@@ -357,12 +357,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 					"line": 8,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
 				}
 			]
 		},
 		{
-			"id": 1468,
+			"id": 1489,
 			"name": "BooleanCellProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -372,7 +372,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx",
 					"line": 10,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L10"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L10"
 				}
 			],
 			"type": {
@@ -380,27 +380,27 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 1207,
+						"target": 1228,
 						"name": "DataGridColumnPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 2238,
+						"target": 2538,
 						"name": "BooleanFieldViewProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 1469,
+							"id": 1490,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 1470,
+									"id": 1491,
 									"name": "disableOrder",
 									"variant": "declaration",
 									"kind": 1024,
@@ -412,7 +412,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx",
 											"line": 14,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L14"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L14"
 										}
 									],
 									"type": {
@@ -421,7 +421,7 @@
 									}
 								},
 								{
-									"id": 1472,
+									"id": 1493,
 									"name": "initialFilter",
 									"variant": "declaration",
 									"kind": 1024,
@@ -433,18 +433,18 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx",
 											"line": 16,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L16"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L16"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 1473,
+										"target": 1494,
 										"name": "BooleanFilterArtifacts",
 										"package": "@contember/admin"
 									}
 								},
 								{
-									"id": 1471,
+									"id": 1492,
 									"name": "initialOrder",
 									"variant": "declaration",
 									"kind": 1024,
@@ -456,12 +456,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx",
 											"line": 15,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L15"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L15"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 1380,
+										"target": 1401,
 										"name": "DataGridOrderDirection",
 										"package": "@contember/admin"
 									}
@@ -471,9 +471,9 @@
 								{
 									"title": "Properties",
 									"children": [
-										1470,
-										1472,
-										1471
+										1491,
+										1493,
+										1492
 									]
 								}
 							],
@@ -482,7 +482,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx",
 									"line": 13,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L13"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L13"
 								}
 							]
 						}
@@ -491,7 +491,7 @@
 			}
 		},
 		{
-			"id": 2238,
+			"id": 2538,
 			"name": "BooleanFieldViewProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -501,7 +501,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx",
 					"line": 7,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L7"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L7"
 				}
 			],
 			"type": {
@@ -510,14 +510,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 2239,
+							"id": 2539,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 2241,
+									"id": 2541,
 									"name": "booleanStyle",
 									"variant": "declaration",
 									"kind": 1024,
@@ -529,7 +529,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx",
 											"line": 9,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L9"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L9"
 										}
 									],
 									"type": {
@@ -551,7 +551,7 @@
 									}
 								},
 								{
-									"id": 2240,
+									"id": 2540,
 									"name": "field",
 									"variant": "declaration",
 									"kind": 1024,
@@ -561,7 +561,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx",
 											"line": 8,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L8"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L8"
 										}
 									],
 									"type": {
@@ -572,14 +572,14 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 8577,
+											"target": 8886,
 											"name": "SugaredFieldProps",
 											"package": "@contember/binding"
 										}
 									}
 								},
 								{
-									"id": 2242,
+									"id": 2542,
 									"name": "format",
 									"variant": "declaration",
 									"kind": 1024,
@@ -591,13 +591,13 @@
 											"fileName": "packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx",
 											"line": 10,
 											"character": 1,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L10"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L10"
 										}
 									],
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 2243,
+											"id": 2543,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -607,19 +607,19 @@
 													"fileName": "packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx",
 													"line": 10,
 													"character": 10,
-													"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L10"
+													"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L10"
 												}
 											],
 											"signatures": [
 												{
-													"id": 2244,
+													"id": 2544,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
 													"flags": {},
 													"parameters": [
 														{
-															"id": 2245,
+															"id": 2545,
 															"name": "date",
 															"variant": "param",
 															"kind": 32768,
@@ -650,9 +650,9 @@
 								{
 									"title": "Properties",
 									"children": [
-										2241,
-										2240,
-										2242
+										2541,
+										2540,
+										2542
 									]
 								}
 							],
@@ -661,14 +661,14 @@
 									"fileName": "packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx",
 									"line": 7,
 									"character": 36,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L7"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/BooleanFieldView.tsx#L7"
 								}
 							]
 						}
 					},
 					{
 						"type": "reference",
-						"target": 2283,
+						"target": 2583,
 						"name": "FieldFallbackViewPublicProps",
 						"package": "@contember/admin"
 					}
@@ -676,7 +676,7 @@
 			}
 		},
 		{
-			"id": 1207,
+			"id": 1228,
 			"name": "DataGridColumnPublicProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -686,7 +686,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 					"line": 40,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L40"
 				}
 			],
 			"type": {
@@ -694,27 +694,27 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 1339,
+						"target": 1360,
 						"name": "DataGridHeaderCellPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reference",
-						"target": 1180,
+						"target": 1201,
 						"name": "DataGridCellPublicProps",
 						"package": "@contember/admin"
 					},
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 1208,
+							"id": 1229,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 1210,
+									"id": 1231,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -726,7 +726,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 											"line": 45,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L45"
 										}
 									],
 									"type": {
@@ -741,7 +741,7 @@
 									}
 								},
 								{
-									"id": 1209,
+									"id": 1230,
 									"name": "columnKey",
 									"variant": "declaration",
 									"kind": 1024,
@@ -753,7 +753,7 @@
 											"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 											"line": 44,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L44"
 										}
 									],
 									"type": {
@@ -766,8 +766,8 @@
 								{
 									"title": "Properties",
 									"children": [
-										1210,
-										1209
+										1231,
+										1230
 									]
 								}
 							],
@@ -776,7 +776,7 @@
 									"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts",
 									"line": 43,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/base/DataGridColumn.ts#L43"
 								}
 							]
 						}
@@ -785,7 +785,7 @@
 			}
 		},
 		{
-			"id": 2283,
+			"id": 2583,
 			"name": "FieldFallbackViewPublicProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -795,7 +795,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 					"line": 13,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L13"
 				}
 			],
 			"type": {
@@ -807,7 +807,7 @@
 				"typeArguments": [
 					{
 						"type": "reference",
-						"target": 2280,
+						"target": 2580,
 						"name": "FieldFallbackViewProps",
 						"package": "@contember/admin"
 					}
@@ -818,13 +818,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 2250,
+					"target": 2550,
 					"name": "CoalesceFieldViewProps"
 				}
 			]
 		},
 		{
-			"id": 1478,
+			"id": 1499,
 			"name": "BooleanCell",
 			"variant": "declaration",
 			"kind": 64,
@@ -834,12 +834,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx",
 					"line": 35,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L35"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/collections/DataGrid/cells/BooleanCell.tsx#L35"
 				}
 			],
 			"signatures": [
 				{
-					"id": 1479,
+					"id": 1500,
 					"name": "BooleanCell",
 					"variant": "signature",
 					"kind": 4096,
@@ -872,20 +872,20 @@
 					],
 					"parameters": [
 						{
-							"id": 1480,
+							"id": 1501,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 1468,
+								"target": 1489,
 								"name": "BooleanCellProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 1481,
+							"id": 1502,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

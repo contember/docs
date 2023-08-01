@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 10509,
+			"id": 10818,
 			"name": "RichTextElement",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10511,
+					"id": 10820,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -32,7 +32,7 @@
 								"type": "array",
 								"elementType": {
 									"type": "reference",
-									"target": 10509,
+									"target": 10818,
 									"typeArguments": [
 										{
 											"type": "reference",
@@ -58,7 +58,7 @@
 									"types": [
 										{
 											"type": "reference",
-											"target": 10523,
+											"target": 10832,
 											"name": "RichTextLeaf",
 											"package": "@contember/react-client"
 										},
@@ -75,7 +75,7 @@
 					}
 				},
 				{
-					"id": 10512,
+					"id": 10821,
 					"name": "referenceId",
 					"variant": "declaration",
 					"kind": 1024,
@@ -95,7 +95,7 @@
 					}
 				},
 				{
-					"id": 10510,
+					"id": 10819,
 					"name": "type",
 					"variant": "declaration",
 					"kind": 1024,
@@ -117,9 +117,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						10511,
-						10512,
-						10510
+						10820,
+						10821,
+						10819
 					]
 				}
 			],
@@ -132,14 +132,14 @@
 			],
 			"typeParameters": [
 				{
-					"id": 10513,
+					"id": 10822,
 					"name": "CustomElements",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {},
 					"type": {
 						"type": "reference",
-						"target": 10509,
+						"target": 10818,
 						"name": "RichTextElement",
 						"package": "@contember/react-client"
 					},
@@ -149,14 +149,14 @@
 					}
 				},
 				{
-					"id": 10514,
+					"id": 10823,
 					"name": "CustomLeaves",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {},
 					"type": {
 						"type": "reference",
-						"target": 10523,
+						"target": 10832,
 						"name": "RichTextLeaf",
 						"package": "@contember/react-client"
 					},
@@ -169,75 +169,75 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 10395,
+					"target": 10704,
 					"name": "RichTextAnchorElement"
 				},
 				{
 					"type": "reference",
-					"target": 10402,
+					"target": 10711,
 					"name": "RichTextHeadingElement"
 				},
 				{
 					"type": "reference",
-					"target": 10410,
+					"target": 10719,
 					"name": "RichTextOrderedListElement"
 				},
 				{
 					"type": "reference",
-					"target": 10416,
+					"target": 10725,
 					"name": "RichTextUnorderedListElement"
 				},
 				{
 					"type": "reference",
-					"target": 10422,
+					"target": 10731,
 					"name": "RichTextListItemElement"
 				},
 				{
 					"type": "reference",
-					"target": 10428,
+					"target": 10737,
 					"name": "RichTextHorizontalRuleElement"
 				},
 				{
 					"type": "reference",
-					"target": 10434,
+					"target": 10743,
 					"name": "RichTextParagraphElement"
 				},
 				{
 					"type": "reference",
-					"target": 10441,
+					"target": 10750,
 					"name": "RichTextReferenceElement"
 				},
 				{
 					"type": "reference",
-					"target": 10447,
+					"target": 10756,
 					"name": "RichTextScrollTargetElement"
 				},
 				{
 					"type": "reference",
-					"target": 10454,
+					"target": 10763,
 					"name": "RichTextTableElement"
 				},
 				{
 					"type": "reference",
-					"target": 10460,
+					"target": 10769,
 					"name": "RichTextTableCellElement"
 				},
 				{
 					"type": "reference",
-					"target": 10468,
+					"target": 10777,
 					"name": "RichTextTableRowElement"
 				}
 			]
 		},
 		{
-			"id": 10523,
+			"id": 10832,
 			"name": "RichTextLeaf",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10524,
+					"id": 10833,
 					"name": "text",
 					"variant": "declaration",
 					"kind": 1024,
@@ -259,7 +259,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						10524
+						10833
 					]
 				}
 			],
@@ -273,45 +273,45 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 10476,
+					"target": 10785,
 					"name": "RichTextBoldLeaf"
 				},
 				{
 					"type": "reference",
-					"target": 10479,
+					"target": 10788,
 					"name": "RichTextCodeLeaf"
 				},
 				{
 					"type": "reference",
-					"target": 10482,
+					"target": 10791,
 					"name": "RichTextHighlightLeaf"
 				},
 				{
 					"type": "reference",
-					"target": 10485,
+					"target": 10794,
 					"name": "RichTextItalicLeaf"
 				},
 				{
 					"type": "reference",
-					"target": 10488,
+					"target": 10797,
 					"name": "RichTextStrikeThroughLeaf"
 				},
 				{
 					"type": "reference",
-					"target": 10491,
+					"target": 10800,
 					"name": "RichTextUnderlineLeaf"
 				}
 			]
 		},
 		{
-			"id": 10531,
+			"id": 10840,
 			"name": "RichTextRendererBlockProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10532,
+					"id": 10841,
 					"name": "blocks",
 					"variant": "declaration",
 					"kind": 1024,
@@ -327,14 +327,14 @@
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 10508,
+							"target": 10817,
 							"name": "RichTextBlock",
 							"package": "@contember/react-client"
 						}
 					}
 				},
 				{
-					"id": 10536,
+					"id": 10845,
 					"name": "referenceDiscriminationField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -354,7 +354,7 @@
 					}
 				},
 				{
-					"id": 10533,
+					"id": 10842,
 					"name": "referenceRenderers",
 					"variant": "declaration",
 					"kind": 1024,
@@ -381,7 +381,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10501,
+								"target": 10810,
 								"typeArguments": [
 									{
 										"type": "intrinsic",
@@ -409,7 +409,7 @@
 					}
 				},
 				{
-					"id": 10535,
+					"id": 10844,
 					"name": "referencesField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -429,7 +429,7 @@
 					}
 				},
 				{
-					"id": 10534,
+					"id": 10843,
 					"name": "sourceField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -453,11 +453,11 @@
 				{
 					"title": "Properties",
 					"children": [
-						10532,
-						10536,
-						10533,
-						10535,
-						10534
+						10841,
+						10845,
+						10842,
+						10844,
+						10843
 					]
 				}
 			],
@@ -470,14 +470,14 @@
 			],
 			"typeParameters": [
 				{
-					"id": 10537,
+					"id": 10846,
 					"name": "CustomElements",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {},
 					"type": {
 						"type": "reference",
-						"target": 10509,
+						"target": 10818,
 						"name": "RichTextElement",
 						"package": "@contember/react-client"
 					},
@@ -487,14 +487,14 @@
 					}
 				},
 				{
-					"id": 10538,
+					"id": 10847,
 					"name": "CustomLeaves",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {},
 					"type": {
 						"type": "reference",
-						"target": 10523,
+						"target": 10832,
 						"name": "RichTextLeaf",
 						"package": "@contember/react-client"
 					},
@@ -506,14 +506,14 @@
 			]
 		},
 		{
-			"id": 10529,
+			"id": 10838,
 			"name": "RichTextRendererFieldProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10530,
+					"id": 10839,
 					"name": "source",
 					"variant": "declaration",
 					"kind": 1024,
@@ -544,7 +544,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						10530
+						10839
 					]
 				}
 			],
@@ -557,7 +557,7 @@
 			]
 		},
 		{
-			"id": 10539,
+			"id": 10848,
 			"name": "RichTextRendererProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -571,14 +571,14 @@
 			],
 			"typeParameters": [
 				{
-					"id": 10552,
+					"id": 10861,
 					"name": "CustomElements",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {},
 					"type": {
 						"type": "reference",
-						"target": 10509,
+						"target": 10818,
 						"name": "RichTextElement",
 						"package": "@contember/react-client"
 					},
@@ -588,14 +588,14 @@
 					}
 				},
 				{
-					"id": 10553,
+					"id": 10862,
 					"name": "CustomLeaves",
 					"variant": "typeParam",
 					"kind": 131072,
 					"flags": {},
 					"type": {
 						"type": "reference",
-						"target": 10523,
+						"target": 10832,
 						"name": "RichTextLeaf",
 						"package": "@contember/react-client"
 					},
@@ -611,14 +611,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 10540,
+							"id": 10849,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 10547,
+									"id": 10856,
 									"name": "attributeNamePrefix",
 									"variant": "declaration",
 									"kind": 1024,
@@ -638,7 +638,7 @@
 									}
 								},
 								{
-									"id": 10541,
+									"id": 10850,
 									"name": "deserialize",
 									"variant": "declaration",
 									"kind": 1024,
@@ -655,7 +655,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 10542,
+											"id": 10851,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -669,14 +669,14 @@
 											],
 											"signatures": [
 												{
-													"id": 10543,
+													"id": 10852,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
 													"flags": {},
 													"parameters": [
 														{
-															"id": 10544,
+															"id": 10853,
 															"name": "source",
 															"variant": "param",
 															"kind": 32768,
@@ -689,7 +689,7 @@
 													],
 													"type": {
 														"type": "reference",
-														"target": 10570,
+														"target": 10879,
 														"typeArguments": [
 															{
 																"type": "reference",
@@ -713,7 +713,7 @@
 									}
 								},
 								{
-									"id": 10548,
+									"id": 10857,
 									"name": "renderBlock",
 									"variant": "declaration",
 									"kind": 1024,
@@ -737,14 +737,14 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 10549,
+													"id": 10858,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 10550,
+															"id": 10859,
 															"name": "block",
 															"variant": "declaration",
 															"kind": 1024,
@@ -762,7 +762,7 @@
 															}
 														},
 														{
-															"id": 10551,
+															"id": 10860,
 															"name": "children",
 															"variant": "declaration",
 															"kind": 1024,
@@ -792,8 +792,8 @@
 														{
 															"title": "Properties",
 															"children": [
-																10550,
-																10551
+																10859,
+																10860
 															]
 														}
 													],
@@ -813,7 +813,7 @@
 									}
 								},
 								{
-									"id": 10545,
+									"id": 10854,
 									"name": "renderElement",
 									"variant": "declaration",
 									"kind": 1024,
@@ -829,7 +829,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 10373,
+										"target": 10682,
 										"typeArguments": [
 											{
 												"type": "reference",
@@ -849,7 +849,7 @@
 									}
 								},
 								{
-									"id": 10546,
+									"id": 10855,
 									"name": "renderLeaf",
 									"variant": "declaration",
 									"kind": 1024,
@@ -865,7 +865,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 10387,
+										"target": 10696,
 										"typeArguments": [
 											{
 												"type": "reference",
@@ -883,11 +883,11 @@
 								{
 									"title": "Properties",
 									"children": [
-										10547,
-										10541,
-										10548,
-										10545,
-										10546
+										10856,
+										10850,
+										10857,
+										10854,
+										10855
 									]
 								}
 							],
@@ -905,13 +905,13 @@
 						"types": [
 							{
 								"type": "reference",
-								"target": 10529,
+								"target": 10838,
 								"name": "RichTextRendererFieldProps",
 								"package": "@contember/react-client"
 							},
 							{
 								"type": "reference",
-								"target": 10531,
+								"target": 10840,
 								"typeArguments": [
 									{
 										"type": "reference",
@@ -935,7 +935,7 @@
 			}
 		},
 		{
-			"id": 10554,
+			"id": 10863,
 			"name": "RichTextRenderer",
 			"variant": "declaration",
 			"kind": 64,
@@ -949,7 +949,7 @@
 			],
 			"signatures": [
 				{
-					"id": 10555,
+					"id": 10864,
 					"name": "RichTextRenderer",
 					"variant": "signature",
 					"kind": 4096,
@@ -963,14 +963,14 @@
 					],
 					"typeParameter": [
 						{
-							"id": 10556,
+							"id": 10865,
 							"name": "CustomElements",
 							"variant": "typeParam",
 							"kind": 131072,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 10509,
+								"target": 10818,
 								"typeArguments": [
 									{
 										"type": "intrinsic",
@@ -996,14 +996,14 @@
 							}
 						},
 						{
-							"id": 10557,
+							"id": 10866,
 							"name": "CustomLeaves",
 							"variant": "typeParam",
 							"kind": 131072,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 10523,
+								"target": 10832,
 								"name": "RichTextLeaf",
 								"package": "@contember/react-client"
 							},
@@ -1015,14 +1015,14 @@
 					],
 					"parameters": [
 						{
-							"id": 10558,
+							"id": 10867,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 10539,
+								"target": 10848,
 								"typeArguments": [
 									{
 										"type": "reference",

@@ -6,7 +6,7 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6308,
+			"id": 6617,
 			"name": "UseRoleRendererFactoryProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -16,12 +16,12 @@
 					"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 					"line": 26,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L26"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L26"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 6312,
+					"id": 6621,
 					"name": "T",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -35,14 +35,14 @@
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 6309,
+					"id": 6618,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 6311,
+							"id": 6620,
 							"name": "roleRenderers",
 							"variant": "declaration",
 							"kind": 1024,
@@ -54,12 +54,12 @@
 									"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 									"line": 28,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L28"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L28"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 6160,
+								"target": 6469,
 								"typeArguments": [
 									{
 										"type": "reference",
@@ -73,7 +73,7 @@
 							}
 						},
 						{
-							"id": 6310,
+							"id": 6619,
 							"name": "rolesDataQuery",
 							"variant": "declaration",
 							"kind": 1024,
@@ -85,7 +85,7 @@
 									"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 									"line": 27,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L27"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L27"
 								}
 							],
 							"type": {
@@ -98,8 +98,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								6311,
-								6310
+								6620,
+								6619
 							]
 						}
 					],
@@ -108,14 +108,14 @@
 							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 							"line": 26,
 							"character": 57,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L26"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L26"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 6251,
+			"id": 6560,
 			"name": "UserListPageProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -125,12 +125,12 @@
 					"fileName": "packages/admin/src/tenant/components/pages/UserListPage.tsx",
 					"line": 7,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/UserListPage.tsx#L7"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/UserListPage.tsx#L7"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 6255,
+					"id": 6564,
 					"name": "T",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -142,7 +142,7 @@
 				"types": [
 					{
 						"type": "reference",
-						"target": 6308,
+						"target": 6617,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -157,14 +157,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 6252,
+							"id": 6561,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 6253,
+									"id": 6562,
 									"name": "addUserLink",
 									"variant": "declaration",
 									"kind": 1024,
@@ -176,18 +176,18 @@
 											"fileName": "packages/admin/src/tenant/components/pages/UserListPage.tsx",
 											"line": 10,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/UserListPage.tsx#L10"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/UserListPage.tsx#L10"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 5945,
+										"target": 6254,
 										"name": "RoutingLinkTarget",
 										"package": "@contember/admin"
 									}
 								},
 								{
-									"id": 6254,
+									"id": 6563,
 									"name": "editUserLink",
 									"variant": "declaration",
 									"kind": 1024,
@@ -199,12 +199,12 @@
 											"fileName": "packages/admin/src/tenant/components/pages/UserListPage.tsx",
 											"line": 11,
 											"character": 2,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/UserListPage.tsx#L11"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/UserListPage.tsx#L11"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 5945,
+										"target": 6254,
 										"name": "RoutingLinkTarget",
 										"package": "@contember/admin"
 									}
@@ -214,8 +214,8 @@
 								{
 									"title": "Properties",
 									"children": [
-										6253,
-										6254
+										6562,
+										6563
 									]
 								}
 							],
@@ -224,7 +224,7 @@
 									"fileName": "packages/admin/src/tenant/components/pages/UserListPage.tsx",
 									"line": 9,
 									"character": 3,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/UserListPage.tsx#L9"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/UserListPage.tsx#L9"
 								}
 							]
 						}
@@ -233,7 +233,7 @@
 			}
 		},
 		{
-			"id": 6256,
+			"id": 6565,
 			"name": "UserListPage",
 			"variant": "declaration",
 			"kind": 64,
@@ -243,12 +243,12 @@
 					"fileName": "packages/admin/src/tenant/components/pages/UserListPage.tsx",
 					"line": 17,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/UserListPage.tsx#L17"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/UserListPage.tsx#L17"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6257,
+					"id": 6566,
 					"name": "UserListPage",
 					"variant": "signature",
 					"kind": 4096,
@@ -258,12 +258,12 @@
 							"fileName": "packages/admin/src/tenant/components/pages/UserListPage.tsx",
 							"line": 17,
 							"character": 28,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/pages/UserListPage.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/pages/UserListPage.tsx#L17"
 						}
 					],
 					"typeParameter": [
 						{
-							"id": 6258,
+							"id": 6567,
 							"name": "T",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -271,7 +271,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 6259,
+									"id": 6568,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -282,14 +282,14 @@
 					],
 					"parameters": [
 						{
-							"id": 6260,
+							"id": 6569,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6251,
+								"target": 6560,
 								"typeArguments": [
 									{
 										"type": "reference",

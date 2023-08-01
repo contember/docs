@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 3399,
+			"id": 3717,
 			"name": "BlockEditorProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 3436,
+					"id": 3754,
 					"name": "augmentEditor",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,13 +25,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 							"line": 45,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3437,
+							"id": 3755,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -41,12 +41,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 									"line": 45,
 									"character": 17,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
 								}
 							],
 							"signatures": [
 								{
-									"id": 3438,
+									"id": 3756,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -56,19 +56,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 											"line": 45,
 											"character": 17,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
 										}
 									],
 									"parameters": [
 										{
-											"id": 3439,
+											"id": 3757,
 											"name": "baseEditor",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 4164,
+												"target": 4490,
 												"name": "Editor",
 												"package": "@contember/admin"
 											}
@@ -83,7 +83,7 @@
 											},
 											{
 												"type": "reference",
-												"target": 4164,
+												"target": 4490,
 												"name": "Editor",
 												"package": "@contember/admin"
 											}
@@ -95,12 +95,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2865,
+						"target": 3183,
 						"name": "CreateEditorPublicOptions.augmentEditor"
 					}
 				},
 				{
-					"id": 3440,
+					"id": 3758,
 					"name": "augmentEditorBuiltins",
 					"variant": "declaration",
 					"kind": 1024,
@@ -112,13 +112,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 							"line": 46,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3441,
+							"id": 3759,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -128,12 +128,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 									"line": 46,
 									"character": 25,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
 								}
 							],
 							"signatures": [
 								{
-									"id": 3442,
+									"id": 3760,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -143,19 +143,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 											"line": 46,
 											"character": 25,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
 										}
 									],
 									"parameters": [
 										{
-											"id": 3443,
+											"id": 3761,
 											"name": "editor",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 3283,
+												"target": 3601,
 												"name": "EditorWithBlocks",
 												"package": "@contember/admin"
 											}
@@ -170,7 +170,7 @@
 											},
 											{
 												"type": "reference",
-												"target": 3283,
+												"target": 3601,
 												"name": "EditorWithBlocks",
 												"package": "@contember/admin"
 											}
@@ -182,12 +182,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2869,
+						"target": 3187,
 						"name": "CreateEditorPublicOptions.augmentEditorBuiltins"
 					}
 				},
 				{
-					"id": 3416,
+					"id": 3734,
 					"name": "blockButtons",
 					"variant": "declaration",
 					"kind": 1024,
@@ -199,7 +199,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 72,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L72"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L72"
 						}
 					],
 					"type": {
@@ -209,7 +209,7 @@
 								"type": "array",
 								"elementType": {
 									"type": "reference",
-									"target": 3251,
+									"target": 3569,
 									"name": "BlockHoveringToolbarConfig",
 									"package": "@contember/admin"
 								}
@@ -220,7 +220,7 @@
 									"type": "array",
 									"elementType": {
 										"type": "reference",
-										"target": 3251,
+										"target": 3569,
 										"name": "BlockHoveringToolbarConfig",
 										"package": "@contember/admin"
 									}
@@ -230,7 +230,7 @@
 					}
 				},
 				{
-					"id": 3404,
+					"id": 3722,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -242,7 +242,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 54,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L54"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L54"
 						}
 					],
 					"type": {
@@ -257,7 +257,7 @@
 					}
 				},
 				{
-					"id": 3402,
+					"id": 3720,
 					"name": "contentField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -267,7 +267,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 52,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L52"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L52"
 						}
 					],
 					"type": {
@@ -279,7 +279,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -287,7 +287,7 @@
 					}
 				},
 				{
-					"id": 3412,
+					"id": 3730,
 					"name": "embedContentDiscriminationField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -299,7 +299,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 65,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L65"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L65"
 						}
 					],
 					"type": {
@@ -311,7 +311,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -319,7 +319,7 @@
 					}
 				},
 				{
-					"id": 3413,
+					"id": 3731,
 					"name": "embedHandlers",
 					"variant": "declaration",
 					"kind": 1024,
@@ -331,7 +331,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 66,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L66"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L66"
 						}
 					],
 					"type": {
@@ -343,7 +343,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 3354,
+								"target": 3672,
 								"typeArguments": [
 									{
 										"type": "intrinsic",
@@ -359,7 +359,7 @@
 					}
 				},
 				{
-					"id": 3411,
+					"id": 3729,
 					"name": "embedReferenceDiscriminateBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -371,18 +371,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 64,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L64"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L64"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 9412,
+						"target": 9721,
 						"name": "OptionallyVariableFieldValue",
 						"package": "@contember/binding"
 					}
 				},
 				{
-					"id": 3419,
+					"id": 3737,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -398,18 +398,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10115,
+						"target": 10424,
 						"name": "SugaredRelativeEntityList.expectedMutation"
 					}
 				},
 				{
-					"id": 3418,
+					"id": 3736,
 					"name": "field",
 					"variant": "declaration",
 					"kind": 1024,
@@ -430,7 +430,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10093,
+								"target": 10402,
 								"name": "SugarableRelativeEntityList",
 								"package": "@contember/binding"
 							}
@@ -438,12 +438,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10114,
+						"target": 10423,
 						"name": "SugaredRelativeEntityList.field"
 					}
 				},
 				{
-					"id": 3425,
+					"id": 3743,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -463,12 +463,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10121,
+						"target": 10430,
 						"name": "SugaredRelativeEntityList.initialEntityCount"
 					}
 				},
 				{
-					"id": 3415,
+					"id": 3733,
 					"name": "inlineButtons",
 					"variant": "declaration",
 					"kind": 1024,
@@ -480,7 +480,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 71,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L71"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L71"
 						}
 					],
 					"type": {
@@ -490,7 +490,7 @@
 								"type": "array",
 								"elementType": {
 									"type": "reference",
-									"target": 4042,
+									"target": 4360,
 									"name": "ToolbarButtonSpec",
 									"package": "@contember/admin"
 								}
@@ -501,7 +501,7 @@
 									"type": "array",
 									"elementType": {
 										"type": "reference",
-										"target": 4042,
+										"target": 4360,
 										"name": "ToolbarButtonSpec",
 										"package": "@contember/admin"
 									}
@@ -511,7 +511,7 @@
 					}
 				},
 				{
-					"id": 3420,
+					"id": 3738,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -531,12 +531,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10116,
+						"target": 10425,
 						"name": "SugaredRelativeEntityList.isNonbearing"
 					}
 				},
 				{
-					"id": 3400,
+					"id": 3718,
 					"name": "label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -548,7 +548,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 50,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L50"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L50"
 						}
 					],
 					"type": {
@@ -563,7 +563,7 @@
 					}
 				},
 				{
-					"id": 3406,
+					"id": 3724,
 					"name": "leadingFieldBackedElements",
 					"variant": "declaration",
 					"kind": 1024,
@@ -575,21 +575,21 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 57,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L57"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L57"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 3470,
+							"target": 3788,
 							"name": "FieldBackedElement",
 							"package": "@contember/admin"
 						}
 					}
 				},
 				{
-					"id": 3424,
+					"id": 3742,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -609,12 +609,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10120,
+						"target": 10429,
 						"name": "SugaredRelativeEntityList.limit"
 					}
 				},
 				{
-					"id": 3410,
+					"id": 3728,
 					"name": "monolithicReferencesMode",
 					"variant": "declaration",
 					"kind": 1024,
@@ -626,7 +626,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 62,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L62"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L62"
 						}
 					],
 					"type": {
@@ -635,7 +635,7 @@
 					}
 				},
 				{
-					"id": 3423,
+					"id": 3741,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -655,12 +655,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10119,
+						"target": 10428,
 						"name": "SugaredRelativeEntityList.offset"
 					}
 				},
 				{
-					"id": 3429,
+					"id": 3747,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -674,7 +674,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -688,7 +688,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -701,12 +701,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10125,
+						"target": 10434,
 						"name": "SugaredRelativeEntityList.onBeforePersist"
 					}
 				},
 				{
-					"id": 3428,
+					"id": 3746,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -720,7 +720,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -734,7 +734,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -747,12 +747,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10124,
+						"target": 10433,
 						"name": "SugaredRelativeEntityList.onBeforeUpdate"
 					}
 				},
 				{
-					"id": 3432,
+					"id": 3750,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -766,7 +766,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -780,7 +780,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -793,12 +793,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10128,
+						"target": 10437,
 						"name": "SugaredRelativeEntityList.onChildBeforeUpdate"
 					}
 				},
 				{
-					"id": 3431,
+					"id": 3749,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -812,7 +812,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -826,7 +826,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -839,12 +839,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10127,
+						"target": 10436,
 						"name": "SugaredRelativeEntityList.onChildInitialize"
 					}
 				},
 				{
-					"id": 3430,
+					"id": 3748,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -858,7 +858,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -872,7 +872,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -885,12 +885,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10126,
+						"target": 10435,
 						"name": "SugaredRelativeEntityList.onChildUpdate"
 					}
 				},
 				{
-					"id": 3427,
+					"id": 3745,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -904,7 +904,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -918,7 +918,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -931,12 +931,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10123,
+						"target": 10432,
 						"name": "SugaredRelativeEntityList.onInitialize"
 					}
 				},
 				{
-					"id": 3433,
+					"id": 3751,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -950,7 +950,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -964,7 +964,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -977,12 +977,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10129,
+						"target": 10438,
 						"name": "SugaredRelativeEntityList.onPersistError"
 					}
 				},
 				{
-					"id": 3434,
+					"id": 3752,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -996,7 +996,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -1010,7 +1010,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -1023,12 +1023,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10130,
+						"target": 10439,
 						"name": "SugaredRelativeEntityList.onPersistSuccess"
 					}
 				},
 				{
-					"id": 3426,
+					"id": 3744,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1042,7 +1042,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -1056,7 +1056,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -1069,12 +1069,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10122,
+						"target": 10431,
 						"name": "SugaredRelativeEntityList.onUpdate"
 					}
 				},
 				{
-					"id": 3422,
+					"id": 3740,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1090,18 +1090,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10118,
+						"target": 10427,
 						"name": "SugaredRelativeEntityList.orderBy"
 					}
 				},
 				{
-					"id": 3417,
+					"id": 3735,
 					"name": "otherBlockButtons",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1113,21 +1113,21 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 73,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L73"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L73"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 3251,
+							"target": 3569,
 							"name": "BlockHoveringToolbarConfig",
 							"package": "@contember/admin"
 						}
 					}
 				},
 				{
-					"id": 3401,
+					"id": 3719,
 					"name": "placeholder",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1139,7 +1139,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 51,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L51"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L51"
 						}
 					],
 					"type": {
@@ -1148,7 +1148,7 @@
 					}
 				},
 				{
-					"id": 3435,
+					"id": 3753,
 					"name": "plugins",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1160,26 +1160,26 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 							"line": 44,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L44"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L44"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 2874,
+							"target": 3192,
 							"name": "BuiltinEditorPlugins",
 							"package": "@contember/admin"
 						}
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2864,
+						"target": 3182,
 						"name": "CreateEditorPublicOptions.plugins"
 					}
 				},
 				{
-					"id": 3409,
+					"id": 3727,
 					"name": "referenceDiscriminationField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1191,7 +1191,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 61,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L61"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L61"
 						}
 					],
 					"type": {
@@ -1203,7 +1203,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -1211,7 +1211,7 @@
 					}
 				},
 				{
-					"id": 3408,
+					"id": 3726,
 					"name": "referencesField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1223,7 +1223,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 60,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L60"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L60"
 						}
 					],
 					"type": {
@@ -1235,7 +1235,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10113,
+								"target": 10422,
 								"name": "SugaredRelativeEntityList",
 								"package": "@contember/binding"
 							}
@@ -1243,7 +1243,7 @@
 					}
 				},
 				{
-					"id": 3421,
+					"id": 3739,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1259,18 +1259,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10117,
+						"target": 10426,
 						"name": "SugaredRelativeEntityList.setOnCreate"
 					}
 				},
 				{
-					"id": 3405,
+					"id": 3723,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1282,18 +1282,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 55,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L55"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L55"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 15562,
+						"target": 15947,
 						"name": "EditorCanvasSize",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 3403,
+					"id": 3721,
 					"name": "sortableBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1303,7 +1303,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 53,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L53"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L53"
 						}
 					],
 					"type": {
@@ -1315,7 +1315,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -1323,7 +1323,7 @@
 					}
 				},
 				{
-					"id": 3414,
+					"id": 3732,
 					"name": "toolbarScheme",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1335,18 +1335,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 68,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L68"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L68"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18288,
+						"target": 18673,
 						"name": "Scheme",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 3407,
+					"id": 3725,
 					"name": "trailingFieldBackedElements",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1358,14 +1358,14 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 							"line": 58,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L58"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L58"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 3470,
+							"target": 3788,
 							"name": "FieldBackedElement",
 							"package": "@contember/admin"
 						}
@@ -1376,44 +1376,44 @@
 				{
 					"title": "Properties",
 					"children": [
-						3436,
-						3440,
-						3416,
-						3404,
-						3402,
-						3412,
-						3413,
-						3411,
-						3419,
-						3418,
-						3425,
-						3415,
-						3420,
-						3400,
-						3406,
-						3424,
-						3410,
-						3423,
-						3429,
-						3428,
-						3432,
-						3431,
-						3430,
-						3427,
-						3433,
-						3434,
-						3426,
-						3422,
-						3417,
-						3401,
-						3435,
-						3409,
-						3408,
-						3421,
-						3405,
-						3403,
-						3414,
-						3407
+						3754,
+						3758,
+						3734,
+						3722,
+						3720,
+						3730,
+						3731,
+						3729,
+						3737,
+						3736,
+						3743,
+						3733,
+						3738,
+						3718,
+						3724,
+						3742,
+						3728,
+						3741,
+						3747,
+						3746,
+						3750,
+						3749,
+						3748,
+						3745,
+						3751,
+						3752,
+						3744,
+						3740,
+						3735,
+						3719,
+						3753,
+						3727,
+						3726,
+						3739,
+						3723,
+						3721,
+						3732,
+						3725
 					]
 				}
 			],
@@ -1422,23 +1422,23 @@
 					"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 					"line": 49,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L49"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L49"
 				}
 			],
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10113,
+					"target": 10422,
 					"name": "SugaredRelativeEntityList",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 2863,
+					"target": 3181,
 					"typeArguments": [
 						{
 							"type": "reference",
-							"target": 3283,
+							"target": 3601,
 							"name": "EditorWithBlocks",
 							"package": "@contember/admin"
 						}
@@ -1449,14 +1449,14 @@
 			]
 		},
 		{
-			"id": 2863,
+			"id": 3181,
 			"name": "CreateEditorPublicOptions",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2865,
+					"id": 3183,
 					"name": "augmentEditor",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1468,13 +1468,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 							"line": 45,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 2866,
+							"id": 3184,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -1484,12 +1484,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 									"line": 45,
 									"character": 17,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
 								}
 							],
 							"signatures": [
 								{
-									"id": 2867,
+									"id": 3185,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -1499,19 +1499,19 @@
 											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 											"line": 45,
 											"character": 17,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L45"
 										}
 									],
 									"parameters": [
 										{
-											"id": 2868,
+											"id": 3186,
 											"name": "baseEditor",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": 4164,
+												"target": 4490,
 												"name": "Editor",
 												"package": "@contember/admin"
 											}
@@ -1526,7 +1526,7 @@
 											},
 											{
 												"type": "reference",
-												"target": 4164,
+												"target": 4490,
 												"name": "Editor",
 												"package": "@contember/admin"
 											}
@@ -1538,7 +1538,7 @@
 					}
 				},
 				{
-					"id": 2869,
+					"id": 3187,
 					"name": "augmentEditorBuiltins",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1550,13 +1550,13 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 							"line": 46,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 2870,
+							"id": 3188,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -1566,12 +1566,12 @@
 									"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 									"line": 46,
 									"character": 25,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
 								}
 							],
 							"signatures": [
 								{
-									"id": 2871,
+									"id": 3189,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -1581,12 +1581,12 @@
 											"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 											"line": 46,
 											"character": 25,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L46"
 										}
 									],
 									"parameters": [
 										{
-											"id": 2872,
+											"id": 3190,
 											"name": "editor",
 											"variant": "param",
 											"kind": 32768,
@@ -1620,7 +1620,7 @@
 					}
 				},
 				{
-					"id": 2864,
+					"id": 3182,
 					"name": "plugins",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1632,14 +1632,14 @@
 							"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 							"line": 44,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L44"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L44"
 						}
 					],
 					"type": {
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"target": 2874,
+							"target": 3192,
 							"name": "BuiltinEditorPlugins",
 							"package": "@contember/admin"
 						}
@@ -1650,9 +1650,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						2865,
-						2869,
-						2864
+						3183,
+						3187,
+						3182
 					]
 				}
 			],
@@ -1661,12 +1661,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts",
 					"line": 43,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L43"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/editorFactory/createEditor.ts#L43"
 				}
 			],
 			"typeParameters": [
 				{
-					"id": 2873,
+					"id": 3191,
 					"name": "E",
 					"variant": "typeParam",
 					"kind": 131072,
@@ -1694,35 +1694,35 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 3284,
+					"target": 3602,
 					"name": "CreateEditorOptions"
 				},
 				{
 					"type": "reference",
-					"target": 3399,
+					"target": 3717,
 					"name": "BlockEditorProps"
 				},
 				{
 					"type": "reference",
-					"target": 4086,
+					"target": 4404,
 					"name": "RichTextFieldProps"
 				},
 				{
 					"type": "reference",
-					"target": 4126,
+					"target": 4448,
 					"name": "LegacyDeprecatedEditorFormerlyKnownAsRichTextFieldProps"
 				}
 			]
 		},
 		{
-			"id": 10113,
+			"id": 10422,
 			"name": "SugaredRelativeEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10115,
+					"id": 10424,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1738,18 +1738,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10097,
+						"target": 10406,
 						"name": "UnsugarableRelativeEntityList.expectedMutation"
 					}
 				},
 				{
-					"id": 10114,
+					"id": 10423,
 					"name": "field",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1770,7 +1770,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10093,
+								"target": 10402,
 								"name": "SugarableRelativeEntityList",
 								"package": "@contember/binding"
 							}
@@ -1778,7 +1778,7 @@
 					}
 				},
 				{
-					"id": 10121,
+					"id": 10430,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1798,12 +1798,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10103,
+						"target": 10412,
 						"name": "UnsugarableRelativeEntityList.initialEntityCount"
 					}
 				},
 				{
-					"id": 10116,
+					"id": 10425,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1823,12 +1823,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10098,
+						"target": 10407,
 						"name": "UnsugarableRelativeEntityList.isNonbearing"
 					}
 				},
 				{
-					"id": 10120,
+					"id": 10429,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1848,12 +1848,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10102,
+						"target": 10411,
 						"name": "UnsugarableRelativeEntityList.limit"
 					}
 				},
 				{
-					"id": 10119,
+					"id": 10428,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1873,12 +1873,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10101,
+						"target": 10410,
 						"name": "UnsugarableRelativeEntityList.offset"
 					}
 				},
 				{
-					"id": 10125,
+					"id": 10434,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1892,7 +1892,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1906,7 +1906,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -1919,12 +1919,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10107,
+						"target": 10416,
 						"name": "UnsugarableRelativeEntityList.onBeforePersist"
 					}
 				},
 				{
-					"id": 10124,
+					"id": 10433,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1938,7 +1938,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1952,7 +1952,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -1965,12 +1965,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10106,
+						"target": 10415,
 						"name": "UnsugarableRelativeEntityList.onBeforeUpdate"
 					}
 				},
 				{
-					"id": 10128,
+					"id": 10437,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1984,7 +1984,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -1998,7 +1998,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2011,12 +2011,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10110,
+						"target": 10419,
 						"name": "UnsugarableRelativeEntityList.onChildBeforeUpdate"
 					}
 				},
 				{
-					"id": 10127,
+					"id": 10436,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2030,7 +2030,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2044,7 +2044,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -2057,12 +2057,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10109,
+						"target": 10418,
 						"name": "UnsugarableRelativeEntityList.onChildInitialize"
 					}
 				},
 				{
-					"id": 10126,
+					"id": 10435,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2076,7 +2076,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2090,7 +2090,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -2103,12 +2103,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10108,
+						"target": 10417,
 						"name": "UnsugarableRelativeEntityList.onChildUpdate"
 					}
 				},
 				{
-					"id": 10123,
+					"id": 10432,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2122,7 +2122,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2136,7 +2136,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -2149,12 +2149,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10105,
+						"target": 10414,
 						"name": "UnsugarableRelativeEntityList.onInitialize"
 					}
 				},
 				{
-					"id": 10129,
+					"id": 10438,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2168,7 +2168,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -2182,7 +2182,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -2195,12 +2195,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10111,
+						"target": 10420,
 						"name": "UnsugarableRelativeEntityList.onPersistError"
 					}
 				},
 				{
-					"id": 10130,
+					"id": 10439,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2214,7 +2214,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -2228,7 +2228,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -2241,12 +2241,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10112,
+						"target": 10421,
 						"name": "UnsugarableRelativeEntityList.onPersistSuccess"
 					}
 				},
 				{
-					"id": 10122,
+					"id": 10431,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2260,7 +2260,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -2274,7 +2274,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -2287,12 +2287,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10104,
+						"target": 10413,
 						"name": "UnsugarableRelativeEntityList.onUpdate"
 					}
 				},
 				{
-					"id": 10118,
+					"id": 10427,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2308,18 +2308,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10100,
+						"target": 10409,
 						"name": "UnsugarableRelativeEntityList.orderBy"
 					}
 				},
 				{
-					"id": 10117,
+					"id": 10426,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2335,13 +2335,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10099,
+						"target": 10408,
 						"name": "UnsugarableRelativeEntityList.setOnCreate"
 					}
 				}
@@ -2350,23 +2350,23 @@
 				{
 					"title": "Properties",
 					"children": [
-						10115,
-						10114,
-						10121,
-						10116,
-						10120,
-						10119,
-						10125,
-						10124,
-						10128,
-						10127,
-						10126,
-						10123,
-						10129,
-						10130,
-						10122,
-						10118,
-						10117
+						10424,
+						10423,
+						10430,
+						10425,
+						10429,
+						10428,
+						10434,
+						10433,
+						10437,
+						10436,
+						10435,
+						10432,
+						10438,
+						10439,
+						10431,
+						10427,
+						10426
 					]
 				}
 			],
@@ -2380,7 +2380,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList",
 					"package": "@contember/binding"
 				}
@@ -2388,25 +2388,25 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 1691,
+					"target": 1712,
 					"name": "RepeaterProps"
 				},
 				{
 					"type": "reference",
-					"target": 3399,
+					"target": 3717,
 					"name": "BlockEditorProps"
 				}
 			]
 		},
 		{
-			"id": 9753,
+			"id": 10062,
 			"name": "UnsugarableEntityCreationParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9754,
+					"id": 10063,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2426,7 +2426,7 @@
 					}
 				},
 				{
-					"id": 9755,
+					"id": 10064,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2442,7 +2442,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					}
@@ -2452,8 +2452,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						9754,
-						9755
+						10063,
+						10064
 					]
 				}
 			],
@@ -2467,40 +2467,40 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10039,
+					"target": 10348,
 					"name": "UnsugarableQualifiedSingleEntity"
 				},
 				{
 					"type": "reference",
-					"target": 10086,
+					"target": 10395,
 					"name": "UnsugarableRelation"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10248,
+					"target": 10557,
 					"name": "UnsugarableUnconstrainedQualifiedSingleEntity"
 				}
 			]
 		},
 		{
-			"id": 9764,
+			"id": 10073,
 			"name": "UnsugarableEntityListParameters",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9768,
+					"id": 10077,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2520,12 +2520,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9773,
+						"target": 10082,
 						"name": "UnsugarableEntityListPreferences.initialEntityCount"
 					}
 				},
 				{
-					"id": 9767,
+					"id": 10076,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2545,7 +2545,7 @@
 					}
 				},
 				{
-					"id": 9766,
+					"id": 10075,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2565,7 +2565,7 @@
 					}
 				},
 				{
-					"id": 9765,
+					"id": 10074,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2581,7 +2581,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					}
@@ -2591,10 +2591,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						9768,
-						9767,
-						9766,
-						9765
+						10077,
+						10076,
+						10075,
+						10074
 					]
 				}
 			],
@@ -2608,7 +2608,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9772,
+					"target": 10081,
 					"name": "UnsugarableEntityListPreferences",
 					"package": "@contember/binding"
 				}
@@ -2616,30 +2616,30 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 9772,
+			"id": 10081,
 			"name": "UnsugarableEntityListPreferences",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 9773,
+					"id": 10082,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2663,7 +2663,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						9773
+						10082
 					]
 				}
 			],
@@ -2677,25 +2677,25 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9764,
+					"target": 10073,
 					"name": "UnsugarableEntityListParameters"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 10086,
+			"id": 10395,
 			"name": "UnsugarableRelation",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10087,
+					"id": 10396,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2711,13 +2711,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					}
 				},
 				{
-					"id": 10088,
+					"id": 10397,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2737,12 +2737,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9754,
+						"target": 10063,
 						"name": "UnsugarableEntityCreationParameters.isNonbearing"
 					}
 				},
 				{
-					"id": 10089,
+					"id": 10398,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2758,13 +2758,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9755,
+						"target": 10064,
 						"name": "UnsugarableEntityCreationParameters.setOnCreate"
 					}
 				}
@@ -2773,9 +2773,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						10087,
-						10088,
-						10089
+						10396,
+						10397,
+						10398
 					]
 				}
 			],
@@ -2789,7 +2789,7 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 9753,
+					"target": 10062,
 					"name": "UnsugarableEntityCreationParameters",
 					"package": "@contember/binding"
 				}
@@ -2797,30 +2797,30 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9894,
+					"target": 10203,
 					"name": "UnsugarableHasOneRelation"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 10096,
+			"id": 10405,
 			"name": "UnsugarableRelativeEntityList",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 10097,
+					"id": 10406,
 					"name": "expectedMutation",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2836,18 +2836,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9409,
+						"target": 9718,
 						"name": "ExpectedRelationMutation",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10087,
+						"target": 10396,
 						"name": "UnsugarableRelation.expectedMutation"
 					}
 				},
 				{
-					"id": 10103,
+					"id": 10412,
 					"name": "initialEntityCount",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2867,12 +2867,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9768,
+						"target": 10077,
 						"name": "UnsugarableEntityListParameters.initialEntityCount"
 					}
 				},
 				{
-					"id": 10098,
+					"id": 10407,
 					"name": "isNonbearing",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2892,12 +2892,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10088,
+						"target": 10397,
 						"name": "UnsugarableRelation.isNonbearing"
 					}
 				},
 				{
-					"id": 10102,
+					"id": 10411,
 					"name": "limit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2917,12 +2917,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9767,
+						"target": 10076,
 						"name": "UnsugarableEntityListParameters.limit"
 					}
 				},
 				{
-					"id": 10101,
+					"id": 10410,
 					"name": "offset",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2942,12 +2942,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9766,
+						"target": 10075,
 						"name": "UnsugarableEntityListParameters.offset"
 					}
 				},
 				{
-					"id": 10107,
+					"id": 10416,
 					"name": "onBeforePersist",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2961,7 +2961,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7237,
+								"target": 7546,
 								"name": "BeforePersistHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -2975,7 +2975,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7237,
+										"target": 7546,
 										"name": "BeforePersistHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BeforePersistHandler"
@@ -2993,7 +2993,7 @@
 					}
 				},
 				{
-					"id": 10106,
+					"id": 10415,
 					"name": "onBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3007,7 +3007,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -3021,7 +3021,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -3039,7 +3039,7 @@
 					}
 				},
 				{
-					"id": 10110,
+					"id": 10419,
 					"name": "onChildBeforeUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3053,7 +3053,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -3067,7 +3067,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -3085,7 +3085,7 @@
 					}
 				},
 				{
-					"id": 10109,
+					"id": 10418,
 					"name": "onChildInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3099,7 +3099,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7097,
+								"target": 7406,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -3113,7 +3113,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7097,
+										"target": 7406,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.BatchUpdatesHandler"
@@ -3131,7 +3131,7 @@
 					}
 				},
 				{
-					"id": 10108,
+					"id": 10417,
 					"name": "onChildUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3145,7 +3145,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7102,
+								"target": 7411,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityAccessor.UpdateListener"
@@ -3159,7 +3159,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7102,
+										"target": 7411,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityAccessor.UpdateListener"
@@ -3177,7 +3177,7 @@
 					}
 				},
 				{
-					"id": 10105,
+					"id": 10414,
 					"name": "onInitialize",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3191,7 +3191,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7228,
+								"target": 7537,
 								"name": "BatchUpdatesHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -3205,7 +3205,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7228,
+										"target": 7537,
 										"name": "BatchUpdatesHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.BatchUpdatesHandler"
@@ -3223,7 +3223,7 @@
 					}
 				},
 				{
-					"id": 10111,
+					"id": 10420,
 					"name": "onPersistError",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3237,7 +3237,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7242,
+								"target": 7551,
 								"name": "PersistErrorHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -3251,7 +3251,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7242,
+										"target": 7551,
 										"name": "PersistErrorHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistErrorHandler"
@@ -3269,7 +3269,7 @@
 					}
 				},
 				{
-					"id": 10112,
+					"id": 10421,
 					"name": "onPersistSuccess",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3283,7 +3283,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7247,
+								"target": 7556,
 								"name": "PersistSuccessHandler",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -3297,7 +3297,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7247,
+										"target": 7556,
 										"name": "PersistSuccessHandler",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.PersistSuccessHandler"
@@ -3315,7 +3315,7 @@
 					}
 				},
 				{
-					"id": 10104,
+					"id": 10413,
 					"name": "onUpdate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3329,7 +3329,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 7233,
+								"target": 7542,
 								"name": "UpdateListener",
 								"package": "@contember/binding",
 								"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -3343,7 +3343,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 7233,
+										"target": 7542,
 										"name": "UpdateListener",
 										"package": "@contember/binding",
 										"qualifiedName": "EntityListAccessor.UpdateListener"
@@ -3361,7 +3361,7 @@
 					}
 				},
 				{
-					"id": 10100,
+					"id": 10409,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3377,18 +3377,18 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 9765,
+						"target": 10074,
 						"name": "UnsugarableEntityListParameters.orderBy"
 					}
 				},
 				{
-					"id": 10099,
+					"id": 10408,
 					"name": "setOnCreate",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3404,13 +3404,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 10175,
+						"target": 10484,
 						"name": "SugaredSetOnCreate",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 10089,
+						"target": 10398,
 						"name": "UnsugarableRelation.setOnCreate"
 					}
 				}
@@ -3419,22 +3419,22 @@
 				{
 					"title": "Properties",
 					"children": [
-						10097,
-						10103,
-						10098,
-						10102,
-						10101,
-						10107,
-						10106,
-						10110,
-						10109,
-						10108,
-						10105,
-						10111,
-						10112,
-						10104,
-						10100,
-						10099
+						10406,
+						10412,
+						10407,
+						10411,
+						10410,
+						10416,
+						10415,
+						10419,
+						10418,
+						10417,
+						10414,
+						10420,
+						10421,
+						10413,
+						10409,
+						10408
 					]
 				}
 			],
@@ -3448,19 +3448,19 @@
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 10086,
+					"target": 10395,
 					"name": "UnsugarableRelation",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9764,
+					"target": 10073,
 					"name": "UnsugarableEntityListParameters",
 					"package": "@contember/binding"
 				},
 				{
 					"type": "reference",
-					"target": 9849,
+					"target": 10158,
 					"name": "UnsugarableEntityListEventListeners",
 					"package": "@contember/binding"
 				}
@@ -3468,13 +3468,13 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 10113,
+					"target": 10422,
 					"name": "SugaredRelativeEntityList"
 				}
 			]
 		},
 		{
-			"id": 9849,
+			"id": 10158,
 			"name": "UnsugarableEntityListEventListeners",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -3594,28 +3594,28 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 9865,
+					"target": 10174,
 					"name": "UnsugarableHasManyRelation"
 				},
 				{
 					"type": "reference",
-					"target": 9962,
+					"target": 10271,
 					"name": "UnsugarableQualifiedEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10096,
+					"target": 10405,
 					"name": "UnsugarableRelativeEntityList"
 				},
 				{
 					"type": "reference",
-					"target": 10203,
+					"target": 10512,
 					"name": "UnsugarableUnconstrainedQualifiedEntityList"
 				}
 			]
 		},
 		{
-			"id": 3444,
+			"id": 3762,
 			"name": "BlockEditor",
 			"variant": "declaration",
 			"kind": 64,
@@ -3625,12 +3625,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx",
 					"line": 327,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L327"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/richText/blockEditor/BlockEditor.tsx#L327"
 				}
 			],
 			"signatures": [
 				{
-					"id": 3445,
+					"id": 3763,
 					"name": "BlockEditor",
 					"variant": "signature",
 					"kind": 4096,
@@ -3660,20 +3660,20 @@
 					],
 					"parameters": [
 						{
-							"id": 3446,
+							"id": 3764,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 3399,
+								"target": 3717,
 								"name": "BlockEditorProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 3447,
+							"id": 3765,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

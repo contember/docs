@@ -16,7 +16,7 @@
 					"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 					"line": 5,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L5"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L5"
 				}
 			],
 			"type": {
@@ -39,7 +39,7 @@
 									"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 									"line": 6,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L6"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L6"
 								}
 							],
 							"type": {
@@ -64,7 +64,7 @@
 									"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 									"line": 7,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L7"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L7"
 								}
 							],
 							"type": {
@@ -80,7 +80,7 @@
 											"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 											"line": 7,
 											"character": 14,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L7"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L7"
 										}
 									],
 									"signatures": [
@@ -114,7 +114,7 @@
 							"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 							"line": 5,
 							"character": 41,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L5"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L5"
 						}
 					]
 				}
@@ -131,7 +131,7 @@
 					"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 					"line": 15,
 					"character": 16,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L15"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L15"
 				}
 			],
 			"signatures": [
@@ -146,7 +146,7 @@
 							"fileName": "packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx",
 							"line": 15,
 							"character": 0,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/layout/src/menu-auto-close-provider/MenuAutoCloseProvider.tsx#L15"
 						}
 					],
 					"parameters": [

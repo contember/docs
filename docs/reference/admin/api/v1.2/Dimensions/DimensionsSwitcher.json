@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 2156,
+			"id": 2456,
 			"name": "DimensionsRendererProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2157,
+					"id": 2457,
 					"name": "accessor",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,18 +23,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L11"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 7137,
+						"target": 7446,
 						"name": "EntityListAccessor",
 						"package": "@contember/binding"
 					}
 				},
 				{
-					"id": 2158,
+					"id": 2458,
 					"name": "buttonProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,18 +46,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L12"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13321,
+						"target": 13677,
 						"name": "ButtonProps",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 2159,
+					"id": 2459,
 					"name": "dimension",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,7 +67,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L13"
 						}
 					],
 					"type": {
@@ -76,7 +76,7 @@
 					}
 				},
 				{
-					"id": 2160,
+					"id": 2460,
 					"name": "labelFactory",
 					"variant": "declaration",
 					"kind": 1024,
@@ -86,7 +86,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 14,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L14"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L14"
 						}
 					],
 					"type": {
@@ -101,7 +101,7 @@
 					}
 				},
 				{
-					"id": 2161,
+					"id": 2461,
 					"name": "maxItems",
 					"variant": "declaration",
 					"kind": 1024,
@@ -111,7 +111,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L15"
 						}
 					],
 					"type": {
@@ -120,7 +120,7 @@
 					}
 				},
 				{
-					"id": 2162,
+					"id": 2462,
 					"name": "minItems",
 					"variant": "declaration",
 					"kind": 1024,
@@ -130,7 +130,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L16"
 						}
 					],
 					"type": {
@@ -139,7 +139,7 @@
 					}
 				},
 				{
-					"id": 2163,
+					"id": 2463,
 					"name": "renderSelected",
 					"variant": "declaration",
 					"kind": 1024,
@@ -151,18 +151,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 2199,
+						"target": 2499,
 						"name": "SelectedDimensionRenderer",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 2164,
+					"id": 2464,
 					"name": "slugField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -172,7 +172,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L18"
 						}
 					],
 					"type": {
@@ -185,14 +185,14 @@
 				{
 					"title": "Properties",
 					"children": [
-						2157,
-						2158,
-						2159,
-						2160,
-						2161,
-						2162,
-						2163,
-						2164
+						2457,
+						2458,
+						2459,
+						2460,
+						2461,
+						2462,
+						2463,
+						2464
 					]
 				}
 			],
@@ -201,19 +201,19 @@
 					"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 					"line": 10,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L10"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L10"
 				}
 			]
 		},
 		{
-			"id": 2165,
+			"id": 2465,
 			"name": "DimensionsSwitcherBaseProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2171,
+					"id": 2471,
 					"name": "buttonProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -225,12 +225,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L12"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13321,
+						"target": 13677,
 						"name": "ButtonProps",
 						"package": "@contember/ui"
 					},
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"id": 2172,
+					"id": 2472,
 					"name": "dimension",
 					"variant": "declaration",
 					"kind": 1024,
@@ -251,7 +251,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L13"
 						}
 					],
 					"type": {
@@ -265,7 +265,7 @@
 					}
 				},
 				{
-					"id": 2170,
+					"id": 2470,
 					"name": "labelField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -275,7 +275,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 21,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L21"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L21"
 						}
 					],
 					"type": {
@@ -284,7 +284,7 @@
 					}
 				},
 				{
-					"id": 2169,
+					"id": 2469,
 					"name": "maxItems",
 					"variant": "declaration",
 					"kind": 1024,
@@ -296,7 +296,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L20"
 						}
 					],
 					"type": {
@@ -305,7 +305,7 @@
 					}
 				},
 				{
-					"id": 2168,
+					"id": 2468,
 					"name": "minItems",
 					"variant": "declaration",
 					"kind": 1024,
@@ -317,7 +317,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L19"
 						}
 					],
 					"type": {
@@ -326,7 +326,7 @@
 					}
 				},
 				{
-					"id": 2167,
+					"id": 2467,
 					"name": "optionEntities",
 					"variant": "declaration",
 					"kind": 1024,
@@ -336,7 +336,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L18"
 						}
 					],
 					"type": {
@@ -348,7 +348,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10016,
+								"target": 10325,
 								"name": "SugarableQualifiedFieldList",
 								"package": "@contember/binding"
 							}
@@ -356,7 +356,7 @@
 					}
 				},
 				{
-					"id": 2166,
+					"id": 2466,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -368,18 +368,18 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					}
 				},
 				{
-					"id": 2173,
+					"id": 2473,
 					"name": "renderSelected",
 					"variant": "declaration",
 					"kind": 1024,
@@ -391,12 +391,12 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 2199,
+						"target": 2499,
 						"name": "SelectedDimensionRenderer",
 						"package": "@contember/admin"
 					},
@@ -407,7 +407,7 @@
 					}
 				},
 				{
-					"id": 2174,
+					"id": 2474,
 					"name": "slugField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -417,7 +417,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L18"
 						}
 					],
 					"type": {
@@ -435,15 +435,15 @@
 				{
 					"title": "Properties",
 					"children": [
-						2171,
-						2172,
-						2170,
-						2169,
-						2168,
-						2167,
-						2166,
-						2173,
-						2174
+						2471,
+						2472,
+						2470,
+						2469,
+						2468,
+						2467,
+						2466,
+						2473,
+						2474
 					]
 				}
 			],
@@ -452,7 +452,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 					"line": 15,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L15"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L15"
 				}
 			],
 			"extendedTypes": [
@@ -465,7 +465,7 @@
 					"typeArguments": [
 						{
 							"type": "reference",
-							"target": 2156,
+							"target": 2456,
 							"name": "DimensionsRendererProps",
 							"package": "@contember/admin"
 						},
@@ -502,20 +502,20 @@
 			"extendedBy": [
 				{
 					"type": "reference",
-					"target": 2175,
+					"target": 2475,
 					"name": "DimensionsSwitcherProps"
 				}
 			]
 		},
 		{
-			"id": 2175,
+			"id": 2475,
 			"name": "DimensionsSwitcherProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2181,
+					"id": 2481,
 					"name": "buttonProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -527,23 +527,23 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L12"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13321,
+						"target": 13677,
 						"name": "ButtonProps",
 						"package": "@contember/ui"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2171,
+						"target": 2471,
 						"name": "DimensionsSwitcherBaseProps.buttonProps"
 					}
 				},
 				{
-					"id": 2182,
+					"id": 2482,
 					"name": "dimension",
 					"variant": "declaration",
 					"kind": 1024,
@@ -553,7 +553,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L13"
 						}
 					],
 					"type": {
@@ -562,12 +562,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2172,
+						"target": 2472,
 						"name": "DimensionsSwitcherBaseProps.dimension"
 					}
 				},
 				{
-					"id": 2180,
+					"id": 2480,
 					"name": "labelField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -577,7 +577,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 21,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L21"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L21"
 						}
 					],
 					"type": {
@@ -586,12 +586,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2170,
+						"target": 2470,
 						"name": "DimensionsSwitcherBaseProps.labelField"
 					}
 				},
 				{
-					"id": 2179,
+					"id": 2479,
 					"name": "maxItems",
 					"variant": "declaration",
 					"kind": 1024,
@@ -603,7 +603,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L20"
 						}
 					],
 					"type": {
@@ -612,12 +612,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2169,
+						"target": 2469,
 						"name": "DimensionsSwitcherBaseProps.maxItems"
 					}
 				},
 				{
-					"id": 2178,
+					"id": 2478,
 					"name": "minItems",
 					"variant": "declaration",
 					"kind": 1024,
@@ -629,7 +629,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L19"
 						}
 					],
 					"type": {
@@ -638,12 +638,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2168,
+						"target": 2468,
 						"name": "DimensionsSwitcherBaseProps.minItems"
 					}
 				},
 				{
-					"id": 2177,
+					"id": 2477,
 					"name": "optionEntities",
 					"variant": "declaration",
 					"kind": 1024,
@@ -653,7 +653,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L18"
 						}
 					],
 					"type": {
@@ -665,7 +665,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10016,
+								"target": 10325,
 								"name": "SugarableQualifiedFieldList",
 								"package": "@contember/binding"
 							}
@@ -673,12 +673,12 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2167,
+						"target": 2467,
 						"name": "DimensionsSwitcherBaseProps.optionEntities"
 					}
 				},
 				{
-					"id": 2176,
+					"id": 2476,
 					"name": "orderBy",
 					"variant": "declaration",
 					"kind": 1024,
@@ -690,23 +690,23 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 9735,
+						"target": 10044,
 						"name": "SugaredOrderBy",
 						"package": "@contember/binding"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2166,
+						"target": 2466,
 						"name": "DimensionsSwitcherBaseProps.orderBy"
 					}
 				},
 				{
-					"id": 2183,
+					"id": 2483,
 					"name": "renderSelected",
 					"variant": "declaration",
 					"kind": 1024,
@@ -718,23 +718,23 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L17"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 2199,
+						"target": 2499,
 						"name": "SelectedDimensionRenderer",
 						"package": "@contember/admin"
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2173,
+						"target": 2473,
 						"name": "DimensionsSwitcherBaseProps.renderSelected"
 					}
 				},
 				{
-					"id": 2184,
+					"id": 2484,
 					"name": "slugField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -744,7 +744,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsRenderer.tsx#L18"
 						}
 					],
 					"type": {
@@ -753,7 +753,7 @@
 					},
 					"inheritedFrom": {
 						"type": "reference",
-						"target": 2174,
+						"target": 2474,
 						"name": "DimensionsSwitcherBaseProps.slugField"
 					}
 				}
@@ -762,15 +762,15 @@
 				{
 					"title": "Properties",
 					"children": [
-						2181,
-						2182,
-						2180,
-						2179,
-						2178,
-						2177,
-						2176,
-						2183,
-						2184
+						2481,
+						2482,
+						2480,
+						2479,
+						2478,
+						2477,
+						2476,
+						2483,
+						2484
 					]
 				}
 			],
@@ -779,20 +779,20 @@
 					"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 					"line": 24,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L24"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L24"
 				}
 			],
 			"extendedTypes": [
 				{
 					"type": "reference",
-					"target": 2165,
+					"target": 2465,
 					"name": "DimensionsSwitcherBaseProps",
 					"package": "@contember/admin"
 				}
 			]
 		},
 		{
-			"id": 2185,
+			"id": 2485,
 			"name": "DimensionsSwitcher",
 			"variant": "declaration",
 			"kind": 64,
@@ -802,12 +802,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx",
 					"line": 36,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L36"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/environment/DimensionsSwitcher/DimensionsSwitcher.tsx#L36"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2186,
+					"id": 2486,
 					"name": "DimensionsSwitcher",
 					"variant": "signature",
 					"kind": 4096,
@@ -821,14 +821,14 @@
 					],
 					"parameters": [
 						{
-							"id": 2187,
+							"id": 2487,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 2175,
+								"target": 2475,
 								"name": "DimensionsSwitcherProps",
 								"package": "@contember/admin"
 							}

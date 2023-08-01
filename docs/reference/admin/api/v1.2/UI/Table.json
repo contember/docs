@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15302,
+			"id": 15585,
 			"name": "TableProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15309,
+					"id": 15592,
 					"name": "bare",
 					"variant": "declaration",
 					"kind": 1024,
@@ -33,7 +33,7 @@
 					}
 				},
 				{
-					"id": 15304,
+					"id": 15587,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -59,7 +59,7 @@
 					}
 				},
 				{
-					"id": 15303,
+					"id": 15586,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -79,7 +79,7 @@
 					}
 				},
 				{
-					"id": 15305,
+					"id": 15588,
 					"name": "heading",
 					"variant": "declaration",
 					"kind": 1024,
@@ -105,7 +105,7 @@
 					}
 				},
 				{
-					"id": 15308,
+					"id": 15591,
 					"name": "justification",
 					"variant": "declaration",
 					"kind": 1024,
@@ -121,13 +121,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18289,
+						"target": 18674,
 						"name": "Justification",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15307,
+					"id": 15590,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -143,13 +143,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					}
 				},
 				{
-					"id": 15306,
+					"id": 15589,
 					"name": "tableHead",
 					"variant": "declaration",
 					"kind": 1024,
@@ -179,13 +179,13 @@
 				{
 					"title": "Properties",
 					"children": [
-						15309,
-						15304,
-						15303,
-						15305,
-						15308,
-						15307,
-						15306
+						15592,
+						15587,
+						15586,
+						15588,
+						15591,
+						15590,
+						15589
 					]
 				}
 			],
@@ -198,7 +198,7 @@
 			]
 		},
 		{
-			"id": 15310,
+			"id": 15593,
 			"name": "Table",
 			"variant": "declaration",
 			"kind": 64,
@@ -212,7 +212,7 @@
 			],
 			"signatures": [
 				{
-					"id": 15311,
+					"id": 15594,
 					"name": "Table",
 					"variant": "signature",
 					"kind": 4096,
@@ -226,14 +226,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15312,
+							"id": 15595,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15302,
+								"target": 15585,
 								"name": "TableProps",
 								"package": "@contember/ui"
 							}

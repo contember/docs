@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6098,
+			"id": 6407,
 			"name": "EditIdentityProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6101,
+					"id": 6410,
 					"name": "identityId",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
 							"line": 12,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditIdentity.tsx#L12"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditIdentity.tsx#L12"
 						}
 					],
 					"type": {
@@ -32,7 +32,7 @@
 					}
 				},
 				{
-					"id": 6099,
+					"id": 6408,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -42,7 +42,7 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditIdentity.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditIdentity.tsx#L10"
 						}
 					],
 					"type": {
@@ -51,7 +51,7 @@
 					}
 				},
 				{
-					"id": 6100,
+					"id": 6409,
 					"name": "rolesConfig",
 					"variant": "declaration",
 					"kind": 1024,
@@ -63,18 +63,18 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
 							"line": 11,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditIdentity.tsx#L11"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditIdentity.tsx#L11"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6119,
+						"target": 6428,
 						"name": "RolesConfig",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6102,
+					"id": 6411,
 					"name": "userListLink",
 					"variant": "declaration",
 					"kind": 1024,
@@ -84,12 +84,12 @@
 							"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
 							"line": 13,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditIdentity.tsx#L13"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditIdentity.tsx#L13"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5945,
+						"target": 6254,
 						"name": "RoutingLinkTarget",
 						"package": "@contember/admin"
 					}
@@ -99,10 +99,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						6101,
-						6099,
-						6100,
-						6102
+						6410,
+						6408,
+						6409,
+						6411
 					]
 				}
 			],
@@ -111,12 +111,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
 					"line": 9,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditIdentity.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditIdentity.tsx#L9"
 				}
 			]
 		},
 		{
-			"id": 6103,
+			"id": 6412,
 			"name": "EditIdentity",
 			"variant": "declaration",
 			"kind": 64,
@@ -126,12 +126,12 @@
 					"fileName": "packages/admin/src/tenant/components/member/EditIdentity.tsx",
 					"line": 19,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/member/EditIdentity.tsx#L19"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/member/EditIdentity.tsx#L19"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6104,
+					"id": 6413,
 					"name": "EditIdentity",
 					"variant": "signature",
 					"kind": 4096,
@@ -145,20 +145,20 @@
 					],
 					"parameters": [
 						{
-							"id": 6105,
+							"id": 6414,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6098,
+								"target": 6407,
 								"name": "EditIdentityProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 6106,
+							"id": 6415,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 14879,
+			"id": 15244,
 			"name": "UploadProgressProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 14881,
+					"id": 15246,
 					"name": "formatProgressMessage",
 					"variant": "declaration",
 					"kind": 1024,
@@ -30,7 +30,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 14882,
+							"id": 15247,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -44,7 +44,7 @@
 							],
 							"signatures": [
 								{
-									"id": 14883,
+									"id": 15248,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -58,7 +58,7 @@
 									],
 									"parameters": [
 										{
-											"id": 14884,
+											"id": 15249,
 											"name": "progress",
 											"variant": "param",
 											"kind": 32768,
@@ -87,7 +87,7 @@
 					}
 				},
 				{
-					"id": 14880,
+					"id": 15245,
 					"name": "progress",
 					"variant": "declaration",
 					"kind": 1024,
@@ -120,8 +120,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						14881,
-						14880
+						15246,
+						15245
 					]
 				}
 			],
@@ -134,7 +134,7 @@
 			]
 		},
 		{
-			"id": 14885,
+			"id": 15250,
 			"name": "UploadProgress",
 			"variant": "declaration",
 			"kind": 64,
@@ -148,7 +148,7 @@
 			],
 			"signatures": [
 				{
-					"id": 14886,
+					"id": 15251,
 					"name": "UploadProgress",
 					"variant": "signature",
 					"kind": 4096,
@@ -162,20 +162,20 @@
 					],
 					"parameters": [
 						{
-							"id": 14887,
+							"id": 15252,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 14879,
+								"target": 15244,
 								"name": "UploadProgressProps",
 								"package": "@contember/ui"
 							}
 						},
 						{
-							"id": 14888,
+							"id": 15253,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

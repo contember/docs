@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 12104,
+			"id": 12425,
 			"name": "CollapsibleProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12107,
+					"id": 12428,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"id": 12105,
+					"id": 12426,
 					"name": "expanded",
 					"variant": "declaration",
 					"kind": 1024,
@@ -57,7 +57,7 @@
 					}
 				},
 				{
-					"id": 12108,
+					"id": 12429,
 					"name": "onClose",
 					"variant": "declaration",
 					"kind": 1024,
@@ -74,7 +74,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12109,
+							"id": 12430,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -88,7 +88,7 @@
 							],
 							"signatures": [
 								{
-									"id": 12110,
+									"id": 12431,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -110,7 +110,7 @@
 					}
 				},
 				{
-					"id": 12111,
+					"id": 12432,
 					"name": "onOpen",
 					"variant": "declaration",
 					"kind": 1024,
@@ -127,7 +127,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12112,
+							"id": 12433,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -141,7 +141,7 @@
 							],
 							"signatures": [
 								{
-									"id": 12113,
+									"id": 12434,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -163,7 +163,7 @@
 					}
 				},
 				{
-					"id": 12114,
+					"id": 12435,
 					"name": "onTransitionEnd",
 					"variant": "declaration",
 					"kind": 1024,
@@ -180,7 +180,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 12115,
+							"id": 12436,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -194,7 +194,7 @@
 							],
 							"signatures": [
 								{
-									"id": 12116,
+									"id": 12437,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -216,7 +216,7 @@
 					}
 				},
 				{
-					"id": 12106,
+					"id": 12427,
 					"name": "transition",
 					"variant": "declaration",
 					"kind": 1024,
@@ -232,7 +232,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15557,
+						"target": 15942,
 						"name": "CollapsibleTransition",
 						"package": "@contember/ui"
 					}
@@ -242,12 +242,12 @@
 				{
 					"title": "Properties",
 					"children": [
-						12107,
-						12105,
-						12108,
-						12111,
-						12114,
-						12106
+						12428,
+						12426,
+						12429,
+						12432,
+						12435,
+						12427
 					]
 				}
 			],
@@ -260,7 +260,7 @@
 			]
 		},
 		{
-			"id": 12117,
+			"id": 12438,
 			"name": "Collapsible",
 			"variant": "declaration",
 			"kind": 64,
@@ -274,7 +274,7 @@
 			],
 			"signatures": [
 				{
-					"id": 12118,
+					"id": 12439,
 					"name": "Collapsible",
 					"variant": "signature",
 					"kind": 4096,
@@ -288,14 +288,14 @@
 					],
 					"parameters": [
 						{
-							"id": 12119,
+							"id": 12440,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 12104,
+								"target": 12425,
 								"name": "CollapsibleProps",
 								"package": "@contember/ui"
 							}

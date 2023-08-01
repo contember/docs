@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 2280,
+			"id": 2580,
 			"name": "FieldFallbackViewProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2281,
+					"id": 2581,
 					"name": "fallback",
 					"variant": "declaration",
 					"kind": 1024,
@@ -23,7 +23,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L9"
 						}
 					],
 					"type": {
@@ -38,7 +38,7 @@
 					}
 				},
 				{
-					"id": 2282,
+					"id": 2582,
 					"name": "fallbackStyle",
 					"variant": "declaration",
 					"kind": 1024,
@@ -48,7 +48,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L10"
 						}
 					],
 					"type": {
@@ -60,7 +60,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 2279,
+								"target": 2579,
 								"name": "FieldFallbackViewStyle",
 								"package": "@contember/admin"
 							}
@@ -72,8 +72,8 @@
 				{
 					"title": "Properties",
 					"children": [
-						2281,
-						2282
+						2581,
+						2582
 					]
 				}
 			],
@@ -82,12 +82,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 					"line": 8,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L8"
 				}
 			]
 		},
 		{
-			"id": 2284,
+			"id": 2584,
 			"name": "FieldFallbackView",
 			"variant": "declaration",
 			"kind": 64,
@@ -97,12 +97,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx",
 					"line": 18,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L18"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fieldViews/FieldFallbackView.tsx#L18"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2285,
+					"id": 2585,
 					"name": "FieldFallbackView",
 					"variant": "signature",
 					"kind": 4096,
@@ -116,20 +116,20 @@
 					],
 					"parameters": [
 						{
-							"id": 2286,
+							"id": 2586,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 2280,
+								"target": 2580,
 								"name": "FieldFallbackViewProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 2287,
+							"id": 2587,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

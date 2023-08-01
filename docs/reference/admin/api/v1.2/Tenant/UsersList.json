@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 6300,
+			"id": 6609,
 			"name": "UsersListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 6302,
+					"id": 6611,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -25,7 +25,7 @@
 							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 							"line": 8,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L8"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L8"
 						}
 					],
 					"type": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"id": 6303,
+					"id": 6612,
 					"name": "createRoleRenderer",
 					"variant": "declaration",
 					"kind": 1024,
@@ -46,18 +46,18 @@
 							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 							"line": 9,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L9"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 6153,
+						"target": 6462,
 						"name": "RoleRendererFactory",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6304,
+					"id": 6613,
 					"name": "editUserLink",
 					"variant": "declaration",
 					"kind": 1024,
@@ -67,18 +67,18 @@
 							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 							"line": 10,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L10"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L10"
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 5945,
+						"target": 6254,
 						"name": "RoutingLinkTarget",
 						"package": "@contember/admin"
 					}
 				},
 				{
-					"id": 6301,
+					"id": 6610,
 					"name": "project",
 					"variant": "declaration",
 					"kind": 1024,
@@ -88,7 +88,7 @@
 							"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 							"line": 7,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L7"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L7"
 						}
 					],
 					"type": {
@@ -101,10 +101,10 @@
 				{
 					"title": "Properties",
 					"children": [
-						6302,
-						6303,
-						6304,
-						6301
+						6611,
+						6612,
+						6613,
+						6610
 					]
 				}
 			],
@@ -113,12 +113,12 @@
 					"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 					"line": 6,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L6"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L6"
 				}
 			]
 		},
 		{
-			"id": 6305,
+			"id": 6614,
 			"name": "UsersList",
 			"variant": "declaration",
 			"kind": 64,
@@ -128,12 +128,12 @@
 					"fileName": "packages/admin/src/tenant/components/person/UsersList.tsx",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/tenant/components/person/UsersList.tsx#L16"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/tenant/components/person/UsersList.tsx#L16"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6306,
+					"id": 6615,
 					"name": "UsersList",
 					"variant": "signature",
 					"kind": 4096,
@@ -147,14 +147,14 @@
 					],
 					"parameters": [
 						{
-							"id": 6307,
+							"id": 6616,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 6300,
+								"target": 6609,
 								"name": "UsersListProps",
 								"package": "@contember/admin"
 							}

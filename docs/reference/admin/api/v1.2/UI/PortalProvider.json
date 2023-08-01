@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 15104,
+			"id": 15376,
 			"name": "PortalProviderProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 15106,
+					"id": 15378,
 					"name": "children",
 					"variant": "declaration",
 					"kind": 1024,
@@ -37,7 +37,27 @@
 					}
 				},
 				{
-					"id": 15105,
+					"id": 15379,
+					"name": "className",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Portal/PortalProvider.d.ts",
+							"line": 5,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 15377,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -61,8 +81,9 @@
 				{
 					"title": "Properties",
 					"children": [
-						15106,
-						15105
+						15378,
+						15379,
+						15377
 					]
 				}
 			],
@@ -75,7 +96,7 @@
 			]
 		},
 		{
-			"id": 15107,
+			"id": 15380,
 			"name": "PortalProvider",
 			"variant": "declaration",
 			"kind": 64,
@@ -83,13 +104,13 @@
 			"sources": [
 				{
 					"fileName": "packages/ui/dist/types/components/Portal/PortalProvider.d.ts",
-					"line": 32,
+					"line": 33,
 					"character": 21
 				}
 			],
 			"signatures": [
 				{
-					"id": 15108,
+					"id": 15381,
 					"name": "PortalProvider",
 					"variant": "signature",
 					"kind": 4096,
@@ -199,14 +220,14 @@
 					],
 					"parameters": [
 						{
-							"id": 15109,
+							"id": 15382,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 15104,
+								"target": 15376,
 								"name": "PortalProviderProps",
 								"package": "@contember/ui"
 							}

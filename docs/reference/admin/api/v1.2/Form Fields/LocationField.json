@@ -6,14 +6,14 @@
 	"variant": "project",
 	"children": [
 		{
-			"id": 12755,
+			"id": 13088,
 			"name": "ErrorListProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 12756,
+					"id": 13089,
 					"name": "errors",
 					"variant": "declaration",
 					"kind": 1024,
@@ -29,7 +29,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15565,
+						"target": 15950,
 						"name": "FieldErrors",
 						"package": "@contember/ui"
 					}
@@ -39,7 +39,7 @@
 				{
 					"title": "Properties",
 					"children": [
-						12756
+						13089
 					]
 				}
 			],
@@ -52,14 +52,14 @@
 			]
 		},
 		{
-			"id": 2560,
+			"id": 2860,
 			"name": "LocationFieldProps",
 			"variant": "declaration",
 			"kind": 256,
 			"flags": {},
 			"children": [
 				{
-					"id": 2570,
+					"id": 2871,
 					"name": "className",
 					"variant": "declaration",
 					"kind": 1024,
@@ -69,7 +69,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 19,
+							"line": 25,
 							"character": 4
 						}
 					],
@@ -84,7 +84,7 @@
 					}
 				},
 				{
-					"id": 2577,
+					"id": 2881,
 					"name": "description",
 					"variant": "declaration",
 					"kind": 1024,
@@ -115,17 +115,39 @@
 					}
 				},
 				{
-					"id": 2572,
+					"id": 2875,
 					"name": "direction",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
 						"isOptional": true
 					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Use "
+									},
+									{
+										"kind": "code",
+										"text": "`horizontal`"
+									},
+									{
+										"kind": "text",
+										"text": " instead"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 9,
+							"line": 10,
 							"character": 4
 						}
 					],
@@ -157,7 +179,41 @@
 					}
 				},
 				{
-					"id": 2576,
+					"id": 2874,
+					"name": "display",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 13,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "inline"
+							},
+							{
+								"type": "literal",
+								"value": "block"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.display"
+					}
+				},
+				{
+					"id": 2880,
 					"name": "errors",
 					"variant": "declaration",
 					"kind": 1024,
@@ -173,7 +229,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"target": 15565,
+						"target": 15950,
 						"name": "FieldErrors",
 						"package": "@contember/ui"
 					},
@@ -184,7 +240,32 @@
 					}
 				},
 				{
-					"id": 2573,
+					"id": 2876,
+					"name": "evenly",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 11,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.evenly"
+					}
+				},
+				{
+					"id": 2877,
 					"name": "gap",
 					"variant": "declaration",
 					"kind": 1024,
@@ -194,7 +275,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 10,
+							"line": 12,
 							"character": 4
 						}
 					],
@@ -202,13 +283,29 @@
 						"type": "union",
 						"types": [
 							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
 								"type": "literal",
-								"value": "none"
+								"value": "padding"
+							},
+							{
+								"type": "literal",
+								"value": "larger"
+							},
+							{
+								"type": "literal",
+								"value": "gap"
+							},
+							{
+								"type": "literal",
+								"value": "gutter"
 							},
 							{
 								"type": "reference",
-								"target": 18292,
-								"name": "Size",
+								"target": 15553,
+								"name": "DeprecatedStackSize",
 								"package": "@contember/ui"
 							}
 						]
@@ -220,7 +317,32 @@
 					}
 				},
 				{
-					"id": 2568,
+					"id": 2872,
+					"name": "horizontal",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 14,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.horizontal"
+					}
+				},
+				{
+					"id": 2868,
 					"name": "label",
 					"variant": "declaration",
 					"kind": 1024,
@@ -228,7 +350,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 11,
+							"line": 15,
 							"character": 4
 						}
 					],
@@ -249,7 +371,7 @@
 					}
 				},
 				{
-					"id": 2578,
+					"id": 2882,
 					"name": "labelDescription",
 					"variant": "declaration",
 					"kind": 1024,
@@ -259,7 +381,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 12,
+							"line": 16,
 							"character": 4
 						}
 					],
@@ -280,7 +402,7 @@
 					}
 				},
 				{
-					"id": 2579,
+					"id": 2883,
 					"name": "labelPosition",
 					"variant": "declaration",
 					"kind": 1024,
@@ -290,13 +412,13 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 13,
+							"line": 17,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 13771,
+						"target": 14135,
 						"name": "FieldContainerLabelPosition",
 						"package": "@contember/ui"
 					},
@@ -307,7 +429,7 @@
 					}
 				},
 				{
-					"id": 2561,
+					"id": 2861,
 					"name": "latitudeField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -317,7 +439,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 15,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L15"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L15"
 						}
 					],
 					"type": {
@@ -329,7 +451,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -337,7 +459,7 @@
 					}
 				},
 				{
-					"id": 2562,
+					"id": 2862,
 					"name": "longitudeField",
 					"variant": "declaration",
 					"kind": 1024,
@@ -347,7 +469,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 16,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L16"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L16"
 						}
 					],
 					"type": {
@@ -359,7 +481,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 10171,
+								"target": 10480,
 								"name": "SugaredRelativeSingleField",
 								"package": "@contember/binding"
 							}
@@ -367,7 +489,7 @@
 					}
 				},
 				{
-					"id": 2563,
+					"id": 2863,
 					"name": "mapCenter",
 					"variant": "declaration",
 					"kind": 1024,
@@ -379,7 +501,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 17,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L17"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L17"
 						}
 					],
 					"type": {
@@ -397,7 +519,7 @@
 					}
 				},
 				{
-					"id": 2566,
+					"id": 2866,
 					"name": "mapProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -409,7 +531,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 20,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L20"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L20"
 						}
 					],
 					"type": {
@@ -423,7 +545,7 @@
 					}
 				},
 				{
-					"id": 2567,
+					"id": 2867,
 					"name": "markerProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -435,7 +557,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 21,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L21"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L21"
 						}
 					],
 					"type": {
@@ -449,7 +571,7 @@
 					}
 				},
 				{
-					"id": 2575,
+					"id": 2879,
 					"name": "required",
 					"variant": "declaration",
 					"kind": 1024,
@@ -459,7 +581,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 15,
+							"line": 20,
 							"character": 4
 						}
 					],
@@ -474,7 +596,32 @@
 					}
 				},
 				{
-					"id": 2571,
+					"id": 2870,
+					"name": "reverse",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+							"line": 23,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"target": -1,
+						"name": "Omit.reverse"
+					}
+				},
+				{
+					"id": 2873,
 					"name": "size",
 					"variant": "declaration",
 					"kind": 1024,
@@ -484,13 +631,13 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 16,
+							"line": 21,
 							"character": 4
 						}
 					],
 					"type": {
 						"type": "reference",
-						"target": 18292,
+						"target": 18677,
 						"name": "Size",
 						"package": "@contember/ui"
 					},
@@ -501,7 +648,7 @@
 					}
 				},
 				{
-					"id": 2569,
+					"id": 2869,
 					"name": "style",
 					"variant": "declaration",
 					"kind": 1024,
@@ -511,7 +658,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 18,
+							"line": 24,
 							"character": 4
 						}
 					],
@@ -532,7 +679,7 @@
 					}
 				},
 				{
-					"id": 2565,
+					"id": 2865,
 					"name": "tileLayerProps",
 					"variant": "declaration",
 					"kind": 1024,
@@ -544,7 +691,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 19,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L19"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L19"
 						}
 					],
 					"type": {
@@ -569,7 +716,7 @@
 					}
 				},
 				{
-					"id": 2580,
+					"id": 2884,
 					"name": "useLabelElement",
 					"variant": "declaration",
 					"kind": 1024,
@@ -579,7 +726,7 @@
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 17,
+							"line": 22,
 							"character": 4
 						}
 					],
@@ -594,17 +741,31 @@
 					}
 				},
 				{
-					"id": 2574,
+					"id": 2878,
 					"name": "width",
 					"variant": "declaration",
 					"kind": 1024,
 					"flags": {
 						"isOptional": true
 					},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@deprecated",
+								"content": [
+									{
+										"kind": "text",
+										"text": "No alternative"
+									}
+								]
+							}
+						]
+					},
 					"sources": [
 						{
 							"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-							"line": 14,
+							"line": 19,
 							"character": 4
 						}
 					],
@@ -632,7 +793,7 @@
 					}
 				},
 				{
-					"id": 2564,
+					"id": 2864,
 					"name": "zoom",
 					"variant": "declaration",
 					"kind": 1024,
@@ -644,7 +805,7 @@
 							"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 							"line": 18,
 							"character": 1,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L18"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L18"
 						}
 					],
 					"type": {
@@ -657,26 +818,30 @@
 				{
 					"title": "Properties",
 					"children": [
-						2570,
-						2577,
-						2572,
-						2576,
-						2573,
-						2568,
-						2578,
-						2579,
-						2561,
-						2562,
-						2563,
-						2566,
-						2567,
-						2575,
-						2571,
-						2569,
-						2565,
-						2580,
-						2574,
-						2564
+						2871,
+						2881,
+						2875,
+						2874,
+						2880,
+						2876,
+						2877,
+						2872,
+						2868,
+						2882,
+						2883,
+						2861,
+						2862,
+						2863,
+						2866,
+						2867,
+						2879,
+						2870,
+						2873,
+						2869,
+						2865,
+						2884,
+						2878,
+						2864
 					]
 				}
 			],
@@ -685,7 +850,7 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 					"line": 14,
 					"character": 17,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L14"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L14"
 				}
 			],
 			"extendedTypes": [
@@ -698,7 +863,7 @@
 					"typeArguments": [
 						{
 							"type": "reference",
-							"target": 13739,
+							"target": 14095,
 							"name": "FieldContainerProps",
 							"package": "@contember/ui"
 						},
@@ -713,7 +878,7 @@
 			]
 		},
 		{
-			"id": 13739,
+			"id": 14095,
 			"name": "FieldContainerProps",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -731,14 +896,14 @@
 					{
 						"type": "reflection",
 						"declaration": {
-							"id": 13740,
+							"id": 14096,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 13741,
+									"id": 14097,
 									"name": "children",
 									"variant": "declaration",
 									"kind": 1024,
@@ -762,7 +927,7 @@
 									}
 								},
 								{
-									"id": 13753,
+									"id": 14113,
 									"name": "className",
 									"variant": "declaration",
 									"kind": 1024,
@@ -772,7 +937,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 19,
+											"line": 25,
 											"character": 4
 										}
 									],
@@ -782,7 +947,7 @@
 									}
 								},
 								{
-									"id": 13742,
+									"id": 14098,
 									"name": "description",
 									"variant": "declaration",
 									"kind": 1024,
@@ -808,17 +973,39 @@
 									}
 								},
 								{
-									"id": 13743,
+									"id": 14099,
 									"name": "direction",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
 										"isOptional": true
 									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Use "
+													},
+													{
+														"kind": "code",
+														"text": "`horizontal`"
+													},
+													{
+														"kind": "text",
+														"text": " instead"
+													}
+												]
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 9,
+											"line": 10,
 											"character": 4
 										}
 									],
@@ -830,96 +1017,15 @@
 										},
 										"objectType": {
 											"type": "reference",
-											"target": 15278,
+											"target": 15568,
 											"name": "StackProps",
 											"package": "@contember/ui"
 										}
 									}
 								},
 								{
-									"id": 13744,
-									"name": "gap",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {
-										"isOptional": true
-									},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 10,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "reference",
-												"target": 18292,
-												"name": "Size",
-												"package": "@contember/ui"
-											},
-											{
-												"type": "literal",
-												"value": "none"
-											}
-										]
-									}
-								},
-								{
-									"id": 13745,
-									"name": "label",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 11,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "reference",
-										"target": {
-											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-											"qualifiedName": "React.ReactNode"
-										},
-										"name": "ReactNode",
-										"package": "@types/react",
-										"qualifiedName": "React.ReactNode"
-									}
-								},
-								{
-									"id": 13746,
-									"name": "labelDescription",
-									"variant": "declaration",
-									"kind": 1024,
-									"flags": {
-										"isOptional": true
-									},
-									"sources": [
-										{
-											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 12,
-											"character": 4
-										}
-									],
-									"type": {
-										"type": "reference",
-										"target": {
-											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
-											"qualifiedName": "React.ReactNode"
-										},
-										"name": "ReactNode",
-										"package": "@types/react",
-										"qualifiedName": "React.ReactNode"
-									}
-								},
-								{
-									"id": 13747,
-									"name": "labelPosition",
+									"id": 14102,
+									"name": "display",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -933,15 +1039,22 @@
 										}
 									],
 									"type": {
-										"type": "reference",
-										"target": 13771,
-										"name": "FieldContainerLabelPosition",
-										"package": "@contember/ui"
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "inline"
+											},
+											{
+												"type": "literal",
+												"value": "block"
+											}
+										]
 									}
 								},
 								{
-									"id": 13749,
-									"name": "required",
+									"id": 14100,
+									"name": "evenly",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -950,18 +1063,109 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 11,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "evenly"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14101,
+									"name": "gap",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 12,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "gap"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14103,
+									"name": "horizontal",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 14,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "horizontal"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14104,
+									"name": "label",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
 											"line": 15,
 											"character": 4
 										}
 									],
 									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
 									}
 								},
 								{
-									"id": 13750,
-									"name": "size",
+									"id": 14105,
+									"name": "labelDescription",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
@@ -976,13 +1180,110 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 18292,
+										"target": {
+											"sourceFileName": "../../node_modules/@types/react/ts5.0/index.d.ts",
+											"qualifiedName": "React.ReactNode"
+										},
+										"name": "ReactNode",
+										"package": "@types/react",
+										"qualifiedName": "React.ReactNode"
+									}
+								},
+								{
+									"id": 14106,
+									"name": "labelPosition",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 17,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 14135,
+										"name": "FieldContainerLabelPosition",
+										"package": "@contember/ui"
+									}
+								},
+								{
+									"id": 14108,
+									"name": "required",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 20,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 14111,
+									"name": "reverse",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 23,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "indexedAccess",
+										"indexType": {
+											"type": "literal",
+											"value": "reverse"
+										},
+										"objectType": {
+											"type": "reference",
+											"target": 15568,
+											"name": "StackProps",
+											"package": "@contember/ui"
+										}
+									}
+								},
+								{
+									"id": 14109,
+									"name": "size",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
+											"line": 21,
+											"character": 4
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 18677,
 										"name": "Size",
 										"package": "@contember/ui"
 									}
 								},
 								{
-									"id": 13752,
+									"id": 14112,
 									"name": "style",
 									"variant": "declaration",
 									"kind": 1024,
@@ -992,7 +1293,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 18,
+											"line": 24,
 											"character": 4
 										}
 									],
@@ -1008,7 +1309,7 @@
 									}
 								},
 								{
-									"id": 13751,
+									"id": 14110,
 									"name": "useLabelElement",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1018,7 +1319,7 @@
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 17,
+											"line": 22,
 											"character": 4
 										}
 									],
@@ -1028,17 +1329,31 @@
 									}
 								},
 								{
-									"id": 13748,
+									"id": 14107,
 									"name": "width",
 									"variant": "declaration",
 									"kind": 1024,
 									"flags": {
 										"isOptional": true
 									},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@deprecated",
+												"content": [
+													{
+														"kind": "text",
+														"text": "No alternative"
+													}
+												]
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "packages/ui/dist/types/components/Forms/FieldContainer/FieldContainer.d.ts",
-											"line": 14,
+											"line": 19,
 											"character": 4
 										}
 									],
@@ -1065,19 +1380,23 @@
 								{
 									"title": "Properties",
 									"children": [
-										13741,
-										13753,
-										13742,
-										13743,
-										13744,
-										13745,
-										13746,
-										13747,
-										13749,
-										13750,
-										13752,
-										13751,
-										13748
+										14097,
+										14113,
+										14098,
+										14099,
+										14102,
+										14100,
+										14101,
+										14103,
+										14104,
+										14105,
+										14106,
+										14108,
+										14111,
+										14109,
+										14112,
+										14110,
+										14107
 									]
 								}
 							],
@@ -1092,7 +1411,7 @@
 					},
 					{
 						"type": "reference",
-						"target": 12755,
+						"target": 13088,
 						"name": "ErrorListProps",
 						"package": "@contember/ui"
 					}
@@ -1100,7 +1419,7 @@
 			}
 		},
 		{
-			"id": 2581,
+			"id": 2885,
 			"name": "LocationField",
 			"variant": "declaration",
 			"kind": 64,
@@ -1110,12 +1429,12 @@
 					"fileName": "packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx",
 					"line": 35,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L35"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/bindingFacade/fields/LocationField/LocationField.tsx#L35"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2582,
+					"id": 2886,
 					"name": "LocationField",
 					"variant": "signature",
 					"kind": 4096,
@@ -1129,20 +1448,20 @@
 					],
 					"parameters": [
 						{
-							"id": 2583,
+							"id": 2887,
 							"name": "props",
 							"variant": "param",
 							"kind": 32768,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 2560,
+								"target": 2860,
 								"name": "LocationFieldProps",
 								"package": "@contember/admin"
 							}
 						},
 						{
-							"id": 2584,
+							"id": 2888,
 							"name": "context",
 							"variant": "param",
 							"kind": 32768,

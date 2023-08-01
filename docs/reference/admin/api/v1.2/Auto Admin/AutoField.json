@@ -16,7 +16,7 @@
 					"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 					"line": 9,
 					"character": 12,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L9"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L9"
 				}
 			],
 			"type": {
@@ -41,7 +41,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 									"line": 13,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L13"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L13"
 								}
 							],
 							"type": {
@@ -57,7 +57,7 @@
 											"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 											"line": 13,
 											"character": 18,
-											"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L13"
+											"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L13"
 										}
 									],
 									"signatures": [
@@ -82,7 +82,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"target": 5945,
+												"target": 6254,
 												"name": "RoutingLinkTarget",
 												"package": "@contember/admin"
 											}
@@ -102,7 +102,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 									"line": 11,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L11"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L11"
 								}
 							],
 							"type": {
@@ -123,7 +123,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 									"line": 14,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L14"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L14"
 								}
 							],
 							"type": {
@@ -145,7 +145,7 @@
 									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 									"line": 12,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L12"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L12"
 								}
 							],
 							"type": {
@@ -164,12 +164,12 @@
 									"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 									"line": 10,
 									"character": 1,
-									"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L10"
+									"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L10"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 7724,
+								"target": 8033,
 								"name": "Schema",
 								"package": "@contember/binding"
 							}
@@ -192,7 +192,7 @@
 							"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 							"line": 9,
 							"character": 29,
-							"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L9"
+							"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L9"
 						}
 					]
 				}
@@ -209,7 +209,7 @@
 					"fileName": "packages/admin/src/components/Auto/AutoField.tsx",
 					"line": 20,
 					"character": 13,
-					"url": "https://github.com/contember/admin/blob/96c0f7708/packages/admin/src/components/Auto/AutoField.tsx#L20"
+					"url": "https://github.com/contember/admin/blob/027fac6dc/packages/admin/src/components/Auto/AutoField.tsx#L20"
 				}
 			],
 			"signatures": [
