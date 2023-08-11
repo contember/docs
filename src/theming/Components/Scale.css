@@ -34,7 +34,7 @@
   content: "*";
   display: inline-block;
   margin-left: 0.4em;
-  color: rgb(var(--cui-theme-danger-rgb-500))
+  color: rgb(var(--cui-theme-danger--rgb-500))
 }
 
 .theming-scale.is-dirty .theming-scale-label-theme-name-action {

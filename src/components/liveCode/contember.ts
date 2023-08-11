@@ -38,6 +38,7 @@ export {
 	MultiEditPage,
 	MultiSelectField,
 	PersistButton,
+	Providers,
 	RichEditor,
 	RichTextField,
 	SelectField,
@@ -45,7 +46,7 @@ export {
 	TextAreaField,
 	TextField,
 	TextInput,
-	toThemeClass,
 	VideoFileRepeater,
-	VideoUploadField
-} from '@contember/admin'
+	VideoUploadField,
+	toThemeClass
+} from '@contember/admin';

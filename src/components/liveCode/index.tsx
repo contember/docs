@@ -1,4 +1,4 @@
-import { ContemberClient, DialogProvider, I18nProvider, StyleProvider, Toaster, ToasterProvider, toViewClass } from '@contember/admin'
+import { ContemberClient, DialogProvider, I18nProvider, Providers, StyleProvider, Toaster, ToasterProvider, toViewClass } from '@contember/admin'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import { useColorMode } from '@docusaurus/theme-common'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
@@ -29,13 +29,13 @@ export default function ({ code, editDisabled = false, entity, entities, noPrevi
 					return (
 						<I18nProvider localeCode={undefined} dictionaries={undefined}>
 							<ToasterProvider>
-								<DialogProvider>
-									<ContemberClient
-										apiBaseUrl={customFields.contemberApiBaseUrl}
-										sessionToken={customFields.contemberSessionToken}
-										project={customFields.contemberProjectName}
-										stage="live"
-									>
+								<ContemberClient
+									apiBaseUrl={customFields.contemberApiBaseUrl}
+									sessionToken={customFields.contemberSessionToken}
+									project={customFields.contemberProjectName}
+									stage="live"
+								>
+									<Providers>
 										<LiveProvider
 											code={code}
 											scope={Contember}
@@ -46,26 +46,26 @@ export default function ({ code, editDisabled = false, entity, entities, noPrevi
 													return code
 												} else if (entity) {
 													return (`
-															<DataBindingProvider stateComponent={FeedbackRenderer}>
-																<EntitySubTree entity="${entity}" isCreating>
-																	${code}
-																</EntitySubTree>
-															</DataBindingProvider>
-														`)
+																<DataBindingProvider stateComponent={FeedbackRenderer}>
+																	<EntitySubTree entity="${entity}" isCreating>
+																		${code}
+																	</EntitySubTree>
+																</DataBindingProvider>
+															`)
 												} else if (entities) {
 													return (`
-															<DataBindingProvider stateComponent={FeedbackRenderer}>
-																<EntityListSubTree entity="${entities}" isCreating>
-																	${code}
-																</EntityListSubTree>
-															</DataBindingProvider>
-														`)
+																<DataBindingProvider stateComponent={FeedbackRenderer}>
+																	<EntityListSubTree entity="${entities}" isCreating>
+																		${code}
+																	</EntityListSubTree>
+																</DataBindingProvider>
+															`)
 												} else {
 													return (`
-															<DataBindingProvider stateComponent={FeedbackRenderer}>
-																${code}
-															</DataBindingProvider>
-														`)
+																<DataBindingProvider stateComponent={FeedbackRenderer}>
+																	${code}
+																</DataBindingProvider>
+															`)
 												}
 											}}
 										>
@@ -83,9 +83,10 @@ export default function ({ code, editDisabled = false, entity, entities, noPrevi
 												</div>
 											}
 										</LiveProvider>
-									</ContemberClient>
-									<Toaster />
-								</DialogProvider>
+									</Providers>
+								</ContemberClient>
+								<Toaster />
+
 							</ToasterProvider>
 						</I18nProvider>
 					)

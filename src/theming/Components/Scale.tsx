@@ -47,7 +47,7 @@ export const Scale = ({ actions, children, className, elevated, name, direction 
         {weights.map(weight => (
           <Swatch
             key={weight}
-            property={`--cui-theme-${name}-rgb-${weight}`}
+            property={`--cui-theme-${name}--rgb-${weight}`}
             weight={weight}
           >
             {/* {verbose ?  : null} */}
