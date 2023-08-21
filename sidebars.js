@@ -198,6 +198,7 @@ module.exports = {
 						"reference/engine/tenant/memberships",
 						"reference/engine/tenant/api-keys",
 						"reference/engine/tenant/idp",
+						"reference/engine/tenant/mail-templates",
 					],
 				},
 				{
