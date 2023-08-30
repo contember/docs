@@ -164,6 +164,7 @@ module.exports = {
 						"reference/engine/schema/views",
 						"reference/engine/schema/migrations",
 						"reference/engine/schema/acl",
+						"reference/engine/schema/tenant-acl",
 						"reference/engine/schema/validations",
 					],
 				},
