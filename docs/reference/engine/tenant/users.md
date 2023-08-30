@@ -54,9 +54,15 @@ mutation {
 Only persons are allowed to sign out. It cannot be called with a permanent API key.
 ::::
 
-## Invite
+## Inviting Users to a Project
 
-Superadmin or a project admin can invite other person to a project. You can also setup [Tenant ACL permissions](/reference/engine/schema/acl.md#tenant-permissions) for other user roles.
+The `invite` mutation provides a way to add a new member to a specified project within the system.
+
+### Invite permissions
+
+By default, users with the global roles `super_admin` and `project_admin`, along with project-level `admin`, are authorized to issue invitations. However, you can extend this capability to other user roles by configuring [Tenant ACL permissions](/reference/engine/schema/acl.md#tenant-permissions).
+
+#### Example: sending and invitation
 
 ```graphql
 mutation {
@@ -66,9 +72,13 @@ mutation {
     memberships: [
       {
         role: "editor",
-        variables: [{name: "language", values: ["cs"]}]
+        variables: [{name: "language", values: ["en}]
       }
-    ]
+    ],
+    options: {
+        mailVariant: "en_us",  # Optional
+        method: RESET_PASSWORD  # Recommended
+    }
   ) {
     ok
     error {
@@ -78,4 +88,14 @@ mutation {
 }
 ```
 
-When a user with given email already exists in a system, he is just added to a project, otherwise a new user is created and login instructions are sent to given e-mail.
+### Existing vs new users
+
+If the specified email address already corresponds to a user in the system, that user will simply be added to the designated project. If the user does not yet exist, a new account will be created, and login instructions will be sent to the provided email address.
+
+### Password handling
+
+By default, the invitation process auto-generates a password and sends it via email. However, it's recommended to set the invite method to `RESET_PASSWORD`. This way, a reset token is sent instead of a generated password. Ensure your [mail templates](./mail-templates.md) are appropriately configured to include the password setup link. Note that the default method will transition to `RESET_PASSWORD` in future updates.
+
+### Customizing Email Templates
+
+You can specify a preferred email template variant by setting the `mailVariant` option, as outlined in the [mail templates](./mail-templates.md) section.
