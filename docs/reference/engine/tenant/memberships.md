@@ -6,7 +6,7 @@ An identity can be a member of any project with some role and optionally variabl
 
 ## Creating a project membership
 
-Add an existing identity to a project. For this operation you need to know an identity ID. If you want to add a user by an email check [invite mutation](users.md#invite)
+Add an existing identity to a project. For this operation you need to know an identity ID. If you want to add a user by an email check [invite mutation](./invites.md)
 
 ```graphql
 mutation {

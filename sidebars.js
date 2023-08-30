@@ -194,7 +194,8 @@ module.exports = {
 					label: "Tenant API",
 					items: [
 						"reference/engine/tenant/overview",
-						"reference/engine/tenant/users",
+						"reference/engine/tenant/sessions",
+						"reference/engine/tenant/invites",
 						"reference/engine/tenant/memberships",
 						"reference/engine/tenant/api-keys",
 						"reference/engine/tenant/idp",

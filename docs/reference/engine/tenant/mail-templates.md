@@ -87,7 +87,7 @@ Contember uses Mustache for dynamic content in templates. Here are the variables
   - `{{password}}`: Password (if available).
   - `{{token}}`: Token for account validation (if available).
   - `{{project}}`: Project name or identifier.
-  - availability of `password` and `token` variable depends on [invitation method](./users.md#password-handling)
+  - availability of `password` and `token` variable depends on [invitation method](./invites.md#password-handling)
 
 - **EXISTING_USER_INVITED**:
   - `{{email}}`: Recipient's email.
