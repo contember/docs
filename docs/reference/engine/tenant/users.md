@@ -52,7 +52,7 @@ mutation {
 ``` 
 :::note
 Only persons are allowed to sign out. It cannot be called with a permanent API key.
-::::
+:::
 
 ## Inviting Users to a Project
 
