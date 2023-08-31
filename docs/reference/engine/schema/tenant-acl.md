@@ -4,7 +4,7 @@ title: Tenant Permissions
 
 The Tenant permissions feature in Contember allows you to fine-tune control over various actions and roles. These permissions are specified under the `tenant` field when you define a role.
 
-## Invite Permissions
+## <span className="version">Engine 1.3+</span> Invite Permissions
 
 The `invite` permission controls the ability to invite other users to a project. You can use either a simple boolean value or a more advanced [membership match rule](#understanding-membership-match-rules) object. If `invite` is set to `true`, the existing rules under `manage` will apply.
 
@@ -18,11 +18,15 @@ export const editorRole = acl.createRole('editor', {
 });
 ```
 
-### Unmanaged Invite Permissions
+:::note
+Before Engine 1.3, the `invite` and `unmanagedInvite` allowed only a boolean value. 
+:::
+
+### <span className="version">Engine 1.3+</span> Unmanaged Invite Permissions
 
 Similar to `invite`, the `unmanagedInvite` field can accept a boolean value or a [membership match rule](#understanding-membership-match-rules)  object. This permission allows you to use the `unmanagedInvite` mutation.
 
-### View Permissions
+### <span className="version">Engine 1.3+</span> View Permissions
 
 The `view` field enables you to specify which roles and their associated variables a user can view.
 
