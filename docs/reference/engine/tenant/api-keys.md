@@ -2,8 +2,6 @@
 title: API keys management
 ---
 
-# API Keys Management
-
 API keys serve as a way to authenticate applications where individual user identification and authentication are not required. They function as permanent access tokens.
 
 ## Create an API Key for a Project
