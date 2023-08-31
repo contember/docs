@@ -86,14 +86,21 @@ Contember uses Mustache for dynamic content in templates. Here are the variables
   - `{{email}}`: Recipient's email.
   - `{{password}}`: Password (if available).
   - `{{token}}`: Token for account validation (if available).
-  - `{{project}}`: Project name or identifier.
+  - `{{project}}`: Project name.
+  - `{{projectSlug}}`: Project identifier.
   - availability of `password` and `token` variable depends on [invitation method](./invites.md#password-handling)
 
 - **EXISTING_USER_INVITED**:
   - `{{email}}`: Recipient's email.
-  - `{{project}}`: New project they've been invited to.
+  - `{{project}}`: New project's name they've been invited to.
+  - `{{projectSlug}}`: Project identifier.
 
 - **RESET_PASSWORD_REQUEST**:
   - `{{email}}`: Recipient's email.
   - `{{token}}`: Token for password reset.
-  - `{{project}}`: Project name or identifier (if relevant).
+  - `{{project}}`: Project name (if available).
+  - `{{projectSlug}}`: Project identifier (if available).
+
+:::note
+`projectSlug` is available since Engine 1.3+
+:::
