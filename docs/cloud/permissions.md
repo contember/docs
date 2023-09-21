@@ -44,18 +44,18 @@ It's important to note that the Project Developer and Project Guest roles are di
 
 <div class="acl-table">
 
-|                               | Owner | Admin | Billing               | Developer | Guest | Project Developer | Project Guest |
-|-------------------------------|-----------------------|-------|-----------------------|-----------|-----------------------|-------------------|--------------|
-| View projects                 | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> |
-| View metrics                  |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> |
-| View members                  |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
-| Manage owner / billing member |<span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |<span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
-| Manage other members          |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-n"/> |<span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
-| Create projects               |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-y"/> |<span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
-| Start / stop project          |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-y"/> |<span class="acl-n"/> | <span class="acl-y"/> | <span class="acl-n"/> |
-| Edit project settings         |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-y"/> |<span class="acl-n"/> | <span class="acl-y"/> | <span class="acl-n"/> |
-| Delete project                |<span class="acl-y"/> | <span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-n"/> |<span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
-| View billing                  |<span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-y"/> | <span class="acl-n"/> |<span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
-| Manage billing                |<span class="acl-y"/> | <span class="acl-n"/> | <span class="acl-y"/> | <span class="acl-n"/> |<span class="acl-n"/> | <span class="acl-n"/> | <span class="acl-n"/> |
+|                               | Owner | Admin | Billing | Developer | Guest | Project Developer | Project Guest |
+|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| View projects                 | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> |
+| View metrics                  | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> |
+| View members                  | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
+| Manage owner / billing member | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
+| Manage other members          | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
+| Create projects               | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
+| Start / stop project          | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  |
+| Edit project settings         | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  |
+| Delete project                | <span class="acl-y">YES</span> | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
+| View billing                  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
+| Manage billing                | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-y">YES</span> | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  | <span class="acl-n">NO</span>  |
 
 </div>

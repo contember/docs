@@ -9,6 +9,8 @@
   --contember-green-500: #31B875;
   --contember-green-600: #248F5A;
   --contember-green-700: #166640;
+  --contember-green-800: #083E26;
+  --contember-green-900: #001609;
 
   --contember-yellow-50: #F3F3BB;
   --contember-yellow-100: #F3F3BB;
@@ -230,7 +232,6 @@ article {
   font-size: 1rem;
   font-weight: var(--ifm-font-weight-normal);
   padding: var(--ifm-badge-padding-vertical) var(--ifm-badge-padding-horizontal);
-  float: right;
 }
 
 .table-of-contents__link span {
@@ -242,12 +243,31 @@ img[alt="Contember Cloud Actions"] {
   text-align: center;
 }
 
-.acl-table td:has(.acl-y) {
-  background: #8ade8a;
+.acl-table td {
+  text-align: center;
+  font-weight: 800;
+  position: relative;
 }
 
-.acl-table td:has(.acl-n) {
+.acl-table td span  {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.acl-table td .acl-y {
+  background: var(--contember-green-400);
+  color: var(--contember-green-800);
+}
+
+.acl-table td .acl-n {
   background: #e57575;
+  color: #630505
 }
 
 .acl-table th {
