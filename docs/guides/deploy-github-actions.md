@@ -22,7 +22,7 @@ contember://example:4faef77592845fbeaf390c5e86989b1ea493e5d0@example.eu.contembe
 
 ## 2. Create repository secret
 
-On GitHub go to your repository settings and select Security → Secrets → Actions. Click on "New repository secret" button, name your new secret `CONTEMBER_DSN` and input the Contember DSN you got from Cloud Console.
+On GitHub go to your repository settings and select Security → Secrets → Actions. Click on "New repository secret" button, name your new secret `CONTEMBER_DEPLOY_DSN` and input the Contember DSN you got from Cloud Console.
 
 ![GitHub actions create secret screen](/assets/github-actions-secret.png)
 
@@ -50,7 +50,7 @@ jobs:
       run: npm ci
 
     - name: Build and deploy Contember to production
-      run: npm run deploy ${{ secrets.CONTEMBER_DSN }} -- --yes
+      run: npm run deploy ${{ secrets.CONTEMBER_DEPLOY_DSN }} -- --yes
 ```
 
 Now, when you push to `main` branch, your code should be automatically deployed to Contember Cloud.
