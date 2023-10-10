@@ -164,6 +164,7 @@ module.exports = {
 						"reference/engine/schema/views",
 						"reference/engine/schema/migrations",
 						"reference/engine/schema/acl",
+						"reference/engine/schema/tenant-acl",
 						"reference/engine/schema/validations",
 					],
 				},
@@ -194,10 +195,12 @@ module.exports = {
 					label: "Tenant API",
 					items: [
 						"reference/engine/tenant/overview",
-						"reference/engine/tenant/users",
+						"reference/engine/tenant/sessions",
+						"reference/engine/tenant/invites",
 						"reference/engine/tenant/memberships",
 						"reference/engine/tenant/api-keys",
 						"reference/engine/tenant/idp",
+						"reference/engine/tenant/mail-templates",
 					],
 				},
 				{
