@@ -57,4 +57,4 @@ Now, when you push to `main` branch, your code should be automatically deployed 
 
 ## Troubleshooting
 
-If you encounter a problem, feel free to open [an issue on GitHub](https://github.com/contember/admin/issues/new) or ask us in [our Discord server](https://discord.gg/EkhsuAK2Fg). Don't forget to attach screenshots and terminal output.
+If you encounter a problem, feel free to open [an issue on GitHub](https://github.com/contember/admin/issues/new). Don't forget to attach screenshots and terminal output.
