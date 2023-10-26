@@ -17,16 +17,16 @@ title: Glossary
 
 ## Advanced
 
-| Term                          | Definition |
-| ----------------------- | ----------- |
-| Workspace | Your (git) repository with one or more Contember projects. |
-| [Content API](/reference/engine/content/overview.md) | This is the primary GraphQL API for your project, which is automatically generated from your schema definition. |
-| System API | This is a supplementary API for your project. It's primarily used to manage schema migrations. You need it only in really advanced usecases. |
-| [Tenant API](/reference/engine/tenant/overview.md) | This API allows you to manage users, API keys, and project memberships on an instance. |
-| [Project Schema](/reference/engine/schema/overview.md) | This is the definition of your model, ACL rules, and input validation rules. |
-| [Project Schema Migrations](/reference/engine/schema/migrations.md) | These are chronologically sorted, immutable JSON files that contain all schema changes. They serve as the source of truth for a schema. |
-| Event | Every operation performed on your data is stored in an event log. This log can be utilized to track history. |
-| Superadmin | This is a special user role within Contember. The Superadmin has the highest level of system access and control. |
+| Term                                                           | Definition                                                                                                                                   |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Workspace                                                      | Your (git) repository with one or more Contember projects.                                                                                   |
+| [Content API](/reference/engine/content/overview.md)           | This is the primary GraphQL API for your project, which is automatically generated from your schema definition.                              |
+| System API                                                     | This is a supplementary API for your project. It's primarily used to manage schema migrations. You need it only in really advanced usecases. |
+| [Tenant API](/reference/engine/tenant/overview.md)             | This API allows you to manage users, API keys, and project memberships on an instance.                                                       |
+| [Project Schema](/reference/engine/schema/overview.md)         | This is the definition of your model, ACL rules, and input validation rules.                                                                 |
+| [Project Migrations](/reference/engine/migrations/overview.md) | These are chronologically sorted, files that contain all schema or content changes. They serve as the source of truth for a schema.          |
+| Event                                                          | Every operation performed on your data is stored in an event log. This log can be utilized to track history.                                 |
+| Superadmin                                                     | This is a special user role within Contember. The Superadmin has the highest level of system access and control.                             |
 
 <!--
 ADD MODEL SCHEMA, INPUT VALIDATION RULES
