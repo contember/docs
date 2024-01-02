@@ -162,11 +162,29 @@ module.exports = {
 						"reference/engine/schema/columns",
 						"reference/engine/schema/relationships",
 						"reference/engine/schema/views",
-						"reference/engine/schema/migrations",
 						"reference/engine/schema/acl",
 						"reference/engine/schema/tenant-acl",
 						"reference/engine/schema/validations",
 					],
+				},
+				{
+					type: "category",
+					label: "Migrations",
+					collapsed: true,
+					items: [
+						"reference/engine/migrations/overview",
+						"reference/engine/migrations/basics",
+						"reference/engine/migrations/content-migrations",
+						{
+							type: "category",
+							label: "Advanced",
+							items: [
+								"reference/engine/migrations/advanced/development-commands",
+								"reference/engine/migrations/advanced/skipping-validations",
+								"reference/engine/migrations/advanced/writing-schema-migrations",
+							]
+						}
+						]
 				},
 				{
 					type: "category",

@@ -7,7 +7,7 @@ title: Actions definition
 This section of the documentation will guide you through the syntax and definition of Actions, facilitating their optimal utilization within your applications.
 
 :::note
-Keep in mind, whenever you add or modify Actions in Contember, it's essential to create and apply schema migrations. This ensures your changes are correctly integrated. You can learn more about [schema migrations](../schema/migrations.md).
+Keep in mind, whenever you add or modify Actions in Contember, it's essential to create and apply schema migrations. This ensures your changes are correctly integrated. You can learn more about [migrations](../migrations/overview.md).
 :::
 
 ## Defining a Watch Action

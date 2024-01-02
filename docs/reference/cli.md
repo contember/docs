@@ -38,4 +38,4 @@ for example `npm run contember migr:exe`, which runs `migrations:execute` comman
 
 ### migrations:diff
 
-See [migrations chapter](/reference/engine/schema/migrations.md).
+See [migrations chapter](/reference/engine/migrations/overview.md).

@@ -93,7 +93,7 @@ export class Comment {
 As you can see, you can traverse through relations. Our definition says, that `moderator` can update fields `hiddenAt` and `content` of any `Comment` of an `Article` in a `Category` defined in `categoryId` variable. 
 
 :::note migrations
-Don't forget to [create a migration](/reference/engine/schema/migrations.md) to apply changes:
+Don't forget to [create a migration](/reference/engine/migrations/basics.md) to apply changes:
 ```bash
 npm run contember migrations:diff my-blog setup-acl
 ```

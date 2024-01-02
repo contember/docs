@@ -55,4 +55,4 @@ Allows you to set additional validation constraints on GraphQL input. See [input
 
 ## Migrations
 
-If you make a change in your project schema, you must create and apply [a migration](migrations.md)
+If you make a change in your project schema, you must create and apply [a migration](../migrations/overview.md)
