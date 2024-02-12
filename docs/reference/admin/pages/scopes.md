@@ -101,7 +101,7 @@ export default () => {
 		<>
 			<Title>Edit article</Title>
 			<EditScope
-				entity="Article(id: $id)"
+				entity="Article(id=$id)"
 				redirectOnSuccess="articles/list"
 			>
 				<TextField field={'title'} label={'Title'} />
